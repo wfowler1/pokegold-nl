@@ -50,9 +50,9 @@ MainMenu:
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
 IF DEF(_DEBUG)
-	menu_coords 0, 0, 14, 9
+	menu_coords 0, 0, 16, 9
 ELSE
-	menu_coords 0, 0, 14, 7
+	menu_coords 0, 0, 16, 7
 ENDC
 	dw .MenuData
 	db 1 ; default option
@@ -66,12 +66,12 @@ ENDC
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "VOORTZETTEN@" ; "CONTINUE@"
+	db "NIEUW SPEL@" ; "NEW GAME@"
+	db "OPTIES@" ; "OPTION@"
+	db "GEHEIM CADEAU@" ; "MYSTERY GIFT@"
 IF DEF(_DEBUG)
-	db "DEBUG ROOM@"
+	db "DEBUGKAMER@" ; "DEBUG ROOM@"
 ENDC
 
 .Jumptable:
@@ -228,7 +228,9 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "KLOK NIET" ; "TIME NOT SET@"
+	next "INGESTELD"
+	db "@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
