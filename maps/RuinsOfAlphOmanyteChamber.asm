@@ -44,17 +44,17 @@ RuinsOfAlphOmanyteChamberDescriptionSign:
 	jumptext RuinsOfAlphOmanyteChamberDescriptionText
 
 RuinsOfAlphOmanyteChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
+	text "Het is een replica" ; "It's a replica of"
+	line "van een oude #-" ; "an ancient #-"
 	cont "MON."
 	done
 
 RuinsOfAlphOmanyteChamberDescriptionText:
-	text "This #MON"
-	line "drifted in the"
+	text "Deze #MON" ; "This #MON"
+	line "drijfde in de zee" ; "drifted in the"
 
-	para "sea by twisting"
-	line "its ten tentacles."
+	para "door draaien zijn" ; "sea by twisting"
+	line "tien tentakels." ; "its ten tentacles."
 	done
 
 RuinsOfAlphOmanyteChamber_MapEvents:

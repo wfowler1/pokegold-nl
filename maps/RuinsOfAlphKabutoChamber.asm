@@ -51,36 +51,40 @@ RuinsOfAlphKabutoChamberDescriptionSign:
 	jumptext RuinsOfAlphKabutoChamberDescriptionText
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "Welkom in dis" ; "Welcome to this"
+	line "kamer." ; "chamber."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "Er zijn hier" ; "There are sliding"
+	line "schuifpanelen die" ; "panels that depict"
 
-	para "a #MON drawn by"
-	line "the ancients."
+	para "beelden af een" ; "a #MON drawn by"
+	line "#MON van de" ; "the ancients."
+	cont "oudheid."
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
+	para "Glijd de panelen" ; "Slide the panels"
+	line "voor maken de" ; "around to form the"
+	cont "beeld." ; "picture."
 
-	para "To the right is a"
-	line "description of the"
-	cont "#MON."
+	para "Aan de rechterkant" ; "To the right is a"
+	line "zit een beschrijv-" ; "description of the"
+	cont "ing van de #-" ; "#MON."
+	cont "MON."
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
+	text "Het is een replica" ; "It's a replica of"
+	line "van een oude #-" ; "an ancient #-"
 	cont "MON."
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #MON that hid"
-	line "on the sea floor."
+	text "Deze #MON ver-" ; "A #MON that hid"
+	line "stopte op de bodem" ; "on the sea floor."
+	cont "van de zee."
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "De ogen op zijn" ; "Eyes on its back"
+	line "rug kijkte naar" ; "scanned the area."
+	cont "het gebied."
 	done
 
 RuinsOfAlphKabutoChamber_MapEvents:
