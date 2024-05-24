@@ -614,7 +614,7 @@ PlacePrinterStatusStringBorderless: ; unreferenced
 	ret
 
 String_PressBToCancel:
-	db "Press B to Cancel@"
+	db "Druk op B: Uitgang@" ; "Press B to Cancel@"
 
 PrinterStatusStringPointers:
 	dw GBPrinterString_Null ; @
@@ -663,7 +663,7 @@ PrintPCBox_Page1:
 	ret
 
 .String_PokemonList:
-	db "#MON LIST@"
+	db "#MON LIJST@" ; "#MON LIST@"
 
 PrintPCBox_Page2:
 	hlcoord 0, 0
