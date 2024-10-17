@@ -1,5 +1,6 @@
 	db "DIVING@" ; species name
-	dw 1701, 4760 ; height, weight
+	db 52 ; height
+	dw 2160 ; weight
 
 	db   "It is said that it"
 	next "quietly spends its"

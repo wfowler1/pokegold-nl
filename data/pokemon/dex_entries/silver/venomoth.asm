@@ -1,5 +1,6 @@
 	db "POISONMOTH@" ; species name
-	dw 411, 280 ; height, weight
+	db 15 ; height
+	dw 125 ; weight
 
 	db   "The powder on its"
 	next "wings is poisonous"

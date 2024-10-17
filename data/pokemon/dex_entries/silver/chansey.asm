@@ -1,5 +1,6 @@
 	db "EGG@" ; species name
-	dw 307, 760 ; height, weight
+	db 11 ; height
+	dw 346 ; weight
 
 	db   "Few in number and"
 	next "difficult to cap-"

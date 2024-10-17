@@ -1,5 +1,6 @@
 	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	db 3 ; height
+	dw 54 ; weight
 
 	db   "As its body grows"
 	next "large, oriental"

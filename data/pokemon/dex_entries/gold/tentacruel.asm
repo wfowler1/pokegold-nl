@@ -1,5 +1,6 @@
 	db "JELLYFISH@" ; species name
-	dw 503, 1210 ; height, weight
+	db 16 ; height
+	dw 550 ; weight
 
 	db   "Its 80 tentacles"
 	next "absorb water and"

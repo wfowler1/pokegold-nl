@@ -1,5 +1,6 @@
 	db "PIG@" ; species name
-	dw 104, 140 ; height, weight
+	db 4 ; height
+	dw 65 ; weight
 
 	db   "It rubs its snout"
 	next "on the ground to"

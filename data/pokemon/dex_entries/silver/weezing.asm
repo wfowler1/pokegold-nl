@@ -1,5 +1,6 @@
 	db "POISON GAS@" ; species name
-	dw 311, 210 ; height, weight
+	db 12 ; height
+	dw 95 ; weight
 
 	db   "Top-grade perfume"
 	next "is made using its"

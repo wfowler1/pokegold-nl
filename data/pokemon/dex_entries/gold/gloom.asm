@@ -1,5 +1,6 @@
 	db "WEED@" ; species name
-	dw 207, 190 ; height, weight
+	db 8 ; height
+	dw 86 ; weight
 
 	db   "What appears to be"
 	next "drool is actually"

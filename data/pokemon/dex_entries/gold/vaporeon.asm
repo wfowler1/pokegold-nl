@@ -1,5 +1,6 @@
 	db "BUBBLE JET@" ; species name
-	dw 303, 640 ; height, weight
+	db 10 ; height
+	dw 290 ; weight
 
 	db   "When VAPOREON's"
 	next "fins begin to vi-"

@@ -1,5 +1,6 @@
 	db "LITTLEBEAR@" ; species name
-	dw 200, 190 ; height, weight
+	db 6 ; height
+	dw 88 ; weight
 
 	db   "Before food be-"
 	next "comes scarce in"

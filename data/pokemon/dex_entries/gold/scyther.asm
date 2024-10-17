@@ -1,5 +1,6 @@
 	db "MANTIS@" ; species name
-	dw 411, 1230 ; height, weight
+	db 15 ; height
+	dw 560 ; weight
 
 	db   "It slashes through"
 	next "grass with its"

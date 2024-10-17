@@ -1,5 +1,6 @@
 	db "WORM@" ; species name
-	dw 100, 60 ; height, weight
+	db 3 ; height
+	dw 29 ; weight
 
 	db   "For protection, it"
 	next "releases a horri-"

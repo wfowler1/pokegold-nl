@@ -1,5 +1,6 @@
 	db "ROCK SNAKE@" ; species name
-	dw 2810, 4630 ; height, weight
+	db 88 ; height
+	dw 2100 ; weight
 
 	db   "It twists and"
 	next "squirms through"

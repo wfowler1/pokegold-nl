@@ -1,5 +1,6 @@
 	db "SEA LION@" ; species name
-	dw 307, 1980 ; height, weight
+	db 11 ; height
+	dw 900 ; weight
 
 	db   "In daytime, it is"
 	next "often found asleep"

@@ -1,5 +1,6 @@
 	db "LONG LEG@" ; species name
-	dw 307, 740 ; height, weight
+	db 11 ; height
+	dw 335 ; weight
 
 	db   "It spins string"
 	next "not only from its"

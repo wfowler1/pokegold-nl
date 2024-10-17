@@ -1,5 +1,6 @@
 	db "FOX@" ; species name
-	dw 200, 220 ; height, weight
+	db 6 ; height
+	dw 99 ; weight
 
 	db   "If it is attacked"
 	next "by an enemy that"

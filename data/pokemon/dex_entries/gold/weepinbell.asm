@@ -1,5 +1,6 @@
 	db "FLYCATCHER@" ; species name
-	dw 303, 140 ; height, weight
+	db 10 ; height
+	dw 64 ; weight
 
 	db   "Even though it is"
 	next "filled with ACID,"

@@ -1,5 +1,6 @@
 	db "LAND SNAKE@" ; species name
-	dw 411, 310 ; height, weight
+	db 15 ; height
+	dw 140 ; weight
 
 	db   "When spotted, this"
 	next "#MON escapes"

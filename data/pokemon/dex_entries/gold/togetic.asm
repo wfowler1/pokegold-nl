@@ -1,5 +1,6 @@
 	db "HAPPINESS@" ; species name
-	dw 200, 70 ; height, weight
+	db 6 ; height
+	dw 32 ; weight
 
 	db   "They say that it"
 	next "will appear before"

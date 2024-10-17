@@ -1,5 +1,6 @@
 	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	db 10 ; height
+	dw 120 ; weight
 
 	db   "It has a very fine"
 	next "fur. Take care not"

@@ -1,5 +1,6 @@
 	db "DRAGON@" ; species name
-	dw 104, 180 ; height, weight
+	db 4 ; height
+	dw 80 ; weight
 
 	db   "Its big, developed"
 	next "fins move rapidly,"

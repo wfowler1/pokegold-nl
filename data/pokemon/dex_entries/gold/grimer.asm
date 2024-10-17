@@ -1,5 +1,6 @@
 	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	db 9 ; height
+	dw 300 ; weight
 
 	db   "As it moves, it"
 	next "loses bits of its"

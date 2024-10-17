@@ -1,5 +1,6 @@
 	db "TRIPLEBIRD@" ; species name
-	dw 511, 1880 ; height, weight
+	db 18 ; height
+	dw 852 ; weight
 
 	db   "It collects data "
 	next "and plans three"

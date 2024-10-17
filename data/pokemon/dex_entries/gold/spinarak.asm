@@ -1,5 +1,6 @@
 	db "STRINGSPIT@" ; species name
-	dw 108, 190 ; height, weight
+	db 5 ; height
+	dw 85 ; weight
 
 	db   "It lies still in"
 	next "the same pose for"

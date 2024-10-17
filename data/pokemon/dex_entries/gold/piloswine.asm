@@ -1,5 +1,6 @@
 	db "SWINE@" ; species name
-	dw 307, 1230 ; height, weight
+	db 11 ; height
+	dw 558 ; weight
 
 	db   "Because the long"
 	next "hair all over its"

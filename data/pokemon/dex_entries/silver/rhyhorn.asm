@@ -1,5 +1,6 @@
 	db "SPIKES@" ; species name
-	dw 303, 2540 ; height, weight
+	db 10 ; height
+	dw 1150 ; weight
 
 	db   "It doesn't care if"
 	next "there is anything"

@@ -1,5 +1,6 @@
 	db "SEED@" ; species name
-	dw 204, 150 ; height, weight
+	db 7 ; height
+	dw 69 ; weight
 
 	db   "It carries a seed"
 	next "on its back right"

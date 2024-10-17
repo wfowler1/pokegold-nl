@@ -1,5 +1,6 @@
 	db "THUNDER@" ; species name
-	dw 603, 3920 ; height, weight
+	db 19 ; height
+	dw 1780 ; weight
 
 	db   "The rain clouds it"
 	next "carries let it"

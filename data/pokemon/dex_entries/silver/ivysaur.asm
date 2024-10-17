@@ -1,5 +1,6 @@
 	db "SEED@" ; species name
-	dw 303, 290 ; height, weight
+	db 10 ; height
+	dw 130 ; weight
 
 	db   "If the bud on its"
 	next "back starts to"

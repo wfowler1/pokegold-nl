@@ -1,5 +1,6 @@
 	db "IMITATION@" ; species name
-	dw 311, 840 ; height, weight
+	db 12 ; height
+	dw 380 ; weight
 
 	db   "Although it always"
 	next "pretends to be a"

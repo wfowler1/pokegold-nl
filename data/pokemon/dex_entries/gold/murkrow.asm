@@ -1,5 +1,6 @@
 	db "DARKNESS@" ; species name
-	dw 108, 50 ; height, weight
+	db 5 ; height
+	dw 21 ; weight
 
 	db   "Feared and loathed"
 	next "by many, it is"

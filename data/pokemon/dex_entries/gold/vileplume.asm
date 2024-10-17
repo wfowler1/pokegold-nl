@@ -1,5 +1,6 @@
 	db "FLOWER@" ; species name
-	dw 311, 410 ; height, weight
+	db 12 ; height
+	dw 186 ; weight
 
 	db   "It has the world's"
 	next "largest petals."

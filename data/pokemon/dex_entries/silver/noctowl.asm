@@ -1,5 +1,6 @@
 	db "OWL@" ; species name
-	dw 503, 900 ; height, weight
+	db 16 ; height
+	dw 408 ; weight
 
 	db   "When it needs to"
 	next "think, it rotates"

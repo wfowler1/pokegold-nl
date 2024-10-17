@@ -1,5 +1,6 @@
 	db "VOLCANO@" ; species name
-	dw 611, 4370 ; height, weight
+	db 21 ; height
+	dw 1980 ; weight
 
 	db   "Volcanoes erupt"
 	next "when it barks. Un-"

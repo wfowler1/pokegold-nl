@@ -1,5 +1,6 @@
 	db "MOUSE@" ; species name
-	dw 104, 130 ; height, weight
+	db 4 ; height
+	dw 60 ; weight
 
 	db   "It raises its tail"
 	next "to check its sur-"

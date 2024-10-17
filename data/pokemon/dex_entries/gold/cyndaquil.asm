@@ -1,5 +1,6 @@
 	db "FIRE MOUSE@" ; species name
-	dw 108, 170 ; height, weight
+	db 5 ; height
+	dw 79 ; weight
 
 	db   "It is timid, and"
 	next "always curls it-"

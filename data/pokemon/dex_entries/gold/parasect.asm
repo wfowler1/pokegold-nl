@@ -1,5 +1,6 @@
 	db "MUSHROOM@" ; species name
-	dw 303, 650 ; height, weight
+	db 10 ; height
+	dw 295 ; weight
 
 	db   "It stays mostly in"
 	next "dark, damp places,"

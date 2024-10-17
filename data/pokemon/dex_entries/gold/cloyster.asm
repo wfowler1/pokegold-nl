@@ -1,5 +1,6 @@
 	db "BIVALVE@" ; species name
-	dw 411, 2920 ; height, weight
+	db 15 ; height
+	dw 1325 ; weight
 
 	db   "Once it slams its"
 	next "shell shut, it is"

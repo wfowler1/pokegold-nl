@@ -1,5 +1,6 @@
 	db "PAINTER@" ; species name
-	dw 311, 1280 ; height, weight
+	db 12 ; height
+	dw 580 ; weight
 
 	db   "Once it becomes an"
 	next "adult, it has a"

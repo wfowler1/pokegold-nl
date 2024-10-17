@@ -1,5 +1,6 @@
 	db "SHELLFISH@" ; species name
-	dw 403, 890 ; height, weight
+	db 13 ; height
+	dw 405 ; weight
 
 	db   "In the water, it"
 	next "tucks in its limbs"

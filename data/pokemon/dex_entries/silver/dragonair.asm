@@ -1,5 +1,6 @@
 	db "DRAGON@" ; species name
-	dw 1301, 360 ; height, weight
+	db 40 ; height
+	dw 165 ; weight
 
 	db   "Its crystalline"
 	next "orbs appear to"

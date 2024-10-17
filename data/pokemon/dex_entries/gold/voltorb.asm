@@ -1,5 +1,6 @@
 	db "BALL@" ; species name
-	dw 108, 230 ; height, weight
+	db 5 ; height
+	dw 104 ; weight
 
 	db   "It rolls to move."
 	next "If the ground is"

@@ -1,5 +1,6 @@
 	db "POISONMOTH@" ; species name
-	dw 411, 280 ; height, weight
+	db 15 ; height
+	dw 125 ; weight
 
 	db   "When it attacks,"
 	next "it flaps its large"

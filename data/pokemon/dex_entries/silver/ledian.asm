@@ -1,5 +1,6 @@
 	db "FIVE STAR@" ; species name
-	dw 407, 780 ; height, weight
+	db 14 ; height
+	dw 356 ; weight
 
 	db   "The star patterns"
 	next "on its back grow"

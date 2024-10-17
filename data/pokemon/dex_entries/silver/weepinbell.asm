@@ -1,5 +1,6 @@
 	db "FLYCATCHER@" ; species name
-	dw 303, 140 ; height, weight
+	db 10 ; height
+	dw 64 ; weight
 
 	db   "If its prey is"
 	next "bigger than its"

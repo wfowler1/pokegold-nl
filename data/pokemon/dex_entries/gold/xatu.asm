@@ -1,5 +1,6 @@
 	db "MYSTIC@" ; species name
-	dw 411, 330 ; height, weight
+	db 15 ; height
+	dw 150 ; weight
 
 	db   "They say that it"
 	next "stays still and"

@@ -1,5 +1,6 @@
 	db "LONG LEG@" ; species name
-	dw 307, 740 ; height, weight
+	db 11 ; height
+	dw 335 ; weight
 
 	db   "A single strand of"
 	next "a special string"

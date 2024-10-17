@@ -1,5 +1,6 @@
 	db "MAGNET@" ; species name
-	dw 303, 1320 ; height, weight
+	db 10 ; height
+	dw 600 ; weight
 
 	db   "The MAGNEMITE are"
 	next "united by a mag-"

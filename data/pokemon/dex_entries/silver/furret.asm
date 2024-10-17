@@ -1,5 +1,6 @@
 	db "LONG BODY@" ; species name
-	dw 511, 720 ; height, weight
+	db 18 ; height
+	dw 325 ; weight
 
 	db   "There is no tell-"
 	next "ing where the tail"

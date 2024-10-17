@@ -1,5 +1,6 @@
 	db "LEAF@" ; species name
-	dw 311, 350 ; height, weight
+	db 12 ; height
+	dw 158 ; weight
 
 	db   "A spicy aroma ema-"
 	next "nates from around"

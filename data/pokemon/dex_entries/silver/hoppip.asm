@@ -1,5 +1,6 @@
 	db "COTTONWEED@" ; species name
-	dw 104, 10 ; height, weight
+	db 4 ; height
+	dw 5 ; weight
 
 	db   "Its body is so"
 	next "light, it must"

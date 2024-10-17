@@ -1,5 +1,6 @@
 	db "MOLD@" ; species name
-	dw 200, 450 ; height, weight
+	db 6 ; height
+	dw 205 ; weight
 
 	db   "It stores BERRIES"
 	next "inside its shell."

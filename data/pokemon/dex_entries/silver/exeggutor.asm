@@ -1,5 +1,6 @@
 	db "COCONUT@" ; species name
-	dw 607, 2650 ; height, weight
+	db 20 ; height
+	dw 1200 ; weight
 
 	db   "If a head drops"
 	next "off, it emits a"

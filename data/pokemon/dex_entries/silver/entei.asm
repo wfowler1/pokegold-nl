@@ -1,5 +1,6 @@
 	db "VOLCANO@" ; species name
-	dw 607, 4370 ; height, weight
+	db 21 ; height
+	dw 1980 ; weight
 
 	db   "A #MON that"
 	next "races across the"

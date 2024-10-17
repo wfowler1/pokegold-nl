@@ -1,5 +1,6 @@
 	db "BUTTERFLY@" ; species name
-	dw 307, 710 ; height, weight
+	db 11 ; height
+	dw 320 ; weight
 
 	db   "Water-repellent"
 	next "powder on its"

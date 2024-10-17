@@ -1,5 +1,6 @@
 	db "DARK@" ; species name
-	dw 407, 770 ; height, weight
+	db 14 ; height
+	dw 350 ; weight
 
 	db   "Upon hearing its"
 	next "eerie howls, other"

@@ -1,5 +1,6 @@
 	db "HAPPINESS@" ; species name
-	dw 200, 70 ; height, weight
+	db 6 ; height
+	dw 32 ; weight
 
 	db   "It grows dispirit-"
 	next "ed if it is not"

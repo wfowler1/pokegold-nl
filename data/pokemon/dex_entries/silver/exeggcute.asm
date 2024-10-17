@@ -1,5 +1,6 @@
 	db "EGG@" ; species name
-	dw 104, 60 ; height, weight
+	db 4 ; height
+	dw 25 ; weight
 
 	db   "Using telepathy"
 	next "only they can"

@@ -1,5 +1,6 @@
 	db "PUPPY@" ; species name
-	dw 204, 420 ; height, weight
+	db 7 ; height
+	dw 190 ; weight
 
 	db   "Extremely loyal,"
 	next "it will fearlessly"

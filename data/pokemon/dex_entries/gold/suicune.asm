@@ -1,5 +1,6 @@
 	db "AURORA@" ; species name
-	dw 607, 4120 ; height, weight
+	db 20 ; height
+	dw 1870 ; weight
 
 	db   "Said to be the"
 	next "reincarnation of"

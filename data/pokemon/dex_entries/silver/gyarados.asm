@@ -1,5 +1,6 @@
 	db "ATROCIOUS@" ; species name
-	dw 2104, 5180 ; height, weight
+	db 65 ; height
+	dw 2350 ; weight
 
 	db   "Once it appears,"
 	next "it goes on a ram-"

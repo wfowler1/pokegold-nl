@@ -1,5 +1,6 @@
 	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	db 8 ; height
+	dw 75 ; weight
 
 	db   "While flying, it"
 	next "constantly emits"

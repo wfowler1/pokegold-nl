@@ -1,5 +1,6 @@
 	db "LONG BODY@" ; species name
-	dw 511, 720 ; height, weight
+	db 18 ; height
+	dw 325 ; weight
 
 	db   "It makes a nest to"
 	next "suit its long and"

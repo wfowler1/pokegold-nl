@@ -1,5 +1,6 @@
 	db "AQUARABBIT@" ; species name
-	dw 207, 630 ; height, weight
+	db 8 ; height
+	dw 285 ; weight
 
 	db   "By keeping still"
 	next "and listening in-"

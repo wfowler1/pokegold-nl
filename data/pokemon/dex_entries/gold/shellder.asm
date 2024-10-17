@@ -1,5 +1,6 @@
 	db "BIVALVE@" ; species name
-	dw 100, 90 ; height, weight
+	db 3 ; height
+	dw 40 ; weight
 
 	db   "It swims facing"
 	next "backward by open-"

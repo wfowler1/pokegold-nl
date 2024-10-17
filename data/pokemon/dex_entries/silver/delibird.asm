@@ -1,5 +1,6 @@
 	db "DELIVERY@" ; species name
-	dw 211, 350 ; height, weight
+	db 9 ; height
+	dw 160 ; weight
 
 	db   "It nests at the"
 	next "edge of sharp"

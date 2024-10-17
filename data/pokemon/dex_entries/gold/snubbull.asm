@@ -1,5 +1,6 @@
 	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	db 6 ; height
+	dw 78 ; weight
 
 	db   "Although it looks"
 	next "frightening, it is"

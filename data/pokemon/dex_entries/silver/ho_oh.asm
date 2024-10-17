@@ -1,5 +1,6 @@
 	db "RAINBOW@" ; species name
-	dw 1206, 4390 ; height, weight
+	db 38 ; height
+	dw 1990 ; weight
 
 	db   "A legend says that"
 	next "its body glows in"

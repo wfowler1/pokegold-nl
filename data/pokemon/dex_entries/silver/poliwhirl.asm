@@ -1,5 +1,6 @@
 	db "TADPOLE@" ; species name
-	dw 303, 440 ; height, weight
+	db 10 ; height
+	dw 200 ; weight
 
 	db   "The skin on most"
 	next "of its body is"

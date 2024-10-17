@@ -1,5 +1,6 @@
 	db "POISON PIN@" ; species name
-	dw 207, 440 ; height, weight
+	db 8 ; height
+	dw 200 ; weight
 
 	db   "When feeding its"
 	next "young, it first"

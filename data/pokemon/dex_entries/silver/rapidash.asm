@@ -1,5 +1,6 @@
 	db "FIRE HORSE@" ; species name
-	dw 507, 2090 ; height, weight
+	db 17 ; height
+	dw 950 ; weight
 
 	db   "With incredible"
 	next "acceleration, it"

@@ -1,5 +1,6 @@
 	db "SPITFIRE@" ; species name
-	dw 403, 980 ; height, weight
+	db 13 ; height
+	dw 445 ; weight
 
 	db   "It dislikes cold"
 	next "places, so it"

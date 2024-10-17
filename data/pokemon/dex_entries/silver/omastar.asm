@@ -1,5 +1,6 @@
 	db "SPIRAL@" ; species name
-	dw 303, 770 ; height, weight
+	db 10 ; height
+	dw 350 ; weight
 
 	db   "Once wrapped"
 	next "around its prey,"

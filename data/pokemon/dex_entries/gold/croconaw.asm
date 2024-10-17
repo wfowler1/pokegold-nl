@@ -1,5 +1,6 @@
 	db "BIG JAW@" ; species name
-	dw 307, 550 ; height, weight
+	db 11 ; height
+	dw 250 ; weight
 
 	db   "If it loses a"
 	next "fang, a new one"

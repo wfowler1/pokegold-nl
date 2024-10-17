@@ -1,5 +1,6 @@
 	db "ROCK SKIN@" ; species name
-	dw 200, 1590 ; height, weight
+	db 6 ; height
+	dw 720 ; weight
 
 	db   "It feeds on soil."
 	next "After it has eaten"

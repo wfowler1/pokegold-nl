@@ -1,5 +1,6 @@
 	db "BIG JAW@" ; species name
-	dw 307, 550 ; height, weight
+	db 11 ; height
+	dw 250 ; weight
 
 	db   "It opens its huge"
 	next "jaws wide when"

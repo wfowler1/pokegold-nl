@@ -1,5 +1,6 @@
 	db "WOOL@" ; species name
-	dw 200, 170 ; height, weight
+	db 6 ; height
+	dw 78 ; weight
 
 	db   "If static elec-"
 	next "tricity builds in"

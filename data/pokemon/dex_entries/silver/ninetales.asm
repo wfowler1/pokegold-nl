@@ -1,5 +1,6 @@
 	db "FOX@" ; species name
-	dw 307, 440 ; height, weight
+	db 11 ; height
+	dw 199 ; weight
 
 	db   "Its nine beautiful"
 	next "tails are filled"

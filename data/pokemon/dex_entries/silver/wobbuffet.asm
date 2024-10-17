@@ -1,5 +1,6 @@
 	db "PATIENT@" ; species name
-	dw 403, 630 ; height, weight
+	db 13 ; height
+	dw 285 ; weight
 
 	db   "To keep its pitch-"
 	next "black tail hidden,"

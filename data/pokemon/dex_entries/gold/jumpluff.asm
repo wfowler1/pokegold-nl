@@ -1,5 +1,6 @@
 	db "COTTONWEED@" ; species name
-	dw 207, 70 ; height, weight
+	db 8 ; height
+	dw 30 ; weight
 
 	db   "Once it catches"
 	next "the wind, it deft-"

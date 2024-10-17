@@ -1,5 +1,6 @@
 	db "STAGBEETLE@" ; species name
-	dw 411, 1210 ; height, weight
+	db 15 ; height
+	dw 550 ; weight
 
 	db   "With its horns, it"
 	next "digs burrows to"

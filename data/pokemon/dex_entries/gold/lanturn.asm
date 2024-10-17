@@ -1,5 +1,6 @@
 	db "LIGHT@" ; species name
-	dw 311, 500 ; height, weight
+	db 12 ; height
+	dw 225 ; weight
 
 	db   "The light it emits"
 	next "is so bright that"

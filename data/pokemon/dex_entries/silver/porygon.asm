@@ -1,5 +1,6 @@
 	db "VIRTUAL@" ; species name
-	dw 207, 800 ; height, weight
+	db 8 ; height
+	dw 365 ; weight
 
 	db   "A manmade #MON"
 	next "that came about as"

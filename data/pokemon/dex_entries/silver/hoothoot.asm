@@ -1,5 +1,6 @@
 	db "OWL@" ; species name
-	dw 204, 470 ; height, weight
+	db 7 ; height
+	dw 212 ; weight
 
 	db   "It has a perfect"
 	next "sense of time."

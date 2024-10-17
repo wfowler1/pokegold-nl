@@ -1,5 +1,6 @@
 	db "INSECT@" ; species name
-	dw 303, 660 ; height, weight
+	db 10 ; height
+	dw 300 ; weight
 
 	db   "Its eyes also"
 	next "function as radar"

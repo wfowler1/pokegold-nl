@@ -1,5 +1,6 @@
 	db "DRAGON@" ; species name
-	dw 511, 3350 ; height, weight
+	db 18 ; height
+	dw 1520 ; weight
 
 	db   "It is said that it"
 	next "usually hides in"

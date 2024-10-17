@@ -1,5 +1,6 @@
 	db "MILK COW@" ; species name
-	dw 311, 1660 ; height, weight
+	db 12 ; height
+	dw 755 ; weight
 
 	db   "If it has just had"
 	next "a baby, the milk"

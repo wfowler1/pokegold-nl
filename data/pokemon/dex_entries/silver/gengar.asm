@@ -1,5 +1,6 @@
 	db "SHADOW@" ; species name
-	dw 411, 890 ; height, weight
+	db 15 ; height
+	dw 405 ; weight
 
 	db   "To steal the life"
 	next "of its target, it"

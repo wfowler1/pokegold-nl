@@ -1,5 +1,6 @@
 	db "GAS@" ; species name
-	dw 403, 2 ; height, weight
+	db 13 ; height
+	dw 1 ; weight
 
 	db   "With its gas-like"
 	next "body, it can sneak"

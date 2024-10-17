@@ -1,5 +1,6 @@
 	db "LIGHT@" ; species name
-	dw 407, 1360 ; height, weight
+	db 14 ; height
+	dw 615 ; weight
 
 	db   "The bright light"
 	next "on its tail can be"

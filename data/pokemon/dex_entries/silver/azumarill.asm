@@ -1,5 +1,6 @@
 	db "AQUARABBIT@" ; species name
-	dw 207, 630 ; height, weight
+	db 8 ; height
+	dw 285 ; weight
 
 	db   "When it plays in"
 	next "water, it rolls up"

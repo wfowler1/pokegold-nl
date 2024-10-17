@@ -1,5 +1,6 @@
 	db "BARRIER@" ; species name
-	dw 403, 1200 ; height, weight
+	db 13 ; height
+	dw 545 ; weight
 
 	db   "Its fingertips"
 	next "emit a peculiar"

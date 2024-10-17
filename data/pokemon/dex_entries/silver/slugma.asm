@@ -1,5 +1,6 @@
 	db "LAVA@" ; species name
-	dw 204, 770 ; height, weight
+	db 7 ; height
+	dw 350 ; weight
 
 	db   "A common sight in"
 	next "volcanic areas, it"
