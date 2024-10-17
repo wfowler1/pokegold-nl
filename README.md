@@ -17,9 +17,13 @@ Although this isn't intended as a direct translation of the English version, the
 ## See also
 
 - [**Symbols**][symbols]
+- [**Tools**][tools]
 
 You can find the pret team on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
 
 For other pret projects, see [pret.github.io](https://pret.github.io/).
 
 [symbols]: https://github.com/pret/pokegold/tree/symbols
+[tools]: https://github.com/pret/gb-asm-tools
+[ci]: https://github.com/wfowler1/pokegold-nl/actions
+[ci-badge]: https://github.com/pret/pokegold/actions/workflows/main.yml/badge.svg
