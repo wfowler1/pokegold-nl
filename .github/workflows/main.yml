@@ -4,6 +4,7 @@ on:
   push:
     branches: [ master ]
   pull_request:
+    branches: [ master ]
 
 jobs:
   build:
@@ -29,43 +30,53 @@ jobs:
         run: |
           rm -rf rgbds
 
-      - name: Compare
-        if: ${{ github.repository_owner == 'pret' }}
-        run: |
-          make DEBUG=1 -j$(nproc) compare
-          if ! git diff-index --quiet HEAD --; then
-            echo 'Uncommitted changes detected:'
-            git diff-index HEAD --
-            return 1
-          fi
-
       - name: Make
-        if: ${{ github.repository_owner != 'pret' }}
         run: |
           make -j$(nproc)
-          if ! git diff-index --quiet HEAD --; then
-            echo 'Uncommitted changes detected:'
-            git diff-index HEAD --
-            return 1
-          fi
-
-      - name: Checkout symbols
-        if: ${{ github.event_name == 'push' && github.repository_owner == 'pret' }}
+          
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      
+    steps:
+      - name: Checkout
         uses: actions/checkout@master
         with:
-          path: symbols
-          ref: symbols
-
-      - name: Move symbols
-        if: ${{ github.event_name == 'push' && github.repository_owner == 'pret' }}
-        run: |
-          cp -v *.sym symbols/
-          cp -v *.map symbols/
-
-      - name: Update symbols
-        if: ${{ github.event_name == 'push' && github.repository_owner == 'pret' }}
-        uses: EndBug/add-and-commit@v9
+          fetch-depth: 2
+          
+      - name: Get all changed asm files
+        id: changed-asm-files
+        uses: tj-actions/changed-files@v45.0.3
         with:
-          cwd: "./symbols"
-          add: "*.sym *.map"
-          message: ${{ github.event.commits[0].message }}
+          files: |
+            **.asm
+        
+      - name: Install Mono
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
+        run: |
+          sudo apt install ca-certificates gnupg
+          sudo gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/mono-official-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+          echo "deb [signed-by=/usr/share/keyrings/mono-official-archive-keyring.gpg] https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+          sudo apt update
+          sudo apt install mono-complete
+          
+      - name: Compile validator
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
+        run: |
+          sudo chmod +x tools/PokeGen2TextValidator.cs
+          mcs -out:tools/PokeGen2TextValidator.exe tools/PokeGen2TextValidator.cs
+            
+      - name: Validate
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-asm-files.outputs.all_changed_files }}
+        run: |
+          PROBLEM=0
+          set +e
+          for file in ${ALL_CHANGED_FILES}; do
+            trap 'PROBLEM=1' ERR
+            mono tools/PokeGen2TextValidator.exe $file
+          done
+          set -e
+          exit $PROBLEM
