@@ -196,7 +196,7 @@ EatathonContestPosterText:
 FoundLeftoversText:
 	text "<PLAYER> found a"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "."
 	done
 

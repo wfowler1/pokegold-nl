@@ -26,17 +26,17 @@ CeruleanPokecenter1FSuperNerdText:
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "De ZWEEFTREIN" ; "The MAGNET TRAIN"
+	line "haalt wel" ; "travels at over"
 
-	para "340 mph. It goes"
-	line "between KANTO and"
+	para "550 kmu. Binnen" ; "340 mph. It goes"
+	line "no-time reis je" ; "between KANTO and"
 
-	para "JOHTO in almost no"
-	line "time at all."
+	para "tussen JOHTO" ; "JOHTO in almost no"
+	line "en KANTO." ; "time at all."
 
-	para "It really makes"
-	line "JOHTO accessible."
+	para "JOHTO, je bent" ; "It really makes"
+	line "er zo!" ; "JOHTO accessible."
 	done
 
 CeruleanPokecenter1F_MapEvents:

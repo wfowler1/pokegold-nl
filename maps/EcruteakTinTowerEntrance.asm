@@ -90,28 +90,29 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "TIN TOREN is ver-" ; "TIN TOWER is off"
+	line "boden toegang voor" ; "limits to anyone"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "iedereen zonder" ; "without ECRUTEAK"
+	line "ECRUTEAK GYM" ; "GYM's BADGE."
+	cont "BADGE." ; 
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Sorry, maar je" ; "Sorry, but you'll"
+	line "moet vertrekken." ; "have to leave."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "Verboden toegang" ; "TIN TOWER is off"
+	line "zonder ECRUTEAK" ; "limits to anyone"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "GYM BADGE." ; "without ECRUTEAK"
+	line "" ; "GYM's BADGE."
 
-	para "Ah!"
+	para "Ah!" ; "Ah!"
 
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	para "ECRUTEAK's GYM" ; "ECRUTEAK's GYM"
+	line "BADGE! Ga je" ; "BADGE! Please, go"
+	cont "gang." ; "right through."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
@@ -131,14 +132,15 @@ EcruteakTinTowerEntranceWanderingSageText_GotRainbowWing:
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #MON…"
+	text "Twee torens…" ; "Two towers…"
+	line "Twee #MON…" ; "Two #MON…"
 
-	para "But when one"
-	line "burned down, both"
+	para "Maar toen een" ; "But when one"
+	line "afbrandde, vlogen" ; "burned down, both"
 
-	para "#MON flew away,"
-	line "never to return."
+	para "beide #MON weg," ; "#MON flew away,"
+	line "om nooit terug" ; "never to return."
+	cont "te keren." ; 
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

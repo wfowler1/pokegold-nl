@@ -20,9 +20,9 @@ Route31VioletGateOfficerText:
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "Ik ben te ver van" ; "I came too far"
+	line "huis. Laat ik ze" ; "out. I'd better"
+	cont "maar bellen!" ; "phone home!"
 	done
 
 Route31VioletGate_MapEvents:

@@ -105,11 +105,12 @@ UnusedMissingDaughterText: ; unreferenced
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
-	line "have two towers:"
+	text "ECRUTEAK had vroe-"; "ECRUTEAK used to"
+	line "ger twee torens:" ; "have two towers:"
 
-	para "one each in the"
-	line "east and west."
+	para "een in het oosten" ; "one each in the"
+	line "en een in het" ; "east and west."
+	cont "westen." ; 
 	done
 
 EcruteakCityGramps2Text:
@@ -128,11 +129,11 @@ EcruteakCityGramps2Text:
 	done
 
 EcruteakCityLass1Text:
-	text "I'm going to prac-"
-	line "tice at the DANCE"
+	text "Ik ga oefenen" ; "I'm going to prac-"
+	line "in 't DANSTHEATER." ; "tice at the DANCE"
 
-	para "THEATER. Care to"
-	line "join me?"
+	para "Zin om mee" ; "THEATER. Care to"
+	line "te gaan?" ; "join me?"
 	done
 
 EcruteakCityLass2Text:
@@ -144,82 +145,86 @@ EcruteakCityLass2Text:
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Three big #MON"
-	line "ran off in differ-"
-	cont "ent directions."
-	cont "What were they?"
+	text "Drie grote #MON" ; "Three big #MON"
+	line "renden weg in ver-" ; "ran off in differ-"
+	cont "schillende rich-" ; "ent directions."
+	cont "tingen. Wat waren" ; "What were they?"
+	cont "ze?" ;
 	done
 
 EcruteakCityFisherText:
-	text "I heard a rumor"
-	line "about OLIVINE"
-	cont "LIGHTHOUSE."
+	text "Ik hoorde een ge-" ; "I heard a rumor"
+	line "rucht over SCHIJN-" ; "about OLIVINE"
+	cont "ENDE VUURTOREN." ; "LIGHTHOUSE."
 
-	para "The #MON that"
-	line "serves as the"
+	para "De #MON die" ; "The #MON that"
+	line "dient als baken is" ; "serves as the"
 
-	para "beacon fell ill."
-	line "Sounds like they"
-	cont "are in trouble."
+	para "ziek. Zo te horen" ; "beacon fell ill."
+	line "zitten ze in" ; "Sounds like they"
+	cont "de problemen." ; "are in trouble."
 	done
 
 EcruteakCityFisherText_JasmineReturned:
-	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
-	cont "has been cured."
+	text "De #MON in" ; "The #MON at"
+	line "SCHIJNENDE VUUR-" ; "OLIVINE LIGHTHOUSE"
+	cont "TOREN is genezen." ; "has been cured."
 
-	para "Boats can safely"
-	line "sail out to sea at"
-	cont "night again."
+	para "Boten kunnen 's" ; "Boats can safely"
+	line "nachts weer veilig" ; "sail out to sea at"
+	cont "op zee varen." ; "night again."
 	done
 
 EcruteakCityYoungsterText:
-	text "I hear #MON are"
-	line "rampaging at the"
+	text "Ik hoorde dat" ; "I hear #MON are"
+	line "#MON tekeer" ; "rampaging at the"
 
-	para "LAKE OF RAGE. I'd"
-	line "like to see that."
+	para "gaan bij het MEER" ; "LAKE OF RAGE. I'd"
+	line "VAN RAZERNIJ." ; "like to see that."
+	cont "Dat wil ik zien."
 	done
 
 EcruteakCitySignText:
-	text "ECRUTEAK CITY"
-	line "A Historical City"
+	text "ECRUTEAK CITY" ; "ECRUTEAK CITY"
+	line "Een Historische" ; "A Historical City"
+	cont "Stad" ; 
 
-	para "Where the Past"
-	line "Meets the Present"
+	para "Waar het Verleden" ; "Where the Past"
+	line "het Heden ontmoet" ; "Meets the Present"
 	done
 
 TinTowerSignText:
-	text "TIN TOWER"
+	text "TIN TOREN" ; "TIN TOWER"
 
-	para "A legendary #-"
-	line "MON is said to"
-	cont "roost here."
+	para "Een legendarische" ; "A legendary #-"
+	line "#MON zou hier" ; "MON is said to"
+	cont "nestelen." ; "roost here."
 	done
 
 EcruteakGymSignText:
-	text "ECRUTEAK CITY"
-	line "#MON GYM"
-	cont "LEADER: MORTY"
+	text "ECRUTEAK CITY" ; "ECRUTEAK CITY"
+	line "#MON GYM" ; "#MON GYM"
+	cont "LEIDER: MORTY" ; "LEADER: MORTY"
 
-	para "The Mystic Seer of"
-	line "the Future"
+	para "De Mystieke" ; "The Mystic Seer of"
+	line "Voorspeller van" ; "the Future"
+	cont "de Toekomst" ;
 	done
 
 EcruteakDanceTheaterSignText:
-	text "ECRUTEAK DANCE"
-	line "THEATER"
+	text "ECRUTEAK" ; "ECRUTEAK DANCE"
+	line "DANSTHEATER" ; "THEATER"
 	done
 
 BurnedTowerSignText:
-	text "BURNED TOWER"
+	text "VERBRANDE TOREN" ; "BURNED TOWER"
 
-	para "It was destroyed"
-	line "by a mysterious"
-	cont "fire."
+	para "Verwoest door" ; "It was destroyed"
+	line "een mysterieuze" ; "by a mysterious"
+	cont "brand." ; "fire."
 
-	para "Please stay away,"
-	line "as it is unsafe."
+	para "Houd afstand want" ; "Please stay away,"
+	line "het is onveilig." ; "as it is unsafe."
 	done
 
 EcruteakCity_MapEvents:

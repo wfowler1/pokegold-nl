@@ -44,39 +44,39 @@ ElmsSonText:
 	done
 
 ElmsHouseLabFoodText: ; unreferenced
-	text "There's some food"
-	line "here. It must be"
-	cont "for the LAB."
+	text "Er staat eten." ; "There's some food"
+	line "Het is vast voor" ; "here. It must be"
+	cont "het LAB." ; "for the LAB."
 	done
 
 ElmsHousePokemonFoodText: ; unreferenced
-	text "There's some food"
-	line "here. This must be"
-	cont "for #MON."
+	text "Er staat eten." ; "There's some food"
+	line "Het is vast voor" ; "here. This must be"
+	cont "#MON." ; "for #MON."
 	done
 
 ElmsHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
+	text "#MON. Waar" ; "#MON. Where do"
+	line "komen ze vandaan?" ; "they come from? "
 
-	para "Where are they"
-	line "going?"
+	para "Waar gaan ze naar-" ; "Where are they"
+	line "toe?" ; "going?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
+	para "Waarom zag niemand" ; "Why has no one"
+	line "de geboorte van" ; "ever witnessed a"
+	cont "#MON?" ; "#MON's birth?"
 
-	para "I want to know! I"
-	line "will dedicate my"
+	para "Ik wil het weten!" ; "I want to know! I"
+	line "Ik wijd mijn leven" ; "will dedicate my"
 
-	para "life to the study"
-	line "of #MON!"
+	para "aan de studie van" ; "life to the study"
+	line "#MON!" ; "of #MON!"
 
 	para "…"
 
-	para "It's a part of"
-	line "PROF.ELM's re-"
-	cont "search papers."
+	para "Het is deel van" ; "It's a part of"
+	line "PROF.ELM's onder-" ; "PROF.ELM's re-"
+	cont "zoekspapieren." ; "search papers."
 	done
 
 ElmsHouse_MapEvents:

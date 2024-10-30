@@ -193,25 +193,25 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Ga, RATTATA!"
 
 	para "TACKLE!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "Wat? Dit is een"
+	line "groot gevecht!"
+	cont "Laat me met rust!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #MON."
+	text "Ik heb net ver-"
+	line "loren, ik zoek nu"
+	cont "nieuwe #MON."
 
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	para "Wacht! Jij ziet er"
+	line "zwak uit! Kom,,"
+	cont "laten we knokken!"
 	done
 
 YoungsterJoey1BeatenText:
@@ -229,66 +229,67 @@ YoungsterJoey1AfterText:
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
+	text "Je bent een #-"
+	line "MON-trainer, toch?"
 
-	para "Then you have to"
-	line "battle!"
+	para "Dan moet je met"
+	line "mij vechten!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Wat raar."
+	line "Eerder won ik nog."
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Een goede trainer"
+	line "worden is erg"
+	cont "lastig."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Ik ga met andere"
+	line "mensen vechten om"
+	cont "beter te worden."
 	done
 
 BugCatcherDonSeenText:
-	text "Instead of a bug"
-	line "#MON, I found"
-	cont "a trainer!"
+	text "In plaats van een"
+	line "insect-#MON,"
+	cont "vond ik jou!"
 	done
 
 BugCatcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "Argh! Je bent te"
+	line "serk!"
 	done
 
 BugCatcherDonAfterText:
-	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
+	text "Mijn #BALLEN"
+	line "raakten op tij-"
+	cont "dens het vangen."
 
-	para "I should've bought"
-	line "some more…"
+	para "Ik had meer moeten"
+	line "kopen"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
 	text "MR.#MON's"
-	line "house? It's a bit"
-	cont "farther ahead."
+	line "huis? Die staat"
+	cont "iets verderop."
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
-	text "Everyone's having"
-	line "fun battling!"
-	cont "You should too!"
+	text "Iedereen heeft lol"
+	line "tijdens het vech-"
+	cont "ten! Doe mee!"
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
+	text "Ik train zelf" ; "I'm not a trainer."
+	line " niet."
 
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	para "Kijk je een trai-" ; "But if you look"
+	line "ner in de ogen," ; "one in the eyes,"
+	cont "dan is het vechten" ; "prepare to battle."
 	done
 
 Route30SignText:
@@ -304,18 +305,18 @@ MrPokemonsHouseDirectionsSignText:
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "MR.MON'S HUIS" ; "MR.#MON'S HOUSE"
 	done
 
 Route30TrainerTipsText:
 	text "TRAINER TIPS"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "Niet andermans" ; "No stealing other"
+	line "#MON stelen!" ; "people's #MON!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "#BALLEN zijn" ; "# BALLS are to"
+	line "voor wilde" ; "be thrown only at"
+	cont "#MON!" ; "wild #MON!"
 	done
 
 Route30_MapEvents:

@@ -175,159 +175,164 @@ MortyIntroText:
 	done
 
 MortyWinLossText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Ik ben nog niet" ; "I'm not good"
+	line "goed genoeg…" ; "enough yet…"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "Oké. Deze BADGE" ; "All right. This"
+	line "is van jou." ; "BADGE is yours."
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> received"
-	line "FOGBADGE."
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "FOGBADGE." ; "FOGBADGE."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "Met de FOGBADGE" ; "By having FOG-"
+	line "luisteren #MON" ; "BADGE, #MON up"
 
-	para "to L50 will obey"
-	line "you."
+	para "tot L50" ; "to L50 will obey"
+	line "naar je." ; "you."
 
-	para "Also, #MON that"
-	line "know SURF will be"
+	para "En, #MON die" ; "Also, #MON that"
+	line "SURF kennen" ; "know SURF will be"
 
-	para "able to use that"
-	line "move anytime."
+	para "kunnen die aanval" ; "able to use that"
+	line "overal gebruiken." ; "move anytime."
 
-	para "I want you to have"
-	line "this too."
+	para "Ik wil je dit" ; "I want you to have"
+	line "ook geven." ; "this too."
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+	text "Het is SCHADUWBAL." ; "It's SHADOW BALL."
+	line "Het doet schade" ; "It causes damage"
 
-	para "and may reduce"
-	line "SPCL.DEF."
+	para "en kan de SPCL." ; "and may reduce"
+	line "VERD. verminderen." ; "SPCL.DEF."
 
-	para "Use it if it"
-	line "appeals to you."
+	para "Gebruik het als" ; "Use it if it"
+	line "het je wat lijkt." ; "appeals to you."
 	done
 
 MortyFightDoneText:
-	text "I see…"
+	text "Aha…" ; "I see…"
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Je reis heeft je" ; "Your journey has"
+	line "naar verre oorden" ; "taken you to far-"
+	cont "geleid." ; "away places."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "En je hebt veel" ; "And you have wit-"
+	line "meer meegemaakt" ; "nessed much more"
+	cont "dan ik." ; "than I."
 
-	para "I envy you for"
-	line "that…"
+	para "Ik ben daar" ; "I envy you for"
+	line "jaloers op…" ; "that…"
 	done
 
 SageJeffreySeenText:
-	text "I spent the spring"
-	line "with my #MON."
+	text "Ik heb de lente" ; "I spent the spring"
+	line "met mijn #MON" ; "with my #MON."
+	cont "doorgebracht." ; 
 
-	para "Then summer, fall"
-	line "and winter…"
+	para "En toen zomer," ; "Then summer, fall"
+	line "herfst en winter…" ; "and winter…"
 
-	para "Then spring came"
-	line "again. We have"
+	para "En toen kwam" ; "Then spring came"
+	line "lente weer. We" ; "again. We have"
 
-	para "lived together"
-	line "for a long time."
+	para "leven al heel" ; "lived together"
+	line "lang samen." ; "for a long time."
 	done
 
 SageJeffreyBeatenText:
-	text "Wins and losses, I"
-	line "experienced both."
+	text "Winst en verlies," ; "Wins and losses, I"
+	line "ik heb het beide" ; "experienced both."
+	cont "meegemaakt." ; 
 	done
 
 SageJeffreyAfterBattleText:
-	text "Where did #MON"
-	line "come from?"
+	text "Waar kwamen" ; "Where did #MON"
+	line "#MON vandaan?" ; "come from?"
 	done
 
 SagePingSeenText:
-	text "Can you inflict"
-	line "any damage on our"
-	cont "#MON?"
+	text "Kun je onze" ; "Can you inflict"
+	line "#MON raken?" ; "any damage on our"
+	cont "Ik daag je uit!" ; "#MON?"
 	done
 
 SagePingBeatenText:
-	text "Ah! Well done!"
+	text "Ah! Goed gedaan!" ; "Ah! Well done!"
 	done
 
 SagePingAfterBattleText:
-	text "We use only ghost-"
-	line "type #MON."
+	text "We gebruiken enkel" ; "We use only ghost-"
+	line "Geest-#MON." ; "type #MON."
 
-	para "No normal-type"
-	line "attack can harm"
-	cont "them!"
+	para "Normaal-type" ; "No normal-type"
+	line "aanvallen kunnen" ; "attack can harm"
+	cont "hen niet raken!" ; "them!"
 	done
 
 MediumMarthaSeenText:
-	text "I shall win!"
+	text "Ik zal winnen!" ; "I shall win!"
 	done
 
 MediumMarthaBeatenText:
-	text "I, I, I lost!"
+	text "I-ik heb verloren!" ; "I, I, I lost!"
 	done
 
 MediumMarthaAfterBattleText:
-	text "The one who wants"
-	line "to win most--will!"
+	text "Degene die het" ; "The one who wants"
+	line "meest wil winnen-" ; "to win most--will!"
+	cont "zal winnen!" ; 
 	done
 
 MediumGraceSeenText:
-	text "Stumped by our in-"
-	line "visible floor?"
+	text "Sta je perplex" ; "Stumped by our in-"
+	line "van onze onzicht-" ; "visible floor?"
+	cont "bare vloer?" ; 
 
-	para "Defeat me if you"
-	line "want a hint!"
+	para "Versla me als" ; "Defeat me if you"
+	line "je een hint wil!" ; "want a hint!"
 	done
 
 MediumGraceBeatenText:
-	text "Wha-what?"
+	text "Wa-wat?" ; "Wha-what?"
 	done
 
 MediumGraceAfterBattleText:
-	text "Fine. I shall tell"
-	line "you the secret of"
+	text "Goed. Ik zal je" ; "Fine. I shall tell"
+	line "het geheim ver-" ; "you the secret of"
 
-	para "the invisible"
-	line "floor."
+	para "tellen van de on-" ; "the invisible"
+	line "zichtbare vloer." ; "floor."
 
-	para "The path is right"
-	line "before our eyes!"
+	para "Het pad is recht" ; "The path is right"
+	line "voor onze ogen!" ; "before our eyes!"
 	done
 
 EcruteakGymGuideText:
-	text "The trainers here"
-	line "have secret mo-"
-	cont "tives."
+	text "De trainers hier" ; "The trainers here"
+	line "hebben verborgen" ; "have secret mo-"
+	cont "motieven." ; "tives."
 
-	para "If you win, they"
-	line "may tell you some"
+	para "Als je wint, ver-" ; "If you win, they"
+	line "tellen ze je wel-" ; "may tell you some"
 
-	para "deep secrets about"
-	line "ECRUTEAK."
+	para "licht geheimen" ; "deep secrets about"
+	line "over ECRUTEAK." ; "ECRUTEAK."
 	done
 
 EcruteakGymGuideWinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "Pfoe, <PLAYER>." ; "Whew, <PLAYER>."
+	line "Je deed het" ; "You did great!"
+	cont "geweldig!" ; 
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "Ik zat bevend" ; "I was cowering in"
+	line "in de hoek vol" ; "the corner out of"
+	cont "pure angst!" ; "pure terror!"
 	done
 
 EcruteakGym_MapEvents:

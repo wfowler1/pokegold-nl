@@ -28,12 +28,13 @@ GoldenrodDeptStore3FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore3FSuperNerdText:
-	text "I, I, I'm really"
-	line "impatient!"
+	text "Ik, ik, ik ben" ; "I, I, I'm really"
+	line "heel ongeduldig!" ; "impatient!"
 
-	para "I use X SPEED in"
-	line "battle to speed up"
-	cont "my #MON."
+	para "Ik gebruik X-" ; "I use X SPEED in"
+	line "SNELHEID om m'n" ; "battle to speed up"
+	cont "#MON te" ; "my #MON."
+	cont "versnellen." ;
 	done
 
 GoldenrodDeptStore3FRockerText:
@@ -47,11 +48,11 @@ GoldenrodDeptStore3FRockerText:
 	done
 
 GoldenrodDeptStore3FDirectoryText:
-	text "For Victory"
-	line "Seekers"
+	text "Voor Winst-" ; "For Victory"
+	line "zoekers" ; "Seekers"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "3V GEVECHT" ; "3F BATTLE"
+	line "COLLECTIE" ; "   COLLECTION"
 	done
 
 GoldenrodDeptStore3F_MapEvents:

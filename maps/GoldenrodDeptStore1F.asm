@@ -28,34 +28,35 @@ GoldenrodDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to GOLDEN-"
-	line "ROD DEPT.STORE."
+	text "Welkom in GOLDEN-" ; "Welcome to GOLDEN-"
+	line "ROD WARENHUIS." ; "ROD DEPT.STORE."
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "The DEPT.STORE"
-	line "has a decent se-"
-	cont "lection."
+	text "Het WARENHUIS" ; "The DEPT.STORE"
+	line "heeft een prima" ; "has a decent se-"
+	cont "selectie." ; "lection."
 
-	para "But some items"
-	line "are only available"
+	para "Maar sommige voor-" ; "But some items"
+	line "werpen zijn alleen" ; "are only available"
 
-	para "as GAME CORNER"
-	line "prizes."
+	para "beschikbaar als" ; "as GAME CORNER"
+	line "SPELHOEK-prijzen." ; "prizes."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "Ik verheug me om" ; "I'm raring to shop"
+	line "vandaag weer te" ; "again today!"
+	cont "winkelen!" ; 
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Mam is goed in" ; "Mom's good at"
+	line "koopjesjagen." ; "bargain hunting."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Ze koopt altijd" ; "She always buys"
+	line "dingen met lage" ; "stuff at lower"
+	cont "prijzen." ; "prices."
 	done
 
 GoldenrodDeptStore1FDirectoryText:

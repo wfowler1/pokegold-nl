@@ -138,18 +138,18 @@ VioletPokecenterElmsAideGiveEggText:
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, nee. Je kunt" ; "Oh, no. You can't"
+	line "niet meer #MON" ; "carry any more"
+	cont "meedragen." ; "#MON with you."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Ik wacht hier wel" ; "I'll wait here"
+	line "terwijl je ruimte" ; "while you make"
+	cont "maakt voor het EI." ; "room for the EGG."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
-	line "asked for you…"
+	text "M-maar… PROF.ELM" ; "B-but… PROF.ELM"
+	line "vroeg om jou…" ; "asked for you…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
@@ -164,30 +164,30 @@ VioletPokecenter1FSuperNerdText:
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Het was zo'n drie" ; "It was around"
+	line "jaar geleden." ; "three years ago."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "TEAM ROCKET had" ; "TEAM ROCKET was up"
+	line "iets kwaads in de" ; "to no good with"
+	cont "zin met #MON." ; "#MON."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Maar het kwam goed" ; "But justice pre-"
+	line "een jonge knaap" ; "vailed--a young"
+	cont "versloeg ze" ; "kid broke 'em up."
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "#MON zijn slim." ; "#MON are smart."
+	line "Ze luisteren niet" ; "They won't obey a"
 
-	para "trainer they don't"
-	line "respect."
+	para "als ze de trainer" ; "trainer they don't"
+	line "niet respecteren." ; "respect."
 
-	para "Without the right"
-	line "GYM BADGES, they"
+	para "Zonder de juiste" ; "Without the right"
+	line "GYMBADGES, doen ze" ; "GYM BADGES, they"
 
-	para "will just do as"
-	line "they please."
+	para "gewoon wat ze" ; "will just do as"
+	line "willen." ; "they please."
 	done
 
 VioletPokecenter1F_MapEvents:

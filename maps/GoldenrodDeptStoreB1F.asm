@@ -85,22 +85,23 @@ GoldenrodDeptStoreB1FBlackBelt1Text:
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:
-	text "I lose my passion"
-	line "for work if some-"
-	cont "one's watching."
+	text "Ik heb geen zin" ; "I lose my passion"
+	line "in werk als iemand" ; "for work if some-"
+	cont "me op de vingers" ; "one's watching."
+	cont "kijkt." ; 
 
-	para "Come on, kid,"
-	line "scoot!"
+	para "Kom op, kind," ; "Come on, kid,"
+	line "wegwezen!" ; "scoot!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
-	text "Oohah! Oohah!"
+	text "Oeha! Oeha!" ; "Oohah! Oohah!"
 
-	para "The stuff on the"
-	line "ground's junk."
+	para "Het spul op de" ; "The stuff on the"
+	line "grond is rotzooi." ; "ground's junk."
 
-	para "Take it if you"
-	line "want it!"
+	para "Neem maar mee" ; "Take it if you"
+	line "als je wil!" ; "want it!"
 	done
 
 GoldenrodDeptStoreB1FMachokeText:

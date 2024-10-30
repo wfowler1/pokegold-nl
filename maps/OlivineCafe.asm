@@ -46,14 +46,15 @@ OlivineCafeStrengthSailorText:
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
-	text "On the sea, the"
-	line "only thing you can"
+	text "Op zee kan" ; "On the sea, the"
+	line "je alleen op" ; "only thing you can"
 
-	para "count on is your"
-	line "own good self!"
+	para "je eigen kracht" ; "count on is your"
+	line "rekenen!" ; "own good self!"
 
-	para "I'm so proud of my"
-	line "buff bod!"
+	para "Ik ben zo trots" ; "I'm so proud of my"
+	line "op m'n gespierde" ; "buff bod!"
+	cont "lijf!" ; 
 	done
 
 OlivineCafeFishingGuruText:

@@ -41,42 +41,43 @@ PlayersNeighborsHouseRadioScript:
 	end
 
 PlayersNeighborsDaughterText:
-	text "PIKACHU is an"
-	line "evolved #MON."
+	text "PIKACHU is een ge-" ; "PIKACHU is an"
+	line "evolueerde #-" ; "evolved #MON."
+	cont "MON."
 
-	para "I was amazed by"
-	line "PROF.ELM's find-"
-	cont "ings."
+	para "De ontdekkingen" ; "I was amazed by"
+	line "van ELM verbaasden" ; "PROF.ELM's find-"
+	cont "mij." ; "ings."
 
-	para "He's so famous for"
-	line "his research on"
-	cont "#MON evolution."
+	para "Hij werd beroemd" ; "He's so famous for"
+	line "met onderzoek naar" ; "his research on"
+	cont "#MON-evolutie." ; "#MON evolution."
 
-	para "…sigh…"
+	para "…zucht…" ; "…sigh…"
 
-	para "I wish I could be"
-	line "a researcher like"
-	cont "him…"
+	para "Was ik maar een" ; "I wish I could be"
+	line "onderzoeker zoals" ; "a researcher like"
+	cont "hij…" ; "him…"
 	done
 
 PlayerNeighborRadioText1:
 	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	line "PRAAT! Luister" ; "TALK! Please tune"
+	cont "later weer!" ; "in next time!"
 	done
 
 PlayerNeighborRadioText2:
-	text "#MON CHANNEL!"
+	text "#MON KANAAL!" ; "#MON CHANNEL!"
 	done
 
 PlayerNeighborRadioText3:
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "Dit is DJ MARY," ; "This is DJ MARY,"
+	line "je co-host!" ; "your co-host!"
 	done
 
 PlayerNeighborRadioText4:
 	text "#MON!"
-	line "#MON CHANNEL…"
+	line "#MON KANAAL…" ; "#MON CHANNEL…"
 	done
 
 PlayersNeighborsHouse_MapEvents:

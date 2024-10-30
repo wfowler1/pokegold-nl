@@ -78,12 +78,12 @@ RuinsOfAlphKabutoChamberAncientReplicaText:
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "Deze #MON ver-" ; "A #MON that hid"
-	line "stopte op de bodem" ; "on the sea floor."
-	cont "van de zee."
+	text "Een #MON die" ; "A #MON that hid"
+	line "zich verstopte op" ; "on the sea floor."
+	cont "de zeebodem."
 
 	para "De ogen op zijn" ; "Eyes on its back"
-	line "rug kijkte naar" ; "scanned the area."
+	line "rug doorzochten" ; "scanned the area."
 	cont "het gebied."
 	done
 

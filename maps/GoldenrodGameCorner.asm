@@ -370,47 +370,48 @@ GoldenrodGameCornerCardFlipMachineScript:
 	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Welkom!" ; "Welcome!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Wij ruilen je" ; "We exchange your"
+	line "spelmunten voor" ; "game coins for"
+	cont "fantastische" ; "fabulous prizes!"
+	cont "prijzen!" ; 
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welke prijs" ; "Which prize would"
+	line "wil je?" ; "you like?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "."
-	line "Is that right?"
+	line "Klopt dat?" ; "Is that right?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Alsjeblieft!" ; "Here you go!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Sorry! Je hebt" ; "Sorry! You need"
+	line "meer munten nodig." ; "more coins."
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Sorry. Je kan" ; "Sorry. You can't"
+	line "niet meer dragen." ; "carry any more."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Oké. Spaar je" ; "OK. Please save"
+	line "munten en kom" ; "your coins and"
+	cont "dan terug!" ; "come again!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Je hebt" ; "Oh? You don't have"
+	line "geen GELDKISTJE." ; "a COIN CASE."
 	done
 
 GoldenrodGameCornerPharmacistText:
@@ -450,19 +451,20 @@ GoldenrodGameCornerPokefanFText:
 	done
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Ik stop niet tot" ; "I won't quit until"
+	line "ik win!" ; "I win!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught BLIZZARD"
-	line "to my #MON."
+	text "Ik heb m'n #MON" ; "I taught BLIZZARD"
+	line "SNEEUWSTORM" ; "to my #MON."
+	cont "geleerd." ;
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Het was lastig" ; "It was hard to get"
+	line "genoeg munten te" ; "enough coins for"
 
-	para "it, but it was"
-	line "worth it."
+	para "krijgen, maar het" ; "it, but it was"
+	line "was het waard." ; "worth it."
 	done
 
 GoldenrodGameCornerPokefanM2Text:

@@ -117,32 +117,33 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
-	cont "May I see it?"
+	text "Is dat een #-" ; "Hm? That's a #-"
+	line "DEX? Meg ik hem" ; "DEX, isn't it?"
+	cont "eens bekijken?" ; "May I see it?"
 
-	para "There are so many"
-	line "kinds of #MON."
+	para "Er zijn heel veel" ; "There are so many"
+	line "verschillende" ; "kinds of #MON."
+	cont "soorten #MON."
 
-	para "Hm? What's this?"
+	para "Maar… Wat is dit?" ; "Hm? What's this?"
 
-	para "What is this"
-	line "#MON?"
+	para "Wat is dit voor" ; "What is this"
+	line "#MON?" ; "#MON?"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "Het lijkt op de" ; "It looks like the"
+	line "vreemde tekens" ; "strange writing on"
 
-	para "the walls of the"
-	line "RUINS."
+	para "op de muren van" ; "the walls of the"
+	line "de RUÏNES." ; "RUINS."
 
-	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
-	cont "be many more."
+	para "Als die tekeningen" ; "If those drawings"
+	line "echt van #MON," ; "are really #-"
+	cont "zijn, moeten er" ; "MON, there should"
+	cont "veel meer zijn." ; "be many more."
 
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX. Follow me."
+	para "Ideetje! Laat mij" ; "I know! Let me up-"
+	line "je #DEX upgra-" ; "grade your #-"
+	cont "den. Kom mee." ; "DEX. Follow me."
 	done
 
 SuperNerdEricUnusedSeenText: ; EqualsCrystal SuperNerdStanSeenText:
@@ -177,8 +178,8 @@ SuperNerdEricUnusedAfterBattleText: ; EqualsCrystal SuperNerdStanAfterBattleText
 	done
 
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "Hmm… Dit is een" ; "Hmmm… This is a"
+	line "vreemde plek." ; "strange place."
 	done
 
 PsychicNathanBeatenText:
@@ -186,13 +187,13 @@ PsychicNathanBeatenText:
 	done
 
 PsychicNathanAfterBattleText:
-	text "I like thinking"
-	line "here."
+	text "Ik denk hier" ; "I like thinking"
+	line "graag na." ; "here."
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERY STONE"
-	line "PANEL CHAMBER"
+	text "MYSTERIESTEEN" ; "MYSTERY STONE"
+	line "PANELENKAMER" ; "PANEL CHAMBER"
 	done
 
 RuinsOfAlphSignText:

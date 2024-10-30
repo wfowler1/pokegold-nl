@@ -176,64 +176,64 @@ MrPokemonIntroText1:
 	done
 
 MrPokemonIntroText2:
-	text "This is what I"
-	line "want PROF.ELM to"
-	cont "examine."
+	text "Dit is wat PROF." ; "This is what I"
+	line "ELM voor mij moet" ; "want PROF.ELM to"
+	cont "onderzoeken." ; "examine."
 	done
 
 MrPokemonsHouse_GotEggText:
-	text "<PLAYER> received"
-	line "MYSTERY EGG."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "MYSTERIE-EI." ; "MYSTERY EGG."
 	done
 
 MrPokemonIntroText3:
-	text "I know a couple"
-	line "who run a #MON"
-	cont "DAY-CARE service."
+	text "Ik ken een stel" ; "I know a couple"
+	line "met een #MON-" ; "who run a #MON"
+	cont "OPVANG-dienst." ; "DAY-CARE service."
 
-	para "They gave me that"
-	line "EGG."
+	para "Zij gaven mij dit" ; "They gave me that"
+	line "EI." ; "EGG."
 
-	para "I was intrigued,"
-	line "so I sent mail to"
-	cont "PROF.ELM."
+	para "Ik raakte geïntri-" ; "I was intrigued,"
+	line "geerd, dus stuurde" ; "so I sent mail to"
+	cont "PROF.ELM een mail." ; "PROF.ELM."
 
-	para "For #MON evolu-"
-	line "tion, PROF.ELM is"
-	cont "the authority."
+	para "PROF.ELM is de" ; "For #MON evolu-"
+	line "autoriteit over" ; "tion, PROF.ELM is"
+	cont "#MON-evolutie." ; "the authority."
 	done
 
 MrPokemonIntroText4:
-	text "Even PROF.OAK here"
-	line "recognizes that."
+	text "Zelfs PROF.OAK" ; "Even PROF.OAK here"
+	line "hier erkent dat." ; "recognizes that."
 	done
 
 MrPokemonIntroText5:
-	text "If my assumption"
-	line "is correct, PROF."
-	cont "ELM will know it."
+	text "Als mijn aanname" ; "If my assumption"
+	line "klopt, weet PROF." ; "is correct, PROF."
+	cont "ELM wat te doen." ; "ELM will know it."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
-	text "You are returning"
-	line "to PROF.ELM?"
+	text "Ga je terug naar" ; "You are returning"
+	line "PROF.ELM?" ; "to PROF.ELM?"
 
-	para "Here. Your #MON"
-	line "should have some"
-	cont "rest."
+	para "Hier. Je #MON" ; "Here. Your #MON"
+	line "kunnen wel even" ; "should have some"
+	cont "uitrusten." ; "rest."
 	done
 
 MrPokemonText_ImDependingOnYou:
-	text "I'm depending on"
-	line "you!"
+	text "Ik reken op jouw" ; "I'm depending on"
+	line "hulp!" ; "you!"
 	done
 
 MrPokemonText_AlwaysNewDiscoveries:
-	text "Life is delight-"
-	line "ful! Always, new"
+	text "Het leven is ge-" ; "Life is delight-"
+	line "weldig! Er is" ; "ful! Always, new"
 
-	para "discoveries to be"
-	line "made!"
+	para "altijd iets nieuws" ; "discoveries to be"
+	line "te ontdekken!" ; "made!"
 	done
 
 MrPokemonsHouse_OakText1:
@@ -301,7 +301,7 @@ MrPokemonsHouse_OakText1:
 	done
 
 MrPokemonsHouse_GetDexText:
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "#DEX!"
 	done
 
@@ -340,31 +340,31 @@ MrPokemonText_GimmeTheScale:
 	done
 
 MrPokemonText_Disappointed:
-	text "That's disappoint-"
-	line "ing. That happens"
-	cont "to be very rare."
+	text "Ai, wat jammer." ; "That's disappoint-"
+	line "Dat is toevallig" ; "ing. That happens"
+	cont "heel erg zeldzaam." ; "to be very rare."
 	done
 
 MrPokemonsHouse_ForeignMagazinesText:
-	text "It's packed with"
-	line "foreign magazines."
+	text "Het zit vol met" ; "It's packed with"
+	line "tijdschriften in." ; "foreign magazines."
 
-	para "Can't even read"
-	line "their titles…"
+	para "een vreemde taal." ; "Can't even read"
+	line "Snap er niks van…" ; "their titles…"
 	done
 
 MrPokemonsHouse_BrokenComputerText:
-	text "It's a big com-"
-	line "puter. Hmm. It's"
-	cont "broken."
+	text "het is een grote" ; "It's a big com-"
+	line "computer. Hmm. Hij" ; "puter. Hmm. It's"
+	cont "is stuk." ; "broken."
 	done
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "A whole pile of"
-	line "strange coins!"
+	text "een stapel met" ; "A whole pile of"
+	line "vreemde munten!" ; "strange coins!"
 
-	para "Maybe they're from"
-	line "another country…"
+	para "Misschien uit een" ; "Maybe they're from"
+	line "ander land…" ; "another country…"
 	done
 
 MrPokemonsHouse_MapEvents:

@@ -51,10 +51,10 @@ RuinsOfAlphOmanyteChamberAncientReplicaText:
 
 RuinsOfAlphOmanyteChamberDescriptionText:
 	text "Deze #MON" ; "This #MON"
-	line "drijfde in de zee" ; "drifted in the"
+	line "dreef op zee door" ; "drifted in the"
 
-	para "door draaien zijn" ; "sea by twisting"
-	line "tien tentakels." ; "its ten tentacles."
+	para "met zijn tien ten-" ; "sea by twisting"
+	line "takels te draaien." ; "its ten tentacles."
 	done
 
 RuinsOfAlphOmanyteChamber_MapEvents:

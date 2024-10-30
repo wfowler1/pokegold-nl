@@ -70,9 +70,9 @@ GoldenrodFlowerShopTeacherBetterThanWhitneyText:
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
-	text "Lalala lalalala."
-	line "Have plenty of"
-	cont "water, my lovely!"
+	text "Lalala lalalala." ; "Lalala lalalala."
+	line "Hier, veel water" ; "Have plenty of"
+	cont "voor jou, liefje!" ; "water, my lovely!"
 	done
 
 GoldenrodFlowerShopFloriaMustBeAMonText:

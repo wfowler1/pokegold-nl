@@ -172,19 +172,19 @@ RuinsOfAlphResearchCenterLeavesPlayerMovement:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Afgerond!" ; "Done!"
+	text "Klaar!" ; "Done!"
 
 	para "Ik heb je #DEX" ; "I modified your"
-	line "geüpgraded." ; "#DEX."
+	line "aangepast." ; "#DEX."
 
-	para "Het heeft nu een" ; "I added an"
+	para "Hij heeft nu een" ; "I added an"
 	line "nieuwe modus voor" ; "optional #DEX"
 	cont "UNOWN-gegevens."
 
 	; para "to store UNOWN"
 	; line "data."
 
-	para "Het ordent ze in" ; "It records them in"
+	para "Hij ordent ze in" ; "It records them in"
 	line "de volgorde waarin" ; "the sequence that"
 	cont "ze zijn gevangen." ; "they were caught."
 	done
@@ -195,9 +195,9 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "De UNOWN dat je" ; "The UNOWN you"
-	line "gevangt zal wordt" ; "catch will all be"
-	cont "opgenomen." ; "recorded."
+	text "De UNOWN die je" ; "The UNOWN you"
+	line "vangt worden alle-" ; "catch will all be"
+	cont "maal vastgelegd." ; "recorded."
 
 	para "Je kunt zien hoe-" ; "Check to see how"
 	line "veel soorten er" ; "many kinds exist."
@@ -205,19 +205,19 @@ RuinsOfAlphResearchCenterScientist3Text:
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "Gevangte je alle-" ; "You caught all the"
-	line "maal de soorten" ; "UNOWN variations?"
-	cont "UNOWN?"
+	text "Heb je alle" ; "You caught all the"
+	line "soorten UNOWN" ; "UNOWN variations?"
+	cont "gevangen?"
 
 	para "Die is een grote" ; "That's a great"
 	line "prestatie!" ; "achievement!"
 
-	para "Er is hier een" ; "I've set up the"
+	para "Hier vind je de" ; "I've set up the"
 	line "printer voor" ; "printer here for"
 	cont "UNOWN." ; "handling UNOWN."
 
-	para "Gebruikt het op" ; "Feel free to use"
-	line "elk moment." ; "it anytime."
+	para "Gebruik hem maar" ; "Feel free to use"
+	line "wanneer je wil." ; "it anytime."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text:
@@ -226,8 +226,8 @@ RuinsOfAlphResearchCenterScientist1Text:
 	cont "oud." ; "old."
 
 	para "Maar we weten niet" ; "But it's not known"
-	line "waarom, of wie" ; "why they were"
-	cont "bouwde ze." ; "built--or by whom."
+	line "waarom ze gebouwd" ; "why they were"
+	cont "zijn--of door wie." ; "built--or by whom."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
@@ -238,7 +238,7 @@ RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#MON lijken" ; "#MON appeared"
+	text "#MON verschenen" ; "#MON appeared"
 	line "in de RUÏNES?" ; "in the RUINS?"
 
 	para "Dat is ongeloof-" ; "That's incredible"
@@ -255,7 +255,7 @@ RuinsOfAlphResearchCenterScientist2Text:
 	para "muren van de" ; "walls of the"
 	line "RUÏNES." ; "RUINS."
 
-	para "Zij moeten de ant-" ; "They must be the"
+	para "Dat moeten de ant-" ; "They must be the"
 	line "woorden zijn op" ; "keys for unravel-"
 	cont "het mysterie van" ; "ing the mystery"
 	cont "de RUÏNES." ; "of the RUINS."
@@ -267,10 +267,10 @@ RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	; cont "RUINS?"
 
 	para "RUÏNES zag lijken" ; "They appear to be"
-	line "net zoals de" ; "very much like the"
+	line "op de patronen op" ; "very much like the"
 
-	para "patronen op de" ; "drawings on the"
-	line "muren daar." ; "walls there."
+	para "de muren daar." ; "drawings on the"
+	; line "muren daar." ; "walls there."
 
 	para "Hmm…"
 
@@ -287,8 +287,9 @@ RuinsOfAlphResearchCenterComputerText:
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mysterie #MON" ; "Mystery #MON"
-	line "Naam: UNOWN" ; "Name: UNOWN"
+	text "Mysterieuze" ; "Mystery #MON"
+	line "#MON"
+	cont "Naam: UNOWN" ; "Name: UNOWN"
 
 	para "{d:NUM_UNOWN} soorten" ; "A total of {d:NUM_UNOWN}"
 	line "ontdekt." ; "kinds found."
@@ -301,7 +302,7 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 
 RuinsOfAlphResearchCenterUnownPrinterText:
 	text "Je mag UNOWN" ; "UNOWN may be"
-	line "afgedrukken." ; "printed out."
+	line "afdrukken." ; "printed out."
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
@@ -314,7 +315,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "Er light veel" ; "There are many"
+	text "Er liggen veel" ; "There are many"
 	line "academische" ; "academic books."
 	cont "boeken."
 

@@ -709,52 +709,52 @@ ElmText_Intro:
 	done
 
 ElmText_LetYourMonBattleIt:
-	text "If a wild #MON"
-	line "appears, let your"
-	cont "#MON battle it!"
+	text "Als wilde #MON" ; "If a wild #MON"
+	line "opduiken, laat je" ; "appears, let your"
+	cont "#MON vechten!" ; "#MON battle it!"
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
-	line "are you going?"
+	text "ELM: Wacht! Waar" ; "ELM: Wait! Where"
+	line "ga je heen?" ; "are you going?"
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
-	cont "fire #MON?"
+	text "ELM: Je kiest" ; "ELM: You'll take"
+	line "CYNDAQUIL, de" ; "CYNDAQUIL, the"
+	cont "vuur-#MON?" ; "fire #MON?"
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
-	line "TOTODILE, the"
-	cont "water #MON?"
+	text "ELM: Wil je" ; "ELM: Do you want"
+	line "TOTODILE, de" ; "TOTODILE, the"
+	cont "water-#MON?" ; "water #MON?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
-	line "CHIKORITA, the"
-	cont "grass #MON?"
+	text "ELM: Dus, het is" ; "ELM: So, you like"
+	line "CHIKORITA, de" ; "CHIKORITA, the"
+	cont "gras-#MON?" ; "grass #MON?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
-	line "carefully."
+	text "ELM: Denk er goed" ; "ELM: Think it over"
+	line "over na." ; "carefully."
 
-	para "Your partner is"
-	line "important."
+	para "Je partner is" ; "Your partner is"
+	line "belangrijk." ; "important."
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "ELM: Ik vind" ; "ELM: I think"
+	line "dat ook een gewel-" ; "that's a great"
+	cont "dige #MON!" ; "#MON too!"
 	done
 
 ReceivedStarterText:
-	text "<PLAYER> received"
+	text "<PLAYER> koos" ; "<PLAYER> received"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text "!"
 	done
 
@@ -785,8 +785,8 @@ ElmDirectionsText3:
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
-	line "phone number."
+	text "<PLAYER> kreeg ELM's" ; "<PLAYER> got ELM's"
+	line "telefoonnummer."
 	done
 
 ElmDescribesMrPokemonText:
@@ -803,14 +803,14 @@ ElmDescribesMrPokemonText:
 	done
 
 ElmPokeBallText:
-	text "It contains a"
-	line "#MON caught by"
+	text "Bevat een #MON" ; "It contains a"
+	line "gevangen door" ; "#MON caught by"
 	cont "PROF.ELM."
 	done
 
 ElmsLabHealingMachineText1:
-	text "I wonder what this"
-	line "does?"
+	text "Wat zou dit ding" ; "I wonder what this"
+	line "doen?" ; "does?"
 	done
 
 ElmsLabHealingMachineText2:
@@ -827,21 +827,21 @@ ElmAfterTheftText1:
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
+	text "<PLAYER> gaf" ; "<PLAYER> handed"
+	line "MYSTERIE-EI aan" ; "the MYSTERY EGG to"
 	cont "PROF.ELM."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "ELM: Dit?" ; "ELM: This?"
 	done
 
 ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	text "Naar… Is het een" ; "But… Is it a"
+	line "#MON EI?" ; "#MON EGG?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Zo ja, dan is dit" ; "If it is, it is a"
+	line "groot nieuws!" ; "great discovery!"
 	done
 
 ElmAfterTheftText5:
@@ -891,11 +891,11 @@ ElmAfterTheftText6:
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
-	line "up! I'll call if"
+	text "ELM: Geef niet op!" ; "ELM: Don't give"
+	line "Ik bel je als ik" ; "up! I'll call if"
 
-	para "I learn anything"
-	line "about that EGG!"
+	para "iets te weten komt" ; "I learn anything"
+	line "over dat EI!" ; "about that EGG!"
 	done
 
 ElmAideHasEggText:
@@ -915,8 +915,8 @@ ElmAideHasEggText:
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
-	line "EGG changed any?"
+	text "ELM: He, is dat" ; "ELM: Hey, has that"
+	line "EI nog veranderd?" ; "EGG changed any?"
 	done
 
 ElmThoughtEggHatchedText:
@@ -933,21 +933,21 @@ ShowElmTogepiText1:
 	done
 
 ShowElmTogepiText2:
-	text "What?"
-	line "That #MON!?!"
+	text "Wat?" ; "What?"
+	line "Die #MON!?!" ; "That #MON!?!"
 	done
 
 ShowElmTogepiText3:
-	text "The EGG hatched!"
-	line "So, #MON are"
-	cont "born from EGGS…"
+	text "Het EI kwam uit!" ; "The EGG hatched!"
+	line "Dus, #MON komen" ; "So, #MON are"
+	cont "uit EIEREN…" ; "born from EGGS…"
 
-	para "No, perhaps not"
-	line "all #MON are."
+	para "Nee, wellicht niet" ; "No, perhaps not"
+	line "alle #MON." ; "all #MON are."
 
-	para "Wow, there's still"
-	line "a lot of research"
-	cont "to be done."
+	para "Wauw, er is nog" ; "Wow, there's still"
+	line "steeds een hoop te" ; "a lot of research"
+	cont "onderzoeken." ; "to be done."
 	done
 
 ElmGiveEverstoneText1:
@@ -963,22 +963,23 @@ ElmGiveEverstoneText1:
 	done
 
 ElmGiveEverstoneText2:
-	text "That's an"
-	line "EVERSTONE."
+	text "Dat is een" ; "That's an"
+	line "EEUWIGSTEEN." ; "EVERSTONE."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Sommige soorten" ; "Some species of"
+	line "#MON evolueren" ; "#MON evolve"
 
-	para "when they grow to"
-	line "certain levels."
+	para "als ze een bepaald" ; "when they grow to"
+	line "level bereiken." ; "certain levels."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	para "Een #MON met" ; "A #MON holding"
+	line "een EEUWIGSTEEN" ; "the EVERSTONE"
+	cont "evolueert niet." ; "won't evolve."
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve."
+	para "Geef hem aan een" ; "Give it to a #-"
+	line "#MON die je" ; "MON you don't want"
+	cont "niet wil" ; "to evolve."
+	cont "evolueren.";
 	done
 
 ElmText_CallYou:
@@ -988,17 +989,18 @@ ElmText_CallYou:
 	done
 
 AideText_AfterTheft:
-	text "…sigh… That"
-	line "stolen #MON."
+	text "…zucht… Die" ; "…sigh… That"
+	line "gestolen #MON." ; "stolen #MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Hoe zou het met" ; "I wonder how it's"
+	line "hen gaan?" ; "doing."
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "Ze zeggen dat een" ; "They say a #MON"
+	line "#MON opgevoed" ; "raised by a bad"
 
-	para "person turns bad"
-	line "itself."
+	para "door een slecht" ; "person turns bad"
+	line "persoon ook" ; "itself."
+	cont "slecht wordt."
 	done
 
 ElmGiveMasterBallText1:
@@ -1065,9 +1067,9 @@ ElmGiveTicketText2:
 	done
 
 ElmsLabMonEggText: ; unreferenced
-	text "It's the #MON"
-	line "EGG being studied"
-	cont "by PROF.ELM."
+	text "Het #MON-EI dat" ; "It's the #MON"
+	line "PROF.ELM bestu-" ; "EGG being studied"
+	cont "deert." ; "by PROF.ELM."
 	done
 
 AideText_GiveYouPotion:
@@ -1077,34 +1079,34 @@ AideText_GiveYouPotion:
 	done
 
 AideText_AlwaysBusy:
-	text "There are only two"
-	line "of us, so we're"
-	cont "always busy."
+	text "We zijn met twee," ; "There are only two"
+	line "dus we hebben het" ; "of us, so we're"
+	cont "altijd druk." ; "always busy."
 	done
 
 AideText_TheftTestimony:
-	text "There was a loud"
-	line "noise outside…"
+	text "Ik hoorde buiten" ; "There was a loud"
+	line "ineens herrie…" ; "noise outside…"
 
-	para "When we went to"
-	line "look, someone"
-	cont "stole a #MON."
+	para "Toen we gingen" ; "When we went to"
+	line "kijken, was een" ; "look, someone"
+	cont "#MON gestolen." ; "stole a #MON."
 
-	para "It's unbelievable"
-	line "that anyone would"
-	cont "do that!"
+	para "Ongelofelijk dat" ; "It's unbelievable"
+	line "iemand dat zou" ; "that anyone would"
+	cont "doen!" ; "do that!"
 
-	para "…sigh… That"
-	line "stolen #MON."
+	para "…zucht… Die" ; "…sigh… That"
+	line "gestolen #MON." ; "stolen #MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Hoe zou het er mee" ; "I wonder how it's"
+	line "gaan. Men zegt" ; "doing."
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "dat een #MON" ; "They say a #MON"
+	line "opgevoed door" ; "raised by a bad"
 
-	para "person turns bad"
-	line "itself."
+	para "een slecht iemand" ; "person turns bad"
+	line "ook slecht wordt." ; "itself."
 	done
 
 AideText_GiveYouBalls:
@@ -1115,104 +1117,105 @@ AideText_GiveYouBalls:
 	done
 
 AideText_ExplainBalls:
-	text "To add to your"
-	line "#DEX, you have"
-	cont "to catch #MON."
+	text "Je moet #MON" ; "To add to your"
+	line "vangen om ze in je" ; "#DEX, you have"
+	cont "#DEX te" ; "to catch #MON."
+	cont "krijgen."
 
-	para "Throw # BALLS"
-	line "at wild #MON"
-	cont "to get them."
+	para "Gooi #BALLEN" ; "Throw # BALLS"
+	line "naar wilde #MON" ; "at wild #MON"
+	cont "om ze te vangen." ; "to get them."
 	done
 
 ElmsLabOfficerText1:
-	text "I heard a #MON"
-	line "was stolen here…"
+	text "Ik hoorde dat een" ; "I heard a #MON"
+	line "#MON is gejat…" ; "was stolen here…"
 
-	para "I was just getting"
-	line "some information"
-	cont "from PROF.ELM."
+	para "Ik hoorde er net" ; "I was just getting"
+	line "over van PROF.ELM" ; "some information"
+	; cont "from PROF.ELM."
 
-	para "Apparently, it was"
-	line "a young male with"
-	cont "long, red hair…"
+	para "Kennelijk was het" ; "Apparently, it was"
+	line "een jongeman met" ; "a young male with"
+	cont "lang, rood haar…" ; "long, red hair…"
 
-	para "What?"
+	para "Wat?" ; "What?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "Heb je gevochten" ; "You battled a"
+	line "met zo iemand?" ; "trainer like that?"
 
-	para "Did you happen to"
-	line "get his name?"
+	para "Heb je zijn naam" ; "Did you happen to"
+	line "ook gehoord?" ; "get his name?"
 	done
 
 ElmsLabOfficerText2:
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "OK! Dus hij heet" ; "OK! So <RIVAL>"
+	line "<RIVAL>." ; "was his name."
 
-	para "Thanks for helping"
-	line "my investigation!"
+	para "Bedankt voor je" ; "Thanks for helping"
+	line "hulp!" ; "my investigation!"
 	done
 
 ElmsLabWindowText1:
-	text "The window's open."
+	text "Het raam is open." ; "The window's open."
 
-	para "A pleasant breeze"
-	line "is blowing in."
+	para "Een fijn briesje" ; "A pleasant breeze"
+	line "waait naar binnen." ; "is blowing in."
 	done
 
 ElmsLabWindowText2:
-	text "He broke in"
-	line "through here!"
+	text "Hij brak hier" ; "He broke in"
+	line "naar binnen!" ; "through here!"
 	done
 
 ElmsLabTravelTip1Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende" ; "<PLAYER> opened a"
+	line "een boek." ; "book."
 
-	para "Travel Tip 1:"
+	para "Reistip 1:" ; "Travel Tip 1:"
 
-	para "Press START to"
-	line "open the MENU."
+	para "Druk op START voor" ; "Press START to"
+	line "het MENU." ; "open the MENU."
 	done
 
 ElmsLabTravelTip2Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende" ; "<PLAYER> opened a"
+	line "een boek." ; "book."
 
-	para "Travel Tip 2:"
+	para "Reistip 2:" ; "Travel Tip 2:"
 
-	para "Record your trip"
-	line "with SAVE!"
+	para "Leg je reis vast" ; "Record your trip"
+	line "met OPSLAAN!" ; "with SAVE!"
 	done
 
 ElmsLabTravelTip3Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende" ; "<PLAYER> opened a"
+	line "een boek." ; "book."
 
-	para "Travel Tip 3:"
+	para "Reistip 3:" ; "Travel Tip 3:"
 
-	para "Open your PACK and"
-	line "press SELECT to"
-	cont "move items."
+	para "Open je TAS en" ; "Open your PACK and"
+	line "druk op SELECT om" ; "press SELECT to"
+	cont "te verplaatsen." ; "move items."
 	done
 
 ElmsLabTravelTip4Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> opende" ; "<PLAYER> opened a"
+	line "een boek." ; "book."
 
-	para "Travel Tip 4:"
+	para "Reistip 4:" ; "Travel Tip 4:"
 
-	para "Check your #MON"
-	line "moves. Press the"
+	para "Check je #MON-" ; "Check your #MON"
+	line "acties. Druk op" ; "moves. Press the"
 
-	para "A Button to switch"
-	line "moves."
+	para "A om de plek te" ; "A Button to switch"
+	line "veranderen." ; "moves."
 	done
 
 ElmsLabTrashcanText:
-	text "The wrapper from"
-	line "the snack PROF.ELM"
-	cont "ate is in there…"
+	text "De verpakking van" ; "The wrapper from"
+	line "de snack die PROF." ; "the snack PROF.ELM"
+	cont "ELM at ligt hier." ; "ate is in there…"
 	done
 
 ElmsLab_MapEvents:

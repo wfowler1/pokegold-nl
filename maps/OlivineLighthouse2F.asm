@@ -102,14 +102,14 @@ TrainerSailorHuey:
 	end
 
 SailorHueySeenText:
-	text "Men of the sea are"
-	line "always spoiling"
-	cont "for a good fight!"
+	text "Zeemannen zijn" ; "Men of the sea are"
+	line "altijd in voor" ; "always spoiling"
+	cont "een goed gevecht!" ; "for a good fight!"
 	done
 
 SailorHueyBeatenText:
-	text "Urf!"
-	line "I lose!"
+	text "Oef!" ; "Urf!"
+	line "Ik verlies!" ; "I lose!"
 	done
 
 SailorHueyAfterBattleText:
@@ -121,25 +121,27 @@ SailorHueyAfterBattleText:
 	done
 
 GentlemanAlfredSeenText:
-	text "Hm? This is no"
-	line "place for playing."
+	text "Hm? Dit is geen" ; "Hm? This is no"
+	line "plek om te spelen." ; "place for playing."
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! I can see that"
-	line "you're serious."
+	text "Ah! Ik zie dat" ; "Ah! I can see that"
+	line "het menens is." ; "you're serious."
 	done
 
 GentlemanAlfredAfterBattleText:
-	text "Up top is a #-"
-	line "MON that keeps the"
-	cont "LIGHTHOUSE lit."
+	text "Boven is een" ; "Up top is a #-"
+	line "#MON die de" ; "MON that keeps the"
+	cont "VUURTOREN" ; "LIGHTHOUSE lit."
+	cont "brandend houdt." ; 
 
-	para "But I hear that"
-	line "it's sick now and"
+	para "Maar ik hoor dat" ; "But I hear that"
+	line "die nu ziek is" ; "it's sick now and"
 
-	para "can't be cured by"
-	line "ordinary medicine."
+	para "en niet kan worden" ; "can't be cured by"
+	line "genezen met nor-" ; "ordinary medicine."
+	cont "male medicijnen." ; 
 	done
 
 OlivineLighthouse2F_MapEvents:

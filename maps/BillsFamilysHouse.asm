@@ -107,23 +107,23 @@ BillsHouseRadio:
 	jumpstd Radio2Script
 
 BillTakeThisEeveeText:
-	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
+	text "BILL: He, <PLAYER>!" ; "BILL: Hi, <PLAYER>!"
+	line "Wil je deze EEVEE" ; "Do us a favor and"
+	cont "overnemen?" ; "take this EEVEE."
 
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	para "Hij kwam aan toen" ; "It came over when"
+	line "ik de TIJDCAPSULE" ; "I was adjusting"
+	cont "bijstelde." ; "the TIME CAPSULE."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Iemand moet ervoor" ; "Someone has to"
+	line "zorgen, maar ik" ; "take care of it,"
 
-	para "but I don't like"
-	line "being outside."
+	para "ga niet graag naar" ; "but I don't like"
+	line "buiten toe." ; "being outside."
 
-	para "Can I count on you"
-	line "to play with it,"
-	cont "<PLAYER>?"
+	para "Kan ik op jou" ; "Can I count on you"
+	line "rekenen ermee te" ; "to play with it,"
+	cont "spelen, <PLAYER>?" ; "<PLAYER>?"
 	done
 
 BillImCountingOnYouText:
@@ -139,27 +139,27 @@ BillImCountingOnYouText:
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	line "EEVEE!" ; "EEVEE!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "BILL: PROF.ELM" ; "BILL: PROF.ELM"
+	line "claimt dat EEVEE" ; "claims EEVEE may"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "op nieuwe manieren" ; "evolve in new and"
+	line "evoluren kan." ; "unknown ways."
 	done
 
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "Ho, wacht eens. Je" ; "Whoa, wait. You"
+	line "kan niet meer" ; "can't carry any"
+	cont "#MON meenemen." ; "more #MON."
 	done
 
 BillNoEeveeText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Oh… En wat" ; "Oh… Now what to"
+	line "nu dan?" ; "do?"
 	done
 
 BillPopWontWorkText:
@@ -189,39 +189,39 @@ BillsMomText_AfterEcruteak:
 	done
 
 BillsYoungerSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "Je bent trainer?" ; "Are you a trainer?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "Hier, een nuttig" ; "I've got a useful"
+	line "telefoonnummer" ; "phone number for"
+	cont "voor je." ; "you."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> slaat" ; "<PLAYER> recorded"
+	line "BILL's nummer op." ; "BILL's number."
 	done
 
 BillsYoungerSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Mijn broer heeft" ; "My brother made"
+	line "de PC-#MON-" ; "the PC #MON"
+	cont "opslag bedacht." ; "storage system."
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	para "Ik wilde je" ; "I was going to"
+	line "BILL's nummer" ; "give you BILL's"
+	cont "geven…" ; "number…"
 	done
 
 BillsYoungerSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "Je kan niet meer" ; "You can't record"
+	line "nummers opslaan." ; "any more numbers."
 	done
 
 BillsYoungerSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
+	text "Mijn grote broer" ; "My big brother"
+	line "BILL bedacht het" ; "BILL made the PC"
 
-	para "#MON storage"
-	line "system."
+	para "#MON-opslag" ; "#MON storage"
+	line "-systeem." ; "system."
 	done
 
 BillsFamilysHouse_MapEvents:

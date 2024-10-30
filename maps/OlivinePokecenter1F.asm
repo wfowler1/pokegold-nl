@@ -33,13 +33,14 @@ OlivinePokecenter1FFisherText:
 	done
 
 OlivinePokecenter1FTeacherText:
-	text "There's a person"
-	line "in CIANWOOD CITY"
-	cont "across the sea."
+	text "Er is iemand" ; "There's a person"
+	line "in CIANWOOD CITY" ; "in CIANWOOD CITY"
+	cont "over de zee." ; "across the sea."
 
-	para "I heard him brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Ik hoorde hem" ; "I heard him brag-"
+	line "opscheppen over" ; "ging about his"
+	cont "zijn zeldzame" ; "rare #MON."
+	cont "#MON." ; 
 	done
 
 OlivinePokecenter1F_MapEvents:

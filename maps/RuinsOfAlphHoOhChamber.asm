@@ -50,10 +50,10 @@ RuinsOfAlphHoOhChamberAncientReplicaText:
 	done
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "Een #MON dat" ; "A #MON that"
-	line "vloogde sierlijk" ; "flew gracefully on"
+	text "Een #MON die" ; "A #MON that"
+	line "sierlijk vloog" ; "flew gracefully on"
 
-	para "op regenboog-" ; "rainbow-colored"
+	para "met regenboog-" ; "rainbow-colored"
 	line "kleurige vleugels." ; "wings."
 	done
 
