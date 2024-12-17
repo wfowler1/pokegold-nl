@@ -90,11 +90,11 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOREN is ver-" ; "TIN TOWER is off"
+	text "TINTOREN is ver-" ; "TIN TOWER is off"
 	line "boden toegang voor" ; "limits to anyone"
 
 	para "iedereen zonder" ; "without ECRUTEAK"
-	line "ECRUTEAK GYM" ; "GYM's BADGE."
+	line "ECRUTEAK GYM-" ; "GYM's BADGE."
 	cont "BADGE." ; 
 
 	para "Sorry, maar je" ; "Sorry, but you'll"
@@ -103,9 +103,9 @@ EcruteakTinTowerEntranceSageText:
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
 	text "Verboden toegang" ; "TIN TOWER is off"
-	line "zonder ECRUTEAK" ; "limits to anyone"
+	line "zonder ECRUTEAK-" ; "limits to anyone"
 
-	para "GYM BADGE." ; "without ECRUTEAK"
+	para "GYMBADGE." ; "without ECRUTEAK"
 	line "" ; "GYM's BADGE."
 
 	para "Ah!" ; "Ah!"

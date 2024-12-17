@@ -148,97 +148,97 @@ Route42FruitTree3:
 Route42HiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_ROUTE_42_HIDDEN_MAX_POTION
 
-FisherChrisSeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#MON I caught!"
+FisherChrisSeenText: ; ReplaceWith FisherTullySeenText:
+	text "Laat me de kracht" ; "Let me demonstrate"
+	line "van mijn #MON" ; "the power of the"
+	cont "demonstreren!" ; "#MON I caught!"
 	done
 
-FisherChrisBeatenText:
-	text "What? That's not"
-	line "right."
+FisherChrisBeatenText: ; ReplaceWith FisherTullyBeatenText:
+	text "Wat? Hier klopt" ; "What? That's not"
+	line "iets niet." ; "right."
 	done
 
-FisherChrisAfterBattleText:
-	text "I want to become"
-	line "the trainer CHAMP"
+FisherChrisAfterBattleText: ; ReplaceWith FisherTullyAfterBattleText:
+	text "Ik wil de KAMPIOEN" ; "I want to become"
+	line "worden met de" ; "the trainer CHAMP"
 
-	para "using the #MON"
-	line "I caught."
+	para "#MON die ik ge-" ; "using the #MON"
+	line "vangen heb." ; "I caught."
 
-	para "That's the best"
-	line "part of fishing!"
+	para "Dat is het leukste" ; "That's the best"
+	line "aan vissen!" ; "part of fishing!"
 	done
 
 HikerBenjaminSeenText:
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "Ah, echt fijn om" ; "Ah, it's good to"
+	line "buiten te zijn! Ik" ; "be outside!"
+	cont "voel me zo vrij!" ; "I feel so free!"
 	done
 
 HikerBenjaminBeatenText:
-	text "Gahahah!"
+	text "Gahahah!" ; "Gahahah!"
 	done
 
 HikerBenjaminAfterBattleText:
-	text "Losing feels in-"
-	line "significant if you"
+	text "Verliezen doet er" ; "Losing feels in-"
+	line "niet toe als je" ; "significant if you"
 
-	para "look up at the big"
-	line "sky!"
+	para "boven je de wijde" ; "look up at the big"
+	line "hemel ziet!" ; "sky!"
 	done
 
 PokemaniacShaneSeenText:
-	text "HEY!"
+	text "HEY!" ; "HEY!"
 
-	para "This is my secret"
-	line "place! Get lost,"
-	cont "you outsider!"
+	para "Dit is mijn ge-" ; "This is my secret"
+	line "heime plek! Ga" ; "place! Get lost,"
+	cont "weg, indringer!" ; "you outsider!"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my MOON STONE…"
+	text "Had mijn MAANSTEEN" ; "I should have used"
+	line "moeten gebruiken…" ; "my MOON STONE…"
 	done
 
 PokemaniacShaneAfterBattleText:
-	text "You're working on"
-	line "a #DEX?"
+	text "Je werkt aan" ; "You're working on"
+	line "je #DEX?" ; "a #DEX?"
 
-	para "Wow, you must know"
-	line "some pretty rare"
-	cont "#MON!"
+	para "Wow, je hebt vast" ; "Wow, you must know"
+	line "zeldzame #MON" ; "some pretty rare"
+	cont "gezien!" ; "#MON!"
 
-	para "May I please see"
-	line "it. Please?"
+	para "Mag ik alsjeblieft" ; "May I please see"
+	line "zien? Alsjeblieft?" ; "it. Please?"
 	done
 
 Route42Sign1Text:
-	text "ROUTE 42"
+	text "ROUTE 42" ; "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "ECRUTEAK CITY -" ; "ECRUTEAK CITY -"
+	line "MAHOGANY TOWN" ; "MAHOGANY TOWN"
 	done
 
 MtMortarSign1Text:
-	text "MOUNT MORTAR"
+	text "VIJZELBERG" ; "MOUNT MORTAR"
 
-	para "WATERFALL CAVE"
-	line "Inside"
+	para "WATERVALGROT" ; "WATERFALL CAVE"
+	line "Hierbinnen" ; "Inside"
 	done
 
 MtMortarSign2Text:
-	text "MOUNT MORTAR"
+	text "VIJZELBERG" ; "MOUNT MORTAR"
 
-	para "WATERFALL CAVE"
-	line "Inside"
+	para "WATERVALGROT" ; "WATERFALL CAVE"
+	line "Hierbinnen" ; "Inside"
 	done
 
 Route42Sign2Text:
-	text "ROUTE 42"
+	text "ROUTE 42" ; "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "ECRUTEAK CITY -" ; "ECRUTEAK CITY -"
+	line "MAHOGANY TOWN" ; "MAHOGANY TOWN"
 	done
 
 Route42_MapEvents:

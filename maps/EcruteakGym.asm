@@ -183,15 +183,15 @@ MortyWinLossText:
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
-	line "FOGBADGE." ; "FOGBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "MISTBADGE." ; "FOGBADGE."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "Met de FOGBADGE" ; "By having FOG-"
+	text "Met de MISTBADGE" ; "By having FOG-"
 	line "luisteren #MON" ; "BADGE, #MON up"
 
-	para "tot L50" ; "to L50 will obey"
+	para "tot N50" ; "to L50 will obey"
 	line "naar je." ; "you."
 
 	para "En, #MON die" ; "Also, #MON that"

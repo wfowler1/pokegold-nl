@@ -535,125 +535,125 @@ MovementData_Farfetched_Pos9_Pos8_Down:
 	step_end
 
 IlexForestApprenticeIntroText:
-	text "Oh, man… My boss"
-	line "is going to be"
-	cont "steaming…"
+	text "Oh, man… Mijn baas" ; "Oh, man… My boss"
+	line "zal behoorlijk" ; "is going to be"
+	cont "boos op me zijn…" ; "steaming…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "De FARFETCH'D" ; "The FARFETCH'D"
+	line "die bomen SNIJDT" ; "that CUTS trees"
 
-	para "for charcoal took"
-	line "off on me."
+	para "voor houtskool is" ; "for charcoal took"
+	line "er vandoor gegaan." ; "off on me."
 
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
+	para "Ik kan zelf niet" ; "I can't go looking"
+	line "naar hem zoeken in" ; "for it here in the"
+	cont "het EIKENWOUD." ; "ILEX FOREST."
 
-	para "It's too big, dark"
-	line "and scary for me…"
+	para "Het is te groot," ; "It's too big, dark"
+	line "donker en eng…" ; "and scary for me…"
 	done
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Wauw! Echt heel" ; "Wow! Thanks a"
+	line "erg bedankt!" ; "whole bunch!"
 
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "Mijn baas zijn" ; "My boss's #MON"
+	line "#MON luisteren" ; "won't obey me be-"
+	cont "niet omdat ik geen" ; "cause I don't have"
+	cont "BADGE heb." ; "a BADGE."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#MON!"
+	text "Het is de vermiste" ; "It's the missing"
+	line "#MON!" ; "#MON!"
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "FARFETCH'D: Kwaa!" ; "FARFETCH'D: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Mijn FARFETCH'D!" ; "Ah! My FARFETCH'D!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Heb je die voor" ; "You found it for"
+	line "ons gevonden?" ; "us, kid?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Zonder deze kunnen" ; "Without it, we"
+	line "we geen bomen" ; "wouldn't be able"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "SNIJDEN om houts-" ; "to CUT trees for"
+	line "kool van te maken." ; "charcoal."
 
-	para "Thanks, kid!"
+	para "Dank je, kind!" ; "Thanks, kid!"
 
-	para "Now, how can I"
-	line "thank you…"
+	para "Welnu, hoe kan" ; "Now, how can I"
+	line "ik je bedanken…" ; "thank you…"
 
-	para "I know! Here, take"
-	line "this."
+	para "Ik weet het! Neem" ; "I know! Here, take"
+	line "deze aan." ; "this."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "Dit is de SNIJDEN-" ; "That's the CUT HM."
+	line "VM. Hiermee kan" ; "Teach that to a"
 
-	para "#MON to clear"
-	line "small trees."
+	para "een #MON kleine" ; "#MON to clear"
+	line "boompjes weghalen." ; "small trees."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Je hebt wel de" ; "Of course, you"
+	line "GYMBADGE van" ; "have to have the"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "AZALEA nodig om" ; "GYM BADGE from"
+	line "hem te gebruiken." ; "AZALEA to use it."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Wil je bij mij" ; "Do you want to"
+	line "in de leer om" ; "apprentice as a"
 
-	para "charcoal maker"
-	line "with me?"
+	para "houtskoolmaker te" ; "charcoal maker"
+	line "worden?" ; "with me?"
 
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "Na tien jaar ben" ; "You'll be first-"
+	line "je er een kei in!" ; "rate in ten years!"
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Wat ik doe?" ; "What am I doing?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "Ik schud aan bomen" ; "I'm shaking trees"
+	line "met KOPSTOOT." ; "using HEADBUTT."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "Is leuk, hoor." ; "It's fun. Here,"
+	line "Hier, probeer ook!" ; "you try it too!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Rammel aan bomen" ; "Rattle trees with"
+	line "met KOPSTOOT. Soms" ; "HEADBUTT. Some-"
+	cont "vallen er slapende" ; "times, sleeping"
+	cont "#MON uit." ; "#MON fall out."
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
-	line "so overgrown with"
+	text "Het EIKENWOUD is" ; "ILEX FOREST is"
+	line "zo overwoekerd" ; "so overgrown with"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "dat je de lucht" ; "trees that you"
+	line "niet kan zien." ; "can't see the sky."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Pas alsjeblieft op" ; "Please watch out"
+	line "voor voorwerpen" ; "for items that may"
+	cont "die gevallen zijn." ; "have been dropped."
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "EIKENWOUD-" ; "ILEX FOREST"
+	line "ALTAAR…" ; "SHRINE…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Deze is ter ere" ; "It's in honor of"
+	line "van de beschermer" ; "the forest's"
+	cont "van het woud…" ; protector…"
 	done
 
 IlexForest_MapEvents:

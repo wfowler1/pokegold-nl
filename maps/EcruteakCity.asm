@@ -130,10 +130,10 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "Ik ga oefenen" ; "I'm going to prac-"
-	line "in 't DANSTHEATER." ; "tice at the DANCE"
+	line "in het DANS-." ; "tice at the DANCE"
 
-	para "Zin om mee" ; "THEATER. Care to"
-	line "te gaan?" ; "join me?"
+	para "THEATER. Zin om" ; "THEATER. Care to"
+	line "mee te gaan?" ; "join me?"
 	done
 
 EcruteakCityLass2Text:
@@ -153,14 +153,14 @@ EcruteakCityLass2Text_ReleasedBeasts:
 	done
 
 EcruteakCityFisherText:
-	text "Ik hoorde een ge-" ; "I heard a rumor"
-	line "rucht over SCHIJN-" ; "about OLIVINE"
-	cont "ENDE VUURTOREN." ; "LIGHTHOUSE."
+	text "Er is een gerucht" ; "I heard a rumor"
+	line "over de SCHIJNENDE" ; "about OLIVINE"
+	cont "VUURTOREN. De" ; "LIGHTHOUSE."
 
-	para "De #MON die" ; "The #MON that"
-	line "dient als baken is" ; "serves as the"
+	para "#MON die dient" ; "The #MON that"
+	line "als baken is ziek." ; "serves as the"
 
-	para "ziek. Zo te horen" ; "beacon fell ill."
+	para "Zo te horen" ; "beacon fell ill."
 	line "zitten ze in" ; "Sounds like they"
 	cont "de problemen." ; "are in trouble."
 	done
@@ -181,7 +181,6 @@ EcruteakCityYoungsterText:
 
 	para "gaan bij het MEER" ; "LAKE OF RAGE. I'd"
 	line "VAN RAZERNIJ." ; "like to see that."
-	cont "Dat wil ik zien."
 	done
 
 EcruteakCitySignText:
@@ -194,7 +193,7 @@ EcruteakCitySignText:
 	done
 
 TinTowerSignText:
-	text "TIN TOREN" ; "TIN TOWER"
+	text "TINTOREN" ; "TIN TOWER"
 
 	para "Een legendarische" ; "A legendary #-"
 	line "#MON zou hier" ; "MON is said to"
@@ -203,8 +202,8 @@ TinTowerSignText:
 
 EcruteakGymSignText:
 	text "ECRUTEAK CITY" ; "ECRUTEAK CITY"
-	line "#MON GYM" ; "#MON GYM"
-	cont "LEIDER: MORTY" ; "LEADER: MORTY"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
+	cont "MORTY" ; "LEADER: MORTY"
 
 	para "De Mystieke" ; "The Mystic Seer of"
 	line "Voorspeller van" ; "the Future"

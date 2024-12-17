@@ -203,7 +203,7 @@ Text_GearIsImpressive:
 	done
 
 Text_WaitPlayer:
-	text "Wait, <PLAYER>!"
+	text "Wacht, <PLAYER>!" ; "Wait, <PLAYER>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
@@ -230,12 +230,12 @@ Text_YourMonIsAdorable:
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAYER>!"
-	line "Leaving again?"
+	text "He, <PLAYER>!" ; "Hi, <PLAYER>!"
+	line "Ga je weer?" ; "Leaving again?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Vertel ook even" ; "You should tell"
+	line "je moeder dat je" ; "your mom if you"
+	cont "vertrekt." ; "are leaving."
 	done
 
 Text_CallMomOnGear:

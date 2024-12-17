@@ -20,27 +20,27 @@ ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 ElmsWifeText:
-	text "Hi, <PLAYER>! My"
-	line "husband's always"
+	text "He, <PLAYER>! Mijn" ; "Hi, <PLAYER>! My"
+	line "man is altijd zo" ; "husband's always"
 
-	para "so busy--I hope"
-	line "he's OK."
+	para "druk--Ik hoop dat" ; "so busy--I hope"
+	line "het oké gaat." ; "he's OK."
 
-	para "When he's caught"
-	line "up in his #MON"
+	para "Als hij werkt met" ; "When he's caught"
+	line "#MON, vergeet" ; "up in his #MON"
 
-	para "research, he even"
-	line "forgets to eat."
+	para "hij zelfs om te" ; "research, he even"
+	line "eten." ; "forgets to eat."
 	done
 
-ElmsSonText:
-	text "When I grow up,"
-	line "I'm going to help"
-	cont "my Dad!"
+ElmsSonText: ; AlwaysReplace
+	text "Als ik groot ben," ; "When I grow up,"
+	line "ga ik mijn papa" ; "I'm going to help"
+	cont "helpen!" ; "my dad!"
 
-	para "I'm going to be a"
-	line "great #MON"
-	cont "professor!"
+	para "Ik ga een beroemde" ; "I'm going to be a"
+	line "#MON-professor" ; "great #MON"
+	cont "worden!" ; "professor!"
 	done
 
 ElmsHouseLabFoodText: ; unreferenced

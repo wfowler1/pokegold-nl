@@ -158,11 +158,11 @@ Route39MiltankText:
 	done
 
 SailorEugeneSeenText:
-	text "I just got back to"
-	line "OLIVINE."
+	text "Ik ben net terug" ; "I just got back to"
+	line "uit OLIVINE." ; "OLIVINE."
 
-	para "So how about a"
-	line "#MON battle?"
+	para "Heb je zin in een" ; "So how about a"
+	line "#MON-gevecht?" ; "#MON battle?"
 	done
 
 SailorEugeneBeatenText:
@@ -170,13 +170,13 @@ SailorEugeneBeatenText:
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
-	line "caught and raised"
-	cont "overseas."
+	text "Mijn #MON zijn" ; "My #MON were"
+	line "overzee gevangen" ; "caught and raised"
+	cont "en opgevoed." ; "overseas."
 
-	para "They're my compan-"
-	line "ions on those long"
-	cont "voyages."
+	para "Het zijn maatjes" ; "They're my compan-"
+	line "tijdens mijn lange" ; "ions on those long"
+	cont "reizen." ; "voyages."
 	done
 
 PokefanmDerekSeenText:
@@ -191,58 +191,58 @@ PokefanmDerekBeatenText:
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
+	text "Ik wil je niet" ; "I'm not listening"
+	line "horen opscheppen!" ; "to your bragging!"
 
-	para "We # FANS have"
-	line "a policy of not"
+	para "Wij #FANS" ; "We # FANS have"
+	line "luisteren uit be-" ; "a policy of not"
 
-	para "listening to other"
-	line "people brag!"
+	para "leid niet naar" ; "listening to other"
+	line "andermans gepoch!" ; "people brag!"
 	done
 
 PokefanfRuthSeenText:
-	text "Such darling"
-	line "#MON."
+	text "Wat een lieve" ; "Such darling"
+	line "#MON." ; "#MON."
 
-	para "Let's show our"
-	line "#MON together"
-	cont "at the same time."
+	para "Laten we onze" ; "Let's show our"
+	line "#MON tegelijk" ; "#MON together"
+	cont "laten zien." ; "at the same time."
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "Ik vind verliezen" ; "I don't mind"
+	line "niet erg." ; "losing."
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Do you know about"
-	line "baby #MON?"
+	text "Al gehoord over" ; "Do you know about"
+	line "baby-#MON?" ; "baby #MON?"
 
-	para "I bet they're just"
-	line "adorable!"
+	para "Ze zijn vast" ; "I bet they're just"
+	line "aandoenlijk!" ; "adorable!"
 	done
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #MON are"
-	cont "capable of."
+	text "Ik wil zien waar" ; "Let me see what"
+	line "je #MON toe in" ; "your #MON are"
+	cont "staat zijn." ; "capable of."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
-	line "have potential."
+	text "Ooh, je #MON" ; "Ooh, your #MON"
+	line "hebben potentie." ; "have potential."
 	done
 
 PsychicNormanAfterBattleText:
-	text "You know how #-"
-	line "MON have different"
-	cont "abilities?"
+	text "Weet je hoe #-" ; "You know how #-"
+	line "MON andere vaar-" ; "MON have different"
+	cont "digheden hebben?" ; "abilities?"
 
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	para "Mensen zijn net" ; "People are like"
+	line "zo. Ieder is tot" ; "that too. Every-"
+	cont "iets anders in" ; "one has different"
+	cont "staat." ; "potential."
 	done
 
 Route39SignText:
@@ -253,25 +253,25 @@ Route39SignText:
 	done
 
 MoomooFarmSignText:
-	text "MOOMOO FARM"
+	text "BOERDERIJ MOOMOO" ; "MOOMOO FARM"
 
-	para "Enjoy Our Fresh"
-	line "and Tasty Milk"
+	para "Geniet Van Verse," ; "Enjoy Our Fresh"
+	line "Lekkere Melk." ; "and Tasty Milk"
 	done
 
 Route39TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
-	para "Use HEADBUTT on"
-	line "trees to shake"
-	cont "#MON out."
+	para "Gebruik KOPSTOOT" ; "Use HEADBUTT on"
+	line "om bomen heen en" ; "trees to shake"
+	cont "weer te schudden." ; "#MON out."
 
-	para "Different kinds of"
-	line "#MON drop out"
-	cont "of trees."
+	para "Allerlei soorten" ; "Different kinds of"
+	line "#MON kunnen" ; "#MON drop out"
+	cont "losvallen." ; "of trees."
 
-	para "Use HEADBUTT on"
-	line "any tree you see!"
+	para "Doe KOPSTOOT op" ; "Use HEADBUTT on"
+	line "elke boom!" ; "any tree you see!"
 	done
 
 Route39_MapEvents:

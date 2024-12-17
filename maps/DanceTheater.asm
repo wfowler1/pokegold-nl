@@ -169,7 +169,7 @@ KimonoGirlZukiSeenText:
 	text "Vind je mijn" ; "Isn't my barrette"
 	line "haarspeld mooi?" ; "pretty?"
 
-	para "Oh, een #MON" ; "Oh. A #MON"
+	para "Oh, een #MON-" ; "Oh. A #MON"
 	line "gevecht?" ; "battle?"
 	done
 
@@ -219,9 +219,9 @@ KimonoGirlMikiBeatenText:
 
 KimonoGirlMikiAfterBattleText:
 	text "Ik blijf dansen" ; "I can keep dancing"
-	line "want er zijn mens-" ; "because there are"
+	line "want er zijn men-" ; "because there are"
 
-	para "en die ervan" ; "people who enjoy"
+	para "sen die ervan" ; "people who enjoy"
 	line "genieten." ; "what I do."
 
 	para "Mijn #MON mo-" ; "My #MON keep my"
@@ -254,7 +254,7 @@ SurfGuyLadGiftText:
 
 SurfGuyLikeADanceText:
 	text "De manier waarop" ; "The way you bat-"
-	line "je vechtte was als" ; "tled, it was like"
+	line "je vocht was als" ; "tled, it was like"
 	cont "kijken naar dans." ; "watching a dance."
 
 	para "Het was een" ; "It was a rare"
@@ -262,7 +262,7 @@ SurfGuyLikeADanceText:
 
 	para "Ik wil je dit" ; "I want you to have"
 	line "geven. Geen zorgen" ; "this. Don't worry"
-	cont "-- neem het!" ; "--take it!"
+	cont "--neem het!" ; "--take it!"
 	done
 
 SurfGuySurfExplanationText:
@@ -290,9 +290,9 @@ DanceTheaterCooltrainerMText:
 	text "Die man is altijd" ; "That man's always"
 	line "bij zijn RHYDON." ; "with his RHYDON."
 
-	para "Hij wil een #-" ; "Says he wants a"
-	line "MON die kan SURFen" ; "#MON that can"
-	cont "en dansen." ; "SURF and dance."
+	para "Zegt dat ie een" ; "Says he wants a"
+	line "#MON wil die" ; "#MON that can"
+	cont "SURFt en danst." ; "SURF and dance."
 
 	para "Probeert ie een" ; "Is he trying to"
 	line "synchroon-" ; "make a synchro-"

@@ -433,22 +433,22 @@ GuideGentNoText:
 CherrygroveRivalText_Seen:
 	text "…"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "Je hebt een #-" ; "You got a #MON"
+	line "MON uit het lab." ; "at the LAB."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Wat zonde. Een" ; "What a waste."
+	line "watje zoals jij." ; "A wimp like you."
 
 	para "…"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Hoor je niet wat" ; "Don't you get what"
+	line "ik zeg?" ; "I'm saying?"
 
-	para "Well, I too, have"
-	line "a good #MON."
+	para "Nou, ik heb ook" ; "Well, I too, have"
+	line "een goede #MON." ; "a good #MON."
 
-	para "I'll show you"
-	line "what I mean!"
+	para "Ik laat je zien" ; "I'll show you"
+	line "wat ik bedoel!" ; "what I mean!"
 	done
 
 RivalCherrygroveWinText:
@@ -459,12 +459,12 @@ RivalCherrygroveWinText:
 CherrygroveRivalText_YouLost:
 	text "…"
 
-	para "My name's ???."
+	para "Ik heet ???." ; "My name's ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ik ga de beste" ; "I'm going to be"
+	line "#MON-trainer" ; "the world's great-"
+	cont "ter wereld worden." ; "est #MON"
+	; cont "trainer."
 	done
 
 RivalCherrygroveLossText:
@@ -475,12 +475,12 @@ RivalCherrygroveLossText:
 CherrygroveRivalText_YouWon:
 	text "…"
 
-	para "My name's ???."
+	para "Ik heet ???." ; "My name's ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Ik ga de beste" ; "I'm going to be"
+	line "#MON-trainer" ; "the world's great-"
+	cont "ter wereld worden." ; "est #MON"
+	; cont "trainer."
 	done
 
 CherrygroveTeacherText_NoMapCard:

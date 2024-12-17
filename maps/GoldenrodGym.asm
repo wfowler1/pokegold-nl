@@ -198,15 +198,15 @@ WhitneyBeforeText:
 	cont "je--ik ben goed!" ; "you--I'm good!"
 	done
 
-WhitneyShouldntBeSoSeriousText:
-	text "Sob…"
+WhitneyShouldntBeSoSeriousText: ; AlwaysReplace
+	text "Snik…" ; "Sob…"
 
 	para "…Waaaaaaah!"
-	line "You're mean!"
+	line "Je bent gemeen!" ; "You're mean!"
 
-	para "You shouldn't be"
-	line "so serious! You,"
-	cont "you, child, you!"
+	para "Je moet niet zo" ; "You shouldn't be"
+	line "serieus zijn! Jij…" ; "so serious! You…"
+	cont "jij kleuter, jij!" ; "you child, you!"
 	done
 
 WhitneyYouMeanieText:
@@ -218,19 +218,19 @@ WhitneyYouMeanieText:
 	line "…Jij gemenerd!" ; "…You meanie!"
 	done
 
-WhitneyWhatDoYouWantText:
-	text "…Sniff…"
+WhitneyWhatDoYouWantText: ; AlwaysReplace
+	text "…Snotter…" ; "…Sniff…"
 
-	para "What? What do you"
-	line "want? A BADGE?"
+	para "Wat? Wat wil" ; "What? What do you"
+	line "je? Een BADGE?" ; "want? A BADGE?"
 
-	para "Oh, right. I for-"
-	line "got. Here's PLAIN-"
-	cont "BADGE."
+	para "Oh, juist." ; "Oh, right."
+	line "Vergeten. Hier is" ; "I forgot. Here's"
+	cont "de SIMPELBADGE." ; "PLAINBADGE."
 	done
 
 PlayerReceivedPlainBadgeText:
-	text "<PLAYER> ontvangt" ; "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "SIMPELBADGE." ; "PLAINBADGE."
 	done
 

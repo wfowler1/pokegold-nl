@@ -104,37 +104,37 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 VioletPokecenterElmsAideFavorText:
-	text "<PLAYER>, long"
-	line "time, no see."
+	text "<PLAYER>, lang" ; "<PLAYER>, long"
+	line "niet gezien." ; "time, no see."
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "PROF.ELM vroeg of" ; "PROF.ELM asked me"
+	line "ik je kon vinden." ; "to find you."
 
-	para "He has another"
-	line "favor to ask."
+	para "Hij wil je om nog" ; "He has another"
+	line "een gunst vragen." ; "favor to ask."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Wil je passen op" ; "Would you take the"
+	line "het #MON-EI?" ; "#MON EGG?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "We discovered that"
-	line "a #MON will not"
+	text "We ontdekten dat" ; "We discovered that"
+	line "een #MON pas" ; "a #MON will not"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "uit een EI komt" ; "hatch until it"
+	line "als het groeit." ; "grows in the EGG."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "Dat gebeurt alleen" ; "It also has to be"
+	line "in de buurt van" ; "with other active"
+	cont "andere #MON." ; "#MON to hatch."
 
-	para "<PLAYER>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "<PLAYER>, jij" ; "<PLAYER>, you're"
+	line "bent de enige op" ; "the only person"
+	cont "wie we aan kunnen." ; "we can rely on."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "Bel alsjeblieft" ; "Please call PROF."
+	line "PROF.ELM als het" ; "ELM when that EGG"
+	cont "EI uitkomt!" ; "hatches!"
 	done
 
 VioletCityElmsAideFullPartyText:
@@ -153,8 +153,8 @@ VioletPokecenterElmsAideRefuseText:
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAYER>, will you"
-	line "take the EGG?"
+	text "<PLAYER>, neem je" ; "<PLAYER>, will you"
+	line "het EI mee?" ; "take the EGG?"
 	done
 
 VioletPokecenter1FSuperNerdText:

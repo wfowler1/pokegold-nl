@@ -146,35 +146,35 @@ RuinsOfAlphOutsideScientistText:
 	cont "den. Kom mee." ; "DEX. Follow me."
 	done
 
-SuperNerdEricUnusedSeenText: ; EqualsCrystal SuperNerdStanSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+SuperNerdEricUnusedSeenText: ; ReplaceWith SuperNerdStanSeenText:
+	text "Wat wil je? Ik ben" ; "What do you want?"
+	line "aan het studeren," ; "I'm studying--"
+	cont "laat me met rust!" ; "don't disturb me!"
 	done
 
-SuperNerdEricUnusedBeatenText: ; EqualsCrystal SuperNerdStanBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
+SuperNerdEricUnusedBeatenText: ; ReplaceWith SuperNerdStanBeatenText:
+	text "Sorry… Ik"
+	line "ben gefrustreerd" ; "I'm frustrated by"
 
-	para "our lack of real"
-	line "understanding…"
+	para "omdat we er niks" ; "our lack of real"
+	line "van snappen…" ; "understanding…"
 	done
 
-SuperNerdEricUnusedAfterBattleText: ; EqualsCrystal SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
+SuperNerdEricUnusedAfterBattleText: ; ReplaceWith SuperNerdStanAfterBattleText:
+	text "De RUÏNES zijn" ; "The RUINS are from"
+	line "ongeveer 1500 jaar" ; "about 1500 years"
+	cont "oud." ; "ago."
 
-	para "Nobody knows who"
-	line "built them."
+	para "We weten niet wie" ; "Nobody knows who"
+	line "ze heeft gebouwd." ; "built them."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
+	para "We weten ook niet" ; "It's also not"
+	line "of de #MON-" ; "known if the #-"
+	cont "beelden iets" ; "MON statues have"
+	cont "betekenen." ; "any meaning."
 
-	para "It's all one big"
-	line "mystery…"
+	para "Het is één groot" ; "It's all one big"
+	line "mysterie…" ; "mystery…"
 	done
 
 PsychicNathanSeenText:
@@ -197,16 +197,16 @@ RuinsOfAlphOutsideMysteryChamberSignText:
 	done
 
 RuinsOfAlphSignText:
-	text "RUINS OF ALPH"
-	line "Visitors Welcome"
+	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
+	line "Bezoekers Welkom" ; "Visitors Welcome"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
+	text "RUÏNES VAN ALF" ; "RUINS OF ALPH"
+	line "ONDERZOEKSCENTRUM" ; "RESEARCH CENTER"
 
-	para "The Authority on"
-	line "the RUINS OF ALPH"
+	para "De Kenner van de" ; "The Authority on"
+	line "RUÏNES VAN ALF" ; "the RUINS OF ALPH"
 	done
 
 

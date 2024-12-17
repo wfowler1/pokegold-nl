@@ -147,19 +147,19 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 	step_end
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "Welkom!" ; "Welcome!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Hiernaast mag je" ; "You may exchange"
+	line "jouw munten in-" ; "your coins for"
 
-	para "fabulous prizes"
-	line "next door."
+	para "wisselen voor" ; "fabulous prizes"
+	line "prachtige prijzen." ; "next door."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Deze spelautomaten" ; "The slot machines"
+	line "zijn het modernst" ; "are all state of"
+	cont "van allemaal." ; "the art."
 	done
 
 CeladonGameCornerTeacherText:
@@ -196,22 +196,22 @@ CeladonGameCornerFisherText1:
 	done
 
 CeladonGameCornerFisherText2:
-	text "Gahahaha!"
+	text "Gahahaha!" ; "Gahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
+	para "Het voelt goed om" ; "It makes me feel"
+	line "aardige dingen te" ; "good to do nice"
 
-	para "things for other"
-	line "people!"
+	para "doen voor andere" ; "things for other"
+	line "mensen!" ; "people!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a COIN CASE."
+	text "Hey, je hebt geen" ; "Hey, you don't"
+	line "GELDKISTJE." ; "have a COIN CASE."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Hoe moet ik je" ; "How am I supposed"
+	line "nu munten geven," ; "to give you any"
+	cont "kind?" ; "coins, kid?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
@@ -247,35 +247,35 @@ CeladonGameCornerGrampsText:
 	done
 
 CeladonGameCornerPoster1Text:
-	text "Hey!"
+	text "He!" ; "Hey!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Onder deze" ; "Underneath this"
+	line "poster…" ; "poster…"
 
-	para "There's nothing!"
+	para "Zit niets!" ; "There's nothing!"
 	done
 
 CeladonGameCornerPoster2Text:
-	text "Hey!"
+	text "He!" ; "Hey!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Onder deze" ; "Underneath this"
+	line "poster…" ; "poster…"
 
-	para "There's nothing!"
+	para "Zit niets!" ; "There's nothing!"
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Er is hier een" ; "There's a lighter"
+	line "aansteker." ; "here."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Blikje frisdrank…" ; "A can of soda…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Er komt vast ie-" ; "Someone must be"
+	line "mand voor terug…" ; "coming back…"
 
-	para "Huh? It's empty!"
+	para "Huh? Leeg!" ; "Huh? It's empty!"
 	done
 
 CeladonGameCorner_MapEvents:

@@ -172,11 +172,11 @@ ClairIntroText:
 	done
 
 ClairWinText:
-	text "I lost?"
+	text "Ik heb verloren?" ; "I lost?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake…"
+	para "Niet te geloven." ; "I don't believe"
+	line "Het moet een" ; "it. There must be"
+	cont "vergissing zijn." ; "some mistake…"
 	done
 
 ClairText_GoToDragonsDen:
@@ -252,21 +252,21 @@ BlackthornGymClairText_YouKeptMeWaiting:
 	done
 
 BlackthornGymText_ReceivedTM24: ; unreferenced
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "TM24."
 	done
 
 BlackthornGymClairText_DescribeTM24:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Dat bevat" ; "That contains"
+	line "DRAKENADEM" ; "DRAGONBREATH."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Nee, het heeft" ; "No, it doesn't"
+	line "niks met mijn" ; "have anything to"
+	cont "adem te maken." ; "do with my breath."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Als je het niet" ; "If you don't want"
+	line "wil, dan neem je" ; "it, you don't have"
+	cont "het niet." ; "to take it."
 	done
 
 BlackthornGymClairText_League:
@@ -302,11 +302,11 @@ BlackthornGymClairText_League:
 	done
 
 CooltrainermPaulSeenText:
-	text "Your first battle"
-	line "against dragons?"
+	text "Je eerste gevecht" ; "Your first battle"
+	line "tegen draken?" ; "against dragons?"
 
-	para "I'll show you how"
-	line "tough they are!"
+	para "Ik laat zien hoe" ; "I'll show you how"
+	line "sterk ze zijn!" ; "tough they are!"
 	done
 
 CooltrainermPaulBeatenText:
@@ -322,83 +322,83 @@ CooltrainermPaulAfterBattleText:
 	done
 
 CooltrainermMikeSeenText:
-	text "My chance of"
-	line "losing? Not even"
-	cont "one percent!"
+	text "De kans dat ik" ; "My chance of"
+	line "verlies? Minder" ; "losing? Not even"
+	cont "dan een procent!" ; "one percent!"
 	done
 
 CooltrainermMikeBeatenText:
-	text "That's odd."
+	text "Wat vreemd." ; "That's odd."
 	done
 
 CooltrainermMikeAfterBattleText:
-	text "I know my short-"
-	line "comings now."
+	text "Ik weet nu wat ik" ; "I know my short-"
+	line "tekortkwam." ; "comings now."
 
-	para "Thanks for showing"
-	line "me!"
+	para "Bedankt dat je mij" ; "Thanks for showing"
+	line "dat liet zien!" ; "me!"
 	done
 
 CooltrainerfLolaSeenText:
-	text "Dragons are sacred"
-	line "#MON."
+	text "Draken zijn" ; "Dragons are sacred"
+	line "heilige #MON." ; "#MON."
 
-	para "They are full of"
-	line "life energy."
+	para "Ze zitten vol" ; "They are full of"
+	line "levensenergie." ; "life energy."
 
-	para "If you're not"
-	line "serious, you won't"
+	para "Als je niet" ; "If you're not"
+	line "serieus bent, kun" ; "serious, you won't"
 
-	para "be able to beat"
-	line "them."
+	para "je ze niet" ; "be able to beat"
+	line "verslaan." ; "them."
 	done
 
 CooltrainerfLolaBeatenText:
-	text "Way to go!"
+	text "Goed gedaan!" ; "Way to go!"
 	done
 
 CooltrainerfLolaAfterBattleText:
-	text "Dragons are weak"
-	line "against dragon-"
-	cont "type moves."
+	text "Draken zijn zwwak" ; "Dragons are weak"
+	line "tegen draak-type" ; "against dragon-"
+	cont "aanvallen." ; "type moves."
 	done
 
 BlackthornGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! Kampioen in" ; "Yo! CHAMP in"
+	line "het verschiet!" ; "making!"
 
-	para "It's been a long"
-	line "journey, but we"
+	para "Het was een lange" ; "It's been a long"
+	line "reis, maar we zijn" ; "journey, but we"
 
-	para "are almost done!"
-	line "Count on me!"
+	para "bijna klaar! Reken" ; "are almost done!"
+	line "maar op mij!" ; "Count on me!"
 
-	para "CLAIR uses the"
-	line "mythical and sac-"
-	cont "red dragon-type"
+	para "CLAIR gebruikt" ; "CLAIR uses the"
+	line "mythische en" ; "mythical and sac-"
+	cont "heilige draak-type" ; "red dragon-type"
 	cont "#MON."
 
-	para "You can't damage"
-	line "them very easily."
+	para "Je kunt ze niet" ; "You can't damage"
+	line "zomaar verwonden." ; "them very easily."
 
-	para "But you know,"
-	line "they're supposed"
+	para "Maar weet je, het" ; "But you know,"
+	line "schijnt dat ze" ; "they're supposed"
 
-	para "to be weak against"
-	line "ice-type moves."
+	para "zwak zijn tegen" ; "to be weak against"
+	line "ijs-aanvallen." ; "ice-type moves."
 	done
 
 BlackthornGymGuideWinText:
-	text "You were great to"
-	line "beat CLAIR!"
+	text "Je was geweldig" ; "You were great to"
+	line "tegen CLAIR!" ; "beat CLAIR!"
 
-	para "All that's left is"
-	line "the #MON LEAGUE"
-	cont "challenge."
+	para "Nu volgt alleen" ; "All that's left is"
+	line "nog de #MON-" ; "the #MON LEAGUE"
+	cont "LEAGUE-uitdaging." ; "challenge."
 
-	para "You're on the way"
-	line "to becoming the"
-	cont "#MON CHAMPION!"
+	para "Je bent op weg om" ; "You're on the way"
+	line "#MON-KAMPIOEN" ; "to becoming the"
+	cont "te worden!" ; "#MON CHAMPION!"
 	done
 
 BlackthornGym1F_MapEvents:

@@ -22,23 +22,24 @@ CeladonPokecenter1FPharmacistScript:
 	jumptextfaceplayer CeladonPokecenter1FPharmacistText
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
-	line "of grass #MON."
+	text "ERIKA is een" ; "ERIKA is a master"
+	line "meester van gras-" ; "of grass #MON."
+	cont "#MON." ; 
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Ze rekent met je" ; "She'll make you"
+	line "af als je niet" ; "pay if you don't"
+	cont "uitkijkt." ; "watch yourself."
 	done
 
 CeladonPokecenter1FPharmacistText:
 	text "TEAM ROCKET's"
-	line "hideout is in the"
+	line "schuilplaats is" ; "hideout is in the"
 
-	para "basement of the"
-	line "GAME CORNER."
+	para "in de kelder van" ; "basement of the"
+	line "de SPELHOEK." ; "GAME CORNER."
 
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "Oh, wacht. Dat was" ; "Oh, wait. That was"
+	line "drie jaar geleden." ; "three years ago."
 	done
 
 CeladonPokecenter1F_MapEvents:

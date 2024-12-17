@@ -436,9 +436,9 @@ KurtsGranddaughterLonelyText:
 	line "I'm so lonely…"
 	done
 
-KurtsGranddaughterSlowpokeBackText:
+KurtsGranddaughterSlowpokeBackText: ; AlwaysReplace
 	text "The SLOWPOKE my"
-	line "Dad gave me came"
+	line "dad gave me came"
 
 	para "back! Its TAIL is"
 	line "growing back too!"

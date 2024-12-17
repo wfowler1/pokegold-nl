@@ -414,41 +414,72 @@ GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 	line "geen GELDKISTJE." ; "a COIN CASE."
 	done
 
-GoldenrodGameCornerPharmacistText:
-	text "I always play this"
-	line "slot machine. It"
-
-	para "pays out more than"
-	line "others, I think."
+GoldenrodGameCornerPharmacistText: ; AlwaysReplace
+if DEF(_CRYSTAL_AU)
+	text "Deze machine ziet" ; "This machine looks"
+	line "er hetzelfde uit" ; "the same as the"
+	cont "als de anderen." ; "others."
 	done
+else
+	text "Ik speel altijd" ; "I always play this"
+	line "deze spelautomaat." ; "slot machine. It"
 
-GoldenrodGameCornerPokefanM1Text:
-	text "I just love this"
-	line "new slot machine."
-
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
+	para "Hij betaalt meer" ; "pays out more than"
+	line "uit dan anderen," ; "others, I think."
+	cont "denk ik." ; 
 	done
+endc
 
-GoldenrodGameCornerCooltrainerMText:
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+GoldenrodGameCornerPokefanM1Text: ; AlwaysReplace
+if DEF(_CRYSTAL_AU)
+	text "Deze automaten" ; "These machines"
+	line "lijken anders" ; "seem different"
+
+	para "dan die in" ; "from the ones at"
+	line "CELADON CITY!"
 	done
+else
+	text "Ik hou van deze" ; "I just love this"
+	line "nieuwe automaat." ; "new slot machine."
 
-GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
-
-	para "I prefer it over"
-	line "the slots because"
-
-	para "it's easier to"
-	line "figure the odds."
-
-	para "But the payout is"
-	line "much lower."
+	para "Hij is uitdagender" ; "It's more of a"
+	line "dan de automaat" ; "challenge than the"
+	cont "in CELADON." ; "ones in CELADON."
 	done
+endc
+
+GoldenrodGameCornerCooltrainerMText: ; AlwaysReplace
+if DEF(_CRYSTAL_AU)
+	text "Niets is zeker" ; "Nothing is certain"
+	line "op dit gebied." ; "in this area."
+	done
+else
+	text "Het leven is een" ; "Life is a gamble."
+	line "gok. Ik ga kaarten" ; "I'm going to flip"
+	cont "flippen tot ik er" ; "cards till I drop!"
+	cont "bij neerval!"
+	done
+endc
+
+GoldenrodGameCornerPokefanFText: ; AlwaysReplace
+	text "Kaartflipper…" ; "Card flip…"
+
+if DEF(_CRYSTAL_AU)
+	para "Anders dan de" ; "Different from the"
+	line "andere automaten." ; "other machines."
+	done
+else
+	para "Ik heb dit liever" ; "I prefer it over"
+	line "dan de automaten," ; "the slots because"
+
+	para "het is simpeler" ; "it's easier to"
+	line "om de kansen te" ; "figure the odds."
+
+	para "berekenen. Maar de" ; "But the payout is"
+	line "bedragen zijn " ; "much lower."
+	cont "lager." ;
+	done
+endc
 
 GoldenrodGameCornerCooltrainerFText:
 	text "Ik stop niet tot" ; "I won't quit until"
@@ -468,17 +499,19 @@ GoldenrodGameCornerGentlemanText:
 	done
 
 GoldenrodGameCornerPokefanM2Text:
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Ik kon niet win-" ; "I couldn't win at"
+	line "nen bij de auto-" ; "the slots, and I"
 
-	para "blew it on card"
-	line "flipping…"
+	para "maten, en ik heb" ; "blew it on card"
+	line "het bij kaarten" ; "flipping…"
+	cont "flippen verpest…"
 
-	para "I got so furious,"
-	line "I tossed out my"
+	para "Ik werd zo kwaad," ; "I got so furious,"
+	line "dat ik m'n GELD-" ; "I tossed out my"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "KISTJE in het" ; "COIN CASE in the"
+	line "ONDERGRONDSE heb" ; "UNDERGROUND."
+	cont "gegooid." ;
 	done
 
 GoldenrodGameCorner_MapEvents:

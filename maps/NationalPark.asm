@@ -276,72 +276,72 @@ NationalParkHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 NationalParkLassText:
-	text "Look! Check out my"
-	line "bag!"
+	text "Kijk! Moet je mijn" ; "Look! Check out my"
+	line "tas zien!" ; "bag!"
 
-	para "I printed out my"
-	line "favorites from my"
+	para "Ik heb mijn" ; "I printed out my"
+	line "favorieten uit de" ; "favorites from my"
 
-	para "#DEX and stuck"
-	line "them on my bag."
+	para "#DEX afgedrukt" ; "#DEX and stuck"
+	line "en er opgeplakt." ; "them on my bag."
 	done
 
 NationalParkPokefanFText:
-	text "This is MAIL I got"
-	line "from my daughter."
-	cont "It cheers me up."
+	text "Deze POST kreeg ik" ; "This is MAIL I got"
+	line "van mijn dochter." ; "from my daughter."
+	cont "Word ik blij van." ; "It cheers me up."
 	done
 
 NationalParkTeacher1Text:
-	text "Pay attention,"
-	line "please!"
+	text "Opletten," ; "Pay attention,"
+	line "alsjeblieft!" ; "please!"
 
-	para "…Oops, I have to"
-	line "quit thinking like"
+	para "…Oeps. Ik moet" ; "…Oops, I have to"
+	line "stoppen steeds te" ; "quit thinking like"
 
-	para "a teacher all the"
-	line "time."
+	para "denken als een." ; "a teacher all the"
+	line "leraar" ; "time."
 
-	para "You must be a"
-	line "#MON trainer."
+	para "Jij bent vast een" ; "You must be a"
+	line "#MON-trainer." ; "#MON trainer."
 
-	para "Since you're work-"
-	line "ing so hard, I"
+	para "Gezien je zo hard" ; "Since you're work-"
+	line "werkt, wil ik dit" ; "ing so hard, I"
 
-	para "want you to have"
-	line "this."
+	para "graag aan je" ; "want you to have"
+	line "geven." ; "this."
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #MON hold"
-	line "that QUICK CLAW."
+	text "Geef een #MON" ; "Let a #MON hold"
+	line "die SNELKLAUW." ; "that QUICK CLAW."
 
-	para "Sometimes it will"
-	line "strike first"
-	cont "during battle."
+	para "Die zal dan soms" ; "Sometimes it will"
+	line "als eerste in ge-" ; "strike first"
+	cont "vechten toeslaan." ; "during battle."
 	done
 
 NationalParkYoungster1Text:
-	text "I'm playing with"
-	line "stickers I printed"
-	cont "from my #DEX."
+	text "Ik speel met" ; "I'm playing with"
+	line "stickers geprint" ; "stickers I printed"
+	cont "uit de #DEX." ; "from my #DEX."
 	done
 
 NationalParkYoungster2Text:
-	text "I get the other"
-	line "guy's #DEX"
-	cont "sticker if I win."
+	text "Ik krijg stickers" ; "I get the other"
+	line "van die ander als" ; "guy's #DEX"
+	cont "ik win." ; "sticker if I win."
 	done
 
 NationalParkTeacher2Text:
-	text "I take walks in"
-	line "the PARK, but I"
+	text "Ik wandel in het" ; "I take walks in"
+	line "het PARK, maar" ; "the PARK, but I"
 
-	para "never go into the"
-	line "grass."
+	para "loop nooit in het" ; "never go into the"
+	line "gras." ; "grass."
 
-	para "Trainers always"
-	line "want to battle…"
+	para "Trainers willen" ; "Trainers always"
+	line "altijd vechten…" ; "want to battle…"
 	done
 
 NationalParkPersianText:
@@ -349,43 +349,43 @@ NationalParkPersianText:
 	done
 
 NationalParkGameboyKidText:
-	text "I'm printing out"
-	line "my #DEX."
+	text "Ik druk mijn" ; "I'm printing out"
+	line "#DEX af." ; "my #DEX."
 
-	para "You can also print"
-	line "out stuff like"
+	para "Je kunt ook dingen" ; "You can also print"
+	line "als POST en je" ; "out stuff like"
 
-	para "MAIL and your PC"
-	line "BOXES."
+	para "PC-BOXEN" ; "MAIL and your PC"
+	line "afdrukken." ; "BOXES."
 	done
 
 SchoolboyJack1SeenText:
-	text "The world of"
-	line "#MON is deep."
+	text "De wereld van" ; "The world of"
+	line "#MON is diep." ; "#MON is deep."
 
-	para "There are still"
-	line "lots of things we"
-	cont "don't know."
+	para "Er is veel dat" ; "There are still"
+	line "we nog steeds" ; "lots of things we"
+	cont "niet weten." ; "don't know."
 
-	para "But I know more"
-	line "than you do!"
+	para "Maar ik weet meer" ; "But I know more"
+	line "dan jij!" ; "than you do!"
 	done
 
 SchoolboyJack1BeatenText:
-	text "Wha-wha-what?"
+	text "Wa-wa-wat?" ; "Wha-wha-what?"
 	done
 
-SchoolboyJackTradeMonText:
-	text "There is a lot"
-	line "to learn."
+SchoolboyJackTradeMonText: ; AlwaysReplace
+	text "Er is nog veel te" ; "There is a lot"
+	line "leren." ; "to learn."
 
-	para "For example…"
+	para "Bijvoorbeeld…" ; "For example…"
 
-	para "There are {d:NUM_TMS} kinds"
-	line "of TM."
+	para "Er zijn {d:NUM_TMS} soorten" ; "There are {d:NUM_TMS} kinds"
+	line "TMs." ; "of TMs."
 
-	para "Traded #MON"
-	line "level up faster."
+	para "Geruilde #MON" ; "Traded #MON"
+	line "groeien sneller." ; "level up faster."
 	done
 
 PokefanfBeverly1SeenText:
@@ -411,31 +411,31 @@ PokefanBeverlyCuteMonText:
 	done
 
 PokefanmWilliamSeenText:
-	text "We adore our #-"
-	line "MON, even if they"
-	cont "dislike us."
+	text "We adoreren onze" ; "We adore our #-"
+	line "#MON, zelfs als" ; "MON, even if they"
+	cont "ze ons niet mogen." ; "dislike us."
 
-	para "That's what being"
-	line "a FAN is about."
+	para "Dat is het leven" ; "That's what being"
+	line "van een FAN." ; "a FAN is about."
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #MON!"
+	text "M-mijn #MON!" ; "M-my #MON!"
 	done
 
 PokefanmWilliamAfterBattleText:
-	text "I lost the battle,"
-	line "but my #MON win"
+	text "Ik verloor het" ; "I lost the battle,"
+	line "gevecht, maar mijn" ; "but my #MON win"
 
-	para "the prize for"
-	line "being most lovely."
+	para "#MON blijft de" ; "the prize for"
+	line "schattigste." ; "being most lovely."
 	done
 
 LassKriseSeenText:
-	text "Hello? Why are you"
-	line "staring at me?"
+	text "Hallo? Waarom" ; "Hello? Why are you"
+	line "staar je naar me?" ; "staring at me?"
 
-	para "Oh, a battle?"
+	para "Oh, een gevecht?" ; "Oh, a battle?"
 	done
 
 LassKriseBeatenText:
@@ -452,27 +452,27 @@ LassKriseAfterBattleText:
 	done
 
 NationalParkRelaxationSquareText:
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "ONTSPANPLEIN" ; "RELAXATION SQUARE"
+	line "NATIONAAL PARK" ; "NATIONAL PARK"
 	done
 
 NationalParkBattleNoticeText:
-	text "What is this"
-	line "notice?"
+	text "Wat is dit voor" ; "What is this"
+	line "bericht?" ; "notice?"
 
-	para "Please battle only"
-	line "in the grass."
+	para "Vecht alleen in" ; "Please battle only"
+	line "het gras." ; "in the grass."
 
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	para "NATIONAAL PARK" ; "NATIONAL PARK"
+	line "BOSWACHTERSHUISJE" ; "WARDEN'S OFFICE"
 	done
 
 NationalParkTrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
-	para "Print out MAIL by"
-	line "opening it then"
-	cont "pressing START."
+	para "Print POST door 't" ; "Print out MAIL by"
+	line "te openen en op" ; "opening it then"
+	cont "START te drukken." ; "pressing START."
 	done
 
 NationalPark_MapEvents:

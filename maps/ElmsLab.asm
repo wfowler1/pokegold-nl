@@ -786,7 +786,7 @@ ElmDirectionsText3:
 
 GotElmsNumberText:
 	text "<PLAYER> kreeg ELM's" ; "<PLAYER> got ELM's"
-	line "telefoonnummer."
+	line "telefoonnummer." ; "phone number."
 	done
 
 ElmDescribesMrPokemonText:
@@ -818,12 +818,12 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAYER>, this"
-	line "is terrible…"
+	text "ELM: <PLAYER>, het" ; "ELM: <PLAYER>, this"
+	line "is afschuwelijk…" ; "is terrible…"
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "Oh, ja, wat was de" ; "Oh, yes, what was"
+	line "ontdekking van" ; "MR.#MON's big"
+	cont "MR.#MON?" ; "discovery?"
 	done
 
 ElmAfterTheftText2:
@@ -837,7 +837,7 @@ ElmAfterTheftText3:
 	done
 
 ElmAfterTheftText4:
-	text "Naar… Is het een" ; "But… Is it a"
+	text "Maar… Is het een" ; "But… Is it a"
 	line "#MON EI?" ; "#MON EGG?"
 
 	para "Zo ja, dan is dit" ; "If it is, it is a"
@@ -845,49 +845,49 @@ ElmAfterTheftText4:
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "ELM: Wat?!?" ; "ELM: What?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "PROF.OAK gaf je" ; "PROF.OAK gave you"
+	line "een #DEX?" ; "a #DEX?"
 
-	para "<PLAYER>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAYER>, echt" ; "<PLAYER>, is that"
+	line "waar? D-dat is" ; "true? Th-that's"
+	cont "geweldig!" ; "incredible!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Hij ziet als geen" ; "He is superb at"
+	line "ander of mensen" ; "seeing the poten-"
+	cont "potentie hebben" ; "tial of people as"
+	cont "als trainers." ; "trainers."
 
-	para "Wow, <PLAYER>. You"
-	line "may have what it"
+	para "Wauw, <PLAYER>. Je" ; "Wow, <PLAYER>. You"
+	line "hebt het wellicht" ; "may have what it"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "in je om KAMPIOEN" ; "takes to become"
+	line "te worden." ; "the CHAMPION."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Je lijkt ook goed" ; "You seem to be"
+	line "op te schieten met" ; "getting on great"
+	cont "jouw #MON." ; "with #MON too."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "Overweeg de" ; "You should take"
+	line "#MON GYM-uit-" ; "the #MON GYM"
+	cont "daging te doen." ; "challenge."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "De eerste GYM is" ; "The closest GYM"
+	line "is verderop in" ; "would be the one"
+	cont "VIOLET CITY." ; "in VIOLET CITY."
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAYER>. The"
-	line "road to the"
+	text "…<PLAYER>. Het" ; "…<PLAYER>. The"
+	line "pad om kampioen te" ; "road to the"
 
-	para "championship will"
-	line "be a long one."
+	para "worden is een" ; "championship will"
+	line "lastige." ; "be a long one."
 
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "Praat voor je gaat" ; "Before you leave,"
+	line "ook nog even met" ; "make sure that you"
+	cont "je moeder." ; "talk to your mom."
 	done
 
 ElmStudyingEggText:
@@ -900,18 +900,18 @@ ElmStudyingEggText:
 
 ElmAideHasEggText:
 	text "ELM: <PLAYER>?"
-	line "Didn't you meet my"
-	cont "assistant?"
+	line "Heb je gesproken" ; "Didn't you meet my"
+	cont "met m'n assistent?" ; "assistant?"
 
-	para "He should have met"
-	line "you with the EGG"
+	para "Hij zou naar je" ; "He should have met"
+	line "komen met het EI" ; "you with the EGG"
 
-	para "at VIOLET CITY's"
+	para "in VIOLET CITY's" ; "at VIOLET CITY's"
 	line "#MON CENTER."
 
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "Je hebt hem vast" ; "You must have just"
+	line "gemist, probeer" ; "missed him. Try to"
+	cont "'m daar te vinden." ; "catch him there."
 	done
 
 ElmWaitingEggHatchText:
@@ -920,16 +920,16 @@ ElmWaitingEggHatchText:
 	done
 
 ElmThoughtEggHatchedText:
-	text "<PLAYER>? I thought"
-	line "the EGG hatched."
+	text "<PLAYER>? Kwam het" ; "<PLAYER>? I thought"
+	line "EI uit? Ja toch?" ; "the EGG hatched."
 
-	para "Where is the"
+	para "Waar is de" ; "Where is the"
 	line "#MON?"
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAYER>, you"
-	line "look great!"
+	text "ELM: <PLAYER>, je" ; "ELM: <PLAYER>, you"
+	line "ziet er goed uit!" ; "look great!"
 	done
 
 ShowElmTogepiText2:
@@ -951,15 +951,15 @@ ShowElmTogepiText3:
 	done
 
 ElmGiveEverstoneText1:
-	text "Thanks, <PLAYER>!"
-	line "You're helping"
+	text "Bedankt, <PLAYER>!" ; "Thanks, <PLAYER>!"
+	line "Je helpt geheimen" ; "You're helping"
 
-	para "unravel #MON"
-	line "mysteries for us!"
+	para "bij #MON te" ; "unravel #MON"
+	line "ontrafelen!" ; "mysteries for us!"
 
-	para "I want you to have"
-	line "this as a token of"
-	cont "our appreciation."
+	para "Neem dit maar als" ; "I want you to have"
+	line "blijk van onze" ; "this as a token of"
+	cont "waardering." ; "our appreciation."
 	done
 
 ElmGiveEverstoneText2:
@@ -983,9 +983,9 @@ ElmGiveEverstoneText2:
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAYER>, I'll"
-	line "call you if any-"
-	cont "thing comes up."
+	text "ELM: <PLAYER>, ik" ; "ELM: <PLAYER>, I'll"
+	line "bel als er iets" ; "call you if any-"
+	cont "is." ; "thing comes up."
 	done
 
 AideText_AfterTheft:
@@ -1004,15 +1004,15 @@ AideText_AfterTheft:
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Hi, <PLAYER>!"
-	line "Thanks to you, my"
+	text "ELM: Hé, <PLAYER>!" ; "ELM: Hi, <PLAYER>!"
+	line "Dankzij jou gaat" ; "Thanks to you, my"
 
-	para "research is going"
-	line "great!"
+	para "mijn onderzoek" ; "research is going"
+	line "geweldig!" ; "great!"
 
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Neem dit als blijk" ; "Take this as a"
+	line "van mijn" ; "token of my"
+	cont "waardering." ; "appreciation."
 	done
 
 ElmGiveMasterBallText2:
@@ -1038,31 +1038,31 @@ ElmGiveMasterBallText2:
 
 ElmGiveTicketText1:
 	text "ELM: <PLAYER>!"
-	line "There you are!"
+	line "Daar ben je!" ; "There you are!"
 
-	para "I called because I"
-	line "have something for"
-	cont "you."
+	para "Ik belde omdat ik" ; "I called because I"
+	line "iets aan je wil" ; "have something for"
+	cont "geven." ; "you."
 
-	para "See? It's an"
-	line "S.S.TICKET."
+	para "Hier, het is een" ; "See? It's an"
+	line "BOOTKAARTJE." ; "S.S.TICKET."
 
-	para "Now you can catch"
-	line "#MON in KANTO."
+	para "Nu kun je #MON" ; "Now you can catch"
+	line "in KANTO vangen." ; "#MON in KANTO."
 	done
 
 ElmGiveTicketText2:
-	text "The ship departs"
-	line "from OLIVINE CITY."
+	text "Het schip vertrekt" ; "The ship departs"
+	line "uit OLIVINE CITY." ; "from OLIVINE CITY."
 
-	para "But you knew that"
-	line "already, <PLAYER>."
+	para "Maar dat wist je" ; "But you knew that"
+	line "al, <PLAYER>." ; "already, <PLAYER>."
 
-	para "After all, you've"
-	line "traveled all over"
-	cont "with your #MON."
+	para "Je bent immers al" ; "After all, you've"
+	line "overal geweest met" ; "traveled all over"
+	cont "jouw #MON." ; "with your #MON."
 
-	para "Give my regards to"
+	para "Doe de groeten aan" ; "Give my regards to"
 	line "PROF.OAK in KANTO!"
 	done
 
@@ -1073,9 +1073,9 @@ ElmsLabMonEggText: ; unreferenced
 	done
 
 AideText_GiveYouPotion:
-	text "<PLAYER>, I want"
-	line "you to have this"
-	cont "for your errand."
+	text "<PLAYER>, ik wil" ; "<PLAYER>, I want"
+	line "je dit geven voor" ; "you to have this"
+	cont "je klusje." ; "for your errand."
 	done
 
 AideText_AlwaysBusy:
@@ -1112,8 +1112,8 @@ AideText_TheftTestimony:
 AideText_GiveYouBalls:
 	text "<PLAYER>!"
 
-	para "Use these on your"
-	line "#DEX quest!"
+	para "Gebruik deze op je" ; "Use these on your"
+	line "#DEX-missie!" ; "#DEX quest!"
 	done
 
 AideText_ExplainBalls:

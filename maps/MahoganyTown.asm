@@ -157,21 +157,21 @@ RageCandyBarMerchantTryOneText:
 	done
 
 RageCandyBarMerchantSavorItText:
-	text "Good! Savor it!"
+	text "Top! Geniet ervan!" ; "Good! Savor it!"
 	done
 
 RageCandyBarMerchantNotEnoughMoneyText:
-	text "You don't have"
-	line "enough money."
+	text "Je hebt niet" ; "You don't have"
+	line "genoeg geld." ; "enough money."
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Oh, fine then…"
+	text "Oh, oké dan…" ; "Oh, fine then…"
 	done
 
 RageCandyBarMerchantNoRoomText:
-	text "You don't have"
-	line "room for this."
+	text "Je hebt er" ; "You don't have"
+	line "geen plek voor." ; "room for this."
 	done
 
 RageCandyBarMerchantSoldOutText:
@@ -184,63 +184,65 @@ RageCandyBarMerchantSoldOutText:
 	done
 
 MahoganyTownGrampsText:
-	text "Are you off to see"
-	line "the GYARADOS ram-"
-	cont "page at the LAKE?"
+	text "Ga je de GYARADOS-" ; "Are you off to see"
+	line "woede bekijken" ; "the GYARADOS ram-"
+	cont "bij het MEER?" ; "page at the LAKE?"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP have"
-	line "returned to LAKE"
-	cont "OF RAGE."
+	text "MAGIKARP zijn" ; "MAGIKARP have"
+	line "teruggekeerd in" ; "returned to LAKE"
+	cont "het MEER VAN" ; "OF RAGE."
+	cont "RAZERNIJ." ;
 
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	para "Dat is goed" ; "That should be"
+	line "nieuws voor de" ; "good news for the"
+	cont "vissers daar." ; "anglers there."
 	done
 
 MahoganyTownFisherText:
-	text "Since you came"
-	line "this far, take the"
+	text "Als je zo ver" ; "Since you came"
+	line "bent gekomen," ; "this far, take the"
 
-	para "time to do some"
-	line "sightseeing."
+	para "neem de tijd om" ; "time to do some"
+	line "rond te kijken." ; "sightseeing."
 
-	para "You should head"
-	line "north and check"
+	para "Ga naar het noord-" ; "You should head"
+	line "en en bekijk het" ; "north and check"
 
-	para "out LAKE OF RAGE"
-	line "right now."
+	para "MEER VAN RAZERNIJ" ; "out LAKE OF RAGE"
+	line "nu." ; "right now."
 	done
 
 MahoganyTownLassText:
-	text "Visit Grandma's"
-	line "shop. She sells"
+	text "Bezoek Oma's" ; "Visit Grandma's"
+	line "winkel. Ze ver-" ; "shop. She sells"
 
-	para "stuff that nobody"
-	line "else has."
+	para "koopt spul dat je" ; "stuff that nobody"
+	line "niet snel vindt." ; "else has."
 	done
 
 MahoganyTownSignText:
 	text "MAHOGANY TOWN"
 
-	para "Welcome to the"
-	line "Home of the Ninja"
+	para "Welkom bij het" ; "Welcome to the"
+	line "Huis van de Ninja" ; "Home of the Ninja"
 	done
 
-MahoganyTownRagecandybarSignText:
-	text "While Visiting"
-	line "MAHOGANY TOWN, Try"
-	cont "a RAGECANDYBAR!"
+MahoganyTownRagecandybarSignText: ; AlwaysReplace
+	text "Probeer de WOEDE-" ; "While visiting"
+	line "REEP tijdens je" ; "MAHOGANY TOWN, try"
+	cont "bezoek aan" ; "a RAGECANDYBAR!"
+	cont "MAHOGANY TOWN!" ;
 	done
 
 MahoganyGymSignText:
 	text "MAHOGANY TOWN"
-	line "#MON GYM"
-	cont "LEADER: PRYCE"
+	line "#MON-GYMLEIDER:"
+	cont "PRYCE" ; "LEADER: PRYCE"
 
-	para "The Teacher of"
-	line "Winter's Harshness"
+	para "De Leermeester van" ; "The Teacher of"
+	line "Winterse Hardheid" ; "Winter's Harshness"
 	done
 
 MahoganyTown_MapEvents:

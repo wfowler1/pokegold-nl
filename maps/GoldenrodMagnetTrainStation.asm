@@ -117,11 +117,11 @@ GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail PASS, please?"
+	text "Mag ik je" ; "May I see your"
+	line "TREINKAARTJE zien?" ; "rail PASS, please?"
 
-	para "OK. Right this"
-	line "way, sir."
+	para "Oké. Deze kant" ; "OK. Right this"
+	line "op, meneer." ; "way, sir."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:

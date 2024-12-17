@@ -123,9 +123,9 @@ TeacherHillaryAfterBattleText:
 	cont "is just as vital."
 	done
 
-SchoolboyKippSeenText:
+SchoolboyKippSeenText: ; AlwaysReplace
 	text "Hang on. I have to"
-	line "phone my Mom."
+	line "phone my mom."
 	done
 
 SchoolboyKippBeatenText:
@@ -133,8 +133,8 @@ SchoolboyKippBeatenText:
 	line "I was beaten!"
 	done
 
-SchoolboyKippAfterBattleText:
-	text "My Mom worries so"
+SchoolboyKippAfterBattleText: ; AlwaysReplace
+	text "My mom worries so"
 	line "much about me, I"
 
 	para "have to phone her"
@@ -193,8 +193,7 @@ SchoolboyBillyAfterBattleText:
 	done
 
 Route15SignText:
-; BUG: "Route 15" is not capitalized in a signpost (see docs/bugs_and_glitches.md)
-	text "Route 15"
+	text "ROUTE 15"
 
 	para "FUCHSIA CITY -"
 	line "LAVENDER TOWN"

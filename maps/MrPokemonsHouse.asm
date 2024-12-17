@@ -168,11 +168,11 @@ MrPokemonsHouse_OakExits:
 	step_end
 
 MrPokemonIntroText1:
-	text "Hello, hello! You"
-	line "must be <PLAYER>."
+	text "Hallo, hallo! Jij" ; "Hello, hello! You"
+	line "bent vast <PLAYER>." ; "must be <PLAYER>."
 
-	para "PROF.ELM said that"
-	line "you would visit."
+	para "PROF.ELM zei al" ; "PROF.ELM said that"
+	line "dat je langskwam." ; "you would visit."
 	done
 
 MrPokemonIntroText2:
@@ -189,7 +189,7 @@ MrPokemonsHouse_GotEggText:
 MrPokemonIntroText3:
 	text "Ik ken een stel" ; "I know a couple"
 	line "met een #MON-" ; "who run a #MON"
-	cont "OPVANG-dienst." ; "DAY-CARE service."
+	cont "Dagverblijf." ; "DAY-CARE service."
 
 	para "Zij gaven mij dit" ; "They gave me that"
 	line "EI." ; "EGG."
@@ -219,7 +219,7 @@ MrPokemonsHouse_MrPokemonHealText:
 	line "PROF.ELM?" ; "to PROF.ELM?"
 
 	para "Hier. Je #MON" ; "Here. Your #MON"
-	line "kunnen wel even" ; "should have some"
+	line "mag wel even" ; "should have some"
 	cont "uitrusten." ; "rest."
 	done
 
@@ -237,67 +237,67 @@ MrPokemonText_AlwaysNewDiscoveries:
 	done
 
 MrPokemonsHouse_OakText1:
-	text "OAK: Aha! So"
-	line "you're <PLAYER>!"
+	text "OAK: Aha! Dus jij" ; "OAK: Aha! So"
+	line "bent <PLAYER>!" ; "you're <PLAYER>!"
 
-	para "I'm OAK! A #MON"
-	line "researcher."
+	para "Ik ben OAK! Ik-" ; "I'm OAK! A #MON"
+	line "onderzoek #MON!" ; "researcher."
 
-	para "I was just visit-"
-	line "ing my old friend"
+	para "Ik bezocht net" ; "I was just visit-"
+	line "mijn oude vriend" ; "ing my old friend"
 	cont "MR.#MON."
 
-	para "I heard you were"
-	line "running an errand"
+	para "Ik hoorde dat je" ; "I heard you were"
+	line "een klusje doet" ; "running an errand"
 
-	para "for PROF.ELM, so I"
-	line "waited here."
+	para "voor PROF.ELM, dus" ; "for PROF.ELM, so I"
+	line "ik wachtte op je." ; "waited here."
 
-	para "Oh! What's this?"
-	line "A rare #MON!"
+	para "Wat is dit? Een" ; "Oh! What's this?"
+	line "zeldzame #MON!" ; "A rare #MON!"
 
-	para "Let's see…"
+	para "Eens zien…" ; "Let's see…"
 
-	para "Hm, I see!"
+	para "Ah, ik snap het!" ; "Hm, I see!"
 
-	para "I understand why"
-	line "PROF.ELM gave you"
+	para "PROF.ELM gaf jou" ; "I understand why"
+	line "deze #MON voor" ; "PROF.ELM gave you"
 
-	para "a #MON for this"
-	line "errand."
+	para "dit klusje, of" ; "a #MON for this"
+	line "niet soms?" ; "errand."
 
-	para "To researchers"
-	line "like PROF.ELM and"
+	para "Onderzoekers zoals" ; "To researchers"
+	line "PROF.ELM en ik" ; "like PROF.ELM and"
 
-	para "I, #MON are our"
-	line "friends."
+	para "zien #MON als" ; "I, #MON are our"
+	line "onze vrienden." ; "friends."
 
-	para "He saw that you"
-	line "would treat your"
+	para "Hij zag dat jij je" ; "He saw that you"
+	line "#MON met liefde" ; "would treat your"
 
-	para "#MON with love"
-	line "and care."
+	para "en zorg zou" ; "#MON with love"
+	line "behandelen." ; "and care."
 
 	para "…Ah!"
 
-	para "You seem to be"
-	line "dependable."
+	para "Op jou kan iemand" ; "You seem to be"
+	line "vertrouwen." ; "dependable."
 
-	para "How would you like"
-	line "to help me out?"
+	para "Wil je mij anders" ; "How would you like"
+	line "met iets helpen?" ; "to help me out?"
 
-	para "See? This is the"
-	line "latest version of"
+	para "Zie je dat? Het" ; "See? This is the"
+	line "is de nieuwste" ; "latest version of"
 	cont "#DEX."
 
-	para "It automatically"
-	line "records data on"
+	para "Hij bewaart auto-" ; "It automatically"
+	line "matisch data van" ; "records data on"
 
-	para "#MON you've"
-	line "seen or caught."
+	para "#MON die je" ; "#MON you've"
+	line "ziet of vangt." ; "seen or caught."
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Het is een hi-tech" ; "It's a hi-tech"
+	line "encyclopedie!" ; "encyclopedia!"
 	done
 
 MrPokemonsHouse_GetDexText:
@@ -306,37 +306,37 @@ MrPokemonsHouse_GetDexText:
 	done
 
 MrPokemonsHouse_OakText2:
-	text "Go meet many kinds"
-	line "of #MON and"
+	text "Ontmoet veel" ; "Go meet many kinds"
+	line "soorten #MON en" ; "of #MON and"
 
-	para "complete that"
-	line "#DEX!"
+	para "maak die #DEX" ; "complete that"
+	line "compleet!" ; "#DEX!"
 
-	para "But I've stayed"
-	line "too long."
+	para "Maar ik ben hier" ; "But I've stayed"
+	line "te lang gebleven." ; "too long."
 
-	para "I have to get to"
-	line "GOLDENROD for my"
-	cont "usual radio show."
+	para "Ik moet weer naar" ; "I have to get to"
+	line "GOLDENROD voor" ; "GOLDENROD for my"
+	cont "mijn radioshow." ; "usual radio show."
 
-	para "<PLAYER>, I'm"
-	line "counting on you!"
+	para "<PLAYER>, ik" ; "<PLAYER>, I'm"
+	line "reken op je!" ; "counting on you!"
 	done
 
 MrPokemonText_GimmeTheScale:
-	text "Hm? That SCALE!"
-	line "What's that?"
-	cont "A red GYARADOS?"
+	text "Hm? Die SCHAAL!" ; "Hm? That SCALE!"
+	line "Wat is dat?" ; "What's that?"
+	cont "Een rode GYARADOS?" ; "A red GYARADOS?"
 
-	para "That's rare! "
-	line "I, I want it…"
+	para "Dat is zeldzaam!" ; "That's rare! "
+	line "Ik, ik wil het…" ; "I, I want it…"
 
-	para "<PLAYER>, would you"
-	line "care to trade it?"
+	para "<PLAYER>, wil je" ; "<PLAYER>, would you"
+	line "met mij ruilen?" ; "care to trade it?"
 
-	para "I can offer this"
-	line "EXP.SHARE I got"
-	cont "from PROF.OAK."
+	para "Ik kan je deze" ; "I can offer this"
+	line "EP.DELER geven die" ; "EXP.SHARE I got"
+	cont "PROF.OAK me gaf." ; "from PROF.OAK."
 	done
 
 MrPokemonText_Disappointed:

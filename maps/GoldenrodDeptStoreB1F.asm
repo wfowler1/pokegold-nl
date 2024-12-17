@@ -73,15 +73,15 @@ GoldenrodDeptStoreB1FBurnHeal:
 GoldenrodDeptStoreB1FUltraBall:
 	itemball ULTRA_BALL
 
-GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Hey, kid! You're"
-	line "holding us up!"
+GoldenrodDeptStoreB1FBlackBelt1Text: ; AlwaysReplace
+	text "Hé, snotneus! Je" ; "Hey, kid! You're"
+	line "blokkeert de boel!" ; "holding us up!"
 
-	para "Our policy is to"
-	line "work behind the"
+	para "We werken achter" ; "Our policy is to"
+	line "de schermen waar" ; "work behind the"
 
-	para "scenes where no-"
-	line "one can see us!"
+	para "niemand ons" ; "scenes where no"
+	line "kan zien!" ; "one can see us!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:

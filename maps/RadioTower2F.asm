@@ -107,21 +107,21 @@ RadioTower2FBookshelf:
 	jumpstd MagazineBookshelfScript
 
 RadioTower2FSuperNerdText:
-	text "You can listen to"
-	line "the radio any-"
-	cont "where. Tune in!"
+	text "Je kan overal" ; "You can listen to"
+	line "naar de radio" ; "the radio any-"
+	cont "luisteren." ; "where. Tune in!"
 	done
 
 RadioTower2FTeacherText:
-	text "Lullabies on the"
-	line "radio may make"
-	cont "#MON sleep."
+	text "Slaapliedjes op" ; "Lullabies on the"
+	line "de radio laten" ; "radio may make"
+	cont "#MON slapen." ; "#MON sleep."
 	done
 
 RadioTower2FTeacherText_Rockets:
-	text "Why would they"
-	line "want to take over"
-	cont "the RADIO TOWER?"
+	text "Waarom zouden ze" ; "Why would they"
+	line "de RADIOTOREN" ; "want to take over"
+	cont "willen overnemen?" ; "the RADIO TOWER?"
 	done
 
 RadioTowerJigglypuffText:
@@ -130,123 +130,126 @@ RadioTowerJigglypuffText:
 	done
 
 RadioTower2FBlackBelt1Text:
-	text "Sorry. Authorized"
-	line "personnel only"
-	cont "beyond this point."
+	text "Sorry. Alleen ge-" ; "Sorry. Authorized"
+	line "authoriseerd per-" ; "personnel only"
+	cont "soneel hier." ; "beyond this point."
 
-	para "It wasn't that way"
-	line "before."
+	para "Dat was eerst" ; "It wasn't that way"
+	line "anders." ; "before."
 
-	para "There's something"
-	line "wrong with the"
-	cont "DIRECTOR…"
+	para "Er is iets mis" ; "There's something"
+	line "met de" ; "wrong with the"
+	cont "DIRECTEUR…" ; "DIRECTOR…"
 	done
 
 RadioTower2FBlackBelt2Text:
-	text "Feel free to look"
-	line "around anywhere."
+	text "Kijk gerust" ; "Feel free to look"
+	line "overal rond." ; "around anywhere."
 
-	para "The DIRECTOR is"
-	line "nice again, just"
-	cont "as he was before."
+	para "De DIRECTEUR is" ; "The DIRECTOR is"
+	line "weer aardig, net" ; "nice again, just"
+	cont "als eerst." ; "as he was before."
 	done
 
 GruntM4SeenText:
-	text "Three years ago,"
-	line "TEAM ROCKET was"
-	cont "forced to disband."
+	text "Drie jaar geleden" ; "Three years ago,"
+	line "moest TEAM ROCKET" ; "TEAM ROCKET was"
+	cont "ontbinden." ; "forced to disband."
 
-	para "But we're making a"
-	line "comeback here!"
+	para "Maar we maken hier" ; "But we're making a"
+	line "een terugkeer!" ; "comeback here!"
 	done
 
 GruntM4BeatenText:
-	text "Gwah! Don't get"
-	line "cute!"
+	text "Hè gèt!" ; "Gwah! Don't get"
+	line "Kappen nou!" ; "cute!"
 	done
 
 GruntM4AfterBattleText:
-	text "We won't let you"
-	line "ruin our plans"
-	cont "for our comeback!"
+	text "We laten je niet" ; "We won't let you"
+	line "onze terugkeer" ; "ruin our plans"
+	cont "dwarsbomen!" ; "for our comeback!"
 	done
 
 GruntM5SeenText:
-	text "We're TEAM ROCKET,"
-	line "the exploiters of"
-	cont "#MON!"
+	text "Wij zijn TEAM" ; "We're TEAM ROCKET,"
+	line "ROCKET, uitbuters" ; "the exploiters of"
+	cont "van #MON!"
 
-	para "We love being"
-	line "evil! Scared?"
+	para "We zijn graag" ; "We love being"
+	line "kwaadaardig! Bang?" ; "evil! Scared?"
 	done
 
 GruntM5BeatenText:
-	text "You think you're a"
-	line "hero?"
+	text "Denk je dat je" ; "You think you're a"
+	line "een held bent?" ; "hero?"
 	done
 
 GruntM5AfterBattleText:
-	text "We're not always"
-	line "evil. We just do"
-	cont "whatever we like."
+	text "We zijn niet al-" ; "We're not always"
+	line "tijd slecht. We" ; "evil. We just do"
+	cont "doen gewoon wat we" ; "whatever we like."
+	cont "willen." ;
 	done
 
 GruntM6SeenText:
-	text "Hey, hey! Keep out"
-	line "of our way!"
+	text "Hé, hé!" ; "Hey, hey! Keep out"
+	line "Uit de weg!" ; "of our way!"
 	done
 
 GruntM6BeatenText:
-	text "Arggh. I give up."
+	text "Arggh. Ik geef op." ; "Arggh. I give up."
 	done
 
 GruntM6AfterBattleText:
-	text "Our EXECUTIVES are"
-	line "trying to take"
-	cont "this place over."
+	text "Onze MANAGERS pro-" ; "Our EXECUTIVES are"
+	line "beren deze plek" ; "trying to take"
+	cont "over te nemen." ; "this place over."
 
-	para "They have some big"
-	line "plan. I wonder"
-	cont "what that is?"
+	para "Ze hebben een of" ; "They have some big"
+	line "ander groot plan." ; "plan. I wonder"
+	cont "Wat zou 't zijn?" ; "what that is?"
 	done
 
 GruntF2SeenText:
 	text "Hahaha!"
 
-	para "How boring."
-	line "It was far too"
+	para "Saai. Het was veel" ; "How boring."
+	line "te makkelijk om" ; "It was far too"
 
-	para "easy to take over"
-	line "this place!"
+	para "deze tent over te" ; "easy to take over"
+	line "nemen!" ; "this place!"
 
-	para "Come on, keep me"
-	line "amused!"
+	para "Kom, vermaak" ; "Come on, keep me"
+	line "me een beetje!" ; "amused!"
 	done
 
 GruntF2BeatenText:
-	text "Wh-who are you?"
+	text "W-wie ben je?" ; "Wh-who are you?"
 	done
 
 GruntF2AfterBattleText:
-	text "You beat me, and"
-	line "I won't forget it!"
+	text "Je hebt me ver-" ; "You beat me, and"
+	line "slagen, dat ver-" ; "I won't forget it!"
+	cont "geet ik niet!" ;
 	done
 
 RadioTower2FSalesSignText:
-	text "2F SALES"
+	text "2V SALES" ; "2F SALES"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "PROF.OAK'S" ; "PROF.OAK'S #MON"
+	line "#MONPRAAT" ; "TALK"
 
-	para "The Hottest Show"
-	line "on the Air!"
+	para "De meest spraak-" ; "The Hottest Show"
+	line "makende show" ; "on the Air!"
+	cont "in de ether!" ;
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Anywhere, Anytime"
-	line "#MON Radio"
+	text "Overal, Altijd" ; "Anywhere, Anytime"
+	line "#MON-Radio"
 	done
 
 RadioTower2F_MapEvents:

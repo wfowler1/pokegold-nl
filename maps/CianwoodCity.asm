@@ -86,134 +86,140 @@ CianwoodCityHiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_CIANWOOD_CITY_HIDDEN_MAX_ETHER
 
 ChucksWifeEasierToFlyText:
-	text "You crossed the"
-	line "sea to get here?"
+	text "Je stak de zee" ; "You crossed the"
+	line "over om hier te" ; "sea to get here?"
+	cont "komen?" ;
 
-	para "That must have"
-	line "been hard."
+	para "Dat was vast" ; "That must have"
+	line "lastig." ; "been hard."
 
-	para "It would be much"
-	line "easier if your"
+	para "Het zou eenvou-" ; "It would be much"
+	line "diger zijn als" ; "easier if your"
 
-	para "#MON knew how"
-	line "to FLY…"
+	para "je #MON konden" ; "#MON knew how"
+	line "VLIEGEN…" ; "to FLY…"
 	done
 
 ChucksWifeBeatChuckText:
-	text "But you can't use"
-	line "FLY without this"
-	cont "city's GYM BADGE."
+	text "Maar VLIEGEN werkt" ; "But you can't use"
+	line "niet zonder GYM-" ; "FLY without this"
+	cont "BADGE van de stad." ; "city's GYM BADGE."
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-	cont "come see me."
+	para "Als je de GYM-" ; "If you beat the"
+	line "LEIDER hier ver-" ; "GYM LEADER here,"
+	cont "slaat, kom dan" ; "come see me."
 
-	para "I'll have a nice"
-	line "gift for you."
+	para "langs. Ik zal" ; "I'll have a nice"
+	line "je iets geven." ; "gift for you
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	text "Dat is CIANWOOD's" ; "That's CIANWOOD's"
+	line "GYMBADGE!" ; "GYM BADGE!"
 
-	para "Then you should"
-	line "take this HM."
+	para "Neem dan deze" ; "Then you should"
+	line "VM." ; "take this HM."
 	done
 
 ChucksWifeFlySpeechText:
-	text "Teach FLY to your"
-	line "#MON."
+	text "Leer je #MON" ; "Teach FLY to your"
+	line "VLIEGEN." ; "#MON."
 
-	para "You will be able"
-	line "to FLY instantly"
+	para "Je zal direct" ; "You will be able"
+	line "kunnen VLIEGEN" ; "to FLY instantly"
 
-	para "to anywhere you "
-	line "have visited."
+	para "naar alle plek-" ; "to anywhere you "
+	line "ken die je hebt" ; "have visited."
+	cont "bezocht." ;
 	done
 
 ChucksWifeChubbyText:
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Mijn man heeft van" ; "My husband lost to"
+	line "je verloren, dus" ; "you, so he needs"
+	cont "hij moet harder" ; "to train harder."
+	cont "trainen." ;
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Dat is goed, want" ; "That's good, since"
+	line "hij werd een" ; "he was getting a"
+	cont "beetje lui." ; "little chubby."
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
-	line "you can get back"
+	text "Als je gaat" ; "If you use FLY,"
+	line "VLIEGEN, kun je" ; "you can get back"
 
-	para "to OLIVINE in-"
-	line "stantly."
+	para "meteen naar OLI-" ; "to OLIVINE in-"
+	line "VINE terugkeren." ; "stantly."
 	done
 
 CianwoodCityPokefanMText:
-	text "Boulders to the"
-	line "north of town can"
-	cont "be crushed."
+	text "De rotsen ten" ; "Boulders to the"
+	line "noorden van de" ; "north of town can"
+	cont "stad kunnen" ; "be crushed."
+	cont "worden verwoest." ;
 
-	para "They may be hiding"
-	line "something."
+	para "Wellicht verbergen" ; "They may be hiding"
+	line "ze iets." ; "something."
 
-	para "Your #MON could"
-	line "use ROCK SMASH to"
-	cont "break them."
+	para "Je #MON kunnen" ; "Your #MON could"
+	line "STEENKNAL gebruik-" ; "use ROCK SMASH to"
+	cont "en om ze te" ; "break them."
+	cont "breken." ;
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
-	line "LEADER, spars with"
+	text "CHUCK, de GYM-" ; "CHUCK, the GYM"
+	line "LEIDER, vecht" ; "LEADER, spars with"
 
-	para "his fighting #-"
-	line "MON."
+	para "met zijn" ; "his fighting #-"
+	line "vecht-#MON." ; "MON."
 	done
 
 CianwoodCityUnusedText:
-	text "There are several"
-	line "islands between"
-	cont "here and OLIVINE."
+	text "Er is een aantal" ; "There are several"
+	line "eilanden tussen" ; "islands between"
+	cont "hier en OLIVINE" ; "here and OLIVINE."
 
-	para "A mythical sea"
-	line "creature supposed-"
-	cont "ly lives there."
+	para "Een mythisch" ; "A mythical sea"
+	line "zeewezen schijnt" ; "creature supposed-"
+	cont "daar te leven." ; "ly lives there."
 	done
 
 CianwoodCitySignText:
 	text "CIANWOOD CITY"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Een Haven Omringd" ; "A Port Surrounded"
+	line "door Ruwe Zee" ; "by Rough Seas"
 	done
 
 CianwoodGymSignText:
 	text "CIANWOOD CITY"
-	line "#MON GYM"
+	line "#MONGYMLEIDER:" ; "#MON GYM"
 
-	para "LEADER: CHUCK"
+	para "CHUCK" ; "LEADER: CHUCK" ; "LEADER: CHUCK"
 
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "Zijn Krachtige" ; "His Roaring Fists"
+	line "Vuisten Spreken" ; "Do the Talking"
+	cont "voor Hem" ;
 	done
 
 CianwoodPharmacySignText:
-	text "500 Years of"
-	line "Tradition"
+	text "500 Jaar aan" ; "500 Years of"
+	line "Traditie" ; "Tradition"
 
 	para "CIANWOOD CITY"
-	line "PHARMACY"
+	line "APOTHEEK" ; "PHARMACY"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "We Behandelen Uw" ; "We Await Your"
+	line "Medische Vragen" ; "Medicinal Queries"
 	done
 
 CianwoodPhotoStudioSignText:
 	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	line "FOTOSTUDIO" ; "PHOTO STUDIO"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Neem een Kiekje" ; "Take a Snapshot as"
+	line "als Aandenken" ; "a Keepsake!"
 	done
 
 CianwoodCity_MapEvents:

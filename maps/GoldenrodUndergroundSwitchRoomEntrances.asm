@@ -832,10 +832,11 @@ BurglarDuncanBeatenText:
 	text "Genade!" ; "Mercy!"
 	done
 
-BurglarDuncanAfterBattleText:
-	text "Steal and sell!"
-	line "That's basic in"
-	cont "crime, bub!"
+BurglarDuncanAfterBattleText: ; AlwaysReplace
+	text "Stelen en ver-" ; "Steal and sell!"
+	line "kopen! Dat is de" ; "That's basic in"
+	cont "basis in misdaad," ; "crime, kid!"
+	cont "ettertje!" ;
 	done
 
 BurglarEddieSeenText:

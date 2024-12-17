@@ -133,26 +133,26 @@ FalknerIntroText:
 	line "#MON!"
 	done
 
-FalknerWinLossText:
-	text "…Darn! My Dad's"
-	line "cherished bird"
-	cont "#MON…"
+FalknerWinLossText: ; AlwaysReplace
+	text "…Verdraaid! Mijn" ; "…Darn! My dad's"
+	line "vaders gekoesterde" ; "cherished bird"
+	cont "vogel-#MON…" ; "#MON…"
 
-	para "All right."
-	line "Take this."
+	para "Goed dan." ; "All right."
+	line "Neem dit." ; "Take this."
 
-	para "It's the official"
-	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	para "Het is de ZEFIER-" ; "It's the official"
+	line "BADGE van de" ; "#MON LEAGUE"
+	cont "#MONLEAGUE." ; "ZEPHYRBADGE."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	line "ZEFIERBADGE."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE ver-" ; "ZEPHYRBADGE"
+	text "ZEFIERBADGE ver-" ; "ZEPHYRBADGE"
 	line "hoogt aanvalkracht" ; "raises the attack"
 	cont "van #MON." ; "power of #MON."
 

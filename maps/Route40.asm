@@ -143,21 +143,21 @@ Route40_StepUp4Movement: ; unreferenced
 	step_end
 
 SwimmermSimonSeenText:
-	text "You have to warm"
-	line "up before going"
-	cont "into the water."
+	text "Een warming-up" ; "You have to warm"
+	line "voor het zwemmen" ; "up before going"
+	cont "is belangrijk." ; "into the water."
 
-	para "That's basic."
+	para "Dat weet iedereen." ; "That's basic."
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "OK! Ik geef op!" ; "OK! Uncle! I give!"
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
-	line "a good distance"
-	cont "away from here."
+	text "CIANWOOD is een" ; "CIANWOOD CITY is"
+	line "aardig stuk" ; "a good distance"
+	cont "verderop." ; "away from here."
 	done
 
 SwimmermRandallSeenText:
@@ -169,100 +169,100 @@ SwimmermRandallSeenText:
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "Uh-oh. Ik verloor…" ; "Uh-oh. I lost…"
 	done
 
 SwimmermRandallAfterBattleText:
-	text "Swimming exercises"
-	line "your entire body."
-	cont "It's healthy."
+	text "Zwemmen traint je" ; "Swimming exercises"
+	line "hele lichaam. Het" ; "your entire body."
+	cont "is gezond." ; "It's healthy."
 	done
 
 SwimmerfElaineSeenText:
-	text "Are you going to"
+	text "Ga je naar" ; "Are you going to"
 	line "CIANWOOD?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "Wat dacht je van" ; "How about a quick"
+	line "eerst vechten?" ; "battle first?"
 	done
 
 SwimmerfElaineBeatenText:
-	text "I lost that one!"
+	text "Die verloor ik!" ; "I lost that one!"
 	done
 
 SwimmerfElaineAfterBattleText:
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+	text "Ik denk dat ik" ; "I'd say I'm a bet-"
+	line "een betere zwemmer" ; "ter swimmer than"
+	cont "ben. Jawel!" ; "you. Yeah!"
 	done
 
 SwimmerfPaulaSeenText:
-	text "No inner tube for"
-	line "me."
+	text "Geen zwembandjes" ; "No inner tube for"
+	line "voor mij." ; "me."
 
-	para "I'm hanging on to"
-	line "a sea #MON!"
+	para "Ik hang aan een" ; "I'm hanging on to"
+	line "zee-#MON!" ; "a sea #MON!"
 	done
 
 SwimmerfPaulaBeatenText:
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "Ooh, ik voel me" ; "Ooh, I'm feeling"
+	line "duizelig!" ; "dizzy!"
 	done
 
 SwimmerfPaulaAfterBattleText:
-	text "While I float like"
-	line "this, the waves"
-	cont "carry me along."
+	text "Terwijl ik zo" ; "While I float like"
+	line "drijf, nemen de" ; "this, the waves"
+	cont "golven me mee." ; "carry me along."
 	done
 
 Route40Lass1Text:
-	text "Although you can't"
-	line "see it from here,"
+	text "Je ziet het niet" ; "Although you can't"
+	line "vanaf hier, maar" ; "see it from here,"
 
-	para "CIANWOOD is across"
-	line "the sea."
+	para "CIANWOOD is in de" ; "CIANWOOD is across"
+	line "verte." ; "the sea."
 	done
 
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
+	text "MONICA: Fijn je te" ; "MONICA: Glad to"
+	line "ontmoeten. Ik ben" ; "meet you. I'm"
 
-	para "MONICA of Monday."
+	para "maandagse MONICA." ; "MONICA of Monday."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "Als teken van" ; "As a token of our"
+	line "vriendschap heb ik" ; "friendship, I have"
+	cont "een cadeautje!" ; "a gift for you!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "MONICA: Het is een" ; "MONICA: It's an"
+	line "voorwerp dat" ; "item that raises"
 
-	para "the power of fly-"
-	line "ing-type moves."
+	para "vlieg-aanvallen" ; "the power of fly-"
+	line "sterker maakt." ; "ing-type moves."
 
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Geef het aan een" ; "You should equip a"
+	line "vogel #MON in" ; "bird #MON with"
+	cont "je team." ; "that item."
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
+	text "MONICA: Mijn" ; "MONICA: My broth-"
+	line "boers en zussen" ; "ers and sisters"
 
-	para "are all over the"
-	line "place."
+	para "zijn overal te" ; "are all over the"
+	line "vinden." ; "place."
 
-	para "See if you could"
-	line "find them all!"
+	para "Probeer ze alle-" ; "See if you could"
+	line "maal te ontmoeten!" ; "find them all!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad…"
+	text "MONICA: Helaas," ; "MONICA: I don't"
+	line "vandaag is het" ; "think today is"
+	cont "geen maandag…" ; "Monday. How sad…"
 	done
 
 Route40SignText:

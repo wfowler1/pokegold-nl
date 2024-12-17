@@ -97,11 +97,11 @@ Route33FruitTree:
 	fruittree FRUITTREE_ROUTE_33
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "tunnel, but I"
+	text "Ik ben door de" ; "I came through the"
+	line "tunnel gekomen," ; "tunnel, but I"
 
-	para "still have plenty"
-	line "of energy left."
+	para "maar heb genoeg" ; "still have plenty"
+	line "energie over." ; "of energy left."
 	done
 
 HikerAnthony2BeatenText:
@@ -110,13 +110,13 @@ HikerAnthony2BeatenText:
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best in the"
-	cont "mountains."
+	text "Wij wandelaars" ; "We HIKERS are at"
+	line "zijn op ons best" ; "our best in the"
+	cont "in de bergen." ; "mountains."
 	done
 
 Route33SignText:
-	text "ROUTE 33"
+	text "ROUTE 33" ; "ROUTE 33"
 	done
 
 Route33_MapEvents:

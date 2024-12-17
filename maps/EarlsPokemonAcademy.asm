@@ -197,25 +197,25 @@ AcademyEarlTeachMoreText:
 	cont "goed opvoedt?" ; "#MON well?"
 	done
 
-AcademyEarlTeachHowToRaiseWellText:
-	text "Fine! Teach you,"
-	line "I will!"
+AcademyEarlTeachHowToRaiseWellText: ; AlwaysReplace
+	text "Prima! Leren, zal" ; "Fine! Teach you,"
+	line "ik je!" ; "I will!"
 
-	para "If #MON come"
-	line "out in battle even"
+	para "Als #MON even" ; "If #MON come"
+	line "in gevecht zijn," ; "out in battle even"
 
-	para "briefly, some EXP."
-	line "points it gets."
+	para "krijgen ze ook" ; "briefly, some EXP."
+	line "ERV. punten." ; "Points it gets."
 
-	para "At top of list put"
-	line "weak #MON."
+	para "Zet zwakke #MON" ; "At top of list put"
+	line "bovenaan lijst." ; "weak #MON."
 
-	para "Switch in battle"
-	line "quick!"
+	para "Wissel snel in" ; "Switch in battle"
+	line "gevecht!" ; "quick!"
 
-	para "This way, weak"
-	line "#MON strong"
-	cont "become!"
+	para "Op die manier," ; "This way, weak"
+	line "zwakke #MON" ; "#MON strong"
+	cont "worden sterk!" ; "become!"
 	done
 
 AcademyEarlNoMoreToTeachText:

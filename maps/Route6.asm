@@ -13,15 +13,16 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "De weg is afge-" ; "The road is closed"
+	line "sloten tot het" ; "until the problem"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "probleem bij de" ; "at the POWER PLANT"
+	line "ENERGIECENTRALE" ; "is solved."
+	cont "is opgelost." ;
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "ONDERGRONDS PAD" ; "UNDERGROUND PATH"
 
 	para "CERULEAN CITY -"
 	line "VERMILION CITY"

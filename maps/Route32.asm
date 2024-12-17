@@ -484,7 +484,7 @@ Route32CooltrainerMText_VioletGym:
 	text "De #MON GYM" ; "Have you gone to"
 	line "al bezocht?" ; "the #MON GYM?"
 
-	para "Test er je" ; "You can test your"
+	para "Stel er je" ; "You can test your"
 	line "#MON en jezelf" ; "#MON and your-"
 	cont "op de proef." ; "self there."
 
@@ -726,7 +726,8 @@ BirdKeeperPeterSeenText:
 	text "Die BADGE! Die is" ; "That BADGE! It's"
 	line "van VIOLET CITY!" ; "from VIOLET CITY!"
 
-	para "FALKNER verslagen?" ; "You beat FALKNER?"
+	para "Heb je FALKNER" ; "You beat FALKNER?"
+	line "verslagen?"
 	done
 
 BirdKeeperPeterBeatenText:
@@ -826,8 +827,8 @@ Route32RuinsSignText:
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
-	line "Ahead"
+	text "EENHEIDSTUNNEL" ; "UNION CAVE"
+	line "Nabij" ; "Ahead"
 	done
 
 Route32_MapEvents:

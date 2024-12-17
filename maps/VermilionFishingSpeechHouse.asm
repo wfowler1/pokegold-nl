@@ -38,11 +38,11 @@ FishingDudeText:
 	done
 
 FishingDudesHousePhotoText:
-	text "It's a photo of"
-	line "people fishing…"
+	text "Het is een foto" ; "It's a photo of"
+	line "van wat vissers…" ; "people fishing…"
 
-	para "They're having a"
-	line "great time…"
+	para "Ze hebben het naar" ; "They're having a"
+	line "hun zin…" ; "great time…"
 	done
 
 VermilionFishingSpeechHouse_MapEvents:

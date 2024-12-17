@@ -1,101 +1,102 @@
 BillPhoneMornGreetingText:
-	text "Good morning!"
+	text "Goedemorgen!" ; "Good morning!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Dit is de ADMIN-" ; "This is the #-"
+	line "ISTRATIEDIENST van" ; "MON STORAGE SYSTEM"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "het #MON-" ; "ADMINISTRATION"
+	line "OPSLAGSYSTEEM." ; "SERVICE."
 	done
 
 BillPhoneDayGreetingText:
-	text "Good day!"
+	text "Goedendag!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
-
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "Dit is de ADMIN-" ; "This is the #-"
+	line "ISTRATIEDIENST van" ; "MON STORAGE SYSTEM"
+	
+	para "het #MON-" ; "ADMINISTRATION"
+	line "OPSLAGSYSTEEM." ; "SERVICE."
 	done
 
 BillPhoneNiteGreetingText:
-	text "Good evening!"
+	text "Goedenavond!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
-
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "Dit is de ADMIN-" ; "This is the #-"
+	line "ISTRATIEDIENST van" ; "MON STORAGE SYSTEM"
+	
+	para "het #MON-" ; "ADMINISTRATION"
+	line "OPSLAGSYSTEEM." ; "SERVICE."
 	done
 
 BillPhoneGenericText:
-	text "Who's calling?"
+	text "Met wie spreek ik?" ; "Who's calling?"
 
-	para "<PLAYER>, is it?"
-	line "Hang on a sec…"
+	para "<PLAYER>, zeg je?" ; "<PLAYER>, is it?"
+	line "Een ogenblik…" ; "Hang on a sec…"
 
 	para "<……>"
 	line "<……>"
 	done
 
 BillPhoneNotFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Bedankt voor het" ; "Thanks for"
+	line "wachten!" ; "waiting!"
 
-	para "<PLAYER>, your BOX"
-	line "has room for @"
-	text_ram wStringBuffer3
+	para "<PLAYER>, je BOX" ; "<PLAYER>, your BOX"
+	line "heeft plek voor @" ; "has room for @"
+	text_ram wStringBuffer3 ; MaxLength 2
 	text_start
-	cont "more #MON."
+	cont "#MON." ; "more #MON."
 
-	para "Get out there and"
-	line "fill it up!"
+	para "Ga er op uit en" ; "Get out there and"
+	line "vul 'm!" ; "fill it up!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Bedankt voor het" ; "Thanks for"
+	line "wachten!" ; "waiting!"
 
-	para "<PLAYER>, your BOX"
-	line "has room for only"
+	para "<PLAYER>, je BOX" ; "<PLAYER>, your BOX"
+	line "heeft plek voor" ; "has room for only"
 	cont "@"
-	text_ram wStringBuffer3
-	text " more #MON."
+	text_ram wStringBuffer3 ; MaxLength 2
+	text "#MON maar." ; " more #MON."
 
-	para "Maybe you should"
-	line "switch your BOX."
+	para "Wellicht moet je" ; "Maybe you should"
+	line "van BOX wisselen." ; "switch your BOX."
 	done
 
 BillPhoneFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Bedankt voor het" ; "Thanks for"
+	line "wachten!" ; "waiting!"
 
-	para "<PLAYER>, your BOX"
-	line "is full!"
+	para "<PLAYER>, je BOX" ; "<PLAYER>, your BOX"
+	line "is vol!" ; "is full!"
 
-	para "You'll have to"
-	line "switch BOXES if"
+	para "Je moet van BOX" ; "You'll have to"
+	line "wisselen als je" ; "switch BOXES if"
 
-	para "you want to catch"
-	line "more #MON."
+	para "meer #MON wil" ; "you want to catch"
+	line "vangen." ; "more #MON."
 	done
 
 BillPhoneNewlyFullText:
-	text "Hi, <PLAYER>?"
-	line "It's me, BILL!"
+	text "He, <PLAYER>?" ; "Hi, <PLAYER>?"
+	line "Ik ben het, BILL!" ; "It's me, BILL!"
 
-	para "Thanks for using"
-	line "my STORAGE SYSTEM."
+	para "Fijn dat je mijn" ; "Thanks for using"
+	line "OPSLAGSYSTEEM" ; "my STORAGE SYSTEM."
+	cont "gebruikt."
 
-	para "That last #MON"
-	line "you sent filled"
-	cont "your BOX up."
+	para "Die laatste #-" ; "That last #MON"
+	line "MON die je stuurde" ; "you sent filled"
+	cont "vulde de BOX." ; "your BOX up."
 
-	para "You'll have to"
-	line "switch BOXES if"
+	para "Je moet van BOX" ; "You'll have to"
+	line "wisselen als je" ; "switch BOXES if"
 
-	para "you want to catch"
-	line "more #MON."
+	para "meer #MON wil" ; "you want to catch"
+	line "vangen." ; "more #MON."
 
-	para "Bye now!"
+	para "Doei he!" ; "Bye now!"
 	done

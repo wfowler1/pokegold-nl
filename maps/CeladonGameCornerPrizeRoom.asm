@@ -225,47 +225,47 @@ CeladonGameCornerPrizeRoomPharmacistText:
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:
-	text "Welcome!"
+	text "Welkom!" ; "Welcome!"
 
-	para "We exchange your"
-	line "coins for fabulous"
-	cont "prizes!"
+	para "Ruil hier je" ; "We exchange your"
+	line "munten in voor" ; "coins for fabulous"
+	cont "prachtige prijzen!" ; "prizes!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welke prijs zou" ; "Which prize would"
+	line "je willen?" ; "you like?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "OK, so you wanted"
-	line "a @"
+	text "OK, dus je wil" ; "OK, so you wanted"
+	line "een @" ; "a @"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
-	text "?"
+	text "?" ; "?"
 	done
 
 CeladonPrizeRoom_HereYouGoText:
-	text "Here you go!"
+	text "Alsjeblieft!" ; "Here you go!"
 	done
 
 CeladonPrizeRoom_NotEnoughCoinsText:
-	text "You don't have"
-	line "enough coins."
+	text "Je hebt niet ge-" ; "You don't have"
+	line "noeg munten." ; "enough coins."
 	done
 
 CeladonPrizeRoom_NotEnoughRoomText:
-	text "You have no room"
-	line "for it."
+	text "Je hebt er geen" ; "You have no room"
+	line "ruimte voor." ; "for it."
 	done
 
 CeladonPrizeRoom_ComeAgainText:
-	text "Oh. Please come"
-	line "back with coins!"
+	text "Oh. Kom maar terug" ; "Oh. Please come"
+	line "met munten op zak!" ; "back with coins!"
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Je hebt geen" ; "Oh? You don't have"
+	line "GELDKISTJE." ; "a COIN CASE."
 	done
 
 CeladonGameCornerPrizeRoom_MapEvents:

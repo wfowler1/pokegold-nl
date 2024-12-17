@@ -405,14 +405,14 @@ Pokecenter2FMovementData_ReceptionistStepsLeftLooksRight:
 	step_end
 
 Text_BattleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB COLOSSEUM."
+	text "Welkom bij het" ; "Welcome to CABLE"
+	line "KABELCOLOSSEUM." ; "CLUB COLOSSEUM."
 
-	para "You may battle a"
-	line "friend here."
+	para "Hier mag je tegen" ; "You may battle a"
+	line "vrienden vechten." ; "friend here."
 
-	para "Would you like to"
-	line "battle?"
+	para "Wil je op dit" ; "Would you like to"
+	line "moment vechten?" ; "battle?"
 	done
 
 Text_TradeReceptionistIntro:
@@ -428,59 +428,59 @@ Text_TradeReceptionistIntro:
 	done
 
 Text_TimeCapsuleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB TIME CAPSULE."
+	text "Dit is de KABEL-" ; "Welcome to CABLE"
+	line "CLUBTIJDCAPSULE." ; "CLUB TIME CAPSULE."
 
-	para "You can travel to"
-	line "the past and trade"
-	cont "your #MON."
+	para "Je kunt naar het" ; "You can travel to"
+	line "verleden reizen en" ; "the past and trade"
+	cont "je #MON ruilen." ; "your #MON."
 
-	para "Would you like to"
-	line "trade across time?"
+	para "Wil je door de" ; "Would you like to"
+	line "tijd reizen?" ; "trade across time?"
 	done
 
 YourFriendIsNotReadyText:
-	text "Your friend is not"
-	line "ready."
+	text "Je vriend is nog" ; "Your friend is not"
+	line "niet klaar." ; "ready."
 	prompt
 
 Text_MustSaveGame:
-	text "Before opening the"
-	line "link, you must"
-	cont "save your game."
+	text "Voor je de link" ; "Before opening the"
+	line "opent, moet je" ; "link, you must"
+	cont "de game opslaan." ; "save your game."
 	done
 
 Text_PleaseWait:
-	text "Please wait."
+	text "Even geduld." ; "Please wait."
 	done
 
 Text_LinkTimedOut:
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "De link is" ; "The link has been"
+	line "gesloten wegens" ; "closed because of"
+	cont "inactiviteit." ; "inactivity."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again."
+	para "Neem contact met" ; "Please contact"
+	line "je vriend en" ; "your friend and"
+	cont "probeer nog eens." ; "come again."
 	prompt
 
 Text_PleaseComeAgain:
-	text "Please come again."
+	text "Graag tot snel." ; "Please come again."
 	prompt
 
 Text_PleaseComeInDuplicate: ; unreferenced
-	text "Please come in."
+	text "Kom maar binnen." ; "Please come in."
 	prompt
 
 Text_TemporaryStagingInLinkRoom: ; unreferenced
-	text "We'll put you in"
-	line "the link room for"
-	cont "the time being."
+	text "We stoppen je voor" ; "We'll put you in"
+	line "dit moment in de" ; "the link room for"
+	cont "linkkamer." ; "the time being."
 	done
 
 Text_CantLinkToThePast:
-	text "You can't link to"
-	line "the past here."
+	text "Je kunt niet naar" ; "You can't link to"
+	line "het verleden." ; "the past here."
 	prompt
 
 Text_IncompatibleRooms:
@@ -489,87 +489,87 @@ Text_IncompatibleRooms:
 	prompt
 
 Text_PleaseComeIn:
-	text "Please come in."
+	text "Kom maar binnen." ; "Please come in."
 	done
 
 Text_PleaseEnter: ; unreferenced
-	text "Please enter."
+	text "Treed toe." ; "Please enter."
 	prompt
 
 Text_RejectNewMon:
 	text "Sorry--@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text_start
-	line "can't be taken."
+	line "mag niet mee." ; "can't be taken."
 	prompt
 
 Text_RejectMonWithNewMove:
-	text "You can't take the"
+	text "Je mag niet" ; "You can't take the"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " with a"
+	text " mee met" ; " with a"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
 Text_RejectMonWithMail:
-	text "You can't take the"
+	text "Je mag niet de" ; "You can't take the"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text " that"
-	cont "has MAIL with you."
+	text "met" ; " that"
+	cont "POST meenemen." ; "has MAIL with you."
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "I'm sorry--the"
-	line "TIME CAPSULE is"
-	cont "being adjusted."
+	text "Het spijt me--de" ; "I'm sorry--the"
+	line "TIJDCAPSULE wordt" ; "TIME CAPSULE is"
+	cont "aangepast." ; "being adjusted."
 	done
 
 Text_TradeRoomClosed:
-	text "I'm sorry--the"
-	line "TRADE MACHINE is"
-	cont "being adjusted."
+	text "Het spijt me--de" ; "I'm sorry--the"
+	line "RUILMACHINE wordt" ; "TRADE MACHINE is"
+	cont "aangepast." ; "being adjusted."
 	done
 
 Text_BattleRoomClosed:
-	text "I'm sorry--the"
-	line "BATTLE MACHINE is"
-	cont "being adjusted."
+	text "Het spijt me--de" ; "I'm sorry--the"
+	line "VECHTMACHINE wordt" ; "BATTLE MACHINE is"
+	cont "aangepast." ; "being adjusted."
 	done
 
 Text_MysteryGiftDeliveryGuy_Intro:
-	text "Hello! You're"
-	line "<PLAYER>, right?"
+	text "Hallo! Jij bent" ; "Hello! You're"
+	line "<PLAYER>, toch?" ; "<PLAYER>, right?"
 
-	para "I have some-"
-	line "thing for you."
+	para "Ik heb iets voor" ; "I have some-"
+	line "je." ; "thing for you."
 	done
 
 Text_MysteryGiftDeliveryGuy_HereYouGo:
-	text "Here you go!"
+	text "Alsjeblieft!" ; "Here you go!"
 	done
 
 Text_MysteryGiftDeliveryGuy_Outro:
-	text "We hope to serve"
-	line "you again."
+	text "We hopen je weer" ; "We hope to serve"
+	line "te bedienen." ; "you again."
 	done
 
 Text_MysteryGiftDeliveryGuy_NoRoom:
-	text "Oh, you have no"
-	line "space for this."
+	text "Oh, je hebt hier" ; "Oh, you have no"
+	line "geen plek voor." ; "space for this."
 
-	para "Stop in at any"
-	line "#MON CENTER"
+	para "Kom naar ieder" ; "Stop in at any"
+	line "#MONCENTRUM in" ; "#MON CENTER"
 
-	para "across the country"
-	line "to pick it up."
+	para "het land om het" ; "across the country"
+	line "op te pikken." ; "to pick it up."
 	done
 
 Text_MysteryGiftDeliveryGuy_SaidNo:
-	text "No? That's very"
-	line "strange…"
+	text "Nee? Dat is erg" ; "No? That's very"
+	line "vreemd…" ; "strange…"
 	done
 
 Pokecenter2F_MapEvents:

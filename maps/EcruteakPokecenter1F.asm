@@ -150,7 +150,7 @@ EcruteakPokecenter1F_BillText2:
 	line "TIJDCAPSULES" ; "CAPSULES will be"
 
 	para "draaien in alle" ; "running at all"
-	line "#MON CENTRA." ; "#MON CENTERS."
+	line "#MON-CENTRA." ; "#MON CENTERS."
 
 	para "Ik moet nu snel" ; "I have to hurry on"
 	line "naar GOLDENROD" ; "back to GOLDENROD"

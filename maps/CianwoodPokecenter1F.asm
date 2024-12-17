@@ -32,12 +32,12 @@ CianwoodGymGuideScript:
 	end
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "Heb je de #-" ; "Did you meet the"
+	line "MANIAK ontmoet?" ; "#MANIAC?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Hij schept altijd" ; "He's always brag-"
+	line "op over zijn zeld-" ; "ging about his"
+	cont "zame #MON." ; "rare #MON."
 	done
 
 CianwoodGymGuideText:
@@ -67,9 +67,9 @@ CianwoodGymGuideText:
 	done
 
 CianwoodGymGuideWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>! Je won!" ; "<PLAYER>! You won!"
+	line "Ik zie het aan je" ; "I could tell by"
+	cont "gezicht!" ; "looking at you!"
 	done
 
 CianwoodPokecenter1F_MapEvents:

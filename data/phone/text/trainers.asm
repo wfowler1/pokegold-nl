@@ -1,7 +1,7 @@
 PhoneMaleAnswerMornText:
 	text "Hello. This is"
 	line "@"
-	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
+	text_ram wStringBuffer3 ; MaxLength 9
 	text "…"
 
 	para "Good morning,"
@@ -11,7 +11,7 @@ PhoneMaleAnswerMornText:
 PhoneMaleAnswerDayText:
 	text "Hello. This is"
 	line "@"
-	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
+	text_ram wStringBuffer3 ; MaxLength 9
 	text "…"
 
 	para "How's it going,"
@@ -21,7 +21,7 @@ PhoneMaleAnswerDayText:
 PhoneMaleAnswerNiteText:
 	text "Hello. This is"
 	line "@"
-	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
+	text_ram wStringBuffer3 ; MaxLength 9
 	text "…"
 
 	para "Good evening,"
@@ -31,7 +31,7 @@ PhoneMaleAnswerNiteText:
 PhoneFemaleAnswerMornText:
 	text "Hi. This is"
 	line "@"
-	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
+	text_ram wStringBuffer3 ; MaxLength 9
 	text "."
 
 	para "Hi, <PLAYER>!"
@@ -41,7 +41,7 @@ PhoneFemaleAnswerMornText:
 PhoneFemaleAnswerDayText:
 	text "Hi. This is"
 	line "@"
-	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
+	text_ram wStringBuffer3 ; MaxLength 9
 	text "."
 
 	para "Hi, <PLAYER>!"
@@ -51,7 +51,7 @@ PhoneFemaleAnswerDayText:
 PhoneFemaleAnswerNiteText:
 	text "Hi. This is"
 	line "@"
-	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
+	text_ram wStringBuffer3 ; MaxLength 9
 	text "."
 
 	para "Hi, <PLAYER>!"

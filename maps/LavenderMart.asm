@@ -21,17 +21,18 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "REPEL is a neces-"
-	line "sity if you are"
+	text "VERDRIJVER is een" ; "REPEL is a neces-"
+	line "noodzaak als je" ; "sity if you are"
 
-	para "going to explore a"
-	line "cave."
+	para "een grot gaat" ; "going to explore a"
+	line "verkennen." ; "cave."
 
-	para "Even though I like"
-	line "exploring, I still"
+	para "Hoewel ik graag" ; "Even though I like"
+	line "op ontdekking ga," ; "exploring, I still"
 
-	para "haven't made it to"
-	line "all the caves."
+	para "heb ik nog niet" ; "haven't made it to"
+	line "alle grotten" ; "all the caves."
+	cont "gezien." ; 
 	done
 
 LavenderMartRockerText:

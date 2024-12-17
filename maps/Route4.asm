@@ -69,29 +69,31 @@ BirdKeeperHankAfterBattleText:
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
+	text "Ik denk dat ik" ; "I have a feeling"
+	line "kan winnen." ; "that I can win."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "Eens zien of ik" ; "Let's see if I'm"
+	line "gelijk heb!" ; "right!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "Aww, je bent te" ; "Aww, you are too"
+	line "sterk." ; "strong."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I heard CLEFAIRY"
-	line "appear at MT.MOON."
+	text "Ik hoorde dat" ; "I heard CLEFAIRY"
+	line "CLEFAIRY op de" ; "appear at MT.MOON."
+	cont "MAANBERG ver-" ;
 
-	para "But where could"
-	line "they be?"
+	para "schijnen. Maar" ; "But where could"
+	line "waar zouden ze" ; "they be?"
+	cont "zijn?" ;
 	done
 
 PicnickerSharonSeenText:
 	text "Um…"
-	line "I…"
+	line "Ik…" ; "I…"
 	done
 
 PicnickerSharonBeatenText:
@@ -99,15 +101,15 @@ PicnickerSharonBeatenText:
 	done
 
 PicnickerSharonAfterBattleText:
-	text "……I'll go train"
-	line "some more…"
+	text "……Ik zal meer" ; "……I'll go train"
+	line "gaan trainen…" ; "some more…"
 	done
 
 MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
+	text "MAANBERGPLEIN" ; "MT.MOON SQUARE"
 
-	para "Just go up the"
-	line "stairs."
+	para "Ga gewoon de de" ; "Just go up the"
+	line "trap op." ; "stairs."
 	done
 
 Route4_MapEvents:

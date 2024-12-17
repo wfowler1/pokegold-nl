@@ -112,12 +112,12 @@ SailorHueyBeatenText:
 	line "Ik verlies!" ; "I lose!"
 	done
 
-SailorHueyAfterBattleText:
-	text "What power!"
-	line "How would you like"
+SailorHueyAfterBattleText: ; ReplaceWith SailorHueyUnusedText:
+	text "Wat een kracht!" ; "What power!"
+	line "Wil je anders met" ; "How would you like"
 
-	para "to sail the seas"
-	line "with me?"
+	para "mij de zeeën" ; "to sail the seas"
+	line "bevaren?" ; "with me?"
 	done
 
 GentlemanAlfredSeenText:

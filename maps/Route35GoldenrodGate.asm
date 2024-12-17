@@ -63,8 +63,8 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "DONKERE GROT" ; "DARK CAVE leads"
+	next "naar andere weg@" ; "to another road@"
 
 GiftSpearowName:
 	db "KENYA@"
@@ -113,31 +113,31 @@ Route35GoldenrodGateRandyThanksText:
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	text "<PLAYER> ontving" ; "<PLAYER> received a"
+	line "#MON met POST." ; "#MON with MAIL."
 	done
 
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
-	text "You can read it,"
-	line "but don't lose it!"
-	cont "ROUTE 31!"
+	text "Lees het gerust," ; "You can read it,"
+	line "maar niet kwijt-" ; "but don't lose it!"
+	cont "raken! ROUTE 31!" ; "ROUTE 31!"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
+	para "Oh, ja. Een rare" ; "Oh, yeah. There"
+	line "boom blokkeerde de" ; "was a weird tree"
+	cont "weg." ; "blocking the road."
 
-	para "I wonder if it's"
-	line "been cleared?"
+	para "Zou die al zijn" ; "I wonder if it's"
+	line "weggehaald?" ; "been cleared?"
 	done
 
 Route35GoldenrodGateRandyCantCarryAnotherMonText:
-	text "You can't carry"
-	line "another #MON…"
+	text "Je kunt niet meer" ; "You can't carry"
+	line "#MON meenemen…" ; "another #MON…"
 	done
 
 Route35GoldenrodGateRandyOhNeverMindThenText:
-	text "Oh… Never mind,"
-	line "then…"
+	text "Oh… Laat maar," ; "Oh… Never mind,"
+	line "dan…" ; "then…"
 	done
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
@@ -150,29 +150,29 @@ Route35GoldenrodGateRandySomethingForYourTroubleText:
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Mijn maat lag te" ; "My pal was snooz-"
+	line "pitten, of niet?" ; "ing, right? Heh,"
+	cont "Dacht ik al!" ; "what'd I say?"
 	done
 
 Route35GoldenrodGatePokefanFText:
-	text "A strange tree is"
-	line "blocking the road."
+	text "Een vreemde boom" ; "A strange tree is"
+	line "blokkeert de weg." ; "blocking the road."
 
-	para "It wriggles around"
-	line "if you talk to it."
+	para "Hij wiebelt als je" ; "It wriggles around"
+	line "er tegen praat." ; "if you talk to it."
 
-	para "I heard it became"
-	line "wild when someone"
+	para "Kennelijk werd ie" ; "I heard it became"
+	line "wild toen iemand" ; "wild when someone"
 
-	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	para "er met een SPUIT-" ; "watered it with a"
+	line "FLES op sproeide." ; "SQUIRTBOTTLE."
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
-	text "I like the #MON"
-	line "Lullaby they play"
-	cont "on the radio."
+	text "Ik hou van het" ; "I like the #MON"
+	line "#MON-Slaaplied" ; "Lullaby they play"
+	cont "op de radio." ; "on the radio."
 	done
 
 Route35GoldenrodGate_MapEvents:
