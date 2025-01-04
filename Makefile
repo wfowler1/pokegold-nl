@@ -107,7 +107,7 @@ tools:
 	$(MAKE) -C tools/
 
 
-RGBASMFLAGS = -Q8 -P includes.asm -Weverything -Wnumeric-string=2 -Wtruncation=1
+RGBASMFLAGS = -Q8 -P includes.asm -Weverything -Wtruncation=1
 # Create a sym/map for debug purposes if `make` run with `DEBUG=1`
 ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
@@ -120,7 +120,7 @@ $(pokesilver_debug_obj): RGBASMFLAGS += -D _SILVER -D _DEBUG
 $(pokegold_vc_obj):      RGBASMFLAGS += -D _GOLD -D _GOLD_VC
 $(pokesilver_vc_obj):    RGBASMFLAGS += -D _SILVER -D _GOLD_VC
 
-%.patch: vc/%.constants.sym %_vc.gbc %.gbc vc/%.patch.template
+%.patch: %_vc.gbc %.gbc vc/%.patch.template
 	tools/make_patch $*_vc.sym $^ $@
 
 rgbdscheck.o: rgbdscheck.asm
@@ -167,19 +167,15 @@ $(foreach obj, $(gold_vc_excl_obj), \
 $(foreach obj, $(silver_vc_excl_obj), \
 	$(eval $(call DEP,$(obj),$(obj:_silver_vc.o=_silver.asm))))
 
-# Dependencies for VC files that need to run scan_includes
-%.constants.sym: %.constants.asm $(shell tools/scan_includes %.constants.asm) $(preinclude_deps) | rgbdscheck.o
-	$(RGBASM) $(RGBASMFLAGS) $< > $@
-
 endif
 
 
-pokegold_opt         = -cjsv -t POKEMON_GLD -i AAUE -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokesilver_opt       = -cjsv -t POKEMON_SLV -i AAXE -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokegold_debug_opt   = -cjsv -t POKEMON_GLD -i AAUE -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokesilver_debug_opt = -cjsv -t POKEMON_SLV -i AAXE -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokegold_vc_opt      = -cjsv -t POKEMON_GLD -i AAUE -k 01 -l 0x33 -m 0x10 -r 3 -p 0
-pokesilver_vc_opt    = -cjsv -t POKEMON_SLV -i AAXE -k 01 -l 0x33 -m 0x10 -r 3 -p 0
+pokegold_opt         = -cjsv -t POKEMON_GLD -i AAUE -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokesilver_opt       = -cjsv -t POKEMON_SLV -i AAXE -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokegold_debug_opt   = -cjsv -t POKEMON_GLD -i AAUE -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokesilver_debug_opt = -cjsv -t POKEMON_SLV -i AAXE -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokegold_vc_opt      = -cjsv -t POKEMON_GLD -i AAUE -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+pokesilver_vc_opt    = -cjsv -t POKEMON_SLV -i AAXE -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
 
 %.gbc: $$(%_obj) layout.link
 	$(RGBLINK) -n $*.sym -m $*.map -l layout.link -o $@ $(filter %.o,$^)
