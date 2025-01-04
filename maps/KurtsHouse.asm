@@ -312,162 +312,166 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Who are you?"
+	text "Hm? Wie ben jij?" ; "Hm? Who are you?"
 
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some BALLS?"
+	para "<PLAYER>, eh? Je" ; "<PLAYER>, eh? You"
+	line "wil dat ik wat" ; "want me to make"
+	cont "BALLEN maak?" ; "some BALLS?"
 
-	para "Sorry, but that'll"
-	line "have to wait."
+	para "Sorry, maar dat" ; "Sorry, but that'll"
+	line "moet wachten." ; "have to wait."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "Ken je TEAM" ; "Do you know TEAM"
+	line "ROCKET? Ah, geen" ; "ROCKET? Ah, don't"
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "zorgen. Ik vertel" ; "worry. I'll tell"
+	line "het je sowieso." ; "you anyhow."
 
-	para "TEAM ROCKET's an"
-	line "evil gang that"
+	para "TEAM ROCKET is een" ; "TEAM ROCKET's an"
+	line "kwaadaardige bende" ; "evil gang that"
 
-	para "uses #MON for"
-	line "their dirty work."
+	para "die #MON voor" ; "uses #MON for"
+	line "vuil werk inzet." ; "their dirty work."
 
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
+	para "Ze zouden drie" ; "They're supposed"
+	line "jaar terug zijn" ; "to have disbanded"
+	cont "ontbonden." ; "three years ago."
 
-	para "Anyway, they're at"
-	line "the WELL, cutting"
+	para "Hoe dan ook, ze" ; "Anyway, they're at"
+	line "zijn in de PUT, en" ; "the WELL, cutting"
 
-	para "off SLOWPOKETAILS"
-	line "for sale!"
+	para "hakken SLOWPOKE-" ; "off SLOWPOKETAILS"
+	line "STAARTEN af om te" ; "for sale!"
+	cont "verkopen!"
 
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
+	para "Dus ik ga er heen" ; "So I'm going to"
+	line "om ze een lesje te" ; "go give them a"
+	cont "leren!" ; "lesson in pain!"
 
-	para "Hang on, SLOWPOKE!"
-	line "Old KURT is on his"
-	cont "way!"
+	para "Hou vol, SLOWPOKE!" ; "Hang on, SLOWPOKE!"
+	line "Ouwe KURT komt" ; "Old KURT is on his"
+	cont "er aan!" ; "way!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
-	text "KURT: Hi, <PLAYER>!"
+	text "KURT: Ha <PLAYER>!" ; "KURT: Hi, <PLAYER>!"
 
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the WELL."
+	para "Je gedroeg je als" ; "You handled your-"
+	line "een ware held in" ; "self like a real"
+	cont "de PUT." ; "hero at the WELL."
 
-	para "I like your style!"
+	para "Ik mag jou wel!" ; "I like your style!"
 
-	para "I would be honored"
-	line "to make BALLS for"
+	para "Het zou een eer" ; "I would be honored"
+	line "zijn om BALLEN" ; "to make BALLS for"
 
-	para "a trainer like"
-	line "you."
+	para "te maken voor een" ; "a trainer like"
+	line "trainer als jij." ; "you."
 
-	para "This is all I have"
-	line "now, but take it."
+	para "Dit is alles dat" ; "This is all I have"
+	line "ik nu heb, maar" ; "now, but take it."
+	cont "neem het."
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "KURT: Ik maak" ; "KURT: I make BALLS"
+	line "BALLEN van ABRIK-" ; "from APRICORNS."
+	cont "HORNS."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Pluk ze uit bomen" ; "Collect them from"
+	line "en breng ze dan" ; "trees and bring"
+	cont "naar mij." ; "'em to me."
 
-	para "I'll make BALLS"
-	line "out of them."
+	para "Dan maak ik er" ; "I'll make BALLS"
+	line "BALLEN van." ; "out of them."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "KURT: Heb jij een" ; "KURT: You have an"
+	line "ABRIKHORN voor me?" ; "APRICORN for me?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "Prima! Ik maak er" ; "Fine! I'll turn it"
+	line "een BAL van." ; "into a BALL."
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: It'll take a"
-	line "day to make you a"
+	text "KURT: Het duurt 'n" ; "KURT: It'll take a"
+	line "dag om er een BAL" ; "day to make you a"
 
-	para "BALL. Come back"
-	line "for it later."
+	para "van te maken. Kom" ; "BALL. Come back"
+	line "later maar terug." ; "for it later."
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "KURT: Oh…"
-	line "That's a letdown."
+	text "KURT: Oh… Wat een" ; "KURT: Oh…"
+	line "teleurstelling." ; "That's a letdown."
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "KURT: Ik werk hier" ; "KURT: I'm working!"
+	line "nu! Stoor me niet!" ; "Don't bother me!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
 	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	line "Ik was net klaar" ; "I just finished"
+	cont "met je BAL. Hier!" ; "your BALL. Here!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: That turned"
-	line "out great."
+	text "KURT: Die is best" ; "KURT: That turned"
+	line "goed gelukt." ; "out great."
 
-	para "Try catching"
-	line "#MON with it."
+	para "Probeer maar een" ; "Try catching"
+	line "#MON te vangen." ; "#MON with it."
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
-	line "gone… Were they"
+	text "De SLOWPOKE zijn" ; "The SLOWPOKE are"
+	line "weg… Hebben" ; "gone… Were they"
 
-	para "taken away by bad"
-	line "people?"
+	para "slechte mensen ze" ; "taken away by bad"
+	line "meegenomen?" ; "people?"
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Grandpa's gone…"
-	line "I'm so lonely…"
+	text "Opa is weg…" ; "Grandpa's gone…"
+	line "Ik ben zo eenzaam…" ; "I'm so lonely…"
 	done
 
 KurtsGranddaughterSlowpokeBackText: ; AlwaysReplace
-	text "The SLOWPOKE my"
-	line "dad gave me came"
+	text "De SLOWPOKE die" ; "The SLOWPOKE my"
+	line "mijn vader gaf" ; "dad gave me came"
 
-	para "back! Its TAIL is"
-	line "growing back too!"
+	para "kwam terug! De" ; "back! Its TAIL is"
+	line "STAART groeit ook" ; "growing back too!"
+	cont "weer terug!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at SILPH"
-	line "where he studies"
-	cont "# BALLS."
+	text "Papa werkte bij" ; "Dad works at SILPH"
+	line "SILPH en onder-" ; "where he studies"
+	cont "zocht #BALLEN." ; "# BALLS."
 
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	para "Ik moet bij Opa" ; "I have to stay"
+	line "en SLOWPOKE" ; "home with Grandpa"
+	cont "thuisblijven." ; "and SLOWPOKE."
 	done
 
 KurtsHouseSlowpokeText:
 	text "SLOWPOKE: …"
-	line "Yawn?"
+	line "Gaap?" ; "Yawn?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
+	text "…Een jonge PROF." ; "…A young PROF."
 	line "OAK?"
 	done
 
 KurtsHouseCelebiStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Een standbeeld van" ; "It's a statue of"
+	line "de wachter van het" ; "the forest's pro-"
+	cont "woud." ; "tector."
 	done
 
 KurtsHouse_MapEvents:

@@ -191,7 +191,7 @@ MortyText_FogBadgeSpeech:
 	text "Met de MISTBADGE" ; "By having FOG-"
 	line "luisteren #MON" ; "BADGE, #MON up"
 
-	para "tot N50" ; "to L50 will obey"
+	para "tot L50" ; "to L50 will obey"
 	line "naar je." ; "you."
 
 	para "En, #MON die" ; "Also, #MON that"

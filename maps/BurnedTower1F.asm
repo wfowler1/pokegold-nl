@@ -197,33 +197,33 @@ BurnedTowerRival_BeforeText:
 	done
 
 BurnedTowerRival_WinText:
-	text "…Humph!"
+	text "…Pff!" ; "…Humph!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Dit is waarom ik" ; "This is why I hate"
+	line "vechten met watjes" ; "battling wimps."
 
-	para "There's no"
-	line "challenge in it."
+	para "haat. Gebrek aan" ; "There's no"
+	line "uitdaging." ; "challenge in it."
 	done
 
 BurnedTowerRival_AfterText1:
-	text "…Aw, whatever."
+	text "…Aw, boeien." ; "…Aw, whatever."
 
-	para "You would never be"
-	line "able to catch a"
+	para "Je zal toch nooit" ; "You would never be"
+	line "een legendarische" ; "able to catch a"
 
-	para "legendary #MON"
-	line "anyway."
+	para "#MON kunnen" ; "legendary #MON"
+	line "vangen." ; "anyway."
 	done
 
 BurnedTowerRival_LossText:
-	text "…Humph!"
+	text "…Pff!" ; "…Humph!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Dit is waarom ik" ; "This is why I hate"
+	line "vechten met watjes" ; "battling wimps."
 
-	para "It's just a waste"
-	line "of my time."
+	para "haat. Zonde van" ; "It's just a waste"
+	line "mijn tijd." ; "of my time."
 	done
 
 FirebreatherDickBeforeText:

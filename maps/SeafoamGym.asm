@@ -61,66 +61,66 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "BLAINE: Waaah!" ; "BLAINE: Waaah!"
 
-	para "My GYM in CINNABAR"
-	line "burned down."
+	para "Mijn GYM in CINNA-" ; "My GYM in CINNABAR"
+	line "BAR is afgebrand." ; "burned down."
 
-	para "My fire-breathing"
-	line "#MON and I are"
+	para "Door de vulkaan" ; "My fire-breathing"
+	line "zijn mijn vuur-" ; "#MON and I are"
 
-	para "homeless because"
-	line "of the volcano."
+	para "spuwende #MON" ; "homeless because"
+	line "en ik dakloos." ; "of the volcano."
 
-	para "Waaah!"
+	para "Waaah!" ; "Waaah!"
 
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Maar in deze grot" ; "But I'm back in"
+	line "ben ik gewoon" ; "business as a GYM"
 
-	para "LEADER here in"
-	line "this cave."
+	para "weer een GYM-" ; "LEADER here in"
+	line "leider." ; "this cave."
 
-	para "If you can beat"
-	line "me, I'll give you"
-	cont "a BADGE."
+	para "Als je mij kan" ; "If you can beat"
+	line "verslaan, geef ik" ; "me, I'll give you"
+	cont "je een BADGE." ; "a BADGE."
 
-	para "Ha! You'd better"
-	line "have BURN HEAL!"
+	para "Ha! Hopelijk heb" ; "Ha! You'd better"
+	line "je BRANDZALF mee!" ; "have BURN HEAL!"
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
-	line "I've burned out…"
+	text "BLAINE: Geweldig." ; "BLAINE: Awesome."
+	line "Ik ben opgebrand…" ; "I've burned out…"
 
-	para "You've earned"
-	line "VOLCANOBADGE!"
+	para "Deze VULKAANBADGE" ; "You've earned"
+	line "heb je verdiend!" ; "VOLCANOBADGE!"
 	done
 
 ReceivedVolcanoBadgeText:
-	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "VULKAANBADGE." ; "VOLCANOBADGE."
 	done
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
-	line "this time, but I'm"
+	text "BLAINE: Deze keer" ; "BLAINE: I did lose"
+	line "verloor ik, maar" ; "this time, but I'm"
 
-	para "going to win the"
-	line "next time."
+	para "de volgende keer" ; "going to win the"
+	line "win ik." ; "next time."
 
-	para "When I rebuild my"
-	line "CINNABAR GYM,"
+	para "Laten we nogmaals" ; "When I rebuild my"
+	line "strijden als ik" ; "CINNABAR GYM,"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "CINNABAR GYM heb" ; "we'll have to have"
+	line "herbouwd." ; "a rematch."
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
-	line "#MON will be"
+	text "BLAINE: Mijn vuur-" ; "BLAINE: My fire"
+	line "#MON zullen nog" ; "#MON will be"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "sterker zijn." ; "even stronger."
+	line "Kijk maar uit!" ; "Just you watch!"
 	done
 
 SeafoamGymGuideWinText:
@@ -145,14 +145,14 @@ SeafoamGymGuideWinText:
 	done
 
 SeafoamGymGuideWinText2:
-	text "A #MON GYM can"
-	line "be anywhere as"
+	text "Een #MON-GYM" ; "A #MON GYM can"
+	line "kan overal zijn" ; "be anywhere as"
 
-	para "long as the GYM"
-	line "LEADER is there."
+	para "zolang er een" ; "long as the GYM"
+	line "GYMLEIDER is." ; "LEADER is there."
 
-	para "There's no need"
-	line "for a building."
+	para "Een gebouw is niet" ; "There's no need"
+	line "per se nodig." ; "for a building."
 	done
 
 SeafoamGym_MapEvents:

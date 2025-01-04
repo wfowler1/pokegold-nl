@@ -747,8 +747,8 @@ DidntChooseStarterText:
 
 ChoseStarterText:
 	text "ELM: Ik vind" ; "ELM: I think"
-	line "dat ook een gewel-" ; "that's a great"
-	cont "dige #MON!" ; "#MON too!"
+	line "dat ook een" ; "that's a great"
+	cont "geweldige #MON!" ; "#MON too!"
 	done
 
 ReceivedStarterText:
@@ -803,9 +803,9 @@ ElmDescribesMrPokemonText:
 	done
 
 ElmPokeBallText:
-	text "Bevat een #MON" ; "It contains a"
-	line "gevangen door" ; "#MON caught by"
-	cont "PROF.ELM."
+	text "Het bevat een" ; "It contains a"
+	line "#MON gevangen" ; "#MON caught by"
+	cont "door PROF.ELM."
 	done
 
 ElmsLabHealingMachineText1:
@@ -822,8 +822,8 @@ ElmAfterTheftText1:
 	line "is afschuwelijk…" ; "is terrible…"
 
 	para "Oh, ja, wat was de" ; "Oh, yes, what was"
-	line "ontdekking van" ; "MR.#MON's big"
-	cont "MR.#MON?" ; "discovery?"
+	line "grote ontdekking" ; "MR.#MON's big"
+	cont "van MR.#MON?" ; "discovery?"
 	done
 
 ElmAfterTheftText2:
@@ -838,7 +838,7 @@ ElmAfterTheftText3:
 
 ElmAfterTheftText4:
 	text "Maar… Is het een" ; "But… Is it a"
-	line "#MON EI?" ; "#MON EGG?"
+	line "#MON-EI?" ; "#MON EGG?"
 
 	para "Zo ja, dan is dit" ; "If it is, it is a"
 	line "groot nieuws!" ; "great discovery!"
@@ -867,11 +867,11 @@ ElmAfterTheftText5:
 
 	para "Je lijkt ook goed" ; "You seem to be"
 	line "op te schieten met" ; "getting on great"
-	cont "jouw #MON." ; "with #MON too."
+	cont "je #MON." ; "with #MON too."
 
-	para "Overweeg de" ; "You should take"
-	line "#MON GYM-uit-" ; "the #MON GYM"
-	cont "daging te doen." ; "challenge."
+	para "Je zou de #MON-" ; "You should take"
+	line "GYM-uitdaging-" ; "the #MON GYM"
+	cont "moeten proberen." ; "challenge."
 
 	para "De eerste GYM is" ; "The closest GYM"
 	line "is verderop in" ; "would be the one"
@@ -894,7 +894,7 @@ ElmStudyingEggText:
 	text "ELM: Geef niet op!" ; "ELM: Don't give"
 	line "Ik bel je als ik" ; "up! I'll call if"
 
-	para "iets te weten komt" ; "I learn anything"
+	para "iets te weten kom" ; "I learn anything"
 	line "over dat EI!" ; "about that EGG!"
 	done
 
@@ -907,11 +907,11 @@ ElmAideHasEggText:
 	line "komen met het EI" ; "you with the EGG"
 
 	para "in VIOLET CITY's" ; "at VIOLET CITY's"
-	line "#MON CENTER."
+	line "#MONCENTRUM." ; "#MON CENTER."
 
 	para "Je hebt hem vast" ; "You must have just"
-	line "gemist, probeer" ; "missed him. Try to"
-	cont "'m daar te vinden." ; "catch him there."
+	line "gemist, zoek hem" ; "missed him. Try to"
+	cont "daar op." ; "catch him there."
 	done
 
 ElmWaitingEggHatchText:
@@ -1060,7 +1060,7 @@ ElmGiveTicketText2:
 
 	para "Je bent immers al" ; "After all, you've"
 	line "overal geweest met" ; "traveled all over"
-	cont "jouw #MON." ; "with your #MON."
+	cont "je #MON." ; "with your #MON."
 
 	para "Doe de groeten aan" ; "Give my regards to"
 	line "PROF.OAK in KANTO!"
@@ -1068,8 +1068,8 @@ ElmGiveTicketText2:
 
 ElmsLabMonEggText: ; unreferenced
 	text "Het #MON-EI dat" ; "It's the #MON"
-	line "PROF.ELM bestu-" ; "EGG being studied"
-	cont "deert." ; "by PROF.ELM."
+	line "PROF.ELM" ; "EGG being studied"
+	cont "bestudeert." ; "by PROF.ELM."
 	done
 
 AideText_GiveYouPotion:
@@ -1117,10 +1117,9 @@ AideText_GiveYouBalls:
 	done
 
 AideText_ExplainBalls:
-	text "Je moet #MON" ; "To add to your"
-	line "vangen om ze in je" ; "#DEX, you have"
-	cont "#DEX te" ; "to catch #MON."
-	cont "krijgen."
+	text "Vang #MON om ze" ; "To add to your"
+	line "toe te voegen aan" ; "vangen om ze in je" ; "#DEX, you have"
+	cont "je #DEX." ; "#DEX te" ; "to catch #MON."
 
 	para "Gooi #BALLEN" ; "Throw # BALLS"
 	line "naar wilde #MON" ; "at wild #MON"
@@ -1131,9 +1130,9 @@ ElmsLabOfficerText1:
 	text "Ik hoorde dat een" ; "I heard a #MON"
 	line "#MON is gejat…" ; "was stolen here…"
 
-	para "Ik hoorde er net" ; "I was just getting"
-	line "over van PROF.ELM" ; "some information"
-	; cont "from PROF.ELM."
+	para "PROF.ELM vertelde" ; "I was just getting"
+	line "mij er net alles" ; "some information"
+	cont "alles over." ; "from PROF.ELM."
 
 	para "Kennelijk was het" ; "Apparently, it was"
 	line "een jongeman met" ; "a young male with"
@@ -1215,7 +1214,7 @@ ElmsLabTravelTip4Text:
 ElmsLabTrashcanText:
 	text "De verpakking van" ; "The wrapper from"
 	line "de snack die PROF." ; "the snack PROF.ELM"
-	cont "ELM at ligt hier." ; "ate is in there…"
+	cont "ELM at, ligt hier." ; "ate is in there…"
 	done
 
 ElmsLab_MapEvents:

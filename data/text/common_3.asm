@@ -3,28 +3,28 @@ _SlotsStartText::
 	done
 
 _SlotsNotEnoughCoinsText::
-	text "Not enough"
-	line "coins."
+	text "Te weinig" ; "Not enough"
+	line "munten." ; "coins."
 	prompt
 
 _SlotsRanOutOfCoinsText::
-	text "Darn… Ran out of"
-	line "coins…"
+	text "Verdorie… Geen" ; "Darn… Ran out of"
+	line "munten meer…" ; "coins…"
 	done
 
 _SlotsPlayAgainText::
-	text "Play again?"
+	text "Weer spelen?" ; "Play again?"
 	done
 
 _SlotsLinedUpText::
-	text "lined up!"
+	text "op een rij!" ; "lined up!"
 	line "Won @"
-	text_ram wStringBuffer2
-	text " coins!"
+	text_ram wStringBuffer2 ; MaxLength 3
+	text " munten!" ; " coins!"
 	done
 
 _SlotsDarnText::
-	text "Darn!"
+	text "Verdorie!" ; "Darn!"
 	done
 
 _GearTodayText::
@@ -36,32 +36,32 @@ _GearEllipseText::
 	done
 
 _GearOutOfServiceText::
-	text "You're out of the"
-	line "service area."
+	text "Je bent buiten het" ; "You're out of the"
+	line "gebruiksgebied." ; "service area."
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Whom do you want"
-	line "to call?"
+	text "Met wie wil" ; "Whom do you want"
+	line "je bellen?" ; "to call?"
 	done
 
 _PokegearPressButtonText::
-	text "Press any button"
-	line "to exit."
+	text "Druk op een knop" ; "Press any button"
+	line "om te sluiten." ; "to exit."
 	done
 
 _PokegearAskDeleteText::
-	text "Delete this stored"
-	line "phone number?"
+	text "Verwijder dit" ; "Delete this stored"
+	line "bewaarde nummer?" ; "phone number?"
 	done
 
 _PhoneWrongNumberText::
-	text "Huh? Sorry, wrong"
-	line "number!"
+	text "Huh? Sorry, fout" ; "Huh? Sorry, wrong"
+	line "nummer!" ; "number!"
 	done
 
 _PhoneClickText::
-	text "Click!"
+	text "Klik!" ; "Click!"
 	done
 
 _PhoneEllipseText::
@@ -69,17 +69,17 @@ _PhoneEllipseText::
 	done
 
 _PhoneOutOfAreaText::
-	text "That number is out"
-	line "of the area."
+	text "Dat nummer is" ; "That number is out"
+	line "buiten bereik." ; "of the area."
 	done
 
 _PhoneJustTalkToThemText::
-	text "Just go talk to"
-	line "that person!"
+	text "Ga gewoon met ze" ; "Just go talk to"
+	line "praten!" ; "that person!"
 	done
 
 _PhoneThankYouText::
-	text "Thank you!"
+	text "Bedankt!" ; "Thank you!"
 	done
 
 _SpaceSpaceColonText:: ; unreferenced
@@ -87,22 +87,22 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Password OK."
-	line "Select CONTINUE &"
-	cont "reset settings."
+	text "Wachtwoord OK." ; "Password OK."
+	line "Kies VERDER &" ; "Select CONTINUE &"
+	cont "reset instellingen" ; "reset settings."
 	prompt
 
 _PasswordWrongText::
-	text "Wrong password!"
+	text "Fout wachtwoord!" ; "Wrong password!"
 	prompt
 
 _PasswordAskResetClockText::
-	text "Reset the clock?"
+	text "Reset de klok?" ; "Reset the clock?"
 	done
 
 _PasswordAskEnterText::
-	text "Please enter the"
-	line "password."
+	text "Voer het wacht-" ; "Please enter the"
+	line "woord in." ; "password."
 	done
 
 _ClearAllSaveDataText::
@@ -110,158 +110,161 @@ _ClearAllSaveDataText::
 	line "data area?"
 	done
 
-_LearnedMoveText::
-	text_ram wMonOrItemNameBuffer
-	text " learned"
+_LearnedMoveText:: ; AlwaysReplace
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
+	text " leerde" ; " learned"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "!@"
 	sound_dex_fanfare_50_79
 	text_promptbutton
 	text_end
 
+	text_end ; unreferenced
+
 _MoveAskForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Welke aanval wordt" ; "Which move should"
+	line "vergeten?" ; "be forgotten?"
 	done
 
 _StopLearningMoveText::
-	text "Stop learning"
+	text "Stop met leren van" ; "Stop learning"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "?"
 	done
 
 _DidNotLearnMoveText::
-	text_ram wMonOrItemNameBuffer
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
-	line "did not learn"
+	line "leerde niet" ; "did not learn"
 	cont "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "."
 	prompt
 
 _AskForgetMoveText::
-	text_ram wMonOrItemNameBuffer
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text " is"
-	line "trying to learn"
+	line "probeert" ; "trying to learn"
 	cont "@"
-	text_ram wStringBuffer2
-	text "."
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
+	text " te" ; "."
+	cont "leren."
 
-	para "But @"
-	text_ram wMonOrItemNameBuffer
+	para "Maar @" ; "But @"
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
-	line "can't learn more"
-	cont "than four moves."
+	line "kan maximaal vier" ; "can't learn more"
+	cont "aanvallen leren." ; "than four moves."
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
-	text_ram wStringBuffer2
+	para "Verwijder een oude" ; "Delete an older"
+	line "aanval voor" ; "move to make room"
+	cont "@" ; "for @"
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "?"
 	done
 
 Text_MoveForgetCount::
-	text "1, 2 and…@"
+	text "1, 2 en…@" ; "1, 2 and…@"
 	text_pause
 	text_end
 
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text " Poof!@"
+	text " Poef!@" ; " Poof!@"
 	text_pause
 	text_start
 
 	para "@"
-	text_ram wMonOrItemNameBuffer
-	text " forgot"
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
+	text " vergat" ; " forgot"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text "."
 
-	para "And…"
+	para "En…" ; "And…"
 	prompt
 
 _MoveCantForgetHMText::
-	text "HM moves can't be"
-	line "forgotten now."
+	text "VM-aanvallen zijn" ; "HM moves can't be"
+	line "niet te vergeten." ; "forgotten now."
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
-	text "Play with three"
-	line "coins?"
+	text "Speel met drie" ; "Play with three"
+	line "munten?" ; "coins?"
 	done
 
 _CardFlipNotEnoughCoinsText::
-	text "Not enough coins…"
+	text "Te weinig munten…" ; "Not enough coins…"
 	prompt
 
 _CardFlipChooseACardText::
-	text "Choose a card."
+	text "Kies een kaart." ; "Choose a card."
 	done
 
 _CardFlipPlaceYourBetText::
-	text "Place your bet."
+	text "Zet geld in." ; "Place your bet."
 	done
 
 _CardFlipPlayAgainText::
-	text "Want to play"
-	line "again?"
+	text "Nog een keer" ; "Want to play"
+	line "spelen?" ; "again?"
 	done
 
 _CardFlipShuffledText::
-	text "The cards have"
-	line "been shuffled."
+	text "De kaarten zijn" ; "The cards have"
+	line "geschud." ; "been shuffled."
 	prompt
 
 _CardFlipYeahText::
-	text "Yeah!"
+	text "Jaaa!" ; "Yeah!"
 	done
 
 _CardFlipDarnText::
-	text "Darn…"
+	text "Verdorie…" ; "Darn…"
 	done
 
 _BallDodgedText::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Hij ontweek de" ; "It dodged the"
+	line "geworpen BAL!" ; "thrown BALL!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Deze #MON" ; "This #MON"
+	line "is niet te vangen!" ; "can't be caught!"
 	prompt
 
 _BallMissedText::
-	text "You missed the"
+	text "Je miste de" ; "You missed the"
 	line "#MON!"
 	prompt
 
 _BallBrokeFreeText::
-	text "Oh no! The #MON"
-	line "broke free!"
+	text "Oh nee! De #MON" ; "Oh no! The #MON"
+	line "brak los!" ; "broke free!"
 	prompt
 
 _BallAppearedCaughtText::
-	text "Aww! It appeared"
-	line "to be caught!"
+	text "Aww! Het leek" ; "Aww! It appeared"
+	line "te zijn gelukt!" ; "to be caught!"
 	prompt
 
 _BallAlmostHadItText::
 	text "Aargh!"
-	line "Almost had it!"
+	line "Bijna gelukt!" ; "Almost had it!"
 	prompt
 
 _BallSoCloseText::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Verdraaid! Zo" ; "Shoot! It was so"
+	line "dichtbij ook!" ; "close too!"
 	prompt
 
 Text_BallCaught::
-	text "Gotcha! @"
+	text "Hebbes! @" ; "Gotcha! @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "was caught!@"
+	line "is gevangen!@" ; "was caught!@"
 	sound_caught_mon
 	text_end
 
@@ -272,9 +275,9 @@ _WaitButtonText::
 	text_end
 
 _BallSentToPCText::
-	text_ram wMonOrItemNameBuffer
-	text " was"
-	line "sent to BILL's PC."
+	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
+	text " ging" ; " was"
+	line "naar BILL's PC." ; "sent to BILL's PC."
 	prompt
 
 _NewDexDataText::
@@ -287,271 +290,273 @@ _NewDexDataText::
 	text_end
 
 _AskGiveNicknameText::
-	text "Give a nickname to"
+	text "Geef een naam aan" ; "Give a nickname to"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "?"
 	done
 
 _ItemStatRoseText::
-	text_ram wStringBuffer1
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "@"
-	text_ram wStringBuffer2
-	text " rose."
+	text_ram wStringBuffer2 ; MaxLength MaxStatNameLength
+	text " steeg." ; " rose."
 	prompt
 
 _ItemCantUseOnMonText::
-	text "That can't be used"
-	line "on this #MON."
+	text "Niet te gebruiken" ; "That can't be used"
+	line "op deze #MON." ; "on this #MON."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
-	line "earlier is still"
-	cont "in effect."
+	text "De VERJAAG die je" ; "The REPEL used"
+	line "eerder gebruikte" ; "earlier is still"
+	cont "werkt nog." ; "in effect."
 	prompt
 
 _PlayedFluteText::
-	text "Played the #"
+	text "Speelde de #" ; "Played the #"
 	line "FLUTE."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Nou, wat een leuk" ; "Now, that's a"
+	line "leuk deuntje!" ; "catchy tune!"
 	prompt
 
 _FluteWakeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Slapende #MON" ; "All sleeping"
+	line "werden wakker." ; "#MON woke up."
 	prompt
 
 Text_PlayedPokeFlute::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> speelde" ; "<PLAYER> played the"
+	line "de #FLUIT.@" ; "# FLUTE.@"
 	text_promptbutton
 	text_end
 
 	text_end ; unreferenced
 
-_CoinCaseCountText::
-; BUG: Using the Coin Case can cause arbitrary code execution (see docs/bugs_and_glitches.md)
-	text "Coins:"
+_CoinCaseCountText:: ; AlwaysReplace
+	text "Munten:" ; "Coins:"
 	line "@"
 	text_decimal wCoins, 2, 4
-	done
+	text_end
+
+	text_end ; unreferenced
 
 _RaiseThePPOfWhichMoveText::
-	text "Raise the PP of"
-	line "which move?"
+	text "Verhoog AP van" ; "Raise the PP of"
+	line "welke aanval?" ; "which move?"
 	done
 
 _RestoreThePPOfWhichMoveText::
-	text "Restore the PP of"
-	line "which move?"
+	text "Herstel AP van" ; "Restore the PP of"
+	line "welke aanval?" ; "which move?"
 	done
 
 _PPIsMaxedOutText::
-	text_ram wStringBuffer2
-	text "'s PP"
-	line "is maxed out."
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
+	text "'s AP" ; "'s PP"
+	line "is op zijn hoogst." ; "is maxed out."
 	prompt
 
 _PPsIncreasedText::
-	text_ram wStringBuffer2
-	text "'s PP"
-	line "increased."
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
+	text "'s AP" ; "'s PP"
+	line "is verhoogd." ; "increased."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "AP was hersteld." ; "PP was restored."
 	prompt
 
 _SentTrophyHomeText::
-	text "There was a trophy"
-	line "inside!@"
+	text "Er zat een" ; "There was a trophy"
+	line "trofee in!@" ; "inside!@"
 	sound_dex_fanfare_50_79
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " sent the"
-	line "trophy home."
+	text " zond prijs" ; " sent the"
+	line "naar huis." ; "trophy home."
 	prompt
 
 _ItemLooksBitterText::
-	text "It looks bitter…"
+	text "Lijkt best bitter…" ; "It looks bitter…"
 	prompt
 
 _ItemCantUseOnEggText::
-	text "That can't be used"
-	line "on an EGG."
+	text "Dat werkt niet" ; "That can't be used"
+	line "op een EI." ; "on an EGG."
 	prompt
 
 _ItemOakWarningText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	line "Dit is niet het" ; "This isn't the"
+	cont "moment daarvoor!" ; "time to use that!"
 	prompt
 
 _ItemBelongsToSomeoneElseText::
-	text "That belongs to"
-	line "someone else!"
+	text "Dat is van iemand" ; "That belongs to"
+	line "anders!" ; "someone else!"
 	prompt
 
 _ItemWontHaveEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Het zal geen" ; "It won't have any"
+	line "effect hebben." ; "effect."
 	prompt
 
 _BallBlockedText::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "De trainer" ; "The trainer"
+	line "blokkeerde de BAL!" ; "blocked the BALL!"
 	prompt
 
 _BallDontBeAThiefText::
-	text "Don't be a thief!"
+	text "Niet stelen!" ; "Don't be a thief!"
 	prompt
 
 _NoCyclingText::
-	text "Cycling isn't"
-	line "allowed here."
+	text "Fietsen is hier" ; "Cycling isn't"
+	line "niet toegestaan." ; "allowed here."
 	prompt
 
 _ItemCantGetOnText::
-	text "Can't get on your"
-	line "@"
-	text_ram wStringBuffer1
-	text " now."
+	text "Kunt niet rijden" ; "Can't get on your"
+	line "op @"
+	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
+	text "." ; " now."
 	prompt
 
 _BallBoxFullText::
-	text "The #MON BOX"
-	line "is full. That"
-	cont "can't be used now."
+	text "De #MON BOX" ; "The #MON BOX"
+	line "is vol. Dat kun je" ; "is full. That"
+	cont "nu niet gebruiken." ; "can't be used now."
 	prompt
 
 _ItemUsedText::
-	text "<PLAYER> used the"
+	text "<PLAYER> gebruikte@" ; "<PLAYER> used the@"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	done
 
 _ItemGotOnText::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> ging op de@" ; "<PLAYER> got on the@"
 	text_low
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
 _ItemGotOffText::
-	text "<PLAYER> got off@"
+	text "<PLAYER> stapte van@" ; "<PLAYER> got off@"
 	text_low
-	text "the @"
-	text_ram wStringBuffer2
+	text "de @" ; "the @"
+	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
 _KnowsMoveText::
-	text_ram wStringBuffer1
-	text " knows"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " kent" ; " knows"
 	line "@"
-	text_ram wStringBuffer2
+	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text "."
 	prompt
 
 _MoveKnowsOneText::
-	text "That #MON knows"
-	line "only one move."
+	text "Die #MON kent" ; "That #MON knows"
+	line "een enkele aanval." ; "only one move."
 	done
 
 _AskDeleteMoveText::
-	text "Oh, make it forget"
+	text "Oh, wil je" ; "Oh, make it forget"
 	line "@"
-	text_ram wStringBuffer1
-	text "?"
+	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
+	text " ver-" ; "?"
+	cont "geten?"
 	done
 
 _DeleterForgotMoveText::
-	text "Done! Your #MON"
-	line "forgot the move."
+	text "Klaar! Je #MON" ; "Done! Your #MON"
+	line "vergat de aanval." ; "forgot the move."
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
-	line "know any moves!"
+	text "Een EI kent geen" ; "An EGG doesn't"
+	line "aanvallen!" ; "know any moves!"
 	done
 
 _DeleterNoComeAgainText::
-	text "No? Come visit me"
-	line "again."
+	text "Nee? Bezoek me" ; "No? Come visit me"
+	line "later weer." ; "again."
 	done
 
 _DeleterAskWhichMoveText::
-	text "Which move should"
-	line "it forget, then?"
+	text "Welke aanval moet" ; "Which move should"
+	line "worden vergeten?" ; "it forget, then?"
 	prompt
 
 _DeleterIntroText::
-	text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER."
+	text "Um… Oh, ja, Ik ben" ; "Um… Oh, yes, I'm"
+	line "de AANVALWISSER." ; "the MOVE DELETER."
 
-	para "I can make #MON"
-	line "forget moves."
+	para "Ik wis aanvallen" ; "I can make #MON"
+	line "van je #MON." ; "forget moves."
 
-	para "Shall I make a"
-	line "#MON forget?"
+	para "Moet ik helpen een" ; "Shall I make a"
+	line "aanval te wissen?" ; "#MON forget?"
 	done
 
 _DeleterAskWhichMonText::
-	text "Which #MON?"
+	text "Welke #MON?" ; "Which #MON?"
 	prompt
 
 _DSTIsThatOKText::
-	text " DST,"
-	line "is that OK?"
+	text " ZMR," ; " DST,"
+	line "is dat OK?" ; "is that OK?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?"
+	line "is dat OK?" ; "is that OK?"
 	done
 
 _TimesetAskDSTText::
-	text "Do you want to"
-	line "switch to Daylight"
-	cont "Saving Time?"
+	text "Wil je wisselen" ; "Do you want to"
+	line "naar de Zomer-" ; "switch to Daylight"
+	cont "tijd?" ; "Saving Time?"
 	done
 
 _TimesetDSTText::
-	text "I set the clock"
-	line "forward by one"
-	cont "hour."
+	text "Ik heb de klok één" ; "I set the clock"
+	line "uur voor je" ; "forward by one"
+	cont "vooruitgezet." ; "hour."
 	prompt
 
 _TimesetAskNotDSTText::
-	text "Is Daylight Saving"
-	line "Time over?"
+	text "Is de Wintertijd" ; "Is Daylight Saving"
+	line "aangebroken?" ; "Time over?"
 	done
 
 _TimesetNotDSTText::
-	text "I put the clock"
-	line "back one hour."
+	text "De klok is één uur" ; "I put the clock"
+	line "achteruitgezet." ; "back one hour."
 	prompt
 
 _TimesetAskAdjustDSTText::
-	text "Do you want to"
-	line "adjust your clock"
+	text "Wil je de klok" ; "Do you want to"
+	line "aanpassen" ; "adjust your clock"
 
-	para "for Daylight"
-	line "Saving Time?"
+	para "voor de Zomer-" ; "for Daylight"
+	line "tijd?" ; "Saving Time?"
 	done
 
 _MomLostGearBookletText::
-	text "I lost the in-"
-	line "struction booklet"
-	cont "for the #GEAR."
+	text "Ik ben de hand-" ; "I lost the in-"
+	line "leiding van de" ; "struction booklet"
+	cont "#GEAR kwijt." ; "for the #GEAR."
 
-	para "Come back again in"
-	line "a while."
+	para "Kom over een" ; "Come back again in"
+	line "tijdje terug." ; "a while."
 	prompt

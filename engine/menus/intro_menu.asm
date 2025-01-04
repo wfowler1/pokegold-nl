@@ -175,7 +175,7 @@ SetDefaultBoxNames:
 	ret
 
 .Box:
-	db "DOOS@" ; "BOX@"
+	db "BOX@"
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
@@ -410,7 +410,7 @@ Continue_LoadMenuHeader:
 	db 0 ; flags
 	db 4 ; items
 	db "SPELER <PLAYER>@" ; "PLAYER <PLAYER>@"
-	db "MEDAILLE@" ; "BADGES@"
+	db "BADGES@"
 	db "#DEX@"
 	db "DUUR@" ; "TIME@"
 
@@ -424,7 +424,7 @@ Continue_LoadMenuHeader:
 	db 0 ; flags
 	db 4 ; items
 	db "SPELER <PLAYER>@" ; "PLAYER <PLAYER>@"
-	db "MEDAILLE@" ; "BADGES@"
+	db "BADGES@"
 	db " @"
 	db "DUUR@" ; "TIME@"
 

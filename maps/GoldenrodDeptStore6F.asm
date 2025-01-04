@@ -79,10 +79,10 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "CANCEL@"
+	db "VERS WATER   ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
+	db "FRISDRANK    ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
+	db "LIMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
+	db "ANNULEER@"
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText
@@ -97,7 +97,7 @@ GoldenrodDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodVendingText:
-	text "Een automaat!" ; "A vending machine!"
+	text "Een drankautomaat!" ; "A vending machine!"
 	line "Hier is het menu." ; "Here's the menu."
 	done
 
@@ -136,8 +136,8 @@ GoldenrodDeptStore6FLassText:
 
 GoldenrodDeptStore6FSuperNerdText:
 	text "Als je moe bent," ; "If you're tired,"
-	line "probeer de blikjes" ; "try the vending"
-	cont "uit de automaat." ; "machine's drinks."
+	line "drink dan wat uit" ; "try the vending"
+	cont "de drankautomaat." ; "machine's drinks."
 
 	para "Je #MON zullen" ; "Your #MON will"
 	line "ze lekker vinden." ; "love them too."

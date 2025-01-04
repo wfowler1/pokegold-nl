@@ -314,11 +314,11 @@ ContestResults_DidNotWinText:
 	done
 
 ContestResults_ReturnPartyText:
-	text "We geven jouw weer" ; "We'll return the"
-	line "#MON terug" ; "#MON we kept"
+	text "We geven weer jouw" ; "We'll return the"
+	line "#MON terug." ; "#MON we kept"
 
-	para "aan jou." ; "for you."
-	line "Alsjeblieft!" ; "Here you go!"
+	para "Alsjeblieft!" ; "for you."
+	;line "Alsjeblieft!" ; "Here you go!"
 	done
 
 ContestResults_PartyFullText:
@@ -353,7 +353,7 @@ CoinVendor_NoCoinCaseText:
 	line "nodig?" ; "coins?"
 
 	para "Oh, je hebt geen" ; "Oh, you don't have"
-	line "MUNTENZAK voor" ; "a COIN CASE for"
+	line "GELDKISTJE voor" ; "a COIN CASE for"
 	cont "je munten." ; "your coins."
 	done
 
@@ -416,7 +416,7 @@ HappinessText2:
 	line "spendeert." ; "them."
 	done
 
-HappinessText1: ; AlwaysReplace
+HappinessText1:
 	text "Je hebt je #MON" ; "You haven't tamed"
 	line "niet getemd." ; "your #MON."
 

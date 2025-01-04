@@ -97,7 +97,7 @@ PlayersRadioText1:
 	done
 
 PlayersRadioText2:
-	text "#MON KANAAL!" ; "#MON CHANNEL!"
+	text "#MON-KANAAL!" ; "#MON CHANNEL!"
 	done
 
 PlayersRadioText3:
@@ -107,7 +107,7 @@ PlayersRadioText3:
 
 PlayersRadioText4:
 	text "#MON!"
-	line "#MON KANAAL…" ; "#MON CHANNEL…"
+	line "#MON-KANAAL…" ; "#MON CHANNEL…"
 	done
 
 PlayersHouse2F_MapEvents:

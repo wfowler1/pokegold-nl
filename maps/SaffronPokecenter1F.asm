@@ -41,39 +41,39 @@ SaffronPokecenter1FTeacherText:
 	done
 
 SaffronPokecenter1FFisherText:
-	text "I just happened to"
-	line "come through ROCK"
+	text "Ik kwam toevallig" ; "I just happened to"
+	line "door ROTSTUNNEL." ; "come through ROCK"
 
-	para "TUNNEL. There was"
-	line "some commotion at"
-	cont "the POWER PLANT."
+	para "Er was wat" ; "TUNNEL. There was"
+	line "commotie bij de" ; "some commotion at"
+	cont "ENERGIECENTRALE." ; "the POWER PLANT."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
-	text "Caves collapse"
-	line "easily."
+	text "Grotten storten" ; "Caves collapse"
+	line "makkelijk in." ; "easily."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "Verscheidene grot-" ; "Several caves have"
+	line "ten zijn verdwenen" ; "disappeared in the"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side CERULEAN."
+	para "in de afgelopen" ; "past few years,"
+	line "jaren, zoals die" ; "like the one out-"
+	cont "buiten CERULEAN." ; "side CERULEAN."
 
-	para "As a pro HIKER,"
-	line "that's common"
-	cont "knowledge."
+	para "Als een pro-" ; "As a pro HIKER,"
+	line "WANDELAAR is dat" ; "that's common"
+	cont "algemene kennis." ; "knowledge."
 	done
 
 SaffronPokecenter1FYoungsterText:
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "SILPH B.V's" ; "SILPH CO.'s HEAD"
+	line "HOOFDKANTOOR en" ; "OFFICE and the"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "het ZWEEFTREIN-" ; "MAGNET TRAIN STA-"
+	line "STATION--dat zijn" ; "TION--they're the"
 
-	para "places to see in"
-	line "SAFFRON."
+	para "de bezienswaardig-" ; "places to see in"
+	line "heden in SAFFRON." ; "SAFFRON."
 	done
 
 SaffronPokecenter1F_MapEvents:

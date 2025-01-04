@@ -1,7 +1,7 @@
 DecorationNames:
 ; entries correspond to constants/deco_constants.asm
 	list_start DecorationNames
-	li "UITGAAN" ; "CANCEL"
+	li "SLUITEN" ; "CANCEL"
 	li "WEGDOEN" ; "PUT IT AWAY"
 	li "BOOMPLANT" ; "MAGNAPLANT"
 	li "TROPISCHEPLANT" ; "TROPICPLANT"
@@ -9,7 +9,7 @@ DecorationNames:
 	li "REGIOKAART" ; "TOWN MAP"
 	li "NES"
 	li "SUPER NES"
-	li "NINTENDO64"
+	li "NINTENDO 64"
 	li "VIRTUAL BOY"
 	li "GOUDTROFEE" ; "GOLD TROPHY"
 	li "ZILVERTROFEE" ; "SILVER TROPHY"

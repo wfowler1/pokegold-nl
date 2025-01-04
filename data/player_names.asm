@@ -7,19 +7,19 @@ NameMenuHeader:
 .Names:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "NEW NAME@"
+	db "NIEUW@" ; "NEW NAME@"
 
 PlayerNameArray:
 IF DEF(_GOLD)
 	db "GOLD@"
-	db "HIRO@"
-	db "TAYLOR@"
-	db "KARL@"
+	db "ALEX@" ; "HIRO@"
+	db "BAS@" ; "TAYLOR@"
+	db "KAREL@" ; "KARL@"
 ELIF DEF(_SILVER)
 	db "SILVER@"
-	db "KAMON@"
-	db "OSCAR@"
-	db "MAX@"
+	db "FREEK@" ; "KAMON@"
+	db "ADRIAAN@" ; "OSCAR@"
+	db "THOMAS@" ; "MAX@"
 ENDC
 	db 2 ; title indent
-	db "NAME@" ; title
+	db "NAAM@" ; "NAME@" ; title

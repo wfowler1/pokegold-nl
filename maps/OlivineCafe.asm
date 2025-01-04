@@ -49,8 +49,8 @@ OlivineCafeStrengthSailorText_GotStrength:
 	text "Op zee kan" ; "On the sea, the"
 	line "je alleen op" ; "only thing you can"
 
-	para "je eigen" ; "count on is your"
-	line "rekenen!" ; "own good self!"
+	para "je eigen rekenen!" ; "count on is your"
+	;line "rekenen!" ; "own good self!"
 
 	para "Ik ben zo trots" ; "I'm so proud of my"
 	line "op m'n gespierde" ; "buff bod!"

@@ -189,7 +189,7 @@ UnownDexDoWhatString:
 
 UnownDexMenuString:
 	db   UNOWNSTAMP_BOLD_A, "▶PRINTEN" ; "▶PRINT"
-	next UNOWNSTAMP_BOLD_B, "▶UITGAAN" ; "▶CANCEL"
+	next UNOWNSTAMP_BOLD_B, "▶SLUITEN" ; "▶CANCEL"
 	next "L▶VORIG" ; "L▶BEFORE"
 	next "R▶VOLGEND" ; "R▶NEXT"
 	db   "@"

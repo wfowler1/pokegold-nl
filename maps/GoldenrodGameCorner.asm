@@ -126,7 +126,7 @@ GoldenrodGameCornerTMVendorMenuHeader:
 	db "TM25    5500@"
 	db "TM14    5500@"
 	db "TM38    5500@"
-	db "CANCEL@"
+	db "SLUITEN@" ; "CANCEL@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer

@@ -195,9 +195,9 @@ PokefanMDerekText_NotBragging:
 	line "horen opscheppen!" ; "to your bragging!"
 
 	para "Wij #FANS" ; "We # FANS have"
-	line "luisteren uit be-" ; "a policy of not"
+	line "luisteren uit" ; "a policy of not"
 
-	para "leid niet naar" ; "listening to other"
+	para "beleid niet naar" ; "listening to other"
 	line "andermans gepoch!" ; "people brag!"
 	done
 
@@ -255,8 +255,8 @@ Route39SignText:
 MoomooFarmSignText:
 	text "BOERDERIJ MOOMOO" ; "MOOMOO FARM"
 
-	para "Geniet Van Verse," ; "Enjoy Our Fresh"
-	line "Lekkere Melk." ; "and Tasty Milk"
+	para "Geniet Van Lekker" ; "Enjoy Our Fresh"
+	line "Verse Melk." ; "and Tasty Milk"
 	done
 
 Route39TrainerTipsText:

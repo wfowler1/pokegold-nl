@@ -104,9 +104,9 @@ DisplayMoneyAndCoinBalance:
 	ret
 
 MoneyString:
-	db "MONEY@"
+	db "GELD@" ; "MONEY@"
 CoinString:
-	db "COIN@"
+	db "MUNT@" ; "COIN@"
 ShowMoney_TerminatorString:
 	db "@"
 UnusedEmptyString: ; unreferenced
@@ -198,11 +198,11 @@ StartMenu_PrintBugContestStatus:
 .BallsJPString: ; unreferenced
 	db "ボール　　　こ@"
 .CaughtString:
-	db "CAUGHT@"
+	db "VANGST@" ; "CAUGHT@"
 .BallsString:
-	db "BALLS:@"
+	db "BALLEN:@" ; "BALLS:@"
 .NoneString:
-	db "None@"
+	db "Geen@" ; "None@"
 .LevelString:
 	db "LEVEL@"
 
@@ -247,7 +247,7 @@ Kurt_SelectApricorn:
 	ret
 
 .Cancel
-	db "CANCEL@"
+	db "SLUITEN@" ; "CANCEL@"
 
 FindApricornsInBag:
 ; Checks the bag for Apricorns.

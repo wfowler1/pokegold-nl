@@ -162,21 +162,21 @@ DragonShrineRisingBadgeExplanationText:
 	done
 
 Text_ReceivedTM24: ; unreferenced
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "TM24."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Dat bevat" ; "That contains"
+	line "DRAKENADEM." ; "DRAGONBREATH."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Nee, het heeft" ; "No, it doesn't"
+	line "niks met mijn adem" ; "have anything to"
+	cont "te maken." ; "do with my breath."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Als je het niet" ; "If you don't want"
+	line "wil, dan neem je" ; "it, you don't have"
+	cont "het niet." ; "to take it."
 	done
 
 ClairText_CollectedAllBadges:
@@ -212,33 +212,33 @@ ClairText_CollectedAllBadges:
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "DRAKENTEMPEL" ; "DRAGON SHRINE"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
+	para "Deze tempel eert" ; "A shrine honoring"
+	line "draak-#MON die" ; "the dragon #MON"
 
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para "vroeger leefden in" ; "said to have lived"
+	line "de DRAKENGROT." ; "in DRAGON'S DEN."
 	done
 
 RivalText_Training1:
 	text "…"
-	line "What? <PLAYER>?"
+	line "Wat? <PLAYER>?" ; "What? <PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…Nee, ik ga niet" ; "…No, I won't"
+	line "tegen je vechten…" ; "battle you now…"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para "M'n #MON kunnen" ; "My #MON aren't"
+	line "je niet verslaan." ; "ready to beat you."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Ik kan ze niet te" ; "I can't push them"
+	line "hard pushen." ; "too hard now."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Ik moet discipline" ; "I have to be dis-"
+	line "hebben om de beste" ; "ciplined to become"
 
-	para "the greatest #-"
-	line "MON trainer…"
+	para "beste #MON-" ; "the greatest #-"
+	line "trainer te worden…" ; "MON trainer…"
 	done
 
 RivalText_Training2:
@@ -246,8 +246,8 @@ RivalText_Training2:
 
 	para "Whew…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Leer om mij uit de" ; "Learn to stay out"
+	line "weg te gaan…" ; "of my way…"
 	done
 
 Text_FoundDragonFang:
@@ -258,9 +258,9 @@ Text_FoundDragonFang:
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "Maar <PLAYER> kan" ; "But <PLAYER> can't"
+	line "geen voorwerpen" ; "carry any more"
+	cont "meer dragen." ; "items."
 	done
 
 DragonsDenB1F_MapEvents:

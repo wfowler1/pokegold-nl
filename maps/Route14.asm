@@ -51,11 +51,11 @@ TrainerPokefanmTrevor:
 	end
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
+	text "Ik zeg je, het was" ; "Let me tell you,"
+	line "lastig om mijn" ; "I had a hard time"
 
-	para "catching my prized"
-	line "#MON."
+	para "geprezen #MON" ; "catching my prized"
+	line "te vangen." ; "#MON."
 	done
 
 PokefanmCarterBeatenText:
@@ -64,29 +64,31 @@ PokefanmCarterBeatenText:
 
 PokefanmCarterAfterBattleText:
 	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	line "DER en BULBASAUR…" ; "DER and BULBASAUR…"
 
-	para "I think that's a"
-	line "well-balanced mix."
+	para "Ik denk dat het" ; "I think that's a"
+	line "een goed gebalan-" ; "well-balanced mix."
+	cont "ceerde mix is." ;
 	done
 
 BirdKeeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #MON."
+	text "Het is mijn droom" ; "My dream is to fly"
+	line "om met mijn lieve" ; "with my beloved"
+	cont "vogel-#MON te" ; "bird #MON."
+	cont "vliegen." ;
 	done
 
 BirdKeeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Ik kan dromen maar" ; "I can dream, but I"
+	line "nooit vliegen…" ; "can't ever fly…"
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "You have #MON"
-	line "that know the HM"
+	text "Je hebt #MON" ; "You have #MON"
+	line "die de VM VLIEG" ; "that know the HM"
 
-	para "move FLY, don't"
-	line "you? I envy you."
+	para "kennen, toch?" ; "move FLY, don't"
+	line "Ik ben jaloers." ; "you? I envy you."
 	done
 
 PokefanmTrevorSeenText:

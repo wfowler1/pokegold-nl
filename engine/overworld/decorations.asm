@@ -67,7 +67,7 @@ _PlayerDecorationMenu:
 .game:     db "SPELCOMPUTER@" ; "GAME CONSOLE@"
 .ornament: db "ORNAMENT@"
 .big_doll: db "GROTE POP@" ; "BIG DOLL@"
-.exit:     db "UITGAAN@" ; "EXIT@"
+.exit:     db "SLUITEN@" ; "EXIT@"
 
 .FindCategoriesWithOwnedDecos:
 	xor a
@@ -883,7 +883,7 @@ DecoSideMenuHeader:
 	db 3 ; items
 	db "RECHTERZIJDE@" ; "RIGHT SIDE@"
 	db "LINKERZIJDE@" ; "LEFT SIDE@"
-	db "UITGAAN@" ; "CANCEL@"
+	db "SLUITEN@" ; "CANCEL@"
 
 PutAwayTheDecoText:
 	text_far _PutAwayTheDecoText

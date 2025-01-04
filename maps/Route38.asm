@@ -271,7 +271,7 @@ LassDana1SeenText:
 
 LassDana1BeatenText:
 	text "Ik snap het. Dus" ; "I see. So you can"
-	line "jij vecht zo." ; "battle that way."
+	line "zo kan het ook." ; "battle that way."
 	done
 
 LassDanaMoomooMilkText:

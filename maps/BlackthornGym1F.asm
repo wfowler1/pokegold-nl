@@ -333,7 +333,7 @@ CooltrainermMikeBeatenText:
 
 CooltrainermMikeAfterBattleText:
 	text "Ik weet nu wat ik" ; "I know my short-"
-	line "tekortkwam." ; "comings now."
+	line "tekort kwam." ; "comings now."
 
 	para "Bedankt dat je mij" ; "Thanks for showing"
 	line "dat liet zien!" ; "me!"
@@ -346,11 +346,11 @@ CooltrainerfLolaSeenText:
 	para "Ze zitten vol" ; "They are full of"
 	line "levensenergie." ; "life energy."
 
-	para "Als je niet" ; "If you're not"
-	line "serieus bent, kun" ; "serious, you won't"
+	para "Als je niet je" ; "If you're not"
+	line "best doet, kun je" ; "serious, you won't"
 
-	para "je ze niet" ; "be able to beat"
-	line "verslaan." ; "them."
+	para "ze nooit verslaan." ; "be able to beat"
+	line "" ; "them."
 	done
 
 CooltrainerfLolaBeatenText:
@@ -358,7 +358,7 @@ CooltrainerfLolaBeatenText:
 	done
 
 CooltrainerfLolaAfterBattleText:
-	text "Draken zijn zwwak" ; "Dragons are weak"
+	text "Draken zijn zwak" ; "Dragons are weak"
 	line "tegen draak-type" ; "against dragon-"
 	cont "aanvallen." ; "type moves."
 	done
@@ -374,9 +374,8 @@ BlackthornGymGuideText:
 	line "maar op mij!" ; "Count on me!"
 
 	para "CLAIR gebruikt" ; "CLAIR uses the"
-	line "mythische en" ; "mythical and sac-"
-	cont "heilige draak-type" ; "red dragon-type"
-	cont "#MON."
+	line "mythische en heil-" ; "mythical and sac-"
+	cont "ige draak-#MON." ; "red dragon-type"
 
 	para "Je kunt ze niet" ; "You can't damage"
 	line "zomaar verwonden." ; "them very easily."
