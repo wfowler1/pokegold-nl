@@ -1179,7 +1179,7 @@ Pokedex_DrawDexEntryScreenBG:
 	db "GEW  ???kg", -1
 	; db "WT   ???lb", -1
 .MenuItems:
-	db $3b, " PAG GEB KREE DRUK ", -1
+	db $3b, " PAG GEB GIL  DRUK ", -1
 	; db $3b, " PAGE AREA CRY PRNT", -1
 
 Pokedex_DrawOptionScreenBG:
@@ -1739,16 +1739,16 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NewMode:
-	db   "JOHTO #DEX" ; "<PK><MN> are listed by"
+	db   "JOHTO-#DEX" ; "<PK><MN> are listed by"
 	next "Evoluties samen.@" ; "evolution type.@"
 
 .OldMode:
-	db   "NATIONAAL #DEX" ; "<PK><MN> are listed by"
+	db   "NATIONALE #DEX" ; "<PK><MN> are listed by"
 	next "Vermeld op nummer.@" ; "official type.@"
 
 .ABCMode:
 	db   "<PK><MN> vermeld" ; "<PK><MN> are listed"
-	next "alfabetisch.@" ; "alphabetically.@"
+	next "van A tot Z.@" ; "alphabetically.@"
 
 .UnownMode:
 	db   "UNOWN vermeld op" ; "UNOWN are listed"
