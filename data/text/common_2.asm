@@ -645,7 +645,7 @@ _ContestJudging_SecondPlaceText::
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "Wie een" ; "who caught a"
+	para "wie een" ; "who caught a"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text " ving!@" ; "!@"
@@ -688,15 +688,15 @@ _MagikarpGuruMeasureText::
 	para "…Hm, hij is" ; "…Hm, it measures"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength 6
-	text "groot." ; "."
+	text " cm groot." ; "."
 	prompt
 
 _KarpGuruRecordText:: ; AlwaysReplace
 	text "HUIDIG RECORD" ; "CURRENT RECORD"
 
 	para "@"
-	text_ram wStringBuffer1 ; MaxLength 5
-	text " gevangen" ; " caught by"
+	text_ram wStringBuffer1 ; MaxLength 6
+	text " cm gevangen" ; " caught by"
 	line "door @" ; "@"
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton
@@ -754,7 +754,7 @@ _PlayersPCAskWhatDoText::
 
 _PlayersPCHowManyWithdrawText::
 	text "Hoeveel wil je" ; "How many do you"
-	line "er uit halen??" ; "want to withdraw?"
+	line "er uit halen?" ; "want to withdraw?"
 	done
 
 _PlayersPCWithdrewItemsText::
@@ -764,7 +764,7 @@ _PlayersPCWithdrewItemsText::
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text_start
-	line "terug." ; text "(S)."
+	cont "terug." ; text "(S)."
 	prompt
 
 _PlayersPCNoRoomWithdrawText::
@@ -787,7 +787,7 @@ _PlayersPCDepositItemsText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)."
+	text "." ; "(S)."
 	prompt
 
 _PlayersPCNoRoomDepositText::
@@ -1424,7 +1424,7 @@ _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -1453,7 +1453,7 @@ _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "is dan ¥@" ; "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -1537,7 +1537,7 @@ _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)"
+	text_start ; text "(S)"
 	line "kost je ¥@" ; "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -1620,11 +1620,11 @@ _MartBoughtText::
 	text " voor" ; " for"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
-	text "(S)."
+	text "." ; "(S)."
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Hoeveel munten" ; "Bet how many"
+	text "Hoeveel" ; "Bet how many"
 	line "wedden?" ; "coins?"
 	done
 
