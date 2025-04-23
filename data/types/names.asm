@@ -41,8 +41,8 @@ CurseType: db "???@"
 Fire:      db "VUUR@" ; "FIRE@"
 Water:     db "WATER@"
 Grass:     db "GRAS@" ; "GRASS@"
-Electric:  db "DONDER@" ; "ELECTRIC@" "ELEKTRISCH" longer than 8 chars
-Psychic:   db "PARANORM@" ; "PSYCHIC@" "PSYCHISCH" longer than 8 chars
+Electric:  db "ELEKTRO@" ; "ELECTRIC@" "ELEKTRISCH" longer than 8 chars
+Psychic:   db "PSYCH.@" ; "PSYCHIC@" "PSYCHISCH" longer than 8 chars
 Ice:       db "IJS@" ; "ICE@"
 Ground:    db "GROND@" ; "GROUND@"
 Rock:      db "STEEN@" ; "ROCK@"
@@ -51,4 +51,4 @@ Bug:       db "INSECT@" ; "BUG@"
 Ghost:     db "GEEST@" ; "GHOST@"
 Steel:     db "STAAL@" ; "STEEL@"
 Dragon:    db "DRAAK@" ; "DRAGON@"
-Dark:      db "DONKER@" ; "DARK@"
+Dark:      db "DUISTER@" ; "DARK@"

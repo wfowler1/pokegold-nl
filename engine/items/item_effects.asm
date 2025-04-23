@@ -1219,9 +1219,9 @@ StatStrings:
 	dw .speed
 	dw .special
 
-.health  db "RP@" ; "HEALTH@"
+.health  db "LP@" ; "HEALTH@"
 .attack  db "AANVAL@" ; "ATTACK@"
-.defense db "VER@" ; "DEFENSE@"
+.defense db "AFWEER@" ; "DEFENSE@"
 .speed   db "SNELHEID@" ; "SPEED@"
 .special db "SPECIAAL@" ; "SPECIAL@"
 

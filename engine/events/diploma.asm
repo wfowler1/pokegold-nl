@@ -42,17 +42,17 @@ PlaceDiplomaOnScreen:
 	ret
 
 .Player:
-	db "PLAYER@"
+	db "SPELER@" ; "PLAYER@"
 
 .EmptyString:
 	db "@"
 
 .Certification:
-	db   "This certifies"
-	next "that you have"
-	next "completed the"
-	next "new #DEX."
-	next "Congratulations!"
+	db   "Dit certificeert" ; "This certifies"
+	next "dat jij de nieuwe" ; "that you have"
+	next "#DEX met succes" ; "completed the"
+	next "hebt voltooid." ; "new #DEX."
+	next "Gefeliciteerd!" ; "Congratulations!"
 	db   "@"
 
 PrintDiplomaPage2:
@@ -81,7 +81,7 @@ PrintDiplomaPage2:
 	call PrintNum
 	ret
 
-.PlayTime: db "PLAY TIME@"
+.PlayTime: db "SPEELTIJD@" ; "PLAY TIME@"
 .GameFreak: db "GAME FREAK@"
 
 DiplomaGFX:

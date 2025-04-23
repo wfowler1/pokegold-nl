@@ -80,11 +80,11 @@ DisplayCaughtContestMonStats:
 	ret
 
 .Health:
-	db "HEALTH@"
+	db "LEVEN@" ; "HEALTH@"
 .Stock:
-	db " STOCK <PK><MN> @"
+	db " VORIGE <PK><MN>@" ; " STOCK <PK><MN> @"
 .This:
-	db " THIS <PK><MN> @"
+	db " DEZE <PK><MN>  @" ; " THIS <PK><MN> @"
 
 ContestAskSwitchText:
 	text_far _ContestAskSwitchText

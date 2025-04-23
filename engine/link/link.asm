@@ -539,7 +539,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "PLEASE WAIT!@"
+	db "EVEN GEDULD!@" ; "PLEASE WAIT!@"
 
 ClearLinkData:
 	ld hl, wLinkData
@@ -1446,7 +1446,7 @@ LinkTrade_TradeStatsMenu:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS     TRADE@"
+	db "STATS     RUIL@" ; "STATS     TRADE@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -1517,7 +1517,7 @@ PlaceTradeScreenFooter:
 	jp PlaceString
 
 .CancelString:
-	db "CANCEL@"
+	db "SLUIT@" ; "CANCEL@"
 
 LinkTradePlaceArrow:
 ; Indicates which pokemon the other player has selected to trade
@@ -1889,19 +1889,19 @@ InitTradeMenuDisplay_Delay:
 	jp InitTradeMenuDisplay
 
 String_TradeCancel:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "RUIL" ; "TRADE"
+	next "SLUIT@" ; "CANCEL@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
 	text_end
 
 String_TradeCompleted:
-	db   "Trade completed!@"
+	db   "Ruil voltooid!@" ; "Trade completed!@"
 
 String_TooBadTheTradeWasCanceled:
-	db   "Too bad! The trade"
-	next "was canceled!@"
+	db   "Helaas! De ruil is" ; "Too bad! The trade"
+	next "geannuleerd!@" ; "was canceled!@"
 
 LinkTextboxAtHL:
 	push hl

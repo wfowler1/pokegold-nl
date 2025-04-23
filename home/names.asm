@@ -246,7 +246,7 @@ GetTMHMName::
 	db "@"
 
 .HMText:
-	db "VM"
+	db "VM" ; "HM"
 .HMTextEnd:
 	db "@"
 
