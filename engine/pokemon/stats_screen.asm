@@ -576,7 +576,7 @@ LoadGreenPage:
 	ld [wNamedObjectIndex], a
 	call GetItemName
 .got_item_name
-	hlcoord 6, 8
+	hlcoord 8, 8
 	call PlaceString
 ; move info
 	ld hl, wTempMonMoves
