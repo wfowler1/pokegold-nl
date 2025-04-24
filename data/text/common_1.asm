@@ -405,14 +405,14 @@ _MomFoundADollText::
 	prompt
 
 _MomItsInYourRoomText::
-	text "staat in je kamer." ; "It's in your room."
+	text "Staat in je kamer." ; "It's in your room."
 	line "Vind je vast leuk!" ; "You'll love it!"
 	done
 
 _MonWasSentToText::
 	text_ram wPlayerTrademonSpeciesName
-	text " werd" ; " was"
-	line "ging naar @" ; "sent to @"
+	text " ging" ; " was"
+	line "naar @" ; "sent to @"
 	text_ram wOTTrademonSenderName
 	text "."
 	done
@@ -513,7 +513,7 @@ _OPT_MaryText1::
 	text_start
 	line "MARY: @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "'s"
+	text "…"
 	done
 
 _OPT_SweetAdorablyText::
@@ -538,7 +538,7 @@ _OPT_UndeniablyKindOfText::
 
 _OPT_UnbearablyText::
 	text_start
-	line "Zo onweerstaanbaar" ; "so, so unbearably"
+	line "zo onweerstaanbaar" ; "so, so unbearably"
 	done
 
 _OPT_WowImpressivelyText::
@@ -749,7 +749,7 @@ _LC_Text1::
 
 _LC_Text2::
 	text_start
-	line "hoe issie?" ; "y'all doin' now?"
+	line "issie?" ; "y'all doin' now?"
 	done
 
 _LC_Text3::
@@ -999,8 +999,8 @@ _BugCatchingContestIsOverText::
 	done
 
 _RepelWoreOffText::
-	text "Effect van VERJAAG" ; "REPEL's effect"
-	line "is uitgewerkt." ; "wore off."
+	text "Effect VERDRIJF is" ; "REPEL's effect"
+	line "uitgewerkt." ; "wore off."
 	done
 
 _PlayerFoundItemText::
@@ -1057,7 +1057,7 @@ _NoCoinCaseText::
 
 _NPCTradeCableText::
 	text "OK, verbind het" ; "OK, connect the"
-	line "Game Link-snoer" ; "Game Link Cable."
+	line "Game Link-snoer." ; "Game Link Cable."
 	prompt
 
 Text_NPCTraded::
@@ -1097,12 +1097,12 @@ _NPCTradeWrongText1::
 	text "Huh? Dat is geen" ; "Huh? That's not"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text ". "
+	text "."
 	cont "Teleurstellend…" ; "What a letdown…"
 	done
 
 _NPCTradeCompleteText1::
-	text "Hoera! ik heb een" ; "Yay! I got myself"
+	text "Hoera! Ik heb een" ; "Yay! I got myself"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "!"
@@ -1113,7 +1113,7 @@ _NPCTradeAfterText1::
 	text "Hoe gaat ie met" ; "Hi, how's my old"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
-	text "nu?" ; " doing?"
+	text " nu?" ; " doing?"
 	done
 
 _NPCTradeIntroText2::
@@ -1166,7 +1166,7 @@ _NPCTradeAfterText2::
 
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text "is" ; "'s cute,"
+	text " is" ; "'s cute,"
 	line "schattig, maar ik" ; "but I don't have"
 
 	para "heb er geen. Heb" ; "it. Do you have"
@@ -1739,7 +1739,7 @@ _BootedTMText::
 	prompt
 
 _BootedHMText::
-	text "Startte een HM op." ; "Booted up an HM."
+	text "Startte een VM op." ; "Booted up an HM."
 	prompt
 
 _ContainedMoveText::

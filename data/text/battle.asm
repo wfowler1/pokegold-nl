@@ -58,7 +58,7 @@ HurtByBurnText:
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED zuigt" ; "LEECH SEED saps"
+	text "ZUIGZAAD zuigt" ; "LEECH SEED saps"
 	line "<USER>!"
 	prompt
 
@@ -451,9 +451,9 @@ BattleText_UserWasReleasedFromStringBuffer1:
 	prompt
 
 UsedBindText:
-	text "<USER>" ; "<USER> geb-"
+	text "<USER>" ; "<USER>"
 	line "deed KOPPEL op" ; "used BIND on"
-	cont "<TARGET>"
+	cont "<TARGET>!"
 	prompt
 
 WasTrappedText: ; ReplaceWith WhirlpoolTrapText:
@@ -876,12 +876,12 @@ TransformedText:
 
 LightScreenEffectText:
 	text "<USER>'s"
-	line "SPCL.VER omhoog!" ; "SPCL.DEF rose!"
+	line "SPCL.AFW omhoog!" ; "SPCL.DEF rose!"
 	prompt
 
 ReflectEffectText:
 	text "<USER>'s"
-	line "VERDEDIG omhoog!" ; "DEFENSE rose!"
+	line "AFWEER omhoog!" ; "DEFENSE rose!"
 	prompt
 
 NothingHappenedText:

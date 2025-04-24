@@ -93,7 +93,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	text "MEER VAN RAZERNIJ" ; "LAKE OF RAGE is"
 	line "is een krater ooit" ; "actually a crater"
 
-	para "ooit gemaakt door" ; "made by rampaging"
+	para "gemaakt door" ; "made by rampaging"
 	line "woeste GYARADOS." ; "GYARADOS."
 
 	para "De krater vulde" ; "The crater filled"
@@ -135,7 +135,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 
 	para "Misschien zie ik" ; "I may yet realize"
 	line "op een dag toch" ; "my dream of see-"
-	cont "nog 's werelds'" ; "ing the world's"
+	cont "nog 's werelds" ; "ing the world's"
 	cont "grootste MAGIKARP." ; "largest MAGIKARP."
 
 	para "Heb je een HENGEL?" ; "Do you have a ROD?"

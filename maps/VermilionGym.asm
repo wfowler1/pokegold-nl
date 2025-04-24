@@ -146,7 +146,7 @@ LtSurgeThunderBadgeText:
 	para "Het is bewijs dat" ; "Consider it proof"
 	line "je me versloeg." ; "that you defeated"
 
-	para "Draag 'm met" ; "me. You wear it"
+	para "Draag hem met" ; "me. You wear it"
 	line "trots, oké?" ; "proudly, hear?"
 	done
 

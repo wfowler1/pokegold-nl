@@ -324,7 +324,7 @@ SwordsDanceDescription:
 	next "VAL verhoogt.@" ; "creases ATTACK.@"
 
 CutDescription:
-	db   "Snijdt met, klauw" ; "Cuts using claws,"
+	db   "Snijdt met klauw," ; "Cuts using claws,"
 	next "zeis, etc.@" ; "scythes, etc.@"
 
 GustDescription:
@@ -420,8 +420,8 @@ DoubleEdgeDescription:
 	next "bruiker pijn doet.@" ; "hurts the user.@"
 
 TailWhipDescription:
-	db   "Verlaagt VERDE-" ; "Lowers the foe's"
-	next "DIGING gebruiker.@" ; "DEFENSE.@"
+	db   "Verlaagt AFWEER" ; "Lowers the foe's"
+	next "gebruiker.@" ; "DEFENSE.@"
 
 PoisonStingDescription:
 	db   "Aanval die doelwit" ; "An attack that may"
@@ -436,8 +436,8 @@ PinMissileDescription:
 	next "2-5 keer raken.@" ; "strike 2-5 times.@"
 
 LeerDescription:
-	db   "Verlaagt VERDEDI-" ; "Reduces the foe's"
-	next "GING val doelwit.@" ; "DEFENSE.@"
+	db   "Verlaagt AFWEER" ; "Reduces the foe's"
+	next "val doelwit.@" ; "DEFENSE.@"
 
 BiteDescription:
 	db   "Aanval die kan" ; "An attack that may"
@@ -640,7 +640,7 @@ ConfusionDescription:
 	next "verwarren.@" ; "cause confusion.@"
 
 PsychicMDescription:
-	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
+	db   "Kan SPCL.AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 HypnosisDescription:
@@ -677,7 +677,7 @@ MimicDescription:
 
 ScreechDescription:
 	db   "Verlaagt" ; "Sharply reduces"
-	next "VERDEDIGING flink.@" ; "the foe's DEFENSE.@"
+	next "AFWEER flink.@" ; "the foe's DEFENSE.@"
 
 DoubleTeamDescription:
 	db   "Verhoogt ontwijk-" ; "Heightens evasive-"
@@ -688,8 +688,8 @@ RecoverDescription:
 	next "1/2 van max LP.@" ; "the max HP.@"
 
 HardenDescription:
-	db   "Verhoogt VERDEDI-" ; "Raises the user's"
-	next "GING gebruiker.@" ; "DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Raises the user's"
+	next "gebruiker.@" ; "DEFENSE.@"
 
 MinimizeDescription:
 	db   "Verhoogt ontwijk-" ; "Heightens evasive-"
@@ -704,16 +704,16 @@ ConfuseRayDescription:
 	next "verwart.@" ; "confusion.@"
 
 WithdrawDescription:
-	db   "Verhoogt VERDEDI-" ; "Heightens the"
-	next "GING gebruiker.@" ; "user's DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Heightens the"
+	next "gebruiker.@" ; "user's DEFENSE.@"
 
 DefenseCurlDescription:
-	db   "Verhoogt VERDEDI-" ; "Heightens the"
-	next "GING gebruiker.@" ; "user's DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Heightens the"
+	next "gebruiker.@" ; "user's DEFENSE.@"
 
 BarrierDescription:
-	db   "Verhoogt VERDEDI-" ; "Sharply increases"
-	next "GING flink.@" ; "user's DEFENSE.@"
+	db   "Verhoogt AFWEER" ; "Sharply increases"
+	next "flink.@" ; "user's DEFENSE.@"
 
 LightScreenDescription:
 	db   "Hogere SPCR.VERD." ; "Ups SPCL.DEF with"
@@ -724,8 +724,8 @@ HazeDescription:
 	next "veranderingen weg.@" ; "stat changes.@"
 
 ReflectDescription:
-	db   "Verhoogt VERDEDI-" ; "Raises DEFENSE"
-	next "GING met barriere.@" ; "with a barrier.@"
+	db   "Verhoogt AFWEER" ; "Raises DEFENSE"
+	next "met barriere.@" ; "with a barrier.@"
 
 FocusEnergyDescription:
 	db   "Verhoogt kans op" ; "Raises the criti-"
@@ -797,7 +797,7 @@ ConstrictDescription:
 
 AmnesiaDescription:
 	db   "Verhoogt SPCL.-" ; "Sharply raises the"
-	next "VERDEDIGING flink.@" ; "user's SPCL.DEF.@"
+	next "AFWEER flink.@" ; "user's SPCL.DEF.@"
 
 KinesisDescription:
 	db   "Verlaagt precisie" ; "Reduces the foe's"
@@ -869,7 +869,7 @@ SplashDescription:
 
 AcidArmorDescription:
 	db   "Verhoogt" ; "Sharply raises the"
-	next "VERDEDIGING flink.@" ; "user's DEFENSE.@"
+	next "AFWEER flink.@" ; "user's DEFENSE.@"
 
 CrabhammerDescription:
 	db   "Heeft hoge kans op" ; "Has a high criti-"
@@ -1048,7 +1048,7 @@ PerishSongDescription:
 	next "in 3 beurten KO.@" ; "faint in 3 turns.@"
 
 IcyWindDescription:
-	db   "IJzige aanval die" ; "An icy attack that"
+	db   "Ijzige aanval die" ; "An icy attack that"
 	next "snelheid verlaagt.@" ; "lowers SPEED.@"
 
 DetectDescription:
@@ -1156,8 +1156,8 @@ MagnitudeDescription:
 	next "wisselende kracht.@" ; "with random power.@"
 
 DynamicpunchDescription:
-	db   "aanval die altijd" ; "An attack that"
-	next "verwart.@" ; "always confuses.@"
+	db   "Een aanval die" ; "An attack that"
+	next "altijd verwart.@" ; "always confuses.@"
 
 MegahornDescription:
 	db   "Een krachtige" ; "A powerful charge"
@@ -1188,7 +1188,7 @@ SweetScentDescription:
 	next "ing tegenstander.@" ; "evasiveness.@"
 
 IronTailDescription:
-	db   "Kan VERDEDIGING" ; "An attack that may"
+	db   "Kan AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "reduce DEFENSE.@"
 
 MetalClawDescription:
@@ -1232,7 +1232,7 @@ SunnyDayDescription:
 	next "klappen 5 beurten.@" ; "moves for 5 turns.@"
 
 CrunchDescription:
-	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
+	db   "Kan SPCL.AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 MirrorCoatDescription: ; AlwaysReplace
@@ -1252,7 +1252,7 @@ AncientpowerDescription:
 	next "stats verhoogt.@" ; "raise all stats.@"
 
 ShadowBallDescription:
-	db   "Kan SPCL.VERDEDIG." ; "An attack that may"
+	db   "Kan SPCL.AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower SPCL.DEF.@"
 
 FutureSightDescription:
@@ -1260,7 +1260,7 @@ FutureSightDescription:
 	next "in derde beurt.@" ; "hits on 3rd turn.@"
 
 RockSmashDescription:
-	db   "Kan VERDEDIGING" ; "An attack that may"
+	db   "Kan AFWEER" ; "An attack that may"
 	next "verlagen.@" ; "lower DEFENSE.@"
 
 WhirlpoolDescription:

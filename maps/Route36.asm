@@ -401,7 +401,7 @@ ArthurGivesGiftText:
 
 ArthurGaveGiftText:
 	text "ARTHUR: Een #-" ; "ARTHUR: A #MON"
-	line "MON met rots-type" ; "that uses rock-"
+	line "MON met rotstype" ; "that uses rock-"
 
 	para "aanvallen moet dat" ; "type moves should"
 	line "vasthouden." ; "hold on to that."

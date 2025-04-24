@@ -259,8 +259,8 @@ FastShipB1FOnDutySailorDirectionsText:
 	line "verderop." ; "up ahead."
 
 	para "De trap daar gaat" ; "The stairs at the"
-	line "naar de kabine" ; "end lead to the"
-	cont "van de KAPITEIN." ; "CAPTAIN's cabin."
+	line "naar de kajuit van" ; "end lead to the"
+	cont "de KAPITEIN." ; "CAPTAIN's cabin."
 	done
 
 SailorJeffSeenText:
@@ -286,8 +286,8 @@ PicnickerDebraSeenText:
 	done
 
 PicnickerDebraBeatenText:
-	text "Auw! Je bent" ; "Yow! You're too"
-	line "te sterk!" ; "strong!"
+	text "Auw! Je bent te" ; "Yow! You're too"
+	line "sterk!" ; "strong!"
 	done
 
 PicnickerDebraAfterBattleText:

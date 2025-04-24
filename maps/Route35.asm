@@ -411,7 +411,7 @@ FirebreatherWaltAfterBattleText:
 
 OfficerDirkSeenText:
 	text "Gevaar loert in" ; "Danger lurks in"
-	line "in de nacht!" ; "the night!"
+	line "de nacht!" ; "the night!"
 	done
 
 OfficerDirkBeatenText:

@@ -145,7 +145,7 @@ _DidNotLearnMoveText::
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer ; MaxLength MaxPokemonNameLength
-	text " is"
+	text " " ; " is"
 	line "probeert" ; "trying to learn"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
@@ -436,7 +436,7 @@ _BallBoxFullText::
 
 _ItemUsedText::
 	text "<PLAYER> gebruikte@" ; "<PLAYER> used the@"
-	line "@"
+	text_low
 	text_ram wStringBuffer2 ; MaxLength MaxItemNameLength
 	text "."
 	done

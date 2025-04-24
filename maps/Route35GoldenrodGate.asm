@@ -63,7 +63,7 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DONKERE GROT" ; "DARK CAVE leads"
+	db   "DUISTERE GROT" ; "DARK CAVE leads"
 	next "leidt elders@" ; "to another road@"
 
 GiftSpearowName:

@@ -125,9 +125,9 @@ BikerZekeBeatenText:
 	done
 
 BikerZekeAfterBattleText:
-	text "We zullen nie-" ; "We'll try not to"
-	line "mand storen" ; "disturb anyone"
-	cont "vanaf nu…" ; "from now on…"
+	text "We zullen voor-" ; "We'll try not to"
+	line "taan niemand meer" ; "disturb anyone"
+	cont "storen…" ; "from now on…"
 	done
 
 SupernerdSamSeenText:

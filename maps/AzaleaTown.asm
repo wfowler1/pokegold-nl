@@ -317,7 +317,7 @@ AzaleaTownTeacherText:
 AzaleaTownYoungsterText:
 	text "Snij door" ; "Cut through AZALEA"
 	line "AZALEA en je bent" ; "and you'll be in"
-	cont "in ILEX FOREST." ; "ILEX FOREST."
+	cont "in het EIKENWOUD." ; "ILEX FOREST."
 
 	para "Maar door deze" ; "But these skinny"
 	line "magere boompjes" ; "trees make it"
@@ -388,10 +388,10 @@ CharcoalKilnSignText:
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST" ; "ILEX FOREST"
+	text "EIKENWOUD" ; "ILEX FOREST"
 
 	para "Treed binnen door" ; "Enter through the"
-	line "de poort" ; "gate."
+	line "de poort." ; "gate."
 	done
 
 AzaleaTown_MapEvents:

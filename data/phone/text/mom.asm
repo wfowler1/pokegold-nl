@@ -11,7 +11,7 @@ MomPhoneLandmarkText:
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text "…"
 
-	para "is dat niet waar" ; "Isn't that where"
+	para "Is dat niet waar" ; "Isn't that where"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxLandmarkLength
 	text_start
@@ -64,7 +64,7 @@ MomDeterminedText:
 	text "Dat klinkt heel" ; "That sounds really"
 	line "erg lastig." ; "tough."
 
-	para "Maar, <PLAYER>, k" ; "But, <PLAYER>, I"
+	para "Maar, <PLAYER>, ik" ; "But, <PLAYER>, I"
 	line "weet dat je vast-" ; "know you're really"
 
 	para "beraden bent. Je" ; "determined. You'll"

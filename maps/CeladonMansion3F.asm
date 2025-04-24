@@ -162,7 +162,7 @@ GameFreakCharacterDesignerText:
 
 	para "Oh, ik hou van ze!" ; "Oh, I love them!"
 	done
-
+	
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
 	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
