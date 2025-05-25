@@ -188,7 +188,7 @@ CeruleanCityCooltrainerFText1:
 
 CeruleanCityCooltrainerFText2:
 	text "SLOWBRO, doe je" ; "SLOWBRO, show me"
-	line "VERWARRING" ; "your CONFUSION!"
+	line "VERWARRING!" ; "your CONFUSION!"
 	done
 
 CeruleanCityCooltrainerFText3:
@@ -234,7 +234,7 @@ CeruleanGymSignText:
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "MISTY" ; "LEADER: MISTY"
 
-	para "De mondige" ; "The Tomboyish"
+	para "De Mondige" ; "The Tomboyish"
 	line "Zeemeermin" ; "Mermaid"
 	done
 
