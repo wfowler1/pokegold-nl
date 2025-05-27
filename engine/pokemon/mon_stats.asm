@@ -117,9 +117,9 @@ PrintTempMonStats:
 
 .StatNames:
 	db   "AANVAL" ; "ATTACK"
-	next "VER" ; "DEFENSE"
+	next "AFWEER" ; "DEFENSE"
 	next "SPCL.AAN" ; "SPCL.ATK"
-	next "SPCL.VER" ; "SPCL.DEF"
+	next "SPCL.AFW" ; "SPCL.DEF"
 	next "SNELHEID" ; "SPEED"
 	next "@"
 
@@ -374,7 +374,7 @@ PlaceStatusString:
 	ret
 
 FntString:
-	db "FNT@"
+	db "FLG@" ; "FNT@"
 
 CopyStatusString:
 	ld a, [de]
@@ -418,7 +418,7 @@ PlaceNonFaintStatus:
 SlpString: db "SLP@"
 PsnString: db "GIF@" ; "PSN@"
 BrnString: db "BRN@"
-FrzString: db "BEV@" ; "FRZ@"
+FrzString: db "BVR@" ; "FRZ@"
 ParString: db "VLM@" ; "PAR@"
 
 ListMoves:

@@ -200,7 +200,7 @@ StartMenu_PrintBugContestStatus:
 .CaughtString:
 	db "VANGST@" ; "CAUGHT@"
 .BallsString:
-	db "BALLEN:@" ; "BALLS:@"
+	db "BALLEN@" ; "BALLS:@"
 .NoneString:
 	db "Geen@" ; "None@"
 .LevelString:

@@ -30,7 +30,7 @@ TrainerClassNames::
 	li "COOLE KIKKER" ; "COOLTRAINER"
 	li "COOLE KIKKER" ; "COOLTRAINER"
 	li "PRACHTIGE" ; "BEAUTY"
-	li "#MANIAC"
+	li "#MANIAK" ; "#MANIAC"
 	li "ROCKET"
 	li "HEER" ; "GENTLEMAN"
 	li "SKIËR" ; "SKIER"
