@@ -26,11 +26,11 @@ CreditsStringsPointers:
 	dw Credits_KazuhitoSekine
 	dw Credits_TetsujiOota
 	dw Credits_NclSuperMarioClub
-	dw Credits_Sarugakucho
+	dw Credits_NlVersionStaff
 	dw Credits_AkitoMori
 	dw Credits_TakahiroHarada
-	dw Credits_TohruHashimoto
-	dw Credits_NoboruMatsumoto
+	dw Credits_NlProgrammers
+	dw Credits_Vertalers
 	dw Credits_TakehiroIzushi
 	dw Credits_TakashiKawaguchi
 	dw Credits_TsunekazuIshihara
@@ -51,7 +51,7 @@ CreditsStringsPointers:
 	dw Credits_TerukiMurakawa
 	dw Credits_KazuyoshiOsawa
 	dw Credits_KimikoNakamichi
-	dw Credits_End
+	dw Credits_MoreVertalers
 	dw Credits_Staff
 	dw Credits_Director
 	dw Credits_SubDirector

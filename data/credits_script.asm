@@ -18,13 +18,10 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 0 ; Bellossom
 
-	db             DIRECTOR, 1
-	db       SATOSHI_TAJIRI, 2
-
-	db CREDITS_WAIT, 12
-
-	db          SUBDIRECTOR, 1
-	db       JUNICHI_MASUDA, 2
+	db             DIRECTOR, 0
+	db       SATOSHI_TAJIRI, 1
+	db          SUBDIRECTOR, 2
+	db       JUNICHI_MASUDA, 3
 
 	db CREDITS_WAIT, 12
 
@@ -48,16 +45,12 @@ CreditsScript:
 	db       MONSTER_DESIGN, 0
 	db         KEN_SUGIMORI, 1
 	db    MOTOFUMI_FUJIWARA, 2
-
-	db CREDITS_WAIT, 12
-
-	db       MONSTER_DESIGN, 0
 	db     SHIGEKI_MORIMOTO, 1
-	db       ATSUKO_NISHIDA, 2
 
 	db CREDITS_WAIT, 12
 
 	db       MONSTER_DESIGN, 0
+	db       ATSUKO_NISHIDA, 2
 	db     HIRONOBU_YOSHIDA, 1
 	db          MUNEO_SAITO, 2
 
@@ -153,18 +146,10 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db            PRODUCERS, 1
-	db      TAKEHIRO_IZUSHI, 2
-
-	db CREDITS_WAIT, 12
-
-	db            PRODUCERS, 1
+	db            PRODUCERS, 0
+	db      TAKEHIRO_IZUSHI, 1
 	db    TAKASHI_KAWAGUCHI, 2
-
-	db CREDITS_WAIT, 12
-
-	db            PRODUCERS, 1
-	db   TSUNEKAZU_ISHIHARA, 2
+	db   TSUNEKAZU_ISHIHARA, 3
 
 	db CREDITS_WAIT, 12
 	db CREDITS_WAIT, 0
@@ -176,6 +161,25 @@ CreditsScript:
 
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Sentret
+	
+	db     NL_VERSION_STAFF, 1
+	
+	db CREDITS_WAIT, 12
+	
+	db          PROGRAMMERS, 0
+	db       NL_PROGRAMMERS, 1
+
+	db CREDITS_WAIT, 12
+
+	db     TEXT_TRANSLATION, 0
+	db            VERTALERS, 1
+
+	db CREDITS_WAIT, 12
+	
+	db     TEXT_TRANSLATION, 0
+	db       MORE_VERTALERS, 1
+	
+	db CREDITS_WAIT, 12
 
 	db     US_VERSION_STAFF, 1
 
