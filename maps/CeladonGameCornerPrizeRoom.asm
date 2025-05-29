@@ -208,20 +208,20 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted MR.MIME,"
-	line "but I was short by"
-	cont "100 coins…"
+	text "Ik wilde MR.MIME," ; "I wanted MR.MIME,"
+	line "maar had 100" ; "but I was short by"
+	cont "munten te weinig…" ; "100 coins…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
-	text "Whew…"
+	text "Pfiew…" "Whew…"
 
-	para "I've got to stay"
-	line "calm and cool…"
+	para "Ik moet kalm en" ; "I've got to stay"
+	line "rustig blijven…" ; "calm and cool…"
 
-	para "I can't lose my"
-	line "cool, or I'll lose"
-	cont "all my money…"
+	para "Doe ik dat niet," ;  "I can't lose my"
+	line "dan kan ik al mijn" ; "cool, or I'll lose"
+	cont "geld verliezen…" ; "all my money…"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:

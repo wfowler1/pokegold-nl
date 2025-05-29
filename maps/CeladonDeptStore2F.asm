@@ -48,14 +48,14 @@ CeladonDeptStore2FPokefanMText:
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "My Dad's having a"
-	line "hard time learning"
+	text "Mijn vader vindt" ; "My Dad's having a"
+	line "het moeilijk om de" ; "hard time learning"
 
-	para "the names of items"
-	line "and how they are"
+	para "namen van" ; "the names of items"
+	line "voorwerpen en de" ; "and how they are"
 
-	para "supposed to be"
-	line "used…"
+	para "werking uit het" ; "supposed to be"
+	line "hoofd te leren…" ; "used…"
 	done
 
 CeladonDeptStore2FDirectoryText:

@@ -183,22 +183,22 @@ Text_ReceivedHiveBadge:
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "BADGE?"
+	text "Ken je de" ; "Do you know the"
+	line "voordelen van de" ; "benefits of HIVE-"
+	cont "KORFBADGE?" ; "BADGE?"
 
-	para "If you have it,"
-	line "#MON up to L30"
-	cont "will obey you."
+	para "Als je hem hebt," ; "If you have it,"
+	line "luisteren #MON" ; "#MON up to L30"
+	cont "tot L30 naar je." ; "will obey you."
 
-	para "#MON that know"
-	line "CUT will be able"
+	para "Een #MON die" ; "#MON that know"
+	line "SNIJDEN kent, kan" ; "CUT will be able"
 
-	para "to use it outside"
-	line "of battle too."
+	para "dat nu ook buiten" ; "to use it outside"
+	line "gevechten doen." ; "of battle too."
 
-	para "Here, I also want"
-	line "you to have this."
+	para "Hier, dit mag je" ; "Here, I also want"
+	line "ook hebben." ; "you to have this."
 	done
 
 BugsyText_FuryCutterSpeech:

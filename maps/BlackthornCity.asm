@@ -143,54 +143,54 @@ BlackthornCityMartSign:
 	jumpstd MartSignScript
 
 Text_ClairIsOut:
-	text "I am sorry."
+	text "Het spijt me." "I am sorry."
 
-	para "Our GYM LEADER is"
-	line "training in the"
-	cont "cave behind here."
+	para "Onze GYMLEIDER" ; "Our GYM LEADER is"
+	line "traint in de grot" ; "training in the"
+	cont "hierachter." ; "cave behind here."
 
-	para "I have no idea"
-	line "when our LEADER"
-	cont "will return."
+	para "Ik weet niet" ; "I have no idea"
+	line "wanneer onze" ; "when our LEADER"
+	cont "leider terug is." ; "will return."
 	done
 
 Text_ClairIsIn:
-	text "Our GYM LEADER is"
-	line "waiting for you."
+	text "Onze GYMLEIDER" ; "Our GYM LEADER is"
+	line "wacht op je." ; "waiting for you."
 
-	para "However, it would"
-	line "be impossible for"
+	para "Een gewone trainer" ; "However, it would"
+	line "kan echter nooit" ; "be impossible for"
 
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "van haar winnen." ; "a run-of-the-mill"
+	line ;"trainer to win."
 	done
 
 Text_ClairIsBeaten:
-	text "You defeated our"
-	line "GYM LEADER?"
-	cont "That's amazing!"
+	text "Je versloeg onze" ; "You defeated our"
+	line "GYMLEIDER?" ; "GYM LEADER?"
+	cont "Dat is geweldig!" ; "That's amazing!"
 
-	para "With your power,"
-	line "you should succeed"
+	para "Met zoveel kracht," ; "With your power,"
+	line "heb je vast veel" ; "you should succeed"
 
-	para "in the #MON"
-	line "LEAGUE."
+	para "succes in de" ; "in the #MON"
+	line "#MON-LEAGUE." ; "LEAGUE."
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text "Only dragon users"
-	line "are permitted to"
+	text "Alleen trainers" ; "Only dragon users"
+	line "met draken mogen" ; "are permitted to"
 
-	para "train here."
-	line "Please leave."
+	para "hier trainen. Ga" ; "train here."
+	line "alsjeblieft weg." ; "Please leave."
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "Since CLAIR, the"
-	line "dragon master, has"
+	text "Omdat CLAIR" ; "Since CLAIR, the"
+	line "toestemming gaf," ; "dragon master, has"
 
-	para "allowed it, you"
-	line "may enter."
+	para "mag je hier naar" ; "allowed it, you"
+	line "binnen." ; "may enter."
 	done
 
 BlackBeltText_WeirdRadio:
@@ -214,9 +214,9 @@ BlackthornCooltrainerF1Text:
 	done
 
 BlackthornYoungsterText:
-	text "I'm going to be a"
-	line "dragon user like"
-	cont "CLAIR."
+	text "Ik wil graag een" ; "I'm going to be a"
+	line "drakentrainer als" ; "dragon user like"
+	cont "CLAIR worden." ; "CLAIR."
 	done
 
 MeetSantosText:
