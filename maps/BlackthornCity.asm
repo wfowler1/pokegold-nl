@@ -143,7 +143,7 @@ BlackthornCityMartSign:
 	jumpstd MartSignScript
 
 Text_ClairIsOut:
-	text "Het spijt me." "I am sorry."
+	text "Het spijt me." ; "I am sorry."
 
 	para "Onze GYMLEIDER" ; "Our GYM LEADER is"
 	line "traint in de grot" ; "training in the"
