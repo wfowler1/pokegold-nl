@@ -18,8 +18,8 @@ CeruleanPokecenter1FGymGuideScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuideText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "ROUTE 9 vind je" "ROUTE 9 stretches"
-	line "oost van hier." "to the east. The"
+	text "ROUTE 9 vind je" ; "ROUTE 9 stretches"
+	line "oost van hier." ; "to the east. The"
 
 	para "Aan het eind is de" ; "POWER PLANT is at"
 	line "ENERGIECENTRALE." ; "the end."
