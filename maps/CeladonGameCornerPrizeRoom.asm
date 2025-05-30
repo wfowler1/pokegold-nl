@@ -214,7 +214,7 @@ CeladonGameCornerPrizeRoomGentlemanText:
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
-	text "Pfiew…" "Whew…"
+	text "Pfiew…" ; "Whew…"
 
 	para "Ik moet kalm en" ; "I've got to stay"
 	line "rustig blijven…" ; "calm and cool…"
