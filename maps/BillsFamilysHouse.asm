@@ -127,15 +127,15 @@ BillTakeThisEeveeText:
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew it!"
-	line "Way to go, hero!"
+	text "BILL: Ik wist het!" ; "BILL: I knew it!"
+	line "Goed gedaan, held!" ; "Way to go, hero!"
 
-	para "You're the real"
-	line "deal, dude!"
+	para "Je bent het echte" ; "You're the real"
+	line "werk, gozer!" ; "deal, dude!"
 
-	para "OK, I'm counting"
-	line "on you. Take good"
-	cont "care of it."
+	para "OK, ik reken op" ; "OK, I'm counting"
+	line "je. Pas er goed" ; "on you. Take good"
+	cont "op." ; "care of it."
 	done
 
 ReceivedEeveeText:
@@ -163,29 +163,29 @@ BillNoEeveeText:
 	done
 
 BillPopWontWorkText:
-	text "BILL: I used to"
-	line "experiment with a"
-	cont "TELEPORTER."
+	text "BILL: Vroeger" ; "BILL: I used to"
+	line "experimenteerde ik" ; "experiment with a"
+	cont "met teleporteren." ; "TELEPORTER."
 
-	para "I ought to do a"
-	line "follow-up."
+	para "Dat moet ik nog" ; "I ought to do a"
+	line "eens proberen." ; "follow-up."
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Oh, je verzamelt" ; "Oh, you collect"
+	line "#MON? Mijn zoon" ; "#MON? My son"
+	cont "BILL is expert." ; "BILL is an expert."
 
-	para "He had to leave"
-	line "for the #MON"
+	para "Hij moest naar het" ; "He had to leave"
+	line "#MONCENTRUM in" ; "for the #MON"
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "ECRUTEAK CITY." ; "CENTER in ECRUTEAK"
+	#line "CITY."
 	done
 
 BillsMomText_AfterEcruteak:
-	text "I am so glad to"
-	line "see my son again."
+	text "Het is zo fijn om" ; "I am so glad to"
+	line "mijn zoon te zien." ; "see my son again."
 	done
 
 BillsYoungerSisterUsefulNumberText:

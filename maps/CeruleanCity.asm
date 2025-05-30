@@ -148,14 +148,14 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "KANTO's POWER"
-	line "PLANT is toward"
+	text "KANTO'S ENERGIE-" ; "KANTO's POWER"
+	line "CENTRALE is aan" ; "PLANT is toward"
 
-	para "the end of ROUTE"
-	line "9. There was an"
+	para "het einde van" ; "the end of ROUTE"
+	line "ROUTE 9. Er was" ; "9. There was an"
 
-	para "accident of some"
-	line "sort there."
+	para "daar een soort" ; "accident of some"
+	line "ongeluk." ; "sort there."
 	done
 
 CeruleanCityCooltrainerMText2:
@@ -261,8 +261,8 @@ CeruleanPoliceSignText:
 	done
 
 CeruleanCapeSignText:
-	text "CERULEAN CAPE"
-	line "Ahead"
+	text "KAAP CERULEAN" ; "CERULEAN CAPE"
+	line "Deze kant op" ; "Ahead"
 	done
 
 CeruleanLockedDoorText:

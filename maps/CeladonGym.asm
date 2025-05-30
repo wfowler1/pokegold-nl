@@ -188,8 +188,8 @@ ErikaAfterBattleText:
 	done
 
 LassMichelleSeenText:
-	text "Wait! Only girls"
-	line "are allowed here!"
+	text "Wacht! Verboden" ; "Wait! Only girls"
+	line "voor jongens hier!" ; "are allowed here!"
 	done
 
 LassMichelleBeatenText:

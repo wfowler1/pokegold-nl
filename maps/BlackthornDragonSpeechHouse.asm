@@ -25,11 +25,11 @@ BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "CLAIR and LANCE"
-	line "trained here to"
+	text "CLAIR en LANCE" ; "CLAIR and LANCE"
+	line "trainden hier om" ; "trained here to"
 
-	para "hone their skills"
-	line "as trainers."
+	para "betere trainers te" ; "hone their skills"
+	line "worden." ; "as trainers."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:

@@ -47,11 +47,11 @@ CianwoodLugiaSpeechHouseLassText:
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "The whirlpools"
-	line "around the islands"
+	text "De draaikolken" ; "The whirlpools"
+	line "rond de eilanden" ; "around the islands"
 
-	para "must be caused by"
-	line "the sea creature."
+	para "lijken gemaakt" ; "must be caused by"
+	line "door het zeebeest." ; "the sea creature."
 	done
 
 CianwoodLugiaSpeechHouse_MapEvents:
