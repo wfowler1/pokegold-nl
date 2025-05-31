@@ -163,36 +163,36 @@ CeladonGameCornerPokefanMText:
 	done
 
 CeladonGameCornerTeacherText:
-	text "It's this machine"
-	line "I want."
+	text "Deze spelautomaat" ; "It's this machine"
+	line "wil ik." ; "I want."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
+	para "Gister verloor ik" ; "It cleaned me out"
+	line "telkens, dus van-" ; "yesterday, so it"
 
-	para "should pay out"
-	line "today."
+	para "daag zal hij" ; "should pay out"
+	line "vast uitbetalen." ; "today."
 	done
 
 CeladonGameCornerFishingGuruText:
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+	text "Ik denk dat deze" ; "I think this slot"
+	line "spelautomaat zal" ; "machine will pay"
+	cont "uitbetalen…" ; "out…"
 
-	para "The odds vary"
-	line "among machines."
+	para "De winkansen ver-" ; "The odds vary"
+	line "schillen nogal.";  "among machines."
 	done
 
 CeladonGameCornerFisherText1:
-	text "Gahahaha!"
+	text "Gahahaha!" ; "Gahahaha!"
 
-	para "The coins just"
-	line "keep popping out!"
+	para "De munten blijven" ; "The coins just"
+	line "maar rollen!" ; "keep popping out!"
 
-	para "Hm? What, kid? You"
-	line "want to play?"
+	para "Wat zeg je? Wil" ; "Hm? What, kid? You"
+	line "je ook spelen?" ; "want to play?"
 
-	para "I'll share my luck"
-	line "with you!"
+	para "Ik zal mijn geluk" ; "I'll share my luck"
+	line "met je delen!" ; "with you!"
 	done
 
 CeladonGameCornerFisherText2:
@@ -215,35 +215,35 @@ CeladonGameCornerFisherNoCoinCaseText:
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Hey kind, je GELD-" ; "Hey, your COIN"
+	line "KISTJE zit vol." ; "CASE is full, kid."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Je bent vast ook" ; "You must be riding"
+	line "de hele tijd aan" ; "a winning streak"
+	cont "het winnen." ; "too."
 	done
 
 CeladonGymGuideText:
-	text "Hey! CHAMP in"
-	line "making!"
+	text "He! KAMPIOEN in" ; "Hey! CHAMP in"
+	line "wording!" ; "making!"
 
-	para "Are you playing"
-	line "the slots too?"
+	para "Speel jij ook met" ; "Are you playing"
+	line "de spelautomaten?" ; "the slots too?"
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #MON."
-
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Ik wil genoeg" ; "I'm trying to get"
+	line "munten hebben voor" ; "enough coins for a"
+	cont "een prijs-#MON." ; "prize #MON."
+	
+	para "Maar ik mis nog" ; "But I don't have"
+	line "munten…" ; "enough coins yet…"
 	done
 
 CeladonGameCornerGrampsText:
-	text "Hmmm… The odds are"
-	line "surely better for"
+	text "Hm. De kansen zijn" ; "Hmmm… The odds are"
+	line "vast beter bij" ; "surely better for"
 
-	para "PIKACHU's line,"
-	line "but… What to do?"
+	para "PIKACHU's baan," ; "PIKACHU's line,"
+	line "maar… Wat nu?" ; "but… What to do?"
 	done
 
 CeladonGameCornerPoster1Text:

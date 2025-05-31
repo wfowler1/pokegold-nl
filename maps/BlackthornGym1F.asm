@@ -148,27 +148,27 @@ BlackthornGymStatue:
 	jumpstd GymStatue2Script
 
 ClairIntroText:
-	text "I am CLAIR. I'm"
-	line "the world's best"
-	cont "dragon master."
+	text "Ik ben CLAIR." ; "I am CLAIR."
+	line "De beste draken-" ; "The world's best"
+	cont "meester op aarde." ; "dragon master."
 
-	para "I can hold my own"
-	line "against even the"
-
-	para "#MON LEAGUE's"
-	line "ELITE FOUR."
-
-	para "Do you still want"
-	line "to take me on?"
-
-	para "…Fine."
-	line "Let's do it!"
-
-	para "As a trainer, I"
-	line "will use my full"
-
-	para "power against any"
-	line "opponent!"
+	para "Ik kan me zelfs" ; "I can hold my own"
+	line "meten met de ELITE" ; "against even the"
+	
+	para "FOUR van de" ; "#MON LEAGUE's"
+	line "#MON-LEAGUE." ; "ELITE FOUR."
+	
+	para "Wil je nog steeds" ; "Do you still want"
+	line "met me vechten?" ; "to take me on?"
+	
+	para "…Prima." ; "…Fine."
+	line "We doen het!" ; "Let's do it!"
+	
+	para "Als GYMLEIDER zal" ; "As a GYM LEADER,"
+	line "ik al mijn kracht" ; "I will use my full"
+	
+	para "tegen elke tegen-" ; "power against any"
+	line "stander gebruiken!" ; "opponent!"
 	done
 
 ClairWinText:
@@ -180,75 +180,75 @@ ClairWinText:
 	done
 
 ClairText_GoToDragonsDen:
-	text "I won't admit"
-	line "this."
+	text "Ik weiger dit te" ; "I won't admit"
+	line "erkennen." ; "this."
 
-	para "I may have lost,"
-	line "but you're still"
+	para "Wellicht verloor" ; "I may have lost,"
+	line "ik, maar je bent" ; "but you're still"
 
-	para "not ready for the"
-	line "#MON LEAGUE."
+	para "nog niet klaar" ; "not ready for the"
+	line "voor de LEAGUE." ; "#MON LEAGUE."
 
-	para "I know. You should"
-	line "take the dragon"
-	cont "user challenge."
+	para "Ik weet het. Je" ; "I know. You should"
+	line "moet de draken-" ; "take the dragon"
+	cont "test doen." ; "user challenge."
 
-	para "Behind this GYM is"
-	line "a place called"
-	cont "DRAGON'S DEN."
+	para "Achter deze GYM is" ; "Behind this GYM is"
+	line "een plek genaamd" ; "a place called"
+	cont "de DRAKENGROT." ; "DRAGON'S DEN."
 
-	para "Go and bring me"
-	line "the DRAGON FANG"
+	para "Breng mij de" ; "Go and bring me"
+	line "DRAKENTAND, diep" ; "the DRAGON FANG"
 
-	para "from deep inside"
-	line "the DEN."
+	para "verborgen in de" ; "from deep inside"
+	line "GROT." ; "the DEN."
 
-	para "That is the test"
-	line "to be accepted as"
+	para "Dat zal bewijzen" ; "That is the test"
+	line "dat je een ware" ; "to be accepted as"
 
-	para "a true dragon"
-	line "user."
+	para "drakengebruiker" ; "a true dragon"
+	line "bent." ; "user."
 
-	para "If you can do"
-	line "that, I will ac-"
-	cont "cept you as a"
-	cont "worthy trainer."
+	para "Doe je dat, dan" ; "If you can do"
+	line "zal je ik je" ; "that, I will ac-"
+	cont "erkennen als een" ; "cept you as a"
+	cont "waardig trainer." ; "worthy trainer."
 
-	para "Until then, I"
-	line "won't give you a"
-	cont "BADGE."
+	para "Tot dan zal ik je" ; "Until then, I"
+	line "de BADGE niet" ; "won't give you a"
+	cont "overhandigen." ; "BADGE."
 	done
 
 ClairText_WhatsTheMatter:
-	text "CLAIR: What's"
-	line "the matter?"
+	text "CLAIR: Wat is er" ; "CLAIR: What's"
+	line "aan de hand?" ; "the matter?"
 
-	para "This errand won't"
-	line "be hard for you,"
+	para "Deze taak is vast" ; "This errand won't"
+	line "niet moeilijk," ; "be hard for you,"
 
-	para "unless your vic-"
-	line "tory was a fluke."
+	para "tenzij je winst" ; "unless your vic-"
+	line "dom toeval was." ; "tory was a fluke."
 	done
 
 BlackthornGymClairText_Cheat:
-	text "CLAIR: You did"
-	line "not get that at"
-	cont "DRAGON'S DEN."
+	text "CLAIR: Je bent" ; "CLAIR: You did"
+	line "niet in de DRAKEN-" ; "not get that at"
+	cont "GROT geweest." ; "DRAGON'S DEN."
 
-	para "Trying to cheat"
-	line "like that…"
+	para "Probeer je nou" ; "Trying to cheat"
+	line "vals te spelen…" ; "like that…"
 
-	para "I'm disappointed"
-	line "in you."
+	para "Je stelt me diep" ; "I'm disappointed"
+	line "teleur." ; "in you."
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
-	text "CLAIR: You have"
-	line "proven yourself to"
-	cont "me."
+	text "CLAIR: Je hebt je" ; "CLAIR: You have"
+	line "bewezen." ; "proven yourself to"
+	;cont "me."
 
-	para "I want you to have"
-	line "this TM."
+	para "Ik wil dat je deze" ; "I want you to have"
+	line "TM neemt." ; "this TM."
 	done
 
 BlackthornGymText_ReceivedTM24: ; unreferenced
@@ -270,35 +270,38 @@ BlackthornGymClairText_DescribeTM24:
 	done
 
 BlackthornGymClairText_League:
-	text "So you've col-"
-	line "lected all the"
-	cont "BADGES."
+	text "Dus je hebt alle" ; "So you've col-"
+	line "BADGES verzameld." ; "lected all the"
+	; cont "BADGES."
 
-	para "Your destination"
-	line "is the #MON"
+	para "Je bestemming is" ; "Your destination"
+	line "nu de #MON-" ; "is the #MON"
 
-	para "LEAGUE in INDIGO"
+	para "LEAGUE bij INDIGO" ; "LEAGUE in INDIGO"
 	line "PLATEAU."
 
-	para "Do you know how to"
-	line "get there?"
+	para "Weet je hoe je" ; "Do you know how to"
+	line "daar komt?" ; "get there?"
 
-	para "From here, go to"
+	para "Ga van hier naar" ; "From here, go to"
 	line "NEW BARK TOWN."
-
-	para "Then SURF east."
-	line "The route there is"
-	cont "very tough."
-
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
-
-	para "If you do, I'll"
-	line "feel even worse"
-
-	para "about having lost"
-	line "to you!"
+	
+	para "SURF dan naar het" ; "Then SURF east."
+	line "oosten. De weg" ; "The route there is"
+	cont "erheen is pittig." ; "very tough."
+	
+	para "Waag het niet te" ; "Don't you dare"
+	line "verliezen bij de" ; "lose at the #-"
+	cont "#MON-LEAGUE!" ; "MON LEAGUE!"
+	
+	para "Als je dat doet," ; "If you do, I'll"
+	line "baal ik nog meer" ; "feel even worse"
+	
+	para "van mijn verlies" ; "about having lost"
+	line "tegen jou!" ; "to you!"
+	
+	para "Geef het alles dat" ; "Give it every-"
+	line "je in je hebt." ; "thing you've got."
 	done
 
 CooltrainermPaulSeenText:
@@ -310,15 +313,15 @@ CooltrainermPaulSeenText:
 	done
 
 CooltrainermPaulBeatenText:
-	text "I'm disappointed."
+	text "Dat stelde teleur." ; "I'm disappointed."
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "You've met LANCE,"
-	line "the dragon master?"
+	text "Je kent LANCE, de" ; "You've met LANCE,"
+	line "drakenmeester?" ; "the dragon master?"
 
-	para "That just can't be"
-	line "true."
+	para "Dat kan gewoon" ; "That just can't be"
+	line "niet waar zijn." ; "true."
 	done
 
 CooltrainermMikeSeenText:

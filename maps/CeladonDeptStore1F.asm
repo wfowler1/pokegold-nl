@@ -55,20 +55,20 @@ CeladonDeptStore1FTeacherText:
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "BG: SERVICE-" ; "1F: SERVICE"
+	line "    BALIE" ; "    COUNTER"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "1V: TRAINER-" ; "2F: TRAINER'S"
+	line "    MARKT" ; "    MARKET"
 
-	para "3F: TM SHOP"
+	para "2V: TM-WINKEL" ; "3F: TM SHOP"
 
-	para "4F: WISEMAN GIFTS"
+	para "3V: CADEAUWINKEL" ; "4F: WISEMAN GIFTS"
 
-	para "5F: DRUG STORE"
+	para "4V: APOTHEEK" ; "5F: DRUG STORE"
 
-	para "6F: VENDING"
-	line "    MACHINES"
+	para "5V: DRANK-" ; "6F: VENDING"
+	line "    AUTOMATEN" ; "    MACHINES"
 	done
 
 CeladonDeptStore1F_MapEvents:

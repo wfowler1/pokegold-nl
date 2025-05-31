@@ -114,18 +114,19 @@ EcruteakCityGramps1Text:
 	done
 
 EcruteakCityGramps2Text:
-	text "Ah, youngster."
-	line "Have you learned"
-
-	para "to dance like the"
-	line "KIMONO GIRLS?"
-
-	para "If you go to their"
-	line "DANCE THEATER, an"
-
-	para "odd old man will"
-	line "give you something"
-	cont "nice, I hear."
+	text "Ah, jongen." ; "Ah, youngster."
+	line "Heb je leren" ; "Have you learned"
+	
+	para "dansen als de" ; "to dance like the"
+	line "KIMONO-MEIDEN?" ; "KIMONO GIRLS?"
+	
+	para "Als je naar hun" ; "If you go to their"
+	line "DANSTHEATER gaat," ; "DANCE THEATER, an"
+	
+	para "zal een vreemde" ; "odd old man will"
+	line "oude man je iets" ; "give you something"
+	cont "moois geven," ; "nice, I hear."
+	cont "heb ik gehoord." ;
 	done
 
 EcruteakCityLass1Text:
@@ -137,11 +138,11 @@ EcruteakCityLass1Text:
 	done
 
 EcruteakCityLass2Text:
-	text "That used to be a"
-	line "much taller tower,"
+	text "Die toren was" ; "That used to be a"
+	line "ooit veel hoger," ; "much taller tower,"
 
-	para "but it burned down"
-	line "in a fire."
+	para "Maar hij is later" ; "but it burned down"
+	line "afgebrand." ; "in a fire."
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
