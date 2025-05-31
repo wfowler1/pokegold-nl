@@ -41,29 +41,29 @@ CianwoodPokecenter1FLassText:
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "De #MON-GYM-" ; "The #MON GYM"
+	line "trainers hier zijn" ; "trainers here are"
+	cont "macho-pestkoppen." ; "macho bullies."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Als ik daar rond-" ; "If I stick around,"
+	line "hang, komen ze" ; "they might come"
+	cont "me pesten." ; "after me."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Hier is wat" ; "Here's some ad-"
+	line "advies: de GYM-" ; "vice: the GYM"
 
-	para "LEADER uses the"
-	line "fighting-type."
+	para "LEIDER gebruikt" ; "LEADER uses the"
+	line "het vecht-type." ; "fighting-type."
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Je kan hem dus" ; "So you should"
+	line "verrassen met psy-" ; "confound him with"
+	cont "chische #MON." ; "psychic #MON."
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "Versla z'n #MON" ; "Wipe out his #-"
+	line "voordat ze hun" ; "MON before they"
 
-	para "can use their"
-	line "physical strength."
+	para "fysieke kracht" ; "can use their"
+	line "kunnen gebruiken." ; "physical strength."
 	done
 
 CianwoodGymGuideWinText:
