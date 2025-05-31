@@ -89,14 +89,14 @@ CeladonCityPoliwrathText:
 	done
 
 CeladonCityTeacher1Text:
-	text "I lost at the slot"
-	line "machines again…"
+	text "Weer verloren bij" ; "I lost at the slot"
+	line "de speelautomaten…" ; "machines again…"
 
-	para "We girls also play"
-	line "the slots now."
+	para "Meisjes spelen nu" ; "We girls also play"
+	line "ook met automaten." ; "the slots now."
 
-	para "You should check"
-	line "them out too."
+	para "Probeer ze ook" ; "You should check"
+	line "eens een keertje." ; "them out too."
 	done
 
 CeladonCityGramps1Text:
@@ -193,9 +193,9 @@ CeladonCityMansionSignText:
 	done
 
 CeladonCityGameCornerSignText:
-	text "The Playground for"
-	line "Everybody--CELADON"
-	cont "GAME CORNER"
+	text "De Speeltuin voor" ; "The Playground for"
+	line "Iedereen--CELADON" ; "Everybody--CELADON"
+	cont "SPELHOEK" ; "GAME CORNE
 	done
 
 CeladonCityTrainerTipsText:
