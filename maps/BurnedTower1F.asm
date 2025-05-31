@@ -163,37 +163,37 @@ FirebreatherDickMovement:
 BurnedTowerRival_BeforeText:
 	text "<……> <……> <……>"
 
-	para "…Oh, it's you."
+	para "…Oh, jij bent het." ; "…Oh, it's you."
 
-	para "You wanted to get"
-	line "stronger, so you"
+	para "Je wilde sterker" ; "You wanted to get"
+	line "worden, dus je" ; "stronger, so you"
 
-	para "came for the leg-"
-	line "endary #MON"
+	para "kwam hier om de" ; "came for the leg-"
+	line "legendarische" ; "endary #MON"
 
-	para "that's supposed to"
-	line "be here. That's"
-	cont "your story, right?"
+	para "#MON te vinden." ; "that's supposed to"
+	line "Dat is je verhaal," ; "be here. That's"
+	cont "of niet soms?" ; "your story, right?"
 
-	para "Well, that's not"
-	line "going to happen."
+	para "Nou, dat gaat niet" ; "Well, that's not"
+	line "gebeuren." ; "going to happen."
 
-	para "Because I'm going"
-	line "to get it!"
+	para "Want die ga ik" ; "Because I'm going"
+	line "vangen!" ; "to get it!"
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est trainer, so a"
-	cont "legendary #MON"
-	cont "would be perfect"
-	cont "for me."
+	para "Ik word de beste" ; "I'm going to be"
+	line "trainer op aarde," ; "the world's great-"
+	cont "een legendarische" ; "est trainer, so a"
+	cont "#MON is dus" ; "legendary #MON"
+	cont "perfect voor mij." ; "would be perfect"
+	cont #"for me."
 
-	para "…Well, anyway,"
-	line "I'm getting tired"
+	para "…Hoe dan ook," ; "…Well, anyway,"
+	line "het is vermoeiend" ; "I'm getting tired"
 
-	para "of having a wimp"
-	line "like you always"
-	cont "showing up."
+	para "dat watjes zoals" ; "of having a wimp"
+	line "jij steeds komen" ; "like you always"
+	cont "opdagen." ; "showing up."
 	done
 
 BurnedTowerRival_WinText:
@@ -227,53 +227,53 @@ BurnedTowerRival_LossText:
 	done
 
 FirebreatherDickBeforeText:
-	text "Hey, I'm training"
-	line "secretly here!"
+	text "He, ik train hier" ; "Hey, I'm training"
+	line "in het geheim!" ; "secretly here!"
 
-	para "Don't embarrass me"
-	line "by looking!"
+	para "Geneer me niet" ; "Don't embarrass me"
+	line "door zo te kijken!" ; "by looking!"
 	done
 
 FirebreatherDickBeatenText:
-	text "I burned down to"
-	line "white ashes…"
+	text "Ik ben helemaal" ; "I burned down to"
+	line "afgebrand…" ; "white ashes…"
 	done
 
 FirebreatherDickAfterText:
-	text "I was so into my"
-	line "training that I"
+	text "Ik was zo druk met" ; "I was so into my"
+	line "trainen dat ik in" ; "training that I"
 
-	para "fell down this"
-	line "hole."
+	para "dit gat ben" ; "fell down this"
+	line "gevallen." ; "hole."
 	done
 
 FirebreatherNedSeenText:
-	text "My soul is on"
-	line "fire. I'll show"
+	text "Mijn ziel staat in" ; "My soul is on"
+	line "lichterlaaie. Ik" ; "fire. I'll show"
 
-	para "you how hot it"
-	line "burns!"
+	para "laat zien hoe hard" ; "you how hot it"
+	line "hij brandt!" ; "burns!"
 	done
 
 FirebreatherNedBeatenText:
-	text "Still not hot"
-	line "enough…"
+	text "Nog steeds niet" ; "Still not hot"
+	line "heet genoeg…" ; "enough…"
 	done
 
 FirebreatherNedAfterText:
-	text "In the past, there"
-	line "were these #MON"
+	text "Vroeger waren er" ; "In the past, there"
+	line "#MON die met" ; "were these #MON"
 
-	para "that ran through"
-	line "grass at super-"
-	cont "high speed."
+	para "extreem hoge" ; "that ran through"
+	line "snelheid renden" ; "grass at super-"
+	cont "door het gras." ; "high speed."
 
-	para "They say that they"
-	line "run like the wind."
+	para "Ze bewogen voort" ; "They say that they"
+	line "als de wind." ; "run like the wind."
 
-	para "If you run into"
-	line "one in grass, it"
-	cont "will likely bolt."
+	para "Kom je één tegen," ; "If you run into"
+	line "dan rent deze" ; "one in grass, it"
+	cont "vermoedelijk weg." ; "will likely bolt."
 	done
 
 BurnedTower1F_MapEvents:

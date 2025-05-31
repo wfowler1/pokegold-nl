@@ -136,42 +136,46 @@ EcruteakGymStatue:
 	jumpstd GymStatue2Script
 
 MortyIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Goed dat je" ; "Good of you to"
+	line "bent gekomen." ; "have come."
 
-	para "Here in ECRUTEAK,"
-	line "#MON have been"
-	cont "revered."
+	para "Hier in ECRUTEAK" ; "Here in ECRUTEAK,"
+	line "worden #MON" ; "#MON have been"
+	cont "vereerd." ; "revered."
 
-	para "It's said that"
-	line "legendary #MON"
+	para "Er wordt gezegd" ; "It's said that"
+	line "dat een" ; "legendary #MON"
+	cont "legendarische"
 
-	para "will appear to the"
-	line "truly powerful"
-	cont "trainers."
+	para "#MON zich hier" ; "will appear to the"
+	line "zal tonen aan echt" ; "truly powerful"
+	cont "sterke trainers." ; "trainers."
 
-	para "I believed that"
-	line "tale, so I have"
+	para "Ik geloofde dat" ; "I believed that"
+	line "verhaal, dus heb" ; "tale, so I have"
+	
+	para "ik in het geheim" ; "secretly trained"
+	line "mijn hele leven" ; "here all my life."
+	cont "getraind." ; 
+	
+	para "En nu kan ik" ; "As a result, I can"
+	line "zien wat anderen" ; "now see what"
+	cont "niet zien." ; "others cannot."
+	
+	para "Slechts een beetje" ; "Just a bit more…"
+	line "meer…" ; 
+	
+	para "Met een beetje" ; "With a little"
+	line "meer, kan ik een" ; "more, I could see"
 
-	para "secretly trained"
-	line "here all my life."
+	para "toekomst zien" ; "a future in which"
+	line "waarin ik de" ; "I meet the legen-"
+	cont "legendarische" ; "dary #MON."
+	cont "#MON ontmoet."
 
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
-
-	para "Just a bit more…"
-
-	para "With a little"
-	line "more, I could see"
-
-	para "a future in which"
-	line "I meet the legen-"
-	cont "dary #MON."
-
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "Jij gaat me helpen" ; "You're going to"
+	line "dat niveau te" ; "help me reach that"
+	cont "bereiken!" ; "level!"
 	done
 
 MortyWinLossText:
