@@ -1173,13 +1173,13 @@ Pokedex_DrawDexEntryScreenBG:
 .Number: ; unreferenced
 	db $5c, $5d, -1 ; No.
 .Height:
-	db "HT.  ???m", -1 ; HT  ?'??"
+	db "LT.  ???m", -1 ; HT  ?'??"
 	; db "HT  ?", $5e, "??", $5f, -1 ; HT  ?'??"
 .Weight:
 	db "GEW  ???kg", -1
 	; db "WT   ???lb", -1
 .MenuItems:
-	db $3b, " PAG GEB GIL  DRUK ", -1
+	db $3b, " PAG GEB ROEP DRUK ", -1
 	; db $3b, " PAGE AREA CRY PRNT", -1
 
 Pokedex_DrawOptionScreenBG:

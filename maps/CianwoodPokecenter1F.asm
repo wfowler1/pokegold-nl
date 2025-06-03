@@ -45,7 +45,7 @@ CianwoodGymGuideText:
 	line "trainers hier zijn" ; "trainers here are"
 	cont "macho-pestkoppen." ; "macho bullies."
 
-para "Als ik daar rond-" ; "If I stick around,"
+	para "Als ik daar rond-" ; "If I stick around,"
 	line "hang, komen ze" ; "they might come"
 	cont "me pesten." ; "after me."
 
