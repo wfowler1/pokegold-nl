@@ -128,37 +128,38 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: All right."
-	line "I recognize your"
+	text "CLAIR: Oké. Ik" ; "CLAIR: All right."
+	line "erken je ware" ; "I recognize your"
 
-	para "true power. This"
-	line "BADGE is yours."
+	para "kracht. Deze BADGE" ; "true power. This"
+	line "is voor jou." ; "BADGE is yours."
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
-	text "<PLAYER> received"
-	line "RISINGBADGE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "RIJZINGSBADGE." ; "RISINGBADGE."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
-	line "enable your"
+	text "De RIJZINGSBADGE" ; "RISINGBADGE will"
+	line "stelt #MON in" ; "enable your"
 
-	para "#MON to use the"
-	line "move for climbing"
-	cont "waterfalls."
+	para "staat om met de" ; "#MON to use the"
+	line "juiste aanval" ; "move for climbing"
+	cont "op watervallen" ; "waterfalls."
+	cont "te klimmen."
 
-	para "Also, all #MON"
-	line "will recognize you"
+	para "Ook zullen alle" ; "Also, all #MON"
+	line "#MON altijd" ; "will recognize you"
 
-	para "as a trainer and"
-	line "obey your every"
+	para "naar je commando's" ; "as a trainer and"
+	line "luisteren, zonder" ; "obey your every"
 
-	para "command without"
-	line "question."
+	para "twijfel." ; "command without"
+	line ;"question."
 
-	para "I also want you to"
-	line "have this TM."
+	para "Ik wil ook dat je" ; "I also want you to"
+	line "deze TM neemt." ; "have this TM."
 	done
 
 Text_ReceivedTM24: ; unreferenced
@@ -180,35 +181,37 @@ ClairText_DescribeDragonbreathDragonDen:
 	done
 
 ClairText_CollectedAllBadges:
-	text "So, you've col-"
-	line "lected all the"
-	cont "BADGES."
+	text "Je hebt nu alle" ; "So, you've col-"
+	line "BADGES verzameld." ; "lected all the"
+	; cont "BADGES."
 
-	para "Your destination"
-	line "is the #MON"
+	para "Je volgende doel" ; "Your destination"
+	line "is de #MON-" ; "is the #MON"
 
-	para "LEAGUE in INDIGO"
+	para "LEAGUE bij INDIGO" ; "LEAGUE in INDIGO"
 	line "PLATEAU."
 
-	para "Do you know how to"
-	line "get there?"
-
-	para "From here, go to"
+	para "Weet je hoe je" ; "Do you know how to"
+	line "daar komt?" ; "get there?"
+	
+	para "Ga vanaf hier naar" ; "From here, go to"
 	line "NEW BARK TOWN."
-
-	para "Then SURF east."
-	line "The route there is"
-	cont "very tough."
-
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
-
-	para "If you do, I'll"
-	line "feel even worse"
-
-	para "about having lost"
-	line "to you!"
+	
+	para "SURF dan naar het" ; "Then SURF east to"
+	line "oosten." ; "#MON LEAGUE."
+	
+	para "De weg er naartoe" ; "The route there is"
+	line "is erg pittig." ; "very tough."
+	
+	para "Waag het niet te" ; "Don't you dare"
+	line "verliezen bij de" ; "lose at the #-"
+	cont "#MON-LEAGUE!" ; "MON LEAGUE!"
+	
+	para "Als je dat doet," ; "If you do, I'll"
+	line "baal ik nog meer" ; "feel even worse"
+	
+	para "van mijn verlies" ; "about having lost"
+	line "tegen jou!" ; "to you!"
 	done
 
 DragonShrineSignpostText:
