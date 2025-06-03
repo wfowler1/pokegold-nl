@@ -438,7 +438,7 @@ LoadPinkPage:
 	hlcoord 10, 12
 	ld de, .LevelUpStr
 	call PlaceString
-	hlcoord 14, 14
+	hlcoord 12, 14
 	ld de, .ToStr
 	call PlaceString
 	ld a, [wTempMonLevel]
@@ -504,10 +504,10 @@ LoadPinkPage:
 	db "ERV PUNTEN@" ; "EXP POINTS@"
 
 .LevelUpStr:
-	db "VOOR LEVEL@" ; "LEVEL UP@"
+	db "LVL OMHOOG@" ; "LEVEL UP@"
 
 .ToStr:
-	db "TE@" ; "TO@"
+	db "NAAR@" ; "TO@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -608,7 +608,7 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "OBJECT@" ; "ITEM@"
+	db "VOORW.@" ; "ITEM@"
 
 .ThreeDashes:
 	db "---@"
