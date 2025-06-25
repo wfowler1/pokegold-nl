@@ -43,6 +43,7 @@ LoadFontsExtra::
 	ret
 
 DecompressRequest2bpp::
+; Load compressed 2bpp at b:hl to occupy c tiles of de.
 	push de
 	ld a, BANK(sScratch)
 	call OpenSRAM
@@ -205,7 +206,7 @@ Request1bpp::
 Get2bpp::
 ; copy c 2bpp tiles from b:de to hl
 	ldh a, [rLCDC]
-	bit rLCDC_ENABLE, a
+	bit B_LCDC_ENABLE, a
 	jp nz, Request2bpp
 
 	push hl
@@ -216,7 +217,7 @@ Get2bpp::
 ; bank
 	ld a, b
 
-; bc = c * LEN_2BPP_TILE
+; bc = c * TILE_SIZE
 	push af
 	swap c
 	ld a, $f
@@ -232,7 +233,7 @@ Get2bpp::
 Get1bpp::
 ; copy c 1bpp tiles from b:de to hl
 	ldh a, [rLCDC]
-	bit rLCDC_ENABLE, a
+	bit B_LCDC_ENABLE, a
 	jp nz, Request1bpp
 
 	push de
@@ -242,7 +243,7 @@ Get1bpp::
 ; bank
 	ld a, b
 
-; bc = c * LEN_1BPP_TILE
+; bc = c * TILE_1BPP_SIZE
 	push af
 	ld h, 0
 	ld l, c
@@ -267,7 +268,7 @@ DuplicateGet2bpp:: ; unreferenced
 ; bank
 	ld a, b
 
-; bc = c * LEN_2BPP_TILE
+; bc = c * TILE_SIZE
 	ld h, 0
 	ld l, c
 	add hl, hl
