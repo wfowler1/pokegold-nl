@@ -1,11 +1,11 @@
-	db "DRAGON@" ; species name
+	db "DRAAK@" ; species name
 	db 22 ; height
 	dw 2100 ; weight
 
-	db   "It is said that"
-	next "this #MON con-"
-	next "stantly flies over"
+	db   "Men zegt dat deze" ; "It is said that"
+	next "#MON constant" ; "this #MON con-"
+	next "over de grote" ; "stantly flies over"
 
-	page "the immense seas"
-	next "and rescues drown-"
-	next "ing people.@"
+	page "zeeën vliegt en" ; "the immense seas"
+	next "daar drenkelingen" ; "and rescues drown-"
+	next "redt.@" ; "ing people.@"

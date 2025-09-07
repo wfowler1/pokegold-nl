@@ -1,11 +1,11 @@
-	db "DELIVERY@" ; species name
+	db "BEZORGER@" ; species name
 	db 9 ; height
 	dw 160 ; weight
 
-	db   "It carries food"
-	next "all day long."
-	next "There are tales"
+	db   "Draagt de hele dag" ; "It carries food"
+	next "eten met zich mee." ; "all day long."
+	next "Volgens verhalen" ; "There are tales"
 
-	page "about lost people"
-	next "who were saved by"
-	next "the food it had.@"
+	page "gaf het dit eten" ; "about lost people"
+	next "aan verdwaalde" ; "who were saved by"
+	next "mensen.@" ; "the food it had.@"

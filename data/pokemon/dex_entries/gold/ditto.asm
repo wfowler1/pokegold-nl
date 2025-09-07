@@ -1,11 +1,11 @@
-	db "TRANSFORM@" ; species name
+	db "VERANDER@" ; species name
 	db 3 ; height
 	dw 40 ; weight
 
-	db   "It can transform"
-	next "into anything."
-	next "When it sleeps, it"
+	db   "Kan overal in" ; "It can transform"
+	next "transformeren. Als" ; "into anything."
+	next "het slaapt, veran-" ; "When it sleeps, it"
 
-	page "changes into a"
-	next "stone to avoid"
-	next "being attacked.@"
+	page "dert het in een" ; "changes into a"
+	next "steen om aanvallen" ; "stone to avoid"
+	next "te vermijden.@" ; "being attacked.@"

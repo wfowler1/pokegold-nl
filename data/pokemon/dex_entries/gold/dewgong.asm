@@ -1,11 +1,11 @@
-	db "SEA LION@" ; species name
+	db "ZEELEEUW@" ; species name
 	db 17 ; height
 	dw 1200 ; weight
 
-	db   "Its streamlined"
-	next "body has little"
-	next "drag in water."
+	db   "Het gestroomlijnde" ; "Its streamlined"
+	next "lichaam heeft wei-" ; "body has little"
+	next "nig wrijving in" ; "drag in water."
 
-	page "The colder the"
-	next "temperature, the"
-	next "friskier it gets.@"
+	page "water. Hoe kouder" ; "The colder the"
+	next "het is, hoe speel-" ; "temperature, the"
+	next "ser het wordt.@" ; "friskier it gets.@"

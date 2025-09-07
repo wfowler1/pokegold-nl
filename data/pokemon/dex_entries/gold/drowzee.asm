@@ -1,11 +1,11 @@
-	db "HYPNOSIS@" ; species name
+	db "HYPNOSE@" ; species name
 	db 10 ; height
 	dw 324 ; weight
 
-	db   "If you think that"
-	next "you had a good"
-	next "dream, but you"
+	db   "Als je denkt dat"; "If you think that"
+	next "je een fijne droom" ; "you had a good"
+	next "had maar niets" ; "dream, but you"
 
-	page "can't remember it,"
-	next "a DROWZEE has"
-	next "probably eaten it.@"
+	page "kunt herinneren," ; "can't remember it,"
+	next "kan DROWZEE deze" ; "a DROWZEE has"
+	next "hebben opgegeten.@"; "probably eaten it.@"
