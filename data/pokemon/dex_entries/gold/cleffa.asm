@@ -1,11 +1,11 @@
-	db "STARSHAPE@" ; species name
+	db "STERVORM@" ; species name
 	db 3 ; height
 	dw 30 ; weight
 
-	db   "Because of its"
-	next "unusual, star-like"
-	next "silhouette, people"
+	db   "Door het ongewone" ; "Because of its"
+	next "ster-achtige" ; "unusual, star-like"
+	next "silhouet, denken" ; "silhouette, people"
 
-	page "believe that it"
-	next "came here on"
-	next "a meteor.@"
+	page "mensen vaak dat" ; "believe that it"
+	next "het hier kwam op" ; "came here on"
+	next "een meteoor.@" ; "a meteor.@"

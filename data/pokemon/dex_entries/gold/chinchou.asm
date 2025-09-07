@@ -1,11 +1,11 @@
-	db "ANGLER@" ; species name
+	db "VISSER@" ; species name
 	db 5 ; height
 	dw 120 ; weight
 
-	db   "It shoots positive"
-	next "and negative elec-"
-	next "tricity between"
+	db   "Schiet positieve" ; "It shoots positive"
+	next "en negatieve elek-" ; "and negative elec-"
+	next "triciteit tussen" ; "tricity between"
 
-	page "the tips of its"
-	next "two antennae and"
-	next "zaps its enemies.@"
+	page "de punten van de" ; "the tips of its"
+	next "twee antennes en" ; "two antennae and"
+	next "schokt vijanden.@" ; "zaps its enemies.@"

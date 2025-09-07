@@ -1,11 +1,11 @@
-	db "TIMETRAVEL@" ; species name
+	db "TIJDREIS@" ; species name
 	db 6 ; height
 	dw 50 ; weight
 
-	db   "This #MON wan-"
-	next "ders across time."
-	next "Grass and trees"
+	db   "Deze #MON" ; "This #MON wan-"
+	next "zwerft door de" ; "ders across time."
+	next "tijd. Gras en" ; "Grass and trees"
 
-	page "flourish in the"
-	next "forests in which"
-	next "it has appeared.@"
+	page "bomen bloeien in" ; "flourish in the"
+	next "de bossen waar het" ; "forests in which"
+	next "is geweest.@" ; " it has appeared.@"

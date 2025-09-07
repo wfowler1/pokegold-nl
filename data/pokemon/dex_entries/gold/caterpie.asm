@@ -2,10 +2,10 @@
 	db 3 ; height
 	dw 29 ; weight
 
-	db   "For protection, it"
-	next "releases a horri-"
-	next "ble stench from"
+	db   "Het jaagt vijanden" ; "For protection, it"
+	next "weg door een over-" ; "releases a horri-"
+	next "weldigende stank" ; "ble stench from"
 
-	page "the antenna on its"
-	next "head to drive away"
-	next "enemies.@"
+	page "uit de antenne los" ; "the antenna on its"
+	next "te laten. Dit is" ; "head to drive away"
+	next "voor bescherming.@" ; "enemies.@"
