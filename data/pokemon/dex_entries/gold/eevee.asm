@@ -1,11 +1,11 @@
-	db "EVOLUTION@" ; species name
+	db "EVOLUTIE@" ; species name
 	db 3 ; height
 	dw 65 ; weight
 
-	db   "It has the ability"
-	next "to alter the com-"
-	next "position of its"
+	db   "Kan de samenstel-" ; "It has the ability"
+	next "ling van het lich-" ; " to alter the com-"
+	next "aam veranderen om" ; "position of its"
 
-	page "body to suit its"
-	next "surrounding envi-"
-	next "ronment.@"
+	page "zich aan te passen" ; "body to suit its"
+	next "aan de nabije" ; "surrounding envi-"
+	next "omgeving.@" ; "ronment.@"
