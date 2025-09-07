@@ -1,11 +1,11 @@
-	db "FISH@" ; species name
+	db "VIS@" ; species name
 	db 9 ; height
 	dw 100 ; weight
 
-	db   "An underpowered,"
-	next "pathetic #MON."
-	next "It may jump high"
+	db   "Een ondermaatse," ; "An underpowered,"
+	next "ellendige #MON." ; "pathetic #MON."
+	next "Kan af en toe" ; "It may jump high"
 
-	page "on rare occasions,"
-	next "but never more"
-	next "than seven feet.@"
+	page "hoog springen," ; "on rare occasions,"
+	next "maar nooit meer" ; "but never more"
+	next "dan twee meter.@" ; "than seven feet.@"
