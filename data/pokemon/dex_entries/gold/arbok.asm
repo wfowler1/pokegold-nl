@@ -2,10 +2,10 @@
 	db 35 ; height
 	dw 650 ; weight
 
-	db   "Transfixing prey"
-	next "with the face-like"
-	next "pattern on its"
+	db   "Verlamt een prooi" ; "Transfixing prey"
+	next "met het patroon op" ; "with the face-like"
+	next "de buik." ; "pattern on its"
 
-	page "belly, it binds"
-	next "and poisons the"
-	next "frightened victim.@"
+	page "Wikkelt daarna de" ; "belly, it binds"
+	next "bange prooi in om" ; "and poisons the"
+	next "te vergiftigen.@" ; "frightened victim.@"

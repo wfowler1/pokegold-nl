@@ -2,10 +2,10 @@
 	db 9 ; height
 	dw 195 ; weight
 
-	db   "It senses impend-"
-	next "ing attacks and"
-	next "TELEPORTS away to"
+	db   "Voelt aanvallen" ; "It senses impend-"
+	next "naderen en" ; "ing attacks and"
+	next "TELPORTEERT naar" ; "TELEPORTS away to"
 
-	page "safety before the"
-	next "actual attacks can"
-	next "strike.@"
+	page "veiligheid voordat" ; "safety before the"
+	next "deze daadwerkelijk" ; "actual attacks can"
+	next "kunnen raken.@" ; "strike.@"
