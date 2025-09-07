@@ -2,10 +2,10 @@
 	db 3 ; height
 	dw 35 ; weight
 
-	db   "It eats anything."
-	next "Wherever food is"
-	next "available, it will"
+	db   "Het eet van alles." ; "It eats anything."
+	next "Wanneer ergens te" ; "Wherever food is"
+	next "eten is, zal het" ; "available, it will"
 
-	page "settle down and"
-	next "produce offspring"
-	next "continuously.@"
+	page "zich daar nestelen" ; "settle down and"
+	next "en daarna continu" ; "produce offspring"
+	next "voortplanten.@" ; "continuously.@"

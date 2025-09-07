@@ -1,11 +1,11 @@
-	db "WATER FISH@" ; species name
+	db "WATERVIS@" ; species name
 	db 14 ; height
 	dw 750 ; weight
 
-	db   "This carefree"
-	next "#MON has an"
-	next "easy-going nature."
+	db   "Deze zorgeloze" ; "This carefree"
+	next "#MON is de"; "#MON has an"
+	next "rust zelve." ; "easy-going nature."
 
-	page "While swimming, it"
-	next "always bumps into"
-	next "boat hulls.@"
+	page "Zwemt altijd"; "While swimming, it"
+	next "tegen de romp" ; "always bumps into"
+	next "van boten aan.@" ; "boat hulls.@"

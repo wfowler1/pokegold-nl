@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; species name
 	db 8 ; height
 	dw 300 ; weight
 
-	db   "When its electric-"
-	next "ity builds, its"
-	next "muscles are stimu-"
+	db   "Wanneer het elek-" ; "When its electric-"
+	next "triciteit opbouwt," ; "ity builds, its"
+	next "worden de spieren" ; "muscles are stimu-"
 
-	page "lated, and it be-"
-	next "comes more aggres-"
-	next "sive than usual.@"
+	page "gestimuleerd en" ; "lated, and it be-"
+	next "wordt het woester" ; "comes more aggres-"
+	next "dan gebruikelijk.@" ; "sive than usual.@"
