@@ -669,43 +669,43 @@ ElmText_Intro:
 	text "ELM: <PLAYER>!"
 	line "There you are!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "Ik wil je om een" ; "I needed to ask"
+	line "gunst vragen." ; "you a favor."
 
-	para "I have an acquain-"
-	line "tance called MR."
-	cont "#MON."
+	para "Ik heb een kennis" ; "I have an acquain-"
+	line "genaamd MR." ; "tance called MR."
+	cont "#MON." ; "#MON."
 
-	para "He keeps finding"
-	line "weird things and"
+	para "Hij ontdekt steeds" ; "He keeps finding"
+	line "rare dingen en" ; "weird things and"
 
-	para "raving about his"
-	line "discoveries."
+	para "deelt dan zijn" ; "raving about his"
+	line "ontdekkingen." ; "discoveries."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "Hoe dan ook, hij" ; "Anyway, I just got"
+	line "stuurde een e-mail" ; "an e-mail from him"
 
-	para "saying that this"
-	line "time it's real."
+	para "waarin staat dat" ; "saying that this"
+	line "het nu menens is." ; "time it's real."
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "Fascinerend, maar" ; "It is intriguing,"
+	line "we zijn druk met" ; "but we're busy"
 
-	para "with our #MON"
-	line "research."
+	para "ons eigen" ; "with our #MON"
+	line "#MON onderzoek…" ; "research."
 
-	para "Could you look"
-	line "into it for us?"
+	para "Kan jij voor ons" ; "Could you look"
+	line "een kijkje nemen?" ; "into it for us?"
 
-	para "I'll give you a"
-	line "#MON for a"
-	cont "partner."
+	para "Ik zal je een" ; "I'll give you a"
+	line "#MON als" ; "#MON for a"
+	cont "partner geven" ; "partner."
 
-	para "They're all rare"
-	line "#MON that we"
-	cont "just found."
+	para "Het zijn allemaal" ; "They're all rare"
+	line "net ontdekte," ; "#MON that we"
+	cont "zeldzame #MON" ; "just found."
 
-	para "Go on. Pick one!"
+	para "Toe maar. Kies!" ; "Go on. Pick one!"
 	done
 
 ElmText_LetYourMonBattleIt:
@@ -759,29 +759,29 @@ ReceivedStarterText:
 	done
 
 ElmDirectionsText1:
-	text "MR.#MON lives"
-	line "near CHERRYGROVE,"
-	cont "the next city."
+	text "MR.#MON woont" ; "MR.#MON lives"
+	line "nabij CHERRYGROVE," ; "near CHERRYGROVE,"
+	cont "de stad hiernaast" ; "the next city."
 
-	para "It's almost a"
-	line "direct route to"
-	cont "there."
+	para "Het is bijna een" ; "It's almost a"
+	line "rechte weg er" ; "direct route to"
+	cont "naartoe." ; "there."
 	done
 
 ElmDirectionsText2:
-	text "If your #MON is"
-	line "hurt, you should"
+	text "Als je #MON be-" ; "If your #MON is"
+	line "zeerd is, gebruik" ; "hurt, you should"
 
-	para "heal it with this"
-	line "machine."
+	para "dan deze machine" ; "heal it with this"
+	line "om te genezen." ; "machine."
 	done
 
 ElmDirectionsText3:
-	text "Oh, here's my"
-	line "phone number."
+	text "Oh, hier is" ; "Oh, here's my"
+	line "mijn nummer." ; "phone number."
 
-	para "Call me if some-"
-	line "thing comes up."
+	para "Bel me als er iets" ; "Call me if some-"
+	line "is!" ; "thing comes up."
 	done
 
 GotElmsNumberText:
@@ -790,16 +790,16 @@ GotElmsNumberText:
 	done
 
 ElmDescribesMrPokemonText:
-	text "MR.#MON goes"
-	line "everywhere and"
-	cont "finds rarities."
+	text "MR.#MON reist" ; "MR.#MON goes"
+	line "overal heen en" ; "everywhere and"
+	cont "vindt rariteiten." ; "finds rarities."
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful…"
+	para "Helaas zijn ze" ; "Too bad they're"
+	line "slechts zelden" ; "just rare and"
+	cont "echt nuttig…" ; "not very useful…"
 
-	para "<PLAYER>, I'm"
-	line "counting on you!"
+	para "<PLAYER>, ik" ; "<PLAYER>, I'm"
+	line "reken op je!" ; "counting on you!"
 	done
 
 ElmPokeBallText:
@@ -814,7 +814,7 @@ ElmsLabHealingMachineText1:
 	done
 
 ElmsLabHealingMachineText2:
-	text "Heal #MON?"
+	text "#MON genezen?" ; "Heal #MON?"
 	done
 
 ElmAfterTheftText1:
@@ -1016,24 +1016,24 @@ ElmGiveMasterBallText1:
 	done
 
 ElmGiveMasterBallText2:
-	text "The MASTER BALL is"
-	line "the best!"
+	text "De MEESTERBAL is" ; "The MASTER BALL is"
+	line "de beste!" ; "the best!"
 
-	para "It's the ultimate"
-	line "BALL! It'll catch"
+	para "Het is de ultieme" ; "It's the ultimate"
+	line "BAL! Hij vangt" ; "BALL! It'll catch"
 
-	para "any #MON with-"
-	line "out fail."
+	para "iedere #MON" ; "any #MON with-"
+	line "zonder problemen" ; "out fail."
 
-	para "It's given only to"
-	line "recognized #MON"
-	cont "researchers."
+	para "Alleen erkende" ; "It's given only to"
+	line "#MON-onderzoe-" ; "recognized #MON"
+	cont "kers krijgen dit." ; "researchers."
 
-	para "I think you can"
-	line "make better use of"
+	para "Jij hebt er vast" ; "I think you can"
+	line "meer aan dan ik," ; "make better use of"
 
-	para "it than I can,"
-	line "<PLAYER>!"
+	para "<PLAYER>!" ; "it than I can,"
+	line ; "<PLAYER>!"
 	done
 
 ElmGiveTicketText1:
