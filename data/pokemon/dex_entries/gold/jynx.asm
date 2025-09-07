@@ -1,11 +1,11 @@
-	db "HUMANSHAPE@" ; species name
+	db "MENSVORM@" ; species name
 	db 14 ; height
 	dw 406 ; weight
 
-	db   "It rocks its body"
-	next "rhythmically. It"
-	next "appears to alter"
+	db   "Schommelt ritmisch" ; "It rocks its body"
+	next "met het lichaam." ; "rhythmically. It"
+	next "Lijkt het ritme" ; "appears to alter"
 
-	page "the rhythm depend-"
-	next "ing on how it is"
-	next "feeling.@"
+	page "aan te passen af-" ; "the rhythm depend-"
+	next "hankelijk van hoe" ; "ing on how it is"
+	next "het zich voelt.@" ; "feeling.@"
