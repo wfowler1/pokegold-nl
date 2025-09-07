@@ -6,6 +6,5 @@
 	next "geboren. Vervelt" ; "to start with. It"
 	next "regelmatig terwijl" ; "repeatedly sheds"
 
-	page "het steeds langer" ; "its skin as it"
-	next "wordt." ; "steadily grows"
-	#next "groter groeit.@" ; "longer.@"
+	page "het steeds begint" ; "its skin as it"
+	next "te groeien.@" ; "steadily grows"
