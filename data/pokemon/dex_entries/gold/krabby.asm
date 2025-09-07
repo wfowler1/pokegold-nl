@@ -1,11 +1,11 @@
-	db "RIVER CRAB@" ; species name
+	db "RIVIERKRAB@" ; species name
 	db 4 ; height
 	dw 65 ; weight
 
-	db   "If it senses dan-"
-	next "ger approaching,"
-	next "it cloaks itself"
+	db   "Als het gevaar" ; "If it senses dan-"
+	next "voelt aankomen," ; "ger approaching,"
+	next "verhult het zich" ; "it cloaks itself"
 
-	page "with bubbles from"
-	next "its mouth so it"
-	next "will look bigger.@"
+	page "met bubbels uit" ; "with bubbles from"
+	next "de mond zodat het" ; "its mouth so it"
+	next "groter lijkt.@" ; "will look bigger.@"
