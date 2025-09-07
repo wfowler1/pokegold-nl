@@ -8,4 +8,4 @@
 
 	page "trossen. Toch" ; "in clusters. They"
 	next "houden ze wel van" ; "do enjoy gentle"
-	next "lichte briesjes." ; "breezes, though.@"
+	next "lichte briesjes.@" ; "breezes, though.@"
