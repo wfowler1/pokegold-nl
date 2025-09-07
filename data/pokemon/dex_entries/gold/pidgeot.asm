@@ -1,11 +1,11 @@
-	db "BIRD@" ; species name
+	db "VOGEL@" ; species name
 	db 15 ; height
 	dw 395 ; weight
 
-	db   "Its well-developed"
-	next "chest muscles make"
-	next "it strong enough"
+	db   "Met de ontwikkelde" ; "Its well-developed"
+	next "borstspieren is 't" ; "chest muscles make"
+	next "sterk genoeg om" ; "it strong enough"
 
-	page "to whip up a gusty"
-	next "windstorm with"
-	next "just a few flaps.@"
+	page "stormen te maken" ; "to whip up a gusty"
+	next "met een paar keer" ; "windstorm with"
+	next "vleugelgeflapper.@" ; just a few flaps.@"

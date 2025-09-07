@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; species name
 	db 4 ; height
 	dw 60 ; weight
 
-	db   "This intelligent"
-	next "#MON roasts"
-	next "hard BERRIES with"
+	db   "Deze intelligente" ; "This intelligent"
+	next "POKéMON roostert" ; "#MON roasts"
+	next "harde BESSEN met" ; "hard BERRIES with"
 
-	page "electricity to"
-	next "make them tender"
-	next "enough to eat.@"
+	page "elektricieit om" ; "electricity to"
+	next "ze zacht en eet-" ; "make them tender"
+	next "baar te maken.@" ; "enough to eat.@"
