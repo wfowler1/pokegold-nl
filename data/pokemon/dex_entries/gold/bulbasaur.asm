@@ -1,11 +1,11 @@
-	db "SEED@" ; species name
+	db "ZAAD@" ; species name
 	db 7 ; height
 	dw 69 ; weight
 
-	db   "The seed on its"
-	next "back is filled"
-	next "with nutrients."
+	db   "Het zaadje op de" ; "The seed on its"
+	next "rug is gevuld met" ; "back is filled"
+	next "voedingsstoffen." ; "with nutrients."
 
-	page "The seed grows"
-	next "steadily larger as"
-	next "its body grows.@"
+	page "Het zaadje groeit" ; "The seed grows"
+	next "gestaag met het" ; "steadily larger as"
+	next "lichaam mee.@" ; "its body grows.@"
