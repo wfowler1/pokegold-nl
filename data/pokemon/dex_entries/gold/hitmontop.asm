@@ -2,10 +2,10 @@
 	db 14 ; height
 	dw 480 ; weight
 
-	db   "If you become"
-	next "enchanted by its"
-	next "smooth, elegant,"
+	db   "Als je betoverd" ; "If you become"
+	next "raakt door de" ; "enchanted by its"
+	next "soepele, elegante," ; "smooth, elegant,"
 
-	page "dance-like kicks,"
-	next "you may get"
-	next "drilled hard.@"
+	page "dansachtige trap-" ; "dance-like kicks,"
+	next "pen, krijg je een" ; "you may get"
+	next "harde verrassing.@" ; "drilled hard.@"

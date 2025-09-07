@@ -1,11 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "KATOENPLANT@" ; species name
 	db 4 ; height
 	dw 5 ; weight
 
-	db   "To keep from being"
-	next "blown away by the"
-	next "wind, they gather"
+	db   "Om niet weg te" ; "To keep from being"
+	next "waaien, verzamelen" ; "blown away by the"
+	next "ze zich in" ; "wind, they gather"
 
-	page "in clusters. They"
-	next "do enjoy gentle"
-	next "breezes, though.@"
+	page "trossen. Toch" ; "in clusters. They"
+	next "houden ze wel van" ; "do enjoy gentle"
+	next "lichte briesjes." ; "breezes, though.@"
