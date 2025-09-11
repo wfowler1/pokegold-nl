@@ -1,11 +1,11 @@
-	db "ATROCIOUS@" ; species name
+	db "AFSCHUW@" ; species name
 	db 65 ; height
 	dw 2350 ; weight
 
-	db   "They say that"
-	next "during past wars,"
-	next "GYARADOS would"
+	db   "Men zegt dat ge-" ; "They say that"
+	next "durende vroegere" ; "during past wars,"
+	next "oorlogen, GYARADOS" ; "GYARADOS would"
 
-	page "appear and leave"
-	next "blazing ruins in"
-	next "its wake.@"
+	page "zou verschijnen en" ; "appear and leave"
+	next "laaiende ruines" ; "blazing ruins in"
+	next "achterliet.@" ; "its wake.@"

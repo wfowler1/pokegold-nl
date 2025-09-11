@@ -1,11 +1,11 @@
-	db "MOLE@" ; species name
+	db "MOL@" ; species name
 	db 7 ; height
 	dw 333 ; weight
 
-	db   "Its three heads"
-	next "bob separately up"
-	next "and down to loosen"
+	db   "De drie hoofden" ; "Its three heads"
+	next "stuiteren afzon-" ; "bob separately up"
+	next "derlijk op en neer" ; "and down to loosen"
 
-	page "the soil nearby,"
-	next "making it easier"
-	next "for it to burrow.@"
+	page "om de grond los te" ; "the soil nearby,"
+	next "maken, zodat het" ; "making it easier"
+	next "beter kan graven.@" ; "for it to burrow.@"

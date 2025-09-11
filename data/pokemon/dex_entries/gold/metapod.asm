@@ -1,11 +1,11 @@
-	db "COCOON@" ; species name
+	db "COCON@" ; species name
 	db 7 ; height
 	dw 99 ; weight
 
-	db   "Inside the shell,"
-	next "it is soft and"
-	next "weak as it pre-"
+	db   "In het omhulsel" ; "Inside the shell,"
+	next "wacht het op evo-" ; "it is soft and"
+	next "lutie. Het beweegt" ; "weak as it pre-"
 
-	page "pares to evolve."
-	next "It stays motion-"
-	next "less in the shell.@"
+	page "niet, en is zwak" ; "pares to evolve."
+	next "en weerloos tot" ; "It stays motion-"
+	next "het juiste moment.@" ; "less in the shell.@"

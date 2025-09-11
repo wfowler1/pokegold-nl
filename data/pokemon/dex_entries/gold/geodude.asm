@@ -1,11 +1,11 @@
-	db "ROCK@" ; species name
+	db "ROTS@" ; species name
 	db 4 ; height
 	dw 200 ; weight
 
-	db   "Most people may"
-	next "not notice, but"
-	next "a closer look"
+	db   "De meesten zal het" ; "Most people may"
+	next "niet opvallen," ; "not notice, but"
+	next "maar van dichtbij" ; "a closer look"
 
-	page "should reveal that"
-	next "there are many"
-	next "GEODUDE around.@"
+	page "kun je zien dat" ; "should reveal that"
+	next "er veel GEODUDE in" ; "there are many"
+	next "de buurt zijn.@" ; "GEODUDE around.@"

@@ -1,11 +1,11 @@
-	db "POISON BEE@" ; species name
+	db "GIFBIJ@" ; species name
 	db 10 ; height
 	dw 295 ; weight
 
-	db   "It can take down"
-	next "any opponent with"
-	next "its powerful poi-"
+	db   "Kan iedere tegen-" ; "It can take down"
+	next "stander neerhalen" ; "any opponent with"
+	next "met krachtige," ; "its powerful poi-"
 
-	page "son stingers. It"
-	next "sometimes attacks"
-	next "in swarms.@"
+	page "giftige angels." ; "son stingers. It"
+	next "Valt soms soms aan" ; "sometimes attacks"
+	next "met een zwerm.@" ; "in swarms.@"

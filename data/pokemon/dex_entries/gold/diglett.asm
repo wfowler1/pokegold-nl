@@ -1,11 +1,11 @@
-	db "MOLE@" ; species name
+	db "MOL@" ; species name
 	db 2 ; height
 	dw 8 ; weight
 
-	db   "Its skin is very"
-	next "thin. If it is"
-	next "exposed to light,"
+	db   "De huid is heel" ; "Its skin is very"
+	next "dun. Als het wordt" ; "thin. If it is"
+	next "blootgesteld aan" ; "exposed to light,"
 
-	page "its blood heats"
-	next "up, causing it to"
-	next "grow weak.@"
+	page "licht, warmt het" ; "its blood heats"
+	next "bloed op en wordt" ; "up, causing it to"
+	next "DIGLETT zwak.@" ; "grow weak.@"

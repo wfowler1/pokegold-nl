@@ -1,11 +1,11 @@
-	db "FOSSIL@" ; species name
+	db "FOSSIEL@" ; species name
 	db 18 ; height
 	dw 590 ; weight
 
-	db   "A vicious #MON"
-	next "from the distant"
-	next "past, it appears"
+	db   "Een wrede #MON" ; "A vicious #MON"
+	next "uit het verre ver-" ; "from the distant"
+	next "leden. Het schijnt" ; "past, it appears"
 
-	page "to have flown by"
-	next "spreading its"
-	next "wings and gliding.@"
+	page "dat het vloog door" ; "to have flown by"
+	next "te zweven met ge-" ; "spreading its"
+	next "spreide vleugels.@" ; "wings and gliding.@"

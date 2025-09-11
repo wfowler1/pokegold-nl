@@ -1,11 +1,11 @@
-	db "SUN@" ; species name
+	db "ZON@" ; species name
 	db 9 ; height
 	dw 265 ; weight
 
-	db   "It uses the fine"
-	next "hair that covers"
-	next "its body to sense"
+	db   "Gebruikt het fijne" ; "It uses the fine"
+	next "haar dat het lich-" ; "hair that covers"
+	next "aam bedekt om via" ; "its body to sense"
 
-	page "air currents and"
-	next "predict its ene-"
-	next "my's actions.@"
+	page "luchtstromen ac- " ; "air currents and"
+	next "ties van vijanden " ; "predict its ene-"
+	next "te voorspellen.@" ; "my's actions.@"

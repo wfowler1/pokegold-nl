@@ -235,29 +235,29 @@ OaksLabTrashcanText:
 	done
 
 OaksLabPCText:
-	text "There's an e-mail"
-	line "message on the PC."
+	text "Er is een e-mail-" ; "There's an e-mail"
+	line "bericht op de PC." ; "message on the PC."
 
 	para "…"
 
-	para "PROF.OAK, how is"
-	line "your research"
-	cont "coming along?"
+	para "PROF.OAK, hoe" ; "PROF.OAK, how is"
+	line "gaat het met je" ; "your research"
+	cont "onderzoek?" ; "coming along?"
 
-	para "I'm still plugging"
-	line "away."
+	para "Ik ben nog steeds" ; "I'm still plugging"
+	line "aan het zwoegen." ; "away."
 
-	para "I heard rumors"
-	line "that <PLAYER> is"
+	para "Ik hoor geruchten" ; "I heard rumors"
+	line "dat <PLAYER> best" ; "that <PLAYER> is"
 
-	para "making quite a"
-	line "name for himself."
+	para "beroemd begint" ; "making quite a"
+	line "te worden." ; "name for himself."
 
-	para "I'm delighted to"
-	line "hear that."
+	para "Het verheugt me" ; "I'm delighted to"
+	line "dat te horen" ; "hear that."
 
-	para "ELM in NEW BARK"
-	line "TOWN 8-)"
+	para "ELM in NEW BARK" ; "ELM in NEW BARK"
+	line "TOWN 8-)" ; "TOWN 8-)"
 	done
 
 OaksLab_MapEvents:

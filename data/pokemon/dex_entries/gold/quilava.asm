@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; species name
 	db 9 ; height
 	dw 190 ; weight
 
-	db   "Be careful if it"
-	next "turns its back"
-	next "during battle. It"
+	db   "Pas op als het je" ; "Be careful if it"
+	next "de rug toedraait" ; "turns its back"
+	next "in gevecht. Dit" ; "during battle. It"
 
-	page "means that it will"
-	next "attack with the"
-	next "fire on its back.@"
+	page "betekent dat het" ; "means that it will"
+	next "met het vuur op de" ; "attack with the"
+	next "rug zal aanvallen.@" ; "fire on its back.@"

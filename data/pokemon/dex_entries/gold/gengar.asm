@@ -1,11 +1,11 @@
-	db "SHADOW@" ; species name
+	db "SCHADUW@" ; species name
 	db 15 ; height
 	dw 405 ; weight
 
-	db   "It steals heat"
-	next "from its surround-"
-	next "ings. If you feel"
+	db   "Steelt hitte uit" ; "It steals heat"
+	next "de omgeving. Als" ; "from its surround-"
+	next "je plotseling een"; "ings. If you feel"
 
-	page "a sudden chill, it"
-	next "is certain that a"
-	next "GENGAR appeared.@"
+	page "rilling voelt, is" ; "a sudden chill, it"
+	next "met zekerheid een" ; "is certain that a"
+	next "GENGAR verschenen.@" ; "GENGAR appeared.@"

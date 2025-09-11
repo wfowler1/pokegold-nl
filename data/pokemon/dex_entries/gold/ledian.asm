@@ -1,11 +1,11 @@
-	db "FIVE STAR@" ; species name
+	db "VIJFSTER@" ; species name
 	db 14 ; height
 	dw 356 ; weight
 
-	db   "When the stars"
-	next "flicker in the"
-	next "night sky, it"
+	db   "Als de sterren" ; "When the stars"
+	next "fonkelen in de" ; "flicker in the"
+	next "nachtelijke hemel," ; "night sky, it"
 
-	page "flutters about,"
-	next "scattering a"
-	next "glowing powder.@"
+	page "fladdert het rond" ; "flutters about,"
+	next "en verstrooit een" ; "scattering a"
+	next "gloeiend poeder.@" ; "glowing powder.@"

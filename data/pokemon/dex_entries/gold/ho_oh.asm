@@ -1,11 +1,11 @@
-	db "RAINBOW@" ; species name
+	db "REGENBOOG@" ; species name
 	db 38 ; height
 	dw 1990 ; weight
 
-	db   "Legends claim this"
-	next "#MON flies the"
-	next "world's skies con-"
+	db   "Volgens legendes" ; "Legends claim this"
+	next "vliegt deze #-" ; "#MON flies the"
+	next "MON continu de" ; "world's skies con-"
 
-	page "tinuously on its"
-	next "magnificent seven-"
-	next "colored wings.@"
+	page "wereld rond met" ; "tinuously on its"
+	next "prachtige, zeven-" ; "magnificent seven-"
+	next "kleurige vleugels.@" ; "colored wings.@"

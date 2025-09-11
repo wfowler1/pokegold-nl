@@ -2,10 +2,10 @@
 	db 15 ; height
 	dw 480 ; weight
 
-	db   "Closing both its"
-	next "eyes heightens all"
-	next "its other senses."
+	db   "Verbetert de zin-" ; "Closing both its"
+	next "tuigen door ogen" ; "eyes heightens all"
+	next "te sluiten." ; "its other senses."
 
-	page "This enables it to"
-	next "use its abilities"
-	next "to their extremes.@"
+	page "Zo haalt het alles" ; "This enables it to"
+	next "uit diens vaardig-" ; "use its abilities"
+	next "heden.@" ; "to their extremes.@"

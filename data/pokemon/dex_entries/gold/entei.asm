@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; species name
 	db 21 ; height
 	dw 1980 ; weight
 
-	db   "Volcanoes erupt"
-	next "when it barks. Un-"
-	next "able to restrain"
+	db   "Vulkanen barsten" ; "Volcanoes erupt"
+	next "uit als het blaft." ; "when it barks. Un-"
+	next "Kan extreme kracht" ; "able to restrain"
 
-	page "its extreme power,"
-	next "it races headlong"
-	next "around the land.@"
+	page "niet inhouden en" ; "its extreme power,"
+	next "rent halsoverkop" ; "it races headlong"
+	next "door het land.@" ; "around the land.@"

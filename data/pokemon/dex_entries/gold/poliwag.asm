@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVIS@" ; species name
 	db 6 ; height
 	dw 124 ; weight
 
-	db   "Because it is in-"
-	next "ept at walking on"
-	next "its newly grown"
+	db   "Kan niet goed" ; "Because it is in-"
+	next "lopen op pas aan-" ; "ept at walking on"
+	next "gegroeide poten." ; "its newly grown"
 
-	page "legs, it always "
-	next "swims around in"
-	next "water.@"
+	page "Zwemt daarom al-" ; "legs, it always "
+	next "tijd in het" ; "swims around in"
+	next "water.@" ; "water.@"

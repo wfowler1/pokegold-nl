@@ -1,11 +1,11 @@
-	db "PINCER@" ; species name
+	db "TANG@" ; species name
 	db 13 ; height
 	dw 600 ; weight
 
-	db   "It can hardly"
-	next "lift its massive,"
-	next "overgrown pincer."
+	db   "Het kan amper de" ; "It can hardly"
+	next "gigantisch grote" ; "lift its massive,"
+	next "klauw optillen."; "overgrown pincer."
 
-	page "The pincer's size"
-	next "makes it difficult"
-	next "to aim properly.@"
+	page "De grootte van de" ; "The pincer's size"
+	next "klauw maakt juist" ; "makes it difficult"
+	next "mikken moeilijk.@" ; "to aim properly.@"

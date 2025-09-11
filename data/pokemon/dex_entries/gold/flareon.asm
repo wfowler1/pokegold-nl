@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; species name
 	db 9 ; height
 	dw 250 ; weight
 
-	db   "It stores some of"
-	next "the air it inhales"
-	next "in its internal"
+	db   "Slaat ingeademde" ; "It stores some of"
+	next "lucht deels op in" ; "the air it inhales"
+	next "de innerlijke" ; "in its internal"
 
-	page "flame pouch, which"
-	next "heats it to over"
-	next "3,000 degrees.@"
+	page "vuurzak, die het" ; "flame pouch, which"
+	next "opwarmt tot meer" ; "heats it to over"
+	next "dan 1.600 graden.@" ; "3,000 degrees.@"

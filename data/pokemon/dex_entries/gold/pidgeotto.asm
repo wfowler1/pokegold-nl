@@ -1,11 +1,11 @@
-	db "BIRD@" ; species name
+	db "VOGEL@" ; species name
 	db 11 ; height
 	dw 300 ; weight
 
-	db   "It has outstanding"
-	next "vision. However"
-	next "high it flies, it"
+	db   "Het heeft een uit-" ; "It has outstanding"
+	next "stekend zicht. Het" ; "vision. However"
+	next "maakt niet uit hoe" ; "high it flies, it"
 
-	page "is able to distin-"
-	next "guish the move-"
-	next "ments of its prey.@"
+	page "hoog het vliegt," ; "is able to distin-"
+	next "het heeft altijd" ; "guish the move-"
+	next "de prooi in beeld.@" ; "ments of its prey.@"

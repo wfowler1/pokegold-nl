@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 185 ; weight
 
-	db   "Gnaws on anything"
-	next "with its tough"
-	next "fangs. It can even"
+	db   "Het knaagt op al-" ; "Gnaws on anything"
+	next "les met de stevige" ; "with its tough"
+	next "voortanden. Zelfs" ; "fangs. It can even"
 
-	page "topple concrete"
-	next "buildings by gnaw-"
-	next "ing on them.@"
+	page "betonnen gebouwen" ; "topple concrete"
+	next "kunnen instorten" ; "buildings by gnaw-"
+	next "door het geknaag.@" ; "ing on them.@"

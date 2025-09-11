@@ -1,11 +1,11 @@
-	db "SNAKE@" ; species name
+	db "SLANG@" ; species name
 	db 20 ; height
 	dw 69 ; weight
 
-	db   "It can freely de-"
-	next "tach its jaw to"
-	next "swallow large prey"
+	db   "Het kan vrijelijk" ; "It can freely de-"
+	next "de kaak losmaken" ; "tach its jaw to"
+	next "en in één hap een" ; "swallow large prey"
 
-	page "whole. It can be-"
-	next "come too heavy to"
-	next "move, however.@"
+	page "prooi doorslikken." ; "whole. It can be-"
+	next "Kan soms daarna" ; come too heavy to"
+	next "niet meer bewegen.@" ; "move, however.@"

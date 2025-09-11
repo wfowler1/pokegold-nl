@@ -1,11 +1,11 @@
-	db "HARD SHELL@" ; species name
+	db "HARD SCHILD@" ; species name
 	db 12 ; height
 	dw 1520 ; weight
 
-	db   "Its shell is as"
-	next "hard as sheet"
-	next "rock, and it is"
+	db   "Het schild is zo" ; "Its shell is as"
+	next "hard en sterk als" ; "hard as sheet"
+	next "een rotswand." ; "rock, and it is"
 
-	page "also very strong."
-	next "Its THRASHING can"
-	next "topple a mountain.@"
+	page "Kan met een" ; "also very strong."
+	next "AFRANSELING hele" ; "Its THRASHING can"
+	next "bergen omgooien.@" ; "topple a mountain.@"

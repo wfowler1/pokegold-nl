@@ -1,11 +1,11 @@
-	db "LEGENDARY@" ; species name
+	db "LEGENDE@" ; species name
 	db 19 ; height
 	dw 1550 ; weight
 
-	db   "This legendary"
-	next "Chinese POKEMON is"
-	next "considered magnif-"
+	db   "Deze legendarische" ; "This legendary"
+	next "Chinese #MON is" ; "Chinese POKEMON is"
+	next "ontzagwekkend." ; "considered magnif-"
 
-	page "icent. Many people"
-	next "are enchanted by"
-	next "its grand mane.@"
+	page "Velen raken" ; "icent. Many people"
+	next "betoverd door de" ; "are enchanted by"
+	next "grandioze manen.@" ; "its grand mane.@"

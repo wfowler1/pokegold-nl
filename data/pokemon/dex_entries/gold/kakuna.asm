@@ -1,11 +1,11 @@
-	db "COCOON@" ; species name
+	db "COCON@" ; species name
 	db 6 ; height
 	dw 100 ; weight
 
-	db   "Although it is a"
-	next "cocoon, it can"
-	next "move a little. It"
+	db   "Hoewel het een" ; "Although it is a"
+	next "cocon is, maakt 't" ; "cocoon, it can"
+	next "kleine bewegingen." ; "move a little. It"
 
-	page "can extend its"
-	next "poison barb if it"
-	next "is attacked.@"
+	page "Het kan bij een" ; "can extend its"
+	next "aanval de gif-" ; "poison barb if it"
+	next "angel verlengen.@" ; "is attacked.@"

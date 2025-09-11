@@ -1,11 +1,11 @@
-	db "FAIRY@" ; species name
+	db "FEE@" ; species name
 	db 13 ; height
 	dw 400 ; weight
 
-	db   "With its acute"
-	next "hearing, it can"
-	next "pick up sounds"
+	db   "Met scherp gehoor" ; "With its acute"
+	next "kan het geluiden" ; "hearing, it can"
+	next "opvangen van ver" ; "pick up sounds"
 
-	page "from far away. It"
-	next "usually hides in"
-	next "quiet places.@"
+	page "weg. Het verstopt" ; "from far away. It"
+	next "zich meestal op" ; "usually hides in"
+	next "stille plekken.@" ; "quiet places.@"

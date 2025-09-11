@@ -1,11 +1,11 @@
-	db "GENETIC@" ; species name
+	db "GENETISCH@" ; species name
 	db 20 ; height
 	dw 1220 ; weight
 
-	db   "Because its battle"
-	next "abilities were"
-	next "raised to the"
+	db   "Omdat de gevechts-" ; "Because its battle"
+	next "vaardigheden zijn" ; "abilities were"
+	next "getraind tot het"; "raised to the"
 
-	page "ultimate level, it"
-	next "thinks only of de-"
-	next "feating its foes.@"
+	page "hoogtepunt, denkt" ; "ultimate level, it"
+	next "het enkel aan de" ; "thinks only of de-"
+	next "overwinning.@" ; "feating its foes.@"

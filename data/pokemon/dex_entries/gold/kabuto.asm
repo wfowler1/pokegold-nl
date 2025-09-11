@@ -1,11 +1,11 @@
-	db "SHELLFISH@" ; species name
+	db "SCHAALDIER@" ; species name
 	db 5 ; height
 	dw 115 ; weight
 
-	db   "On rare occasions,"
-	next "some have been"
-	next "found as fossils"
+	db   "Zijn heel af en" ; "On rare occasions,"
+	next "toe als fossielen" ; "some have been"
+	next "gevonden, waar ze" ; "found as fossils"
 
-	page "which they became"
-	next "while hiding on"
-	next "the ocean floor.@"
+	page "in veranderden" ; "which they became"
+	next "terwijl ze zich in" ; "while hiding on"
+	next "zee verstopten.@" ; "the ocean floor.@"

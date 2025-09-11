@@ -1,11 +1,11 @@
-	db "NEW SPECIE@" ; species name
+	db "NIEUW@" ; species name
 	db 4 ; height
 	dw 40 ; weight
 
-	db   "Apparently, it"
-	next "appears only to"
-	next "those people who"
+	db   "Schijnt alleen te" ; "Apparently, it"
+	next "verschijnen voor" ; "appears only to"
+	next "mensen met een" ; "those people who"
 
-	page "are pure of heart"
-	next "and have a strong"
-	next "desire to see it.@"
+	page "puur hart en een" ; "are pure of heart"
+	next "sterk verlangen" ; "and have a strong"
+	next "om het te zien.@" ; "desire to see it.@"

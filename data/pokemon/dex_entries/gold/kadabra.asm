@@ -2,10 +2,10 @@
 	db 13 ; height
 	dw 565 ; weight
 
-	db   "It possesses"
-	next "strong spiritual"
-	next "power. The more"
+	db   "Het heeft een" ; "It possesses"
+	next "sterke spirituele" ; "strong spiritual"
+	next "kracht. Hoe groter" ; "power. The more"
 
-	page "danger it faces,"
-	next "the stronger its"
-	next "psychic power.@"
+	page "het gevaar is, hoe" ; "danger it faces,"
+	next "sterker de mentale" ; "the stronger its"
+	next "kracht wordt.@" ; "psychic power.@"
