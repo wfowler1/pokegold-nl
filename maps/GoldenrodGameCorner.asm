@@ -415,12 +415,12 @@ GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 	done
 
 GoldenrodGameCornerPharmacistText: ; AlwaysReplace
-if DEF(_CRYSTAL_AU)
-	text "Deze machine ziet" ; "This machine looks"
-	line "er hetzelfde uit" ; "the same as the"
-	cont "als de anderen." ; "others."
-	done
-else
+;if DEF(_CRYSTAL_AU)
+;	text "Deze machine ziet" ; "This machine looks"
+;	line "er hetzelfde uit" ; "the same as the"
+;	cont "als de anderen." ; "others."
+;	done
+;else
 	text "Ik speel altijd" ; "I always play this"
 	line "deze spelautomaat." ; "slot machine. It"
 
@@ -428,17 +428,17 @@ else
 	line "uit dan anderen," ; "others, I think."
 	cont "denk ik." ; 
 	done
-endc
+;endc
 
 GoldenrodGameCornerPokefanM1Text: ; AlwaysReplace
-if DEF(_CRYSTAL_AU)
-	text "Deze automaten" ; "These machines"
-	line "lijken anders" ; "seem different"
+;if DEF(_CRYSTAL_AU)
+;	text "Deze automaten" ; "These machines"
+;	line "lijken anders" ; "seem different"
 
-	para "dan die in" ; "from the ones at"
-	line "CELADON CITY!"
-	done
-else
+;	para "dan die in" ; "from the ones at"
+;	line "CELADON CITY!"
+;	done
+;else
 	text "Ik hou van deze" ; "I just love this"
 	line "nieuwe automaat." ; "new slot machine."
 
@@ -446,29 +446,29 @@ else
 	line "dan de automaat" ; "challenge than the"
 	cont "in CELADON." ; "ones in CELADON."
 	done
-endc
+;endc
 
 GoldenrodGameCornerCooltrainerMText: ; AlwaysReplace
-if DEF(_CRYSTAL_AU)
-	text "Niets is zeker" ; "Nothing is certain"
-	line "op dit gebied." ; "in this area."
-	done
-else
+;if DEF(_CRYSTAL_AU)
+;	text "Niets is zeker" ; "Nothing is certain"
+;	line "op dit gebied." ; "in this area."
+;	done
+;else
 	text "Het leven is een" ; "Life is a gamble."
 	line "gok. Ik ga kaarten" ; "I'm going to flip"
 	cont "flippen tot ik er" ; "cards till I drop!"
 	cont "bij neerval!"
 	done
-endc
+;endc
 
 GoldenrodGameCornerPokefanFText: ; AlwaysReplace
 	text "Kaartflipper…" ; "Card flip…"
 
-if DEF(_CRYSTAL_AU)
-	para "Anders dan de" ; "Different from the"
-	line "andere automaten." ; "other machines."
-	done
-else
+;if DEF(_CRYSTAL_AU)
+;	para "Anders dan de" ; "Different from the"
+;	line "andere automaten." ; "other machines."
+;	done
+;else
 	para "Ik heb dit liever" ; "I prefer it over"
 	line "dan de automaten," ; "the slots because"
 
@@ -479,7 +479,7 @@ else
 	line "bedragen zijn " ; "much lower."
 	cont "lager." ;
 	done
-endc
+;endc
 
 GoldenrodGameCornerCooltrainerFText:
 	text "Ik stop niet tot" ; "I won't quit until"
