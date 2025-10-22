@@ -1818,6 +1818,10 @@ _TownMap:
 	ld [hl], a
 
 .okay
+	cp LANDMARK_BATTLE_TOWER - 1
+	jr nz, .continue_up
+	inc [hl]
+.continue_up
 	inc [hl]
 	jr .next
 
@@ -1831,6 +1835,9 @@ _TownMap:
 	ld [hl], a
 
 .okay2
+	dec [hl]
+	cp LANDMARK_BATTLE_TOWER + 1
+	jr nz, .next
 	dec [hl]
 
 .next
