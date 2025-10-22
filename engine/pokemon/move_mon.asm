@@ -235,10 +235,10 @@ endr
 	; PokerusStatus
 	ld [de], a
 	inc de
-	; Unused1
+	; CaughtData/CaughtTime/CaughtLevel
 	ld [de], a
 	inc de
-	; Unused2
+	; CaughtGender/CaughtLocation
 	ld [de], a
 	inc de
 
@@ -298,10 +298,10 @@ endr
 	; PokerusStatus
 	ld [de], a
 	inc de
-	; Unused1
+	; CaughtData/CaughtTime/CaughtLevel
 	ld [de], a
 	inc de
-	; Unused2
+	; CaughtGender/CaughtLocation
 	ld [de], a
 	inc de
 
@@ -1726,6 +1726,8 @@ GivePoke::
 	pop hl
 	ld a, [wScriptBank]
 	call FarCopyBytes
+	ld b, a
+	push bc
 	ld a, [wCurPartyMon]
 	ld hl, wPartyMon1ID
 	ld bc, PARTYMON_STRUCT_LENGTH
@@ -1733,6 +1735,8 @@ GivePoke::
 	ld a, HIGH(RANDY_OT_ID)
 	ld [hli], a
 	ld [hl], LOW(RANDY_OT_ID)
+	pop bc
+	callfar SetGiftPartyMonCaughtData
 	jr .skip_nickname
 
 .send_to_box
@@ -1748,9 +1752,23 @@ GivePoke::
 	call Random
 	ld [hl], a
 	call CloseSRAM
+	callfar SetGiftBoxMonCaughtData
 	jr .skip_nickname
 
 .wildmon
+	pop de
+	pop bc
+	push bc
+	push de
+	ld a, b
+	and a
+	jr z, .party
+	callfar SetBoxMonCaughtData
+	jr .set_caught_data
+
+.party
+	callfar SetCaughtData
+.set_caught_data
 	callfar GiveANickname_YesNo
 	pop de
 	jr c, .skip_nickname
