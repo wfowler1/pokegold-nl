@@ -1133,8 +1133,8 @@ DebugRoomMenu_PokemonGet_Page4Values:
 	db 6
 	paged_value wDebugRoomMonHappiness,     $00, $ff,         BASE_HAPPINESS, DebugRoom_BoxStructStrings.Friend,    NULL,                       FALSE
 	paged_value wDebugRoomMonPokerusStatus, $00, $ff,         $00,            DebugRoom_BoxStructStrings.Pokerus,   NULL,                       TRUE
-	paged_value wDebugRoomMonUnused1,       $00, $ff,         $00,            DebugRoom_BoxStructStrings.NoUse0,    NULL,                       FALSE
-	paged_value wDebugRoomMonUnused2,       $00, $ff,         $00,            DebugRoom_BoxStructStrings.NoUse1,    NULL,                       FALSE
+	paged_value wDebugRoomMonCaughtData+0,  $00, $ff,         $00,            DebugRoom_BoxStructStrings.NoUse0,    NULL,                       FALSE
+	paged_value wDebugRoomMonCaughtData+1,  $00, $ff,         $00,            DebugRoom_BoxStructStrings.NoUse1,    NULL,                       FALSE
 	paged_value wDebugRoomMonLevel,         1,   MAX_LEVEL,   $05,            DebugRoom_BoxStructStrings.Level,     NULL,                       FALSE
 	paged_value wDebugRoomMonBox,           1,   NUM_BOXES,   $0e,            DebugRoom_BoxStructStrings.SendBox,   NULL,                       FALSE
 

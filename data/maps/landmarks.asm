@@ -36,6 +36,7 @@ Landmarks:
 	landmark  36,  48, Route39Name
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
+	landmark  28,  64, Route40Name ; Battle Tower
 	landmark  28,  64, Route40Name
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
