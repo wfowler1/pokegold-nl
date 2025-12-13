@@ -353,7 +353,7 @@ CooltrainerfLolaSeenText:
 	line "best doet, kun je" ; "serious, you won't"
 
 	para "ze nooit verslaan." ; "be able to beat"
-	line "" ; "them."
+	; line "them."
 	done
 
 CooltrainerfLolaBeatenText:

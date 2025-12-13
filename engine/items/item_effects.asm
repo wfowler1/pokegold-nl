@@ -554,6 +554,8 @@ PokeBallEffect:
 
 	predef TryAddMonToParty
 
+	farcall SetCaughtData
+
 	ld a, [wCurItem]
 	cp FRIEND_BALL
 	jr nz, .SkipPartyMonFriendBall
@@ -607,6 +609,8 @@ PokeBallEffect:
 	call ClearSprites
 
 	predef SendMonIntoBox
+
+	farcall SetBoxMonCaughtData
 
 	ld a, BANK(sBoxCount)
 	call OpenSRAM

@@ -612,7 +612,7 @@ RocketBaseBossWinText:
 
 	para "Jammer." ; "It's too bad."
 
-	para "Als je je zou" ; "If you were to"
+	para "Als je zou" ; "If you were to"
 	line "aansluiten bij" ; "join TEAM ROCKET,"
 
 	para "TEAM ROCKET, kon" ; "you could become"
@@ -793,7 +793,7 @@ RocketBaseLanceMonMasterText:
 	done
 
 LanceHealsText1:
-	text "LANCE: Gaat het?" ; "LANCE: Are you all"
+	text "LANCE: Gaat het" ; "LANCE: Are you all"
 	line "met je?" ; "right?"
 
 	para "Je #MON zijn" ; "Your #MON are"
@@ -806,7 +806,7 @@ LanceHealsText1:
 
 LanceHealsText2:
 	text "LANCE: <PLAYER>,"
-	line "Laten we ons best" ; "let's give it our"
+	line "laten we ons best" ; "let's give it our"
 	cont "doen voor onze" ; "best for #MON."
 	cont "#MON." ;
 	done

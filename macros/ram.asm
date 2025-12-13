@@ -20,8 +20,11 @@ MACRO box_struct
 \1PP::             ds NUM_MOVES
 \1Happiness::      db
 \1PokerusStatus::  db
-\1Unused1::        db
-\1Unused2::        db
+\1CaughtData::
+\1CaughtTime::
+\1CaughtLevel::    db
+\1CaughtGender::
+\1CaughtLocation:: db
 \1Level::          db
 \1BoxEnd::
 ENDM
@@ -239,6 +242,7 @@ MACRO trademon
 \1OTName::      ds NAME_LENGTH
 \1DVs::         dw
 \1ID::          dw
+\1CaughtData::  db
 \1End::
 ENDM
 

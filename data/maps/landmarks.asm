@@ -36,6 +36,7 @@ Landmarks:
 	landmark  36,  48, Route39Name
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
+	landmark  28,  64, Route40Name ; Battle Tower
 	landmark  28,  64, Route40Name
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
@@ -202,7 +203,7 @@ IlexForestName:      db "EIKENWOUD@" ; "ILEX FOREST"
 BurnedTowerName:     db "VERBRANDE<BSP>TOREN@" ; "BURNED<BSP>TOWER@"
 FastShipName:        db "SNELSCHIP@" ; "FAST SHIP"
 ViridianForestName:  db "VIRIDIAN<BSP>FOREST@" ; unreferenced
-DiglettsCaveName:    db "DIGLETT'S<BSP>CAVE@"
+DiglettsCaveName:    db "DIGLETT<BSP>GROT@"
 TohjoFallsName:      db "TOHJO<BSP>WATERVAL@" ; "TOHJO FALLS@"
 UndergroundName:     db "ONDERGRONDS@" ; "UNDERGROUND"
 SpecialMapName:      db "SPECIAAL@" ; "SPECIAL@"
