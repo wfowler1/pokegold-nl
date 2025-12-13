@@ -8,4 +8,4 @@
 
 	page "horen wat in zelfs" ; "tell what is in"
 	next "de wildste" ; "even wild, fast-"
-	next "rivieren zwemt.@ " ; "moving rivers.@"
+	next "rivieren zwemt.@" ; "moving rivers.@"
