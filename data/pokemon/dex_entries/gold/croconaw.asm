@@ -1,11 +1,11 @@
-	db "BIG JAW@" ; species name
+	db "GROOTKAAK@" ; species name
 	db 11 ; height
 	dw 250 ; weight
 
-	db   "If it loses a"
-	next "fang, a new one"
-	next "grows back in its"
+	db   "Als het een tand" ; "If it loses a"
+	next "verliest, groeit" ; "fang, a new one"
+	next "een nieuwe ervoor" ; "grows back in its"
 
-	page "place. There are"
-	next "always 48 fangs"
-	next "lining its mouth.@"
+	page "in de plaats. 48" ; "place. There are"
+	next "tanden omringen" ; " always 48 fangs"
+	next "altijd de bek.@" ; "lining its mouth.@"

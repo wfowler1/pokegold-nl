@@ -1,11 +1,11 @@
-	db "LEAF@" ; species name
+	db "BLAD@" ; species name
 	db 9 ; height
 	dw 64 ; weight
 
-	db   "A sweet aroma"
-	next "gently wafts from"
-	next "the leaf on its"
+	db   "Een zoet aroma" ; "A sweet aroma"
+	next "komt rustig uit" ; "gently wafts from"
+	next "het blad op het" ; "the leaf on its"
 
-	page "head. It is docile"
-	next "and loves to soak"
-	next "up the sun's rays.@"
+	page "hoofd. Het is tam" ; "head. It is docile"
+	next "en gek op" ; "and loves to soak"
+	next "zonnestralen.@" ; "up the sun's rays.@"

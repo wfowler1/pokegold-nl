@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; species name
 	db 11 ; height
 	dw 190 ; weight
 
-	db   "It is very hot-"
-	next "headed by nature,"
-	next "so it constantly"
+	db   "Is van nature een" ; "It is very hot-"
+	next "heethoofd, dus" ; "headed by nature,"
+	next "zoekt constant" ; "so it constantly"
 
-	page "seeks opponents."
-	next "It calms down only"
-	next "when it wins.@"
+	page "tegenstanders." ; "seeks opponents."
+	next "Kalmeert alleen" ; "It calms down only"
+	next "wanneer het wint.@" ; "when it wins.@"
