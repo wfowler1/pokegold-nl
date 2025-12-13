@@ -154,6 +154,25 @@ DoNPCTrade:
 	ld de, wPlayerTrademonDVs
 	call Trade_CopyTwoBytes
 
+	ld hl, wPartyMon1Species
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfCurrentPartymon
+	ld b, h
+	ld c, l
+	farcall GetCaughtGender
+	ld a, c
+	ld [wPlayerTrademonCaughtData], a
+
+	ld e, NPCTRADE_DIALOG
+	call GetTradeAttr
+	ld a, [hl]
+	cp TRADE_DIALOGSET_NEWBIE
+	ld a, CAUGHT_BY_GIRL
+	jr c, .okay
+	ld a, CAUGHT_BY_BOY
+.okay
+	ld [wOTTrademonCaughtData], a
+
 	ld hl, wPartyMon1Level
 	ld bc, PARTYMON_STRUCT_LENGTH
 	call Trade_GetAttributeOfCurrentPartymon
@@ -166,6 +185,16 @@ DoNPCTrade:
 	ld [wPokemonWithdrawDepositParameter], a ; REMOVE_PARTY
 	callfar RemoveMonFromPartyOrBox
 	predef TryAddMonToParty
+
+	ld e, NPCTRADE_DIALOG
+	call GetTradeAttr
+	ld a, [hl]
+	cp TRADE_DIALOGSET_NEWBIE
+	ld b, CAUGHT_BY_UNKNOWN
+	jr c, .incomplete
+	ld b, CAUGHT_BY_GIRL
+.incomplete
+	farcall SetGiftPartyMonCaughtData
 
 	ld e, NPCTRADE_NICKNAME
 	call GetTradeAttr

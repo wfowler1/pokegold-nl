@@ -257,7 +257,8 @@ SECTION "bank31", ROMX
 
 INCLUDE "engine/events/pokerus/check_pokerus.asm"
 INCLUDE "engine/events/lucky_number.asm"
-INCLUDE "engine/pokemon/caught_nickname.asm"
+INCLUDE "engine/pokemon/caught_data.asm"
+INCLUDE "engine/events/poke_seer.asm"
 
 
 SECTION "bank32", ROMX

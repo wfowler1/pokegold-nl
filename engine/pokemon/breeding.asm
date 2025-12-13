@@ -225,6 +225,7 @@ HatchEggs:
 
 	push de
 
+	farcall SetEggMonCaughtData
 	ld a, [wCurPartyMon]
 	ld hl, wPartyMon1Species
 	ld bc, PARTYMON_STRUCT_LENGTH

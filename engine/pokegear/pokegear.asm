@@ -620,6 +620,10 @@ PokegearMap_ContinueMap:
 	dec a
 	ld [hl], a
 .wrap_around_up
+	cp LANDMARK_BATTLE_TOWER - 1
+	jr nz, .continue_up
+	inc [hl]
+.continue_up
 	inc [hl]
 	jr .done_dpad
 
@@ -632,6 +636,9 @@ PokegearMap_ContinueMap:
 	inc a
 	ld [hl], a
 .wrap_around_down
+	dec [hl]
+	cp LANDMARK_BATTLE_TOWER + 1
+	jr nz, .done_dpad
 	dec [hl]
 .done_dpad
 	ld a, [wPokegearMapCursorLandmark]
@@ -1811,6 +1818,10 @@ _TownMap:
 	ld [hl], a
 
 .okay
+	cp LANDMARK_BATTLE_TOWER - 1
+	jr nz, .continue_up
+	inc [hl]
+.continue_up
 	inc [hl]
 	jr .next
 
@@ -1824,6 +1835,9 @@ _TownMap:
 	ld [hl], a
 
 .okay2
+	dec [hl]
+	cp LANDMARK_BATTLE_TOWER + 1
+	jr nz, .next
 	dec [hl]
 
 .next
