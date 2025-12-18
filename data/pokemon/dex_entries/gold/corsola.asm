@@ -1,11 +1,11 @@
-	db "CORAL@" ; species name
+	db "KORAAL@" ; species name
 	db 6 ; height
 	dw 50 ; weight
 
-	db   "It continuously"
-	next "sheds and grows."
-	next "The tip of its"
+	db   "Vervelt en groeit" ; "It continuously"
+	next "continu. De punt" ; "sheds and grows."
+	next "van het hoofd" ; "The tip of its"
 
-	page "head is prized as"
-	next "a treasure for its"
-	next "beauty.@"
+	page "wordt geprezen als" ; "head is prized as"
+	next "een schat door" ; "a treasure for its"
+	next "zijn schoonheid.@" ; "beauty.@"

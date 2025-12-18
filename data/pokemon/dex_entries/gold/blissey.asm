@@ -1,11 +1,11 @@
-	db "HAPPINESS@" ; species name
+	db "BLIJDSCHAP@" ; species name
 	db 15 ; height
 	dw 468 ; weight
 
-	db   "Anyone who takes"
-	next "even one bite of"
-	next "BLISSEY's egg be-"
+	db   "Ieder die maar een" ; "Anyone who takes"
+	next "hap neemt uit" ; "even one bite of"
+	next "BLISSEY's ei wordt" ; "BLISSEY's egg be-"
 
-	page "comes unfailingly"
-	next "caring and pleas-"
-	next "ant to everyone.@"
+	page "altijd zorgzaam en" ; "comes unfailingly"
+	next "vriendelijk voor" ; "caring and pleas-"
+	next "iedereen.@" ; "ant to everyone.@"

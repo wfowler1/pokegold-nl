@@ -1,11 +1,11 @@
-	db "FLOWER@" ; species name
+	db "BLOEM@" ; species name
 	db 7 ; height
 	dw 40 ; weight
 
-	db   "Even though its"
-	next "body is extremely"
-	next "skinny, it is"
+	db   "Hoewel het lichaam" ; "Even though its"
+	next "heel erg dun is," ; "body is extremely"
+	next "is het vliegens-" ; "skinny, it is"
 
-	page "blindingly fast"
-	next "when catching its"
-	next "prey.@"
+	page "vlug wanneer het" ; "blindingly fast"
+	next "een prooi gaat@" ; "when catching its"
+	next "vangen.@" ; "prey.@"

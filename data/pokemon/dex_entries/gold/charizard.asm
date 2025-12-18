@@ -2,10 +2,10 @@
 	db 17 ; height
 	dw 905 ; weight
 
-	db   "If CHARIZARD be-"
-	next "comes furious, the"
-	next "flame at the tip"
+	db   "Als CHARIZARD woe-" ; "If CHARIZARD be-"
+	next "dend wordt, vlamt" ; "comes furious, the"
+	next "het vuur aan de" ; "flame at the tip"
 
-	page "of its tail flares"
-	next "up in a whitish-"
-	next "blue color.@"
+	page "staartpunt op in" ; "of its tail flares"
+	next "een wittig-blauwe" ; "up in a whitish-"
+	next "kleur.@" ; "blue color.@"
