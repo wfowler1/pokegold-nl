@@ -1,11 +1,11 @@
-	db "DOPEY@" ; species name
+	db "DOMMIG@" ; species name
 	db 12 ; height
 	dw 360 ; weight
 
-	db   "It lazes vacantly"
-	next "near water. If"
-	next "something bites"
+	db   "Droomt weg bij HET" ; "It lazes vacantly"
+	next "water. Als iets" : "near water. If"
+	next "in de staart bijt," ; "something bites"
 
-	page "its tail, it won't"
-	next "even notice for a"
-	next "whole day.@"
+	page "merkt het hier een" ; "its tail, it won't"
+	next "dag lang helemaal" ; "even notice for a"
+	next "niets van.@" ; "whole day.@"
