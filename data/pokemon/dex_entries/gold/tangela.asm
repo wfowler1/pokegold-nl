@@ -8,4 +8,4 @@
 
 	page "constant. Hiermee" ; "jiggling. They"
 	next "maakt het vijanden" ; "effectively un-"
-	next "zenuwachtig.@ " ; "nerve its foes.@"
+	next "zenuwachtig.@" ; "nerve its foes.@"

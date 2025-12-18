@@ -3,7 +3,7 @@
 	dw 360 ; weight
 
 	db   "Droomt weg bij HET" ; "It lazes vacantly"
-	next "water. Als iets" : "near water. If"
+	next "water. Als iets" ; "near water. If"
 	next "in de staart bijt," ; "something bites"
 
 	page "merkt het hier een" ; "its tail, it won't"

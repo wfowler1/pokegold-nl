@@ -8,4 +8,4 @@
 
 	page "en zonnestralen te" ; "catching the sun's"
 	next "vangen, wordt het" ; "rays, it fills its"
-	next "lichaam zeer sterk.@" ; "body with power.@"
+	next "lijf zeer sterk.@" ; "body with power.@"

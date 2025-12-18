@@ -8,4 +8,4 @@
 
 	page "dat het binnen" ; "sign that rain"
 	next "een paar uur zal" ; "will come within a"
-	next "gaan regenen.@" : "few hours.@"
+	next "gaan regenen.@" ; "few hours.@"
