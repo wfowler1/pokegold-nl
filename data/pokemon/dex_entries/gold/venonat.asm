@@ -2,10 +2,10 @@
 	db 10 ; height
 	dw 300 ; weight
 
-	db   "Its eyes also"
-	next "function as radar"
-	next "units. It catches"
+	db   "De ogen werken" ; "Its eyes also"
+	next "ook als radar." ; "function as radar"
+	next "Het vangt en eet" ; "units. It catches"
 
-	page "and eats small"
-	next "bugs that hide in"
-	next "darkness.@"
+	page "kleine insecten" ; "and eats small"
+	next "die zich in het" ; "bugs that hide in"
+	next "donker verstoppen.@" ; "darkness.@"
