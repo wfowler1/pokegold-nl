@@ -1,11 +1,11 @@
-	db "WOOL@" ; species name
+	db "WOL@" ; species name
 	db 8 ; height
 	dw 133 ; weight
 
-	db   "As a result of"
-	next "storing too much"
-	next "electricity, it"
+	db   "Als gevolg van" ; "As a result of"
+	next "te veel opgeslagen" ; "storing too much"
+	next "energie, heeft het" ; "electricity, it"
 
-	page "developed patches"
-	next "where even downy"
-	next "wool won't grow.@"
+	page "plekjes ontwikkeld" ; "developed patches"
+	next "waar zelfs geen" ; "where even downy"
+	next "donzig wol groeit.@" ; "wool won't grow.@"

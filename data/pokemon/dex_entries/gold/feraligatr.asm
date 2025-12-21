@@ -1,11 +1,11 @@
-	db "BIG JAW@" ; species name
+	db "GROOTKAAK@" ; species name
 	db 23 ; height
 	dw 888 ; weight
 
-	db   "When it bites with"
-	next "its massive and"
-	next "powerful jaws, it"
+	db   "Als het bijt met" ; "When it bites with"
+	next "de reusachtige" ; "its massive and"
+	next "sterke kaken," ; "powerful jaws, it"
 
-	page "shakes its head"
-	next "and savagely tears"
-	next "its victim up.@"
+	page "schudt het wild de" ; "shakes its head"
+	next "kop en scheurt het" ; "and savagely tears"
+	next "slachtoffer kapot.@" ; "its victim up.@"

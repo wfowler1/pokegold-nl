@@ -1,11 +1,11 @@
-	db "SYMBOL@" ; species name
+	db "SYMBOOL@" ; "SYMBOL@" ; species name
 	db 5 ; height
 	dw 50 ; weight
 
-	db   "Their shapes look"
-	next "like hieroglyphs"
-	next "on ancient tab-"
+	db   "Hun vormen lijken" ; "Their shapes look"
+	next "op hiërogliefen op" ; "like hieroglyphs"
+	next "oude tabletten. De" ; "on ancient tab-"
 
-	page "lets. It is said"
-	next "that the two are"
-	next "somehow related.@"
+	page "twee hebben naar" ; "lets. It is said"
+	next "verluidt met" ; "that the two are"
+	next "elkaar te maken.@" ; "somehow related.@"

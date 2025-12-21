@@ -1,11 +1,11 @@
-	db "SCISSORS@" ; species name
+	db "SCHAREN@" ; species name
 	db 18 ; height
 	dw 1180 ; weight
 
-	db   "It swings its eye-"
-	next "patterned pincers"
-	next "up to scare its"
+	db   "Schrikt vijanden" ; "It swings its eye-"
+	next "af met het oog-" ; "patterned pincers"
+	next "vormig schaar-" ; "up to scare its"
 
-	page "foes. This makes"
-	next "it look like it"
-	next "has three heads.@"
+	page "patroon. Lijkt" ; "foes. This makes"
+	next "hierdoor drie" ; "it look like it"
+	next "koppen te hebben.@" ; "has three heads.@"

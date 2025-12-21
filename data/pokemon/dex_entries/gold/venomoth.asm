@@ -1,11 +1,11 @@
-	db "POISONMOTH@" ; species name
+	db "GIFMOT@" ; "POISONMOTH@" ; species name
 	db 15 ; height
 	dw 125 ; weight
 
-	db   "When it attacks,"
-	next "it flaps its large"
-	next "wings violently to"
+	db   "Als het aanvalt," ; "When it attacks,"
+	next "flappert het ge-" ; "it flaps its large"
+	next "welddadig met de" ; "wings violently to"
 
-	page "scatter its poi-"
-	next "sonous powder all"
-	next "around.@"
+	page "vleugels om overal" ; "scatter its poi-"
+	next "giftig poeder te" ; "sonous powder all"
+	next "verspreiden.@" ; "around.@"

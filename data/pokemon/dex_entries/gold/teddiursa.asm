@@ -1,11 +1,11 @@
-	db "LITTLEBEAR@" ; species name
+	db "KLEINEBEER@" ; "LITTLE BEAR@" ; species name
 	db 6 ; height
 	dw 88 ; weight
 
-	db   "If it finds honey,"
-	next "its crescent mark"
-	next "glows. It always"
+	db   "Als het honing" ; "If it finds honey,"
+	next "vindt, gloeit het" ; "its crescent mark"
+	next "maanteken. Likt" ; "glows. It always"
 
-	page "licks its paws"
-	next "because they are"
-	next "soaked with honey.@"
+	page "steeds aan pootjes" ; 'licks its paws"
+	next "omdat ze bedekt" ; "because they are"
+	next "zijn met honing.@" ; "soaked with honey.@"

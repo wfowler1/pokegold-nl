@@ -1,11 +1,11 @@
-	db "WILD DUCK@" ; species name
+	db "WILDE EEND@" ; species name
 	db 8 ; height
 	dw 150 ; weight
 
-	db   "If anyone tries to"
-	next "disturb where the"
-	next "essential plant"
+	db   "Wie de groeiplaats" ; "If anyone tries to"
+	next "van diens geliefde" ; "disturb where the"
+	next "prei verstoort," ; "essential plant"
 
-	page "sticks grow, it"
-	next "uses its own stick"
-	next "to thwart them.@"
+	page "wordt met behulp" ; "sticks grow, it"
+	next "van deze groente " ; "uses its own stick"
+	next "tegengehouden.@" ; "to thwart them.@"

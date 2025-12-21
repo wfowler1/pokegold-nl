@@ -1,11 +1,11 @@
-	db "ARMOR@" ; species name
+	db "PANTSER@" ; species name
 	db 11 ; height
 	dw 1200 ; weight
 
-	db   "It has sharp, hard"
-	next "tusks and a rugged"
-	next "hide. Its TACKLE"
+	db   "Heeft scherpe," ; "It has sharp, hard"
+	next "harde slagtanden" ; "tusks and a rugged"
+	next "en een ruwe huid." ; "hide. Its TACKLE"
 
-	page "is strong enough"
-	next "to knock down a"
-	next "house.@"
+	page "De TACKLE is sterk" ; "is strong enough"
+	next "genoeg om een huis" ; "to knock down a"
+	next "plat te walsen.@" ; "house.@"

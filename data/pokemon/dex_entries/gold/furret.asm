@@ -1,11 +1,11 @@
-	db "LONG BODY@" ; species name
+	db "LANGLIJF@" ; species name
 	db 18 ; height
 	dw 325 ; weight
 
-	db   "It makes a nest to"
-	next "suit its long and"
-	next "skinny body. The"
+	db   "Maakt een nest" ; "It makes a nest to"
+	next "waarin het lange," ; "suit its long and"
+	next "dunne lichaam pre-" ; "skinny body. The"
 
-	page "nest is impossible"
-	next "for other #MON"
-	next "to enter.@"
+	page "cies past. Andere" ; "nest is impossible"
+	next "#MON komen hier" ; "for other #MON"
+	next "onmogelijk in.@" ; "to enter.@"

@@ -1,11 +1,11 @@
-	db "PAINTER@" ; species name
+	db "SCHILDER@" ; species name
 	db 12 ; height
 	dw 580 ; weight
 
-	db   "A special fluid"
-	next "oozes from the tip"
-	next "of its tail. It"
+	db   "Een speciale stof" ; "A special fluid"
+	next "sijpelt uit de" ; "oozes from the tip"
+	next "staartpunt. Dit" ; "of its tail. It"
 
-	page "paints the fluid"
-	next "everywhere to mark"
-	next "its territory.@"
+	page "wordt gebruikt als" ; "paints the fluid"
+	next "verf om territo-" ; "everywhere to mark"
+	next "rium te markeren.@" ; "its territory.@"

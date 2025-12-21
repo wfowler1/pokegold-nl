@@ -1,11 +1,11 @@
-	db "SPIKE BALL@" ; species name
+	db "STEKELBAL@" ; "SPIKE BALL@" ; species name
 	db 3 ; height
 	dw 15 ; weight
 
-	db   "The shell seems to"
-	next "be filled with"
-	next "joy. It is said"
+	db   "De schelp lijkt" ; "The shell seems to"
+	next "gevuld met blij-" ; "be filled with"
+	next "heid. Gezegd wordt" ; "joy. It is said"
 
-	page "that it will share"
-	next "good luck when"
-	next "treated kindly.@"
+	page "dat het geluk met" ; "that it will share"
+	next "je deelt als je" ; "good luck when"
+	next "vriendelijk bent.@" ; "treated kindly.@"
