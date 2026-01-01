@@ -1,11 +1,11 @@
-	db "COCONUT@" ; species name
+	db "KOKOSNOOT@" ; species name
 	db 20 ; height
 	dw 1200 ; weight
 
-	db   "Its three heads"
-	next "think independent-"
-	next "ly. However, they"
+	db   "De drie koppen" ; "Its three heads"
+	next "denken apart van" ; " think independent-"
+	next "elkaar. Toch zijn" ; "ly. However, they"
 
-	page "are friendly and"
-	next "never appear to"
-	next "squabble.@"
+	page "ze aardig en" ; "are friendly and"
+	next "hebben ze nooit" ; "never appear to"
+	next "ruzie met elkaar.@" ; "squabble.@"

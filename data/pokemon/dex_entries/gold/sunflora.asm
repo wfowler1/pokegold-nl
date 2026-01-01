@@ -1,11 +1,11 @@
-	db "SUN@" ; species name
+	db "ZON@" ; "SUN@" ; species name
 	db 8 ; height
 	dw 85 ; weight
 
-	db   "It converts sun-"
-	next "light into energy."
-	next "In the darkness"
+	db   "Zet zonlicht om" ; "It converts sun-"
+	next "in energie. Als de" ; "light into energy."
+	next "zon is ondergegaan" ; "In the darkness"
 
-	page "after sunset, it"
-	next "closes its petals"
-	next "and becomes still.@"
+	page "sluiten de blade-" ; "after sunset, it"
+	next "ren en zal ie niet" ; "closes its petals"
+	next "meer bewegen.@" ; "and becomes still.@"

@@ -1,11 +1,11 @@
-	db "HAPPINESS@" ; species name
+	db "BLIJDSCHAP@" ; "HAPPINESS@" ; species name
 	db 6 ; height
 	dw 32 ; weight
 
-	db   "They say that it"
-	next "will appear before"
-	next "kindhearted, car-"
+	db   "Men zegt dat het" ; "They say that it"
+	next "zich vertoont aan" ; "will appear before"
+	next "goedhartige, zorg-" ; "kindhearted, car-"
 
-	page "ing people and"
-	next "shower them with"
-	next "happiness.@"
+	page "zame personen, en" ; "ing people and"
+	next "deze met blijheid" ; "shower them with"
+	next "zal overspoelen.@" ; "happiness.@"

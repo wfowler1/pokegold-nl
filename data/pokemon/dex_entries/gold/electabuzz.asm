@@ -1,11 +1,11 @@
-	db "ELECTRIC@" ; species name
+	db "ELEKTRISCH@" ; species name
 	db 11 ; height
 	dw 300 ; weight
 
-	db   "Electricity runs"
-	next "across the surface"
-	next "of its body. In"
+	db   "Elektriciteit" ; "Electricity runs"
+	next "stroomt door het" ; "across the surface"
+	next "lichaamsoppervlak." ; "of its body. In"
 
-	page "darkness, its en-"
-	next "tire body glows a"
-	next "whitish-blue.@"
+	page "In het donker" ; "darkness, its en-"
+	next "gloeit het lichaam" ; "tire body glows a"
+	next "wittigblauw.@"  ; "whitish-blue.@"

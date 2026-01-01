@@ -1,11 +1,11 @@
-	db "BUBBLE JET@" ; species name
+	db "BUBBELJET@" ; "BUBBLE JET@" ; species name
 	db 10 ; height
 	dw 290 ; weight
 
-	db   "When VAPOREON's"
-	next "fins begin to vi-"
-	next "brate, it is a"
+	db   "Als VAPOREONS vin-" ; "When VAPOREON's"
+	next "nen gaan trillen," ; "fins begin to vi-"
+	next "is dat een teken" ; "brate, it is a"
 
-	page "sign that rain"
-	next "will come within a"
-	next "few hours.@"
+	page "dat het binnen" ; "sign that rain"
+	next "een paar uur zal" ; "will come within a"
+	next "gaan regenen.@" ; "few hours.@"

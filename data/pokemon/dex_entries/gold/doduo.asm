@@ -1,11 +1,11 @@
-	db "TWIN BIRD@" ; species name
+	db "DUOVOGEL@" ; species name
 	db 14 ; height
 	dw 392 ; weight
 
-	db   "By alternately"
-	next "raising and lower-"
-	next "ing its two heads,"
+	db   "Door de koppen" ; "By alternately"
+	next "om de beurt op en" ; "raising and lower-"
+	next "neer te bewegen," ; "ing its two heads,"
 
-	page "it balances itself"
-	next "to be more stable"
-	next "while running.@"
+	page "balanceert het" ; "it balances itself"
+	next "zich om stabieler" ; "to be more stable"
+	next "te kunnen rennen.@" ; "while running.@"
