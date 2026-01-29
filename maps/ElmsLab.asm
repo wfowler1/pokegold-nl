@@ -874,8 +874,8 @@ ElmAfterTheftText5:
 	cont "moeten proberen." ; "challenge."
 
 	para "De eerste GYM is" ; "The closest GYM"
-	line "is verderop in" ; "would be the one"
-	cont "VIOLET CITY." ; "in VIOLET CITY."
+	line "verderop in VIOLET" ; "would be the one"
+	cont "CITY." ; "in VIOLET CITY."
 	done
 
 ElmAfterTheftText6:
