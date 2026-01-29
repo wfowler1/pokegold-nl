@@ -347,7 +347,7 @@ _UsedMove2Text:: ; AlwaysReplace
 	line "deed @" ; "used @"
 	text_end
 
-_UsedInsteadText:: ; AlwaysReplace
+_UsedInsteadText:: ; PreviousInstruction line
 	text "in plaats" ; "instead,"
 	cont "van, @" ; "@"
 	text_end

@@ -1033,7 +1033,7 @@ ElmGiveMasterBallText2:
 	line "meer aan dan ik," ; "make better use of"
 
 	para "<PLAYER>!" ; "it than I can,"
-	line ; "<PLAYER>!"
+	; line "<PLAYER>!"
 	done
 
 ElmGiveTicketText1:
