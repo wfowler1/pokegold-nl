@@ -207,7 +207,7 @@ pokesilver_vc.gbc:    RGBFIXFLAGS += -t POKEMON_SLV -i AAXE
 include gfx/lz.mk
 
 %.lz: %
-	tools/lzcomp $(LZFLAGS) -- $< $@
+	tools/lzcompress $(LZFLAGS) -- $< $@
 
 
 ### Pokemon and trainer sprite rules
@@ -298,8 +298,7 @@ gfx/pokedex/slowpoke.2bpp: tools/gfx += --trim-whitespace
 gfx/pokegear/pokegear.2bpp: RGBGFXFLAGS += --trim-end 2
 gfx/pokegear/pokegear_sprites.2bpp: tools/gfx += --trim-whitespace
 
-gfx/mystery_gift/mystery_gift.2bpp: tools/gfx += --remove-whitespace
-gfx/mystery_gift/mystery_gift_2.2bpp: tools/gfx += --trim-whitespace
+gfx/mystery_gift/mystery_gift.2bpp: tools/gfx += --trim-whitespace
 gfx/mystery_gift/question_mark.1bpp: tools/gfx += --remove-whitespace
 
 gfx/title/logo_bottom_gold.2bpp: tools/gfx += --trim-whitespace
