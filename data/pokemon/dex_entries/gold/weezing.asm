@@ -8,4 +8,4 @@
 
 	page "ander leeg. Het" ; "deflates. It con-"
 	next "mengt constant" ; "stantly mixes its"
-	next "zijn gifgassen.@" ; "poisonous gases.@"
+	next "de gifgassen.@" ; "poisonous gases.@"

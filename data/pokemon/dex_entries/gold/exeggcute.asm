@@ -7,5 +7,5 @@
 	next "bij een barst," ; "it cracks, it can"
 
 	page "overleeft het" ; "survive without"
-	next "zonder zijn in-" ; "spilling the"
-	next "houd te lekken.@" ; "contents.@"
+	next "zonder de inhoud" ; "spilling the"
+	next "te lekken.@" ; "contents.@"

@@ -8,4 +8,4 @@
 
 	page "gloeit bij iedere" ; "It glows in a dif-"
 	next "waarneming in een" ; "ferent color each"
-	next "andere kleur.@ " ; "time it is seen.@"
+	next "andere kleur.@" ; "time it is seen.@"
