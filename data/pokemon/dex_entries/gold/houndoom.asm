@@ -1,11 +1,11 @@
-	db "DARK@" ; species name
+	db "DUISTER@" ; species name
 	db 14 ; height
 	dw 350 ; weight
 
-	db   "If you are burned"
-	next "by the flames it"
-	next "shoots from its"
+	db   "Als de vlammen af-" ; "If you are burned"
+	next "gevuurd uit de" ; "by the flames it"
+	next "mond je branden," ; "shoots from its"
 
-	page "mouth, the pain"
-	next "will never go"
-	next "away.@"
+	page "zul je de pijn" ; "mouth, the pain"
+	next "nooit meer kwijt-" ; "will never go"
+	next "raken.@" ; "away.@"

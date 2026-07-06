@@ -2,10 +2,10 @@
 	db 10 ; height
 	dw 120 ; weight
 
-	db   "Their fur feels so"
-	next "good that if two"
-	next "of them snuggle"
+	db   "Hun vacht voelt zo" ; "Their fur feels so"
+	next "fijn dat als er" ; "good that if two"
+	next "twee knuffelen, ze" ; "of them snuggle"
 
-	page "together, they"
-	next "won't want to be"
-	next "separated.@"
+	page "niet uit elkaar" ; "together, they"
+	next "gehaald willen" ; "won't want to be"
+	next "worden.@" ; "separated.@"

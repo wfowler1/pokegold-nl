@@ -4,7 +4,7 @@
 
 	db   "Slaapt nooit." ; "It never sleeps."
 	next "Het moet blijven" ; "It has to keep"
-	next "bewegen, anders" ; moving because if"
+	next "bewegen, anders" ; "moving because if"
 
 	page "koelt diens" ; "it stopped, its"
 	next "magmalichaam af" ; "magma body would"

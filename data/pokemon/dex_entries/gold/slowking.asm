@@ -1,11 +1,11 @@
-	db "ROYAL@" ; species name
+	db "KONINKLIJK@" ; species name
 	db 20 ; height
 	dw 795 ; weight
 
-	db   "It has incredible"
-	next "intellect and in-"
-	next "tuition. Whatever"
+	db   "Door ongelooflijke" ; "It has incredible"
+	next "intelligentie en" ; "intellect and in-"
+	next "intuïtie kan het" ; "tuition. Whatever"
 
-	page "the situation, it"
-	next "remains calm and"
-	next "collected.@"
+	page "in iedere situatie" ; "the situation, it"
+	next "rustig en beheersd" ; "remains calm and"
+	next "blijven.@" ; "collected.@"

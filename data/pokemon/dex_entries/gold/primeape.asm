@@ -1,11 +1,11 @@
-	db "PIG MONKEY@" ; species name
+	db "VARKENSAAP@" ; species name
 	db 10 ; height
 	dw 320 ; weight
 
-	db   "If approached"
-	next "while asleep, it"
-	next "may awaken and"
+	db   "Als het slapend"; "If approached"
+	next "wordt benaderd," ; "while asleep, it"
+	next "kan het ontwaken" ; "may awaken and"
 
-	page "angrily give chase"
-	next "in a groggy state"
-	next "of semi-sleep.@"
+	page "en humeurig de" ; "angrily give chase"
+	next "achtervolging" ; "in a groggy state"
+	next "inzetten.@" ; "of semi-sleep.@"

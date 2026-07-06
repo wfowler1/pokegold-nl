@@ -1,11 +1,11 @@
-	db "FLOWER@" ; species name
+	db "BLOEM@" ; "FLOWER@" ; species name
 	db 12 ; height
 	dw 186 ; weight
 
-	db   "It has the world's"
-	next "largest petals."
-	next "With every step,"
+	db   "Heeft 's werelds" ; "It has the world's"
+	next "grootste bladeren." ;  "largest petals."
+	next "Met elke stap" ; "With every step,"
 
-	page "the petals shake"
-	next "out heavy clouds"
-	next "of toxic pollen.@"
+	page "scheiden ze zware" ;  "the petals shake"
+	next "wolken giftig" ; "out heavy clouds"
+	next "stuifmeel af.@" ; "of toxic pollen.@"

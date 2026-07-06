@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVIS@" ; species name
 	db 13 ; height
 	dw 540 ; weight
 
-	db   "This strong and"
-	next "skilled swimmer is"
-	next "even capable of"
+	db   "Deze sterke en" ; "This strong and"
+	next "goede zwemmer kan" ; "skilled swimmer is"
+	next "zelfs de stille" ; "even capable of"
 
-	page "crossing the"
-	next "Pacific Ocean just"
-	next "by kicking.@"
+	page "oceaan oversteken" ; "crossing the"
+	next "door alleen maar" ; "Pacific Ocean just"
+	next "te schoppen.@" ; "by kicking.@"

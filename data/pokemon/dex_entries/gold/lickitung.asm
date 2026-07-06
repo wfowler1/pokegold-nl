@@ -1,11 +1,11 @@
-	db "LICKING@" ; species name
+	db "LIKKER@" ; species name
 	db 12 ; height
 	dw 655 ; weight
 
-	db   "Its tongue has"
-	next "well-developed"
-	next "nerves that run"
+	db   "De tong heeft ver"; "Its tongue has"
+	next "ontwikkelde zenu-"; "well-developed"
+	next "wen tot de uiter-" ; "nerves that run"
 
-	page "to the very tip,"
-	next "so it can be deft-"
-	next "ly manipulated.@"
+	page "ste punt, zodat" ; "to the very tip,"
+	next "hij behendig kan" ;  "so it can be deft-"
+	next "worden bewogen.@" ; "ly manipulated.@"

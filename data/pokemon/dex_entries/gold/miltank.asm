@@ -1,11 +1,11 @@
-	db "MILK COW@" ; species name
+	db "MELKKOE@" ; species name
 	db 12 ; height
 	dw 755 ; weight
 
-	db   "Its milk is packed"
-	next "with nutrition,"
-	next "making it the"
+	db   "De melk zit vol" ; "Its milk is packed"
+	next "voedingsstoffen," ; "with nutrition,"
+	next "wat het de ultieme"; "making it the"
 
-	page "ultimate beverage"
-	next "for the sick or"
-	next "weary.@"
+	page "drank maakt voor"; "ultimate beverage"
+	next "ziekte of"; "for the sick or"
+	next "vermoeidheid.@" ; "weary.@"

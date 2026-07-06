@@ -1,11 +1,11 @@
-	db "KICKING@" ; species name
+	db "SCHOP@" ; species name
 	db 15 ; height
 	dw 498 ; weight
 
-	db   "This amazing #-"
-	next "MON has an awesome"
-	next "sense of balance."
+	db   "Een geweldige" ; "This amazing #-"
+	next "#MON met uit-" ; "MON has an awesome"
+	next "stekend evenwicht." ; "sense of balance."
 
-	page "It can kick in"
-	next "succession from"
-	next "any position.@"
+	page "Kan vanuit iedere" ; "It can kick in"
+	next "positie razend-" ; "succession from"
+	next "snel schoppen.@" ; "any position.@"

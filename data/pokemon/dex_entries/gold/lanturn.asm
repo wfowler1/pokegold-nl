@@ -1,11 +1,11 @@
-	db "LIGHT@" ; species name
+	db "LICHT@" ; species name
 	db 12 ; height
 	dw 225 ; weight
 
-	db   "The light it emits"
-	next "is so bright that"
-	next "it can illuminate"
+	db   "Geeft licht af dat" ; "The light it emits"
+	next "zo fel is dat het" ; "is so bright that"
+	next "de zeespiegel kan" ; "it can illuminate"
 
-	page "the sea's surface"
-	next "from a depth of"
-	next "over three miles.@"
+	page "verlichten van een" ; "the sea's surface"
+	next "diepte van bijna" ; "from a depth of"
+	next "vijf kilometer.@" ; "over three miles.@"

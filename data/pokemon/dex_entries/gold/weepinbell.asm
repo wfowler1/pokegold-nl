@@ -2,10 +2,10 @@
 	db 10 ; height
 	dw 64 ; weight
 
-	db   "Even though it is"
-	next "filled with ACID,"
-	next "it does not melt"
+	db   "Ook al zit het vol" ; "Even though it is"
+	next "met ZUUR, het" ; "filled with ACID,"
+	next "smelt niet omdat" ; "it does not melt"
 
-	page "because it also"
-	next "oozes a neutral-"
-	next "izing fluid.@"
+	page "het ook een neutr-" ; "because it also"
+	next "aliserende vloei-" ; "oozes a neutral-"
+	next "stof afscheidt.@" ; "izing fluid.@"

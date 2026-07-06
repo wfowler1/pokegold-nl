@@ -1,11 +1,11 @@
-	db "BARRIER@" ; species name
+	db "BARRIERE@" ; species name
 	db 13 ; height
 	dw 545 ; weight
 
-	db   "A skilled mime"
-	next "from birth, it"
-	next "gains the ability"
+	db   "Al vanaf geboorte" ; "A skilled mime"
+	next "een vaardig mime-" ; "from birth, it"
+	next "speler. Het kan op"; "gains the ability"
 
-	page "to create invisi-"
-	next "ble objects as it"
-	next "matures.@"
+	page "latere leeftijd"; "to create invisi-"
+	next "onzichtbare objec-"; "ble objects as it"
+	next "ten leren maken.@" ; "matures.@"

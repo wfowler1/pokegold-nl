@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; species name
 	db 3 ; height
 	dw 10 ; weight
 
-	db   "It has a very soft"
-	next "body. If it starts"
-	next "to roll, it will"
+	db   "Het lichaam is erg" ; "It has a very soft"
+	next "zacht. Als het be-" ; "body. If it starts"
+	next "gint met rollen," ; "to roll, it will"
 
-	page "bounce all over"
-	next "and be impossible"
-	next "to stop.@"
+	page "stuitert het over-" ; "bounce all over"
+	next "al en is het onmo-" ; "and be impossible"
+	next "gelijk te stoppen.@" ; "to stop.@"

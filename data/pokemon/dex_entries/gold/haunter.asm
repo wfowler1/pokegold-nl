@@ -2,10 +2,10 @@
 	db 16 ; height
 	dw 1 ; weight
 
-	db   "In total darkness,"
-	next "where nothing is"
-	next "visible, HAUNTER"
+	db   "In complete duis-" ; "In total darkness,"
+	next "ternis, waar je" ; "where nothing is"
+	next "niets ziet, zit" ; "visible, HAUNTER"
 
-	page "lurks, silently"
-	next "stalking its next"
-	next "victim.@"
+	page "HAUNTER te loeren," ; "lurks, silently"
+	next "jagend op het vol-" ; "stalking its next"
+	next "gende doelwit.@" ; "victim.@"

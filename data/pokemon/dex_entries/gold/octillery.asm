@@ -2,10 +2,10 @@
 	db 9 ; height
 	dw 285 ; weight
 
-	db   "It traps enemies"
-	next "with its suction-"
-	next "cupped tentacles"
+	db   "Vangt vijanden met" ; "It traps enemies"
+	next "zuignappen op de" ; "with its suction-"
+	next "tentakels en" ; "cupped tentacles"
 
-	page "then smashes them"
-	next "with its rock-hard"
-	next "head.@"
+	page "verplettert ze dan" ; "then smashes them"
+	next "met de keiharde" ; "with its rock-hard"
+	next "kop.@" ; "head.@"

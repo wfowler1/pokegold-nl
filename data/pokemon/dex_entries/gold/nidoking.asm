@@ -1,11 +1,11 @@
-	db "DRILL@" ; species name
+	db "BOOR@" ; species name
 	db 14 ; height
 	dw 620 ; weight
 
-	db   "It swings its big"
-	next "tail around during"
-	next "battle. If its foe"
+	db   "Zwaait de grote"; "It swings its big"
+	next "staart tijdens" ; "tail around during"
+	next "gevechten. Als de"; "battle. If its foe"
 
-	page "flinches, it will"
-	next "charge with its"
-	next "sturdy body.@"
+	page "vijand wankelt," ; "flinches, it will"
+	next "beukt het met het";  "charge with its"
+	next "zware lichaam.@" ; "sturdy body.@"

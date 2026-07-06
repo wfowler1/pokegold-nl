@@ -1,11 +1,11 @@
-	db "THUNDER@" ; species name
+	db "DONDER@" ; species name
 	db 19 ; height
 	dw 1780 ; weight
 
-	db   "The rain clouds it"
-	next "carries let it"
-	next "fire thunderbolts"
+	db   "Het vuurt bliksem-" ; "The rain clouds it"
+	next "stralen af vanuit" ; "carries let it"
+	next "wolken op de rug." ; "fire thunderbolts"
 
-	page "at will. They say"
-	next "that it descended"
-	next "with lightning.@"
+	page "Men denkt dat het" ; "at will. They say"
+	next "met bliksem neer-" ; "that it descended"
+	next "daalde op aarde.@" ; "with lightning.@"

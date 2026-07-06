@@ -6,6 +6,6 @@
 	next "vindt, gloeit het" ; "its crescent mark"
 	next "maanteken. Likt" ; "glows. It always"
 
-	page "steeds aan pootjes" ; 'licks its paws"
+	page "steeds aan pootjes" ; "licks its paws"
 	next "omdat ze bedekt" ; "because they are"
 	next "zijn met honing.@" ; "soaked with honey.@"

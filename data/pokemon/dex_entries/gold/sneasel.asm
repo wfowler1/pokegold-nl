@@ -1,11 +1,11 @@
-	db "SHARP CLAW@" ; species name
+	db "KLAUW@" ; species name
 	db 9 ; height
 	dw 280 ; weight
 
-	db   "Its paws conceal"
-	next "sharp claws. If"
-	next "attacked, it sud-"
+	db   "Pootjes verbergen" ; "Its paws conceal"
+	next "scherpe klauwen." ; "sharp claws. If"
+	next "Als gevaar dreigt," ; "attacked, it sud-"
 
-	page "denly extends the"
-	next "claws and startles"
-	next "its enemy.@"
+	page "schuiven deze uit" ; "denly extends the"
+	next "om de vijand af te" ; "claws and startles"
+	next "schrikken.@" ; "its enemy.@"

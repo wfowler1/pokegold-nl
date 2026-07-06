@@ -1,11 +1,11 @@
-	db "KISS@" ; species name
+	db "KUS@" ; species name
 	db 4 ; height
 	dw 60 ; weight
 
-	db   "Its lips are the"
-	next "most sensitive"
-	next "parts on its body."
+	db   "De lippen zijn het" ; "Its lips are the"
+	next "gevoeligste deel" ; "most sensitive"
+	next "van het lichaam." ; "parts on its body."
 
-	page "It always uses its"
-	next "lips first to"
-	next "examine things.@"
+	page "Het gebruikt deze" ; "It always uses its"
+	next "altijd om dingen" ; "lips first to"
+	next "te onderzoeken.@" ; "examine things.@"

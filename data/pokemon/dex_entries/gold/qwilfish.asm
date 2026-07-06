@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; species name
 	db 5 ; height
 	dw 39 ; weight
 
-	db   "To fire its poison"
-	next "spikes, it must"
-	next "inflate its body"
+	db   "Schiet gifstekels"  ; "To fire its poison"
+	next "af door het lich-" ; "spikes, it must"
+	next "aam op te blazen" ; "inflate its body"
 
-	page "by drinking over"
-	next "2.6 gallons of"
-	next "water all at once.@"
+	page "met het drinken" ; "by drinking over"
+	next "van 10 liter water"  ; "2.6 gallons of"
+	next "in één keer.@"  ; "water all at once.@"

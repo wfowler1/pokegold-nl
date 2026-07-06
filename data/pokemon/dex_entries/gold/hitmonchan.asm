@@ -1,11 +1,11 @@
-	db "PUNCHING@" ; species name
+	db "SLAG@" ; species name
 	db 14 ; height
 	dw 502 ; weight
 
-	db   "Its punches slice"
-	next "the air. However,"
-	next "it seems to need a"
+	db   "De klappen door-" ; "Its punches slice"
+	next "klieven de lucht," ; "the air. However,"
+	next "maar lijkt na drie" ; "it seems to need a"
 
-	page "short break after"
-	next "fighting for three"
-	next "minutes.@"
+	page "minuten vechten" ; "short break after"
+	next "een korte pauze" ; "fighting for three"
+	next "nodig te hebben.@" ; "minutes.@"

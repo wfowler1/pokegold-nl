@@ -1,11 +1,11 @@
-	db "FROG@" ; species name
+	db "KIKKER@" ; species name
 	db 11 ; height
 	dw 339 ; weight
 
-	db   "If POLIWAG and"
-	next "POLIWHIRL hear its"
-	next "echoing cry, they"
+	db   "Als POLIWAG EN PO-" ; "If POLIWAG and"
+	next "LIWHIRL de echo-" ; "POLIWHIRL hear its"
+	next "kreet horen," ;  "echoing cry, they"
 
-	page "respond by gather-"
-	next "ing from far and"
-	next "wide.@"
+	page "reageren ze door" ; "respond by gather-"
+	next "van heinde en ver-"; "ing from far and"
+	next "re te verzamelen.@" ; "wide.@"

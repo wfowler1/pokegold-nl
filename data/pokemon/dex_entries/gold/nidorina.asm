@@ -1,11 +1,11 @@
-	db "POISON PIN@" ; species name
+	db "GIFPUNT@" ; species name
 	db 8 ; height
 	dw 200 ; weight
 
-	db   "When feeding its"
-	next "young, it first"
-	next "chews and tender-"
+	db   "Kauwt voer" ; "When feeding its"
+	next "gevonden voor" ; "  young, it first"
+	next "jonkies. Spuugt" ; "chews and tender-"
 
-	page "izes the food,"
-	next "then spits it out"
-	next "for the offspring.@"
+	page "het daarna uit" ; "izes the food,"
+	next "zodat kinderen het" ; "then spits it out"
+	next "kunnen eten.@" ; "for the offspring.@"

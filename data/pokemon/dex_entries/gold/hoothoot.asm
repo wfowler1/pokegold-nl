@@ -1,11 +1,11 @@
-	db "OWL@" ; species name
+	db "UIL@" ; species name
 	db 7 ; height
 	dw 212 ; weight
 
-	db   "It always stands"
-	next "on one foot. It"
-	next "changes feet so"
+	db   "Staat altijd op" ; "It always stands"
+	next "één poot. Het" ; "on one foot. It"
+	next "wisselt zo snel" ; "changes feet so"
 
-	page "fast, the movement"
-	next "can rarely be"
-	next "seen.@"
+	page "van poot, dat de" ; "fast, the movement"
+	next "beweging zelden" ; "can rarely be"
+	next "wordt gezien.@" ; "seen.@"

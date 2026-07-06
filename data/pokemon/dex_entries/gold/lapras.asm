@@ -2,10 +2,10 @@
 	db 25 ; height
 	dw 2200 ; weight
 
-	db   "They have gentle"
-	next "hearts. Because"
-	next "they rarely fight,"
+	db   "Heeft een teder" ; "They have gentle"
+	next "hart. Omdat het" ; "hearts. Because"
+	next "zelden vecht, zijn ; "they rarely fight,"
 
-	page "many have been"
-	next "caught. Their num-"
-	next "ber has dwindled.@"
+	page "er veel gevangen." ; "many have been"
+	next "Het aantal is" ; "caught. Their num-"
+	next "geslonken.@" ; "ber has dwindled.@"

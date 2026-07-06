@@ -1,11 +1,11 @@
-	db "LIVE COAL@" ; species name
+	db "HETE KOOL@" ; species name
 	db 7 ; height
 	dw 214 ; weight
 
-	db   "Each and every"
-	next "time it inhales"
-	next "and exhales, hot"
+	db   "Elke keer dat het"; "Each and every"
+	next "in- en uitademt," ; "time it inhales"
+	next "druppelen gloei-" ; "and exhales, hot"
 
-	page "embers dribble out"
-	next "of its mouth and"
-	next "nostrils.@"
+	page "ende sintels uit" ; "embers dribble out"
+	next "de mond en neus-" ; "of its mouth and"
+	next "gaten.@" ; "nostrils.@"

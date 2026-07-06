@@ -1,11 +1,11 @@
-	db "SCRATCHCAT@" ; species name
+	db "KRABKAT@" ; species name
 	db 4 ; height
 	dw 42 ; weight
 
-	db   "It is fascinated"
-	next "by round objects."
-	next "It can't stop"
+	db   "Gefascineerd door" ; "It is fascinated"
+	next "ronde voorwerpen." ; "by round objects."
+	next "Kan niet stoppen" ; "It can't stop"
 
-	page "playing with them"
-	next "until it tires and"
-	next "falls asleep.@"
+	page "ermee te spelen" ; "playing with them"
+	next "tot het moe wordt" ; "until it tires and"
+	next "en in slaap valt.@" ; "falls asleep.@"

@@ -3,8 +3,8 @@
 	dw 125 ; weight
 
 	db   "Als het aanvalt," ; "When it attacks,"
-	next "flappert het ge-" ; "it flaps its large"
-	next "welddadig met de" ; "wings violently to"
+	next "flappert het" ; "it flaps its large"
+	next "gewelddadig met de" ; "wings violently to"
 
 	page "vleugels om overal" ; "scatter its poi-"
 	next "giftig poeder te" ; "sonous powder all"

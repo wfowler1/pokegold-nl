@@ -1,11 +1,11 @@
-	db "FIRE HORSE@" ; species name
+	db "VUURPAARD@" ; species name
 	db 10 ; height
 	dw 300 ; weight
 
-	db   "It is a weak run-"
-	next "ner immediately"
-	next "after birth. It"
+	db   "Is bij de geboorte" ; "It is a weak run-"
+	next "een zwakke renner." ; "ner immediately"
+	next "Wordt geleidelijk" ; "after birth. It"
 
-	page "gradually becomes"
-	next "faster by chasing"
-	next "after its parents.@"
+	page "sneller door" ; "gradually becomes"
+	next "achter de ouders" ; "faster by chasing"
+	next "aan te hollen.@" ; "after its parents.@"
