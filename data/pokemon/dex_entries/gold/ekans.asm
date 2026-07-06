@@ -7,5 +7,5 @@
 	next "en in één hap een" ; "swallow large prey"
 
 	page "prooi doorslikken." ; "whole. It can be-"
-	next "Kan soms daarna" ; come too heavy to"
+	next "Kan soms daarna" ; "come too heavy to"
 	next "niet meer bewegen.@" ; "move, however.@"

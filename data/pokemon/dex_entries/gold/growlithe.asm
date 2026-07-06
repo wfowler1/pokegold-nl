@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 190 ; weight
 
-	db   "It has a brave and"
-	next "trustworthy na-"
-	next "ture. It fear-"
+	db   "Van nature dapper" ; "It has a brave and"
+	next "en betrouwbaar." ; "trustworthy na-"
+	next "Staat onbevreesd" ; "ture. It fear-"
 
-	page "lessly stands up"
-	next "to bigger and"
-	next "stronger foes.@"
+	page "op tegen grotere" ; "lessly stands up"
+	next "en sterkere" ; "to bigger and"
+	next "tegenstanders.@" ; "stronger foes.@"

@@ -1,11 +1,11 @@
-	db "DUCK@" ; species name
+	db "EEND@" ; species name
 	db 17 ; height
 	dw 766 ; weight
 
-	db   "When it swims at"
-	next "full speed using"
-	next "its long, webbed"
+	db   "Als het op volle" ; "When it swims at"
+	next "snelheid zwemt met" ; "full speed using"
+	next "de lange gevliesde"  ; "its long, webbed"
 
-	page "limbs, its fore-"
-	next "head somehow be-"
-	next "gins to glow.@"
+	page "ledematen, begint" ; "limbs, its fore-"
+	next "het voorhoofd" ; "head somehow be-"
+	next "te gloeien.@" ; "gins to glow.@"

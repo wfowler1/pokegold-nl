@@ -2,10 +2,10 @@
 	db 4 ; height
 	dw 25 ; weight
 
-	db   "The shell is very"
-	next "durable. Even if"
-	next "it cracks, it can"
+	db   "Heeft een sterke" ; "The shell is very"
+	next "eierschaal. Zelfs" ; "durable. Even if"
+	next "bij een barst," ; "it cracks, it can"
 
-	page "survive without"
-	next "spilling the"
-	next "contents.@"
+	page "overleeft het" ; "survive without"
+	next "zonder zijn in-" ; "spilling the"
+	next "houd te lekken.@" ; "contents.@"

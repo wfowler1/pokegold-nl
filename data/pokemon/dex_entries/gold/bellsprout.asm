@@ -7,5 +7,5 @@
 	next "is het vliegens-" ; "skinny, it is"
 
 	page "vlug wanneer het" ; "blindingly fast"
-	next "een prooi gaat@" ; "when catching its"
+	next "een prooi gaat" ; "when catching its"
 	next "vangen.@" ; "prey.@"
