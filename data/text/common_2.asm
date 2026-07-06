@@ -37,7 +37,7 @@ _UseDigText::
 
 _UseEscapeRopeText::
 	text "<PLAYER> gebruikte" ; "<PLAYER> used an"
-	line "ONTSNAPSTOUW." ; "ESCAPE ROPE."
+	line "ONTSNAPTOUW." ; "ESCAPE ROPE."
 	done
 
 _CantUseDigText::
@@ -53,8 +53,6 @@ _TeleportReturnText::
 _CantUseTeleportText::
 	text "Kun je hier niet" ; "Can't use that"
 	line "gebruiken." ; "here."
-
-	para ""
 	done
 
 _AlreadyUsingStrengthText::
@@ -349,7 +347,7 @@ _UsedMove2Text:: ; AlwaysReplace
 	line "deed @" ; "used @"
 	text_end
 
-_UsedInsteadText:: ; AlwaysReplace
+_UsedInsteadText:: ; PreviousInstruction line
 	text "in plaats" ; "instead,"
 	cont "van, @" ; "@"
 	text_end

@@ -1700,7 +1700,7 @@ HandleWeather:
 .ended
 	ld hl, .WeatherEndedMessages
 	call .PrintWeatherMessage
-	xor a
+	xor a ; WEATHER_NONE
 	ld [wBattleWeather], a
 	ret
 
@@ -1718,15 +1718,19 @@ HandleWeather:
 
 .WeatherMessages:
 ; entries correspond to WEATHER_* constants
+	table_width 2
 	dw BattleText_RainContinuesToFall
 	dw BattleText_TheSunlightIsStrong
 	dw BattleText_TheSandstormRages
+	assert_table_length NUM_WEATHERS
 
 .WeatherEndedMessages:
 ; entries correspond to WEATHER_* constants
+	table_width 2
 	dw BattleText_TheRainStopped
 	dw BattleText_TheSunlightFaded
 	dw BattleText_TheSandstormSubsided
+	assert_table_length NUM_WEATHERS
 
 SubtractHPFromTarget:
 	call SubtractHP
@@ -2856,7 +2860,7 @@ MonFaintedAnimation:
 	dec b
 	jr nz, .InnerLoop
 
-	ld bc, 20
+	ld bc, SCREEN_WIDTH
 	add hl, bc
 	ld de, .Spaces
 	call PlaceString
@@ -4629,7 +4633,9 @@ UpdateHPPal:
 	jp FinishBattleAnim
 
 Battle_DummyFunction:
-; called before placing either battler's nickname in the HUD
+; Called before placing either battler's nickname in the HUD.
+; This was CenterMonName in Gen 1.
+; In Gen 2, pokemon nicknames are always left-aligned on the HUD.
 	ret
 
 BattleMenu:
@@ -7806,7 +7812,7 @@ StartBattle:
 	lb bc, 4, 10
 	call ClearBox
 	call ClearSprites
-	ld a, [wEnemyMonEnd]
+	ld a, [wBattleMode]
 	cp WILD_BATTLE
 	call z, UpdateEnemyHUD
 	ld a, $1
@@ -8135,7 +8141,7 @@ ReadAndPrintLinkBattleRecord:
 	pop hl
 	call PlaceString
 	pop hl
-	ld de, 26
+	ld de, SCREEN_WIDTH + 6
 	add hl, de
 	push hl
 	ld de, wLinkBattleRecordWins

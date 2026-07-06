@@ -1023,6 +1023,9 @@ namespace PokeGen2TextValidator
             { "{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}", 3 },
             { "{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}", 3 },
             { "{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}", 3 },
+            { "{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}", 3 },
+            { "{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}", 3 },
+            { "{d:MAHOGANYTOWN_RAGECANDYBAR_PRICE}", 3 },
             { "{UNOWNWORD_{d:x}}", 7 },
             { "{d:MONS_PER_BOX}", 2 },
             { "<JP_18>", 2 },
@@ -1190,7 +1193,7 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎";
+        public const string PrintableChars = "“”·… ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎";
 
         private Block _block;
         private StringBuilder output;
