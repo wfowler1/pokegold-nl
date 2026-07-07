@@ -1,4 +1,4 @@
-	db "EVOLUTIE@" ; "EVOLUTION" species name
+	db "EVOLUTIE@" ; "EVOLUTION@" species name
 	db 3 ; height
 	dw 65 ; weight
 

@@ -1,4 +1,4 @@
-	db "RIVIERKRAB@" ; "RIVER CRAB" species name
+	db "RIVIERKRAB@" ; "RIVER CRAB@" species name
 	db 4 ; height
 	dw 65 ; weight
 

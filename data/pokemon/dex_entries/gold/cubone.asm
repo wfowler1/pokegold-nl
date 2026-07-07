@@ -1,4 +1,4 @@
-	db "EENZAAM@" ; "LONELY" species name
+	db "EENZAAM@" ; "LONELY@" species name
 	db 4 ; height
 	dw 65 ; weight
 

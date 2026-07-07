@@ -1,4 +1,4 @@
-	db "KLAUW@" ; "SHARP CLAW" species name
+	db "KLAUW@" ; "SHARP CLAW@" species name
 	db 9 ; height
 	dw 280 ; weight
 

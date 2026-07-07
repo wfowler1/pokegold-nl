@@ -1,4 +1,4 @@
-	db "SCHAALDIER@" ; "SHELLFISH" species name
+	db "SCHAALDIER@" ; "SHELLFISH@" species name
 	db 5 ; height
 	dw 115 ; weight
 

@@ -1,4 +1,4 @@
-	db "HERMIET@" ; "HERMITCRAB" species name
+	db "HERMIET@" ; "HERMITCRAB@" species name
 	db 16 ; height
 	dw 785 ; weight
 

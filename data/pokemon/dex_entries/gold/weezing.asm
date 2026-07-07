@@ -1,4 +1,4 @@
-	db "POISON GAS@" ; "POISON GAS" species name
+	db "GIFGAS@" ; "POISON GAS@" species name
 	db 12 ; height
 	dw 95 ; weight
 

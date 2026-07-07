@@ -1,4 +1,4 @@
-	db "AQUAKONIJN@" ; "AQUARABBIT" species name
+	db "AQUAKONIJN@" ; "AQUARABBIT@" species name
 	db 8 ; height
 	dw 285 ; weight
 

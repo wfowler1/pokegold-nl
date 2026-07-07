@@ -1,4 +1,4 @@
-	db "TURTLE@" ; "TURTLE" species name
+	db "TURTLE@" ; "TURTLE@" species name
 	db 10 ; height
 	dw 225 ; weight
 

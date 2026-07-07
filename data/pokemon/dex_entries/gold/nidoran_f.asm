@@ -1,4 +1,4 @@
-	db "GIFPUNT@" ; "POISON PIN" species name
+	db "GIFPUNT@" ; "POISON PIN@" species name
 	db 4 ; height
 	dw 70 ; weight
 

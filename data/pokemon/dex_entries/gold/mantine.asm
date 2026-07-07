@@ -1,4 +1,4 @@
-	db "VLIEGER@" ; "KITE" species name
+	db "VLIEGER@" ; "KITE@" species name
 	db 21 ; height
 	dw 2200 ; weight
 

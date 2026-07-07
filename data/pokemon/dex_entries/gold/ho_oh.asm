@@ -1,4 +1,4 @@
-	db "REGENBOOG@" ; "RAINBOW" species name
+	db "REGENBOOG@" ; "RAINBOW@" species name
 	db 38 ; height
 	dw 1990 ; weight
 

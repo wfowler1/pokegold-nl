@@ -1,4 +1,4 @@
-	db "MELKKOE@" ; "MILK COW" species name
+	db "MELKKOE@" ; "MILK COW@" species name
 	db 12 ; height
 	dw 755 ; weight
 

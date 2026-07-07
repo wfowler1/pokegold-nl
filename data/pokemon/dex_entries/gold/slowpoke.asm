@@ -1,4 +1,4 @@
-	db "DOMMIG@" ; "DOPEY" species name
+	db "DOMMIG@" ; "DOPEY@" species name
 	db 12 ; height
 	dw 360 ; weight
 

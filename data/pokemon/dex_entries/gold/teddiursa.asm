@@ -1,4 +1,4 @@
-	db "KLEINEBEER@" ; "LITTLEBEAR" species name
+	db "KLEINEBEER@" ; "LITTLEBEAR@" species name
 	db 6 ; height
 	dw 88 ; weight
 

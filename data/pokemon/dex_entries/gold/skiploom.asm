@@ -1,4 +1,4 @@
-	db "KATOENWIET@" ; "COTTONWEED" species name
+	db "KATOENWIET@" ; "COTTONWEED@" species name
 	db 6 ; height
 	dw 10 ; weight
 

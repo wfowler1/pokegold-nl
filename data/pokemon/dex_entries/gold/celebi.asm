@@ -1,4 +1,4 @@
-	db "TIJDREIS@" ; "TIMETRAVEL" species name
+	db "TIJDREIS@" ; "TIMETRAVEL@" species name
 	db 6 ; height
 	dw 50 ; weight
 

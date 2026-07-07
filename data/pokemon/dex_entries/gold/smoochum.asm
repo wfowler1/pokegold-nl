@@ -1,4 +1,4 @@
-	db "KUS@" ; "KISS" species name
+	db "KUS@" ; "KISS@" species name
 	db 4 ; height
 	dw 60 ; weight
 

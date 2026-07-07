@@ -1,4 +1,4 @@
-	db "DUISTER@" ; "DARK" species name
+	db "DUISTER@" ; "DARK@" species name
 	db 6 ; height
 	dw 108 ; weight
 
