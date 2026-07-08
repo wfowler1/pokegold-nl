@@ -1,11 +1,11 @@
-	db "LIGHT@" ; species name
+	db "LICHT@" ; "LIGHT@" species name
 	db 14 ; height
 	dw 615 ; weight
 
-	db   "The bright light"
-	next "on its tail can be"
-	next "seen far away. It"
+	db   "Het felle licht op" ; "The bright light"
+	next "de staart kan van" ; "on its tail can be"
+	next "ver worden gezien." ; "seen far away. It"
 
-	page "has been treasured"
-	next "since ancient"
-	next "times as a beacon.@"
+	page "Sinds de oudheid" ; "has been treasured"
+	next "wordt het gekoes-" ; "since ancient"
+	next "terd als baken.@" ; "times as a beacon.@"

@@ -2,10 +2,10 @@
 	db 35 ; height
 	dw 650 ; weight
 
-	db   "With a very venge-"
-	next "ful nature, it"
-	next "won't give up the"
+	db   "Is van nature erg" ; "With a very venge-"
+	next "wreed. Als het" ; "ful nature, it"
+	next "een prooi gevonden" ; "won't give up the"
 
-	page "chase, no matter"
-	next "how far, once it"
-	next "targets its prey.@"
+	page "heeft, geeft 't de" ; "chase, no matter"
+	next "jacht nooit meer" ; "how far, once it"
+	next "op, hoe lang ook.@" ; "targets its prey.@"
