@@ -1,11 +1,11 @@
-	db "GOLDFISH@" ; species name
+	db "GOUDVIS@" ; "GOLDFISH@" species name
 	db 6 ; height
 	dw 150 ; weight
 
-	db   "Its dorsal, pecto-"
-	next "ral and tail fins"
-	next "wave elegantly in"
+	db   "De rug-, borst- en" ; "Its dorsal, pecto-"
+	next "staartvinnen gol-" ; "ral and tail fins"
+	next "ven elegant in het" ; "wave elegantly in"
 
-	page "water. That is why"
-	next "it is known as the"
-	next "water dancer.@"
+	page "water. Staat" ; "water. That is why"
+	next "daarom bekend als" ; "it is known as the"
+	next "de waterdanser.@" ; "water dancer.@"

@@ -1,11 +1,11 @@
-	db "MOLD@" ; species name
+	db "SCHIMMEL@" ; "MOLD@" species name
 	db 6 ; height
 	dw 205 ; weight
 
-	db   "The BERRIES it"
-	next "stores in its"
-	next "vase-like shell"
+	db   "De BESSEN die het" ; "The BERRIES it"
+	next "bewaart in het" ; "stores in its"
+	next "vaasachtige schild" ; "vase-like shell"
 
-	page "decompose and"
-	next "become a gooey"
-	next "liquid.@"
+	page "ontbinden en" ; "decompose and"
+	next "worden een kleve-" ; "become a gooey"
+	next "rige vloeistof.@" ; "liquid.@"

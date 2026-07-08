@@ -1,11 +1,11 @@
-	db "SEA LION@" ; species name
+	db "ZEELEEUW@" ; "SEA LION@" species name
 	db 11 ; height
 	dw 900 ; weight
 
-	db   "Although it can't"
-	next "walk well on land,"
-	next "it is a graceful"
+	db   "Kan op land niet" ; "Although it can't"
+	next "goed lopen, maar" ; "walk well on land,"
+	next "is een gracieuze" ; "it is a graceful"
 
-	page "swimmer. It espe-"
-	next "cially loves being"
-	next "in frigid seas.@"
+	page "zwemmer. Zwemt" ; "swimmer. It espe-"
+	next "het liefst in ijs-" ; "ecially loves being"
+	next "koud zweewater.@" ; "in frigid seas.@"

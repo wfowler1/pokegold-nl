@@ -1,11 +1,11 @@
-	db "PATIENT@" ; species name
+	db "GEDULDIG@" ; "PATIENT@" species name
 	db 13 ; height
 	dw 285 ; weight
 
-	db   "It hates light and"
-	next "shock. If attack-"
-	next "ed, it inflates"
+	db   "Het heeft een" ; "It hates light and"
+	next "hekel aan licht en" ; "shock. If attack-"
+	next "schrik. Het blaast" ; "ed, it inflates"
 
-	page "its body to pump"
-	next "up its counter-"
-	next "strike.@"
+	page "het lijf op om" ; "its body to pump"
+	next "een tegenaanval" ; "up its counter-"
+	next "te versterken.@" ; "strike.@"

@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; "BALLOON@" species name
 	db 5 ; height
 	dw 55 ; weight
 
-	db   "If it inflates to"
-	next "SING a lullaby, it"
-	next "can perform longer"
+	db   "Als het opblaast" ; "If it inflates to"
+	next "om een slaaplied" ; "SING a lullaby, it"
+	next "te ZINGEN kan het" ; "can perform longer"
 
-	page "and cause sure"
-	next "drowsiness in its"
-	next "audience.@"
+	page "langer optreden en" ; "and cause sure"
+	next "wordt het publiek" ; "drowsiness in its"
+	next "slaperig.@" ; "audience.@"

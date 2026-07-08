@@ -1,11 +1,11 @@
-	db "POISON GAS@" ; species name
+	db "GIFGAS@" ; "POISON GAS@" species name
 	db 12 ; height
 	dw 95 ; weight
 
-	db   "If one of the twin"
-	next "KOFFING inflates,"
-	next "the other one"
+	db   "Als een van de" ; "If one of the twin"
+	next "twee KOFFINGs op-" ; "KOFFING inflates,"
+	next "blaast loopt de" ; "the other one"
 
-	page "deflates. It con-"
-	next "stantly mixes its"
-	next "poisonous gases.@"
+	page "ander leeg. Het" ; "deflates. It con-"
+	next "mengt constant" ; "stantly mixes its"
+	next "de gifgassen.@" ; "poisonous gases.@"

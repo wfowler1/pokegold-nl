@@ -1,11 +1,11 @@
-	db "WEED@" ; species name
+	db "ONKRUID@" ; "WEED@" species name
 	db 5 ; height
 	dw 54 ; weight
 
-	db   "Awakened by moon-"
-	next "light, it roams "
-	next "actively at night."
+	db   "Ontwaakt door het" ; "Awakened by moon-"
+	next "maanlicht, dwaalt" ; "light, it roams "
+	next "het 's nachts" ; "actively at night."
 
-	page "In the day, it"
-	next "stays quietly"
-	next "underground.@"
+	page "rond. Blijft over-" ; "In the day, it"
+	next "dag stilletjes" ; "stays quietly"
+	next "onder de grond.@" ; "underground.@"

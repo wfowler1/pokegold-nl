@@ -1,11 +1,11 @@
-	db "DUCK@" ; species name
+	db "EEND@" ; "DUCK@" species name
 	db 8 ; height
 	dw 196 ; weight
 
-	db   "It has mystical"
-	next "powers but doesn't"
-	next "recall that it has"
+	db   "Heeft mystieke" ; "It has mystical"
+	next "krachten, maar kan" ; "powers but doesn't"
+	next "zich dit niet"; "recall that it has"
 
-	page "used them. That is"
-	next "why it always"
-	next "looks puzzled.@"
+	page "herinneren. Daarom"; "used them. That is"
+	next "kijkt het altijd" ; "why it always"
+	next "verward.@" ; "looks puzzled.@"

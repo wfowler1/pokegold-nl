@@ -1,11 +1,11 @@
-	db "DARKNESS@" ; species name
+	db "DUISTERNIS@" ; "DARKNESS@" species name
 	db 5 ; height
 	dw 21 ; weight
 
-	db   "Feared and loathed"
-	next "by many, it is"
-	next "believed to bring"
+	db   "Gehaat en gevreesd" ; "Feared and loathed"
+	next "door velen. Men" ; "by many, it is"
+	next "gelooft dat het" ; "believed to bring"
 
-	page "misfortune to all"
-	next "those who see it"
-	next "at night.@"
+	page "ongeluk brengt" ; "misfortune to all"
+	next "voor ieder die ze" ; "those who see it"
+	next "'s nachts ziet.@" ; "at night.@"

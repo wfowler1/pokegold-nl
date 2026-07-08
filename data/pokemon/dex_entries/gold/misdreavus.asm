@@ -1,11 +1,11 @@
-	db "SCREECH@" ; species name
+	db "SCHREEUW@" ; "SCREECH@" species name
 	db 7 ; height
 	dw 10 ; weight
 
-	db   "It likes playing"
-	next "mischievous tricks"
-	next "such as screaming"
+	db   "Haalt graag ondeu-" ; "It likes playing"
+	next "gende streken uit"; "mischievous tricks"
+	next "zoals schreeuwen"; "such as screaming"
 
-	page "and wailing to"
-	next "startle people at"
-	next "night.@"
+	page "en krijsen om men-" ; "and wailing to"
+	next "sen 's nachts bang" ; "startle people at"
+	next "te maken.@" ; "night.@"

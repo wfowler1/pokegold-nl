@@ -1,11 +1,11 @@
-	db "TINY MOUSE@" ; species name
+	db "MINIMUIS@" ; "TINY MOUSE@" species name
 	db 3 ; height
 	dw 20 ; weight
 
-	db   "It is not yet"
-	next "skilled at storing"
-	next "electricity."
+	db   "Nog niet bekwaam" ; "It is not yet"
+	next "in elektriciteit" ; "skilled at storing"
+	next "opslaan. Het kan" ; "electricity."
 
-	page "It may send out a"
-	next "jolt if amused"
-	next "or startled.@"
+	page "een schok geven" ; "It may send out a"
+	next "als het blij is" ; "jolt if amused"
+	next "of schrikt.@" ; "or startled.@"

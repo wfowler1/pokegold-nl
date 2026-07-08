@@ -1,11 +1,11 @@
-	db "FLYSCORPIO@" ; species name
+	db "SCHORPIOEN@" ; "FLYSCORPIO@" species name
 	db 11 ; height
 	dw 648 ; weight
 
-	db   "It flies straight"
-	next "at its target's"
-	next "face then clamps"
+	db   "Vliegt op gezicht" ; "It flies straight"
+	next "van doelwit" ; "at its target's"
+	next "af en klemt zich"  ; "face then clamps"
 
-	page "down on the star-"
-	next "tled victim to"
-	next "inject poison.@"
+	page "vast aan het" ; "down on the star-"
+	next "slachtoffer om gif" ; "tled victim to"
+	next "te injecteren.@" ; "inject poison.@"

@@ -1,11 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "KATOENWIET@" ; "COTTONWEED@" species name
 	db 6 ; height
 	dw 10 ; weight
 
-	db   "The bloom on top"
-	next "of its head opens"
-	next "and closes as the"
+	db   "De bloem bovenop" ; "The bloom on top"
+	next "het hoofd opent en" ; "of its head opens"
+	next "sluit wanneer de" ; "and closes as the"
 
-	page "temperature fluc-"
-	next "tuates up and"
-	next "down.@"
+	page "temperatuur op" ; "temperature fluc-"
+	next "en neer" ; "tuates up and"
+	next "fluctueert.@" ; "down.@"

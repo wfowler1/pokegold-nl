@@ -1,11 +1,11 @@
-	db "FAIRY@" ; species name
+	db "FEE@" ; "FAIRY@" species name
 	db 6 ; height
 	dw 78 ; weight
 
-	db   "Although it looks"
-	next "frightening, it is"
-	next "actually kind and"
+	db   "Hoewel het er eng" ; "Although it looks"
+	next "uitziet, is het" ; "frightening, it is"
+	next "aardig en aanhan-" ; "actually kind and"
 
-	page "affectionate. It"
-	next "is very popular"
-	next "among women.@"
+	page "kelijk. Het is" ; "affectionate. It"
+	next "heel populair" ; "is very popular"
+	next "onder vrouwen.@" ; "among women.@"

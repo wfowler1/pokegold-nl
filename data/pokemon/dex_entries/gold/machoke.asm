@@ -1,11 +1,11 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERSTERK@" ; "SUPERPOWER@" species name
 	db 15 ; height
 	dw 705 ; weight
 
-	db   "It always goes at"
-	next "its full power,"
-	next "but this very"
+	db   "Gaat altijd op vol" ; "It always goes at"
+	next "vermogen, maar de-" ; "its full power,"
+	next "ze sterke en ste-"; "but this very"
 
-	page "tough and durable"
-	next "#MON never gets"
-	next "tired.@"
+	page "vige #MON" ; "tough and durable"
+	next "wordt nooit" ;  "#MON never gets"
+	next "moe.@" ; "tired.@"

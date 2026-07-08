@@ -1,11 +1,11 @@
-	db "IMITATION@" ; species name
+	db "IMITATIE@" ; "IMITATION@" species name
 	db 12 ; height
 	dw 380 ; weight
 
-	db   "Although it always"
-	next "pretends to be a"
-	next "tree, its composi-"
+	db   "Hoewel het altijd" ; "Although it always"
+	next "een boom nadoet," ; "pretends to be a"
+	next "lijkt de samen-" ; "tree, its composi-"
 
-	page "tion appears to be"
-	next "closer to a rock"
-	next "than a plant.@"
+	page "stelling meer op" ; "tion appears to be"
+	next "een steen dan op" ; "closer to a rock"
+	next "een plant.@" ; "than a plant.@"

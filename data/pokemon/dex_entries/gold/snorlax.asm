@@ -1,11 +1,11 @@
-	db "SLEEPING@" ; species name
+	db "SLAPER@" ; "SLEEPING@" species name
 	db 21 ; height
 	dw 4600 ; weight
 
-	db   "What sounds like"
-	next "its cry may ac-"
-	next "tually be its"
+	db   "Wat klinkt als ge-" ; "What sounds like"
+	next "grom kan eigenlijk" ; "its cry may ac-"
+	next "gesnurk zijn, of" ; "tually be its"
 
-	page "snores or the"
-	next "rumblings of its"
-	next "hungry belly.@"
+	page "het gerommel van" ; "snores or the"
+	next "een hongerige" ; "rumblings of its"
+	next "maag.@" ; "hungry belly.@"

@@ -1,11 +1,11 @@
-	db "SWINE@" ; species name
+	db "ZWIJN@" ; "SWINE@" species name
 	db 11 ; height
 	dw 558 ; weight
 
-	db   "Because the long"
-	next "hair all over its"
-	next "body obscures its"
+	db   "Doordat de lange"; "Because the long"
+	next "lichaamsharen het" ; "hair all over its"
+	next "zicht beperken," ; "body obscures its"
 
-	page "sight, it just"
-	next "keeps charging"
-	next "repeatedly.@"
+	page "stormt het" ; "sight, it just"
+	next "herhaaldelijk de-" ; "keeps charging"
+	next "zelfde kant op.@" ; "repeatedly.@"

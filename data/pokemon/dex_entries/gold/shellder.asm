@@ -1,11 +1,11 @@
-	db "BIVALVE@" ; species name
+	db "TWEEKLEP@" ; "BIVALVE@" species name
 	db 3 ; height
 	dw 40 ; weight
 
-	db   "It swims facing"
-	next "backward by open-"
-	next "ing and closing"
+	db   "Zwemt achteruit" ; "It swims facing"
+	next "door de tweedelige" ; "backward by open-"
+	next "schelp open en" ; "ing and closing"
 
-	page "its two-piece"
-	next "shell. It is"
-	next "surprisingly fast.@"
+	page "dicht te doen." ; "its two-piece"
+	next "Het is verrassend" ; "shell. It is"
+	next "snel.@" ; "surprisingly fast.@"

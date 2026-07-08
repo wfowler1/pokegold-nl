@@ -1,11 +1,11 @@
-	db "CLEAR WING@" ; species name
+	db "DUNVLEUGEL@" ; "CLEAR WING@" species name
 	db 12 ; height
 	dw 380 ; weight
 
-	db   "If it flaps its"
-	next "wings really fast,"
-	next "it can generate"
+	db   "Als het heel snel" ; "If it flaps its"
+	next "met zijn vleugels" ; "wings really fast,"
+	next "slaat kan het" ; "it can generate"
 
-	page "shock waves that"
-	next "will shatter win-"
-	next "dows in the area.@"
+	page "schokgolven ver-" ; "shock waves that"
+	next "oorzaken die ramen" ; "will shatter win-"
+	next "kunnen breken.@" ; "dows in the area.@"

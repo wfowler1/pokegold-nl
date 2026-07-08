@@ -1,11 +1,11 @@
-	db "ROCK SNAKE@" ; species name
+	db "ROTSSLANG@" ; "ROCK SNAKE@" species name
 	db 88 ; height
 	dw 2100 ; weight
 
-	db   "It twists and"
-	next "squirms through"
-	next "the ground. The"
+	db   "Draait en kronkelt" ; "It twists and"
+	next "door de grond." ; "squirms through"
+	next "Het donderende ge-" ; "the ground. The"
 
-	page "thunderous roar of"
-	next "its tunneling"
-	next "echoes a long way.@"
+	page "brul van het ge-" ; "thunderous roar of"
+	next "graaf echoot tot"; "its tunneling"
+	next "ver weg.@" ; "echoes a long way.@"

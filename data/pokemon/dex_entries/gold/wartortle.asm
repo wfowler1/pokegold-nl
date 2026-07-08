@@ -1,11 +1,11 @@
-	db "TURTLE@" ; species name
+	db "TURTLE@" ; "TURTLE@" species name
 	db 10 ; height
 	dw 225 ; weight
 
-	db   "It is recognized"
-	next "as a symbol of"
-	next "longevity. If its"
+	db   "Het wordt erkend" ; "It is recognized"
+	next "als een symbool" ; "as a symbol of"
+	next "van duurzaamheid." ; "If its"
 
-	page "shell has algae on"
-	next "it, that WARTORTLE"
-	next "is very old.@"
+	page "Een oude WARTORTLE" ; "shell has algae on"
+	next "heeft een schild" ; "it, that WARTORTLE"
+	next "met veel algen.@" ; "is very old.@"

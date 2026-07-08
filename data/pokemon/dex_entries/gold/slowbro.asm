@@ -1,11 +1,11 @@
-	db "HERMITCRAB@" ; species name
+	db "HERMIET@" ; "HERMITCRAB@" species name
 	db 16 ; height
 	dw 785 ; weight
 
-	db   "If the tail-biting"
-	next "SHELLDER is thrown"
-	next "off in a harsh"
+	db   "Als de vastgebeten" ; "If the tail-biting"
+	next "SHELLDER van de" ; "SHELLDER is thrown"
+	next "staart valt in ge-" ; "off in a harsh"
 
-	page "battle, it reverts"
-	next "to being an ordi-"
-	next "nary SLOWPOKE.@"
+	page "vecht, verandert" ; "battle, it reverts"
+	next "het terug in een" ; "to being an ordi-"
+	next "gewone SLOWPOKE.@" ; "nary SLOWPOKE.@"

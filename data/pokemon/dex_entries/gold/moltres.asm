@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; "FLAME@" species name
 	db 20 ; height
 	dw 600 ; weight
 
-	db   "This legendary"
-	next "#MON scatters"
-	next "embers with every"
+	db   "Deze legendarische" ; "This legendary"
+	next "#MON verspreidt" ; "#MON scatters"
+	next "sintels met iedere"; "embers with every"
 
-	page "flap of its wings."
-	next "It is a thrilling"
-	next "sight to behold.@"
+	page "vleugelslag. Dit" ; "flap of its wings."
+	next "is een aangrijpend" ; "It is a thrilling"
+	next "schouwspel.@" ; "sight to behold.@"

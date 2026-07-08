@@ -1,11 +1,11 @@
-	db "BAGWORM@" ; species name
+	db "ZAKDRAGER@" ; "BAGWORM@" species name
 	db 6 ; height
 	dw 72 ; weight
 
-	db   "It likes to make"
-	next "its shell thicker"
-	next "by adding layers"
+	db   "Maakt graag de"; "It likes to make"
+	next "huls dikker door"; "its shell thicker"
+	next "lagen boomschors" ; "by adding layers"
 
-	page "of tree bark. The"
-	next "additional weight"
-	next "doesn't bother it.@"
+	page "toe te voegen. Dit" ; "of tree bark. The"
+	next "extra gewicht"; " additional weight"
+	next "stoort het niet.@" ;  "doesn't bother it.@"

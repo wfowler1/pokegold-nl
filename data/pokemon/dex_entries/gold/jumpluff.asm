@@ -1,11 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "KATOENPLANT@" ; "COTTONWEED@" species name
 	db 8 ; height
 	dw 30 ; weight
 
-	db   "Once it catches"
-	next "the wind, it deft-"
-	next "ly controls its"
+	db   "Als het wind" ; "Once it catches"
+	next "vangt, stuurt het" ; "the wind, it deft-"
+	next "behendig met de" ; "ly controls its"
 
-	page "cotton-puff spores"
-	next "to float, even"
-	next "around the world.@"
+	page "katoenpluissporen" ; "cotton-puff spores"
+	next "om heel de wereld" ; "to float, even"
+	next "rond te zweven.@" ; "around the world.@"

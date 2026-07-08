@@ -1,11 +1,11 @@
-	db "HAIRY BUG@" ; species name
+	db "INSECT@" ; "HAIRY BUG@" species name
 	db 3 ; height
 	dw 32 ; weight
 
-	db   "Its poison stinger"
-	next "is very powerful."
-	next "Its bright-colored"
+	db   "De gifangel is" ; "Its poison stinger"
+	next "heel krachtig." ; "is very powerful."
+	next "Het felgekleurde" ; "Its bright-colored"
 
-	page "body is intended"
-	next "to warn off its"
-	next "enemies.@"
+	page "lichaam is be-" ; "body is intended"
+	next "doeld om vijanden"; "to warn off its"
+	next "af te schrikken.@" ; "enemies.@"

@@ -1,11 +1,11 @@
-	db "ROCK@" ; species name
+	db "ROTS@" ; "ROCK@" species name
 	db 10 ; height
 	dw 1050 ; weight
 
-	db   "With a free and"
-	next "uncaring nature,"
-	next "it doesn't mind if"
+	db   "Met een vrije, on-" ; "With a free and"
+	next "verschillige aard,"  ;"uncaring nature,"
+	next "geeft het niet om" ; "it doesn't mind if"
 
-	page "pieces break off"
-	next "while it rolls"
-	next "down mountains.@"
+	page "afgebroken stukken" ; "pieces break off"
+	next "wanneer het berg-" ; "while it rolls"
+	next "afwaarts rolt.@" ;  "down mountains.@"

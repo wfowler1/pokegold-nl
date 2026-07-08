@@ -1,11 +1,11 @@
-	db "MUSHROOM@" ; species name
+	db "PADDESTOEL@" ; "MUSHROOM@" species name
 	db 3 ; height
 	dw 54 ; weight
 
-	db   "It is doused with"
-	next "mushroom spores"
-	next "when it is born."
+	db   "Overgoten met" ; "It is doused with"
+	next "schimmelsporen bij" ; "mushroom spores"
+	next "de geboorte. Ter-" ; "when it is born."
 
-	page "As its body grows,"
-	next "mushrooms sprout"
-	next "from its back.@"
+	page "wijl het groeit," ; "As its body grows,"
+	next "komen er padde-" ; "mushrooms sprout"
+	next "stoelen op de rug.@" ; "from its back.@"

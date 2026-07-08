@@ -1,11 +1,11 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERSTERK@" ; "SUPERPOWER@" species name
 	db 8 ; height
 	dw 195 ; weight
 
-	db   "Always brimming"
-	next "with power, it"
-	next "passes time by"
+	db   "Altijd boordevol" ; "Always brimming"
+	next "kracht. Het ver-" ; "with power, it"
+	next "maakt zich door" ; "passes time by"
 
-	page "lifting boulders."
-	next "Doing so makes it"
-	next "even stronger.@"
+	page "rotsen te tillen." ; "lifting boulders."
+	next "Hierdoor wordt" ; "Doing so makes it"
+	next "het nog sterker.@" ; "even stronger.@"

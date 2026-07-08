@@ -1,11 +1,11 @@
-	db "LITTLEBIRD@" ; species name
+	db "VOGELTJE@" ; "LITTLEBIRD@" species name
 	db 2 ; height
 	dw 20 ; weight
 
-	db   "Because its wings"
-	next "aren't yet fully"
-	next "grown, it has to"
+	db   "Omdat de vleugels" ; "Because its wings"
+	next "nog niet volgroeid" ; "aren't yet fully"
+	next "zijn, moeten ze" ; "grown, it has to"
 
-	page "hop to get around."
-	next "It is always star-"
-	next "ing at something.@"
+	page "huppelen. Ze sta-" ; "hop to get around."
+	next "ren altijd ergens" ; "It is always star-"
+	next "naar.@" ; "ing at something.@"

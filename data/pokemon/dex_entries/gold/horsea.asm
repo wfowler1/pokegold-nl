@@ -1,11 +1,11 @@
-	db "DRAGON@" ; species name
+	db "DRAAK@" ; "DRAGON@" species name
 	db 4 ; height
 	dw 80 ; weight
 
-	db   "If attacked by a"
-	next "larger enemy, it"
-	next "quickly swims to"
+	db   "Bij aanvallen door" ; "If attacked by a"
+	next "een grotere vijand" ; "larger enemy, it"
+	next "zwemt het snel" ; "quickly swims to"
 
-	page "safety by adeptly"
-	next "controlling its"
-	next "dorsal fin.@"
+	page "naar veiligheid" ; "safety by adeptly"
+	next "met de behendige" ; "controlling its"
+	next "rugvin.@" ; "dorsal fin.@"

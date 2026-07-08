@@ -1,11 +1,11 @@
-	db "LONG NOSE@" ; species name
+	db "LANGNEUS@" ; "LONG NOSE@" species name
 	db 5 ; height
 	dw 335 ; weight
 
-	db   "It swings its long"
-	next "snout around play-"
-	next "fully, but because"
+	db   "Slingert de lange" ; "It swings its long"
+	next "snuit speels rond," ; "snout around play-"
+	next "maar omdat het zo"; "fully, but because"
 
-	page "it is so strong,"
-	next "that can be dan-"
-	next "gerous.@"
+	page "sterk is kan" ; "it is so strong,"
+	next "dit gevaarlijk" ; "that can be dan-"
+	next "zijn.@" ; "gerous.@"

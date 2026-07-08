@@ -1,11 +1,11 @@
-	db "MYSTERIOUS@" ; species name
+	db "MYSTERIEUS@" ; "MYSTERIOUS@" species name
 	db 11 ; height
 	dw 800 ; weight
 
-	db   "The center section"
-	next "of its body is"
-	next "called the core."
+	db   "Het middenstuk van" ; "The center section"
+	next "het lichaam noemt" ; "of its body is"
+	next "men de kern. Het" ; "called the core."
 
-	page "It glows in a dif-"
-	next "ferent color each"
-	next "time it is seen.@"
+	page "gloeit bij iedere" ; "It glows in a dif-"
+	next "waarneming in een" ; "ferent color each"
+	next "andere kleur.@" ; "time it is seen.@"

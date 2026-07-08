@@ -1,11 +1,11 @@
-	db "MUSHROOM@" ; species name
+	db "PADDESTOEL@" ; "MUSHROOM@" species name
 	db 10 ; height
 	dw 295 ; weight
 
-	db   "It stays mostly in"
-	next "dark, damp places,"
-	next "the preference not"
+	db   "Blijft grotendeels" ; "It stays mostly in"
+	next "op donkere, natte" ; "dark, damp places,"
+	next "plekken. Niet het" ; "the preference not"
 
-	page "of the bug, but"
-	next "of the big mush-"
-	next "rooms on its back.@"
+	page "insect, maar de" ; "of the bug, but"
+	next "grote paddenstoel" ; "of the big mush-"
+	next "vindt dit fijn.@" ; "rooms on its back.@"

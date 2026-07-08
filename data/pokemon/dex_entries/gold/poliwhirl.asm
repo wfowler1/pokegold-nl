@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVIS@" ; "TADPOLE@" species name
 	db 10 ; height
 	dw 200 ; weight
 
-	db   "The swirl on its"
-	next "belly subtly un-"
-	next "dulates. Staring"
+	db   "De kolk op de buik"; "The swirl on its"
+	next "wervelt subtiel." ; "belly subtly un-"
+	next "Wie ernaar staart" ; "dulates. Staring"
 
-	page "at it may gradual-"
-	next "ly cause drowsi-"
-	next "ness.@"
+	page "kan geleidelijk" ; "at it may gradual-"
+	next "slaperig en suf"; "ly cause drowsi-"
+	next "worden.@" ; "ness.@"

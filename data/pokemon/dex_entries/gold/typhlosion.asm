@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; "VOLCANO@" species name
 	db 17 ; height
 	dw 795 ; weight
 
-	db   "If its rage peaks,"
-	next "it becomes so hot"
-	next "that anything that"
+	db   "Wanneer hun woede" ; "If its rage peaks,"
+	next "piekt, worden ze" ; "it becomes so hot"
+	next "zo heet dat alles" ; "that anything that"
 
-	page "touches it will"
-	next "instantly go"
-	next "up in flames.@"
+	page "wat ze aanraken" ; "touches it will"
+	next "meteen in vlammen" ; "instantly go"
+	next "opgaat.@" ; "up in flames.@"

@@ -1,11 +1,11 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERSTERK@" ; "SUPERPOWER@" species name
 	db 16 ; height
 	dw 1300 ; weight
 
-	db   "It quickly swings"
-	next "its four arms to"
-	next "rock its opponents"
+	db   "Zwaait snel met" ; "It quickly swings"
+	next "de vier armen om" ; "its four arms to"
+	next "de vijand alle" ; "rock its opponents"
 
-	page "with ceaseless"
-	next "punches and chops"
-	next "from all angles.@"
+	page "hoeken van de" ; "with ceaseless"
+	next "kamer te" ; "punches and chops"
+	next "laten zien.@" ; "from all angles.@"

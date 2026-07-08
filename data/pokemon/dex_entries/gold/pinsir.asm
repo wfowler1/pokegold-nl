@@ -1,11 +1,11 @@
-	db "STAGBEETLE@" ; species name
+	db "VLIEGHERT@" ; "STAGBEETLE@" species name
 	db 15 ; height
 	dw 550 ; weight
 
-	db   "With its horns, it"
-	next "digs burrows to"
-	next "sleep in at night."
+	db   "Met de hoorns";  "With its horns, it"
+	next "graaft het holen" ;  "digs burrows to"
+	next "om in te slapen."; "sleep in at night."
 
-	page "In the morning,"
-	next "damp soil clings"
-	next "to its body.@"
+	page "'s Ochtends plakt" ; "In the morning,"
+	next "vochtige aarde aan" ; "damp soil clings"
+	next "het lichaam.@" ; "to its body.@"

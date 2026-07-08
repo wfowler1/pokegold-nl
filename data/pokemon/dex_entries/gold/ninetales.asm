@@ -1,11 +1,11 @@
-	db "FOX@" ; species name
+	db "VOS@" ; "FOX@" species name
 	db 11 ; height
 	dw 199 ; weight
 
-	db   "Some legends claim"
-	next "that each of its"
-	next "nine tails has its"
+	db   "Legendes beweren" ; "Some legends claim"
+	next "dat elk van de" ; "that each of its"
+	next "negen staarten een" ; "nine tails has its"
 
-	page "own unique type"
-	next "of special"
-	next "mystical power.@"
+	page "unieke soort" ; "own unique type"
+	next "speciale, mystieke" ; "of special"
+	next "kracht heeft.@" ; "mystical power.@"

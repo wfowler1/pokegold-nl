@@ -1,11 +1,11 @@
-	db "WATER FISH@" ; species name
+	db "WATERVIS@" ; "WATER FISH@" species name
 	db 4 ; height
 	dw 85 ; weight
 
-	db   "This #MON lives"
-	next "in cold water. It"
-	next "will leave the"
+	db   "Deze #MON leeft" ; "This #MON lives"
+	next "in koud water. Het" ; "in cold water. It"
+	next "verlaat het water" ; "will leave the"
 
-	page "water to search"
-	next "for food when it"
-	next "gets cold outside.@"
+	page "om naar eten te" ; "water to search"
+	next "zoeken als het" ; "for food when it"
+	next "buiten afkoelt.@" ; "gets cold outside.@"

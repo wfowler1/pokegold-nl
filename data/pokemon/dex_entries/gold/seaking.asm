@@ -1,11 +1,11 @@
-	db "GOLDFISH@" ; species name
+	db "GOUDVIS@" ; "GOLDFISH@" species name
 	db 13 ; height
 	dw 390 ; weight
 
-	db   "During spawning"
-	next "season, SEAKING"
-	next "gather from all"
+	db   "Tijdens het paar-" ; "During spawning"
+	next "seizoen verzamelen" ; "season, SEAKING"
+	next "SEAKING van heinde" ; "gather from all"
 
-	page "over, coloring"
-	next "the rivers a"
-	next "brilliant red.@"
+	page "en verre, waardoor" ; "over, coloring"
+	next "rivieren fraai" ; "the rivers a"
+	next "rood kleuren.@" ; "brilliant red.@"

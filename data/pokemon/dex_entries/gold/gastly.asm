@@ -1,11 +1,11 @@
-	db "GAS@" ; species name
+	db "GAS@" ; "GAS@" species name
 	db 13 ; height
 	dw 1 ; weight
 
-	db   "With its gas-like"
-	next "body, it can sneak"
-	next "into any place it"
+	db   "Met het gasachtige" ; "With its gas-like"
+	next "lichaam kan het" ; "body, it can sneak"
+	next "overal binnenslui-" ; "into any place it"
 
-	page "desires. However,"
-	next "it can be blown"
-	next "away by wind.@"
+	page "pen. Echter kan" ; "desires. However,"
+	next "het wegwaaien door" ; "it can be blown"
+	next "de wind.@" ; "away by wind.@"

@@ -1,11 +1,11 @@
-	db "SLUDGE@" ; species name
+	db "SLIB@" ; "SLUDGE@" species name
 	db 12 ; height
 	dw 300 ; weight
 
-	db   "They love to gath-"
-	next "er in smelly areas"
-	next "where sludge ac-"
+	db   "Verzamelen graag" ; "They love to gath-"
+	next "op stinkende plek-" ; "er in smelly areas"
+	next "ken waar slijm op-" ; "where sludge ac-"
 
-	page "cumulates, making"
-	next "the stench around"
-	next "them worse.@"
+	page "hoopt. Hierdoor"; "cumulates, making"
+	next "verergert de stank"; "the stench around"
+	next "alleen maar.@" ; "them worse.@"
