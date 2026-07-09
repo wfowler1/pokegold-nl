@@ -343,8 +343,8 @@ PicnickerCindyAfterText:
 CamperBarryBeforeText:
 	text "Wahahaha!"
 
-	para "You betcha, dude."
-	line "I'm JANINE!"
+	para "Goed gezien, man." ; "You betcha, dude."
+	line "Ik ben JANINE!" ; "I'm JANINE!"
 	done
 
 CamperBarryBeatenText:
@@ -353,9 +353,9 @@ CamperBarryBeatenText:
 	done
 
 CamperBarryAfterText:
-	text "Hey, dude. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Hé man. Was m'n" ; "Hey, dude. Was my"
+	line "vermomming niet" ; "disguise cute or"
+	cont "schattig?" ; "what, huh?"
 	done
 
 FuchsiaGymGuideText:
