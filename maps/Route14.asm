@@ -92,21 +92,22 @@ BirdKeeperRoyAfterBattleText:
 	done
 
 PokefanmTrevorSeenText:
-	text "Did you battle all"
-	line "the GYM trainers?"
+	text "Heb je met alle" ; "Did you battle all"
+	line "GYM-trainers" ; "the GYM trainers?"
+	cont "gevochten?"
 	done
 
 PokefanmTrevorBeatenText:
-	text "Oh, wow! Too"
-	line "strong for me!"
+	text "Oh, wow! Te" ; "Oh, wow! Too"
+	line "sterk voor mij!" ; "strong for me!"
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "If you have KANTO"
-	line "BADGES, they'll"
+	text "Als je KANTO-" ; "If you have KANTO"
+	line "BADGES hebt," ; "BADGES, they'll"
 
-	para "help you in linked"
-	line "battles."
+	para "helpen ze in ge-" ; "help you in linked"
+	line "linkte gevechten." ; "battles."
 	done
 
 Route14_MapEvents:
