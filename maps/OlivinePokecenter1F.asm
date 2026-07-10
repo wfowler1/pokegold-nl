@@ -28,8 +28,8 @@ OlivinePokecenter1FFisherText:
 	para "Een leerde mijn" ; "One taught my"
 	line "#MON KRACHT." ; "#MON STRENGTH."
 
-	para "Nu kan het grote" ; "Now it can move"
-	line "rotsen verplaatsen." ; "big boulders."
+	para "Nu kan het rotsen" ; "Now it can move"
+	line "verplaatsen." ; "big boulders."
 	done
 
 OlivinePokecenter1FTeacherText:

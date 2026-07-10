@@ -39,7 +39,7 @@ GoldenrodPokecenter1FGameboyKidText:
 
 	para "aan de muur ge-" ; "wall, so I can't"
 	line "hangen, dus ik kan" ; "afford to lose."
-	line "niet verliezen."
+	cont "niet verliezen."
 	done
 
 GoldenrodPokecenter1FPersonText:

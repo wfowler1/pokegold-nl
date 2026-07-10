@@ -1,11 +1,11 @@
-	db "STARSHAPE@" ; species name
+	db "STERVORM@" ; "STARSHAPE@" species name
 	db 3 ; height
 	dw 30 ; weight
 
-	db   "When numerous me-"
-	next "teors illuminate"
-	next "the night sky,"
+	db   "Wanneer vele mete-" ; "When numerous me-"
+	next "oren de sterren-" ; "teors illuminate"
+	next "hemel verlichten," ; "the night sky,"
 
-	page "sightings of"
-	next "CLEFFA strangely"
-	next "increase.@"
+	page "komen waarnemingen" ; "sightings of"
+	next "van CLEFFA gek ge-" ; "CLEFFA strangely"
+	next "noeg vaker voor.@" ; "increase.@"

@@ -1,11 +1,11 @@
-	db "LIZARD@" ; species name
+	db "HAGEDIS@" ; "LIZARD@" species name
 	db 6 ; height
 	dw 85 ; weight
 
-	db   "The flame on its"
-	next "tail indicates"
-	next "CHARMANDER's life"
+	db   "De vlam aan de" ; "The flame on its"
+	next "staart geeft CHAR-" ; "tail indicates"
+	next "MANDERS gezondheid" ; "CHARMANDER's life"
 
-	page "force. If it is"
-	next "healthy, the flame"
-	next "burns brightly.@"
+	page "weer. Als het ge-" ; "force. If it is"
+	next "zond is, brandt" ; "healthy, the flame"
+	next "de vlam feller.@" ; "burns brightly.@"

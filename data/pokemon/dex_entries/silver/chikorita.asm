@@ -1,11 +1,11 @@
-	db "LEAF@" ; species name
+	db "BLAD@" ; "LEAF@" species name
 	db 9 ; height
 	dw 64 ; weight
 
-	db   "Its pleasantly"
-	next "aromatic leaves"
-	next "have the ability"
+	db   "De prettig aroma-" ; "Its pleasantly"
+	next "tische bladeren" ; "aromatic leaves"
+	next "hebben de gave om" ; "have the ability"
 
-	page "to check the hu-"
-	next "midity and tem-"
-	next "perature.@"
+	page "luchtvochtigheid" ; "to check the hu-"
+	next "en temperatuur te" ; "midity and tem-"
+	next "meten.@" ; "perature.@"
