@@ -10,34 +10,37 @@ TinTowerSageScript:
 	jumptextfaceplayer TinTowerSageText
 
 TinTowerSageText:
-	text "I'm trying to un-"
-	line "cover the secret"
+	text "Ik probeer het" ; "I'm trying to un-"
+	line "geheim van de" ; "cover the secret"
 
-	para "of the legendary"
-	line "#MON that is"
-	cont "said to land here."
+	para "legendarische" ; "of the legendary"
+	line "#MON die hier" ; "#MON that is"
+	cont "zou zijn geland" ; "said to land here."
 
-	para "They say that the"
-	line "#MON has flown"
+	para "te ontdekken." ; "They say that the"
+	line "Men zegt dat de" ; "#MON has flown"
 
-	para "continuously ever"
-	line "since the TOWER in"
-	cont "the West burned."
+	para "#MON continu" ; "continuously ever"
+	line "heeft gevlogen" ; "since the TOWER in"
+	cont "sinds de brand" ; "the West burned."
 
-	para "So, I thought that"
-	line "if I had what the"
+	para "in de TOREN in" ; "So, I thought that"
+	line "het westen." ; "if I had what the"
 
-	para "#MON has, it"
-	line "would be attracted"
-	cont "by that item."
+	para "Dus, ik dacht" ; "#MON has, it"
+	line "als ik iets heb" ; "would be attracted"
+	cont "dat die #MON" ; "by that item."
 
-	para "I think that item"
-	line "is probably…"
+	para "heeft, het door" ; "I think that item"
+	line "dat voorwerp wordt" ; "is probably…"
 
-	para "A RAINBOW WING!"
+	para "aangetrokken." ; "A RAINBOW WING!"
 
-	para "But, where would"
-	line "I find one?"
+	para "Dat voorwerp is" ; "But, where would"
+	line "waarschijnlijk…" ; "I find one?"
+	para "EEN REGENBOOGVEER!"
+	para "Maar, waar"
+	line "vind ik er een?"
 	done
 
 TinTower1F_MapEvents:

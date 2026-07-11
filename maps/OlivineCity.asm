@@ -236,12 +236,12 @@ OlivineCityStandingYoungsterPokedexText:
 	done
 
 OlivineCitySailor2Text:
-	text "Hello, laddie!"
-	line "The sea is sweet!"
+	text "Hallo, jochie!" ; "Hello, laddie!"
+	line "De zee is zoet!" ; "The sea is sweet!"
 
-	para "Sing with me! "
-	line "Yo-ho! Blow the"
-	cont "man down!…"
+	para "Zing mee! " ; "Sing with me! "
+	line "Berend Botje" ; "Yo-ho! Blow the"
+	cont "ging uit varen…" ; "man down!…"
 	done
 
 OlivineCitySignText:

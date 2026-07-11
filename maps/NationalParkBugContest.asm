@@ -159,13 +159,13 @@ BugCatchingContestant6AText: ; AlwaysReplace
 	done
 
 BugCatchingContestant7AText:
-	text "CINDY: What is it?"
+	text "CINDY: Wat is er?" ; "CINDY: What is it?"
 
-	para "Do you find it"
-	line "funny that a girl"
+	para "Vind je 't grappig" ; "Do you find it"
+	line "dat een meisje" ; "funny that a girl"
 
-	para "is catching bug"
-	line "#MON?"
+	para "insect-#MON" ; "is catching bug"
+	line "vangt?" ; "#MON?"
 	done
 
 BugCatchingContestant8AText:

@@ -26,23 +26,24 @@ OlivineCafeFishingGuruScript:
 	jumptextfaceplayer OlivineCafeFishingGuruText
 
 OlivineCafeStrengthSailorText:
-	text "Hah! Your #MON"
-	line "sure look like"
-	cont "lightweights!"
+	text "Hah! Je #MON" ; "Hah! Your #MON"
+	line "zien eruit als" ; "sure look like"
+	cont "lichtgewichten!" ; "lightweights!"
 
-	para "They don't have"
-	line "the power to move"
-	cont "boulders aside."
+	para "Ze hebben niet de" ; "They don't have"
+	line "kracht om rotsen" ; "the power to move"
+	cont "te verplaatsen." ; "boulders aside."
 
-	para "Here, use this"
-	line "and teach them"
-	cont "STRENGTH!"
+	para "Hier, gebruik dit" ; "Here, use this"
+	line "en leer ze" ; "and teach them"
+	cont "KRACHT!" ; "STRENGTH!"
 
-	para "You'll need"
+	para "Je hebt een BADGE" ; "You'll need"
 	line "GOLDENROD's GYM"
 
-	para "BADGE to use that"
-	line "outside battles."
+	para "nodig om 't" ; "BADGE to use that"
+	line "buiten gevechten" ; "outside battles."
+	cont "te gebruiken."
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
@@ -58,18 +59,19 @@ OlivineCafeStrengthSailorText_GotStrength:
 	done
 
 OlivineCafeFishingGuruText:
-	text "Crossing the sea?"
-	line "Then listen up!"
+	text "Ga je over zee?" ; "Crossing the sea?"
+	line "Luister dan goed!" ; "Then listen up!"
 
-	para "There are whirl-"
-	line "pools on the way"
-	cont "to CIANWOOD."
+	para "Er zijn draai-" ; "There are whirl-"
+	line "kolken op weg" ; "pools on the way"
+	cont "naar CIANWOOD." ; "to CIANWOOD."
 
-	para "Your #MON must"
-	line "know a special"
+	para "Je #MON moeten" ; "Your #MON must"
+	line "een speciale" ; "know a special"
 
-	para "move to get over"
-	line "the whirlpools."
+	para "aanval kennen om" ; "move to get over"
+	line "er overheen te" ; "the whirlpools."
+	cont "gaan."
 	done
 
 OlivineCafe_MapEvents:

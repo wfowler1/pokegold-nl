@@ -146,14 +146,14 @@ TrainerHouseB1FPleaseComeAgainText:
 	done
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "I'm sorry, sir."
-	line "This would be your"
+	text "Excuses, meneer." ; "I'm sorry, sir."
+	line "Dit zou je" ; "This would be your"
 
-	para "second time today."
-	line "You're permitted"
+	para "tweede keer zijn" ; "second time today."
+	line "vandaag. Je mag" ; "You're permitted"
 
-	para "to enter just once"
-	line "a day."
+	para "slechts eenmaal" ; "to enter just once"
+	line "per dag meedoen." ; "a day."
 	done
 
 TrainerHouseB1FCalBeatenText:

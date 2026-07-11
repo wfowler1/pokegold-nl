@@ -166,14 +166,14 @@ CamperTedAfterBattleText:
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #MON"
-	line "too!"
+	text "Ik voed ook" ; "I raise #MON"
+	line "#MON op!" ; "too!"
 
-	para "Let's battle!"
+	para "Laten we vechten!" ; "Let's battle!"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, darn it!"
+	text "Oh verdorie!" ; "Oh, darn it!"
 	done
 
 PicnickerErinAfterBattleText:

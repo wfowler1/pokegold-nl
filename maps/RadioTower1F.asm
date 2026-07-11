@@ -328,49 +328,51 @@ RadioTower1FRadioCardWomanOfferQuizText:
 	done
 
 RadioTower1FRadioCardWomanQuestion1Text:
-	text "Question 1:"
+	text "Vraag 1:" ; "Question 1:"
 
-	para "Can the TOWN MAP"
-	line "be displayed on a"
-	cont "#GEAR?"
+	para "Kan de REGIOKAART" ; "Can the TOWN MAP"
+	line "in de #GEAR" ; "be displayed on a"
+	cont "worden getoond?" ; "#GEAR?"
 	done
 
 RadioTower1FRadioCardWomanQuestion2Text:
 	text "Correct!"
-	line "Question 2:"
+	line "Vraag 2:" ; "Question 2:"
 
-	para "Can NIDORINA be"
-	line "female only?"
+	para "Kan NIDORINA al-" ; "Can NIDORINA be"
+	line "leen vrouwelijk" ; "female only?"
+	cont "zijn?"
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
-	text "Bull's-eye!"
-	line "Question 3:"
+	text "Juist!" ; "Bull's-eye!"
+	line "Vraag 3:" ; "Question 3:"
 
-	para "Does KURT, the"
-	line "# BALL crafts-"
-	cont "man, use APRIKORN?"
+	para "Gebruikt KURT, de" ; "Does KURT, the"
+	line "#BAL ambachts-" ; "# BALL crafts-"
+	cont "man, ABRIKHORN?" ; "man, use APRIKORN?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
-	text "So far so good!"
-	line "Question 4:"
+	text "Goed tot nu toe!" ; "So far so good!"
+	line "Vraag 4:" ; "Question 4:"
 
-	para "MAGIKARP won't"
-	line "learn any TM move?"
+	para "MAGIKARP kan geen" ; "MAGIKARP won't"
+	line "TM-aanval leren?" ; "learn any TM move?"
 	done
 
 RadioTower1FRadioCardWomanQuestion5Text:
-	text "Wow! Right again!"
-	line "Here's the final"
-	cont "question:"
+	text "Wow! Weer goed!" ; "Wow! Right again!"
+	line "Hier is de" ; "Here's the final"
+	cont "laatste vraag:" ; "question:"
 
 	para "PROF.OAK'S #MON"
-	line "TALK is a very"
-	cont "popular program."
+	line "PRAAT is een" ; "TALK is a very"
+	cont "populaire show." ; "popular program."
 
-	para "Is MARIE the co-"
-	line "host of the show?"
+	para "Is MARIE de mede-" ; "Is MARIE the co-"
+	line "gastvrouw van de" ; "host of the show?"
+	cont "show?"
 	done
 
 RadioTower1FRadioCardWomanYouWinText:
@@ -402,9 +404,9 @@ RadioTower1FRadioCardWomanWrongAnswerText:
 	done
 
 RadioTower1FRadioCardWomanNotTakingQuizText:
-	text "Oh. I see. Please"
-	line "try if you change"
-	cont "your mind."
+	text "Oh. OK. Kom terug" ; "Oh. I see. Please"
+	line "als je van ge-" ; "try if you change"
+	cont "dachten verandert." ; "your mind."
 	done
 
 RadioTower1FLassText:

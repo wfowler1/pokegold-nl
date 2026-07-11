@@ -161,10 +161,10 @@ SwimmermSimonAfterBattleText:
 	done
 
 SwimmermRandallSeenText:
-	text "A young guy like"
-	line "you should swim."
+	text "Een jongeman als" ; "A young guy like"
+	line "jij moet zwemmen." ; "you should swim."
 
-	para "Don't SURF on your"
+	para "SURF niet op je" ; "Don't SURF on your"
 	line "#MON."
 	done
 

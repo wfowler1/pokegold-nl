@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; "VOLCANO@" species name
 	db 21 ; height
 	dw 1980 ; weight
 
-	db   "A #MON that"
-	next "races across the"
-	next "land. It is said"
+	db   "Een #MON die" ; "A #MON that"
+	next "rent door het" ; "races across the"
+	next "land. Men zegt dat" ; "land. It is said"
 
-	page "that one is born"
-	next "every time a new"
-	next "volcano appears.@"
+	page "er een wordt gebo-" ; "that one is born"
+	next "ren wanneer er een" ; "every time a new"
+	next "vulkaan ontstaat.@" ; "volcano appears.@"

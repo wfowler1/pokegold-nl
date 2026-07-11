@@ -423,8 +423,8 @@ BirdKeeperJose2AfterBattleText:
 TohjoFallsSignText:
 	text "TOHJO FALLS"
 
-	para "The Link Between"
-	line "KANTO and JOHTO"
+	para "De schakel tussen" ; "The Link Between"
+	line "KANTO en JOHTO" ; "KANTO and JOHTO"
 	done
 
 Route27_MapEvents:

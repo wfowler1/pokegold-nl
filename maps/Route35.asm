@@ -329,8 +329,9 @@ PicnickerKimAfterBattleText:
 	done
 
 BirdKeeperBryanSeenText:
-	text "What kinds of #"
-	line "BALL do you use?"
+	text "Wat voor soort" ; "What kinds of #"
+	line "#BAL" ; "BALL do you use?"
+	cont "gebruik je?"
 	done
 
 BirdKeeperBryanBeatenText:
@@ -381,8 +382,8 @@ BugCatcherArnieSeenText:
 	done
 
 BugCatcherArnieBeatenText:
-	text "I see. So you"
-	line "battle that way."
+	text "Aha. Dus je" ; "I see. So you"
+	line "vecht zo." ; "battle that way."
 	done
 
 BugCatcherArnieAfterBattleText:

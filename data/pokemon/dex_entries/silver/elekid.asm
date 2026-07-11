@@ -1,11 +1,11 @@
-	db "ELECTRIC@" ; species name
+	db "ELEKTRISCH@" ; "ELECTRIC@" species name
 	db 6 ; height
 	dw 235 ; weight
 
-	db   "Even in the most"
-	next "vicious storm,"
-	next "this #MON plays"
+	db   "Zelfs in de ergste" ; "Even in the most"
+	next "storm speelt deze" ; "vicious storm,"
+	next "#MON vrolijk" ; "this #MON plays"
 
-	page "happily if thunder"
-	next "rumbles in the"
-	next "sky.@"
+	page "als er donder" ; "happily if thunder"
+	next "door de lucht" ; "rumbles in the"
+	next "rommelt.@" ; "sky.@"

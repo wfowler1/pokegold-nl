@@ -1,11 +1,11 @@
-	db "SNAKE@" ; species name
+	db "SLANG@" ; "SNAKE@" species name
 	db 20 ; height
 	dw 69 ; weight
 
-	db   "It always hides in"
-	next "grass. When first"
-	next "born, it has no"
+	db   "Verstopt altijd" ; "It always hides in"
+	next "in het gras. Na de" ; "grass. When first"
+	next "geboorte heeft het" ; "born, it has no"
 
-	page "poison, so its"
-	next "bite is painful,"
-	next "but harmless.@"
+	page "nog geen gif. Als" ; "poison, so its"
+	next "het dan bijt, is" ; "bite is painful,"
+	next "het ongevaarlijk.@" ; "but harmless.@"

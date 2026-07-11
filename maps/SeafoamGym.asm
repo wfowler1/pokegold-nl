@@ -126,22 +126,23 @@ BlaineFightDoneText:
 SeafoamGymGuideWinText:
 	text "Yo!"
 
-	para "… Huh? It's over"
-	line "already?"
+	para "… Huh? Is het" ; "… Huh? It's over"
+	line "voorbij?" ; "already?"
 
-	para "Sorry, dude!"
+	para "Sorry man!" ; "Sorry, dude!"
 
 	para "CINNABAR GYM was"
-	line "gone, so I didn't"
+	line "weg, dus ik wist" ; "gone, so I didn't"
 
-	para "know where to find"
-	line "you."
+	para "niet waar ik je" ; "know where to find"
+	line "kon vinden." ; "you."
 
-	para "But, hey, you're"
-	line "plenty strong even"
+	para "Maar hé, je bent" ; "But, hey, you're"
+	line "zelfs zonder mijn" ; "plenty strong even"
 
-	para "without my advice."
-	line "I knew you'd win!"
+	para "advies een sterke." ; "without my advice."
+	line "Ik wist dat je" ; "I knew you'd win!"
+	cont "zou winnen!"
 	done
 
 SeafoamGymGuideWinText2:

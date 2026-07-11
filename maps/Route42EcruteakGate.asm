@@ -10,11 +10,11 @@ Route42EcruteakGateOfficerScript:
 	jumptextfaceplayer Route42EcruteakGateOfficerText
 
 Route42EcruteakGateOfficerText:
-	text "MOUNT MORTAR is"
-	line "like a maze."
+	text "VIJZELBERG is" ; "MOUNT MORTAR is"
+	line "net een doolhof." ; "like a maze."
 
-	para "Be careful. Don't"
-	line "get lost in there."
+	para "Voorzichtig." ; "Be careful. Don't"
+	line "Verdwaal niet." ; "get lost in there."
 	done
 
 Route42EcruteakGate_MapEvents:

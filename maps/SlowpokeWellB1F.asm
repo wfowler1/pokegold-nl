@@ -143,33 +143,35 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Hey there,"
+	text "KURT: Hé daar," ; "KURT: Hey there,"
 	line "<PLAYER>!"
 
-	para "The guards up top"
-	line "took off when I"
-	cont "shouted at them."
+	para "De bewakers boven" ; "The guards up top"
+	line "vluchtten toen" ; "took off when I"
+	cont "ik naar ze riep." ; "shouted at them."
 
-	para "But then I took a"
-	line "tumble down the"
-	cont "WELL."
+	para "Maar toen viel" ; "But then I took a"
+	line "ik per ongeluk" ; "tumble down the"
+	cont "in de PUT." ; "WELL."
 
-	para "I slammed down"
-	line "hard on my back,"
-	cont "so I can't move."
+	para "Ik kwam hard op" ; "I slammed down"
+	line "mijn rug neer, dus" ; "hard on my back,"
+	cont "ik kan me niet" ; "so I can't move."
 
-	para "Rats! If I were"
-	line "fit, my #MON"
+	para "bewegen." ; "Rats! If I were"
+	line "Verdraaid! Als ik" ; "fit, my #MON"
 
-	para "would've punished"
-	line "them…"
+	para "fit was, zouden" ; "would've punished"
+	line "m'n #MON ze heb-" ; "them…"
 
-	para "Ah, it can't be"
-	line "helped."
+	para "ben gestraft…" ; "Ah, it can't be"
+	line "Ah, niets aan" ; "helped."
 
-	para "<PLAYER>, show them"
-	line "how gutsy you are"
-	cont "in my place!"
+	para "te doen." ; "<PLAYER>, show them"
+	line "<PLAYER>, laat" ; "how gutsy you are"
+	cont "ze een poepie" ; "in my place!"
+	cont "ruiken in mijn"
+	cont "plaats!"
 	done
 
 KurtLeaveSlowpokeWellText:
@@ -231,9 +233,10 @@ GruntM1SeenText:
 	done
 
 GruntM1BeatenText:
-	text "You did OK today,"
-	line "brat, but wait"
-	cont "'til next time!"
+	text "Je deed 't oké" ; "You did OK today,"
+	line "ettertje, wacht" ; "brat, but wait"
+	cont "maar tot de" ; "'til next time!"
+	cont "volgende keer!"
 	done
 
 TrainerGruntM1WhenTalkText:

@@ -16,25 +16,26 @@ FishingDudesHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "GURU, the elder of"
-	cont "the FISHING BROS."
+	text "Ik ben de VIS-" ; "I am the FISHING"
+	line "GOEROE, de oudste" ; "GURU, the elder of"
+	cont "VISBROEDER." ; "the FISHING BROS."
 
-	para "Do you happen to"
-	line "know FISHERMAN"
+	para "Ken je toe-" ; "Do you happen to"
+	line "vallig VISSER" ; "know FISHERMAN"
 
-	para "WILTON? He fishes"
-	line "on ROUTE 44."
+	para "WILTON? Hij vist" ; "WILTON? He fishes"
+	line "op ROUTE 44." ; "on ROUTE 44."
 
-	para "He came through"
-	line "with an amazing"
-	cont "tip on the phone."
+	para "Hij gaf een ge-" ; "He came through"
+	line "weldige tip via" ; "with an amazing"
+	cont "de telefoon." ; "tip on the phone."
 
-	para "Thanks to him, I"
-	line "caught a whole lot"
+	para "Dankzij hem heb" ; "Thanks to him, I"
+	line "ik 'n hoop zeld-" ; "caught a whole lot"
 
-	para "of a rare #MON."
-	line "What a day it was!"
+	para "zame #MON ge-" ; "of a rare #MON."
+	line "vangen. Wat een" ; "What a day it was!"
+	cont "dag!"
 	done
 
 FishingDudesHousePhotoText:

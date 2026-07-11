@@ -54,19 +54,20 @@ FlowerShopRadio: ; unreferenced
 	jumpstd Radio2Script
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
-	text "Oh, you're better"
-	line "than WHITNEY."
+	text "Oh, je bent beter" ; "Oh, you're better"
+	line "dan WHITNEY." ; "than WHITNEY."
 
-	para "Do you know about"
-	line "that moving tree?"
+	para "Weet je van die" ; "Do you know about"
+	line "bewegende boom?" ; "that moving tree?"
 
-	para "If you wet it with"
-	line "a SQUIRTBOTTLE, it"
-	cont "attacks."
+	para "Als je die nat" ; "If you wet it with"
+	line "maakt met een" ; "a SQUIRTBOTTLE, it"
+	cont "SPUITFLES, gaat" ; "attacks."
 
-	para "But since you"
-	line "have some BADGES,"
-	cont "you should be OK."
+	para "het in de aanval." ; "But since you"
+	line "Maar gezien je" ; "have some BADGES,"
+	cont "wat BADGES hebt," ; "you should be OK."
+	cont "red je het vast."
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
@@ -76,28 +77,29 @@ GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
 	done
 
 GoldenrodFlowerShopFloriaMustBeAMonText:
-	text "When I watered"
-	line "that moving tree"
+	text "Toen ik die" ; "When I watered"
+	line "bewegende boom" ; "that moving tree"
 
-	para "on ROUTE 36, it"
-	line "jumped!"
+	para "op ROUTE 36" ; "on ROUTE 36, it"
+	line "water gaf, maakte" ; "jumped!"
 
-	para "I think it must be"
-	line "a #MON."
+	para "'t een sprongetje!" ; "I think it must be"
+	line "Ik denk dat het" ; "a #MON."
 
-	para "But it would take"
-	line "someone like WHIT-"
-	cont "NEY, our GYM LEAD-"
-	cont "ER, to beat it."
+	para "een #MON is." ; "But it would take"
+	line "Maar enkel iemand" ; "someone like WHIT-"
+	cont "als WHITNEY, onze" ; "NEY, our GYM LEAD-"
+	cont "GYMLEIDER, kan" ; "ER, to beat it."
+	cont "het verslaan."
 	done
 
 GoldenrodFlowerShopFloriaJumpsInSurpriseText:
-	text "Do you know about"
-	line "the moving tree?"
+	text "Weet je van die" ; "Do you know about"
+	line "bewegende boom?" ; "the moving tree?"
 
-	para "If you water it,"
-	line "it jumps up in"
-	cont "surprise!"
+	para "Als je die water" ; "If you water it,"
+	line "geeft, doet ie" ; "it jumps up in"
+	cont "een sprongetje!" ; "surprise!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

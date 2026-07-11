@@ -1,11 +1,11 @@
-	db "SUN@" ; species name
+	db "ZON@" ; "SUN@" species name
 	db 9 ; height
 	dw 265 ; weight
 
-	db   "By reading air"
-	next "currents, it can"
-	next "predict things"
+	db   "Door luchstromen" ; "By reading air"
+	next "te lezen, voor-" ; "currents, it can"
+	next "spelt het zaken" ; "predict things"
 
-	page "such as the weath-"
-	next "er or its foe's"
-	next "next move.@"
+	page "als het weer of de" ; "such as the weath-"
+	next "volgende actie van" ; "er or its foe's"
+	next "de vijand.@" ; "next move.@"

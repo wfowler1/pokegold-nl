@@ -158,9 +158,10 @@ VioletPokecenterElmsAideAskEggText:
 	done
 
 VioletPokecenter1FSuperNerdText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Iemand genaamd" ; "A guy named BILL"
+	line "BILL heeft het" ; "made the #MON"
+	cont "#MON PC-opslag-" ; "PC storage system."
+	cont "systeem gemaakt."
 	done
 
 VioletPokecenter1FGentlemanText:

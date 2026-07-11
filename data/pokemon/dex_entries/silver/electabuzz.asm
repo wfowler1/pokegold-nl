@@ -1,11 +1,11 @@
-	db "ELECTRIC@" ; species name
+	db "ELEKTRISCH@" ; "ELECTRIC@" species name
 	db 11 ; height
 	dw 300 ; weight
 
-	db   "Its body constant-"
-	next "ly discharges"
-	next "electricity. Get-"
+	db   "Het lichaam ont-" ; "Its body constant-"
+	next "laadt constant el-" ; "ly discharges"
+	next "ektriciteit. Kom" ; "electricity. Get-"
 
-	page "ting close to it"
-	next "will make your"
-	next "hair stand on end.@"
+	page "te dichtbij en je" ; "ting close to it"
+	next "haar gaat rechtop" ; "will make your"
+	next "staan.@" ; "hair stand on end.@"

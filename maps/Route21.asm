@@ -58,11 +58,11 @@ SwimmermSethAfterBattleText:
 	done
 
 SwimmerfNikkiSeenText:
-	text "Hi!"
+	text "Hoi!" ; "Hi!"
 
-	para "I was just going"
-	line "to put some sun"
-	cont "block on."
+	para "Ik wou me" ; "I was just going"
+	line "net gaan" ; "to put some sun"
+	cont "insmeren." ; "block on."
 	done
 
 SwimmerfNikkiBeatenText:

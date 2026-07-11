@@ -1,11 +1,11 @@
-	db "BEAK@" ; species name
+	db "SNAVEL@" ; "BEAK@" species name
 	db 12 ; height
 	dw 380 ; weight
 
-	db   "It cleverly uses"
-	next "its thin, long"
-	next "beak to pluck and"
+	db   "Op een snuggere" ; "It cleverly uses"
+	next "manier gebruikt 't" ; "its thin, long"
+	next "de dunne, lange" ; "beak to pluck and"
 
-	page "eat small insects"
-	next "that hide under"
-	next "the ground.@"
+	page "snavel om onder-" ; "eat small insects"
+	next "grondse insectjes" ; "that hide under"
+	next "op te pikken.@" ; "the ground.@"

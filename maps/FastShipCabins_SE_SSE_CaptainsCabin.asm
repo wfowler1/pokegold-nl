@@ -247,31 +247,34 @@ SSAquaCaptainHowDoYouLikeText:
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Hello, son…"
-	line "I can't find my"
-	cont "granddaughter."
+	text "Hallo, knul…" ; "Hello, son…"
+	line "Ik kan m'n klein-" ; "I can't find my"
+	cont "dochter niet" ; "granddaughter."
 
-	para "If she's on the"
-	line "ship, that's OK."
+	para "vinden." ; "If she's on the"
+	line "Als ze aan boord" ; "ship, that's OK."
 
-	para "But what if she"
-	line "fell overboard?"
+	para "is, is het goed." ; "But what if she"
+	line "Maar wat als ze" ; "fell overboard?"
 
-	para "She's an energetic"
-	line "child, so she may"
+	para "van boord is" ; "She's an energetic"
+	line "gevallen?" ; "child, so she may"
 
-	para "be bugging some-"
-	line "one. I'm worried…"
+	para "Ze is een levendig" ; "be bugging some-"
+	line "kind, dus ze valt" ; "one. I'm worried…"
+	para "wellicht iemand"
+	line "lastig. Ik maak"
+	cont "me zorgen…"
 	done
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAYER>, was it? I"
-	line "heard you enter-"
-	cont "tained my grand-"
-	cont "daughter."
+	text "<PLAYER>, toch? Ik" ; "<PLAYER>, was it? I"
+	line "hoorde dat je met" ; "heard you enter-"
+	cont "mijn kleindochter" ; "tained my grand-"
+	cont "hebt gespeeld." ; "daughter."
 
-	para "I want to thank"
-	line "you for that."
+	para "Ik wil je daar" ; "I want to thank"
+	line "voor bedanken." ; "you for that."
 	done
 
 SSAquaGrandpaHaveThisText:
@@ -311,7 +314,7 @@ SSAquaGranddaughterWasPlayingMText:
 	text "Opa, hier ben ik!" ; "Grandpa, here I"
 	line "Ik speelde met de" ; "am! I was playing"
 
-	para "KAPITEIN en met" ; "with the CAPTAIN"
+	para "de KAPITEIN en met" ; "with the CAPTAIN"
 	line "deze jongen!" ; "and this guy!"
 	done
 
@@ -321,8 +324,8 @@ SSAquaGranddaughterHadFunText:
 	done
 
 PokefanmColinSeenText:
-	text "Hey, son! Want to"
-	line "battle with me?"
+	text "Hé knul! Wil je" ; "Hey, son! Want to"
+	line "met me vechten?" ; "battle with me?"
 	done
 
 PokefanmColinBeatenText:

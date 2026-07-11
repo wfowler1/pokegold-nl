@@ -252,27 +252,29 @@ Text_Route31HandOverMailMon:
 	done
 
 Text_Route31ReadingMail:
-	text "Let's see…"
+	text "Eens zien…" ; "Let's see…"
 
-	para "…DARK CAVE leads"
-	line "to another road…"
+	para "…DUISTERE GROT" ; "…DARK CAVE leads"
+	line "leidt naar een" ; "to another road…"
 
-	para "That's good to"
-	line "know."
+	para "andere weg…" ; "That's good to"
+	line "Goed om te" ; "know."
 
-	para "Thanks for bring-"
-	line "ing this to me."
+	para "weten." ; "Thanks for bring-"
+	line "Bedankt dat je" ; "ing this to me."
 
-	para "My friend's a good"
-	line "guy, and you're a"
-	cont "swell guy too!"
+	para "dit meebracht." ; "My friend's a good"
+	line "Mijn vriend is een" ; "guy, and you're a"
+	cont "goeie gast, en jij" ; "swell guy too!"
 
-	para "I'd like to do"
-	line "something good in"
-	cont "return too!"
+	para "bent ook een" ; "I'd like to do"
+	line "topgozer!" ; "something good in"
+	cont "Ik wil ook iets" ; "return too!"
 
-	para "I know! I want you"
-	line "to have this!"
+	para "goeds terugdoen" ; "I know! I want you"
+	line "voor je!" ; "to have this!"
+	para "Ik heb het al!"
+	line "Neem dit!"
 	done
 
 Text_Route31DescribeNightmare:

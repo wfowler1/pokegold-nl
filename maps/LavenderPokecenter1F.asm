@@ -56,11 +56,11 @@ LavenderPokecenter1FTeacherText:
 	done
 
 LavenderPokecenter1FYoungsterText:
-	text "The RADIO STATION"
-	line "can't broadcast"
+	text "Het RADIOSTATION" ; "The RADIO STATION"
+	line "kan niet uitzenden" ; "can't broadcast"
 
-	para "because the POWER"
-	line "PLANT is down."
+	para "omdat de ENERGIE-" ; "because the POWER"
+	line "CENTRALE platligt." ; "PLANT is down."
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:

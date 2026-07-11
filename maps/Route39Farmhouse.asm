@@ -94,81 +94,84 @@ FarmhouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 FarmerMText_SickCow:
-	text "My MILTANK ain't"
-	line "givin' me milk"
-	cont "nomore."
+	text "Mien MILTANK geft" ; "My MILTANK ain't"
+	line "gien drup melk" ; "givin' me milk"
+	cont "meer." ; "nomore."
 
-	para "This here FARM's"
-	line "got famous milk."
+	para "Deze BOERDERIJ hef" ; "This here FARM's"
+	line "beroem'n melk." ; "got famous milk."
 
-	para "Most everyone"
-	line "wants a drink."
+	para "Alleman wil d'r" ; "Most everyone"
+	line "'n slok van." ; "wants a drink."
 
-	para "It'll give me lots"
-	line "o' milk if'n I"
+	para "Geft mie veul melk" ; "It'll give me lots"
+	line "as'k d'r" ; "o' milk if'n I"
 
-	para "feed it lots o'"
-	line "BERRIES, I reckon."
+	para "veul BESJES in" ; "feed it lots o'"
+	line "kieper, denk'k." ; "BERRIES, I reckon."
 	done
 
 FarmerMText_BuyMilk:
-	text "How'd you like my"
-	line "MOOMOO MILK?"
+	text "Wa vind'ie van m'n" ; "How'd you like my"
+	line "MOOMOO MELK?" ; "MOOMOO MILK?"
 
-	para "It's my pride and"
-	line "joy, son."
+	para "'t is mien" ; "It's my pride and"
+	line "trots, mien jong." ; "joy, son."
 
-	para "Give it to #MON"
-	line "to restore HP!"
+	para "Gef 't aan" ; "Give it to #MON"
+	line "#MON, dan" ; "to restore HP!"
 
-	para "I'll give it to ya"
-	line "fer just ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
+	para "kriegen ze de" ; "I'll give it to ya"
+	line "HP weer vol!" ; "fer just ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
+	para "En veur joe,"
+	line "veur maar ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}"
 	done
 
 FarmerMText_GotMilk:
-	text "Hiero! Drink en" ; "Here ya go!"
+	text "Hiero! Drink 'n" ; "Here ya go!"
 	line "geniet!" ; "Drink up'n enjoy!"
 	done
 
 FarmerMText_NoMoney:
-	text "Sorry, son."
-	line "No cash, no sale!"
+	text "Sorry, mien jong." ; "Sorry, son."
+	line "Geun geld," ; "No cash, no sale!"
+	cont "geun verkoop!"
 	done
 
 FarmerMText_NoRoom:
-	text "I reckon yer"
-	line "PACK's full, son."
+	text "Je TAS zit" ; "I reckon yer"
+	line "vol, mien jong." ; "PACK's full, son."
 	done
 
 FarmerMText_NoSale:
-	text "Geen interesse?" ; "You don't want it?"
-	line "Kom nog eens, he?" ; "Come again, hear?"
+	text "Geun interesse?" ; "You don't want it?"
+	line "Kom nog 'ns, ja?" ; "Come again, hear?"
 	done
 
 FarmerMText_Milking:
-	text "Beter ga ik eem" ; "I best go do my"
+	text "Beter ga'k 'em" ; "I best go do my"
 	line "melken." ; "milkin'."
 	done
 
 FarmerFText_InTrouble:
-	text "We bezorgen zelfs" ; "Our milk even goes"
+	text "We bezorg'n zelfs" ; "Our milk even goes"
 	line "in KANTO." ; "out to KANTO."
 
 	para "Dus als MILTANK" ; "So if our own"
-	line "geen melk geeft," ; "MILTANK won't give"
+	line "geun melk gef," ; "MILTANK won't give"
 
-	para "hebben we een dik" ; "us any milk, we're"
+	para "hebb'n we 'n dik" ; "us any milk, we're"
 	line "probleem." ; "in trouble."
 	done
 
 FarmerFText_HealedMiltank:
 	text "Je hebt MILTANK" ; "You fixed our"
-	line "gefixt, schat. Nu" ; "MILTANK, hon. Now"
+	line "gefixt, jong. Nu" ; "MILTANK, hon. Now"
 
-	para "hebben we weer" ; "it gives MOOMOO"
+	para "hebb'n we weur" ; "it gives MOOMOO"
 	line "MOOMOO-melk." ; "MILK again."
 
-	para "Hier is iets voor" ; "Here's somethin'"
+	para "Hier is iets veur" ; "Here's somethin'"
 	line "de moeite." ; "fer your trouble."
 	done
 
@@ -181,15 +184,15 @@ FarmerFText_SnoreSpeech:
 	text "Dat daar is" ; "That there's"
 	line "SNURK." ; "SNORE."
 
-	para "Een zeldzame aan-" ; "It's a rare move"
+	para "'n zeldzame aan-" ; "It's a rare move"
 	line "val die alleen" ; "that only works"
 
 	para "werkt als de" ; "while the #MON"
 	line "#MON slaapt." ; "is asleep."
 
 	para "Denk maar goed na" ; "You best think how"
-	line "over wat je ermee" ; "you ought to use"
-	cont "kan, schat." ; "it, hon."
+	line "over wat joe ermee" ; "you ought to use"
+	cont "kan, jong." ; "it, hon."
 	done
 
 Route39Farmhouse_MapEvents:

@@ -1,11 +1,11 @@
-	db "BAGWORM@" ; species name
+	db "ZAKDRAGER@" ; "BAGWORM@" species name
 	db 12 ; height
 	dw 1258 ; weight
 
-	db   "It remains immova-"
-	next "bly rooted to its"
-	next "tree. It scatters"
+	db   "Onbeweeglijk ge-" ; "It remains immova-"
+	next "worteld aan een" ; "bly rooted to its"
+	next "boom. Verspreidt" ; "tree. It scatters"
 
-	page "pieces of its hard"
-	next "shell to drive its"
-	next "enemies away.@"
+	page "delen van de harde" ; "pieces of its hard"
+	next "schelp om vijanden" ; "shell to drive its"
+	next "af te weren.@" ; "enemies away.@"

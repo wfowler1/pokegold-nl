@@ -1,11 +1,11 @@
-	db "WEED@" ; species name
+	db "ONKRUID@" ; "WEED@" species name
 	db 8 ; height
 	dw 86 ; weight
 
-	db   "It secretes a"
-	next "sticky, drool-like"
-	next "honey. Although"
+	db   "Scheidt een plak-" ; "It secretes a"
+	next "kerige, slijmerige" ; "sticky, drool-like"
+	next "honing uit. Hoewel" ; "honey. Although"
 
-	page "sweet, it smells"
-	next "too repulsive to"
-	next "get very close.@"
+	page "zoet, ruikt het" ; "sweet, it smells"
+	next "te walgelijk om" ; "too repulsive to"
+	next "dichtbij te komen.@" ; "get very close.@"

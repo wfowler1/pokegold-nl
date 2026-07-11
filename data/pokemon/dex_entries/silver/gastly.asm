@@ -2,10 +2,10 @@
 	db 13 ; height
 	dw 1 ; weight
 
-	db   "Its thin body is"
-	next "made of gas. It"
-	next "can envelop an"
+	db   "Het dunne lichaam" ; "Its thin body is"
+	next "bestaat uit gas." ; "made of gas. It"
+	next "Het kan vijanden" ; "can envelop an"
 
-	page "opponent of any"
-	next "size and cause"
-	next "suffocation.@"
+	page "van elke grootte" ; "opponent of any"
+	next "omhullen en laten" ; "size and cause"
+	next "stikken.@" ; "suffocation.@"

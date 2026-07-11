@@ -416,15 +416,16 @@ Text_BattleReceptionistIntro:
 	done
 
 Text_TradeReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB TRADE CENTER."
+	text "Welkom bij het" ; "Welcome to CABLE"
+	line "KABELCLUBRUIL-" ; "CLUB TRADE CENTER."
 
-	para "You may trade your"
-	line "#MON here with"
-	cont "a friend."
+	para "CENTRUM." ; "You may trade your"
+	line "Je kan hier je" ; "#MON here with"
+	cont "#MON ruilen" ; "a friend."
 
-	para "Would you like to"
-	line "trade?"
+	para "met een vriend." ; "Would you like to"
+	line "Wil je" ; "trade?"
+	line "ruilen?"
 	done
 
 Text_TimeCapsuleReceptionistIntro:
@@ -484,8 +485,8 @@ Text_CantLinkToThePast:
 	prompt
 
 Text_IncompatibleRooms:
-	text "Your friend chose"
-	line "a different room."
+	text "Je vriend koos" ; "Your friend chose"
+	line "een andere kamer." ; "a different room."
 	prompt
 
 Text_PleaseComeIn:

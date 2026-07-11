@@ -63,49 +63,51 @@ HallOfFame_SlowlyApproachMachine:
 	step_end
 
 HallOfFame_LanceText:
-	text "LANCE: It's been a"
-	line "long time since I"
-	cont "last came here."
+	text "LANCE: Het is lang" ; "LANCE: It's been a"
+	line "geleden sinds ik" ; "long time since I"
+	cont "hier ben geweest." ; "last came here."
 
-	para "This is where we"
-	line "honor the LEAGUE"
+	para "Hier eren we de" ; "This is where we"
+	line "LEAGUE KAMPIOENEN" ; "honor the LEAGUE"
 
-	para "CHAMPIONS for all"
-	line "eternity."
+	para "tot in de" ; "CHAMPIONS for all"
+	line "eeuwigheid." ; "eternity."
 
-	para "Their courageous"
-	line "#MON are also"
-	cont "inducted."
+	para "Hun dappere" ; "Their courageous"
+	line "#MON zijn ook" ; "#MON are also"
+	cont "inbegrepen." ; "inducted."
 
-	para "Here today, we"
-	line "witnessed the rise"
+	para "Vandaag zagen we" ; "Here today, we"
+	line "hier de komst" ; "witnessed the rise"
 
-	para "of a new LEAGUE"
-	line "CHAMPION--a"
+	para "van een nieuwe" ; "of a new LEAGUE"
+	line "LEAGUE KAMPIOEN--" ; "CHAMPION--a"
 
-	para "trainer who feels"
-	line "compassion for,"
+	para "een trainer die" ; "trainer who feels"
+	line "compassie voelt" ; "compassion for,"
 
-	para "and trust in, his"
-	line "#MON."
+	para "voor, en ver-" ; "and trust in, his"
+	line "trouwt op zijn" ; "#MON."
 
-	para "A trainer who"
-	line "succeeded through"
+	para "#MON." ; "A trainer who"
+	line "Een trainer die" ; "succeeded through"
 
-	para "perseverance and"
-	line "determination."
+	para "slaagde dankzij" ; "perseverance and"
+	line "doorzettings-" ; "determination."
 
-	para "The new LEAGUE"
-	line "CHAMPION who has"
+	para "vermogen en" ; "The new LEAGUE"
+	line "vastberadenheid." ; "CHAMPION who has"
 
-	para "all the makings"
-	line "of greatness!"
+	para "De nieuwe LEAGUE-" ; "all the makings"
+	line "KAMPIOEN heeft" ; "of greatness!"
 
-	para "<PLAYER>, allow me"
-	line "to register you"
+	para "alles in zich om" ; "<PLAYER>, allow me"
+	line "een grote worden!" ; "to register you"
 
-	para "and your partners"
-	line "as CHAMPIONS!"
+	para "<PLAYER>, laat me" ; "and your partners"
+	line "jou en je partners" ; "as CHAMPIONS!"
+	para "als KAMPIOENEN"
+	line "registreren!"
 	done
 
 HallOfFame_MapEvents:

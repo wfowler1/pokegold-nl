@@ -103,34 +103,34 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey, little"
-	line "boy!"
+	text "SURGE: Hé," ; "SURGE: Hey, little"
+	line "kleine knul!" ; "boy!"
 
-	para "I have to hand it"
-	line "to you. It may not"
+	para "Ik moet toegeven," ; "I have to hand it"
+	line "het is niet heel" ; "to you. It may not"
 
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
+	para "slim om mij uit" ; "be very smart to"
+	line "te dagen, maar" ; "challenge me, but"
+	cont "je hebt lef!" ; "it takes guts!"
 
-	para "When it comes to"
-	line "electric #MON,"
-	cont "I'm number one!"
+	para "Op het gebied van" ; "When it comes to"
+	line "elektriciteit" ; "electric #MON,"
+	cont "ben ik nummer 1!" ; "I'm number one!"
 
-	para "I've never lost on"
-	line "the battlefield."
+	para "Op het front ver-" ; "I've never lost on"
+	line "loor ik nooit." ; "the battlefield."
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	para "Schokken zal ik" ; "I'll zap you just"
+	line "je, net als in de" ; "like I did my"
+	cont "oorlog!" ; "enemies in war!"
 	done
 
 LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
-	line "You are strong!"
+	text "SURGE: Grrrr!" ; "SURGE: Arrrgh!"
+	line "Je bent sterk!" ; "You are strong!"
 
-	para "OK, boy. You get"
-	line "THUNDERBADGE!"
+	para "OK, knul. Hier is" ; "OK, boy. You get"
+	line "de DONDERBADGE!" ; "THUNDERBADGE!"
 	done
 
 ReceivedThunderBadgeText:
@@ -151,12 +151,12 @@ LtSurgeThunderBadgeText:
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, boy!"
-	line "Still slugging and"
-	cont "chugging away?"
+	text "SURGE: Hé knul!" ; "SURGE: Hey, boy!"
+	line "Ben je nog steeds" ; "Still slugging and"
+	cont "aan 't ploeteren?" ; "chugging away?"
 
-	para "My #MON and I"
-	line "are still at it!"
+	para "Mijn #MON en ik" ; "My #MON and I"
+	line "zijn nog bezig!" ; "are still at it!"
 	done
 
 GentlemanGregorySeenText:

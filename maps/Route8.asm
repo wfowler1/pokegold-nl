@@ -114,10 +114,10 @@ BikerHarrisAfterBattleText:
 	done
 
 BikerZekeSeenText:
-	text "We're the KANTO"
-	line "#MON FEDERA-"
-	cont "TION!"
-	cont "Right on, dude!"
+	text "Wij zijn de" ; "We're the KANTO"
+	line "KANTO #MON-" ; "#MON FEDERA-"
+	cont "FEDERATIE!" ; "TION!"
+	cont "Huts!" ; "Right on, dude!"
 	done
 
 BikerZekeBeatenText:
@@ -146,25 +146,25 @@ SupernerdSamAfterBattleText:
 	done
 
 SupernerdTomSeenText:
-	text "We can't do with-"
-	line "out electricity."
+	text "We kunnen niet" ; "We can't do with-"
+	line "zonder stroom." ; "out electricity."
 
-	para "The POWER PLANT"
-	line "supplies us with"
-	cont "electricity."
+	para "De ENERGIECENTRALE" ; "The POWER PLANT"
+	line "geeft ons" ; "supplies us with"
+	cont "elektriciteit." ; "electricity."
 	done
 
 SupernerdTomBeatenText:
-	text "Don't waste"
-	line "electricity!"
+	text "Verspil geen" ; "Don't waste"
+	line "stroom!" ; "electricity!"
 	done
 
 SupernerdTomAfterBattleText:
-	text "The POWER PLANT"
-	line "north of LAVENDER"
+	text "De ENERGIECENTRALE" ; "The POWER PLANT"
+	line "ten noorden van" ; "north of LAVENDER"
 
-	para "supplies power to"
-	line "the MAGNET TRAIN."
+	para "LAVENDER geeft de" ; "supplies power to"
+	line "ZWEEFTREIN stroom." ; "the MAGNET TRAIN."
 	done
 
 Route8LockedDoorText:

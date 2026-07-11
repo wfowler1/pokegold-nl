@@ -105,8 +105,8 @@ HikerAnthony2SeenText:
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa, boy! You've"
-	line "got more zip."
+	text "Wow knul! Je hebt" ; "Whoa, boy! You've"
+	line "een hoop energie." ; "got more zip."
 	done
 
 HikerAnthony2AfterText:
