@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVIS@" ; "TADPOLE@" species name
 	db 13 ; height
 	dw 540 ; weight
 
-	db   "Although an ener-"
-	next "getic, skilled"
-	next "swimmer that uses"
+	db   "Hoewel het een en-" ; "Although an ener-"
+	next "ergieke, vaardige" ; "getic, skilled"
+	next "zwemmer is die el-" ; "swimmer that uses"
 
-	page "all of its mus-"
-	next "cles, it lives on"
-	next "dry land.@"
+	page "ke spier gebruikt," ; "all of its mus-"
+	next "leeft het op" ; "cles, it lives on"
+	next "droog land.@" ; "dry land.@"

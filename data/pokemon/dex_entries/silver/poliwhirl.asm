@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVIS@" ; "TADPOLE@" species name
 	db 10 ; height
 	dw 200 ; weight
 
-	db   "The skin on most"
-	next "of its body is"
-	next "moist. However,"
+	db   "De huid is op de" ; "The skin on most"
+	next "meeste plekken" ; "of its body is"
+	next "vochtig. Toch" ; "moist. However,"
 
-	page "the skin on its"
-	next "belly spiral feels"
-	next "smooth.@"
+	page "voelt de huid op" ; "the skin on its"
+	next "de buikspiraal" ; "belly spiral feels"
+	next "glad aan.@" ; "smooth.@"

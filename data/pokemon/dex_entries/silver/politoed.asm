@@ -1,11 +1,11 @@
-	db "FROG@" ; species name
+	db "KIKKER@" ; "FROG@" species name
 	db 11 ; height
 	dw 339 ; weight
 
-	db   "Whenever three or"
-	next "more of these get"
-	next "together, they"
+	db   "Als drie of meer" ; "Whenever three or"
+	next "POLITOED samenko-" ; "more of these get"
+	next "men, zingen ze met" ; "together, they"
 
-	page "sing in a loud"
-	next "voice that sounds"
-	next "like bellowing.@"
+	page "een luide stem die" ; "sing in a loud"
+	next "klinkt als" ; "voice that sounds"
+	next "gebrul.@" ; "like bellowing.@"
