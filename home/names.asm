@@ -241,7 +241,7 @@ GetTMHMName::
 	ret
 
 .TMText:
-	db "TM"
+	db "TM" ; "TM"
 .TMTextEnd:
 	db "@"
 

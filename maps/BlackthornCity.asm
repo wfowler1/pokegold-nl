@@ -220,7 +220,7 @@ BlackthornYoungsterText:
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; "SANTOS: …"
 
 	para "Het is zaterdag…" ; "It's Saturday…"
 
@@ -233,7 +233,7 @@ SantosGivesGiftText:
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; "SANTOS: …"
 
 	para "GEESTPAPIER…" ; "SPELL TAG…"
 
@@ -245,7 +245,7 @@ SantosGaveGiftText:
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; "SANTOS: …"
 
 	para "Zie je weer op een" ; "See you again on"
 	line "andere zaterdag…" ; "another Saturday…"
@@ -270,14 +270,14 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY"
+	text "BLACKTHORN CITY" ; "BLACKTHORN CITY"
 
 	para "Stil Toevluchts-" ; "A Quiet Mountain"
 	line "oord in de Bergen." ; "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY"
+	text "BLACKTHORN CITY" ; "BLACKTHORN CITY"
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "CLAIR" ; "LEADER: CLAIR"
 

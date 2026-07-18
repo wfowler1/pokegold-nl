@@ -281,7 +281,7 @@ PokeBallDesc:
 	next "vangen.@" ; "ing #MON.@"
 
 TeruSama1Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 BicycleDesc:
 	db   "Vouwfiets om snel" ; "A collapsible bike"
@@ -293,23 +293,23 @@ MoonStoneDesc:
 
 AntidoteDesc:
 	db   "Heelt vergiftigde" ; "Cures poisoned"
-	next "#MON.@"
+	next "#MON.@" ; "#MON.@"
 
 BurnHealDesc:
 	db   "Geneest verbrande" ; "Heals burned"
-	next "#MON.@"
+	next "#MON.@" ; "#MON.@"
 
 IceHealDesc:
 	db   "Ontdooit bevroren" ; "Defrosts frozen"
-	next "#MON.@"
+	next "#MON.@" ; "#MON.@"
 
 AwakeningDesc:
 	db   "Ontwaakt slapende" ; "Awakens sleeping"
-	next "#MON.@"
+	next "#MON.@" ; "#MON.@"
 
 ParlyzHealDesc:
 	db   "Geneest verlamde" ; "Heals paralyzed"
-	next "#MON.@"
+	next "#MON.@" ; "#MON.@"
 
 FullRestoreDesc:
 	db   "Herstelt LP en" ; "Fully restores HP"
@@ -356,7 +356,7 @@ WaterStoneDesc:
 	next "soorten #MON.@" ; "kinds of #MON.@"
 
 TeruSama2Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 HPUpDesc:
 	db   "Verhoogt LP van" ; "Raises the HP of"
@@ -388,7 +388,7 @@ RareCandyDesc:
 
 XAccuracyDesc:
 	db   "Verhoogt precisie." ; "Raises accuracy."
-	next "(1 BTL)@"
+	next "(1 BTL)@" ; "(1 BTL)@"
 
 LeafStoneDesc:
 	db   "Evolueert speci-" ; "Evolves certain"
@@ -435,7 +435,7 @@ DireHitDesc:
 	next "klap-ratio (1 BTL)@" ; "ratio. (1 BTL)@"
 
 TeruSama3Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 FreshWaterDesc:
 	db   "Herstel LP van" ; "Restores #MON"
@@ -451,10 +451,10 @@ LemonadeDesc:
 
 XAttackDesc:
 	db   "Verhoogt AANVAL." ; "Raises ATTACK."
-	next "(1 BTL)@"
+	next "(1 BTL)@" ; "(1 BTL)@"
 
 TeruSama4Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 XDefendDesc:
 	db   "Verhoog AFWEER" ; "Raises DEFENSE."
@@ -462,7 +462,7 @@ XDefendDesc:
 
 XSpeedDesc:
 	db   "Verhoogt SNELHEID." ; "Raises SPEED."
-	next "(1 BTL)@"
+	next "(1 BTL)@" ; "(1 BTL)@"
 
 XSpecialDesc: ; AlwaysReplace
 	db   "Verhoogt SPECIALE" ; "Raises SPECIAL"
@@ -477,7 +477,7 @@ ItemfinderDesc:
 	next "voorwerpen.@" ; "items in the area.@"
 
 TeruSama5Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 ExpShareDesc: ; AlwaysReplace
 	db   "Deel ERV-punten" ; "Shares battle EXP."
@@ -525,14 +525,14 @@ SecretPotionDesc:
 
 SSTicketDesc:
 	db   "Kaartje voor de" ; "A ticket for the"
-	next "S.S.AQUA.@"
+	next "S.S.AQUA.@" ; "S.S.AQUA.@"
 
 MysteryEggDesc:
 	db   "EI gekregen van" ; "An EGG obtained"
 	next "MR.#MON.@" ; "from MR.#MON.@"
 
 TeruSama6Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 SilverWingDesc:
 	db   "Vreemde, zilver-" ; "A strange, silver-"
@@ -611,7 +611,7 @@ BluApricornDesc:
 	next "ABRIKHORN.@"
 
 TeruSama7Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 AmuletCoinDesc:
 	db   "Verdubbelt geld-" ; "Doubles monetary"
@@ -650,7 +650,7 @@ BlkApricornDesc:
 	next "ABRIKHORN.@"
 
 TeruSama8Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 PnkApricornDesc:
 	db   "Een roze"; "A pink APRICORN.@"
@@ -709,10 +709,10 @@ RageCandyBarDesc:
 	next "#MON met 20.@" ; "HP by 20.@"
 
 TeruSama9Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama10Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 MiracleSeedDesc:
 	db   "Versterkt gras-" ; "Powers up grass-"
@@ -727,7 +727,7 @@ FocusBandDesc:
 	next "flauwvallen (VAST)@" ; "ing. (HOLD)@"
 
 TeruSama11Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 EnergyPowderDesc:
 	db   "Herstelt #MON-" ; "Restores #MON"
@@ -762,7 +762,7 @@ MachinePartDesc:
 	next "STROOMCENTRALE.@" ; "the POWER PLANT.@"
 
 TeruSama12Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 LostItemDesc:
 	db   "#POP die" ; "The # DOLL lost"
@@ -784,13 +784,13 @@ PassDesc:
 	next "MAGNEETTREIN.@" ; "MAGNET TRAIN.@"
 
 TeruSama13Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama14Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama15Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 CharcoalDesc:
 	db   "Versterkt vuur-" ; "Powers up fire-"
@@ -805,10 +805,10 @@ ScopeLensDesc:
 	next "klap-ratio. (VAST)@" ; "hit ratio. (HOLD)@"
 
 TeruSama16Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama17Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 MetalCoatDesc:
 	db   "Versterkt staal-" ; "Powers up steel-"
@@ -819,20 +819,20 @@ DragonFangDesc:
 	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 TeruSama18Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 LeftoversDesc:
 	db   "Herstelt tijdens" ; "Restores HP during"
 	next "gevecht LP. (VAST)@" ; "battle. (HOLD)@"
 
 TeruSama19Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama20Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama21Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 MysteryBerryDesc:
 	db   "Herstelt tijdens" ; "A self-restore"
@@ -847,13 +847,13 @@ BerserkGeneDesc:
 	next "maar verwart.@" ; "causes confusion.@"
 
 TeruSama22Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama23Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama24Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 SacredAshDesc:
 	db   "Herstelt alle" ; "Fully revives all"
@@ -880,7 +880,7 @@ FastBallDesc:
 	next "snelle #MON.@" ; "ing fast #MON.@"
 
 TeruSama25Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 LightBallDesc:
 	db   "Vreemde, elektri-" ; "An odd, electrical"
@@ -915,7 +915,7 @@ PolkadotBowDesc:
 	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 TeruSama26Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 UpGradeDesc:
 	db   "Mysterieuze doos" ; "A mysterious box"
@@ -934,7 +934,7 @@ SquirtBottleDesc:
 	next "water te geven.@" ; "watering plants.@"
 
 TeruSama27Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 ParkBallDesc:
 	db   "Wedstrijdbal van" ; "The Bug-Catching"
@@ -945,7 +945,7 @@ RainbowWingDesc:
 	next "regenboogkleuren.@" ; "of rainbow colors.@"
 
 TeruSama28Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 BrickPieceDesc: ; AlwaysReplace
 	db   "Zeldzaam stuk" ; "A rare chunk of"
@@ -988,27 +988,27 @@ MirageMailDesc:
 	next "afdruk. (VAST)@" ; "(HOLD)@"
 
 TeruSama29Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama30Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama31Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama32Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama33Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 TeruSama34Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama35Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama36Desc:
-	db   "?@"
+	db   "?@" ; "?@"
 
 TeruSama37Desc:
-	db   "?@"
+	db   "?@" ; "?@"

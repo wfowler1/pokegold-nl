@@ -1,11 +1,11 @@
-	db "DARK@" ; species name
+	db "DUISTER@" ; "DARK@" species name
 	db 6 ; height
 	dw 108 ; weight
 
-	db   "To corner prey,"
-	next "they check each"
-	next "other's location"
+	db   "Vinden elkaar" ; "To corner prey,"
+	next "tijdens de jacht" ; "they check each"
+	next "met een blaf die" ; "other's location"
 
-	page "using barks that"
-	next "only they can"
-	next "understand.@"
+	page "alleen soort-" ; "using barks that"
+	next "genoten kunnen" ; "only they can"
+	next "begrijpen.@" ; "understand.@"

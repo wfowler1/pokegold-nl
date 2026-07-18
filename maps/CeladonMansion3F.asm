@@ -85,7 +85,7 @@ GameFreakGameDesignerText:
 	text "Is dat zo?" ; "Is that right?"
 
 	para "Ik ben de GAME-" ; "I'm the GAME"
-	line "DESIGNER!"
+	line "DESIGNER!" ; "DESIGNER!"
 
 	para "Je #DEX vullen" ; "Filling up your"
 	line "is lastig, maar" ; "#DEX is tough,"
@@ -101,7 +101,7 @@ GameFreakGameDesignerCompletedPokedexText:
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
-	text "…"
+	text "…" ; "…"
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
@@ -164,7 +164,7 @@ GameFreakCharacterDesignerText:
 	done
 	
 CeladonMansion3FDevRoomSignText:
-	text "GAME FREAK"
+	text "GAME FREAK" ; "GAME FREAK"
 	line "ONTWIKKELINGS-" ; "DEVELOPMENT ROOM"
 	cont "RUIMTE" ;
 	done

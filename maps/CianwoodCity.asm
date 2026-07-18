@@ -185,14 +185,14 @@ CianwoodCityUnusedText:
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "CIANWOOD CITY" ; "CIANWOOD CITY"
 
 	para "Een Haven Omringd" ; "A Port Surrounded"
 	line "door Ruwe Zee" ; "by Rough Seas"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
+	text "CIANWOOD CITY" ; "CIANWOOD CITY"
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 
 	para "CHUCK" ; "LEADER: CHUCK" ; "LEADER: CHUCK"
@@ -206,7 +206,7 @@ CianwoodPharmacySignText:
 	text "500 Jaar aan" ; "500 Years of"
 	line "Traditie" ; "Tradition"
 
-	para "CIANWOOD CITY"
+	para "CIANWOOD CITY" ; "CIANWOOD CITY"
 	line "APOTHEEK" ; "PHARMACY"
 
 	para "We Behandelen Uw" ; "We Await Your"
@@ -214,7 +214,7 @@ CianwoodPharmacySignText:
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
+	text "CIANWOOD CITY" ; "CIANWOOD CITY"
 	line "FOTOSTUDIO" ; "PHOTO STUDIO"
 
 	para "Neem een Kiekje" ; "Take a Snapshot as"

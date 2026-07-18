@@ -2,10 +2,10 @@
 	db 14 ; height
 	dw 480 ; weight
 
-	db   "It launches kicks"
-	next "while spinning. If"
-	next "it spins at high"
+	db   "Tolt rond en lan-" ; "It launches kicks"
+	next "ceert trappen. Als" ; "while spinning. If"
+	next "het tolt op hoge" ; "it spins at high"
 
-	page "speed, it may bore"
-	next "its way into the"
-	next "ground.@"
+	page "snelheid, kan het" ; "speed, it may bore"
+	next "de grond in" ; "its way into the"
+	next "boren.@" ; "ground.@"

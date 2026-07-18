@@ -1,11 +1,11 @@
-	db "FAIRY@" ; species name
+	db "FEE@" ; "FAIRY@" species name
 	db 14 ; height
 	dw 487 ; weight
 
-	db   "Because its fangs"
-	next "are too heavy, it"
-	next "always keeps its"
+	db   "Omdat de tanden te" ; "Because its fangs"
+	next "zwaar zijn, buigt" ; "are too heavy, it"
+	next "het altijd het" ; "always keeps its"
 
-	page "head tilted down."
-	next "However, its BITE"
-	next "is powerful.@"
+	page "hoofd voorover." ; "head tilted down."
+	next "Echter is de BEET" ; "However, its BITE"
+	next "zeer sterk.@" ; "is powerful.@"

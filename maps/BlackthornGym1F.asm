@@ -253,7 +253,7 @@ BlackthornGymClairText_YouKeptMeWaiting:
 
 BlackthornGymText_ReceivedTM24: ; unreferenced
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TM24."
+	line "TM24." ; "TM24."
 	done
 
 BlackthornGymClairText_DescribeTM24:
@@ -278,13 +278,13 @@ BlackthornGymClairText_League:
 	line "nu de #MON-" ; "is the #MON"
 
 	para "LEAGUE bij INDIGO" ; "LEAGUE in INDIGO"
-	line "PLATEAU."
+	line "PLATEAU." ; "PLATEAU."
 
 	para "Weet je hoe je" ; "Do you know how to"
 	line "daar komt?" ; "get there?"
 
 	para "Ga van hier naar" ; "From here, go to"
-	line "NEW BARK TOWN."
+	line "NEW BARK TOWN." ; "NEW BARK TOWN."
 	
 	para "SURF dan naar het" ; "Then SURF east."
 	line "oosten. De weg" ; "The route there is"

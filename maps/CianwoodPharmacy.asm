@@ -45,7 +45,7 @@ PharmacistGiveSecretpotionText:
 	para "Maak je je ergens" ; "Is something wor- "
 	line "zorgen om?" ; "rying you?"
 
-	para "…"
+	para "…" ; "…"
 
 	para "De VUURTOREN-" ; "The LIGHTHOUSE"
 	line "#MON is in" ; "#MON is in"

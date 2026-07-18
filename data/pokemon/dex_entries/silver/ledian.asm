@@ -1,11 +1,11 @@
-	db "FIVE STAR@" ; species name
+	db "VIJFSTER@" ; "FIVE STAR@" species name
 	db 14 ; height
 	dw 356 ; weight
 
-	db   "The star patterns"
-	next "on its back grow"
-	next "larger or smaller"
+	db   "De sterpatronen op" ; "The star patterns"
+	next "de rug worden" ; "on its back grow"
+	next "groter of kleiner" ; "larger or smaller"
 
-	page "depending on the"
-	next "number of stars in"
-	next "the night sky.@"
+	page "afhankelijk van" ; "depending on the"
+	next "het aantal sterren" ; "number of stars in"
+	next "aan de hemel.@" ; "the night sky.@"

@@ -9,7 +9,7 @@ MomPhoneLandmarkText:
 	text "Oh, je bent in" ; "Oh, so you're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
-	text "…"
+	text "…" ; "…"
 
 	para "Is dat niet waar" ; "Isn't that where"
 	line "@"
@@ -23,7 +23,7 @@ MomPhoneGenericAreaText:
 	text "Echt, ben je in" ; "Really, you're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
-	text "?"
+	text "?" ; "?"
 
 	para "IK ben daar nooit" ; "I've never gone"
 	line "geweest. Wat" ; "there. That's kind"
@@ -34,7 +34,7 @@ MomPhoneNewBarkText:
 	text "Wat? Ben je in" ; "What? You're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
-	text "?"
+	text "?" ; "?"
 
 	para "Kom eens bij je" ; "Come see your MOM"
 	line "moeder langs!" ; "sometime!"
@@ -44,7 +44,7 @@ MomPhoneCherrygroveText:
 	text "Je bent in" ; "You're visiting"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
-	text "?"
+	text "?" ; "?"
 
 	para "Kom anders eens" ; "How about coming"
 	line "even naar huis?" ; "home for a bit?"
@@ -54,7 +54,7 @@ MomOtherAreaText:
 	text "Wauw, ben je in" ; "Wow, you're in"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
-	text "?"
+	text "?" ; "?"
 
 	para "Succes met je" ; "Good luck on your"
 	line "#MON-queeste!" ; "#MON quest!"
@@ -110,8 +110,8 @@ MomOKIllSaveText:
 	done
 
 MomPhoneStopSavingMoneyText:
-	text "OK. I'll stop"
-	line "saving your money."
+	text "OK. I'll stop" ; "OK. I'll stop"
+	line "saving your money." ; "saving your money."
 	done
 
 MomPhoneHangUpText:
@@ -151,7 +151,7 @@ MomPhoneNoGymQuestText:
 MomPhoneLectureText:
 	text "Hallo?" ; "Hello?"
 
-	para "…… <PLAYER>?"
+	para "…… <PLAYER>?" ; "…… <PLAYER>?"
 	line "PROF.ELM zei dat" ; "I heard from PROF."
 
 	para "je op reis bent" ; "ELM that you went"

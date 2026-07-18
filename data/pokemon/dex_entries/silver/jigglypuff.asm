@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; "BALLOON@" species name
 	db 5 ; height
 	dw 55 ; weight
 
-	db   "Looking into its"
-	next "cute, round eyes"
-	next "causes it to sing"
+	db   "Kijk in de schat-" ; "Looking into its"
+	next "tige ronde oogjes" ; "cute, round eyes"
+	next "en het zingt een" ; "causes it to sing"
 
-	page "a relaxing melody,"
-	next "inducing its"
-	next "enemies to sleep.@"
+	page "rustgevende melo-" ; "a relaxing melody,"
+	next "die, waardoor vij-" ; "inducing its"
+	next "anden gaan slapen.@" ; "enemies to sleep.@"

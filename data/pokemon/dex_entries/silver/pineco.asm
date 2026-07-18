@@ -1,11 +1,11 @@
-	db "BAGWORM@" ; species name
+	db "ZAKWORM@" ; "BAGWORM@" species name
 	db 6 ; height
 	dw 72 ; weight
 
-	db   "It hangs and waits"
-	next "for flying insect"
-	next "prey to come near."
+	db   "Hangt en wacht tot" ; "It hangs and waits"
+	next "vliegende insecten" ; "for flying insect"
+	next "dichtbij komen." ; "prey to come near."
 
-	page "It does not move"
-	next "about much on its"
-	next "own.@"
+	page "Beweegt uit zich-" ; "It does not move"
+	next "zelf niet heel" ; "about much on its"
+	next "veel.@" ; "own.@"

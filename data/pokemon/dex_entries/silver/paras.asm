@@ -1,11 +1,11 @@
-	db "MUSHROOM@" ; species name
+	db "PADDENSTOEL@" ; "MUSHROOM@" species name
 	db 3 ; height
 	dw 54 ; weight
 
-	db   "As its body grows"
-	next "large, oriental"
-	next "mushrooms named"
+	db   "Terwijl het groeit" ; "As its body grows"
+	next "ontkiemen grote" ; "large, oriental"
+	next "oosterse padden-" ; "mushrooms named"
 
-	page "tochukaso start"
-	next "sprouting out of"
-	next "its back.@"
+	page "stoelen genaamd" ; "tochukaso start"
+	next "tochukaso uit" ; "sprouting out of"
+	next "de rug.@" ; "its back.@"

@@ -1,11 +1,11 @@
-	db "DUCK@" ; species name
+	db "EEND@" ; "DUCK@" species name
 	db 17 ; height
 	dw 766 ; weight
 
-	db   "It appears by"
-	next "waterways at dusk."
-	next "It may use tele-"
+	db   "Verschijnt bij het" ; "It appears by"
+	next "water in de sche-" ; "waterways at dusk."
+	next "mering. Kan tele-" ; "It may use tele-"
 
-	page "kinetic powers if"
-	next "its forehead glows"
-	next "mysteriously.@"
+	page "kinese gebruiken" ; "kinetic powers if"
+	next "als het voorhoofd" ; "its forehead glows"
+	next "mysterieus gloeit.@" ; "mysteriously.@"

@@ -1,11 +1,11 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERKRACHT@" ; "SUPERPOWER@" species name
 	db 15 ; height
 	dw 705 ; weight
 
-	db   "The muscles cover-"
-	next "ing its body teem"
-	next "with power. Even"
+	db   "De spieren die het" ; "The muscles cover-"
+	next "bedekken zitten" ; "ing its body teem"
+	next "vol kracht. Zelfs" ; "with power. Even"
 
-	page "when still, it"
-	next "exudes an amazing"
-	next "sense of strength.@"
+	page "in rust straalt" ; "when still, it"
+	next "het een geweldige" ; "exudes an amazing"
+	next "kracht uit.@" ; "sense of strength.@"

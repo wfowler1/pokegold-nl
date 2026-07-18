@@ -1,11 +1,11 @@
-	db "SWINE@" ; species name
+	db "ZWIJN@" ; "SWINE@" species name
 	db 11 ; height
 	dw 558 ; weight
 
-	db   "If it charges at"
-	next "an enemy, the"
-	next "hairs on its back"
+	db   "Als het afstormt" ; "If it charges at"
+	next "op een vijand gaan" ; "an enemy, the"
+	next "de haren op de rug" ; "hairs on its back"
 
-	page "stand up straight."
-	next "It is very sensi-"
-	next "tive to sound.@"
+	page "rechtop staan." ; "stand up straight."
+	next "Het is heel gevoe-" ; "It is very sensi-"
+	next "lig voor geluid.@" ; "tive to sound.@"

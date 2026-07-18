@@ -1,11 +1,11 @@
-	db "BONEKEEPER@" ; species name
+	db "BOTDRAGER@" ; "BONEKEEPER@" species name
 	db 10 ; height
 	dw 450 ; weight
 
-	db   "It collects bones"
-	next "from an unknown"
-	next "place. A MAROWAK"
+	db   "Verzamelt botten" ; "It collects bones"
+	next "van een onbekende" ; "from an unknown"
+	next "plek. Een MAROWAK-" ; "place. A MAROWAK"
 
-	page "graveyard exists"
-	next "somewhere in the"
-	next "world, rumors say.@"
+	page "kerkhof bestaat" ; "graveyard exists"
+	next "ergens op de we-" ; "somewhere in the"
+	next "reld, zegt men.@" ; "world, rumors say.@"

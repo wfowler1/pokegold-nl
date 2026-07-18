@@ -1,11 +1,11 @@
-	db "COTTONWEED@" ; species name
+	db "KATOENSPOOR@" ; "COTTONWEED@" species name
 	db 8 ; height
 	dw 30 ; weight
 
-	db   "Drifts on seasonal"
-	next "winds and spreads"
-	next "its cotton-like"
+	db   "Zweeft op sei-" ; "Drifts on seasonal"
+	next "zoenswinden en" ; "winds and spreads"
+	next "verspreidt katoen-" ; "its cotton-like"
 
-	page "spores all over"
-	next "the world to make"
-	next "more offspring.@"
+	page "sporen over de" ; "spores all over"
+	next "wereld om voort" ; "the world to make"
+	next "te planten.@" ; "more offspring.@"

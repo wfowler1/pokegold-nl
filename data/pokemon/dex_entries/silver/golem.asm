@@ -2,10 +2,10 @@
 	db 14 ; height
 	dw 3000 ; weight
 
-	db   "It is capable of"
-	next "blowing itself up."
-	next "It uses this"
+	db   "Kan zichzelf op-" ; "It is capable of"
+	next "blazen. Het ge-" ; "blowing itself up."
+	next "bruikt deze explo-" ; "It uses this"
 
-	page "explosive force to"
-	next "jump from mountain"
-	next "to mountain.@"
+	page "sieve kracht om" ; "explosive force to"
+	next "van berg naar berg" ; "jump from mountain"
+	next "te springen.@" ; "to mountain.@"

@@ -1,11 +1,11 @@
-	db "MILK COW@" ; species name
+	db "MELKKOE@" ; "MILK COW@" species name
 	db 12 ; height
 	dw 755 ; weight
 
-	db   "If it has just had"
-	next "a baby, the milk"
-	next "it produces con-"
+	db   "Als het net een" ; "If it has just had"
+	next "kalf heeft gehad," ; "a baby, the milk"
+	next "bevat de geprodu-" ; "it produces con-"
 
-	page "tains much more"
-	next "nutrition than"
-	next "usual.@"
+	page "ceerde melk veel" ; "tains much more"
+	next "meer voedingsstof-" ; "nutrition than"
+	next "fen dan normaal.@" ; "usual.@"

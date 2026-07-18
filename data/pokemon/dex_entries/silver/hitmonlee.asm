@@ -1,11 +1,11 @@
-	db "KICKING@" ; species name
+	db "SCHOPPER@" ; "KICKING@" species name
 	db 15 ; height
 	dw 498 ; weight
 
-	db   "If it starts kick-"
-	next "ing repeatedly,"
-	next "both legs will"
+	db   "Als het herhaalde-" ; "If it starts kick-"
+	next "lijk schopt, rek-" ; "ing repeatedly,"
+	next "ken beide benen" ; "both legs will"
 
-	page "stretch even long-"
-	next "er to strike a"
-	next "fleeing foe.@"
+	page "nog verder uit om" ; "stretch even long-"
+	next "een vluchtende" ; "er to strike a"
+	next "vijand te raken.@" ; "fleeing foe.@"

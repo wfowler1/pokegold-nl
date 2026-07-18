@@ -32,7 +32,7 @@ CeladonPokecenter1FCooltrainerFText:
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "TEAM ROCKET's"
+	text "TEAM ROCKET's" ; "TEAM ROCKET's"
 	line "schuilplaats is" ; "hideout is in the"
 
 	para "in de kelder van" ; "basement of the"

@@ -1,11 +1,11 @@
-	db "LITTLEBIRD@" ; species name
+	db "KLEINEVOGEL@" ; "LITTLEBIRD@" species name
 	db 2 ; height
 	dw 20 ; weight
 
-	db   "It usually forages"
-	next "for food on the"
-	next "ground but may, on"
+	db   "Doorgaans verzame-" ; "It usually forages"
+	next "len ze eten op de" ; "for food on the"
+	next "grond, maar soms" ; "ground but may, on"
 
-	page "rare occasions,"
-	next "hop onto branches"
-	next "to peck at shoots.@"
+	page "springen ze op een" ; "rare occasions,"
+	next "tak om naar twijg-" ; "hop onto branches"
+	next "jes te pikken.@" ; "to peck at shoots.@"

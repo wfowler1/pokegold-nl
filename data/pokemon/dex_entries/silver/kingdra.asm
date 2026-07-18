@@ -1,11 +1,11 @@
-	db "DRAGON@" ; species name
+	db "DRAAK@" ; "DRAGON@" species name
 	db 18 ; height
 	dw 1520 ; weight
 
-	db   "It sleeps deep on"
-	next "the ocean floor to"
-	next "build its energy."
+	db   "Slaapt diep op de" ; "It sleeps deep on"
+	next "zeebodem om ener-" ; "the ocean floor to"
+	next "gie op te bouwen." ; "build its energy."
 
-	page "It is said to"
-	next "cause tornadoes as"
-	next "it wakes.@"
+	page "Men zegt dat het" ; "It is said to"
+	next "tornado's opwekt" ; "cause tornadoes as"
+	next "als het ontwaakt.@" ; "it wakes.@"

@@ -2,37 +2,37 @@ PhoneMaleAnswerMornText:
 	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "…"
+	text "…" ; "…"
 
 	para "Good morning,"
-	line "<PLAYER>!"
+	line "<PLAYER>!" ; "<PLAYER>!"
 	done
 
 PhoneMaleAnswerDayText:
 	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "…"
+	text "…" ; "…"
 
 	para "How's it going,"
-	line "<PLAYER>?"
+	line "<PLAYER>?" ; "<PLAYER>?"
 	done
 
 PhoneMaleAnswerNiteText:
 	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "…"
+	text "…" ; "…"
 
 	para "Good evening,"
-	line "<PLAYER>!"
+	line "<PLAYER>!" ; "<PLAYER>!"
 	done
 
 PhoneFemaleAnswerMornText:
 	text "Hi. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 
 	para "Hi, <PLAYER>!"
 	line "Good morning."
@@ -42,7 +42,7 @@ PhoneFemaleAnswerDayText:
 	text "Hi. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 
 	para "Hi, <PLAYER>!"
 	line "How are you?"
@@ -52,7 +52,7 @@ PhoneFemaleAnswerNiteText:
 	text "Hi. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 
 	para "Hi, <PLAYER>!"
 	line "Good evening."
@@ -64,16 +64,16 @@ PhoneMaleGreetMornText:
 
 	para "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 	line "How are you doing?"
 	done
 
 PhoneMaleGreetDayText:
-	text "<PLAYER>, howdy!"
+	text "<PLAYER>, howdy!" ; "<PLAYER>, howdy!"
 
 	para "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 	line "Isn't it nice out?"
 	done
 
@@ -83,36 +83,36 @@ PhoneMaleGreetNiteText:
 
 	para "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 	line "Got a minute?"
 	done
 
 PhoneFemaleGreetMornText:
 	text "Good morning,"
-	line "<PLAYER>."
+	line "<PLAYER>." ; "<PLAYER>."
 
 	para "This is @"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 	line "Did I wake you?"
 	done
 
 PhoneFemaleGreetDayText:
-	text "Hello, <PLAYER>."
+	text "Hello, <PLAYER>." ; "Hello, <PLAYER>."
 
 	para "This is @"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 	line "How are things?"
 	done
 
 PhoneFemaleGreetNiteText:
-	text "Good evening,"
-	line "<PLAYER>."
+	text "Good evening," ; "Good evening,"
+	line "<PLAYER>." ; "<PLAYER>."
 
 	para "This is @"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "."
+	text "." ; "."
 	line "Were you awake?"
 	done
 
@@ -154,7 +154,7 @@ PhoneFemaleDressedUpText:
 	text "I dressed up my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "It looks even"
 	line "cuter than before."
@@ -165,7 +165,7 @@ PhoneMaleManagedToBeatText:
 	line "aged to beat a"
 	cont "tough @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "."
+	text "." ; "."
 
 	para "I need to make my"
 	line "party stronger."
@@ -220,7 +220,7 @@ PhoneMaleWantsToBattleText:
 	para "I'll be around"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 	done
 
 PhoneFemaleWantsToBattleText:
@@ -233,7 +233,7 @@ PhoneFemaleWantsToBattleText:
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 	line "Look for me, OK?"
 	done
 
@@ -241,7 +241,7 @@ PhoneWrongNumberKazText:
 	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
-	text "…"
+	text "…" ; "…"
 
 	para "Uh-oh… You're not"
 	line "KAZ! Sorry, wrong"
@@ -255,7 +255,7 @@ PhoneWrongNumberAudreyText:
 	text ". How are"
 	cont "you doing, AUDREY?"
 
-	para "Huh? <PLAYER>?"
+	para "Huh? <PLAYER>?" ; "Huh? <PLAYER>?"
 	line "Oops! My mistake!"
 	done
 
@@ -279,7 +279,7 @@ PhoneSwarmGrassText:
 	para "shown up around"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "!"
+	text "!" ; "!"
 	done
 
 PhoneSwarmFishText:
@@ -287,7 +287,7 @@ PhoneSwarmFishText:
 
 	para "On @"
 	text_ram wStringBuffer5 ; MaxLength 14
-	text ","
+	text "," ; ","
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " are"
@@ -306,10 +306,10 @@ PhoneSwarmCaveText:
 	para "He saw a lot of"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " in"
+	text " in" ; " in"
 	cont "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
-	text "."
+	text "." ; "."
 
 	para "<PLAYER>, you ought"
 	line "to go look."

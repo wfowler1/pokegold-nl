@@ -1,11 +1,11 @@
-	db "LIGHT@" ; species name
+	db "LICHT@" ; "LIGHT@" species name
 	db 12 ; height
 	dw 225 ; weight
 
-	db   "It blinds prey"
-	next "with an intense"
-	next "burst of light,"
+	db   "Verblindt prooien" ; "It blinds prey"
+	next "met intense licht-" ; "with an intense"
+	next "flits, en slokt" ; "burst of light,"
 
-	page "then swallows the"
-	next "immobilized prey"
-	next "in a single gulp.@"
+	page "dan de verstijfde" ; "then swallows the"
+	next "prooi op met een" ; "immobilized prey"
+	next "enkele hap.@" ; "in a single gulp.@"

@@ -1,11 +1,11 @@
-	db "MAGNET@" ; species name
+	db "MAGNEET@" ; "MAGNET@" species name
 	db 3 ; height
 	dw 60 ; weight
 
-	db   "The units at the"
-	next "sides of its body"
-	next "generate anti-"
+	db   "De eenheden aan de" ; "The units at the"
+	next "zijkant genereren" ; "sides of its body"
+	next "antizwaartekracht-" ; "generate anti-"
 
-	page "gravity energy to"
-	next "keep it aloft in"
-	next "the air.@"
+	page "energie die het" ; "gravity energy to"
+	next "in de lucht laat" ; "keep it aloft in"
+	next "hangen.@" ; "the air.@"

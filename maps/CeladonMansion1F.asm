@@ -58,17 +58,17 @@ CeladonMansion1FMeowthText:
 	done
 
 CeladonMansion1FClefairyText:
-	text "CLEFAIRY: Clef"
-	line "cleff!"
+	text "CLEFAIRY: Clef" ; "CLEFAIRY: Clef"
+	line "cleff!" ; "cleff!"
 	done
 
 CeladonMansion1FNidoranFText:
-	text "NIDORAN: Kya"
-	line "kyaoo!"
+	text "NIDORAN: Kya" ; "NIDORAN: Kya"
+	line "kyaoo!" ; "kyaoo!"
 	done
 
 CeladonMansionManagersSuiteSignText:
-	text "CELADON MANSION"
+	text "CELADON MANSION" ; "CELADON MANSION"
 	line "SUITE VAN MANAGER" ; "MANAGER'S SUITE"
 	done
 

@@ -2,10 +2,10 @@
 	db 9 ; height
 	dw 285 ; weight
 
-	db   "It instinctively"
-	next "sneaks into rocky"
-	next "holes. If it gets"
+	db   "Sluipt instinctief" ; "It instinctively"
+	next "in rotsgaten. Als" ; "sneaks into rocky"
+	next "het slaperig wordt" ; "holes. If it gets"
 
-	page "sleepy, it steals"
-	next "the nest of a fel-"
-	next "low OCTILLERY.@"
+	page "steelt het het" ; "sleepy, it steals"
+	next "nest van een ande-" ; "the nest of a fel-"
+	next "re OCTILLERY.@" ; "low OCTILLERY.@"

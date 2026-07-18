@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; "MOUSE@" species name
 	db 4 ; height
 	dw 60 ; weight
 
-	db   "It raises its tail"
-	next "to check its sur-"
-	next "roundings. The"
+	db   "Als het de staart" ; "It raises its tail"
+	next "opwerpt om de" ; "to check its sur-"
+	next "omgeving te onder-" ; "roundings. The"
 
-	page "tail is sometimes"
-	next "struck by light-"
-	next "ning in this pose.@"
+	page "zoeken, wordt het" ; "tail is sometimes"
+	next "soms door bliksem" ; "struck by light-"
+	next "getroffen.@" ; "ning in this pose.@"

@@ -1,11 +1,11 @@
-	db "DARKNESS@" ; species name
+	db "DUISTERNIS@" ; "DARKNESS@" species name
 	db 5 ; height
 	dw 21 ; weight
 
-	db   "It is said that"
-	next "when chased, it"
-	next "lures its attacker"
+	db   "Men zegt dat het" ; "It is said that"
+	next "jagers naar donke-" ; "when chased, it"
+	next "re bergpaadjes" ; "lures its attacker"
 
-	page "onto dark mountain"
-	next "trails where the"
-	next "foe will get lost.@"
+	page "lokt waar de" ; "onto dark mountain"
+	next "vijand snel" ; "trails where the"
+	next "verdwaald  raakt.@" ; "foe will get lost.@"

@@ -1,11 +1,11 @@
-	db "COCOON@" ; species name
+	db "COCON@" ; "COCOON@" species name
 	db 6 ; height
 	dw 100 ; weight
 
-	db   "From this form,"
-	next "it will grow into"
-	next "an adult. As its"
+	db   "Vanuit deze vorm" ; "From this form,"
+	next "groeit het uit tot" ; "it will grow into"
+	next "een volwassene." ; "an adult. As its"
 
-	page "body becomes soft-"
-	next "er, the external"
-	next "shell hardens.@"
+	page "Het omhulsel wordt" ; "body becomes soft-"
+	next "steeds sterker, 't" ; "er, the external"
+	next "lichaam zwakker.@" ; "shell hardens.@"

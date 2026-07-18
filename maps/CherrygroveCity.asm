@@ -431,7 +431,7 @@ GuideGentNoText:
 	done
 
 CherrygroveRivalText_Seen:
-	text "…"
+	text "…" ; "…"
 
 	para "Je hebt een #-" ; "You got a #MON"
 	line "MON uit het lab." ; "at the LAB."
@@ -439,7 +439,7 @@ CherrygroveRivalText_Seen:
 	para "Wat zonde. Een" ; "What a waste."
 	line "watje zoals jij." ; "A wimp like you."
 
-	para "…"
+	para "…" ; "…"
 
 	para "Hoor je niet wat" ; "Don't you get what"
 	line "ik zeg?" ; "I'm saying?"
@@ -457,7 +457,7 @@ RivalCherrygroveWinText:
 	done
 
 CherrygroveRivalText_YouLost:
-	text "…"
+	text "…" ; "…"
 
 	para "Ik heet ???." ; "My name's ???."
 
@@ -473,7 +473,7 @@ RivalCherrygroveLossText:
 	done
 
 CherrygroveRivalText_YouWon:
-	text "…"
+	text "…" ; "…"
 
 	para "Ik heet ???." ; "My name's ???."
 
@@ -490,7 +490,7 @@ CherrygroveTeacherText_NoMapCard:
 
 	para "Hij stopt de kaart" ; "He'll put a MAP of"
 	line "van JOHTO in je" ; "JOHTO on your"
-	cont "#GEAR."
+	cont "#GEAR." ; "#GEAR."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
@@ -535,7 +535,7 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "CHERRYGROVE CITY" ; "CHERRYGROVE CITY"
 
 	para "Stad van Schattige" ; "The City of Cute,"
 	line "Geurende Bloemen." ; "Fragrant Flowers"

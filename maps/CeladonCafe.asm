@@ -197,7 +197,7 @@ FoundLeftoversText:
 	text "<PLAYER> vond" ; "<PLAYER> found a"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
-	text "."
+	text "." ; "."
 	done
 
 NoRoomForLeftoversText:

@@ -137,7 +137,7 @@ DaisyRefusedText:
 	done
 
 DaisyCantGroomEggText:
-	text "DAISY: Oh, sorry."
+	text "DAISY: Oh, sorry." ; "DAISY: Oh, sorry."
 	line "Ik kan geen EI" ; "I honestly can't"
 	cont "opknappen." ; "groom an EGG."
 	done

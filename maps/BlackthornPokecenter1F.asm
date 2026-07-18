@@ -26,7 +26,7 @@ BlackthornPokecenter1FGentlemanText:
 	line "gen INDIGO-PLATEAU" ; "off INDIGO PLATEAU"
 
 	para "is de #MON-" ; "is the #MON"
-	line "LEAGUE."
+	line "LEAGUE." ; "LEAGUE."
 
 	para "Ik hoor dat de" ; "I hear the best"
 	line "beste trainers uit" ; "trainers gather"
