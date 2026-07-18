@@ -155,8 +155,7 @@ DragonShrineRisingBadgeExplanationText:
 	para "naar je commando's" ; "as a trainer and"
 	line "luisteren, zonder" ; "obey your every"
 
-	para "twijfel." ; "command without"
-	line ;"question."
+	cont "twijfel." ; "command without"
 
 	para "Ik wil ook dat je" ; "I also want you to"
 	line "deze TM neemt." ; "have this TM."
