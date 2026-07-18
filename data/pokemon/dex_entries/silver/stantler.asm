@@ -1,11 +1,11 @@
-	db "BIG HORN@" ; species name
+	db "GROOTHOORN@" ; "BIG HORN@" species name
 	db 14 ; height
 	dw 712 ; weight
 
-	db   "Those who stare at"
-	next "its antlers will"
-	next "gradually lose"
+	db   "Zij die naar het" ; "Those who stare at"
+	next "gewei staren ver-" ; "its antlers will"
+	next "liezen geleidelijk" ; "gradually lose"
 
-	page "control of their"
-	next "senses and be"
-	next "unable to stand.@"
+	page "controle over hun" ; "control of their"
+	next "zintuigen en val-" ; "senses and be"
+	next "len op de grond.@" ; "unable to stand.@"

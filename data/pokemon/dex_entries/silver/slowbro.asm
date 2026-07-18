@@ -1,11 +1,11 @@
-	db "HERMITCRAB@" ; species name
+	db "HERMIETKRAB@" ; "HERMITCRAB@" species name
 	db 16 ; height
 	dw 785 ; weight
 
-	db   "Naturally dull to"
-	next "begin with, it"
-	next "lost its ability"
+	db   "Ongevoelig van" ; "Naturally dull to"
+	next "aard, maar kan" ; "begin with, it"
+	next "geen pijn meer" ; "lost its ability"
 
-	page "to feel pain due"
-	next "to SHELLDER's"
-	next "seeping poison.@"
+	page "voelen door" ; "to feel pain due"
+	next "SHELLDERS" ; "to SHELLDER's"
+	next "sijpelende gif.@" ; "seeping poison.@"

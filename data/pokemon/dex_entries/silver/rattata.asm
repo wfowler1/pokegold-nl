@@ -2,10 +2,10 @@
 	db 3 ; height
 	dw 35 ; weight
 
-	db   "Living wherever"
-	next "there is food"
-	next "available, it"
+	db   "Het leeft overal" ; "Living wherever"
+	next "waar voedsel te" ; "there is food"
+	next "krijgen is. Het" ; "available, it"
 
-	page "ceaselessly scav-"
-	next "enges for edibles"
-	next "the entire day.@"
+	page "kan een dag lang" ; "ceaselessly scav-"
+	next "eindeloos naar" ; "enges for edibles"
+	next "eten zoeken.@" ; "the entire day.@"

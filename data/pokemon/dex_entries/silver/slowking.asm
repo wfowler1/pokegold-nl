@@ -1,11 +1,11 @@
-	db "ROYAL@" ; species name
+	db "ROYAAL@" ; "ROYAL@" species name
 	db 20 ; height
 	dw 795 ; weight
 
-	db   "When its head was"
-	next "bitten, toxins"
-	next "entered SLOWPOKE's"
+	db   "Toen de kop werd" ; "When its head was"
+	next "gebeten, kwam er" ; "bitten, toxins"
+	next "gif in SLOWPOKES" ; "entered SLOWPOKE's"
 
-	page "head and unlocked"
-	next "an extraordinary"
-	next "power.@"
+	page "brein en ontwaakte" ; "head and unlocked"
+	next "een buitengewone" ; "an extraordinary"
+	next "kracht.@" ; "power.@"

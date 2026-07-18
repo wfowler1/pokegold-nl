@@ -1,11 +1,11 @@
-	db "WATER FISH@" ; species name
+	db "WATERVIS@" ; "WATER FISH@" species name
 	db 14 ; height
 	dw 750 ; weight
 
-	db   "Due to its relaxed"
-	next "and carefree atti-"
-	next "tude, it often"
+	db   "Van nature relaxed" ; "Due to its relaxed"
+	next "en zorgeloos," ; "and carefree atti-"
+	next "waardoor het vaak" ; "tude, it often"
 
-	page "bumps its head on"
-	next "boulders and boat"
-	next "hulls as it swims.@"
+	page "met het hoofd te-" ; "bumps its head on"
+	next "gen stenen en bo-" ; "boulders and boat"
+	next "ten aan zwemt.@" ; "hulls as it swims.@"

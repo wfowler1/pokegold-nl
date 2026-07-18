@@ -1,11 +1,11 @@
-	db "HARD SHELL@" ; species name
+	db "HARD SCHILD@" ; "HARD SHELL@" species name
 	db 12 ; height
 	dw 1520 ; weight
 
-	db   "Even sealed in its"
-	next "shell, it can move"
-	next "freely. Hard and"
+	db   "Opgesloten in het" ; "Even sealed in its"
+	next "schild kan het nog" ; "shell, it can move"
+	next "het vrij bewegen." ; "freely. Hard and"
 
-	page "fast, it has out-"
-	next "standing destruc-"
-	next "tive power.@"
+	page "Hard en snel, het" ; "fast, it has out-"
+	next "heeft grote ver-" ; "standing destruc-"
+	next "woestende kracht.@" ; "tive power.@"

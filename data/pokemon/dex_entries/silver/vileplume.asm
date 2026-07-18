@@ -1,11 +1,11 @@
-	db "FLOWER@" ; species name
+	db "BLOEM@" ; "FLOWER@" species name
 	db 12 ; height
 	dw 186 ; weight
 
-	db   "The bud bursts"
-	next "into bloom with a"
-	next "bang. It then"
+	db   "De knop barst in" ; "The bud bursts"
+	next "bloei met een" ; "into bloom with a"
+	next "knal. Het begint" ; "bang. It then"
 
-	page "starts scattering"
-	next "allergenic, poi-"
-	next "sonous pollen.@"
+	page "dan allergeen," ; "starts scattering"
+	next "giftig stuifmeel" ; "allergenic, poi-"
+	next "te verspreiden.@" ; "sonous pollen.@"

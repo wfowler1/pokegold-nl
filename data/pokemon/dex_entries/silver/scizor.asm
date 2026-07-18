@@ -1,11 +1,11 @@
-	db "SCISSORS@" ; species name
+	db "SCHAAR@" ; "SCISSORS@" species name
 	db 18 ; height
 	dw 1180 ; weight
 
-	db   "Its wings are not"
-	next "used for flying."
-	next "They are flapped"
+	db   "De vleugels worden" ; "Its wings are not"
+	next "niet gebruikt om" ; "used for flying."
+	next "te vliegen, maar" ; "They are flapped"
 
-	page "at high speed to"
-	next "adjust its body"
-	next "temperature.@"
+	page "flapperen op hoge" ; "at high speed to"
+	next "snelheid om het" ; "adjust its body"
+	next "lijf te koelen.@" ; "temperature.@"

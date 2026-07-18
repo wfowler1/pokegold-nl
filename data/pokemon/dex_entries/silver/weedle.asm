@@ -1,11 +1,11 @@
-	db "HAIRY BUG@" ; species name
+	db "INSECT@" ; "HAIRY BUG@" species name
 	db 3 ; height
 	dw 32 ; weight
 
-	db   "It attacks using a"
-	next "two-inch poison"
-	next "barb on its head."
+	db   "Valt aan met een" ; "It attacks using a"
+	next "5 cm lange gifang-" ; "two-inch poison"
+	next "el op het hoofd." ; "barb on its head."
 
-	page "It can usually be"
-	next "found under the"
-	next "leaves it eats.@"
+	page "Is meestal te vin-" ; "It can usually be"
+	next "den onder de bla-" ; "found under the"
+	next "deren die het eet.@" ; "leaves it eats.@"

@@ -1,11 +1,11 @@
-	db "IMITATION@" ; species name
+	db "IMITATIE@" ; "IMITATION@" species name
 	db 12 ; height
 	dw 380 ; weight
 
-	db   "It disguises it-"
-	next "self as a tree to"
-	next "avoid attack. It"
+	db   "Vermomt zichzelf" ; "It disguises it-"
+	next "als boom om ge-" ; "self as a tree to"
+	next "vaar te vermijden." ; "avoid attack. It"
 
-	page "hates water, so it"
-	next "will disappear if"
-	next "it starts raining.@"
+	page "Haat water, dus" ; "hates water, so it"
+	next "het verdwijnt als" ; "will disappear if"
+	next "het gaat regenen.@" ; "it starts raining.@"

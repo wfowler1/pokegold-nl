@@ -1,11 +1,11 @@
-	db "BIVALVE@" ; species name
+	db "TWEEKLEP@" ; "BIVALVE@" species name
 	db 3 ; height
 	dw 40 ; weight
 
-	db   "Grains of sand"
-	next "trapped in its"
-	next "shells mix with"
+	db   "Zandkorrels tussen" ; "Grains of sand"
+	next "de schelpen mengen" ; "trapped in its"
+	next "zich met lichaams-" ; "shells mix with"
 
-	page "its body fluids to"
-	next "form beautiful"
-	next "pearls.@"
+	page "sappen om prachti-" ; "its body fluids to"
+	next "ge parels te" ; "form beautiful"
+	next "vormen.@" ; "pearls.@"

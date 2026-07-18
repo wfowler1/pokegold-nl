@@ -1,11 +1,11 @@
-	db "TINY BIRD@" ; species name
+	db "KLEINVOEL@" ; "TINY BIRD@" species name
 	db 3 ; height
 	dw 20 ; weight
 
-	db   "Very protective of"
-	next "its territory, it"
-	next "flaps its short"
+	db   "Beschermt het" ; "Very protective of"
+	next "territorium met" ; "its territory, it"
+	next "huid en haar. Het" ; "flaps its short"
 
-	page "wings busily to"
-	next "dart around at"
-	next "high speed.@"
+	page "flappert druk met" ; "wings busily to"
+	next "korte vleugels om" ; "dart around at"
+	next "rond te flitsen.@" ; "high speed.@"

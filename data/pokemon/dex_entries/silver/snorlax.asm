@@ -1,11 +1,11 @@
-	db "SLEEPING@" ; species name
+	db "SLAPEND@" ; "SLEEPING@" species name
 	db 21 ; height
 	dw 4600 ; weight
 
-	db   "Its stomach's di-"
-	next "gestive juices can"
-	next "dissolve any kind"
+	db   "Het maagzuur kan" ; "Its stomach's di-"
+	next "kan iedere vorm" ; "gestive juices can"
+	next "van gif verteren." ; "dissolve any kind"
 
-	page "of poison. It can"
-	next "even eat things"
-	next "off the ground.@"
+	page "Het kan zelfs" ; "of poison. It can"
+	next "dingen van de" ; "even eat things"
+	next "grond eten.@" ; "off the ground.@"

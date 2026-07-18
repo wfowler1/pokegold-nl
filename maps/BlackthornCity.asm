@@ -161,8 +161,7 @@ Text_ClairIsIn:
 	para "Een gewone trainer" ; "However, it would"
 	line "kan echter nooit" ; "be impossible for"
 
-	para "van haar winnen." ; "a run-of-the-mill"
-	line ;"trainer to win."
+	cont "van haar winnen." ; "a run-of-the-mill"
 	done
 
 Text_ClairIsBeaten:

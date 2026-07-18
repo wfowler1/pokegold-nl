@@ -1,11 +1,11 @@
-	db "CLEAR WING@" ; species name
+	db "DUNVLEUGEL@" ; "CLEAR WING@" species name
 	db 12 ; height
 	dw 380 ; weight
 
-	db   "Its large eyes can"
-	next "scan 360 degrees."
-	next "It looks in all"
+	db   "De grote ogen" ; "Its large eyes can"
+	next "kunnen 360 graden" ; "scan 360 degrees."
+	next "scannen. Het kijkt" ; "It looks in all"
 
-	page "directions to seek"
-	next "out insects as its"
-	next "prey.@"
+	page "alle kanten op om" ; "directions to seek"
+	next "insecten als prooi" ; "out insects as its"
+	next "te kunnen vinden.@" ; "prey.@"

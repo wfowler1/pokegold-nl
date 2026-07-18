@@ -1,11 +1,11 @@
-	db "VOLCANO@" ; species name
+	db "VULKAAN@" ; "VOLCANO@" species name
 	db 9 ; height
 	dw 190 ; weight
 
-	db   "This #MON is"
-	next "fully covered by"
-	next "nonflammable fur."
+	db   "Deze #MON is" ; "This #MON is"
+	next "volledig bedekt" ; "fully covered by"
+	next "met brandwerende" ; "nonflammable fur."
 
-	page "It can withstand"
-	next "any kind of fire"
-	next "attack.@"
+	page "vacht. Het kan" ; "It can withstand"
+	next "iedere vuuraanval" ; "any kind of fire"
+	next "weerstaan.@" ; "attack.@"

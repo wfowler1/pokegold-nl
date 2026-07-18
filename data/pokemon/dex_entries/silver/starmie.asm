@@ -1,11 +1,11 @@
-	db "MYSTERIOUS@" ; species name
+	db "MYSTERIEUS@" ; "MYSTERIOUS@" species name
 	db 11 ; height
 	dw 800 ; weight
 
-	db   "Regardless of the"
-	next "environment it"
-	next "lives in, its body"
+	db   "Ongeacht de omge-" ; "Regardless of the"
+	next "ving waar het" ; "environment it"
+	next "leeft groeit het" ; "lives in, its body"
 
-	page "grows to form a"
-	next "symmetrical geo-"
-	next "metric shape.@"
+	page "lichaam uit tot" ; "grows to form a"
+	next "een symmetrische" ; "symmetrical geo-"
+	next "geometrische vorm.@" ; "metric shape.@"

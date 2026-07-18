@@ -1,11 +1,11 @@
-	db "BALLOON@" ; species name
+	db "BALLON@" ; "BALLOON@" species name
 	db 10 ; height
 	dw 120 ; weight
 
-	db   "It has a very fine"
-	next "fur. Take care not"
-	next "to make it angry,"
+	db   "Het heeft een hele" ; "It has a very fine"
+	next "fijne vacht. Maak" ; "fur. Take care not"
+	next "het niet boos," ; "to make it angry,"
 
-	page "or it may inflate"
-	next "steadily and hit"
-	next "with a BODY SLAM.@"
+	page "anders blaast het" ; "or it may inflate"
+	next "op en gebruikt het" ; "steadily and hit"
+	next "LIJFSTRAF op je.@" ; "with a BODY SLAM.@"

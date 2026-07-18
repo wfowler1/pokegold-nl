@@ -1,11 +1,11 @@
-	db "VINE@" ; species name
+	db "ROEDE@" ; "VINE@" species name
 	db 10 ; height
 	dw 350 ; weight
 
-	db   "It tangles any"
-	next "moving thing with"
-	next "its vines. Their"
+	db   "Omwikkelt alles" ; "It tangles any"
+	next "dat beweegt met de" ; "moving thing with"
+	next "lianen. Subtiel" ; "its vines. Their"
 
-	page "subtle shaking"
-	next "is ticklish if you"
-	next "get ensnared.@"
+	page "getril kietelt" ; "subtle shaking"
+	next "als je erin" ; "is ticklish if you"
+	next "verstrikt raakt.@" ; "get ensnared.@"

@@ -1,11 +1,11 @@
-	db "BALL@" ; species name
+	db "BAL@" ; "BALL@" species name
 	db 5 ; height
 	dw 104 ; weight
 
-	db   "It was discovered"
-	next "when # BALLS"
-	next "were introduced."
+	db   "Het werd ontdekt" ; "It was discovered"
+	next "toen #BALLEN" ; "when # BALLS"
+	next "net nieuw waren." ; "were introduced."
 
-	page "It is said that"
-	next "there is some"
-	next "connection.@"
+	page "Men denk dat er" ; "It is said that"
+	next "een verband is" ; "there is some"
+	next "tussen de twee.@" ; "connection.@"

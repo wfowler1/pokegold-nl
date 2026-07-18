@@ -1,11 +1,11 @@
-	db "BUBBLE JET@" ; species name
+	db "BUBBLEJET@" ; "BUBBLE JET@" species name
 	db 10 ; height
 	dw 290 ; weight
 
-	db   "It prefers beauti-"
-	next "ful shores. With"
-	next "cells similar to"
+	db   "Houdt van mooie" ; "It prefers beauti-"
+	next "oevers. Met cellen" ; "ful shores. With"
+	next "die lijken op" ; "cells similar to"
 
-	page "water molecules,"
-	next "it could melt in"
-	next "water.@"
+	page "watermoleculen kan" ; "water molecules,"
+	next "het oplossen" ; "it could melt in"
+	next "in water.@" ; "water.@"

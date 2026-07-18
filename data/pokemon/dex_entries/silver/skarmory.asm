@@ -1,11 +1,11 @@
-	db "ARMOR BIRD@" ; species name
+	db "IJZERVOGEL@" ; "ARMOR BIRD@" species name
 	db 17 ; height
 	dw 505 ; weight
 
-	db   "After nesting in"
-	next "bramble bushes,"
-	next "the wings of its"
+	db   "Na in braamstrui-" ; "After nesting in"
+	next "ken te hebben ge-" ; "bramble bushes,"
+	next "nesteld, verharden" ; "the wings of its"
 
-	page "chicks grow hard"
-	next "from scratches by"
-	next "thorns.@"
+	page "de vleugels van" ; "chicks grow hard"
+	next "kuikens door kras-" ; "from scratches by"
+	next "sen van doorns.@" ; "thorns.@"

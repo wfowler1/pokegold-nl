@@ -1,11 +1,11 @@
-	db "PIG@" ; species name
+	db "VARKEN@" ; "PIG@" species name
 	db 4 ; height
 	dw 65 ; weight
 
-	db   "If it smells some-"
-	next "thing enticing, it"
-	next "dashes headlong"
+	db   "Als het iets lek-" ; "If it smells some-"
+	next "kers ruikt, haast" ; "thing enticing, it"
+	next "het halsoverkop" ; "dashes headlong"
 
-	page "off to find the"
-	next "source of the"
-	next "aroma.@"
+	page "weg om de bron" ; "off to find the"
+	next "van het aroma" ; "source of the"
+	next "te vinden.@" ; "aroma.@"

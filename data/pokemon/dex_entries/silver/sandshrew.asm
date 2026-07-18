@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; "MOUSE@" species name
 	db 6 ; height
 	dw 120 ; weight
 
-	db   "Disliking water,"
-	next "it lives in deep"
-	next "burrows in arid"
+	db   "Haat water, leeft" ; "Disliking water,"
+	next "in diepe holen in" ; "it lives in deep"
+	next "droge gebieden." ; "burrows in arid"
 
-	page "areas. It can roll"
-	next "itself instantly"
-	next "into a ball.@"
+	page "kan zichzelf" ; "areas. It can roll"
+	next "razendsnel in een" ; "itself instantly"
+	next "bal oprollen.@" ; "into a ball.@"

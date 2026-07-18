@@ -1,11 +1,11 @@
-	db "SEED@" ; species name
+	db "ZAAD@" ; "SEED@" species name
 	db 20 ; height
 	dw 1000 ; weight
 
-	db   "It is able to con-"
-	next "vert sunlight into"
-	next "energy. As a"
+	db   "Het kan zon-" ; "It is able to con-"
+	next "licht in energie" ; "vert sunlight into"
+	next "omzetten. Dit" ; "energy. As a"
 
-	page "result, it is more"
-	next "powerful in the"
-	next "summertime.@"
+	page "betekent dat het" ; "result, it is more"
+	next "sterker is tijdens" ; "powerful in the"
+	next "de zomermaanden.@" ; "summertime.@"

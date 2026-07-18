@@ -1,11 +1,11 @@
-	db "MYSTIC@" ; species name
+	db "MYSTIEK@" ; "MYSTIC@" species name
 	db 15 ; height
 	dw 150 ; weight
 
-	db   "In South America,"
-	next "it is said that"
-	next "its right eye sees"
+	db   "In Zuid-Amerika" ; "In South America,"
+	next "wordt gezegd dat" ; "it is said that"
+	next "het rechteroog de" ; "its right eye sees"
 
-	page "the future and its"
-	next "left eye views the"
-	next "past.@"
+	page "toekomst ziet en" ; "the future and its"
+	next "het linkeroog het" ; "left eye views the"
+	next "verleden.@" ; "past.@"
