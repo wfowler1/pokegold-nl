@@ -243,16 +243,14 @@ FakeDirectorTextAfter:
 	done
 
 Executivef1SeenText:
-	text "Hoi, kleine knul." ; "Hi, little boy."
-	line "Ken je me nog" ; "Remember me from"
+	text "Hi, little boy."
+	line "Remember me from"
 
-	para "van de SCHUIL-" ; "the HIDEOUT in"
-	line "PLAATS in" ; "MAHOGANY TOWN?"
+	para "the HIDEOUT in"
+	line "MAHOGANY TOWN?"
 
-	para "MAHOGANY TOWN?" ; "I lost then, but I"
-	line "Ik verloor toen," ; "won't this time."
-	para "maar deze keer"
-	line "verlies ik niet."
+	para "I lost then, but I"
+	line "won't this time."
 	done
 
 Executivef1BeatenText:
@@ -381,39 +379,38 @@ RadioTower5FDirectorDescribeRainbowWingText:
 	done
 
 RadioTower5FDirectorDescribeSilverWingText:
-	text "Er was ooit" ; "There used to be a"
-	line "een toren hier" ; "tower right here"
+	text "There used to be a"
+	line "tower right here"
 	cont "in GOLDENROD CITY."
 
-	para "Maar het was oud" ; "But it was old and"
-	line "en krakkemikkig." ; "creaky."
+	para "But it was old and"
+	line "creaky."
 
-	para "Dus we vervingen" ; "So we replaced it"
-	line "het met onze" ; "with our RADIO"
-	cont "RADIOTOREN." ; "TOWER."
+	para "So we replaced it"
+	line "with our RADIO"
+	cont "TOWER."
 
-	para "We vonden dit" ; "During the tear-"
-	line "bovenin tijdens" ; "down, we found"
-	cont "de sloop." ; "that at the top."
+	para "During the tear-"
+	line "down, we found"
+	cont "that at the top."
 
-	para "Ik heb gehoord dat" ; "I heard that giant"
-	line "die gigantische" ; "#MON used to"
+	para "I heard that giant"
+	line "#MON used to"
 
-	para "#MON vloog over" ; "fly over GOLDENROD"
-	line "GOLDENROD." ; "in the past."
+	para "fly over GOLDENROD"
+	line "in the past."
 
-	para "Misschien viel dat" ; "Maybe that fell"
-	line "van een #MON." ; "off a #MON."
+	para "Maybe that fell"
+	line "off a #MON."
 
-	para "Misschien zoals" ; "Maybe like the one"
-	line "die in DRAAIKOLK-" ; "that appears at"
+	para "Maybe like the one"
+	line "that appears at"
 
-	para "EILANDEN nabij" ; "WHIRL ISLANDS near"
-	line "CIANWOOD" ; "CIANWOOD."
+	para "WHIRL ISLANDS near"
+	line "CIANWOOD."
 
-	para "verschijnt." ; "OK, I better go to"
-	line "Oké, ik moet naar" ; "my OFFICE."
-	line "m'n kantoor."
+	para "OK, I better go to"
+	line "my OFFICE."
 	done
 
 RadioTower5FDirectorText:
