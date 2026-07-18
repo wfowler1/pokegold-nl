@@ -107,8 +107,8 @@ _PasswordAskEnterText::
 	done
 
 _ClearAllSaveDataText::
-	text "Clear all save"
-	line "data area?"
+	text "Wis alle" ; "Clear all save"
+	line "opslaggegevens?" ; "data area?"
 	done
 
 _LearnedMoveText:: ; AlwaysReplace
@@ -284,8 +284,8 @@ _BallSentToPCText::
 _NewDexDataText::
 	text_ram wEnemyMonNickname
 	text "'s data"
-	line "was newly added to"
-	cont "the #DEX.@"
+	line "werd toegevoegd" ; "was newly added to"
+	cont "aan de #DEX.@" ; "the #DEX.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end

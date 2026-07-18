@@ -116,8 +116,8 @@ AcademyBlackboard:
 .Text:
 	db "GIF@" ; "PSN@"
 	db "VLM@" ; "PAR@"
-	db "SLP@"
-	db "BRN@"
+	db "SLP@" ; "SLP@"
+	db "BRN@" ; "BRN@"
 	db "BVR@" ; "FRZ@"
 	db "UIT@"; "QUIT@"
 
@@ -404,7 +404,7 @@ AcademyStickerMachineText:
 	text "Deze supermachine" ; "This super machine"
 	line "drukt data af als" ; "prints data out as"
 
-	para "stickers!"
+	para "stickers!" ; "stickers!"
 	done
 
 EarlsPokemonAcademy_MapEvents:

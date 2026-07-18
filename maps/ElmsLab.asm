@@ -666,7 +666,7 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAYER>!"
+	text "ELM: <PLAYER>!" ; "ELM: <PLAYER>!"
 	line "There you are!"
 
 	para "Ik wil je om een" ; "I needed to ask"
@@ -755,7 +755,7 @@ ReceivedStarterText:
 	text "<PLAYER> koos" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 ElmDirectionsText1:
@@ -829,7 +829,7 @@ ElmAfterTheftText1:
 ElmAfterTheftText2:
 	text "<PLAYER> gaf" ; "<PLAYER> handed"
 	line "MYSTERIE-EI aan" ; "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	cont "PROF.ELM." ; "PROF.ELM."
 	done
 
 ElmAfterTheftText3:
@@ -899,7 +899,7 @@ ElmStudyingEggText:
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAYER>?"
+	text "ELM: <PLAYER>?" ; "ELM: <PLAYER>?"
 	line "Heb je gesproken" ; "Didn't you meet my"
 	cont "met m'n assistent?" ; "assistant?"
 
@@ -924,7 +924,7 @@ ElmThoughtEggHatchedText:
 	line "EI uit? Ja toch?" ; "the EGG hatched."
 
 	para "Waar is de" ; "Where is the"
-	line "#MON?"
+	line "#MON?" ; "#MON?"
 	done
 
 ShowElmTogepiText1:
@@ -1037,7 +1037,7 @@ ElmGiveMasterBallText2:
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAYER>!"
+	text "ELM: <PLAYER>!" ; "ELM: <PLAYER>!"
 	line "Daar ben je!" ; "There you are!"
 
 	para "Ik belde omdat ik" ; "I called because I"
@@ -1063,7 +1063,7 @@ ElmGiveTicketText2:
 	cont "je #MON." ; "with your #MON."
 
 	para "Doe de groeten aan" ; "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	line "PROF.OAK in KANTO!" ; "PROF.OAK in KANTO!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
@@ -1110,7 +1110,7 @@ AideText_TheftTestimony:
 	done
 
 AideText_GiveYouBalls:
-	text "<PLAYER>!"
+	text "<PLAYER>!" ; "<PLAYER>!"
 
 	para "Gebruik deze op je" ; "Use these on your"
 	line "#DEX-missie!" ; "#DEX quest!"

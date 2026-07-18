@@ -19,291 +19,291 @@ PhoneMaleAnswerDayText:
 	done
 
 PhoneMaleAnswerNiteText:
-	text "Hello. This is"
+	text "Hallo. Met" ; "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "…" ; "…"
 
-	para "Good evening,"
+	para "Goedenavond," ; "Good evening,"
 	line "<PLAYER>!" ; "<PLAYER>!"
 	done
 
 PhoneFemaleAnswerMornText:
-	text "Hi. This is"
+	text "Hoi. Met" ; "Hi. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
 
-	para "Hi, <PLAYER>!"
-	line "Good morning."
+	para "Hoi, <PLAYER>!" ; "Hi, <PLAYER>!"
+	line "Goedemorgen." ; "Good morning."
 	done
 
 PhoneFemaleAnswerDayText:
-	text "Hi. This is"
+	text "Hoi. Met" ; "Hi. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
 
-	para "Hi, <PLAYER>!"
-	line "How are you?"
+	para "Hoi, <PLAYER>!" ; "Hi, <PLAYER>!"
+	line "Hoe gaat het?" ; "How are you?"
 	done
 
 PhoneFemaleAnswerNiteText:
-	text "Hi. This is"
+	text "Hoi. Met" ; "Hi. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
 
-	para "Hi, <PLAYER>!"
-	line "Good evening."
+	para "Hoi, <PLAYER>!" ; "Hi, <PLAYER>!"
+	line "Goedenavond." ; "Good evening."
 	done
 
 PhoneMaleGreetMornText:
-	text "<PLAYER>, good"
-	line "morning!"
+	text "<PLAYER>," ; "<PLAYER>, good"
+	line "goedemorgen!" ; "morning!"
 
-	para "It's me, @"
+	para "Met @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
-	line "How are you doing?"
+	line "Hoe gaat het?" ; "How are you doing?"
 	done
 
 PhoneMaleGreetDayText:
 	text "<PLAYER>, howdy!" ; "<PLAYER>, howdy!"
 
-	para "It's me, @"
+	para "Met @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
-	line "Isn't it nice out?"
+	line "Lekker weertje he?" ; "Isn't it nice out?"
 	done
 
 PhoneMaleGreetNiteText:
-	text "<PLAYER>, good"
-	line "evening!"
+	text "<PLAYER>," ; "<PLAYER>, good"
+	line "Goedenavond!" ; "evening!"
 
-	para "It's me, @"
+	para "Met @" ; "It's me, @"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
-	line "Got a minute?"
+	line "Heb je even?" ; "Got a minute?"
 	done
 
 PhoneFemaleGreetMornText:
-	text "Good morning,"
+	text "Goedemorgen," ; "Good morning,"
 	line "<PLAYER>." ; "<PLAYER>."
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
-	line "Did I wake you?"
+	line "Maak ik je wakker?" ; "Did I wake you?"
 	done
 
 PhoneFemaleGreetDayText:
 	text "Hello, <PLAYER>." ; "Hello, <PLAYER>."
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
-	line "How are things?"
+	line "Hoe gaat ie?" ; "How are things?"
 	done
 
 PhoneFemaleGreetNiteText:
 	text "Good evening," ; "Good evening,"
 	line "<PLAYER>." ; "<PLAYER>."
 
-	para "This is @"
+	para "Dit is @" ; "This is @"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "." ; "."
-	line "Were you awake?"
+	line "Was je wakker?" ; "Were you awake?"
 	done
 
 PhoneMaleReallyEnergeticText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "My @"
+	para "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "really energetic."
-	cont "It's a handful!"
+	text " is" ; "'s"
+	line "erg energiek." ; "really energetic."
+	cont "Wat een gedoe!" ; "It's a handful!"
 	done
 
 PhoneFemaleTopShapeText:
-	text "How are your"
-	line "#MON doing?"
+	text "Hoe gaat het met" ; "How are your"
+	line "je #MON?" ; "#MON doing?"
 
-	para "I always keep my"
+	para "Ik houd mijn" ; "I always keep my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " in top"
+	text " gezond" ; " in top"
 
-	para "shape by going to"
-	line "#MON CENTERS."
+	para "door #MONCENTRA" ; "shape by going to"
+	line "te bezoeken." ; "#MON CENTERS."
 	done
 
 PhoneMaleLookingAwesomeText:
-	text "My @"
+	text "Mijn @" ; "My @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text "'s"
-	line "looking awesome."
+	text " is" ; "'s"
+	line "geweldig." ; "looking awesome."
 
-	para "I wish I could"
-	line "show you."
+	para "Kon ik het je maar" ; "I wish I could"
+	line "laten zien." ; "show you."
 	done
 
 PhoneFemaleDressedUpText:
-	text "I dressed up my"
+	text "Ik verkleedde mijn" ; "I dressed up my"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "." ; "."
 
-	para "It looks even"
-	line "cuter than before."
+	para "Het ziet er nu nog" ; "It looks even"
+	line "schattiger uit." ; "cuter than before."
 	done
 
 PhoneMaleManagedToBeatText:
-	text "Oh, yeah, I man-"
-	line "aged to beat a"
-	cont "tough @"
+	text "Oh ja, ik versloeg" ; "Oh, yeah, I man-"
+	line "een erg sterke" ; "aged to beat a"
+	cont "@" ; "tough @"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "." ; "."
 
-	para "I need to make my"
-	line "party stronger."
+	para "Ik moet mijn team" ; "I need to make my"
+	line "sterker maken." ; "party stronger."
 	done
 
 PhoneFemaleTypeAdvantageText:
-	text "You have to hear"
-	line "this! I battled"
+	text "Moet je horen!" ; "You have to hear"
+	line "Ik vocht met een" ; "this! I battled"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " the"
-	line "other day."
+	text " een" ; " the"
+	line "tijdje terug." ; "other day."
 
-	para "It was easy! I had"
-	line "a type advantage."
+	para "Eitje! Ik had het" ; "It was easy! I had"
+	line "juiste type." ; "a type advantage."
 	done
 
 PhoneMaleAlmostCaughtText:
-	text "Hey, listen!"
-	line "I almost caught"
+	text "He, luister! Ik" ; "Hey, listen!"
+	line "ving bijna een" ; "I almost caught"
 
 	para "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " the"
-	line "other day."
+	text " een" ; " the"
+	line "tijdje geleden." ; "other day."
 
-	para "Oh, it was soooo"
-	line "close too!"
+	para "Oh, het was echt" ; "Oh, it was soooo"
+	line "bijna gelukt!" ; "close too!"
 	done
 
 PhoneFemaleMissedCatchingText:
-	text "Guess what happen-"
-	line "ed the other day."
+	text "Raad eens wat er" ; "Guess what happen-"
+	line "laatst gebeurde." ; "ed the other day."
 
-	para "I missed catching"
+	para "De vangst van een" ; "I missed catching"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " again."
+	text " faalde." ; " again."
 
-	para "Maybe I'm not very"
-	line "good at this…"
+	para "Misschien ben ik" ; "Maybe I'm not very"
+	line "hier niet goed in…" ; "good at this…"
 	done
 
 PhoneMaleWantsToBattleText:
-	text "Want to battle?"
-	line "It's not going to"
+	text "Potje vechten?" ; "Want to battle?"
+	line "Het zal niet zoals" ; "It's not going to"
 
-	para "be a repeat of the"
-	line "last time we met."
+	para "de vorige keer" ; "be a repeat of the"
+	line "gaan." ; "last time we met."
 
-	para "I'll be around"
+	para "Je vindt me bij" ; "I'll be around"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "." ; "."
 	done
 
 PhoneFemaleWantsToBattleText:
-	text "Do you want to"
-	line "battle? I'm going"
-	cont "to win this time!"
+	text "Wil je vechten?" ; "Do you want to"
+	line "Ditmaal ga ik" ; "battle? I'm going"
+	cont "winnen!" ; "to win this time!"
 
-	para "I'll be waiting"
-	line "for you around"
+	para "Ik wacht op je" ; "I'll be waiting"
+	line "ergens bij" ; "for you around"
 
 	para "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "." ; "."
-	line "Look for me, OK?"
+	line "Zoek jij me op?" ; "Look for me, OK?"
 	done
 
 PhoneWrongNumberKazText:
-	text "Hello? This is"
+	text "Hallo? Dit is" ; "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxTrainerNameLength
 	text "…" ; "…"
 
-	para "Uh-oh… You're not"
-	line "KAZ! Sorry, wrong"
-	cont "number."
+	para "Uh-oh… Jij bent" ; "Uh-oh… You're not"
+	line "niet KAZ! Sorry," ; "KAZ! Sorry, wrong"
+	cont "verkeerd nummer." ; "number."
 	done
 
 PhoneWrongNumberAudreyText:
-	text "Hello, this is"
+	text "Hallo, dit is" ; "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text ". How are"
-	cont "you doing, AUDREY?"
+	text ". Hoe" ; ". How are"
+	cont "gaat ie, AUDREY?" ; "you doing, AUDREY?"
 
 	para "Huh? <PLAYER>?" ; "Huh? <PLAYER>?"
-	line "Oops! My mistake!"
+	line "Oeps! Mijn fout!" ; "Oops! My mistake!"
 	done
 
 PhoneSeeYouLaterText:
-	text "See you later!"
+	text "Spreek je later!" ; "See you later!"
 	done
 
 PhoneByeByeText:
-	text "Bye-bye!"
+	text "Doei!" ; "Bye-bye!"
 	done
 
 PhoneSwarmGrassText:
-	text "You have to see"
-	line "this! It's wild!"
+	text "Je moet dit zien!" ; "You have to see"
+	line "Het is bizar!" ; "this! It's wild!"
 
-	para "A whole bunch of"
+	para "Een hele groep" ; "A whole bunch of"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " have"
+	text " doken" ; " have"
 
-	para "shown up around"
+	para "op bij" ; "shown up around"
 	line "@"
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "!" ; "!"
 	done
 
 PhoneSwarmFishText:
-	text "It's amazing!"
+	text "Het is geweldig!" ; "It's amazing!"
 
-	para "On @"
+	para "Op @" ; "On @"
 	text_ram wStringBuffer5 ; MaxLength 14
 	text "," ; ","
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
-	text " are"
+	text " bijten" ; " are"
 
-	para "biting like there"
-	line "is no tomorrow."
+	para "echt continu aan" ; "biting like there"
+	line "mijn vishengel." ; "is no tomorrow."
 
-	para "<PLAYER>, bring"
-	line "your ROD, buddy!"
+	para "<PLAYER>, neem je" ; "<PLAYER>, bring"
+	line "HENGEL mee, maat!" ; "your ROD, buddy!"
 	done
 
 PhoneSwarmCaveText:
-	text "A friend just told"
-	line "me this."
+	text "Ik hoorde dit net" ; "A friend just told"
+	line "van een vriend." ; "me this."
 
-	para "He saw a lot of"
+	para "Hij zag veel" ; "He saw a lot of"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text " in" ; " in"
@@ -311,45 +311,45 @@ PhoneSwarmCaveText:
 	text_ram wStringBuffer5 ; MaxLength MaxLandmarkLength
 	text "." ; "."
 
-	para "<PLAYER>, you ought"
-	line "to go look."
+	para "<PLAYER>, ga eens" ; "<PLAYER>, you ought"
+	line "een kijkje nemen." ; "to go look."
 	done
 
 PhoneBugCatchingContestText:
-	text "They're holding"
-	line "the Bug-Catching"
+	text "Ze organiseren" ; "They're holding"
+	line "vandaag een KEVER-" ; "the Bug-Catching"
 
-	para "Contest today at"
-	line "the PARK."
+	para "TOERNOOI in het" ; "Contest today at"
+	line "park." ; "the PARK."
 
-	para "<PLAYER>, are you"
-	line "going to go?"
+	para "<PLAYER>, ga jij" ; "<PLAYER>, are you"
+	line "meedoen?" ; "going to go?"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAYER>, did you"
-	line "know?"
+	text "<PLAYER>, heb je " ; "<PLAYER>, did you"
+	line "het al gehoord?" ; "know?"
 
-	para "I hear GOLDENROD's"
-	line "RADIO TOWER was"
+	para "De radiotoren in" ; "I hear GOLDENROD's"
+	line "GOLDENROD zou zijn" ; "RADIO TOWER was"
 
-	para "taken over by TEAM"
-	line "ROCKET."
+	para "gekaapt door" ; "taken over by TEAM"
+	line "TEAM ROCKET." ; "ROCKET."
 
-	para "But what exactly"
-	line "is TEAM ROCKET?"
+	para "Maar wat is TEAM" ; "But what exactly"
+	line "ROCKET eigenlijk?" ; "is TEAM ROCKET?"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "<PLAYER>, did you"
-	line "hear the news?"
+	text "<PLAYER>, heb je" ; "<PLAYER>, did you"
+	line "het al gehoord?" ; "hear the news?"
 
-	para "TEAM ROCKET has"
-	line "taken over the"
+	para "TEAM ROCKET heeft" ; "TEAM ROCKET has"
+	line "de RADIOTOREN in" ; "taken over the"
 
-	para "RADIO TOWER in"
-	line "GOLDENROD CITY."
+	para "GOLDENROD CITY" ; "RADIO TOWER in"
+	line "gekaapt." ; "GOLDENROD CITY."
 
-	para "I wonder if the"
-	line "workers are OK…"
+	para "Hopelijk is" ; "I wonder if the"
+	line "iedereen OK…" ; "workers are OK…"
 	done

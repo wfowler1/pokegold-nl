@@ -55,7 +55,7 @@ FuchsiaCityYoungsterText:
 	line "FOUR was vroeger" ; "FOUR used to be"
 
 	para "de LEIDER van" ; "the LEADER of"
-	line "FUCHSIA's GYM."
+	line "FUCHSIA's GYM." ; "FUCHSIA's GYM."
 	done
 
 FuchsiaCityPokefanMText:
@@ -77,14 +77,14 @@ FuchsiaCityTeacherText:
 	done
 
 FuchsiaCitySignText:
-	text "FUCHSIA CITY"
+	text "FUCHSIA CITY" ; "FUCHSIA CITY"
 
 	para "Aanschouw! Het is" ; "Behold! It's"
 	line "passie-roze!" ; "Passion Pink!"
 	done
 
 FuchsiaGymSignText:
-	text "FUCHSIA CITY"
+	text "FUCHSIA CITY" ; "FUCHSIA CITY"
 	line "#MON-GYMLEIDER:"
 	cont "JANINE" ; "LEADER: JANINE"
 

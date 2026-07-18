@@ -86,8 +86,9 @@ _BouldersMoveText::
 	done
 
 _BouldersMayMoveText::
-	text "A #MON zou dit" ; "A #MON may be"
-	line "kunnen bewegen." ; "able to move this."
+	text "Een #MON zou" ; "A #MON may be"
+	line "dit kunnen" ; "able to move this."
+	cont "bewegen."
 	done
 
 _UseWhirlpoolText::
@@ -137,8 +138,8 @@ _UseRockSmashText::
 	prompt
 
 _MaySmashText::
-	text "A #MON may be"
-	line "able to break it."
+	text "Wellicht breekt" ; "A #MON may be"
+	line "een #MON dit." ; "able to break it."
 	done
 
 _AskRockSmashText::
@@ -203,9 +204,9 @@ _FoundItemText::
 	done
 
 _CantCarryItemText::
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items!"
+	text "Maar <PLAYER>" ; "But <PLAYER> can't"
+	line "heeft geen plek " ; "carry any more"
+	cont "meer!" ; "items!"
 	done
 
 _WhitedOutText::
@@ -931,9 +932,9 @@ _OakRating11::
 	done
 
 _OakRating12::
-	text "Have you met KURT?"
-	line "His custom #"
-	cont "BALLS should help."
+	text "Ken je KURT al?" ; "Have you met KURT?"
+	line "Zijn #BALLEN" ; "His custom #"
+	cont "helpen je vast." ; "BALLS should help."
 	done
 
 _OakRating13::
@@ -1599,8 +1600,8 @@ _MartPackFullText::
 	done
 
 _MartCantBuyText::
-	text "Sorry, I can't buy"
-	line "that from you."
+	text "Sorry, ik kan dat" ; "Sorry, I can't buy"
+	line "niet van je kopen." ; "that from you."
 	done
 
 _MartComeAgainText::

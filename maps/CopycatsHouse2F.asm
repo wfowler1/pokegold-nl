@@ -210,7 +210,7 @@ CopycatText_Male_3:
 	line "Bedankt voor het" ; "Thanks a lot for"
 	cont "TREINKAARTJE!" ; "the rail PASS!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Pardon?" ; "<PLAYER>: Pardon?"
 
 	para "<PLAYER>: Is het" ; "<PLAYER>: Is it"
 	line "zo leuk om alles" ; "that fun to mimic"
@@ -223,7 +223,7 @@ CopycatText_ItsAScream:
 	done
 
 CopycatsDodrioText1:
-	text "DODRIO: Gii giii!"
+	text "DODRIO: Gii giii!" ; "DODRIO: Gii giii!"
 	done
 
 CopycatsDodrioText2:
@@ -237,7 +237,7 @@ CopycatsDodrioText2:
 
 CopycatsHouse2FDollText:
 	text "Een zeldzame" ; "This is a rare"
-	line "#MON! Huh?"
+	line "#MON! Huh?" ; "#MON! Huh?"
 
 	para "Het is een pop…" ; "It's only a doll…"
 	done

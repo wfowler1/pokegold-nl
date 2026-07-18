@@ -156,7 +156,7 @@ LavRadioTower1FGentlemanText_GotExpnCard:
 	para "gramma's hier in" ; "the radio programs"
 	line "KANTO luisteren." ; "here in KANTO."
 
-	para "Gahahahaha!"
+	para "Gahahahaha!" ; "Gahahahaha!"
 	done
 
 LavRadioTower1FSuperNerd2Text:
