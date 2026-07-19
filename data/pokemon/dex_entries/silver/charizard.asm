@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; "FLAME@" species name
 	db 17 ; height
 	dw 905 ; weight
 
-	db   "Breathing intense,"
-	next "hot flames, it can"
-	next "melt almost any-"
+	db   "Ademt intens hete" ; "Breathing intense,"
+	next "vlammen en kan" ; "hot flames, it can"
+	next "bijna alles smel-" ; "melt almost any-"
 
-	page "thing. Its breath"
-	next "inflicts terrible"
-	next "pain on enemies.@"
+	page "ten. De adem" ; "thing. Its breath"
+	next "bezorgt vijanden" ; "inflicts terrible"
+	next "helse pijnen.@" ; "pain on enemies.@"

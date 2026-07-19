@@ -22,14 +22,14 @@ OlivinePokecenter1FTeacherScript:
 	jumptextfaceplayer OlivinePokecenter1FTeacherText
 
 OlivinePokecenter1FFisherText:
-	text "Sailors are really"
-	line "generous."
+	text "Zeemannen zijn" ; "Sailors are really"
+	line "erg gul." ; "generous."
 
-	para "One taught my"
-	line "#MON STRENGTH."
+	para "Een leerde mijn" ; "One taught my"
+	line "#MON KRACHT." ; "#MON STRENGTH."
 
-	para "Now it can move"
-	line "big boulders."
+	para "Nu kan het rotsen" ; "Now it can move"
+	line "verplaatsen." ; "big boulders."
 	done
 
 OlivinePokecenter1FTeacherText:

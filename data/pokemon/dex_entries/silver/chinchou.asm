@@ -1,11 +1,11 @@
-	db "ANGLER@" ; species name
+	db "VISSER@" ; "ANGLER@" species name
 	db 5 ; height
 	dw 120 ; weight
 
-	db   "On the dark ocean"
-	next "floor, its only"
-	next "means of communi-"
+	db   "Op de donkere oce-" ; "On the dark ocean"
+	next "aanbodem kan het" ; "floor, its only"
+	next "enkel communiceren" ; "means of communi-"
 
-	page "cation is its"
-	next "constantly flash-"
-	next "ing lights.@"
+	page "door constant" ; "cation is its"
+	next "met licht te" ; "constantly flash-"
+	next "flitsen.@" ; "ing lights.@"

@@ -1,11 +1,11 @@
-	db "BAT@" ; species name
+	db "VLEERMUS@" ; "BAT@" species name
 	db 18 ; height
 	dw 750 ; weight
 
-	db   "The development of"
-	next "wings on its legs"
-	next "enables it to fly"
+	db   "De ontwikkeling" ; "The development of"
+	next "van vleugels op de" ; "wings on its legs"
+	next "poten laat het" ; "enables it to fly"
 
-	page "fast but also"
-	next "makes it tough to"
-	next "stop and rest.@"
+	page "snel vliegen, maar" ; "fast but also"
+	next "het kan moeilijk" ; "makes it tough to"
+	next "stoppen en rusten.@" ; "stop and rest.@"

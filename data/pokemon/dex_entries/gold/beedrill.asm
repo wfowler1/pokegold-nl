@@ -7,5 +7,5 @@
 	next "met krachtige," ; "its powerful poi-"
 
 	page "giftige angels." ; "son stingers. It"
-	next "Valt soms soms aan" ; "sometimes attacks"
-	next "met een zwerm.@" ; "in swarms.@"
+	next "Valt soms aan met" ; "sometimes attacks"
+	next "een zwerm.@" ; "in swarms.@"

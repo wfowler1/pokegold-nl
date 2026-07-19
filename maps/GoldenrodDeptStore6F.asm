@@ -144,10 +144,10 @@ GoldenrodDeptStore6FSuperNerdText:
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "Take a Break from"
-	line "Shopping!"
+	text "Neem een" ; "Take a Break from"
+	line "winkelpauze!" ; "Shopping!"
 
-	para "6F ROOFTOP SQUARE"
+	para "5V DAKTERRAS" ; "6F ROOFTOP SQUARE"
 	done
 
 GoldenrodDeptStore6F_MapEvents:

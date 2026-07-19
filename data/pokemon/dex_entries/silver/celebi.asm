@@ -1,11 +1,11 @@
-	db "TIMETRAVEL@" ; species name
+	db "TIJDREIZEN@" ; "TIMETRAVEL@" species name
 	db 6 ; height
 	dw 50 ; weight
 
-	db   "When CELEBI disap-"
-	next "pears deep in a"
-	next "forest, it is said"
+	db   "Wanneer CELEBI in" ; "When CELEBI disap-"
+	next "het bos verdwijnt" ; "pears deep in a"
+	next "schijnt het een" ; "forest, it is said"
 
-	page "to leave behind an"
-	next "egg it brought"
-	next "from the future.@"
+	page "ei achter te laten" ; "to leave behind an"
+	next "dat uit de toe-" ; "egg it brought"
+	next "komst komt.@" ; "from the future.@"

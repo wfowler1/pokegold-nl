@@ -270,8 +270,8 @@ WhitneyGoodCryText:
 	done
 
 LassCarrieSeenText:
-	text "Don't think I'm a"
-	line "pushover!"
+	text "Denk niet dat ik" ; "Don't think I'm a"
+	line "een watje ben!" ; "pushover!"
 	done
 
 LassCarrieBeatenText:
@@ -280,11 +280,12 @@ LassCarrieBeatenText:
 	done
 
 LassCarrieAfterBattleText:
-	text "In the world of"
-	line "#MON, I wonder"
+	text "In de wereld van" ; "In the world of"
+	line "#MON, wat is" ; "#MON, I wonder"
 
-	para "what's stronger:"
-	line "male or female?"
+	para "er sterker:" ; "what's stronger:"
+	line "mannelijk of" ; "male or female?"
+	cont "vrouwelijk?"
 	done
 
 LassBridgetSeenText:

@@ -1,11 +1,11 @@
-	db "LONG LEG@" ; species name
+	db "LANGPOOT@" ; "LONG LEG@" species name
 	db 11 ; height
 	dw 335 ; weight
 
-	db   "A single strand of"
-	next "a special string"
-	next "is endlessly spun"
+	db   "Een enkele draad" ; "A single strand of"
+	next "van een speciale" ; "a special string"
+	next "stof spint einde-" ; "is endlessly spun"
 
-	page "out of its rear."
-	next "The string leads"
-	next "back to its nest.@"
+	page "loos uit de ach-" ; "out of its rear."
+	next "terkant. Dit leidt" ; "The string leads"
+	next "naar het nest.@" ; "back to its nest.@"

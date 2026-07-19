@@ -121,14 +121,14 @@ FirebreatherLyleAfterBattleText:
 	done
 
 BugCatcherKenSeenText:
-	text "I'm visiting my"
-	line "Grandma to catch"
-	cont "me some bugs!"
+	text "Ik ga bij m'n" ; "I'm visiting my"
+	line "Oma wat insecten" ; "Grandma to catch"
+	cont "vangen!" ; "me some bugs!"
 	done
 
 BugCatcherKenBeatenText:
-	text "Ooh, wow. You're"
-	line "tough, dude!"
+	text "Oh wow. Je bent" ; "Ooh, wow. You're"
+	line "sterk, man!" ; "tough, dude!"
 	done
 
 BugCatcherKenAfterBattleText:

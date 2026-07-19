@@ -1,11 +1,11 @@
-	db "LONG TAIL@" ; species name
+	db "LANGSTAART@" ; "LONG TAIL@" species name
 	db 8 ; height
 	dw 115 ; weight
 
-	db   "It lives atop tall"
-	next "trees. When leap-"
-	next "ing from branch"
+	db   "Leeft bovenop hoge" ; "It lives atop tall"
+	next "bomen. Als het van" ; "trees. When leap-"
+	next "tak naar tak" ; "ing from branch"
 
-	page "to branch, it"
-	next "deftly uses its"
-	next "tail for balance.@"
+	page "springt, balan-" ; "to branch, it"
+	next "ceert het behendig" ; "deftly uses its"
+	next "met de staart.@" ; "tail for balance.@"

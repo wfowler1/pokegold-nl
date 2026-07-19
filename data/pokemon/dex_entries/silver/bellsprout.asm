@@ -1,11 +1,11 @@
-	db "FLOWER@" ; species name
+	db "BLOEM@" ; "FLOWER@" species name
 	db 7 ; height
 	dw 40 ; weight
 
-	db   "It plants its feet"
-	next "deep underground"
-	next "to replenish wa-"
+	db   "Plant de voeten" ; "It plants its feet"
+	next "diep ondergronds" ; "deep underground"
+	next "om water bij te" ; "to replenish wa-"
 
-	page "ter. It can't es-"
-	next "cape its enemy"
-	next "while it's rooted.@"
+	page "vullen. Kan niet" ; "ter. It can't es-"
+	next "ontsnappen terwijl" ; "cape its enemy"
+	next "het is geworteld.@" ; "while it's rooted.@"

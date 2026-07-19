@@ -1,11 +1,11 @@
-	db "HAPPINESS@" ; species name
+	db "GELUK@" ; "HAPPINESS@" species name
 	db 15 ; height
 	dw 468 ; weight
 
-	db   "It has a very com-"
-	next "passionate nature."
-	next "If it sees a sick"
+	db   "Is barmhartig van" ; "It has a very com-"
+	next "aard. Als het een" ; "passionate nature."
+	next "zieke #MON ziet" ; "If it sees a sick"
 
-	page "#MON, it will"
-	next "nurse the sufferer"
-	next "back to health.@"
+	page "verzorgt het de" ; "#MON, it will"
+	next "patïent terug naar" ; "nurse the sufferer"
+	next "gezondheid.@" ; "back to health.@"

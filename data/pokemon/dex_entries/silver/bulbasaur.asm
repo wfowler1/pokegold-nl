@@ -1,11 +1,11 @@
-	db "SEED@" ; species name
+	db "ZAAD@" ; "SEED@" species name
 	db 7 ; height
 	dw 69 ; weight
 
-	db   "It carries a seed"
-	next "on its back right"
-	next "from birth. As it"
+	db   "Het draagt vanaf" ; "It carries a seed"
+	next "zijn geboorte een" ; "on its back right"
+	next "zaadje op z'n rug." ; "from birth. As it"
 
-	page "grows older, the"
-	next "seed also grows"
-	next "larger.@"
+	page "Het zaadje groeit" ; "grows older, the"
+	next "narmate BULBASAUR" ; "seed also grows"
+	next "ouder wordt.@" ; "larger.@"

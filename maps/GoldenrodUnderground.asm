@@ -464,11 +464,11 @@ SupernerdTeruAfterBattleText:
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got haircuts!"
+	text "M'n #MON kregen" ; "My #MON just"
+	line "een knipbeurt!" ; "got haircuts!"
 
-	para "I'll show you how"
-	line "strong they are!"
+	para "Ik laat je zien" ; "I'll show you how"
+	line "hoe sterk ze zijn!" ; "strong they are!"
 	done
 
 PokemaniacIssacBeatenText:
@@ -537,7 +537,7 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 
 	para "Ik kan je #MON"; "I can make your"
 	line "mooi maken voor"; "#MON beautiful"
-	cont "slechts ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."; "for just ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."
+	cont "slechts ¥500."; "for just ¥{d:GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE}."
 
 	para "Wil je graag een"; "Would you like me"
 	line "knipbeurt?"; "to do that?"
@@ -585,7 +585,7 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 
 	para "Ik knap je #MON"; "I'll spiff up your"
 	line "op voor slechts"; "#MON for just"
-	cont "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}."; "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}."
+	cont "¥300."; "¥{d:GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE}."
 
 	para "Dus? Wat denk je?"; "So? How about it?"
 	done
@@ -606,7 +606,7 @@ GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherHowDisappointingText:
-	text "Nee?"; "No? "
+	text "Nee? "; "No? "
 	line "Wat jammer!"; "How disappointing!"
 	done
 
