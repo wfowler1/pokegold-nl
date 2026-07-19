@@ -197,14 +197,14 @@ LassMichelleBeatenText:
 	done
 
 LassMichelleAfterBattleText:
-	text "We don't dislike"
-	line "boys or anything."
+	text "We vinden jongens" ; "We don't dislike"
+	line "niet stom hoor." ; "boys or anything."
 
-	para "But there are"
-	line "certain subjects"
+	para "Maar er zijn" ; "But there are"
+	line "dingen waar alleen" ; "certain subjects"
 
-	para "that only girls"
-	line "can talk about."
+	para "meiden over kunnen" ; "that only girls"
+	line "kletsen." ; "can talk about."
 	done
 
 PicnickerTanyaSeenText:

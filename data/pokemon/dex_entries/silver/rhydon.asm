@@ -1,11 +1,11 @@
-	db "DRILL@" ; species name
+	db "BOOR@" ; "DRILL@" species name
 	db 19 ; height
 	dw 1200 ; weight
 
-	db   "Its brain devel-"
-	next "oped when it began"
-	next "walking on hind"
+	db   "Het brein ontwik-" ; "Its brain devel-"
+	next "kelde toen het op" ; "oped when it began"
+	next "twee poten ging" ; "walking on hind"
 
-	page "legs. Its thick"
-	next "hide protects it"
-	next "even in magma.@"
+	page "lopen. De dikke" ; "legs. Its thick"
+	next "huid beschermt" ; "hide protects it"
+	next "zelfs in magma.@" ; "even in magma.@"

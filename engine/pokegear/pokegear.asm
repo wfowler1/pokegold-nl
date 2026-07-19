@@ -513,8 +513,8 @@ Pokegear_UpdateClock:
 	call PrintTextboxTextAt
 	ret
 
-	db "ごぜん@"
-	db "ごご@"
+	db "ごぜん@" ; "ごぜん@"
+	db "ごご@" ; "ごご@"
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -1707,7 +1707,7 @@ OaksPKMNTalkName:     db "OAK's <PK><MN>-Praat@" ; "OAK's <PK><MN> Talk@"
 PokedexShowName:      db "#DEX-Show@" ; "#DEX Show@"
 PokemonMusicName:     db "#MON Muziek@" ; "#MON Music@"
 LuckyChannelName:     db "Gelukskanaal@" ; "Lucky Channel@"
-UnownStationName:     db "?????@"
+UnownStationName:     db "?????@" ; "?????@"
 
 PlacesAndPeopleName:  db "Plek en Personen@" ; "Places & People@"
 LetsAllSingName:      db "Allemaal Zingen!@" ; "Let's All Sing!@"

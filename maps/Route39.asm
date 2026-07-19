@@ -180,14 +180,14 @@ SailorEugeneAfterBattleText:
 	done
 
 PokefanmDerekSeenText:
-	text "Would you mind if"
-	line "I bragged about"
-	cont "my #MON?"
+	text "Vind je 't erg als" ; "Would you mind if"
+	line "ik opschep over" ; "I bragged about"
+	cont "mijn #MON?" ; "my #MON?"
 	done
 
 PokefanmDerekBeatenText:
-	text "I couldn't begin"
-	line "to brag…"
+	text "Ik kan niet gaan" ; "I couldn't begin"
+	line "opscheppen…" ; "to brag…"
 	done
 
 PokefanMDerekText_NotBragging:

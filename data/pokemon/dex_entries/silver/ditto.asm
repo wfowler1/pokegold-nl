@@ -1,11 +1,11 @@
-	db "TRANSFORM@" ; species name
+	db "VERANDER@" ; "TRANSFORM@" species name
 	db 3 ; height
 	dw 40 ; weight
 
-	db   "Its transformation"
-	next "ability is per-"
-	next "fect. However, if"
+	db   "Het transformatie-" ; "Its transformation"
+	next "vermogen is per-" ; "ability is per-"
+	next "fect. Echter, als" ; "fect. However, if"
 
-	page "made to laugh, it"
-	next "can't maintain its"
-	next "disguise.@"
+	page "het moet lachen" ; "made to laugh, it"
+	next "valt het door" ; "can't maintain its"
+	next "de mand.@" ; "disguise.@"

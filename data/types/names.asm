@@ -37,9 +37,9 @@ Normal:    db "NORMAAL@" ; "NORMAL@"
 Fighting:  db "VECHT@" ; "FIGHTING@"
 Flying:    db "VLIEGEN@" ; "FLYING@" "VLIEGSOORT" longer than 8 chars
 Poison:    db "GIF@" ; "POISON@"
-CurseType: db "???@"
+CurseType: db "???@" ; "???@"
 Fire:      db "VUUR@" ; "FIRE@"
-Water:     db "WATER@"
+Water:     db "WATER@" ; "WATER@"
 Grass:     db "GRAS@" ; "GRASS@"
 Electric:  db "ELEKTRO@" ; "ELECTRIC@" "ELEKTRISCH" longer than 8 chars
 Psychic:   db "PSYCH.@" ; "PSYCHIC@" "PSYCHISCH" longer than 8 chars

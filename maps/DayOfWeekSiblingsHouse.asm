@@ -33,39 +33,39 @@ DayOfWeekSiblingsHousePokedexText2:
 
 	para "Met trots dienen" ; "We take pride in"
 	line "wij #MON-" ; "serving #MON"
-	cont "trainers."
+	cont "trainers." ; "trainers."
 
 	para "Als trainers met" ; "When trainers talk"
 	line "je praten, geef ze" ; "to you, give them"
 	cont "iets nuttigs." ; "something useful."
 
 	para "Liefs," ; "Love,"
-	line "MONICA"
+	line "MONICA" ; "MONICA"
 
 	para "Verder lezen?" ; "Keep reading?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:
 	text "Maandag, MONICA" ; "Monday, MONICA"
-	line "ROUTE 40"
+	line "ROUTE 40" ; "ROUTE 40"
 
 	para "Dinsdag, TUSCANY" ; "Tuesday, TUSCANY"
-	line "ROUTE 29"
+	line "ROUTE 29" ; "ROUTE 29"
 
 	para "Woensdag, WESLEY" ; "Wednesday, WESLEY"
 	line "MEER VAN RAZERNIJ" ; "LAKE OF RAGE"
 
 	para "Donderdag, ARTHUR" ; "Thursday, ARTHUR"
-	line "ROUTE 36"
+	line "ROUTE 36" ; "ROUTE 36"
 
 	para "Vrijdag, FRIEDA" ; "Friday, FRIEDA"
-	line "ROUTE 32"
+	line "ROUTE 32" ; "ROUTE 32"
 
 	para "Zaterdag, SANTOS" ; "Saturday, SANTOS"
-	line "BLACKTHORN CITY"
+	line "BLACKTHORN CITY" ; "BLACKTHORN CITY"
 
 	para "Zondag, SUNNY" ; "Sunday, SUNNY"
-	line "ROUTE 37"
+	line "ROUTE 37" ; "ROUTE 37"
 	done
 
 DayOfWeekSiblingsHouse_MapEvents:

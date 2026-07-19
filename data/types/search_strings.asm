@@ -1,10 +1,10 @@
 PokedexTypeSearchStrings:
 ; entries correspond with PokedexTypeSearchConversionTable (see data/types/search_types.asm)
 	table_width POKEDEX_TYPE_STRING_LENGTH
-	db "  ----  @"
+	db "  ----  @" ; "  ----  @"
 	db "NORMAAL @" ; " NORMAL @"
 	db "  VUUR  @" ; "  FIRE  @"
-	db " WATER  @"
+	db " WATER  @" ; " WATER  @"
 	db "  GRAS  @" ; " GRASS  @"
 	db "ELEKTRO @" ; "ELECTRIC@"
 	db "  IJS   @" ; "  ICE   @"

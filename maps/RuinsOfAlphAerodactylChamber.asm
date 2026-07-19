@@ -46,7 +46,7 @@ RuinsOfAlphAerodactylChamberDescriptionSign:
 RuinsOfAlphAerodactylChamberAncientReplicaText:
 	text "Het is een replica" ; "It's a replica of"
 	line "van een oude #-" ; "an ancient #-"
-	cont "MON."
+	cont "MON." ; "MON."
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:

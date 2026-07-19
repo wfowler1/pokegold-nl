@@ -323,11 +323,11 @@ HikerTimothyAfterBattleText:
 	done
 
 BlackbeltKenjiSeenText:
-	text "I was training"
-	line "here alone."
+	text "Ik ben hier alleen" ; "I was training"
+	line "aan het trainen." ; "here alone."
 
-	para "Behold the fruits"
-	line "of my labor!"
+	para "Zie hier 't resul-" ; "Behold the fruits"
+	line "taat van m'n werk!" ; "of my labor!"
 	done
 
 BlackbeltKenjiBeatenText:

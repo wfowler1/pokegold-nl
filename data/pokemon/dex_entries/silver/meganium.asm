@@ -1,11 +1,11 @@
-	db "HERB@" ; species name
+	db "KRUID@" ; "HERB@" species name
 	db 18 ; height
 	dw 1005 ; weight
 
-	db   "MEGANIUM's breath"
-	next "has the power to"
-	next "revive dead grass"
+	db   "MEGANIUMS adem" ; "MEGANIUM's breath"
+	next "heeft de kracht om" ; "has the power to"
+	next "dood gras en plan-" ; "revive dead grass"
 
-	page "and plants. It can"
-	next "make them healthy"
-	next "again.@"
+	page "ten te herstellen." ; "and plants. It can"
+	next "Het kan deze weer" ; "make them healthy"
+	next "gezond maken.@" ; "again.@"

@@ -1,11 +1,11 @@
-	db "WOOL@" ; species name
+	db "WOL@" ; "WOOL@" species name
 	db 8 ; height
 	dw 133 ; weight
 
-	db   "Its fluffy fleece"
-	next "easily stores"
-	next "electricity. Its"
+	db   "De pluizige vacht" ; "Its fluffy fleece"
+	next "slaat makkelijk" ; "easily stores"
+	next "energie op. De" ; "electricity. Its"
 
-	page "rubbery hide keeps"
-	next "it from being"
-	next "electrocuted.@"
+	page "rubberige huid" ; "rubbery hide keeps"
+	next "voorkomt" ; "it from being"
+	next "elektrocutie.@" ; "electrocuted.@"

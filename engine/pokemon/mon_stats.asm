@@ -427,9 +427,9 @@ PlaceNonFaintStatus:
 	pop de
 	ret
 
-SlpString: db "SLP@"
+SlpString: db "SLP@" ; "SLP@"
 PsnString: db "GIF@" ; "PSN@"
-BrnString: db "BRN@"
+BrnString: db "BRN@" ; "BRN@"
 FrzString: db "BVR@" ; "FRZ@"
 ParString: db "VLM@" ; "PAR@"
 

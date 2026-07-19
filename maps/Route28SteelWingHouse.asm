@@ -67,7 +67,7 @@ CelebrityText2:
 	done
 
 CelebritysFearowText:
-	text "FEAROW: Feero!"
+	text "FEAROW: Feero!" ; "FEAROW: Feero!"
 	done
 
 Route28SteelWingHouse_MapEvents:

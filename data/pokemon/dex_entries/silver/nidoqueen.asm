@@ -1,11 +1,11 @@
-	db "DRILL@" ; species name
+	db "BOOR@" ; "DRILL@" species name
 	db 13 ; height
 	dw 600 ; weight
 
-	db   "It uses its scaly,"
-	next "rugged body to"
-	next "seal the entrance"
+	db   "Met het schubbige," ; "It uses its scaly,"
+	next "ruige lichaam" ; "rugged body to"
+	next "blokkeert het een" ; "seal the entrance"
 
-	page "of its nest and"
-	next "protect its young"
-	next "from predators.@"
+	page "nest om jongen" ; "of its nest and"
+	next "tegen jagers te" ; "protect its young"
+	next "beschermen.@" ; "from predators.@"

@@ -68,11 +68,11 @@ VictoryRoadGateNotEnoughBadgesText:
 	done
 
 VictoryRoadGateEightBadgesText:
-	text "Oh! The eight"
-	line "BADGES of JOHTO!"
+	text "Oh! De acht" ; "Oh! The eight"
+	line "BADGES van JOHTO!" ; "BADGES of JOHTO!"
 
-	para "Please, go right"
-	line "ahead, sir!"
+	para "Kom maar verder," ; "Please, go right"
+	line "meneer!" ; "ahead, sir!"
 	done
 
 VictoryRoadGateLeftBlackBeltText:

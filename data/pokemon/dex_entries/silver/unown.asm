@@ -1,11 +1,11 @@
-	db "SYMBOL@" ; species name
+	db "SYMBOOL@" ; "SYMBOL@" species name
 	db 5 ; height
 	dw 50 ; weight
 
-	db   "Its flat, thin"
-	next "body is always"
-	next "stuck on walls."
+	db   "Het platte, dunne" ; "Its flat, thin"
+	next "lichaam zit altijd" ; "body is always"
+	next "vast aan muren. De" ; "stuck on walls."
 
-	page "Its shape appears"
-	next "to have some mean-"
-	next "ing.@"
+	page "vorm heeft schijn-" ; "Its shape appears"
+	next "baar een bepaalde" ; "to have some mean-"
+	next "betekenis.@" ; "ing.@"

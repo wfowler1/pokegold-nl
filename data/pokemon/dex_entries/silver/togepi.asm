@@ -1,11 +1,11 @@
-	db "SPIKE BALL@" ; species name
+	db "STEKELBAL@" ; "SPIKE BALL@" species name
 	db 3 ; height
 	dw 15 ; weight
 
-	db   "A proverb claims"
-	next "that happiness"
-	next "will come to any-"
+	db   "Een oud gezegde" ; "A proverb claims"
+	next "stelt dat iemand" ; "that happiness"
+	next "die een slapende" ; "will come to any-"
 
-	page "one who can make a"
-	next "sleeping TOGEPI"
-	next "stand up.@"
+	page "TOGEPI laat staan" ; "one who can make a"
+	next "groot geluk" ; "sleeping TOGEPI"
+	next "zal vinden.@" ; "stand up.@"

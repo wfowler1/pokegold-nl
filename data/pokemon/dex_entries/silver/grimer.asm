@@ -1,11 +1,11 @@
-	db "SLUDGE@" ; species name
+	db "SMURRIE@" ; "SLUDGE@" species name
 	db 9 ; height
 	dw 300 ; weight
 
-	db   "Wherever GRIMER"
-	next "has passed, so"
-	next "many germs are"
+	db   "Waar GRIMER is ge-" ; "Wherever GRIMER"
+	next "weest zijn zo veel" ; "has passed, so"
+	next "bacteriën achter-" ; "many germs are"
 
-	page "left behind that"
-	next "no plants will"
-	next "ever grow again.@"
+	page "gelaten dat er" ; "left behind that"
+	next "nooit meer planten" ; "no plants will"
+	next "kunnen groeien.@" ; "ever grow again.@"

@@ -157,7 +157,7 @@ ViridianCityDreamEaterFisherText:
 	para "die mijn droom" ; "eating my dream."
 	line "opat. Raar, hè?" ; "Weird, huh?"
 
-	para "Huh?"
+	para "Huh?" ; "Huh?"
 	line "Wat is dit?" ; "What's this?"
 
 	para "Waar komt deze" ; "Where did this TM"
@@ -172,7 +172,7 @@ ViridianCityDreamEaterFisherGotDreamEaterText:
 	text "TM42 bevat" ; "TM42 contains"
 	line "DROOMETER…" ; "DREAM EATER…"
 
-	para "…Zzzzz…"
+	para "…Zzzzz…" ; "…Zzzzz…"
 	done
 
 ViridianCityYoungsterText:
@@ -184,14 +184,14 @@ ViridianCityYoungsterText:
 	done
 
 ViridianCitySignText:
-	text "VIRIDIAN CITY"
+	text "VIRIDIAN CITY" ; "VIRIDIAN CITY"
 
 	para "Het Eeuwig" ; "The Eternally"
 	line "Groene Paradijs" ; "Green Paradise"
 	done
 
 ViridianGymSignText:
-	text "VIRIDIAN CITY"
+	text "VIRIDIAN CITY" ; "VIRIDIAN CITY"
 	line "#MON-GYMLEIDER:"
 	cont "…" ; "LEADER: …"
 
@@ -202,7 +202,7 @@ ViridianGymSignText:
 
 ViridianCityWelcomeSignText:
 	text "Welkom in" ; "Welcome to"
-	line "VIRIDIAN CITY,"
+	line "VIRIDIAN CITY," ; "VIRIDIAN CITY,"
 
 	para "de Poort naar" ; "the Gateway to"
 	line "INDIGO-PLATEAU" ; "INDIGO PLATEAU"

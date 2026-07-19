@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; "FLAME@" species name
 	db 9 ; height
 	dw 250 ; weight
 
-	db   "It fluffs out its"
-	next "fur collar to cool"
-	next "down its body"
+	db   "Pluist de bont-" ; "It fluffs out its"
+	next "kraag uit om het" ; "fur collar to cool"
+	next "lichaam te verkoe-" ; "down its body"
 
-	page "temperature, which"
-	next "can reach 1,650"
-	next "degrees.@"
+	page "len. De tempera-" ; "temperature, which"
+	next "tuur kan oplopen" ; "can reach 1,650"
+	next "tot 899 graden.@" ; "degrees.@"

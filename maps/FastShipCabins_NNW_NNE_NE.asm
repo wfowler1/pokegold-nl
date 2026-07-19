@@ -174,12 +174,13 @@ PokemaniacEthanBeatenText:
 	done
 
 PokemaniacEthanAfterBattleText:
-	text "LILY's nice, but"
-	line "MARY's the best!"
+	text "LILY is leuk," ; "LILY's nice, but"
+	line "maar MARY is de" ; "MARY's the best!"
 
-	para "I want to check"
-	line "out JOHTO's radio"
-	cont "stations!"
+	para "beste!" ; "I want to check"
+	line "Ik wil JOHTO's" ; "out JOHTO's radio"
+	cont "radiostations" ; "stations!"
+	cont "proberen!"
 	done
 
 HikerNolandSeenText:
@@ -239,11 +240,11 @@ GentlemanEdwardBeatenText:
 	done
 
 GentlemanEdwardAfterBattleText:
-	text "I give up. Son,"
-	line "you don't have to"
+	text "Ik geef op." ; "I give up. Son,"
+	line "Je hoeft niet" ; "you don't have to"
 
-	para "look. Just forget"
-	line "about it!"
+	para "te zoeken." ; "look. Just forget"
+	line "Laat maar!" ; "about it!"
 	done
 
 BurglarCoreySeenText:

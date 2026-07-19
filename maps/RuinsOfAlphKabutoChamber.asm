@@ -68,13 +68,13 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	para "Aan de rechterkant" ; "To the right is a"
 	line "zit een beschrijv-" ; "description of the"
 	cont "ing van de #-" ; "#MON."
-	cont "MON."
+	cont "MON." ; "MON."
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
 	text "Het is een replica" ; "It's a replica of"
 	line "van een oude #-" ; "an ancient #-"
-	cont "MON."
+	cont "MON." ; "MON."
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:

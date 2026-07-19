@@ -1,11 +1,11 @@
-	db "FLAME@" ; species name
+	db "VLAM@" ; "FLAME@" species name
 	db 20 ; height
 	dw 600 ; weight
 
-	db   "This legendary"
-	next "bird #MON is"
-	next "said to bring"
+	db   "Deze legendarische" ; "This legendary"
+	next "vogel-#MON zou" ; "bird #MON is"
+	next "een vroege lente" ; "said to bring"
 
-	page "early spring to"
-	next "the wintry lands"
-	next "it visits.@"
+	page "meebrengen naar" ; "early spring to"
+	next "koude landen dat" ; "the wintry lands"
+	next "het bezoekt.@" ; "it visits.@"

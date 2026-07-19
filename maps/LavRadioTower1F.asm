@@ -156,7 +156,7 @@ LavRadioTower1FGentlemanText_GotExpnCard:
 	para "gramma's hier in" ; "the radio programs"
 	line "KANTO luisteren." ; "here in KANTO."
 
-	para "Gahahahaha!"
+	para "Gahahahaha!" ; "Gahahahaha!"
 	done
 
 LavRadioTower1FSuperNerd2Text:
@@ -174,7 +174,7 @@ LavRadioTower1FSuperNerd2Text:
 	para "Heb je de UTBRD-" ; "If you get an EXPN"
 	line "KAART-upgrade," ; "CARD upgrade, you"
 
-	para "dan kun je luis-." ; "can tune in. You'd"
+	para "dan kun je luis-" ; "can tune in. You'd"
 	line "teren. Haal één!" ; "better get one!"
 	done
 

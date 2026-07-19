@@ -1,11 +1,11 @@
-	db "SCREECH@" ; species name
+	db "KRIJS@" ; "SCREECH@" species name
 	db 7 ; height
 	dw 10 ; weight
 
-	db   "It loves to bite"
-	next "and yank people's"
-	next "hair from behind"
+	db   "Bijt en trekt" ; "It loves to bite"
+	next "graag van achter" ; "and yank people's"
+	next "aan mensenhaar," ; "hair from behind"
 
-	page "without warning,"
-	next "just to see their"
-	next "shocked reactions.@"
+	page "om hun geschrokken" ; "without warning,"
+	next "reactie waar te" ; "just to see their"
+	next "nemen.@" ; "shocked reactions.@"

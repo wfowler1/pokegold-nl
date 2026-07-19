@@ -262,11 +262,11 @@ SchoolboyChadSoManyTestsText:
 	done
 
 LassDana1SeenText:
-	text "Are you good at"
-	line "training?"
+	text "Ben je goed" ; "Are you good at"
+	line "in trainen?" ; "training?"
 
-	para "If you are, could"
-	line "you show me how?"
+	para "Zo ja, kun je mij" ; "If you are, could"
+	line "het leren?" ; "you show me how?"
 	done
 
 LassDana1BeatenText:

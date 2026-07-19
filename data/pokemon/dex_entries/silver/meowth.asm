@@ -1,11 +1,11 @@
-	db "SCRATCHCAT@" ; species name
+	db "KRABKAT@" ; "SCRATCHCAT@" species name
 	db 4 ; height
 	dw 42 ; weight
 
-	db   "It loves anything"
-	next "that shines. It"
-	next "especially adores"
+	db   "Houdt van al dat" ; "It loves anything"
+	next "glimt. Met name" ; "that shines. It"
+	next "muntjes die" ; "especially adores"
 
-	page "coins that it"
-	next "picks up and se-"
-	next "cretly hoards.@"
+	page "het oppakt en" ; "coins that it"
+	next "stiekem" ; "picks up and se-"
+	next "hamstert.@" ; "cretly hoards.@"

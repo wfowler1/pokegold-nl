@@ -98,11 +98,12 @@ FisherStephenBeatenText:
 	done
 
 FisherStephenAfterBattleText:
-	text "Have you checked"
-	line "out KANTO's radio"
+	text "Heb je de radio-" ; "Have you checked"
+	line "stations van" ; "out KANTO's radio"
 
-	para "stations? We get a"
-	line "good variety here."
+	para "KANTO gehoord?" ; "stations? We get a"
+	line "We hebben veel" ; "good variety here."
+	cont "variatie hier."
 	done
 
 FisherBarneySeenText:

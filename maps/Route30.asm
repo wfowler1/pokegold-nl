@@ -215,17 +215,17 @@ YoungsterJoey1SeenText:
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ugh. I don't have"
-	line "any more #MON."
+	text "Ugh. Ik heb geen" ; "Ugh. I don't have"
+	line "#MON meer." ; "any more #MON."
 	done
 
 YoungsterJoey1AfterText:
-	text "I have to have"
-	line "more #MON for"
-	cont "battles."
+	text "Ik moet meer" ; "I have to have"
+	line "#MON hebben" ; "more #MON for"
+	cont "voor gevechten." ; "battles."
 
-	para "I'm going to catch"
-	line "some more!"
+	para "Ik ga er" ; "I'm going to catch"
+	line "meer vangen!" ; "some more!"
 	done
 
 YoungsterMikeySeenText:

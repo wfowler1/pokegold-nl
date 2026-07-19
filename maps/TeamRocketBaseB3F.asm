@@ -341,7 +341,7 @@ TeamRocketBaseB3FRocketText:
 	done
 
 RocketBaseRivalText:
-	text "…"
+	text "…" ; "…"
 
 	para "Zei ik je niet" ; "Didn't I tell you"
 	line "dat ik TEAM ROCKET" ; "that I was going"
@@ -389,7 +389,7 @@ ExecutiveM4BeforeText:
 	line "Dit is het kantoor" ; "This is the office"
 
 	para "van onze leider," ; "of our leader,"
-	line "GIOVANNI."
+	line "GIOVANNI." ; "GIOVANNI."
 
 	para "Sinds het ontbin-" ; "Since disbanding"
 	line "den van TEAM" ; "TEAM ROCKET three"

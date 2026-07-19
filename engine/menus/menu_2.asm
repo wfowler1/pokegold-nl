@@ -140,9 +140,9 @@ StartMenu_PrintSafariGameStatus: ; unreferenced
 	ret
 
 .slash_500
-	db "／５００@"
+	db "／５００@" ; "／５００@"
 .booru_ko
-	db "ボール　　　こ@"
+	db "ボール　　　こ@" ; "ボール　　　こ@"
 
 StartMenu_DrawBugContestStatusBox:
 	hlcoord 0, 0
@@ -196,7 +196,7 @@ StartMenu_PrintBugContestStatus:
 	ret
 
 .BallsJPString: ; unreferenced
-	db "ボール　　　こ@"
+	db "ボール　　　こ@" ; "ボール　　　こ@"
 .CaughtString:
 	db "VANGST@" ; "CAUGHT@"
 .BallsString:
@@ -204,7 +204,7 @@ StartMenu_PrintBugContestStatus:
 .NoneString:
 	db "Geen@" ; "None@"
 .LevelString:
-	db "LEVEL@"
+	db "LEVEL@" ; "LEVEL@"
 
 Kurt_SelectApricorn:
 	call FindApricornsInBag

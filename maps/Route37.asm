@@ -114,8 +114,8 @@ TwinsAnnandanne1SeenText:
 	done
 
 TwinsAnnandanne1BeatenText:
-	text "ANN & ANNE: You're"
-	line "mean!"
+	text "ANN & ANNE: Je" ; "ANN & ANNE: You're"
+	line "bent gemeen!" ; "mean!"
 	done
 
 TwinsAnnandanne1AfterBattleText:
@@ -133,8 +133,8 @@ TwinsAnnandanne2SeenText:
 	done
 
 TwinsAnnandanne2BeatenText:
-	text "ANN & ANNE: You're"
-	line "mean!"
+	text "ANN & ANNE: Je" ; "ANN & ANNE: You're"
+	line "bent gemeen!" ; "mean!"
 	done
 
 TwinsAnnandanne2AfterBattleText:

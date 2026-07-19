@@ -1,11 +1,11 @@
-	db "MUSHROOM@" ; species name
+	db "PADDENSTOEL@" ; "MUSHROOM@" species name
 	db 10 ; height
 	dw 295 ; weight
 
-	db   "The larger the"
-	next "mushroom on its"
-	next "back grows, the"
+	db   "Hoe groter de pad-" ; "The larger the"
+	next "denstoel op de rug" ; "mushroom on its"
+	next "groeit, hoe ster-" ; "back grows, the"
 
-	page "stronger the mush-"
-	next "room spores it"
-	next "scatters.@"
+	page "ker de sporen die" ; "stronger the mush-"
+	next "deze paddenstoel" ; "room spores it"
+	next "verspreidt.@" ; "scatters.@"

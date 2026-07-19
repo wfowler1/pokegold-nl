@@ -1,11 +1,11 @@
-	db "FLYCATCHER@" ; species name
+	db "VLIEGVANGER@" ; "FLYCATCHER@" species name
 	db 17 ; height
 	dw 155 ; weight
 
-	db   "This horrifying"
-	next "plant #MON at-"
-	next "tracts prey with"
+	db   "Deze gruwelijke" ; "This horrifying"
+	next "plant-#MON" ; "plant #MON at-"
+	next "trekt prooien aan" ; "tracts prey with"
 
-	page "aromatic honey,"
-	next "then melts them in"
-	next "its mouth.@"
+	page "met aromatische" ; "aromatic honey,"
+	next "honing, en smelt" ; "then melts them in"
+	next "ze in de bek.@" ; "its mouth.@"

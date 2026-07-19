@@ -247,7 +247,7 @@ Text_CallMomOnGear:
 	done
 
 Text_ElmDiscoveredNewMon:
-	text "Yo, <PLAYER>!"
+	text "Yo, <PLAYER>!" ; "Yo, <PLAYER>!"
 
 	para "Ik hoor dat ELM" ; "I hear PROF.ELM"
 	line "een nieuwe #MON" ; "discovered some"
@@ -255,11 +255,11 @@ Text_ElmDiscoveredNewMon:
 	done
 
 NewBarkTownRivalText1:
-	text "<……>"
+	text "<……>" ; "<……>"
 
 	para "Dus dit is het be-" ; "So this is the"
 	line "kende ELM-#MON" ; "famous ELM #MON"
-	cont "LAB…"
+	cont "LAB…" ; "LAB…"
 	done
 
 NewBarkTownRivalText2:
@@ -268,7 +268,7 @@ NewBarkTownRivalText2:
 	done
 
 NewBarkTownSignText:
-	text "NEW BARK TOWN"
+	text "NEW BARK TOWN" ; "NEW BARK TOWN"
 
 	para "Het Dorp Waar de" ; "The Town Where the"
 	line "Wind van een Nieuw" ; "Winds of a New"

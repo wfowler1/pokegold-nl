@@ -1,11 +1,11 @@
-	db "FISH@" ; species name
+	db "VIS@" ; "FISH@" species name
 	db 9 ; height
 	dw 100 ; weight
 
-	db   "For no reason, it"
-	next "jumps and splashes"
-	next "about, making it"
+	db   "Het springt en" ; "For no reason, it"
+	next "spettert zonder" ; "jumps and splashes"
+	next "reden rond, als" ; "about, making it"
 
-	page "easy for predators"
-	next "like PIDGEOTTO to"
-	next "catch it mid-jump.@"
+	page "het springt vangen" ; "easy for predators"
+	next "PIDGEOTTO het uit" ; "like PIDGEOTTO to"
+	next "de lucht.@" ; "catch it mid-jump.@"

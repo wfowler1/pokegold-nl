@@ -23,7 +23,7 @@ PewterNidoranSpeechHouseSuperNerdText:
 	done
 
 PewterNidoranText:
-	text "NIDORAN: Gau gau!"
+	text "NIDORAN: Gau gau!" ; "NIDORAN: Gau gau!"
 	done
 
 PewterNidoranSpeechHouse_MapEvents:

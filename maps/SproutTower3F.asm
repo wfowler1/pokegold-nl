@@ -267,8 +267,8 @@ SageJinSeenText:
 	done
 
 SageJinBeatenText:
-	text "Beaten by a mere"
-	line "child!"
+	text "Verslagen door" ; "Beaten by a mere"
+	line "een kind!" ; "child!"
 	done
 
 SageJinAfterBattleText:

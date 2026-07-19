@@ -249,7 +249,7 @@ Route25MistyDateText:
 	para "Ettertjes! Je" ; "Pests! You heard"
 	line "hoort me ettertje!" ; "me right, pest!"
 
-	para "…"
+	para "…" ; "…"
 
 	para "…Oh? Die BADGES" ; "…Oh? Those BADGES"
 	line "die je hebt… Zijn" ; "you have… Are they"
@@ -266,7 +266,7 @@ Route25MistyDateText:
 
 	para "Ik ben MISTY, de" ; "I'm MISTY, the"
 	line "GYMLEIDER in" ; "GYM LEADER in"
-	cont "CERULEAN."
+	cont "CERULEAN." ; "CERULEAN."
 	done
 
 SchoolboyDudleySeenText:

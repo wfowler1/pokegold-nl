@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; "MOUSE@" species name
 	db 8 ; height
 	dw 300 ; weight
 
-	db   "If the electric"
-	next "pouches in its"
-	next "cheeks become"
+	db   "Als de elektrische" ; "If the electric"
+	next "zakjes in de" ; "pouches in its"
+	next "wangen volledig" ; "cheeks become"
 
-	page "fully charged,"
-	next "both ears will"
-	next "stand straight up.@"
+	page "zijn opgeladen," ; "fully charged,"
+	next "gaan beide oren" ; "both ears will"
+	next "rechtop staan.@" ; "stand straight up.@"

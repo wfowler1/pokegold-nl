@@ -1,11 +1,11 @@
-	db "SHARP CLAW@" ; species name
+	db "KLAUW@" ; "SHARP CLAW@" species name
 	db 9 ; height
 	dw 280 ; weight
 
-	db   "Vicious in nature,"
-	next "it drives PIDGEY"
-	next "from their nests"
+	db   "Gemeen van aard." ; "Vicious in nature,"
+	next "Drijft PIDGEY uit" ; "it drives PIDGEY"
+	next "hun nesten en" ; "from their nests"
 
-	page "and feasts on the"
-	next "eggs that are left"
-	next "behind.@"
+	page "smult van de" ; "and feasts on the"
+	next "eieren die" ; "eggs that are left"
+	next "achterblijven.@" ; "behind.@"

@@ -24,8 +24,8 @@ Route6PokefanMText:
 Route6UndergroundPathSignText:
 	text "ONDERGRONDS PAD" ; "UNDERGROUND PATH"
 
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	para "CERULEAN CITY -" ; "CERULEAN CITY -"
+	line "VERMILION CITY" ; "VERMILION CITY"
 	done
 
 Route6_MapEvents:

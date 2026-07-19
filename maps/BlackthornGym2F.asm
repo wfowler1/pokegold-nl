@@ -79,50 +79,50 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "It's not as if we"
-	line "all use dragon-"
-	cont "type #MON."
+	text "We vechten niet" ; "It's not as if we"
+	line "allemaal met" ; "all use dragon-"
+	cont "DRAAK-#MON." ; "type #MON."
 
-	para "My policy is to"
-	line "use #MON that"
+	para "Mijn streven is om" ; "My policy is to"
+	line "#MON te kiezen" ; "use #MON that"
 
-	para "are stronger than"
-	line "dragon #MON."
+	para "die sterker zijn" ; "are stronger than"
+	line "dan DRAAK-#MON." ; "dragon #MON."
 	done
 
 CooltrainermCodyBeatenText:
-	text "You are special…"
+	text "Jij bent speciaal…" ; "You are special…"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "But just watch!"
-	line "My #MON will"
+	text "Wacht maar! Mijn" ; "But just watch!"
+	line "#MON worden nog" ; "My #MON will"
 
-	para "become even more"
-	line "powerful."
+	para "veel sterk sterker" ; "become even more"
+	line "dan nu." ; "powerful."
 
-	para "We'll be tougher"
-	line "as a trainer and"
-	cont "#MON team."
+	para "We worden beter" ; "We'll be tougher"
+	line "als #MON- en" ; "as a trainer and"
+	cont "trainer-team." ; "#MON team."
 	done
 
 CooltrainerfFranSeenText:
-	text "We go through rig-"
-	line "orous training un-"
-	cont "der CLAIR. I can't"
-	cont "afford to lose."
+	text "We worden hard" ; "We go through rig-"
+	line "getraind door" ; "orous training un-"
+	cont "CLAIR. Ik mag niet" ; "der CLAIR. I can't"
+	cont "verliezen." ; "afford to lose."
 	done
 
 CooltrainerfFranBeatenText:
-	text "Arrrgh! I'm so"
-	line "disgusted!"
+	text "Arrrgh!" ; "Arrrgh! I'm so"
+	line "Ik walg er van!" ; "disgusted!"
 	done
 
 CooltrainerfFranAfterBattleText:
 	text "Whew…"
 
-	para "I'll have to re-"
-	line "think my training…"
+	para "Tijd voor een" ; "I'll have to re-"
+	line "andere strategie." ; "think my training…"
 	done
 
 BlackthornGym2FBoulderFellText:

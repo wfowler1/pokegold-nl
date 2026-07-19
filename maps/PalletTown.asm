@@ -49,7 +49,7 @@ PalletTownFisherText:
 	done
 
 PalletTownSignText:
-	text "PALLET TOWN"
+	text "PALLET TOWN" ; "PALLET TOWN"
 
 	para "Een Rustige Plek" ; "A Tranquil Setting"
 	line "van Vrede &" ; "of Peace & Purity"

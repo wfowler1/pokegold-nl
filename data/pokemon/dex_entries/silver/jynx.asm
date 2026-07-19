@@ -1,11 +1,11 @@
-	db "HUMANSHAPE@" ; species name
+	db "MENSVORM@" ; "HUMANSHAPE@" species name
 	db 14 ; height
 	dw 406 ; weight
 
-	db   "It speaks a lan-"
-	next "guage similar to"
-	next "that of humans."
+	db   "Spreekt een taal" ; "It speaks a lan-"
+	next "die lijkt op die" ; "guage similar to"
+	next "van mensen. Echter" ; "that of humans."
 
-	page "However, it seems"
-	next "to use dancing to"
-	next "communicate.@"
+	page "lijkt het voorna-" ; "However, it seems"
+	next "melijk via dans te" ; "to use dancing to"
+	next "communiceren.@" ; "communicate.@"

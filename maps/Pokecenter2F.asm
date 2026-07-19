@@ -484,8 +484,8 @@ Text_CantLinkToThePast:
 	prompt
 
 Text_IncompatibleRooms:
-	text "Your friend chose"
-	line "a different room."
+	text "Je vriend koos" ; "Your friend chose"
+	line "een andere kamer." ; "a different room."
 	prompt
 
 Text_PleaseComeIn:

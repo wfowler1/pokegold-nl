@@ -1353,7 +1353,7 @@ endr
 	ret
 
 .Placeholder:
-	db "-----@"
+	db "-----@" ; "-----@"
 
 MACRO copy_box_data
 .loop\@
@@ -2194,7 +2194,7 @@ PCString_ReleasedPKMN: db "<PK><MN> vrijgelaten.@" ; "Released <PK><MN>.@"
 PCString_Bye: db "Doei,@" ; "Bye,@"
 PCString_Stored: db "Bewaar @" ; "Stored @"
 PCString_Got: db "Kreeg @" ; "Got @"
-PCString_Non: db "Non.@" ; unreferenced
+PCString_Non: db "Non.@" ; "Non.@" unreferenced
 PCString_BoxFull: db "De BOX is vol.@" ; "The BOX is full.@"
 PCString_PartyFull: db "Team is vol!@" ; "The party's full!@"
 PCString_NoReleasingEGGS: db "Kan niet met EI!@" ; "No releasing EGGS!@"
@@ -2294,7 +2294,7 @@ BillsPC_PrintBoxCountAndCapacity:
 	ret
 
 .Pokemon:
-	db "#MON@"
+	db "#MON@" ; "#MON@"
 
 .OutOf20:
 	db "/{d:MONS_PER_BOX}@" ; "/20@"

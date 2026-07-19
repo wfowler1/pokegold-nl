@@ -186,7 +186,7 @@ Text_EarlAsksIfYouBeatFalkner:
 	done
 
 Text_VeryNiceIndeed:
-	text "Ooh, la la!"
+	text "Ooh, la la!" ; "Ooh, la la!"
 	line "Erg goed gedaan!" ; "Very indeed nice!"
 	done
 
@@ -249,14 +249,14 @@ VioletCityYoungsterText:
 	done
 
 VioletCitySignText:
-	text "VIOLET CITY"
+	text "VIOLET CITY" ; "VIOLET CITY"
 
 	para "De Stad van Nos-" ; "The City of"
 	line "talgische Geuren" ; "Nostalgic Scents"
 	done
 
 VioletGymSignText:
-	text "VIOLET CITY"
+	text "VIOLET CITY" ; "VIOLET CITY"
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "FALKNER" ; "LEADER: FALKNER"
 

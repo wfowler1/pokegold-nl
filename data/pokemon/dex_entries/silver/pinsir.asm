@@ -1,11 +1,11 @@
-	db "STAGBEETLE@" ; species name
+	db "VLIEGHERT@" ; "STAGBEETLE@" species name
 	db 15 ; height
 	dw 550 ; weight
 
-	db   "Swings its long"
-	next "antlers wildly to"
-	next "attack. During"
+	db   "Zwaait wild met" ; "Swings its long"
+	next "het lange gewei" ; "antlers wildly to"
+	next "om aan te vallen." ; "attack. During"
 
-	page "cold periods, it"
-	next "hides deep in"
-	next "forests.@"
+	page "In koude periodes" ; "cold periods, it"
+	next "verstopt het zich" ; "hides deep in"
+	next "diep in het bos.@" ; "forests.@"

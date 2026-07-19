@@ -664,7 +664,7 @@ RocketBaseLancePostBattleText:
 	done
 
 RocketBaseLancePowerOffText:
-	text "Sorry, <PLAYER>."
+	text "Sorry, <PLAYER>." ; "Sorry, <PLAYER>."
 	line "Ik zag hoe goed" ; "I saw how well you"
 
 	para "je het deed, dus" ; "were doing, so I"
@@ -762,7 +762,7 @@ RocketBaseLanceWhirlpoolText:
 	done
 
 RocketBaseLanceMonMasterText:
-	text "<PLAYER>…"
+	text "<PLAYER>…" ; "<PLAYER>…"
 
 	para "De reis om de" ; "The journey to be-"
 	line "#MON-MEESTER te" ; "coming the #MON"
@@ -774,7 +774,7 @@ RocketBaseLanceMonMasterText:
 	line "je verder blijven" ; "you keep going?"
 	cont "gaan?" ;
 
-	para "…"
+	para "…" ; "…"
 
 	para "Hm-hm. Nee," ; "I see. No, you're"
 	line "je hebt gelijk." ; "right."
@@ -805,7 +805,7 @@ LanceHealsText1:
 	done
 
 LanceHealsText2:
-	text "LANCE: <PLAYER>,"
+	text "LANCE: <PLAYER>," ; "LANCE: <PLAYER>,"
 	line "laten we ons best" ; "let's give it our"
 	cont "doen voor onze" ; "best for #MON."
 	cont "#MON." ;
@@ -871,7 +871,7 @@ GruntM19SeenText:
 	done
 
 GruntM19BeatenText:
-	text "Grrrr…"
+	text "Grrrr…" ; "Grrrr…"
 	done
 
 GruntM19AfterBattleText:

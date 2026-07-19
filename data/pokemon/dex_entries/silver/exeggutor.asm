@@ -1,11 +1,11 @@
-	db "COCONUT@" ; species name
+	db "KOKOSNOOT@" ; "COCONUT@" species name
 	db 20 ; height
 	dw 1200 ; weight
 
-	db   "If a head drops"
-	next "off, it emits a"
-	next "telepathic call in"
+	db   "Als er een hoofd" ; "If a head drops"
+	next "loskomt, zoekt het" ; "off, it emits a"
+	next "telepatisch naar" ; "telepathic call in"
 
-	page "search of others"
-	next "to form an"
-	next "EXEGGCUTE cluster.@"
+	page "anderen om een" ; "search of others"
+	next "nieuwe EXEGGCUTE-" ; "to form an"
+	next "tros te vormen.@" ; "EXEGGCUTE cluster.@"

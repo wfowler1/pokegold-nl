@@ -334,13 +334,13 @@ PlaceGenderAndShininess:
 	ret
 
 PrintParty_OTString:
-	db "OT/@"
+	db "OT/@" ; "OT/@"
 
 PrintParty_MoveString:
 	db "AANVAL@" ; "MOVE@"
 
 PrintParty_IDNoString:
-	db "<ID>№@"
+	db "<ID>№@" ; "<ID>№@"
 
 PrintParty_StatsString:
 	db   "AANVAL" ; "ATTACK"
@@ -351,7 +351,7 @@ PrintParty_StatsString:
 	db   "@"
 
 PrintParty_NoMoveString:
-	db "------------@"
+	db "------------@" ; "------------@"
 
 GBPrinterHPIcon:
 INCBIN "gfx/printer/hp.1bpp"

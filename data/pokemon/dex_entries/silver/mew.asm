@@ -1,11 +1,11 @@
-	db "NEW SPECIE@" ; species name
+	db "NIEUWESOORT@" ; "NEW SPECIE@" species name
 	db 4 ; height
 	dw 40 ; weight
 
-	db   "Its DNA is said to"
-	next "contain the genet-"
-	next "ic codes of all"
+	db   "Het DNA zou ge-" ; "Its DNA is said to"
+	next "netische codes van" ; "contain the genet-"
+	next "alle #MON be-" ; "ic codes of all"
 
-	page "#MON, so it can"
-	next "use all kinds of"
-	next "techniques.@"
+	page "vatten. Kan daarom" ; "#MON, so it can"
+	next "allerlei techniek-" ; "use all kinds of"
+	next "en gebruiken.@" ; "techniques.@"

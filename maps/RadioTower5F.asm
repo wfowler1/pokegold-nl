@@ -344,73 +344,74 @@ RadioTower5FDirectorThankYouText:
 	done
 
 RadioTower5FDirectorDescribeRainbowWingText:
-	text "There used to be a"
-	line "tower right here"
+	text "Er was ooit" ; "There used to be a"
+	line "een toren hier" ; "tower right here"
 	cont "in GOLDENROD CITY."
 
-	para "But it was old and"
-	line "creaky."
+	para "Maar het was oud" ; "But it was old and"
+	line "en krakkemikkig." ; "creaky."
 
-	para "So we replaced it"
-	line "with our RADIO"
-	cont "TOWER."
+	para "Dus we vervingen" ; "So we replaced it"
+	line "het met onze" ; "with our RADIO"
+	cont "RADIOTOREN." ; "TOWER."
 
-	para "During the tear-"
-	line "down, we found"
-	cont "that at the top."
+	para "We vonden dit" ; "During the tear-"
+	line "bovenin tijdens" ; "down, we found"
+	cont "de sloop." ; "that at the top."
 
-	para "I heard that giant"
-	line "#MON used to"
+	para "Ik heb gehoord dat" ; "I heard that giant"
+	line "die gigantische" ; "#MON used to"
 
-	para "fly over GOLDENROD"
-	line "in the past."
+	para "#MON vloog over" ; "fly over GOLDENROD"
+	line "GOLDENROD." ; "in the past."
 
-	para "Maybe that fell"
-	line "off a #MON."
+	para "Misschien viel dat" ; "Maybe that fell"
+	line "van een #MON." ; "off a #MON."
 
-	para "Maybe like the one"
-	line "that appears at"
+	para "Misschien zoals" ; "Maybe like the one"
+	line "die in TIN TOREN" ; "that appears at"
 
-	para "TIN TOWER in"
-	line "ECRUTEAK CITY."
+	para "in ECRUTEAK CITY" ; "TIN TOWER in"
+	line "verschijnt." ; "ECRUTEAK CITY."
 
-	para "OK, I better go to"
-	line "my OFFICE."
+	para "Oké, ik moet naar" ; "OK, I better go to"
+	line "m'n KANTOOR." ; "my OFFICE."
 	done
 
 RadioTower5FDirectorDescribeSilverWingText:
-	text "There used to be a"
-	line "tower right here"
+	text "Er was ooit" ; "There used to be a"
+	line "een toren hier" ; "tower right here"
 	cont "in GOLDENROD CITY."
 
-	para "But it was old and"
-	line "creaky."
+	para "Maar het was oud" ; "But it was old and"
+	line "en krakkemikkig." ; "creaky."
 
-	para "So we replaced it"
-	line "with our RADIO"
-	cont "TOWER."
+	para "Dus we vervingen" ; "So we replaced it"
+	line "het met onze" ; "with our RADIO"
+	cont "RADIOTOREN." ; "TOWER."
 
-	para "During the tear-"
-	line "down, we found"
-	cont "that at the top."
+	para "We vonden dit" ; "During the tear-"
+	line "bovenin tijdens" ; "down, we found"
+	cont "de sloop." ; "that at the top."
 
-	para "I heard that giant"
-	line "#MON used to"
+	para "Ik heb gehoord dat" ; "I heard that giant"
+	line "die gigantische" ; "#MON used to"
 
-	para "fly over GOLDENROD"
-	line "in the past."
+	para "#MON vloog over" ; "fly over GOLDENROD"
+	line "GOLDENROD." ; "in the past."
 
-	para "Maybe that fell"
-	line "off a #MON."
+	para "Misschien viel dat" ; "Maybe that fell"
+	line "van een #MON." ; "off a #MON."
 
-	para "Maybe like the one"
-	line "that appears at"
+	para "Misschien zoals" ; "Maybe like the one"
+	line "die in DRAAIKOLK-" ; "that appears at"
 
-	para "WHIRL ISLANDS near"
-	line "CIANWOOD."
+	para "EILANDEN nabij" ; "WHIRL ISLANDS near"
+	line "CIANWOOD" ; "CIANWOOD."
 
-	para "OK, I better go to"
-	line "my OFFICE."
+	para "verschijnt." ; "OK, I better go to"
+	line "Oké, ik moet naar" ; "my OFFICE."
+	cont "mijn kantoor."
 	done
 
 RadioTower5FDirectorText:

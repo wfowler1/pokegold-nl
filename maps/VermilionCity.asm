@@ -136,7 +136,7 @@ VermilionCityTeacherText:
 VermilionMachopOwnerText:
 	text "Mijn #MON" ; "My #MON is"
 	line "bereidt hier de" ; "preparing the land"
-	cont "de bouwgrond voor." ; "for construction."
+	cont "bouwgrond voor." ; "for construction."
 
 	para "Ik heb alleen geen" ; "But I have no"
 	line "geld om te starten" ; "money to start the"
@@ -144,8 +144,8 @@ VermilionMachopOwnerText:
 	done
 
 VermilionMachopText1:
-	text "MACHOP: Guooh"
-	line "gogogoh!"
+	text "MACHOP: Guooh" ; "MACHOP: Guooh"
+	line "gogogoh!" ; "gogogoh!"
 	done
 
 VermilionMachopText2:
@@ -173,7 +173,7 @@ VermilionCityRadioNearSnorlaxText:
 	line "naast de slapende" ; "placed near the"
 	cont "SNORLAX geplaatst…" ; "sleeping SNORLAX…"
 
-	para "…"
+	para "…" ; "…"
 
 	para "SNORLAX werd" ; "SNORLAX woke up!"
 	line "wakker!"
@@ -216,7 +216,7 @@ VermilionCityBadgeGuyAllBadgesText:
 	text "Gefeliciteerd!" ; "Congratulations!"
 
 	para "Je hebt alle" ; "You got all the"
-	line "KANTO GYM BADGES."
+	line "KANTO GYM BADGES." ; "KANTO GYM BADGES."
 
 	para "Hier, een beloning" ; "I've got a reward"
 	line "voor de moeite." ; "for your efforts."
@@ -244,7 +244,7 @@ VermilionCitySignText:
 	done
 
 VermilionGymSignText:
-	text "VERMILION CITY"
+	text "VERMILION CITY" ; "VERMILION CITY"
 	line "#MON-GYMLEIDER:"
 	cont "LT.SURGE" ; "LEADER: LT.SURGE"
 

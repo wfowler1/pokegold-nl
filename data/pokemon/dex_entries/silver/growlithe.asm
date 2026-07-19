@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 190 ; weight
 
-	db   "Extremely loyal,"
-	next "it will fearlessly"
-	next "bark at any oppo-"
+	db   "Extreem loyaal." ; "Extremely loyal,"
+	next "Blaft dapper naar" ; "it will fearlessly"
+	next "iedere vijand" ; "bark at any oppo-"
 
-	page "nent to protect"
-	next "its own trainer"
-	next "from harm.@"
+	page "om eigen trainer" ; "nent to protect"
+	next "tegen gevaar te" ; "its own trainer"
+	next "behoeden.@" ; "from harm.@"

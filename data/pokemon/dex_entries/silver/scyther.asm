@@ -1,11 +1,11 @@
-	db "MANTIS@" ; species name
+	db "SPRINKHAAN@" ; "MANTIS@" species name
 	db 15 ; height
 	dw 560 ; weight
 
-	db   "When it moves, it"
-	next "leaves only a"
-	next "blur. If it hides"
+	db   "Als het beweegt" ; "When it moves, it"
+	next "zie je enkel een" ; "leaves only a"
+	next "waas. Als het in" ; "blur. If it hides"
 
-	page "in grass, its pro-"
-	next "tective colors"
-	next "make it invisible.@"
+	page "gras zich verstopt" ; "in grass, its pro-"
+	next "maken de kleuren" ; "tective colors"
+	next "het onzichtbaar.@" ; "make it invisible.@"

@@ -1,11 +1,11 @@
-	db "MOUSE@" ; species name
+	db "MUIS@" ; "MOUSE@" species name
 	db 10 ; height
 	dw 295 ; weight
 
-	db   "If it digs at an"
-	next "incredible pace,"
-	next "it may snap off"
+	db   "Als het op onge-" ; "If it digs at an"
+	next "looflijke snelheid" ; "incredible pace,"
+	next "graaft, kunnen" ; "it may snap off"
 
-	page "its spikes and"
-	next "claws. They grow"
-	next "back in a day.@"
+	page "stekels en klauwen" ; "its spikes and"
+	next "breken. Ze groeien" ; "claws. They grow"
+	next "in een dag terug.@" ; "back in a day.@"

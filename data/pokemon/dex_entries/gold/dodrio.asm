@@ -2,7 +2,7 @@
 	db 18 ; height
 	dw 852 ; weight
 
-	db   "Verzamelt data en" ; "It collects data "
+	db   "Verzamelt data en " ; "It collects data "
 	next "plant drie keer zo" ; "and plans three"
 	next "verstandig, maar" ; "times as wisely,"
 

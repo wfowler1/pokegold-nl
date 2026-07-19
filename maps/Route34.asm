@@ -410,7 +410,8 @@ YoungsterSamuelSeenText:
 	done
 
 YoungsterSamuelBeatenText:
-	text "What happened?"
+	text "Wat is er" ; "What happened?"
+	line "gebeurd?"
 	done
 
 YoungsterSamuelAfterText:
@@ -447,15 +448,15 @@ CamperTodd1SeenText:
 	done
 
 CamperTodd1BeatenText:
-	text "I didn't do a good"
-	line "enough job?"
+	text "Deed ik het niet" ; "I didn't do a good"
+	line "goed?" ; "enough job?"
 	done
 
 CamperTodd1AfterText:
-	text "Maybe I should"
-	line "leave one in DAY-"
-	cont "CARE."
-	cont "What should I do?"
+	text "Misschien moet ik" ; "Maybe I should"
+	line "er een bij het" ; "leave one in DAY-"
+	cont "DAGVERBLIJF laten." ; "CARE."
+	cont "Wat moet ik doen?" ; "What should I do?"
 	done
 
 PicnickerGina1SeenText:
@@ -483,8 +484,8 @@ OfficerKeithSeenText:
 	done
 
 OfficerKeithWinText:
-	text "You're a tough"
-	line "little guy."
+	text "Je bent een" ; "You're a tough"
+	line "sterke knul." ; "little guy."
 	done
 
 OfficerKeithAfterText:
@@ -525,13 +526,14 @@ PokefanmBrandonAfterText:
 	done
 
 CooltrainerfIreneSeenText:
-	text "IRENE: Kyaaah!"
-	line "A boy found us!"
+	text "IRENE: Iiiieeh!" ; "IRENE: Kyaaah!"
+	line "Een jongen heeft" ; "A boy found us!"
+	cont "ons gevonden!"
 	done
 
 CooltrainerfIreneBeatenText:
 	text "IRENE: Ohhhh!"
-	line "He's too strong!"
+	line "Hij is te sterk!" ; "He's too strong!"
 	done
 
 CooltrainerfIreneAfterText1:

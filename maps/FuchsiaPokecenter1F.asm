@@ -61,7 +61,7 @@ FuchsiaPokecenter1FJanineImpersonatorSpinMovement:
 FuchsiaPokecenter1FCooltrainerMText:
 	text "Hé! Je hebt een" ; "Hey! You have a"
 	line "gloednieuw type" ; "brand new kind of"
-	cont "#DEX."
+	cont "#DEX." ; "#DEX."
 
 	para "Heeft PROF.OAK je" ; "Did PROF.OAK give"
 	line "die gegeven?" ; "that to you?"

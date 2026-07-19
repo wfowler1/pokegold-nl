@@ -16,7 +16,7 @@ CeladonMansion2FComputerText:
 	text "<PLAYER> zette de" ; "<PLAYER> turned on"
 	line "PC aan." ; "the PC."
 
-	para "…"
+	para "…" ; "…"
 
 	para "Iemand was een" ; "Someone was in the"
 	line "e-mail aan het" ; "middle of compos-"
@@ -42,11 +42,11 @@ CeladonMansion2FComputerText:
 
 	para "Aan de PRODUCENT" ; "To the PRODUCER"
 
-	para "…"
+	para "…" ; "…"
 	done
 
 CeladonMansion2FMeetingRoomSignText:
-	text "GAME FREAK"
+	text "GAME FREAK" ; "GAME FREAK"
 	line "ONTMOETING KAMER" ; "MEETING ROOM"
 	done
 

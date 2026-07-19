@@ -1,11 +1,11 @@
-	db "LONELY@" ; species name
+	db "EENZAAM@" ; "LONELY@" species name
 	db 4 ; height
 	dw 65 ; weight
 
-	db   "It always wears"
-	next "the skull of its"
-	next "dead mother, so no"
+	db   "Draagt altijd de" ; "It always wears"
+	next "schedel van diens" ; "the skull of its"
+	next "dode moeder, dus" ; "dead mother, so no"
 
-	page "one has any idea"
-	next "what its hidden"
-	next "face looks like.@"
+	page "niemand weet hoe" ; "one has any idea"
+	next "het verborgen ge-" ; "what its hidden"
+	next "zicht eruit ziet.@" ; "face looks like.@"

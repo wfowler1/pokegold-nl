@@ -134,11 +134,11 @@ Route39BarnTwinMoomooIsSickText:
 
 Route39BarnTwinWereFeedingMoomooText:
 	text "We voeren" ; "We're feeding"
-	line "MOOMOO!"
+	line "MOOMOO!" ; "MOOMOO!"
 	done
 
 MoomooWeakMooText:
-	text "MILTANK: …Moo…"
+	text "MILTANK: …Moo…" ; "MILTANK: …Moo…"
 	done
 
 Route39BarnItsCryIsWeakText:
@@ -146,12 +146,12 @@ Route39BarnItsCryIsWeakText:
 	done
 
 MoomooHappyMooText:
-	text "MILTANK: MOO!"
+	text "MILTANK: MOO!" ; "MILTANK: MOO!"
 	done
 
 Route39BarnAskGiveBerryText:
 	text "Geef een BES aan" ; "Give a BERRY to"
-	line "MILTANK?"
+	line "MILTANK?" ; "MILTANK?"
 	done
 
 Route39BarnGaveBerryText:

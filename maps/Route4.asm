@@ -52,20 +52,22 @@ Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
 
 BirdKeeperHankSeenText:
-	text "There's been news"
-	line "of an incident at"
-	cont "the POWER PLANT."
+	text "Er was nieuws" ; "There's been news"
+	line "over een ongeluk" ; "of an incident at"
+	cont "bij de" ; "the POWER PLANT."
+	cont "ENERGIECENTRALE."
 	done
 
 BirdKeeperHankBeatenText:
-	text "I lost? That's"
-	line "news too…"
+	text "Verloren? Dat" ; "I lost? That's"
+	line "is ook nieuws…" ; "news too…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "I might go to the"
-	line "POWER PLANT. Is it"
-	cont "near ROCK TUNNEL?"
+	text "Ik ga naar de" ; "I might go to the"
+	line "ENERGIECENTRALE." ; "POWER PLANT. Is it"
+	cont "Is het vlakbij" ; "near ROCK TUNNEL?"
+	cont "ROTSTUNNEL?"
 	done
 
 PicnickerHopeSeenText:

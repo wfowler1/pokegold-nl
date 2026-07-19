@@ -1,11 +1,11 @@
-	db "SUN@" ; species name
+	db "ZON@" ; "SUN@" species name
 	db 8 ; height
 	dw 85 ; weight
 
-	db   "In the daytime, it"
-	next "rushes about in a"
-	next "hectic manner, but"
+	db   "Gedurende de dag" ; "In the daytime, it"
+	next "haast het hectisch" ; "rushes about in a"
+	next "rond, maar het zal" ; "hectic manner, but"
 
-	page "it comes to a com-"
-	next "plete stop when"
-	next "the sun sets.@"
+	page "compleet tot stil-" ; "it comes to a com-"
+	next "stand komen als de" ; "plete stop when"
+	next "zon ondergaat.@" ; "the sun sets.@"

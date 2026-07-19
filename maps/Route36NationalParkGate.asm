@@ -811,20 +811,21 @@ UnusedSilphScope2Text: ; unreferenced
 
 UnusedBugCatchingContestExplanationText:
 ; duplicate of BugCatchingContestExplanationText in Route35NationalParkGate.asm
-	text "The Bug-Catching"
-	line "Contest is held on"
+	text "Het KEVERTOERNOOI" ; "The Bug-Catching"
+	line "wordt gehouden op" ; "Contest is held on"
 
-	para "Tuesday, Thursday"
-	line "and Saturday."
+	para "dinsdag, donderdag" ; "Tuesday, Thursday"
+	line "en zaterdag." ; "and Saturday."
 
-	para "Not only do you"
-	line "earn a prize just"
+	para "Je wint niet" ; "Not only do you"
+	line "alleen 'n prijs" ; "earn a prize just"
 
-	para "for participating,"
-	line "you also get to"
+	para "als je meedoet," ; "for participating,"
+	line "je kan ook een" ; "you also get to"
 
-	para "keep a bug #MON"
-	line "that you catch."
+	para "insect #MON" ; "keep a bug #MON"
+	line "houden die je" ; "that you catch."
+	cont "hebt gevangen."
 	done
 
 Route36NationalParkGateOfficer1WellHoldPrizeText:

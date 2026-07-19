@@ -258,19 +258,19 @@ FastShip1FSailor3Text:
 	done
 
 FastShip1FGrandpaText:
-	text "Whoa!"
+	text "Wow!" ; "Whoa!"
 
-	para "Excuse me, son."
-	line "I was in a hurry!"
+	para "Pardon, jongen." ; "Excuse me, son."
+	line "Ik had haast!" ; "I was in a hurry!"
 
-	para "My granddaughter"
-	line "is missing!"
+	para "Mijn kleindochter" ; "My granddaughter"
+	line "is vermist!" ; "is missing!"
 
-	para "She's just a wee"
-	line "girl. If you see"
+	para "Ze is zo'n klein" ; "She's just a wee"
+	line "meisje. Als je" ; "girl. If you see"
 
-	para "her, please let me"
-	line "know!"
+	para "d'r ziet, laat" ; "her, please let me"
+	line "het me weten!" ; "know!"
 	done
 
 FastShip1FSailor1Text_InOlivine:

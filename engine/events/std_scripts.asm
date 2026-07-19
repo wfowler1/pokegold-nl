@@ -744,8 +744,8 @@ CoinVendor_IntroScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db " 50 :  ¥1000@"
-	db "500 : ¥10000@"
+	db " 50 :  ¥1000@" ; " 50 :  ¥1000@"
+	db "500 : ¥10000@" ; "500 : ¥10000@"
 	db "ANNULEER@" ; "CANCEL@"
 
 HappinessCheckScript:

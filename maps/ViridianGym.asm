@@ -62,35 +62,38 @@ ViridianGymStatue:
 	jumpstd GymStatue2Script
 
 LeaderBlueBeforeText:
-	text "BLUE: Yo! Finally"
-	line "got here, huh?"
+	text "BLUE: Yo!" ; "BLUE: Yo! Finally"
+	line "Eindelijk hier?" ; "got here, huh?"
 
-	para "I wasn't in the"
-	line "mood at CINNABAR,"
+	para "Ik was niet in" ; "I wasn't in the"
+	line "de stemming op" ; "mood at CINNABAR,"
 
-	para "but now I'm ready"
-	line "to battle you."
+	para "CINNABAR," ; "but now I'm ready"
+	line "maar nu ben ik" ; "to battle you."
 
-	para "…"
+	para "klaar om te" ; "…"
 
-	para "You're telling me"
-	line "you conquered all"
-	cont "the GYMS in JOHTO?"
+	para "vechten." ; "You're telling me"
+	line "…" ; "you conquered all"
+	cont "Je zegt dat je" ; "the GYMS in JOHTO?"
 
-	para "Heh! JOHTO's GYMS"
-	line "must be pretty"
-	cont "pathetic then."
+	para "alle GYMS in JOHTO" ; "Heh! JOHTO's GYMS"
+	line "hebt verslagen?" ; "must be pretty"
+	cont "Heh! JOHTO's GYMS" ; "pathetic then."
 
-	para "Hey, don't worry"
-	line "about it."
+	para "moeten dan wel" ; "Hey, don't worry"
+	line "best zwak zijn." ; "about it."
 
-	para "I'll know if you"
-	line "are good or not by"
+	para "Hé, maak je" ; "I'll know if you"
+	line "geen zorgen." ; "are good or not by"
 
-	para "battling you right"
-	line "now."
+	para "Ik weet of je" ; "battling you right"
+	line "goed bent door" ; "now."
 
-	para "Ready, JOHTO boy?"
+	para "nu met je te" ; "Ready, JOHTO boy?"
+	line "vechten."
+	para "Ben je er klaar"
+	line "voor, JOHTO-knul?"
 	done
 
 LeaderBlueWinText:

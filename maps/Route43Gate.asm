@@ -193,15 +193,15 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
-	text "Hold it there,"
-	line "mister!"
+	text "Wacht even," ; "Hold it there,"
+	line "meneertje!" ; "mister!"
 
-	para "The toll is ¥{d:ROUTE43GATE_TOLL}"
-	line "to go through."
+	para "De tol is ¥{d:ROUTE43GATE_TOLL}" ; "The toll is ¥{d:ROUTE43GATE_TOLL}"
+	line "om verder te gaan." ; "to go through."
 	done
 
 RocketText_ThankYou:
-	text "Thank you, sir!"
+	text "Dank u, meneer!" ; "Thank you, sir!"
 	done
 
 RocketText_AllYouGot:

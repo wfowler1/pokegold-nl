@@ -82,13 +82,12 @@ OakWelcomeKantoText:
 	line "Goed dat je" ; "It's good of you"
 
 	para "helemaal naar" ; "to come all this"
-	line "KANTO bent ge-" ; "way to KANTO."
+	line "KANTO bent gekomen" ; "way to KANTO."
 
-	para "komen. Wat denk" ; "What do you think"
-	line "je van de " ; "of the trainers"
+	para "Wat denk je van de" ; "What do you think"
+	line "trainers hier?" ; "of the trainers"
 
-	para "trainers hier?" ; "out here?"
-	line "Best sterk hè?" ; "Pretty tough, huh?"
+	para "Best sterk hè?" ; "out here?"
 	done
 
 OakLabDexCheckText:
@@ -184,7 +183,7 @@ OakYesKantoBadgesText:
 	line "geven." ; "for you."
 
 	para "Doe je best," ; "Keep trying hard,"
-	line "<PLAYER>!"
+	line "<PLAYER>!" ; "<PLAYER>!"
 	done
 
 OaksAssistant1Text:
@@ -238,7 +237,7 @@ OaksLabPCText:
 	text "Er is een e-mail-" ; "There's an e-mail"
 	line "bericht op de PC." ; "message on the PC."
 
-	para "…"
+	para "…" ; "…"
 
 	para "PROF.OAK, hoe" ; "PROF.OAK, how is"
 	line "gaat het met je" ; "your research"

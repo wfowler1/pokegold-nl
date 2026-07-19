@@ -1,11 +1,11 @@
-	db "RAINBOW@" ; species name
+	db "REGENBOOG@" ; "RAINBOW@" species name
 	db 38 ; height
 	dw 1990 ; weight
 
-	db   "A legend says that"
-	next "its body glows in"
-	next "seven colors. A"
+	db   "Een legende zegt" ; "A legend says that"
+	next "dat het gloeit in" ; "its body glows in"
+	next "zeven kleuren. Als" ; "seven colors. A"
 
-	page "rainbow is said to"
-	next "form behind it"
-	next "when it flies.@"
+	page "het vliegt schijnt" ; "rainbow is said to"
+	next "het een regenboog" ; "form behind it"
+	next "achter te laten. @" ; "when it flies.@"

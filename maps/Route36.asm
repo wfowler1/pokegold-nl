@@ -378,12 +378,14 @@ SchoolboyAlan1BeatenText:
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Verdorie. Ik" ; "Darn. I study five"
+	line "studeer vijf uur" ; "hours a day too."
 
-	para "There's a lot you"
-	line "can't learn just"
-	cont "by reading books."
+	para "per dag." ; "There's a lot you"
+	line "Er zijn een hoop" ; "can't learn just"
+	cont "dingen die je niet" ; "by reading books."
+	cont "in boeken kan"
+	cont "leren."
 	done
 
 MeetArthurText:

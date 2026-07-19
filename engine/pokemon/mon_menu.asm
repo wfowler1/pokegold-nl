@@ -1221,13 +1221,13 @@ PlaceMoveData:
 	ret
 
 String_MoveType_Top:
-	db "┌─────┐@"
+	db "┌─────┐@" ; "┌─────┐@"
 String_MoveType_Bottom:
-	db "│TYPE/└@"
+	db "│TYPE/└@" ; "│TYPE/└@"
 String_MoveAtk:
 	db "AAN/@" ; "ATTK/@"
 String_MoveNoPower:
-	db "---@"
+	db "---@" ; "---@"
 
 PlaceMoveScreenArrows:
 	call PlaceMoveScreenLeftArrow

@@ -132,13 +132,13 @@ PewterCityGrampsText_GotSilverWing:
 	done
 
 PewterCitySignText:
-	text "PEWTER CITY"
+	text "PEWTER CITY" ; "PEWTER CITY"
 	line "Een Steengrijze" ; "A Stone Gray City"
 	cont "Stad" ;
 	done
 
 PewterGymSignText:
-	text "PEWTER CITY"
+	text "PEWTER CITY" ; "PEWTER CITY"
 	line "#MON-GYMLEIDER:"
 	cont "BROCK" ; "LEADER: BROCK"
 
@@ -167,7 +167,7 @@ PewterCityMtMoonGiftShopSignText:
 
 PewterCityWelcomeSignText:
 	text "Welkom in" ; "Welcome to"
-	line "PEWTER CITY!"
+	line "PEWTER CITY!" ; "PEWTER CITY!"
 	done
 
 PewterCity_MapEvents:

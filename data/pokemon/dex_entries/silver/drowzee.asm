@@ -1,11 +1,11 @@
-	db "HYPNOSIS@" ; species name
+	db "HYPNOSE@" ; "HYPNOSIS@" species name
 	db 10 ; height
 	dw 324 ; weight
 
-	db   "It remembers every"
-	next "dream it eats. It"
-	next "rarely eats the"
+	db   "Vergeet nooit een" ; "It remembers every"
+	next "opgegeten droom." ; "dream it eats. It"
+	next "Eet bijna nooit" ; "rarely eats the"
 
-	page "dreams of adults"
-	next "because children's"
-	next "are much tastier.@"
+	page "volwassen dromen," ; "dreams of adults"
+	next "want kinderdromen" ; "because children's"
+	next "smaken lekkerder.@" ; "are much tastier.@"

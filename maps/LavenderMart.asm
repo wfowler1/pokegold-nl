@@ -36,14 +36,15 @@ LavenderMartPokefanMText:
 	done
 
 LavenderMartRockerText:
-	text "I heard about a"
-	line "craftsman who"
+	text "Ik hoorde over" ; "I heard about a"
+	line "een ambachtsman" ; "craftsman who"
 
-	para "makes custom #"
-	line "BALLS in the JOHTO"
+	para "die speciale #-" ; "makes custom #"
+	line "BALLEN maakt in" ; "BALLS in the JOHTO"
 
-	para "town of AZALEA. I"
-	line "wish I had some."
+	para "AZALEA in JOHTO." ; "town of AZALEA. I"
+	line "Ik wou dat ik" ; "wish I had some."
+	cont "er een paar had."
 	done
 
 LavenderMart_MapEvents:

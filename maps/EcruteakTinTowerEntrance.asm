@@ -116,19 +116,19 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER up"
-	line "ahead was built"
+	text "De TIN TOREN ver-" ; "The TIN TOWER up"
+	line "derop was gebouwd" ; "ahead was built"
 
-	para "as a roost for"
-	line "flying #MON."
+	para "als nest voor" ; "as a roost for"
+	line "vliegende #MON." ; "flying #MON."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotRainbowWing:
-	text "The TIN TOWER"
-	line "shook! A #MON"
+	text "De TIN TOREN" ; "The TIN TOWER"
+	line "schudde! Een" ; "shook! A #MON"
 
-	para "must have returned"
-	line "to the top!"
+	para "#MON is terug" ; "must have returned"
+	line "naar de top!" ; "to the top!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:

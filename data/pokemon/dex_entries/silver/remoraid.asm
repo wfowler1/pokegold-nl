@@ -2,10 +2,10 @@
 	db 6 ; height
 	dw 120 ; weight
 
-	db   "Using its dorsal"
-	next "fin as a suction"
-	next "pad, it clings to"
+	db   "Gebruikt de rug-" ; "Using its dorsal"
+	next "vin als zuignap om" ; "fin as a suction"
+	next "aan een MANTINES" ; "pad, it clings to"
 
-	page "a MANTINE's under-"
-	next "side to scavenge"
-	next "for leftovers.@"
+	page "buik te hangen," ; "a MANTINE's under-"
+	next "zodat het restjes" ; "side to scavenge"
+	next "eten krijgt.@" ; "for leftovers.@"

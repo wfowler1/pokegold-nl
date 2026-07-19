@@ -22,7 +22,7 @@ CianwoodLugiaSpeechHouseBookshelf:
 
 CianwoodLugiaSpeechHouseTeacherText:
 	text "Je komt uit" ; "You came from"
-	line "OLIVINE?"
+	line "OLIVINE?" ; "OLIVINE?"
 
 	para "Herinner je de" ; "Do you remember"
 	line "vier eilanden op" ; "the four islands"

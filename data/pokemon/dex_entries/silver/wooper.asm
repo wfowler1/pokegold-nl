@@ -1,11 +1,11 @@
-	db "WATER FISH@" ; species name
+	db "WATERVIS@" ; "WATER FISH@" species name
 	db 4 ; height
 	dw 85 ; weight
 
-	db   "When it walks a-"
-	next "round on the"
-	next "ground, it coats"
+	db   "Terwijl het op het" ; "When it walks a-"
+	next "droge loopt, wordt" ; "round on the"
+	next "het lichaam bedekt" ; "ground, it coats"
 
-	page "its body with a"
-	next "slimy, poisonous"
-	next "film.@"
+	page "met een dun," ; "its body with a"
+	next "slijmerig en" ; "slimy, poisonous"
+	next "giftig laagje.@" ; "film.@"

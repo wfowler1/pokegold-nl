@@ -1,11 +1,11 @@
-	db "AQUARABBIT@" ; species name
+	db "AQUAKONIJN@" ; "AQUARABBIT@" species name
 	db 8 ; height
 	dw 285 ; weight
 
-	db   "When it plays in"
-	next "water, it rolls up"
-	next "its elongated ears"
+	db   "Als het in water" ; "When it plays in"
+	next "speelt, rolt het" ; "water, it rolls up"
+	next "de lange oren op" ; "its elongated ears"
 
-	page "to prevent their"
-	next "insides from get-"
-	next "ting wet.@"
+	page "zodat de binnen-" ; "to prevent their"
+	next "kant niet nat" ; "insides from get-"
+	next "wordt.@" ; "ting wet.@"

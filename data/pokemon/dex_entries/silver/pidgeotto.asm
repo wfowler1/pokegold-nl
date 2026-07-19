@@ -1,11 +1,11 @@
-	db "BIRD@" ; species name
+	db "VOGEL@" ; "BIRD@" species name
 	db 11 ; height
 	dw 300 ; weight
 
-	db   "It immobilizes its"
-	next "prey using well-"
-	next "developed claws,"
+	db   "Verlamt een prooi" ; "It immobilizes its"
+	next "met goed ontwik-" ; "prey using well-"
+	next "kelde klauwen, om" ; "developed claws,"
 
-	page "then carries the"
-	next "prey more than 60"
-	next "miles to its nest.@"
+	page "die meer dan 100" ; "then carries the"
+	next "kilometer naar een" ; "prey more than 60"
+	next "nest te tillen.@" ; "miles to its nest.@"

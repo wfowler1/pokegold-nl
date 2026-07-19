@@ -66,10 +66,10 @@ GiveShuckle:
 	ret
 
 SpecialShuckleOT:
-	db "MANIA@"
+	db "MANIA@" ; "MANIA@"
 
 SpecialShuckleNickname:
-	db "SHUCKIE@"
+	db "SHUCKIE@" ; "SHUCKIE@"
 
 ReturnShuckie:
 	farcall SelectMonFromParty

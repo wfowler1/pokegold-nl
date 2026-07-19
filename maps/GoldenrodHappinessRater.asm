@@ -79,7 +79,7 @@ GoldenrodHappinessRaterTeacherText:
 	para "Oh? Laat me kijken" ; "Oh? Let me see"
 	line "naar @" ; "your @"
 	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
-	text "…"
+	text "…" ; "…"
 	done
 
 GoldenrodHappinessRatingText_LovesYouALot:

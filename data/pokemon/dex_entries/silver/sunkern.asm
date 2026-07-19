@@ -1,11 +1,11 @@
-	db "SEED@" ; species name
+	db "ZAAD@" ; "SEED@" species name
 	db 3 ; height
 	dw 18 ; weight
 
-	db   "It lives by drink-"
-	next "ing only dewdrops"
-	next "from under the"
+	db   "Leeft door alleen" ; "It lives by drink-"
+	next "dauwdruppels te" ; "ing only dewdrops"
+	next "drinken onder" ; "from under the"
 
-	page "leaves of plants."
-	next "It is said that it"
-	next "eats nothing else.@"
+	page "plantenbladeren." ; "leaves of plants."
+	next "Men zegt dat het" ; "It is said that it"
+	next "niets anders eet.@" ; "eats nothing else.@"

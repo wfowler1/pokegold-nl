@@ -1,11 +1,11 @@
-	db "TADPOLE@" ; species name
+	db "KIKKERVISJE@" ; "TADPOLE@" species name
 	db 6 ; height
 	dw 124 ; weight
 
-	db   "The direction of"
-	next "its belly spiral"
-	next "differs by area."
+	db   "De richting van" ; "The direction of"
+	next "de buikspiraal va-" ; "its belly spiral"
+	next "rieert per regio." ; "differs by area."
 
-	page "The equator is"
-	next "thought to have an"
-	next "effect on this.@"
+	page "De evenaar wordt" ; "The equator is"
+	next "gedacht hier ef-" ; "thought to have an"
+	next "fect op te hebben.@" ; "effect on this.@"

@@ -61,7 +61,7 @@ PlayersNeighborsDaughterText:
 	done
 
 PlayerNeighborRadioText1:
-	text "PROF.OAK'S #MON"
+	text "PROF.OAK'S #MON" ; "PROF.OAK'S #MON"
 	line "PRAAT! Luister" ; "TALK! Please tune"
 	cont "later weer!" ; "in next time!"
 	done
@@ -76,7 +76,7 @@ PlayerNeighborRadioText3:
 	done
 
 PlayerNeighborRadioText4:
-	text "#MON!"
+	text "#MON!" ; "#MON!"
 	line "#MON-KANAAL…" ; "#MON CHANNEL…"
 	done
 

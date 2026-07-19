@@ -1,11 +1,11 @@
-	db "DARK@" ; species name
+	db "DUISTER@" ; "DARK@" species name
 	db 14 ; height
 	dw 350 ; weight
 
-	db   "Upon hearing its"
-	next "eerie howls, other"
-	next "#MON get the"
+	db   "Wanneer andere" ; "Upon hearing its"
+	next "#MON de huil" ; "eerie howls, other"
+	next "horen, krijgen ze" ; "#MON get the"
 
-	page "shivers and head"
-	next "straight back to"
-	next "their nests.@"
+	page "rillingen en ren-" ; "shivers and head"
+	next "nen ze gauw terug" ; "straight back to"
+	next "naar hun nest.@" ; "their nests.@"

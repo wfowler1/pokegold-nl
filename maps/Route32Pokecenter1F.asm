@@ -79,8 +79,8 @@ Route32Pokecenter1FFishingGuruText_No:
 	done
 
 Route32Pokecenter1FFishingGuruText_After:
-	text "Yo, youngster. How"
-	line "are they biting?"
+	text "Yo, knul. Bijten" ; "Yo, youngster. How"
+	line "ze een beetje?" ; "are they biting?"
 	done
 
 Route32Pokecenter1FCooltrainerFText:

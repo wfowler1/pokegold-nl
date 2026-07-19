@@ -1,11 +1,11 @@
-	db "THUNDER@" ; species name
+	db "DONDER@" ; "THUNDER@" species name
 	db 19 ; height
 	dw 1780 ; weight
 
-	db   "A #MON that"
-	next "races across the"
-	next "land while barking"
+	db   "Een #MON die" ; "A #MON that"
+	next "over land raast" ; "races across the"
+	next "terwijl het blaft" ; "land while barking"
 
-	page "a cry that sounds"
-	next "like crashing"
-	next "thunder.@"
+	page "met het geluid van" ; "a cry that sounds"
+	next "een bulderende" ; "like crashing"
+	next "donderslag.@" ; "thunder.@"

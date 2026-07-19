@@ -234,7 +234,7 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…"
+	text "Fufufufu…" ; "Fufufufu…"
 
 	para "Sorry om je teleur" ; "I'm sorry to dis-"
 	line "te stellen…" ; "appoint you…"
@@ -286,7 +286,7 @@ JanineText_ApplyMyself:
 	done
 
 LassAliceBeforeText:
-	text "Fufufu!"
+	text "Fufufu!" ; "Fufufu!"
 
 	para "Ik ben JANINE, de" ; "I'm JANINE, the"
 	line "GYMLEIDER!" ; "GYM LEADER!"
@@ -308,7 +308,7 @@ LassAliceAfterText:
 
 LassLindaBeforeText:
 	text "Gefopt!" ; "Fooled you!"
-	line "Hahaha!"
+	line "Hahaha!" ; "Hahaha!"
 	done
 
 LassLindaBeatenText:
@@ -341,10 +341,10 @@ PicnickerCindyAfterText:
 	done
 
 CamperBarryBeforeText:
-	text "Wahahaha!"
+	text "Wahahaha!" ; "Wahahaha!"
 
-	para "You betcha, dude."
-	line "I'm JANINE!"
+	para "Goed gezien, man." ; "You betcha, dude."
+	line "Ik ben JANINE!" ; "I'm JANINE!"
 	done
 
 CamperBarryBeatenText:
@@ -353,9 +353,9 @@ CamperBarryBeatenText:
 	done
 
 CamperBarryAfterText:
-	text "Hey, dude. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Hé man. Was m'n" ; "Hey, dude. Was my"
+	line "vermomming niet" ; "disguise cute or"
+	cont "schattig?" ; "what, huh?"
 	done
 
 FuchsiaGymGuideText:

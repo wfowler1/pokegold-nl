@@ -237,7 +237,7 @@ CooltrainermJakeSeenText:
 	line "voorbereidingen" ; "final preparations"
 
 	para "voor de #MON-" ; "for the #MON"
-	line "LEAGUE."
+	line "LEAGUE." ; "LEAGUE."
 	done
 
 CooltrainermJakeBeatenText:
@@ -253,7 +253,7 @@ CooltrainermJakeAfterBattleText:
 	line "trainen." ; "more training."
 
 	para "Ik hoorde dat de" ; "I hear that the"
-	line "LEAGUE's ELITE"
+	line "LEAGUE's ELITE" ; "LEAGUE's ELITE"
 
 	para "FOUR sterker zijn" ; "FOUR are tougher"
 	line "dan GYMLEIDERS." ; "than GYM LEADERS."
@@ -385,7 +385,7 @@ FisherScottAfterBattleText:
 	done
 
 Route26SignText:
-	text "ROUTE 26"
+	text "ROUTE 26" ; "ROUTE 26"
 
 	para "#MON-LEAGUE"
 	line "ONTVANGSTPOORT" ; "RECEPTION GATE"

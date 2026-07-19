@@ -1,11 +1,11 @@
-	db "WEED@" ; species name
+	db "ONKRUID@" ; "WEED@" species name
 	db 5 ; height
 	dw 54 ; weight
 
-	db   "If exposed to"
-	next "moonlight, it"
-	next "starts to move."
+	db   "Blootgesteld aan" ; "If exposed to"
+	next "maanlight begint" ; "moonlight, it"
+	next "het te bewegen." ; "starts to move."
 
-	page "It roams far and"
-	next "wide at night to"
-	next "scatter its seeds.@"
+	page "Zwerft 's nachts" ; "It roams far and"
+	next "rond om zaden te" ; "wide at night to"
+	next "verspreiden.@" ; "scatter its seeds.@"

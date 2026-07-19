@@ -38,13 +38,13 @@ GoldenrodDeptStore3FSuperNerdText:
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! When you bat-"
-	line "tle, do you use X"
-	cont "SPECIAL?"
+	text "Hé! Als je vecht," ; "Hey! When you bat-"
+	line "gebruik je dan" ; "tle, do you use X"
+	cont "X-SPECIAAL?" ; "SPECIAL?"
 
-	para "It's awesome. It"
-	line "really jacks up"
-	cont "the SPECIAL stats!"
+	para "Het is top. De" ; "It's awesome. It"
+	line "SPECIAAL schiet" ; "really jacks up"
+	cont "omhoog!" ; "the SPECIAL stats!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:

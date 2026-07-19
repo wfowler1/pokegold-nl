@@ -1,11 +1,11 @@
-	db "KISS@" ; species name
+	db "KUS@" ; "KISS@" species name
 	db 4 ; height
 	dw 60 ; weight
 
-	db   "It always rocks"
-	next "its head slowly"
-	next "backwards and for-"
+	db   "Schommelt altijd" ; "It always rocks"
+	next "de kop van voor" ; "its head slowly"
+	next "naar achter alsof" ; "backwards and for-"
 
-	page "wards as if it is"
-	next "trying to kiss"
-	next "someone.@"
+	page "het probeert om" ; "wards as if it is"
+	next "iemand een kus" ; "trying to kiss"
+	next "te geven.@" ; "someone.@"

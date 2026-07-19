@@ -153,7 +153,7 @@ ElmPhoneEggAssistantText:
 	para "Mijn assistent is" ; "My assistant is at"
 	line "in het #MONCEN-" ; "the #MON CENTER"
 
-	para "TRUM in VIOLET" ; "in VIOLET CITY. "
+	para "TRUM in VIOLET " ; "in VIOLET CITY. "
 	line "CITY. Kun je met" ; "Could you talk to"
 	cont "hem spreken?" ; "him?"
 	done

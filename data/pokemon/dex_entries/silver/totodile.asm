@@ -1,11 +1,11 @@
-	db "BIG JAW@" ; species name
+	db "GROOTKAAK@" ; "BIG JAW@" species name
 	db 6 ; height
 	dw 95 ; weight
 
-	db   "It is small but"
-	next "rough and tough."
-	next "It won't hesitate"
+	db   "Klein, maar ook" ; "It is small but"
+	next "ruw en stoer. Het" ; "rough and tough."
+	next "zal niet aarzelen" ; "It won't hesitate"
 
-	page "to take a bite out"
-	next "of anything that"
-	next "moves.@"
+	page "om een hap te" ; "to take a bite out"
+	next "nemen uit alles" ; "of anything that"
+	next "dat beweegt.@" ; "moves.@"

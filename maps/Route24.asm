@@ -74,32 +74,32 @@ Route24RocketBeatenText:
 	done
 
 Route24RocketAfterBattleText:
-	text "OK. Tell you mine"
-	line "secret will I."
+	text "OK. Mijn geheim" ; "OK. Tell you mine"
+	line "vertellen zal ik." ; "secret will I."
 
-	para "MACHINE PART steal"
-	line "by me, hide it I"
+	para "MACHINEDEEL steel" ; "MACHINE PART steal"
+	line "ik, verstopt ik" ; "by me, hide it I"
 
-	para "did in GYM of the"
+	para "in de GYM van" ; "did in GYM of the"
 	line "CERULEAN."
 
-	para "Inside water put"
-	line "it I did. Look for"
+	para "In water stopte" ; "Inside water put"
+	line "ik het. Zoek" ; "it I did. Look for"
 
-	para "in water center of"
-	line "GYM at."
+	para "in water midden" ; "in water center of"
+	line "GYM van." ; "GYM at."
 
-	para "Boy, but you"
-	line "forget me not!"
+	para "Jongen, maar" ; "Boy, but you"
+	line "vergeet niet me!" ; "forget me not!"
 
-	para "Beat you for sure"
-	line "will TEAM ROCKET."
+	para "Verslaan jou" ; "Beat you for sure"
+	line "zeker TEAM ROCKET." ; "will TEAM ROCKET."
 
-	para "Come from JOHTO"
-	line "will they, mine"
+	para "Van JOHTO komen" ; "Come from JOHTO"
+	line "ze, mijn" ; "will they, mine"
 
-	para "friends, yes. Will"
-	line "revenge they are."
+	para "vrienden, ja." ; "friends, yes. Will"
+	line "Wraak nemen." ; "revenge they are."
 	done
 
 Route24RocketDisappearsText:

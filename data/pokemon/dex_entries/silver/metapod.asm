@@ -1,11 +1,11 @@
-	db "COCOON@" ; species name
+	db "COCON@" ; "COCOON@" species name
 	db 7 ; height
 	dw 99 ; weight
 
-	db   "It prepares for"
-	next "evolution by har-"
-	next "dening its shell"
+	db   "Het bereidt zich" ; "It prepares for"
+	next "voor op evolutie" ; "evolution by har-"
+	next "door het schild zo" ; "dening its shell"
 
-	page "as much as possi-"
-	next "ble to protect its"
-	next "soft body.@"
+	page "hard mogelijk te" ; "as much as possi-"
+	next "maken. Van binnen" ; "ble to protect its"
+	next "is het zacht.@" ; "soft body.@"

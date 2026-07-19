@@ -155,8 +155,7 @@ DragonShrineRisingBadgeExplanationText:
 	para "naar je commando's" ; "as a trainer and"
 	line "luisteren, zonder" ; "obey your every"
 
-	para "twijfel." ; "command without"
-	line ;"question."
+	cont "twijfel." ; "command without"
 
 	para "Ik wil ook dat je" ; "I also want you to"
 	line "deze TM neemt." ; "have this TM."
@@ -164,7 +163,7 @@ DragonShrineRisingBadgeExplanationText:
 
 Text_ReceivedTM24: ; unreferenced
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TM24."
+	line "TM24." ; "TM24."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
@@ -189,13 +188,13 @@ ClairText_CollectedAllBadges:
 	line "is de #MON-" ; "is the #MON"
 
 	para "LEAGUE bij INDIGO" ; "LEAGUE in INDIGO"
-	line "PLATEAU."
+	line "PLATEAU." ; "PLATEAU."
 
 	para "Weet je hoe je" ; "Do you know how to"
 	line "daar komt?" ; "get there?"
 	
 	para "Ga vanaf hier naar" ; "From here, go to"
-	line "NEW BARK TOWN."
+	line "NEW BARK TOWN." ; "NEW BARK TOWN."
 	
 	para "SURF dan naar het" ; "Then SURF east to"
 	line "oosten." ; "#MON LEAGUE."
@@ -225,7 +224,7 @@ DragonShrineSignpostText:
 	done
 
 RivalText_Training1:
-	text "…"
+	text "…" ; "…"
 	line "Wat? <PLAYER>?" ; "What? <PLAYER>?"
 
 	para "…Nee, ik ga niet" ; "…No, I won't"
@@ -240,24 +239,24 @@ RivalText_Training1:
 	para "Ik moet discipline" ; "I have to be dis-"
 	line "hebben om de beste" ; "ciplined to become"
 
-	para "beste #MON-" ; "the greatest #-"
-	line "trainer te worden…" ; "MON trainer…"
+	para "#MON-trainer" ; "the greatest #-"
+	line "te worden…" ; "MON trainer…"
 	done
 
 RivalText_Training2:
-	text "…"
+	text "…" ; "…"
 
-	para "Whew…"
+	para "Whew…" ; "Whew…"
 
 	para "Leer om mij uit de" ; "Learn to stay out"
 	line "weg te gaan…" ; "of my way…"
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found a"
+	text "<PLAYER> vond een" ; "<PLAYER> found a"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 Text_NoRoomForDragonFang:

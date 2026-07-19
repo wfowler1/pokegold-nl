@@ -315,7 +315,7 @@ OakTimeHowManyMinutesText:
 	text_end
 
 String_min:
-	db "min.@"
+	db "min.@" ; "min.@"
 
 OakTimeWhoaMinutesText:
 	; Whoa!@ @
@@ -651,7 +651,7 @@ MrChrono:
 
 .NowOnDebug:
 	text_start
-	para "Now on DEBUG…"
+	para "Now on DEBUG…" ; "Now on DEBUG…"
 	prompt
 
 .PrintTime:

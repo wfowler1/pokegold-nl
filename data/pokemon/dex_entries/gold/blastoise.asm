@@ -4,7 +4,7 @@
 
 	db   "Het maakt zichzelf" ; "It deliberately"
 	next "expres zwaar zodat" ; "makes itself heavy"
-	next "zodat het goed" ; "so it can with-"
+	next "het goede" ; "so it can with-"
 
 	page "weerstand biedt" ; "stand the recoil"
 	next "tegen de gemaakte" ; "of the water jets"

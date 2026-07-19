@@ -161,7 +161,7 @@ FirebreatherDickMovement:
 	step_end
 
 BurnedTowerRival_BeforeText:
-	text "<……> <……> <……>"
+	text "<……> <……> <……>" ; "<……> <……> <……>"
 
 	para "…Oh, jij bent het." ; "…Oh, it's you."
 

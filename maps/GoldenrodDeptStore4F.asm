@@ -59,10 +59,10 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "Game Link-snoer." ; "Game Link cable."
 
 	para "Ik weet er vier:" ; "I know of four:"
-	line "MACHOKE, KADABRA,"
+	line "MACHOKE, KADABRA," ; "MACHOKE, KADABRA,"
 
 	para "HAUNTER en, eh," ; "HAUNTER and, um,"
-	line "GRAVELER."
+	line "GRAVELER." ; "GRAVELER."
 
 	para "Ik heb gehoord" ; "I heard there are"
 	line "dat er meer zijn." ; "others too."

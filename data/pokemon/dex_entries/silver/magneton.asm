@@ -1,11 +1,11 @@
-	db "MAGNET@" ; species name
+	db "MAGNEET@" ; "MAGNET@" species name
 	db 10 ; height
 	dw 600 ; weight
 
-	db   "The MAGNEMITE are"
-	next "united by a mag-"
-	next "netism so power-"
+	db   "De MAGNEMITE zijn" ; "The MAGNEMITE are"
+	next "verbonden door" ; "united by a mag-"
+	next "sterk magnetisme" ; "netism so power-"
 
-	page "ful, it dries all"
-	next "moisture in its"
-	next "vicinities.@"
+	page "dat het al het" ; "ful, it dries all"
+	next "vocht uit de omge-" ; "moisture in its"
+	next "ving opdroogt.@" ; "vicinities.@"

@@ -33,7 +33,7 @@ Route10Sign:
 	jumptext Route10SignText
 
 HikerJimSeenText:
-	text "Hahahah!"
+	text "Hahahah!" ; "Hahahah!"
 	done
 
 HikerJimBeatenText:
@@ -68,10 +68,10 @@ PokefanmRobertAfterBattleText:
 	done
 
 Route10SignText:
-	text "ROUTE 10"
+	text "ROUTE 10" ; "ROUTE 10"
 
-	para "CERULEAN CITY -"
-	line "LAVENDER TOWN"
+	para "CERULEAN CITY -" ; "CERULEAN CITY -"
+	line "LAVENDER TOWN" ; "LAVENDER TOWN"
 	done
 
 Route10South_MapEvents:

@@ -28,31 +28,32 @@ GoldenrodPokecenter1FLassScript:
 	jumptextfaceplayer GoldenrodPokecenter1FLassText
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM--"
-	line "upstairs at any"
+	text "Het COLOSSEUM--" ; "The COLOSSEUM--"
+	line "boven elk" ; "upstairs at any"
 
-	para "#MON CENTER--is"
-	line "for link battles."
+	para "#MONCENTRUM--" ; "#MON CENTER--is"
+	line "is voor link-" ; "for link battles."
 
-	para "Battle records are"
-	line "posted on the"
+	para "gevechten." ; "Battle records are"
+	line "Resultaten worden" ; "posted on the"
 
-	para "wall, so I can't"
-	line "afford to lose."
+	para "aan de muur ge-" ; "wall, so I can't"
+	line "hangen, dus ik kan" ; "afford to lose."
+	cont "niet verliezen."
 	done
 
 GoldenrodPokecenter1FPersonText:
-	text "I wonder how many"
-	line "kinds of #MON"
+	text "Ik vraag me af" ; "I wonder how many"
+	line "hoeveel soorten" ; "kinds of #MON"
 
-	para "there are in the"
-	line "world."
+	para "#MON er in de" ; "there are in the"
+	line "wereld zijn." ; "world."
 
-	para "Three years ago,"
-	line "PROF.OAK said that"
+	para "Drie jaar geleden" ; "Three years ago,"
+	line "zei PROF.OAK dat" ; "PROF.OAK said that"
 
-	para "there were 150"
-	line "different kinds."
+	para "er 150 soorten" ; "there were 150"
+	line "waren." ; "different kinds."
 	done
 
 GoldenrodPokecenter1FLassText:

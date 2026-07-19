@@ -1,11 +1,11 @@
-	db "SHADOW@" ; species name
+	db "SCHADUW@" ; "SHADOW@" species name
 	db 15 ; height
 	dw 405 ; weight
 
-	db   "To steal the life"
-	next "of its target, it"
-	next "slips into the"
+	db   "Om het leven van" ; "To steal the life"
+	next "de prooi te stelen" ; "of its target, it"
+	next "glipt het in hun" ; "slips into the"
 
-	page "prey's shadow and"
-	next "silently waits for"
-	next "an opportunity.@"
+	page "schaduw om" ; "prey's shadow and"
+	next "stilletjes op een" ; "silently waits for"
+	next "kans te wachten.@" ; "an opportunity.@"

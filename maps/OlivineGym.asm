@@ -150,7 +150,7 @@ Jasmine_BadgeSpeech:
 
 Text_ReceivedTM09: ; unreferenced
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TM09."
+	line "TM09." ; "TM09."
 	done
 
 Jasmine_IronTailSpeech:

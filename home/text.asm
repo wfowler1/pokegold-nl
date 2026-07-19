@@ -364,16 +364,16 @@ PlaceCommandCharacter::
 	pop de
 	jp NextChar
 
-TMCharText::      db "TM@"
-TrainerCharText:: db "TRAINER@"
-PCCharText::      db "PC@"
-RocketCharText::  db "ROCKET@"
-PlacePOKeText::   db "POKé@"
-KougekiText::     db "こうげき@"
-SixDotsCharText:: db "……@"
+TMCharText::      db "TM@" ; "TM@"
+TrainerCharText:: db "TRAINER@" ; "TRAINER@"
+PCCharText::      db "PC@" ; "PC@"
+RocketCharText::  db "ROCKET@" ; "ROCKET@"
+PlacePOKeText::   db "POKé@" ; "POKé@"
+KougekiText::     db "こうげき@" ; "こうげき@"
+SixDotsCharText:: db "……@" ; "……@"
 EnemyText::       db "Vijand @" ; "Enemy @"
-PlacePKMNText::   db "<PK><MN>@"
-PlacePOKEText::   db "<PO><KE>@"
+PlacePKMNText::   db "<PK><MN>@" ; "<PK><MN>@"
+PlacePOKEText::   db "<PO><KE>@" ; "<PO><KE>@"
 String_Space::    db " @"
 ; These strings have been dummied out.
 PlaceJPRouteText::
@@ -458,7 +458,7 @@ ContText::
 	pop de
 	jp NextChar
 
-.cont: db "<_CONT>@"
+.cont: db "<_CONT>@" ; "<_CONT>@"
 
 PlaceDexEnd::
 ; Ends a Pokédex entry in Gen 1.
@@ -504,7 +504,7 @@ NullChar:: ; unused
 
 .ErrorText
 	text_decimal hObjectStructIndex, 1, 2
-	text "エラー"
+	text "エラー" ; "エラー"
 	done
 
 TextScroll::

@@ -35,9 +35,10 @@ SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
 SaffronPokecenter1FTeacherText:
-	text "There's a huge"
-	line "POWER PLANT north"
-	cont "of LAVENDER TOWN."
+	text "Er is een grote" ; "There's a huge"
+	line "ENERGIECENTRALE" ; "POWER PLANT north"
+	cont "ten noorden van" ; "of LAVENDER TOWN."
+	cont "LAVENDER TOWN."
 	done
 
 SaffronPokecenter1FFisherText:

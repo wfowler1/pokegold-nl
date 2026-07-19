@@ -8,4 +8,4 @@
 
 	page "uit de antenne los" ; "the antenna on its"
 	next "te laten. Dit is" ; "head to drive away"
-	next "voor bescherming.@" ; "enemies.@"
+	next "ter bescherming.@" ; "enemies.@"

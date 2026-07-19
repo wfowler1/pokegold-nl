@@ -1,11 +1,11 @@
-	db "BALL@" ; species name
+	db "BAL@" ; "BALL@" species name
 	db 12 ; height
 	dw 666 ; weight
 
-	db   "It stores an over-"
-	next "flowing amount of"
-	next "electric energy"
+	db   "Slaat overtollige" ; "It stores an over-"
+	next "hoeveelheden" ; "flowing amount of"
+	next "energie op in het" ; "electric energy"
 
-	page "inside its body."
-	next "Even a small shock"
-	next "makes it explode.@"
+	page "lichaam. Zelfs een" ; "inside its body."
+	next "kleine schok laat" ; "Even a small shock"
+	next "het exploderen.@" ; "makes it explode.@"

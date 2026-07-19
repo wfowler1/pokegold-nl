@@ -1,11 +1,11 @@
-	db "DRILL@" ; species name
+	db "BOOR@" ; "DRILL@" species name
 	db 14 ; height
 	dw 620 ; weight
 
-	db   "Its tail is thick"
-	next "and powerful. If"
-	next "it binds an enemy,"
+	db   "De staart is dik" ; "Its tail is thick"
+	next "en sterk. Als het" ; "and powerful. If"
+	next "een vijand vast-" ; "it binds an enemy,"
 
-	page "it can snap the"
-	next "victim's spine"
-	next "quite easily.@"
+	page "bindt, breekt het" ; "it can snap the"
+	next "de ruggengraat" ; "victim's spine"
+	next "vrij gemakkelijk.@" ; "quite easily.@"

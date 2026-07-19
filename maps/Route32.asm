@@ -570,8 +570,9 @@ FisherJustinAfterText:
 	done
 
 FisherRalph1SeenText:
-	text "I'm a good angler,"
-	line "but an even better"
+	text "Ik ben een goede" ; "I'm a good angler,"
+	line "visser, maar een" ; "but an even better"
+	cont "nog betere" ; "trainer!"
 	cont "trainer!"
 	done
 
@@ -713,8 +714,8 @@ PicnickerLiz1SeenText:
 	done
 
 PicnickerLiz1BeatenText:
-	text "Take it easy!"
-	line "That's mean!"
+	text "Rustig aan!" ; "Take it easy!"
+	line "Dat is gemeen!" ; "That's mean!"
 	done
 
 PicnickerLiz1AfterText:

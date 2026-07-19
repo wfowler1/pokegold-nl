@@ -2,10 +2,10 @@
 	db 7 ; height
 	dw 185 ; weight
 
-	db   "Its whiskers help"
-	next "it to maintain"
-	next "balance. Its fangs"
+	db   "Snorharen helpen" ; "Its whiskers help"
+	next "het in balans te" ; "it to maintain"
+	next "blijven. De" ; "balance. Its fangs"
 
-	page "never stop grow-"
-	next "ing, so it gnaws"
-	next "to pare them down.@"
+	page "hoektanden blijven" ; "never stop grow-"
+	next "groeien, dus het" ; "ing, so it gnaws"
+	next "blijft knagen.@" ; "to pare them down.@"

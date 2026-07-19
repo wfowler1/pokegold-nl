@@ -1,11 +1,11 @@
-	db "POISON PIN@" ; species name
+	db "GIFPIN@" ; "POISON PIN@" species name
 	db 4 ; height
 	dw 70 ; weight
 
-	db   "Although not very"
-	next "combative, it will"
-	next "torment its foes"
+	db   "Alhoewel niet heel" ; "Although not very"
+	next "strijdlustig," ; "combative, it will"
+	next "kwelt het vijanden" ; "torment its foes"
 
-	page "with poison spikes"
-	next "if it is threat-"
-	next "ened in any way.@"
+	page "met gifstekels als" ; "with poison spikes"
+	next "het enige dreiging" ; "if it is threat-"
+	next "opmerkt.@" ; "ened in any way.@"

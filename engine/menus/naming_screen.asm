@@ -117,7 +117,7 @@ NamingScreenJumptable:
 	ret
 
 .NicknameStrings:
-	db "'S@"
+	db "'S@" ; "'S@"
 	db "BIJNAAM?@" ; "NICKNAME?@"
 
 .Player:
@@ -956,7 +956,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	ret
 
 .PleaseWriteAMailString: ; unreferenced
-	db "メールを　かいてね@"
+	db "メールを　かいてね@" ; "メールを　かいてね@"
 
 .InitCharset:
 	call WaitTop

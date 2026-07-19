@@ -925,4 +925,4 @@ Printer_PlaceEmptyBoxSlotString:
 	ret
 
 .EmptyBoxSlotString:
-	db "  ------@"
+	db "  ------@" ; "  ------@"

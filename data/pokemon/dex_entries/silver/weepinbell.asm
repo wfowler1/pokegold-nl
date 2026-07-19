@@ -1,11 +1,11 @@
-	db "FLYCATCHER@" ; species name
+	db "VLIEGVANGER@" ; "FLYCATCHER@" species name
 	db 10 ; height
 	dw 64 ; weight
 
-	db   "If its prey is"
-	next "bigger than its"
-	next "mouth, it slices"
+	db   "Als de prooi" ; "If its prey is"
+	next "groter is dan de" ; "bigger than its"
+	next "mond, snijdt het" ; "mouth, it slices"
 
-	page "up the victim with"
-	next "sharp leaves, then"
-	next "eats every morsel.@"
+	page "de maaltijd met" ; "up the victim with"
+	next "scherpe bladeren" ; "sharp leaves, then"
+	next "om het op te eten.@" ; "eats every morsel.@"

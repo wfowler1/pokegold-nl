@@ -335,13 +335,13 @@ NationalParkYoungster2Text:
 
 NationalParkTeacher2Text:
 	text "Ik wandel in het" ; "I take walks in"
-	line "het PARK, maar" ; "the PARK, but I"
+	line "PARK, maar loop" ; "the PARK, but I"
 
-	para "loop nooit in het" ; "never go into the"
-	line "gras." ; "grass."
+	para "nooit in het gras." ; "never go into the"
+	line "Trainers willen" ; "grass."
 
-	para "Trainers willen" ; "Trainers always"
-	line "altijd vechten…" ; "want to battle…"
+	para "altijd met mij" ; "Trainers always"
+	line "vechten…" ; "want to battle…"
 	done
 
 NationalParkPersianText:
@@ -389,25 +389,26 @@ SchoolboyJackTradeMonText: ; AlwaysReplace
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #MON are so"
-	line "cute. Let me show"
-	cont "them off to you."
+	text "Mijn #MON zijn" ; "My #MON are so"
+	line "zo schattig." ; "cute. Let me show"
+	cont "Kijk maar." ; "them off to you."
 	done
 
 PokefanfBeverly1BeatenText:
-	text "Maybe I can't beat"
-	line "you in battle…"
+	text "Misschien kan ik" ; "Maybe I can't beat"
+	line "je niet verslaan…" ; "you in battle…"
 
-	para "But mine look a"
-	line "lot nicer."
+	para "Maar de mijne zien" ; "But mine look a"
+	line "er leuker uit." ; "lot nicer."
 	done
 
 PokefanBeverlyCuteMonText:
-	text "My friend has a"
-	line "MARILL. It's so"
+	text "Mijn vriend heeft" ; "My friend has a"
+	line "een MARILL. Het" ; "MARILL. It's so"
 
-	para "cute! I wish I had"
-	line "a MARILL."
+	para "is zo schattig!" ; "cute! I wish I had"
+	line "Ik wou dat ik" ; "a MARILL."
+	cont "een MARILL had."
 	done
 
 PokefanmWilliamSeenText:
@@ -443,12 +444,13 @@ LassKriseBeatenText:
 	done
 
 LassKriseAfterBattleText:
-	text "The way you were"
-	line "looking, I thought"
-	cont "you liked me."
+	text "Ik dacht dat je" ; "The way you were"
+	line "me leuk vond door" ; "looking, I thought"
+	cont "de manier waarop" ; "you liked me."
 
-	para "After all, I am"
-	line "cute!"
+	para "je keek." ; "After all, I am"
+	line "Ik ben tenslotte" ; "cute!"
+	cont "erg schattig!"
 	done
 
 NationalParkRelaxationSquareText:

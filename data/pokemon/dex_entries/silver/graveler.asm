@@ -1,11 +1,11 @@
-	db "ROCK@" ; species name
+	db "ROTS@" ; "ROCK@" species name
 	db 10 ; height
 	dw 1050 ; weight
 
-	db   "A slow walker, it"
-	next "rolls to move. It"
-	next "pays no attention"
+	db   "Een trage loper," ; "A slow walker, it"
+	next "dus rolt het. Let" ; "rolls to move. It"
+	next "niet op objecten" ; "pays no attention"
 
-	page "to any object that"
-	next "happens to be in"
-	next "its path.@"
+	page "die toevallig" ; "to any object that"
+	next "in diens baan" ; "happens to be in"
+	next "liggen.@" ; "its path.@"

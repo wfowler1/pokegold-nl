@@ -1,11 +1,11 @@
-	db "ELECTRIC@" ; species name
+	db "ELEKTRISCH@" ; "ELECTRIC@" species name
 	db 16 ; height
 	dw 526 ; weight
 
-	db   "This legendary"
-	next "bird #MON is"
-	next "said to appear"
+	db   "Deze legendarische" ; "This legendary"
+	next "vogel-#MON" ; "bird #MON is"
+	next "schijnt alleen te" ; "said to appear"
 
-	page "only when a thun-"
-	next "dercloud parts"
-	next "into two halves.@"
+	page "verschijnen als" ; "only when a thun-"
+	next "een onweerswolk in" ; "dercloud parts"
+	next "tweeën splitst.@" ; "into two halves.@"

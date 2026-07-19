@@ -1,11 +1,11 @@
-	db "STARSHAPE@" ; species name
+	db "STERVORM@" ; "STARSHAPE@" species name
 	db 8 ; height
 	dw 345 ; weight
 
-	db   "Even if its body"
-	next "is torn, it can"
-	next "regenerate as long"
+	db   "Kan zelfs verloren" ; "Even if its body"
+	next "ledematen regene-" ; "is torn, it can"
+	next "reren zolang de" ; "regenerate as long"
 
-	page "as the glowing"
-	next "central core re-"
-	next "mains intact.@"
+	page "gloeiende centrale" ; "as the glowing"
+	next "kern nog intact" ; "central core re-"
+	next "blijft.@" ; "mains intact.@"

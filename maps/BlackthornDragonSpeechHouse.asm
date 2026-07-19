@@ -33,7 +33,7 @@ BlackthornDragonSpeechHouseGrannyText:
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
-	text "DRATINI: Draa!"
+	text "DRATINI: Draa!" ; "DRATINI: Draa!"
 	done
 
 BlackthornDragonSpeechHouse_MapEvents:

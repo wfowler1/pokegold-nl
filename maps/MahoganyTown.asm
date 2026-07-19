@@ -140,19 +140,19 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 	step_end
 
 RageCandyBarMerchantTryOneText:
-	text "Hi, sonny boy! I"
-	line "see you're new in"
-	cont "MAHOGANY TOWN."
+	text "Ha, kereltje! Ik" ; "Hi, sonny boy! I"
+	line "zie dat je nieuw" ; "see you're new in"
+	cont "bent in MAHOGANY." ; "MAHOGANY TOWN."
 
-	para "Since you're new,"
-	line "you should try a"
+	para "Zou je anders zo'n" ; "Since you're new,"
+	line "ontzettend lekkere" ; "you should try a"
 
-	para "yummy RAGECANDY-"
-	line "BAR!"
+	para "WOEDEREEP willen" ; "yummy RAGECANDY-"
+	line "proberen?" ; "BAR!"
 
-	para "Right now, it can"
-	line "be yours for just"
-	cont "¥{d:MAHOGANYTOWN_RAGECANDYBAR_PRICE}! Want one?"
+	para "Op het moment" ; "Right now, it can"
+	line "kosten ze maar" ; "be yours for just"
+	cont "¥{d:MAHOGANYTOWN_RAGECANDYBAR_PRICE}! Hebben?" ; "¥{d:MAHOGANYTOWN_RAGECANDYBAR_PRICE}! Want one?"
 	done
 
 RageCandyBarMerchantSavorItText:
@@ -174,12 +174,12 @@ RageCandyBarMerchantNoRoomText:
 	done
 
 RageCandyBarMerchantSoldOutText:
-	text "RAGECANDYBAR's"
-	line "sold out."
+	text "De WOEDEREPEN" ; "RAGECANDYBAR's"
+	line "zijn uitverkocht." ; "sold out."
 
-	para "I'm packing up."
-	line "Don't bother me,"
-	cont "sonny boy."
+	para "Ik ga opruimen," ; "I'm packing up."
+	line "dus laat me met" ; "Don't bother me,"
+	cont "rust, kereltje." ; "sonny boy."
 	done
 
 MahoganyTownGrampsText:
@@ -222,7 +222,7 @@ MahoganyTownLassText:
 	done
 
 MahoganyTownSignText:
-	text "MAHOGANY TOWN"
+	text "MAHOGANY TOWN" ; "MAHOGANY TOWN"
 
 	para "Welkom bij het" ; "Welcome to the"
 	line "Huis van de Ninja" ; "Home of the Ninja"
@@ -236,7 +236,7 @@ MahoganyTownRagecandybarSignText: ; AlwaysReplace
 	done
 
 MahoganyGymSignText:
-	text "MAHOGANY TOWN"
+	text "MAHOGANY TOWN" ; "MAHOGANY TOWN"
 	line "#MON-GYMLEIDER:"
 	cont "PRYCE" ; "LEADER: PRYCE"
 

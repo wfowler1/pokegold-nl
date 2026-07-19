@@ -272,7 +272,7 @@ RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	para "de muren daar." ; "drawings on the"
 	; line "muren daar." ; "walls there."
 
-	para "Hmm…"
+	para "Hmm…" ; "Hmm…"
 
 	para "Er moeten veel" ; "That must mean"
 	line "verschillende" ; "there are many"

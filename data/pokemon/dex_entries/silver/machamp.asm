@@ -1,11 +1,11 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERKRACHT@" ; "SUPERPOWER@" species name
 	db 16 ; height
 	dw 1300 ; weight
 
-	db   "It uses its four"
-	next "powerful arms to"
-	next "pin the limbs of"
+	db   "Gebruikt de vier" ; "It uses its four"
+	next "sterke armen om" ; "powerful arms to"
+	next "ledematen vast te" ; "pin the limbs of"
 
-	page "its foe, then"
-	next "throws the victim"
-	next "over the horizon.@"
+	page "pinnenen gooit" ; "its foe, then"
+	next "het slachtoffer" ; "throws the victim"
+	next "over de horizon.@" ; "over the horizon.@"

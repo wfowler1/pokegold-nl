@@ -1,11 +1,11 @@
-	db "GOLDFISH@" ; species name
+	db "GOUIDVIS@" ; "GOLDFISH@" species name
 	db 6 ; height
 	dw 150 ; weight
 
-	db   "A strong swimmer,"
-	next "it is capable of"
-	next "swimming nonstop"
+	db   "Een sterke zwemmer" ; "A strong swimmer,"
+	next "die non-stop tegen" ; "it is capable of"
+	next "snelle stroming" ; "swimming nonstop"
 
-	page "up fast streams at"
-	next "a steady speed of"
-	next "five knots.@"
+	page "kan zwemmen met" ; "up fast streams at"
+	next "een snelheid van" ; "a steady speed of"
+	next "vijf knopen.@" ; "five knots.@"

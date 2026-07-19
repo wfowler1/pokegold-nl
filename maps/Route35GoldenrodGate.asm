@@ -89,27 +89,30 @@ Route35GoldenrodGatePokefanFScript:
 	end
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
-	text "Excuse me, guy!"
-	line "Can you do a guy"
-	cont "a favor?"
+	text "Pardon, jongen!" ; "Excuse me, guy!"
+	line "Kun je iets voor" ; "Can you do a guy"
+	cont "me doen?" ; "a favor?"
 
-	para "Can you take this"
-	line "#MON with MAIL"
-	cont "to my friend?"
+	para "Kan je deze" ; "Can you take this"
+	line "#MON met POST" ; "#MON with MAIL"
+	cont "naar m'n vriend" ; "to my friend?"
 
-	para "He's on ROUTE 31."
+	para "brengen?" ; "He's on ROUTE 31."
+	para "Hij is op"
+	line "ROUTE 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "You will? Perfect!"
-	line "Thanks, guy!"
+	text "Ja? Perfect!" ; "You will? Perfect!"
+	line "Dankjewel!" ; "Thanks, guy!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Mijn maat is" ; "My pal's a chubby"
+	line "een flinke kerel" ; "guy who snoozes"
+	cont "die vaak zit te" ; "all the time."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "dutten." ; "You'll recognize"
+	line "Je zal 'm" ; "him right away!"
+	cont "meteen herkennen!"
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
@@ -141,12 +144,12 @@ Route35GoldenrodGateRandyOhNeverMindThenText:
 	done
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Thanks, guy! You"
-	line "made the delivery"
-	cont "for me!"
+	text "Bedankt, jongen!" ; "Thanks, guy! You"
+	line "Je hebt de be-" ; "made the delivery"
+	cont "zorging gedaan!" ; "for me!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "Hier is je" ; "Here's something"
+	line "beloning!" ; "for your trouble!"
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:

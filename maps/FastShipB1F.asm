@@ -219,17 +219,17 @@ FastShipB1FSailorBlocksLeftMovement:
 	step_end
 
 FastShipB1FOnDutySailorText:
-	text "Hey, guy. Could I"
-	line "get you to look"
-	cont "for my buddy?"
+	text "Hé man. Kun je" ; "Hey, guy. Could I"
+	line "me helpen mijn" ; "get you to look"
+	cont "maat te vinden?" ; "for my buddy?"
 
-	para "He's goofing off"
-	line "somewhere, that"
-	cont "lazy bum!"
+	para "Die luie gast" ; "He's goofing off"
+	line "is ergens aan het" ; "somewhere, that"
+	cont "lanterfanten!" ; "lazy bum!"
 
-	para "I want to go find"
-	line "him, but I'm on"
-	cont "duty right now."
+	para "Ik wil hem vinden," ; "I want to go find"
+	line "maar ik heb" ; "him, but I'm on"
+	cont "nu dienst." ; "duty right now."
 	done
 
 FastShipB1FOnDutySailorRefusedText:
@@ -240,11 +240,13 @@ FastShipB1FOnDutySailorRefusedText:
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Thanks, guy!"
-	line "I chewed him out"
+	text "Bedankt, man!" ; "Thanks, guy!"
+	line "Ik heb hem een" ; "I chewed him out"
 
-	para "good so he'll quit"
-	line "slacking off!"
+	para "flinke preek" ; "good so he'll quit"
+	line "gegeven, dus" ; "slacking off!"
+	cont "hij stopt met"
+	cont "lanterfanten!"
 	done
 
 FastShipB1FOnDutySailorSawLittleGirlText:

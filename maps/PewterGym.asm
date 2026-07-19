@@ -119,7 +119,7 @@ ReceivedBoulderBadgeText:
 	done
 
 BrockBoulderBadgeText:
-	text "BROCK: <PLAYER>,"
+	text "BROCK: <PLAYER>," ; "BROCK: <PLAYER>,"
 	line "dank je. Ik ge-" ; "thanks. I enjoyed"
 
 	para "noot van ons ge-" ; "battling you, even"
