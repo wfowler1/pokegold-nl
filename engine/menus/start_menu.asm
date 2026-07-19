@@ -186,19 +186,19 @@ StartMenu::
 	dw StartMenu_Pokegear, .PokegearString, .PokegearDesc
 	dw StartMenu_Quit,     .QuitString,     .QuitDesc
 
-.PokedexString:  db "#DEX@"
-.PartyString:    db "#MON@"
+.PokedexString:  db "#DEX@" ; "#DEX@"
+.PartyString:    db "#MON@" ; "#MON@"
 .PackString:     db "TAS@" ; "PACK@"
-.StatusString:   db "<PLAYER>@"
+.StatusString:   db "<PLAYER>@" ; "<PLAYER>@"
 .SaveString:     db "OPSLAAN@" ; "SAVE@"
 .OptionString:   db "OPTIES@" ; "OPTION@"
 .ExitString:     db "SLUITEN@" ; "EXIT@"
-.PokegearString: db "<POKE>GEAR@"
+.PokegearString: db "<POKE>GEAR@" ; "<POKE>GEAR@"
 .QuitString:     db "STOP@" ; "QUIT@"
 
 .PokedexDesc:
 	db   "#MON-" ; "#MON"
-	next "database@"
+	next "database@" ; "database@"
 
 .PartyDesc:
 	db   "Status <PKMN>-" ; "Party <PKMN>"
@@ -209,7 +209,7 @@ StartMenu::
 	next "voorwerpen@" ; "items@"
 
 .PokegearDesc:
-	db   "Trainer's"
+	db   "Trainer's" ; "Trainer's"
 	next "apparaat@" ; "key device@"
 
 .StatusDesc:
@@ -226,7 +226,7 @@ StartMenu::
 
 .ExitDesc:
 	db   "Sluit dit" ; "Close this"
-	next "menu@"
+	next "menu@" ; "menu@"
 
 .QuitDesc:
 	db   "Stop en" ; "Quit and"

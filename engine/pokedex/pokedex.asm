@@ -1247,8 +1247,8 @@ Pokedex_DrawSearchScreenBG:
 	db $3d, "        ", $3e, -1
 
 .Types:
-	db   "TYPE1"
-	next "TYPE2"
+	db   "TYPE1" ; "TYPE1"
+	next "TYPE2" ; "TYPE2"
 	db   "@"
 
 .Menu:
@@ -1568,7 +1568,7 @@ Pokedex_PlaceDefaultStringIfNotSeen:
 	ret
 
 .NameNotSeen:
-	db "-----@"
+	db "-----@" ; "-----@"
 
 Pokedex_DrawFootprint:
 	hlcoord 18, 1

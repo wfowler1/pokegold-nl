@@ -413,7 +413,7 @@ KurtsHouseKurtDontBotherMeText:
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "KURT: Ah, <PLAYER>!"
+	text "KURT: Ah, <PLAYER>!" ; "KURT: Ah, <PLAYER>!"
 	line "Ik was net klaar" ; "I just finished"
 	cont "met je BAL. Hier!" ; "your BALL. Here!"
 	done
@@ -459,13 +459,13 @@ KurtsGranddaughterDadText:
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
+	text "SLOWPOKE: …" ; "SLOWPOKE: …"
 	line "Gaap?" ; "Yawn?"
 	done
 
 KurtsHouseOakPhotoText:
 	text "…Een jonge PROF." ; "…A young PROF."
-	line "OAK?"
+	line "OAK?" ; "OAK?"
 	done
 
 KurtsHouseCelebiStatueText:

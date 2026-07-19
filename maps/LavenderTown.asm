@@ -77,7 +77,7 @@ LavenderTownYoungsterText:
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
+	text "LAVENDER TOWN" ; "LAVENDER TOWN"
 
 	para "Het Edele" ; "The Noble Purple"
 	line "Purperen Dorp" ; "Town"
@@ -85,7 +85,7 @@ LavenderTownSignText:
 
 KantoRadioStationSignText:
 	text "KANTO RADIO-" ; "KANTO RADIO"
-	line "STATION"
+	line "STATION" ; "STATION"
 
 	para "Jouw Favoriete" ; "Your Favorite"
 	line "Programma's In" ; "Programs On-Air"

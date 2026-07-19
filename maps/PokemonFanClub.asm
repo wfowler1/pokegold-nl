@@ -140,7 +140,7 @@ PokemonFanClubChairmanRapidashText:
 	line "Luister maar!" ; "Then listen up!"
 
 	para "Dus… m'n favoriete" ; "So… my favorite"
-	line "RAPIDASH…"
+	line "RAPIDASH…" ; "RAPIDASH…"
 
 	para "Het is… schattig…" ; "It… cute… lovely…"
 	line "lief… slim…" ; "smart… unbearably…"
@@ -269,7 +269,7 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 
 PokemonFanClubTeacherText:
 	text "Kijk mijn lieve" ; "Look at my darling"
-	line "BAYLEEF!"
+	line "BAYLEEF!" ; "BAYLEEF!"
 
 	para "Het blad op de" ; "The leaf on its"
 	line "kop is zo leuk!" ; "head is so cute!"
@@ -277,7 +277,7 @@ PokemonFanClubTeacherText:
 
 PokemonFanClubClefairyDollText:
 	text "'Tis een CLEFAIRY!" ; "It's a CLEFAIRY!"
-	line "Huh?"
+	line "Huh?" ; "Huh?"
 
 	para "Oh, oké. Het is" ; "Oh, right. It's a"
 	line "een CLEFAIRY-" ; "CLEFAIRY #"
@@ -285,7 +285,7 @@ PokemonFanClubClefairyDollText:
 	done
 
 PokemonFanClubBayleefText:
-	text "BAYLEEF: Li liif!"
+	text "BAYLEEF: Li liif!" ; "BAYLEEF: Li liif!"
 	done
 
 PokemonFanClubListenSignText:

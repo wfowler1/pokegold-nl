@@ -76,7 +76,7 @@ MeetMomScript:
 	end
 
 PokegearName:
-	db "#GEAR@"
+	db "#GEAR@" ; "#GEAR@"
 
 PlayersHouse1FReceiveItemStd:
 	jumpstd ReceiveItemScript
@@ -238,7 +238,7 @@ SoWhatWasProfElmsErrandText:
 	text "Wat voor klus had" ; "So, what was PROF."
 	line "PROF. ELM?" ; "ELM's errand?"
 
-	para "…"
+	para "…" ; "…"
 
 	para "Dat klinkt als een" ; "That does sound"
 	line "uitdaging." ; "challenging."
@@ -259,7 +259,7 @@ PlayersHouse1FStoveText:
 	text "Haar specialiteit!" ; "Mom's specialty!"
 
 	para "CINNABAR VULKAAN-" ; "CINNABAR VOLCANO"
-	line "BURGER!"
+	line "BURGER!" ; "BURGER!"
 	done
 
 PlayersHouse1FSinkText:

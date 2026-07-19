@@ -22,7 +22,7 @@ PewterMartSuperNerdScript:
 
 PewterMartYoungsterText:
 	text "Hoi! Check mijn" ; "Hi! Check out my"
-	line "GYARADOS!"
+	line "GYARADOS!" ; "GYARADOS!"
 
 	para "Die was al bij me" ; "I raised it from a"
 	line "als een MAGIKARP." ; "MAGIKARP. I can't"

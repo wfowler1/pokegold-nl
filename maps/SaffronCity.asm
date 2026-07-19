@@ -169,8 +169,8 @@ SaffronCityCooltrainerFText:
 	para "Daarom wilde TEAM" ; "In the past, TEAM"
 	line "ROCKET vroeger het" ; "ROCKET wanted the"
 
-	para "het bedrijf" ; "company because of"
-	line "overnemen." ; "that."
+	para "bedrijf overnemen." ; "company because of"
+	line "" ; "that."
 	done
 
 SaffronCityFisherText:

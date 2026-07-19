@@ -82,7 +82,7 @@ PrintDiplomaPage2:
 	ret
 
 .PlayTime: db "SPEELTIJD@" ; "PLAY TIME@"
-.GameFreak: db "GAME FREAK@"
+.GameFreak: db "GAME FREAK@" ; "GAME FREAK@"
 
 DiplomaGFX:
 INCBIN "gfx/diploma/diploma.2bpp.lz"

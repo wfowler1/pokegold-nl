@@ -327,7 +327,7 @@ PhoneBugCatchingContestText:
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAYER>, heb je " ; "<PLAYER>, did you"
+	text "<PLAYER>, heb je" ; "<PLAYER>, did you"
 	line "het al gehoord?" ; "know?"
 
 	para "De radiotoren in" ; "I hear GOLDENROD's"

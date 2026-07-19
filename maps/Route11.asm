@@ -104,15 +104,15 @@ YoungsterJasonAfterBattleText:
 	done
 
 PsychicHermanSeenText:
-	text "…"
+	text "…" ; "…"
 	done
 
 PsychicHermanBeatenText:
-	text "…"
+	text "…" ; "…"
 	done
 
 PsychicHermanAfterBattleText:
-	text "…"
+	text "…" ; "…"
 
 	para "Ik verloor terwijl" ; "I lost while I had"
 	line "ik mijn ogen dicht" ; "my eyes closed…"
@@ -141,7 +141,7 @@ PsychicFidelAfterBattleText:
 	done
 
 Route11SignText:
-	text "ROUTE 11"
+	text "ROUTE 11" ; "ROUTE 11"
 	done
 
 Route11_MapEvents:

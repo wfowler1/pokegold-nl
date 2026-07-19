@@ -5480,7 +5480,7 @@ MoveInfoBox:
 .Disabled:
 	db "Uitgesch.@" ; "Disabled!@"
 .Type:
-	db "TYPE/@"
+	db "TYPE/@" ; "TYPE/@"
 
 ParseEnemyAction:
 	ld a, [wEnemyIsSwitching]
@@ -8223,10 +8223,10 @@ ReadAndPrintLinkBattleRecord:
 	ret
 
 .Scores:
-	db "<NULL><NULL>"
+	db "<NULL><NULL>" ; "<NULL><NULL>"
 .Format:
-	db "  ---  <LF>"
-	db "         -    -    -@"
+	db "  ---  <LF>" ; "  ---  <LF>"
+	db "         -    -    -@" ; "         -    -    -@"
 .Record:
 	db "<PLAYER>'s POTJES@" ; "<PLAYER>'s RECORD@"
 .Result:

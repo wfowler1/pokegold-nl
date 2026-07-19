@@ -79,10 +79,10 @@ KogasRoom_EnterMovement:
 	step_end
 
 KogaScript_KogaBeforeText:
-	text "Fwahahahaha!"
+	text "Fwahahahaha!" ; "Fwahahahaha!"
 
 	para "Ik ben KOGA van de" ; "I am KOGA of the"
-	line "ELITE FOUR."
+	line "ELITE FOUR." ; "ELITE FOUR."
 
 	para "Ik leef in de" ; "I live in shadows,"
 	line "schaduw als ninja!" ; "a ninja!"
@@ -98,7 +98,7 @@ KogaScript_KogaBeforeText:
 	line "mijn slachtoffer" ; "victim of my sin-"
 	cont "te worden!" ; "ister technique!"
 
-	para "Fwahahahaha!"
+	para "Fwahahahaha!" ; "Fwahahahaha!"
 
 	para "#MON gaat om" ; "#MON is not"
 	line "meer dan brute" ; "merely about brute"

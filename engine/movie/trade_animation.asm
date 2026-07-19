@@ -890,10 +890,10 @@ TrademonStats_MonTemplate:
 	ret
 
 .OTMonData:
-	db   "─── №."
+	db   "─── №." ; "─── №."
 	next ""
-	next "OT/"
-	next "<ID>№.@"
+	next "OT/" ; "OT/"
+	next "<ID>№.@" ; "<ID>№.@"
 
 TrademonStats_Egg:
 	call WaitTop
@@ -912,8 +912,8 @@ TrademonStats_Egg:
 
 .EggData:
 	db   "EI" ; "EGG"
-	next "OT/?????"
-	next "<ID>№.?????@"
+	next "OT/?????" ; "OT/?????"
+	next "<ID>№.?????@" ; "<ID>№.?????@"
 
 TrademonStats_WaitBGMap:
 	call WaitBGMap

@@ -73,11 +73,11 @@ MountMortarB1FKiyoIntroText:
 	para "Jij!" ; "You!"
 	line "Vecht met me!" ; "Battle with me!"
 
-	para "Hwaaarggh!"
+	para "Hwaaarggh!" ; "Hwaaarggh!"
 	done
 
 MountMortarB1FKiyoWinText:
-	text "Waaaarggh!"
+	text "Waaaarggh!" ; "Waaaarggh!"
 	line "Ik ben verslagen!" ; "I'm beaten!"
 	done
 
@@ -101,7 +101,7 @@ MountMortarB1FTyrogueRewardText:
 
 MountMortarB1FReceiveMonText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TYROGUE."
+	line "TYROGUE." ; "TYROGUE."
 	done
 
 MountMortarB1FKiyoGotTyrogueText:

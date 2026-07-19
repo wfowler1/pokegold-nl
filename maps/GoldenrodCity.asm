@@ -189,7 +189,7 @@ GoldenrodCityCooltrainerF2Text_GotRadioCard:
 	done
 
 GoldenrodCityYoungster2Text:
-	text "E-he-he-he…"
+	text "E-he-he-he…" ; "E-he-he-he…"
 
 	para "Ik kreeg op de kop" ; "I got in trouble"
 	line "omdat ik speelde" ; "for playing in the"
@@ -281,7 +281,7 @@ GoldenrodDeptStoreSignText:
 	text "Grote selectie aan" ; "Full Selection of"
 	line "#MON-goederen!" ; "#MON Goods!"
 
-	para "GOLDENROD CITY" 
+	para "GOLDENROD CITY" ; "GOLDENROD CITY"
 	line "WARENHUIS" ; "DEPT.STORE"
 	done
 
@@ -311,7 +311,7 @@ GoldenrodCityBikeShopSignText:
 GoldenrodCityGameCornerSignText:
 	text "Jouw speeltuin!" ; "Your Playground!"
 
-	para "GOLDENROD CITY"
+	para "GOLDENROD CITY" ; "GOLDENROD CITY"
 	line "SPELHOEK" ; "GAME CORNER"
 	done
 

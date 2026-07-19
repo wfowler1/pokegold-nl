@@ -136,10 +136,10 @@ BugCatcherDougAfterBattleText:
 	done
 
 Route2SignText:
-	text "ROUTE 2"
+	text "ROUTE 2" ; "ROUTE 2"
 
-	para "VIRIDIAN CITY -"
-	line "PEWTER CITY"
+	para "VIRIDIAN CITY -" ; "VIRIDIAN CITY -"
+	line "PEWTER CITY" ; "PEWTER CITY"
 	done
 
 Route2DiglettsCaveSignText:

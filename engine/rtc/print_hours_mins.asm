@@ -61,8 +61,8 @@ PrintHoursMins:
 	call PlaceString
 	ret
 
-String_AM: db "AM@"
-String_PM: db "PM@"
+String_AM: db "AM@" ; "AM@"
+String_PM: db "PM@" ; "PM@"
 
 UpdateTimePredef::
 	call UpdateTime

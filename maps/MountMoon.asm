@@ -88,10 +88,10 @@ MountMoonRivalMovementAfter:
 	step_end
 
 MountMoonRivalTextBefore:
-	text "<……> <……> <……>"
+	text "<……> <……> <……>" ; "<……> <……> <……>"
 
 	para "Lang geleden," ; "It's been a while,"
-	line "<PLAYER>."
+	line "<PLAYER>." ; "<PLAYER>."
 
 	para "…Sinds ik van" ; "…Since I lost to"
 	line "je verloor, heb" ; "you, I thought"
@@ -108,7 +108,7 @@ MountMoonRivalTextBefore:
 	done
 
 MountMoonRivalTextWin:
-	text "<……> <……> <……>"
+	text "<……> <……> <……>" ; "<……> <……> <……>"
 
 	para "Ik dacht dat ik" ; "I thought I raised"
 	line "mijn #MON het" ; "my #MON to be"
@@ -121,7 +121,7 @@ MountMoonRivalTextWin:
 	done
 
 MountMoonRivalTextAfter:
-	text "<……> <……> <……>"
+	text "<……> <……> <……>" ; "<……> <……> <……>"
 
 	para "…Je won," ; "…You won, fair"
 	line "eerlijk en wel." ; "and square."
@@ -147,7 +147,7 @@ MountMoonRivalTextAfter:
 	done
 
 MountMoonRivalTextLoss:
-	text "<……> <……> <……>"
+	text "<……> <……> <……>" ; "<……> <……> <……>"
 
 	para "Ik heb mijn schuld" ; "I've repaid my"
 	line "aan jou afgelost." ; "debt to you."

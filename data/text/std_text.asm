@@ -82,10 +82,10 @@ PictureBookshelfText:
 MagazineBookshelfText:
 	text "#MON-" ; "#MON magazines…"
 	line "tijdschriften…"
-	cont "#MON PAL,"
+	cont "#MON PAL," ; "#MON PAL,"
 
 	para "#MON-HANDBOEK," ; "#MON HANDBOOK,"
-	line "#MON GRAPH…"
+	line "#MON GRAPH…" ; "#MON GRAPH…"
 	done
 
 TeamRocketOathText:
@@ -99,7 +99,7 @@ TeamRocketOathText:
 
 	para "#MON bestaan" ; "All #MON exist"
 	line "voor de glorie van" ; "for the glory of"
-	cont "TEAM ROCKET!"
+	cont "TEAM ROCKET!" ; "TEAM ROCKET!"
 	done
 
 IncenseBurnerText:
@@ -111,7 +111,7 @@ IncenseBurnerText:
 
 MerchandiseShelfText:
 	text "Heel veel #MON" ; "Lots of #MON"
-	line "merchandise!"
+	line "merchandise!" ; "merchandise!"
 	done
 
 LookTownMapText:
@@ -176,8 +176,8 @@ ContestResults_ReadyToJudgeText:
 	line "#MON die je" ; "the #MON you've"
 	cont "hebt gevangen." ; "caught."
 
-	para "<……>"
-	line "<……>"
+	para "<……>" ; "<……>"
+	line "<……>" ; "<……>"
 
 	para "We hebben de win-" ; "We have chosen the"
 	line "naars gekozen!" ; "winners!"
@@ -187,114 +187,114 @@ ContestResults_ReadyToJudgeText:
 	done
 
 AskNumber1MText:
-	text "Wow! You're pretty"
-	line "tough."
+	text "Wauw! Je bent een" ; "Wow! You're pretty"
+	line "taaiel" ; "tough."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Mag ik je" ; "Could I get your"
+	line "telefoonnummer?" ; "phone number?"
 
-	para "I'll call you for"
-	line "a rematch."
+	para "Dan ben ik je voor" ; "I'll call you for"
+	line "een rematch." ; "a rematch."
 	done
 
 AskNumber2MText:
-	text "Register the phone"
-	line "number?"
+	text "Register the phone" ; "Register the phone"
+	line "number?" ; "number?"
 	done
 
 RegisteredNumberMText:
-	text "<PLAYER> registered"
+	text "<PLAYER> bewaarde" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "'s number."
+	text "'s nummer." ; "'s number."
 	done
 
 NumberAcceptedMText:
-	text "I'll call you if"
-	line "anything comes up."
+	text "Ik bel je als er" ; "I'll call you if"
+	line "iets is." ; "anything comes up."
 	done
 
 NumberDeclinedMText:
-	text "Oh, OK…"
-	line "Just talk to me if"
+	text "Oh, OK…" ; "Oh, OK…"
+	line "Vraag me maar" ; "Just talk to me if"
 
-	para "you want to get my"
-	line "phone number."
+	para "alsje toch mijn" ; "you want to get my"
+	line "nummer wil." ; "phone number."
 	done
 
 PhoneFullMText:
-	text "Your phone doesn't"
-	line "have enough memory"
-	cont "for more numbers."
+	text "Je telefoon heeft" ; "Your phone doesn't"
+	line "te weinig geheugen" ; "have enough memory"
+	cont "voor meer nummers." ; "for more numbers."
 	done
 
 RematchMText:
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "Ik wachtte op je!" ; "I was waiting for"
+	line "Laten we vechten!" ; "you. Let's battle!"
 	done
 
 AskNumber1FText:
-	text "Wow, you're good"
-	line "at battling."
+	text "Wow, je bent goed" ; "Wow, you're good"
+	line "in vechten." ; "at battling."
 
-	para "Want to give me"
-	line "your phone number?"
+	para "Mag ik je nummer" ; "Want to give me"
+	line "hebben?" ; "your phone number?"
 
-	para "I'll phone you for"
-	line "another battle."
+	para "Ik bel je voor nog" ; "I'll phone you for"
+	line "een gevecht." ; "another battle."
 	done
 
 AskNumber2FText:
-	text "Register the phone"
-	line "number?"
+	text "Telefoonnummer" ; "Register the phone"
+	line "registreren?" ; "number?"
 	done
 
 RegisteredNumberFText:
-	text "<PLAYER> registered"
+	text "<PLAYER> bewaarde" ; "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
-	text "'s number."
+	text "'s nummer." ; "'s number."
 	done
 
 NumberAcceptedFText:
-	text "I'll call you if"
-	line "something's up."
+	text "Ik bel je als er" ; "I'll call you if"
+	line "iets is." ; "something's up."
 	done
 
 NumberDeclinedFText:
-	text "Oh, fine then…"
-	line "If you want to get"
+	text "Oh, prima dan…" ; "Oh, fine then…"
+	line "Als je toch mijn" ; "If you want to get"
 
-	para "my phone number,"
-	line "just tell me."
+	para "nummer wil, zeg" ; "my phone number,"
+	line "het maar." ; "just tell me."
 	done
 
 PhoneFullFText:
-	text "Your phone doesn't"
-	line "have enough memory"
-	cont "for more numbers."
+	text "Je telefoon heeft" ; "Your phone doesn't"
+	line "geen plek meer" ; "have enough memory"
+	cont "voor meer nummers." ; "for more numbers."
 	done
 
 RematchFText:
-	text "I waited for you."
-	line "Let's battle!"
+	text "Ik wachtte  op je." ; "I waited for you."
+	line "Laten we vechten!" ; "Let's battle!"
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER> wins the"
-	line "No. @"
+	text "<PLAYER> wint de" ; "<PLAYER> wins the"
+	line "nr. @" ; "No. @"
 	text_ram wStringBuffer3 ; MaxLength 1
-	text " prize,"
-	cont "a @"
+	text "-prijs," ; " prize,"
+	cont "een @" ; "a @"
 	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 ReceivedItemText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
-	text "."
+	text "." ; "."
 	done
 
 ContestResults_JoinUsNextTimeText:
@@ -332,7 +332,7 @@ ContestResults_PartyFullText:
 GymStatue_CityGymText:
 	text_ram wStringBuffer3 ; MaxLength MaxLandmarkLength
 	text_start
-	line "#MON GYM"
+	line "#MON-GYM" ; "#MON GYM"
 	done
 
 GymStatue_WinningTrainersText:
@@ -340,7 +340,7 @@ GymStatue_WinningTrainersText:
 	text_ram wStringBuffer4 ; MaxLength MaxTrainerNameLength
 	text_start
 	para "WINNENDE TRAINERS:" ; "WINNING TRAINERS:"
-	line "<PLAYER>"
+	line "<PLAYER>" ; "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:

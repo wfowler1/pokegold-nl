@@ -267,7 +267,7 @@ LakeOfRageLanceIntroText:
 
 	para "Ik zag hoe je" ; "I saw the way you"
 	line "eerder vocht," ; "battled earlier,"
-	cont "<PLAYER>."
+	cont "<PLAYER>." ; "<PLAYER>."
 
 	para "Ik kan zien dat je" ; "I can tell that"
 	line "een trainer bent" ; "you're a trainer"
@@ -312,7 +312,7 @@ LakeOfRageLanceAskHelpText:
 	done
 
 LakeOfRageGyaradosCryText:
-	text "GYARADOS: Gyashaa!"
+	text "GYARADOS: Gyashaa!" ; "GYARADOS: Gyashaa!"
 	done
 
 LakeOfRageGotRedScaleText:
@@ -406,7 +406,7 @@ CooltrainermAaronSeenText:
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
+	text "Whew…" ; "Whew…"
 	line "Goed gevecht." ; "Good battle."
 	done
 

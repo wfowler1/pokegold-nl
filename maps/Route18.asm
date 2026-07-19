@@ -69,10 +69,10 @@ BirdKeeperBobAfterBattleText:
 	done
 
 Route18SignText:
-	text "ROUTE 18"
+	text "ROUTE 18" ; "ROUTE 18"
 
-	para "CELADON CITY -"
-	line "FUCHSIA CITY"
+	para "CELADON CITY -" ; "CELADON CITY -"
+	line "FUCHSIA CITY" ; "FUCHSIA CITY"
 	done
 
 Route18_MapEvents:

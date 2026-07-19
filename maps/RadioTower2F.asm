@@ -125,8 +125,8 @@ RadioTower2FTeacherText_Rockets:
 	done
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
-	line "Jiggly…"
+	text "JIGGLYPUFF:" ; "JIGGLYPUFF:"
+	line "Jiggly…" ; "Jiggly…"
 	done
 
 RadioTower2FBlackBelt1Text:
@@ -212,7 +212,7 @@ GruntM6AfterBattleText:
 	done
 
 GruntF2SeenText:
-	text "Hahaha!"
+	text "Hahaha!" ; "Hahaha!"
 
 	para "Saai. Het was veel" ; "How boring."
 	line "te makkelijk om" ; "It was far too"

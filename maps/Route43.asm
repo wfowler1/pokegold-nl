@@ -251,7 +251,7 @@ Route43MaxEther:
 
 PokemaniacBenSeenText:
 	text "Ik ben dol op" ; "I love #MON!"
-	line "#MON!"
+	line "#MON!" ; "#MON!"
 
 	para "Daarom begon ik" ; "That's why I"
 	line "met verzamelen--" ; "started--and why"
@@ -295,7 +295,7 @@ PokemaniacRonSeenText:
 
 	para "Ene <RIVAL>-gast" ; "Some <RIVAL> guy"
 	line "bespotte mijn" ; "made fun of my"
-	cont "#MON!"
+	cont "#MON!" ; "#MON!"
 
 	para "Verdorie! Mijn" ; "Darn it! My #-"
 	line "#MON zijn top!" ; "MON's great!"
@@ -384,17 +384,17 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 Route43Sign1Text:
-	text "ROUTE 43"
+	text "ROUTE 43" ; "ROUTE 43"
 
 	para "MEER VAN RAZERNIJ" ; "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	line "MAHOGANY TOWN" ; "MAHOGANY TOWN"
 	done
 
 Route43Sign2Text:
-	text "ROUTE 43"
+	text "ROUTE 43" ; "ROUTE 43"
 
 	para "MEER VAN RAZERNIJ" ; "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	line "MAHOGANY TOWN" ; "MAHOGANY TOWN"
 	done
 
 Route43TrainerTipsText:

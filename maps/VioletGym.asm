@@ -130,7 +130,7 @@ FalknerIntroText:
 	line "kracht van mijn" ; "real power of the"
 
 	para "fenomenale vogel-" ; "magnificent bird"
-	line "#MON!"
+	line "#MON!" ; "#MON!"
 	done
 
 FalknerWinLossText: ; AlwaysReplace
@@ -221,7 +221,7 @@ BirdKeeperRodSeenText:
 	done
 
 BirdKeeperRodBeatenText:
-	text "Gaaah!"
+	text "Gaaah!" ; "Gaaah!"
 	done
 
 BirdKeeperRodAfterBattleText:

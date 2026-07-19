@@ -15,7 +15,7 @@ PewterSnoozeSpeechHouseBookshelf:
 PewterSnoozeSpeechHouseGrampsText:
 	text "Ik hou van dutten" ; "I like snoozing"
 	line "met de radio aan…" ; "with the radio on…"
-	cont "…Zzzz…"
+	cont "…Zzzz…" ; "…Zzzz…"
 	done
 
 PewterSnoozeSpeechHouse_MapEvents:

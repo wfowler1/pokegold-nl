@@ -9,7 +9,7 @@ VictoryRoadEntranceSign:
 VictoryRoadEntranceSignText:
 	text "#MON-LEAGUE"
 
-	para "VICTORY ROAD"
+	para "VICTORY ROAD" ; "VICTORY ROAD"
 	line "INGANG" ; "ENTRANCE"
 	done
 

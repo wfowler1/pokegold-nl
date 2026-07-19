@@ -55,7 +55,7 @@ MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
 	text "Ik heb gelach" ; "I've been hearing"
 	line "gehoord op de" ; "laughter on the"
 
-	para "radio…"
+	para "radio…" ; "radio…"
 	line "Het is griezelig." ; "It's creepy."
 	done
 

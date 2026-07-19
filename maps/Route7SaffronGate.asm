@@ -30,7 +30,7 @@ Route7SaffronGuardPowerPlantText:
 
 	para "Het is in het" ; "It's located in"
 	line "oosten, nabij" ; "the East, close to"
-	cont "LAVENDER TOWN."
+	cont "LAVENDER TOWN." ; "LAVENDER TOWN."
 	done
 
 Route7SaffronGuardSeriousText:
@@ -39,7 +39,7 @@ Route7SaffronGuardSeriousText:
 	cont "serieus." ;
 
 	para "Hé! Je hebt een" ; "Hey! You have a"
-	line "#DEX."
+	line "#DEX." ; "#DEX."
 
 	para "Oké. Je kan" ; "OK. You can go"
 	line "verder gaan." ; "through."

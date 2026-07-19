@@ -72,7 +72,7 @@ ElmsHousePCText:
 	para "aan de studie van" ; "life to the study"
 	line "#MON!" ; "of #MON!"
 
-	para "…"
+	para "…" ; "…"
 
 	para "Het is deel van" ; "It's a part of"
 	line "PROF.ELM's" ; "PROF.ELM's re-"

@@ -90,7 +90,7 @@ TeacherColetteSeenText:
 	done
 
 TeacherColetteBeatenText:
-	text "Kyaaah!"
+	text "Kyaaah!" ; "Kyaaah!"
 	done
 
 TeacherColetteAfterBattleText:
@@ -197,8 +197,8 @@ SchoolboyBillyAfterBattleText:
 Route15SignText:
 	text "ROUTE 15"
 
-	para "FUCHSIA CITY -"
-	line "LAVENDER TOWN"
+	para "FUCHSIA CITY -" ; "FUCHSIA CITY -"
+	line "LAVENDER TOWN" ; "LAVENDER TOWN"
 	done
 
 Route15_MapEvents:

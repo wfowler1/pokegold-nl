@@ -215,7 +215,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db "ABRA        200@"
 	db "EKANS       700@"
 	db "DRATINI    2100@"
-	db "CANCEL@"
+	db "ANNULEER@" ; "CANCEL@"
 
 .Silver_Loop:
 	writetext GoldenrodGameCornerPrizeVendorWhichPrizeText
@@ -294,7 +294,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db "ABRA        200@"
 	db "SANDSHREW   700@"
 	db "DRATINI    2100@"
-	db "CANCEL@"
+	db "ANNULEER@" ; "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:
 	faceplayer

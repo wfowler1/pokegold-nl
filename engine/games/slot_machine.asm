@@ -1782,9 +1782,9 @@ Slots_AskBet:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db " 3@"
-	db " 2@"
-	db " 1@"
+	db " 3@" ; " 3@"
+	db " 2@" ; " 2@"
+	db " 1@" ; " 1@"
 
 Slots_AskPlayAgain:
 	ld hl, wCoins

@@ -219,7 +219,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .minString: ; unreferenced
-	db "min.@"
+	db "min.@" ; "min.@"
 
 .PrintTimeNotSet:
 	hlcoord 1, 14

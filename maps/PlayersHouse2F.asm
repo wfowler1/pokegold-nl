@@ -91,7 +91,7 @@ PlayersHouseGameConsoleScript:
 	describedecoration DECODESC_CONSOLE
 
 PlayersRadioText1:
-	text "PROF.OAK'S #MON"
+	text "PROF.OAK'S #MON" ; "PROF.OAK'S #MON"
 	line "SHOW! Luister vol-" ; "TALK! Please tune"
 	cont "gende keer weer!" ; "in next time!"
 	done
@@ -106,7 +106,7 @@ PlayersRadioText3:
 	done
 
 PlayersRadioText4:
-	text "#MON!"
+	text "#MON!" ; "#MON!"
 	line "#MON-KANAAL…" ; "#MON CHANNEL…"
 	done
 

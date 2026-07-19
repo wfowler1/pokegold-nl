@@ -60,12 +60,12 @@ _PlayerDecorationMenu:
 	dw DecoExitMenu,     .exit
 	assert_table_length NUM_DECO_CATEGORIES + 1
 
-.bed:      db "BED@"
+.bed:      db "BED@" ; "BED@"
 .carpet:   db "TAPIJT@" ; "CARPET@"
-.plant:    db "PLANT@"
-.poster:   db "POSTER@"
+.plant:    db "PLANT@" ; "PLANT@"
+.poster:   db "POSTER@" ; "POSTER@"
 .game:     db "SPELCOMPUTER@" ; "GAME CONSOLE@"
-.ornament: db "ORNAMENT@"
+.ornament: db "ORNAMENT@" ; "ORNAMENT@"
 .big_doll: db "GROTE POP@" ; "BIG DOLL@"
 .exit:     db "SLUITEN@" ; "EXIT@"
 

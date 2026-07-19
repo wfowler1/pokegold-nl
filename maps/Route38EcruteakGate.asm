@@ -13,7 +13,7 @@ Route38EcruteakGateOfficerText:
 	text "Waar zei je van-" ; "Where did you say"
 	line "daan te komen?" ; "you're from?"
 
-	para "NEW BARK TOWN?"
+	para "NEW BARK TOWN?" ; "NEW BARK TOWN?"
 
 	para "PROF.ELM woont" ; "PROF.ELM lives"
 	line "daar, toch?" ; "over there, right?"

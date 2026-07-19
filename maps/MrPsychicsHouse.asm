@@ -27,11 +27,11 @@ MrPsychicsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MrPsychicText1:
-	text "…"
+	text "…" ; "…"
 
-	para "…"
+	para "…" ; "…"
 
-	para "…"
+	para "…" ; "…"
 
 	para "…Ik heb het!" ; "…I got it!"
 

@@ -175,7 +175,7 @@ SetDefaultBoxNames:
 	ret
 
 .Box:
-	db "BOX@"
+	db "BOX@" ; "BOX@"
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
@@ -188,7 +188,7 @@ InitializeMagikarpHouse:
 	ret
 
 .Ralph:
-	db "RALPH@"
+	db "RALPH@" ; "RALPH@"
 
 InitializeNPCNames:
 	ld hl, .Rival
@@ -211,7 +211,7 @@ InitializeNPCNames:
 	call CopyBytes
 	ret
 
-.Rival:  db "???@"
+.Rival:  db "???@" ; "???@"
 .Red:    db "ROOD@" ; "RED@"
 .Green:  db "GROEN@" ; "GREEN@"
 .Mom:    db "MAM@" ; "MOM@"
@@ -410,8 +410,8 @@ Continue_LoadMenuHeader:
 	db 0 ; flags
 	db 4 ; items
 	db "SPELER <PLAYER>@" ; "PLAYER <PLAYER>@"
-	db "BADGES@"
-	db "#DEX@"
+	db "BADGES@" ; "BADGES@"
+	db "#DEX@" ; "#DEX@"
 	db "DUUR@" ; "TIME@"
 
 .MenuHeader_NoDex:
@@ -424,7 +424,7 @@ Continue_LoadMenuHeader:
 	db 0 ; flags
 	db 4 ; items
 	db "SPELER <PLAYER>@" ; "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "BADGES@" ; "BADGES@"
 	db " @"
 	db "DUUR@" ; "TIME@"
 
@@ -456,7 +456,7 @@ Continue_UnknownGameTime:
 	ret
 
 .three_question_marks
-	db " ???@"
+	db " ???@" ; " ???@"
 
 Continue_DisplayBadgeCount:
 	push hl

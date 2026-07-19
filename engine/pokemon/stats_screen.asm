@@ -494,11 +494,11 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
-	next "TYPE/@"
+	db   "STATUS/" ; "STATUS/"
+	next "TYPE/@" ; "TYPE/@"
 
 .OK_str:
-	db "OK @"
+	db "OK @" ; "OK @"
 
 .ExpPointStr:
 	db "ERV PUNTEN@" ; "EXP POINTS@"
@@ -510,7 +510,7 @@ LoadPinkPage:
 	db "NAAR@" ; "TO@"
 
 .PkrsStr:
-	db "#RUS@"
+	db "#RUS@" ; "#RUS@"
 
 StatsScreen_PlaceVerticalDivider: ; unreferenced
 ; The Japanese stats screen has a vertical divider.
@@ -611,7 +611,7 @@ LoadGreenPage:
 	db "VOORW.@" ; "ITEM@"
 
 .ThreeDashes:
-	db "---@"
+	db "---@" ; "---@"
 
 .Move:
 	db "AANVAL@" ; "MOVE@"
@@ -714,10 +714,10 @@ LoadBluePage:
 	dw wBufferMonOT
 
 IDNoString:
-	db "<ID>№.@"
+	db "<ID>№.@" ; "<ID>№.@"
 
 OTString:
-	db "OT/@"
+	db "OT/@" ; "OT/@"
 
 StatsScreen_PlaceFrontpic:
 	push bc
@@ -797,7 +797,7 @@ EggString:
 	db "EI@" ; "EGG@"
 
 FiveQMarkString:
-	db "?????@"
+	db "?????@" ; "?????@"
 
 EggSoonString:
 	db   "Het maakt geluid" ; "It's making sounds"

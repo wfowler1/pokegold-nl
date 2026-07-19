@@ -155,13 +155,13 @@ MahoganyMart1FLanceGoDownStairsMovement:
 	step_end
 
 MahoganyMart1FRageCandyBarText: ; unreferenced
-	text "Hello, youngster!"
+	text "Hallo, jochie!" ; "Hello, youngster!"
 
-	para "How would you like"
-	line "some RAGECANDYBAR?"
+	para "Wil je anders een" ; "How would you like"
+	line "WOEDEREEP?" ; "some RAGECANDYBAR?"
 
-	para "It's the thing to"
-	line "eat in MAHOGANY!"
+	para "Ze zijn populair" ; "It's the thing to"
+	line "hier in MAHOGANY!" ; "eat in MAHOGANY!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
@@ -191,13 +191,13 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "LANCE: DRAGONITE,"
+	text "LANCE: DRAGONITE," ; "LANCE: DRAGONITE,"
 	line "HYPERSTRAAL." ; "HYPER BEAM."
 	done
 
 MahoganyMart1FLanceRadioText:
 	text "Waar bleef je," ; "What took you,"
-	line "<PLAYER>?"
+	line "<PLAYER>?" ; "<PLAYER>?"
 
 	para "Zoals ik dacht," ; "Just as I thought,"
 	line "dat vreemde radio-" ; "that strange radio"
@@ -212,7 +212,7 @@ MahoganyMart1FLanceStairsText:
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAYER>, we"
+	text "LANCE: <PLAYER>, we" ; "LANCE: <PLAYER>, we"
 	line "moeten opsplitsen" ; "should split up to"
 
 	para "om deze plek" ; "check this place."

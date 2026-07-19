@@ -6,6 +6,6 @@
 	next "in diepe holen in" ; "it lives in deep"
 	next "droge gebieden." ; "burrows in arid"
 
-	page "kan zichzelf" ; "areas. It can roll"
+	page "Kan zichzelf" ; "areas. It can roll"
 	next "razendsnel in een" ; "itself instantly"
 	next "bal oprollen.@" ; "into a ball.@"

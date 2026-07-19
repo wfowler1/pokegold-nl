@@ -261,7 +261,7 @@ FisherEdgarSeenText:
 	done
 
 FisherEdgarBeatenText:
-	text "Hmmmm… "
+	text "Hmmmm… " ; "Hmmmm… "
 	line "Dit is niet goed." ; "This isn't right."
 	done
 
@@ -292,7 +292,7 @@ BirdKeeperVanceLegendaryBirdsText:
 	line "vogel-#MON." ; "ary bird #MON."
 
 	para "Ik hoorde ook over" ; "I heard there are"
-	line "andere legendari- " ; "other legendary"
+	line "andere legendari-" ; "other legendary"
 	cont "sche vogels." ; "birds, though."
 	done
 
@@ -391,15 +391,15 @@ CooltrainerfCybilAfterBattleText:
 	done
 
 Route44Sign1Text:
-	text "ROUTE 44"
+	text "ROUTE 44" ; "ROUTE 44"
 	line "IJSPAD NABIJ" ; "ICE PATH AHEAD"
 	done
 
 Route44Sign2Text:
-	text "ROUTE 44"
+	text "ROUTE 44" ; "ROUTE 44"
 
-	para "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY"
+	para "MAHOGANY TOWN -" ; "MAHOGANY TOWN -"
+	line "BLACKTHORN CITY" ; "BLACKTHORN CITY"
 	done
 
 Route44_MapEvents:

@@ -100,7 +100,7 @@ PokefanmJoshuaSeenText:
 	done
 
 PokefanmJoshuaBeatenText:
-	text "PI-PIKACHU!"
+	text "PI-PIKACHU!" ; "PI-PIKACHU!"
 	done
 
 PokefanmJoshuaAfterBattleText:
@@ -175,7 +175,7 @@ Route13TrainerTipsText:
 	done
 
 Route13SignText:
-	text "ROUTE 13"
+	text "ROUTE 13" ; "ROUTE 13"
 
 	para "Noord naar" ; "North to SILENCE"
 	line "STILTEBRUG" ; "BRIDGE"

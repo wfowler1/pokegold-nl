@@ -307,8 +307,8 @@ Options_Sound:
 	and a
 	ret
 
-.Mono:   db "MONO  @"
-.Stereo: db "STEREO@"
+.Mono:   db "MONO  @" ; "MONO  @"
+.Stereo: db "STEREO@" ; "STEREO@"
 
 	const_def
 	const OPT_PRINT_LIGHTEST ; 0

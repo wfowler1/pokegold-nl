@@ -4,7 +4,7 @@
 
 	db   "Snorharen helpen" ; "Its whiskers help"
 	next "het in balans te" ; "it to maintain"
-	next "te blijven. De" ; "balance. Its fangs"
+	next "blijven. De" ; "balance. Its fangs"
 
 	page "hoektanden blijven" ; "never stop grow-"
 	next "groeien, dus het" ; "ing, so it gnaws"

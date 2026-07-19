@@ -247,8 +247,8 @@ ListMovePP:
 	ld a, [wListMovesLineSpacing]
 	ld e, a
 	ld d, 0
-	ld a, $3e ; P
-	call .load_loop
+;	ld a, $3e ; P
+	call .load_ap_loop
 	ld a, b
 	and a
 	jr z, .skip
@@ -323,6 +323,18 @@ ListMovePP:
 	add hl, de
 	dec c
 	jr nz, .load_loop
+	ret
+
+; "AP" is german for "PP"
+; The german translation uses this instead of the loop above
+.load_ap_loop ; unreferenced
+	ld [hl], $32 ; A
+	inc hl
+	ld [hl], $3e ; P
+	dec hl
+	add hl, de
+	dec c
+	jr nz, .load_ap_loop
 	ret
 
 Unused_PlaceEnemyHPLevel:
@@ -415,9 +427,9 @@ PlaceNonFaintStatus:
 	pop de
 	ret
 
-SlpString: db "SLP@"
+SlpString: db "SLP@" ; "SLP@"
 PsnString: db "GIF@" ; "PSN@"
-BrnString: db "BRN@"
+BrnString: db "BRN@" ; "BRN@"
 FrzString: db "BVR@" ; "FRZ@"
 ParString: db "VLM@" ; "PAR@"
 

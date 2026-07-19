@@ -245,7 +245,7 @@ MrPokemonsHouse_OakText1:
 
 	para "Ik bezocht net" ; "I was just visit-"
 	line "mijn oude vriend" ; "ing my old friend"
-	cont "MR.#MON."
+	cont "MR.#MON." ; "MR.#MON."
 
 	para "Ik hoorde dat je" ; "I heard you were"
 	line "een klusje doet" ; "running an errand"
@@ -278,7 +278,7 @@ MrPokemonsHouse_OakText1:
 	para "en zorg zou" ; "#MON with love"
 	line "behandelen." ; "and care."
 
-	para "…Ah!"
+	para "…Ah!" ; "…Ah!"
 
 	para "Op jou kan iemand" ; "You seem to be"
 	line "vertrouwen." ; "dependable."
@@ -301,7 +301,7 @@ MrPokemonsHouse_OakText1:
 
 MrPokemonsHouse_GetDexText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "#DEX!"
+	line "#DEX!" ; "#DEX!"
 	done
 
 MrPokemonsHouse_OakText2:

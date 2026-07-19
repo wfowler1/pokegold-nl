@@ -183,7 +183,7 @@ PsychicNathanSeenText:
 	done
 
 PsychicNathanBeatenText:
-	text "…"
+	text "…" ; "…"
 	done
 
 PsychicNathanAfterBattleText:

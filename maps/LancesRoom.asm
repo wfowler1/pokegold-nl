@@ -212,7 +212,7 @@ LanceBattleIntroText:
 	text "LANCE: Ik heb" ; "LANCE: I've been"
 	line "op je gewacht." ; "waiting for you."
 
-	para "<PLAYER>!"
+	para "<PLAYER>!" ; "<PLAYER>!"
 
 	para "Ik wist dat je," ; "I knew that you,"
 	line "met jouw vaardig-" ; "with your skills,"
@@ -265,7 +265,7 @@ LanceBattleAfterText:
 
 	para "Je bent echt" ; "You have become"
 	line "sterk geworden," ; "truly powerful,"
-	cont "<PLAYER>."
+	cont "<PLAYER>." ; "<PLAYER>."
 
 	para "Je #MON hebben" ; "Your #MON have"
 	line "je sterke en" ; "responded to your"
@@ -290,8 +290,8 @@ LancesRoomMaryOhNoOakText:
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: Ah,"
-	line "<PLAYER>!"
+	text "PROF.OAK: Ah," ; "PROF.OAK: Ah,"
+	line "<PLAYER>!" ; "<PLAYER>!"
 
 	para "Het is een tijd" ; "It's been a long"
 	line "geleden." ; "while."
@@ -320,7 +320,7 @@ LancesRoomOakCongratulationsText:
 	line "te winnen." ; "severed."
 
 	para "Gefeliciteerd," ; "Congratulations,"
-	line "<PLAYER>!"
+	line "<PLAYER>!" ; "<PLAYER>!"
 	done
 
 LancesRoomMaryInterviewText:

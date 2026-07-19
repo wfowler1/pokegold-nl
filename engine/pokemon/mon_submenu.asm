@@ -286,5 +286,5 @@ BattleMonMenu:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
 	db "WISSEL@" ; "SWITCH@"
-	db "STATS@"
+	db "STATS@" ; "STATS@"
 	db "TERUG@" ; "CANCEL@"

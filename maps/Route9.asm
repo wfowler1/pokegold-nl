@@ -116,7 +116,7 @@ PicnickerHeidiSeenText:
 	done
 
 PicnickerHeidiBeatenText:
-	text "Ohhhh!"
+	text "Ohhhh!" ; "Ohhhh!"
 	done
 
 PicnickerHeidiAfterBattleText:
@@ -204,9 +204,9 @@ HikerSidneyAfterBattleText:
 	done
 
 Route9SignText:
-	text "ROUTE 9"
+	text "ROUTE 9" ; "ROUTE 9"
 
-	para "CERULEAN CITY -"
+	para "CERULEAN CITY -" ; "CERULEAN CITY -"
 	line "ROTSTUNNEL" ; "ROCK TUNNEL"
 	done
 

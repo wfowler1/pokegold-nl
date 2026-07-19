@@ -335,13 +335,13 @@ NationalParkYoungster2Text:
 
 NationalParkTeacher2Text:
 	text "Ik wandel in het" ; "I take walks in"
-	line "het PARK, maar" ; "the PARK, but I"
+	line "PARK, maar loop" ; "the PARK, but I"
 
-	para "loop nooit in het" ; "never go into the"
-	line "gras." ; "grass."
+	para "nooit in het gras." ; "never go into the"
+	line "Trainers willen" ; "grass."
 
-	para "Trainers willen" ; "Trainers always"
-	line "altijd vechten…" ; "want to battle…"
+	para "altijd met mij" ; "Trainers always"
+	line "vechten…" ; "want to battle…"
 	done
 
 NationalParkPersianText:

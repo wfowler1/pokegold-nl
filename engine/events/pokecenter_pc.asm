@@ -61,9 +61,9 @@ PokemonCenterPC:
 	dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC,    .String_TurnOff
 
-.String_PlayersPC:  db "<PLAYER>'s PC@"
-.String_BillsPC:    db "BILL's PC@"
-.String_OaksPC:     db "PROF.OAK's PC@"
+.String_PlayersPC:  db "<PLAYER>'s PC@" ; "<PLAYER>'s PC@"
+.String_BillsPC:    db "BILL's PC@" ; "BILL's PC@"
+.String_OaksPC:     db "PROF.OAK's PC@" ; "PROF.OAK's PC@"
 .String_HallOfFame: db "EREGALERIJ@" ; "HALL OF FAME@"
 .String_TurnOff:    db "ZET UIT@" ; "TURN OFF@"
 

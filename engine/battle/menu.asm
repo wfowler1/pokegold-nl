@@ -37,7 +37,7 @@ BattleMenuHeader:
 
 .Text:
 	db "VECHT@" ; "FIGHT@"
-	db "<PK><MN>@"
+	db "<PK><MN>@" ; "<PK><MN>@"
 	db "TAS@" ; "PACK@"
 	db "REN@" ; "RUN@"
 
@@ -82,7 +82,7 @@ ContestBattleMenuHeader:
 
 .Text:
 	db "VECHT@" ; "FIGHT@"
-	db "<PK><MN>@"
+	db "<PK><MN>@" ; "<PK><MN>@"
 	db "PARKBAL×   @" ; "PARKBALL×  @"
 	db "REN@" ; "RUN@"
 
