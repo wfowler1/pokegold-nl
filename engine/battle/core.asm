@@ -5452,26 +5452,22 @@ MoveInfoBox:
 	ld a, [hl]
 	and PP_MASK
 	ld [wStringBuffer1], a
-	hlcoord 1, 9
-	ld de, .Type
-	call PlaceString
+	call .PrintPP
 
-	hlcoord 7, 11
-	ld [hl], '/'
-	hlcoord 5, 11
-	ld de, wStringBuffer1
-	lb bc, 1, 2
-	call PrintNum
-
-	hlcoord 8, 11
-	ld de, wNamedObjectIndex
-	lb bc, 1, 2
-	call PrintNum
-
-	callfar UpdateMoveData
+	farcall UpdateMoveData
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
 	ld b, a
+	farcall GetMoveCategoryName
 	hlcoord 2, 10
+	ld de, wStringBuffer1
+	call PlaceString
+	hlcoord 1, 10
+	ld [hl], '/'
+	inc hl
+
+	ld a, [wPlayerMoveStruct + MOVE_ANIM]
+	ld b, a
+	hlcoord 1, 9
 	predef PrintMoveType
 
 .done
@@ -5479,8 +5475,22 @@ MoveInfoBox:
 
 .Disabled:
 	db "Uitgesch.@" ; "Disabled!@"
-.Type:
-	db "TYPE/@" ; "TYPE/@"
+
+.PrintPP:
+	hlcoord 5, 11
+	push hl
+	ld de, wStringBuffer1
+	lb bc, 1, 2
+	call PrintNum
+	pop hl
+	inc hl
+	inc hl
+	ld [hl], '/'
+	inc hl
+	ld de, wNamedObjectIndex
+	lb bc, 1, 2
+	call PrintNum
+	ret
 
 ParseEnemyAction:
 	ld a, [wEnemyIsSwitching]

@@ -908,7 +908,7 @@ MoveScreenLoop:
 .moving_move
 	ld a, ' '
 	hlcoord 1, 11
-	ld bc, 5
+	ld bc, 8
 	call ByteFill
 	hlcoord 1, 12
 	lb bc, 5, SCREEN_WIDTH - 2
@@ -1191,7 +1191,15 @@ PlaceMoveData:
 	call PlaceString
 	ld a, [wCurSpecies]
 	ld b, a
-	hlcoord 2, 12
+	farcall GetMoveCategoryName
+	hlcoord 1, 11
+	ld de, wStringBuffer1
+	call PlaceString
+	ld a, [wCurSpecies]
+	ld b, a
+	hlcoord 1, 12
+	ld [hl], '/'
+	inc hl
 	predef PrintMoveType
 	ld a, [wCurSpecies]
 	dec a
@@ -1220,10 +1228,10 @@ PlaceMoveData:
 	ldh [hBGMapMode], a
 	ret
 
-String_MoveType_Top:
-	db "┌─────┐@" ; "┌─────┐@"
-String_MoveType_Bottom:
-	db "│TYPE/└@" ; "│TYPE/└@"
+ String_MoveType_Top:
+	db "┌────────┐@"
+ String_MoveType_Bottom:
+	db "│        └@"
 String_MoveAtk:
 	db "AAN/@" ; "ATTK/@"
 String_MoveNoPower:
