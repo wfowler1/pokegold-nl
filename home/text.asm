@@ -125,9 +125,9 @@ SpeechTextbox::
 	ld c, TEXTBOX_INNERW
 	jp Textbox
 
-GameFreakText:: ; unreferenced
-	text "ゲームフりーク！" ; "GAMEFREAK!"
-	done
+;GameFreakText:: ; unreferenced
+;	text "ゲームフりーク！" ; "GAMEFREAK!"
+;	done
 
 RadioTerminator::
 	ld hl, .stop
@@ -166,8 +166,8 @@ PlaceNextChar::
 	pop hl
 	ret
 
-DummyChar:: ; unreferenced
-	pop de
+;DummyChar:: ; unreferenced
+;	pop de
 	; fallthrough
 
 NextChar::
@@ -438,8 +438,17 @@ _ContText::
 	or a
 	call z, UnloadBlinkingCursor
 	; fallthrough
+	jr _ContTextNoPause.not_instant
 
 _ContTextNoPause::
+	ld a, [wOptions]
+	and TEXT_DELAY_MASK
+	cp TEXT_DELAY_FAST
+	jr nz, .not_instant
+	ld c, 15
+	call DelayFrames
+	
+.not_instant
 	push de
 	call TextScroll
 	call TextScroll
@@ -568,12 +577,12 @@ PlaceFarString::
 	rst Bankswitch
 	ret
 
-PokeFluteTerminator:: ; unreferenced
-	ld hl, .stop
-	ret
+;PokeFluteTerminator:: ; unreferenced
+;	ld hl, .stop
+;	ret
 
-.stop:
-	text_end
+;.stop:
+;	text_end
 
 PrintTextboxTextAt::
 	ld a, [wTextboxFlags]
@@ -840,17 +849,17 @@ TextCommand_SOUND::
 	pop bc
 	ret
 
-TextCommand_CRY:: ; unreferenced
+;TextCommand_CRY:: ; unreferenced
 ; play a pokemon cry
-	push de
-	ld e, [hl]
-	inc hl
-	ld d, [hl]
-	call PlayMonCry
-	pop de
-	pop hl
-	pop bc
-	ret
+;	push de
+;	ld e, [hl]
+;	inc hl
+;	ld d, [hl]
+;	call PlayMonCry
+;	pop de
+;	pop hl
+;	pop bc
+;	ret
 
 TextSFX::
 	dbw TX_SOUND_DEX_FANFARE_50_79,  SFX_DEX_FANFARE_50_79
