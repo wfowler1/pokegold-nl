@@ -169,7 +169,7 @@ ItemNames::
 	li "NORMALE DOOS" ; "NORMAL BOX"
 	li "FRAAIE DOOS" ; "GORGEOUS BOX"
 	li "ZONSTEEN" ; "SUN STONE"
-	li "ZIJDEN SJAAL" ; "POLKADOT BOW" was replaced by SILK SCARF in Gen III. Using that here instead.
+	li "FEEËNVEER" ; "FAIRYFEATHER" replaces Polkadot Bow
 	li "TERU-SAMA" ; "TERU-SAMA"
 	li "UPGRADE" ; "UP-GRADE"
 	li "BES" ; "BERRY"

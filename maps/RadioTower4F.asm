@@ -30,7 +30,7 @@ RadioTower4FDJMaryScript:
 .ClearedRockets:
 	writetext RadioTower4FDJMaryText_ClearedRockets
 	promptbutton
-	verbosegiveitem PINK_BOW
+	verbosegiveitem POLKADOT_BOW
 	iffalse .NoRoom
 	writetext RadioTower4FDJMaryText_GivePinkBow
 	waitbutton

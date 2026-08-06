@@ -911,7 +911,7 @@ SunStoneDesc:
 	next "soorten #MON.@" ; "kinds of #MON.@"
 
 PolkadotBowDesc:
-	db   "Versterkt normaal-" ; "Powers up normal-"
+	db   "Versterkt fee-" ; "Powers up fairy-"
 	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 TeruSama26Desc:
