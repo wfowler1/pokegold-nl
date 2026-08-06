@@ -508,6 +508,7 @@ PichuEggMoves:
 	db PRESENT
 	db ENCORE
 	db DOUBLESLAP
+	db DISARMINGVOX
 	db -1 ; end
 
 CleffaEggMoves:
@@ -683,6 +684,7 @@ TeddiursaEggMoves:
 	db SEISMIC_TOSS
 	db FOCUS_ENERGY
 	db COUNTER
+	db PLAY_ROUGH
 	db -1 ; end
 
 SlugmaEggMoves:
@@ -748,6 +750,7 @@ PhanpyEggMoves:
 	db FOCUS_ENERGY
 	db BODY_SLAM
 	db ANCIENTPOWER
+	db PLAY_ROUGH
 	db -1 ; end
 
 StantlerEggMoves:

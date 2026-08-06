@@ -132,7 +132,7 @@ RadioTower4FDJMaryText_GivePinkBow:
 	text "MARY: Het is" ; "MARY: It's just"
 	line "goed voor #MON" ; "right for #MON"
 
-	para "die normaal-type" ; "that know normal-"
+	para "die fee-type" ; "that know fairy-"
 	line "aanvallen kennen." ; "type moves."
 	done
 

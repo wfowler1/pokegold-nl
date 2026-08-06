@@ -165,7 +165,7 @@ MoveDescriptions::
 	dw SuperFangDescription
 	dw SlashDescription
 	dw SubstituteDescription
-	dw StruggleDescription
+	dw FairyWindDescription
 	dw SketchDescription
 	dw TripleKickDescription
 	dw ThiefDescription
@@ -252,18 +252,14 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw PlayRoughDescription
+	dw MoonblastDescription
+	dw DisarmingVoiceDescription
+	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFCDescription
-	dw MoveFDDescription
-	dw MoveFEDescription
-	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFCDescription:
-MoveFDDescription:
-MoveFEDescription:
-MoveFFDescription:
 Move00Description:
 	db "?@" ; "?@"
 
@@ -1270,3 +1266,19 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "#MON in team" ; "Party #MON join"
 	next "vallen ook aan.@" ; "in the attack.@"
+
+PlayRoughDescription:
+	db   "Aanval die AANVAL" ; "An attack that may"
+	next "kan verlagen.@" ; "lower ATTACK.@"
+
+MoonblastDescription:
+	db   "Kan SPCL.AANVAL" ; "An attack that may"
+	next "verlagen.@" ; "lower SPCL.DEF.@"
+
+DisarmingVoiceDescription:
+	db   "Aanval die nooit" ; "An attack that"
+	next "kan missen.@" ; "never misses.@"
+
+FairyWindDescription:
+	db   "Aanval doelwit met" ; "Hits target with a"
+	next "een fee windstroom@" ; "a fairy wind.@"
