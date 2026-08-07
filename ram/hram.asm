@@ -1,6 +1,11 @@
 SECTION "HRAM", HRAM
 
-	ds 5
+hROMBankBackup:: db
+hFarByte::
+hTempBank:: db
+hSRAMBank:: db
+
+	ds 2
 
 hRTCDayHi::   db
 hRTCDayLo::   db

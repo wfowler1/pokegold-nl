@@ -54,6 +54,20 @@ GetFarWord::
 	rst Bankswitch
 	ret
 
+FarCopyWRAM::
+; copy bc bytes from hl to a:de
+	ldh [hTempBank], a
+	ldh a, [rWBK]
+	push af
+	ldh a, [hTempBank]
+	ldh [rWBK], a
+
+	call CopyBytes
+
+	pop af
+	ldh [rWBK], a
+	ret
+
 ByteFill::
 ; fill bc bytes with the value of a, starting at hl
 	inc b ; we bail the moment b hits 0, so include the last run
