@@ -163,7 +163,7 @@ DragonShrineRisingBadgeExplanationText:
 
 Text_ReceivedTM24: ; unreferenced
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TM24." ; "TM24."
+	line "TM24 DRAKENADEM."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
