@@ -108,10 +108,11 @@ MoveMonWOMail_InsertMon_SaveGame:
 	call LoadBox
 	call ResumeGameLogic
 	ld de, SFX_SAVE
-	call PlaySFX
-	ld c, 24
-	call DelayFrames
-	ret
+	jp PlaySFX
+	; call PlaySFX
+	; ld c, 24
+	; call DelayFrames
+	; ret
 
 StartMoveMonWOMail_SaveGame:
 	ld hl, MoveMonWOMailSaveText
@@ -171,22 +172,23 @@ AskOverwriteSaveFile:
 	and a
 	jr z, .erase
 	call CompareLoadedAndSavedPlayerID
-	jr z, .yoursavefile
+	; jr z, .yoursavefile
+	ret z ; pretend the player answered "Yes", but without asking
 	ld hl, AnotherSaveFileText
 	call SaveTheGame_yesorno
 	jr nz, .refused
-	jr .erase
+	; jr .erase
 
-.yoursavefile
-	ld hl, AlreadyASaveFileText
-	call SaveTheGame_yesorno
-	jr nz, .refused
-	jr .ok
+; .yoursavefile
+;	ld hl, AlreadyASaveFileText
+;	call SaveTheGame_yesorno
+;	jr nz, .refused
+;	jr .ok
 
 .erase
 	call ErasePreviousSave
 
-.ok
+;.ok
 	and a
 	ret
 
@@ -234,8 +236,8 @@ SavingDontTurnOffThePower:
 	; Save the text speed setting to the stack
 	ld a, [wOptions]
 	push af
-	; Set the text speed to medium
-	ld a, TEXT_DELAY_MED
+	; Set the text speed to instantaneous
+	ld a, TEXT_DELAY_NONE
 	ld [wOptions], a
 	; SAVING... DON'T TURN OFF THE POWER.
 	ld hl, SavingDontTurnOffThePowerText
@@ -244,30 +246,30 @@ SavingDontTurnOffThePower:
 	pop af
 	ld [wOptions], a
 	; Wait for 16 frames
-	ld c, 16
-	call DelayFrames
+;	ld c, 16
+;	call DelayFrames
 	call _SaveGameData
 	; wait 32 frames
-	ld c, 32
-	call DelayFrames
+	; ld c, 32
+	; call DelayFrames
 	; copy the original text speed setting to the stack
-	ld a, [wOptions]
-	push af
+	; ld a, [wOptions]
+	; push af
 	; set text speed to medium
-	ld a, TEXT_DELAY_MED
-	ld [wOptions], a
+	; ld a, TEXT_DELAY_MED
+	; ld [wOptions], a
 	; <PLAYER> saved the game!
 	ld hl, SavedTheGameText
 	call PrintText
 	; restore the original text speed setting
-	pop af
-	ld [wOptions], a
+	; pop af
+	; ld [wOptions], a
 	ld de, SFX_SAVE
 	call WaitPlaySFX
 	call WaitSFX
 	; wait 30 frames
-	ld c, 30
-	call DelayFrames
+	; ld c, 30
+	; call DelayFrames
 	ret
 
 _SaveGameData:
@@ -635,7 +637,7 @@ CheckPrimarySaveFile:
 	ld bc, wOptionsEnd - wOptions
 	call CopyBytes
 	call CloseSRAM
-	call CheckTextDelay
+	; call CheckTextDelay
 	ld a, TRUE
 	ld [wSaveFileExists], a
 
@@ -656,7 +658,7 @@ CheckBackupSaveFile:
 	ld de, wOptions
 	ld bc, wOptionsEnd - wOptions
 	call CopyBytes
-	call CheckTextDelay
+	; call CheckTextDelay
 	ld a, $2
 	ld [wSaveFileExists], a
 
@@ -664,23 +666,23 @@ CheckBackupSaveFile:
 	call CloseSRAM
 	ret
 
-CheckTextDelay:
+; CheckTextDelay:
 ; Fix options if text delay is invalid
-	ld hl, wTextboxFlags
-	res TEXT_DELAY_F, [hl]
-	ld a, [wOptions]
-	and TEXT_DELAY_MASK
-	cp TEXT_DELAY_FAST
-	ret z
-	cp TEXT_DELAY_MED
-	ret z
-	cp TEXT_DELAY_SLOW
-	ret z
-	ld a, [wOptions]
-	and ~TEXT_DELAY_MASK
-	or (1 << FAST_TEXT_DELAY_F) | (1 << TEXT_DELAY_F)
-	ld [wOptions], a
-	ret
+;	ld hl, wTextboxFlags
+;	res TEXT_DELAY_F, [hl]
+;	ld a, [wOptions]
+;	and TEXT_DELAY_MASK
+;	cp TEXT_DELAY_FAST
+;	ret z
+;	cp TEXT_DELAY_MED
+;	ret z
+;	cp TEXT_DELAY_SLOW
+;	ret z
+;	ld a, [wOptions]
+;	and ~TEXT_DELAY_MASK
+;	or (1 << FAST_TEXT_DELAY_F) | (1 << TEXT_DELAY_F)
+;	ld [wOptions], a
+;	ret
 
 LoadPlayerData:
 	ld a, BANK(sPlayerData)
@@ -1062,9 +1064,9 @@ SavedTheGameText:
 	text_far _SavedTheGameText
 	text_end
 
-AlreadyASaveFileText:
-	text_far _AlreadyASaveFileText
-	text_end
+; AlreadyASaveFileText:
+;	text_far _AlreadyASaveFileText
+;	text_end
 
 AnotherSaveFileText:
 	text_far _AnotherSaveFileText

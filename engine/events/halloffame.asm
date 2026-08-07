@@ -64,8 +64,9 @@ HallOfFame_FadeOutMusic:
 	ld [wStateFlags], a
 	ldh [hMapAnims], a
 	farcall InitDisplayForHallOfFame
-	ld c, 100
-	jp DelayFrames
+	; ld c, 100
+	; jp DelayFrames
+	ret
 
 HallOfFame_PlayMusicDE::
 	push de
