@@ -88,9 +88,9 @@ NameRival:
 
 .DefaultName:
 IF DEF(_GOLD)
-	db "SILVER@" ; "SILVER@"
+	db "ZILVER@" ; "SILVER@"
 ELIF DEF(_SILVER)
-	db "GOLD@" ; "GOLD@"
+	db "GOUD@" ; "GOLD@"
 ENDC
 
 NameRater:
