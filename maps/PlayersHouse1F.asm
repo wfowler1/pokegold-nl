@@ -65,11 +65,11 @@ MeetMomScript:
 .ExplainPhone:
 	writetext DontKnowTheInstructionsText
 	promptbutton
+	writetext InstructionsNextText
+	waitbutton
 	sjump .FinishPhone
 
 .FinishPhone:
-	writetext InstructionsNextText
-	waitbutton
 	closetext
 	applymovement PLAYERSHOUSE1F_MOM1, MomWalksBackMovement
 	special RestartMapMusic
@@ -200,11 +200,11 @@ ComeHomeForDSTText:
 	done
 
 KnowTheInstructionsText:
-	text "Je zet toch de" ; "Don't you just"
-	line "#GEAR aan" ; "turn the #GEAR"
+	text "Je bent een" ; "You're a"
+	line "slim kind." ; "smart kid."
 
-	para "en selecteert het" ; "on and select the"
-	line "TELEFOON-icoon?" ; "PHONE icon?"
+	; para "en selecteert het" ; "on and select the"
+	; line "TELEFOON-icoon?" ; "PHONE icon?"
 	done
 
 DontKnowTheInstructionsText:
