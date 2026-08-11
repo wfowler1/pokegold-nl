@@ -15,16 +15,16 @@ All the bugs documented here were fixed in Pokémon Crystal. Any that weren't ar
 
 ## Contents
 
-- [Using the Coin Case can cause arbitrary code execution](#using-the-coin-case-can-cause-arbitrary-code-execution)
-- [Entering the Hall of Fame without a save file can corrupt the PC boxes](#entering-the-hall-of-fame-without-a-save-file-can-corrupt-the-pc-boxes)
-- [The Lucky Number Show does not find winning ID numbers in inactive boxes 10-14](#the-lucky-number-show-does-not-find-winning-id-numbers-in-inactive-boxes-10-14)
-- [Present's text overflows when it fails to heal an enemy Pokémon with a long name](#presents-text-overflows-when-it-fails-to-heal-an-enemy-pok%C3%A9mon-with-a-long-name)
-- [You can Surf on top of NPCs](#you-can-surf-on-top-of-npcs)
-- [You can fish in the water in Cerulean Gym](#you-can-fish-in-the-water-in-cerulean-gym)
-- ["Route 15" is not capitalized in a signpost](#route-15-is-not-capitalized-in-a-signpost)
+- [(FIXED) Using the Coin Case can cause arbitrary code execution](#fixed-using-the-coin-case-can-cause-arbitrary-code-execution)
+- [(FIXED) Entering the Hall of Fame without a save file can corrupt the PC boxes](#fixed-entering-the-hall-of-fame-without-a-save-file-can-corrupt-the-pc-boxes)
+- [(FIXED) The Lucky Number Show does not find winning ID numbers in inactive boxes 10-14](#fixed-the-lucky-number-show-does-not-find-winning-id-numbers-in-inactive-boxes-10-14)
+- [(FIXED) Present's text overflows when it fails to heal an enemy Pokémon with a long name](#fixed-presents-text-overflows-when-it-fails-to-heal-an-enemy-pok%C3%A9mon-with-a-long-name)
+- [(FIXED) You can Surf on top of NPCs](#fixed-you-can-surf-on-top-of-npcs)
+- [(FIXED) You can fish in the water in Cerulean Gym](#fixed-you-can-fish-in-the-water-in-cerulean-gym)
+- [(FIXED) "Route 15" is not capitalized in a signpost](#fixed-route-15-is-not-capitalized-in-a-signpost)
 
 
-## Using the Coin Case can cause arbitrary code execution
+## (FIXED) Using the Coin Case can cause arbitrary code execution
 
 ([Videos](https://www.youtube.com/playlist?list=PLO3UplJNTO8YGl0na5FT_6dVYsC27D0rk))
 
@@ -41,7 +41,7 @@ All the bugs documented here were fixed in Pokémon Crystal. Any that weren't ar
 ```
 
 
-## Entering the Hall of Fame without a save file can corrupt the PC boxes
+## (FIXED) Entering the Hall of Fame without a save file can corrupt the PC boxes
 
 ([Video](https://www.youtube.com/watch?v=lxkQ7QdfdqM))
 
@@ -58,7 +58,7 @@ All the bugs documented here were fixed in Pokémon Crystal. Any that weren't ar
 ```
 
 
-## The Lucky Number Show does not find winning ID numbers in inactive boxes 10-14
+## (FIXED) The Lucky Number Show does not find winning ID numbers in inactive boxes 10-14
 
 **Fix:** Edit `CheckForLuckyNumberWinners` in [engine/events/lucky_number.asm](https://github.com/pret/pokegold/blob/master/engine/events/lucky_number.asm):
 
@@ -70,7 +70,7 @@ All the bugs documented here were fixed in Pokémon Crystal. Any that weren't ar
 ```
 
 
-## Present's text overflows when it fails to heal an enemy Pokémon with a long name
+## (FIXED) Present's text overflows when it fails to heal an enemy Pokémon with a long name
 
 **Fix:** Edit `PresentFailedText` in [data/text/battle.asm](https://github.com/pret/pokegold/blob/master/data/text/battle.asm):
 
@@ -85,7 +85,7 @@ All the bugs documented here were fixed in Pokémon Crystal. Any that weren't ar
 ```
 
 
-## You can Surf on top of NPCs
+## (FIXED) You can Surf on top of NPCs
 
 **Fix:** Edit `SurfFunction` in [engine/events/overworld.asm](https://github.com/pret/pokegold/blob/master/engine/events/overworld.asm):
 
@@ -116,7 +116,7 @@ All the bugs documented here were fixed in Pokémon Crystal. Any that weren't ar
 ```
 
 
-## You can fish in the water in Cerulean Gym
+## (FIXED) You can fish in the water in Cerulean Gym
 
 **Fix:** Edit `MapGroup_Cerulean` in [data/maps/maps.asm](https://github.com/pret/pokegold/blob/master/data/maps/maps.asm):
 
@@ -127,7 +127,7 @@ All the bugs documented here were fixed in Pokémon Crystal. Any that weren't ar
 ```
 
 
-## "Route 15" is not capitalized in a signpost
+## (FIXED) "Route 15" is not capitalized in a signpost
 
 **Fix:** Edit `Route15SignText` in [maps/Route15.asm](https://github.com/pret/pokegold/blob/master/maps/Route15.asm):
 

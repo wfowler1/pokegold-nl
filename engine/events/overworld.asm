@@ -336,7 +336,6 @@ SurfFunction:
 	dw .AlreadySurfing
 
 .TrySurf:
-; BUG: You can Surf on top of NPCs (see docs/bugs_and_glitches.md)
 	ld de, ENGINE_FOGBADGE
 	call CheckBadge
 	jr c, .nofogbadge
@@ -353,6 +352,8 @@ SurfFunction:
 	cp WATER_TILE
 	jr nz, .cannotsurf
 	call CheckDirection
+	jr c, .cannotsurf
+	farcall CheckFacingObject
 	jr c, .cannotsurf
 	ld a, $1
 	ret
