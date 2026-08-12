@@ -112,9 +112,8 @@ AI_Redundant:
 	ret
 
 .Nightmare:
-; BUG: AI does not discourage Nightmare if the player has any status condition (see docs/bugs_and_glitches.md)
 	ld a, [wBattleMonStatus]
-	and a
+	and SLP_MASK
 	jr z, .Redundant
 	ld a, [wPlayerSubStatus1]
 	bit SUBSTATUS_NIGHTMARE, a
@@ -177,9 +176,8 @@ AI_Redundant:
 	ret
 
 .FutureSight:
-; BUG: AI does not discourage Future Sight when it's already been used (see docs/bugs_and_glitches.md)
-	ld a, [wEnemyScreens]
-	bit SCREENS_UNUSED, a
+	ld a, [wEnemyFutureSightCount]
+	and a
 	ret
 
 .Heal:

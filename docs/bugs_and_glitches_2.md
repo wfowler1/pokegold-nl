@@ -38,33 +38,33 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) Switching out or switching against a Pokémon with max HP below 4 freezes the game](#fixed-switching-out-or-switching-against-a-pok%C3%A9mon-with-max-HP-below-4-freezes-the-game)
   - [(FIXED) Moves that do damage and increase your stats do not increase stats after a KO](#fixed-moves-that-do-damage-and-increase-your-stats-do-not-increase-stats-after-a-ko)
 - [Single-player battle engine](#single-player-battle-engine)
-  - [A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves](#a-transformed-pok%C3%A9mon-can-use-sketch-and-learn-otherwise-unobtainable-moves)
-  - [Catching a Transformed Pokémon always catches a Ditto](#catching-a-transformed-pok%C3%A9mon-always-catches-a-ditto)
-  - [Experience underflow for level 1 Pokémon with Medium-Slow growth rate](#experience-underflow-for-level-1-pok%C3%A9mon-with-medium-slow-growth-rate)
-  - [The Dude's catching tutorial may crash if his Poké Ball can't be used](#the-dudes-catching-tutorial-may-crash-if-his-pok%C3%A9-ball-cant-be-used)
-  - [BRN/PSN/PAR do not affect catch rate](#brnpsnpar-do-not-affect-catch-rate)
-  - [Moon Ball does not boost catch rate](#moon-ball-does-not-boost-catch-rate)
-  - [Love Ball boosts catch rate for the wrong gender](#love-ball-boosts-catch-rate-for-the-wrong-gender)
-  - [Fast Ball only boosts catch rate for three Pokémon](#fast-ball-only-boosts-catch-rate-for-three-pok%C3%A9mon)
-  - [Heavy Ball uses wrong weight value for three Pokémon](#heavy-ball-uses-wrong-weight-value-for-three-pok%C3%A9mon)
-  - [Catch rate formula breaks for Pokémon with max HP > 341](#catch-rate-formula-breaks-for-pok%C3%A9mon-with-max-hp--341)
-  - [PRZ and BRN stat reductions don't apply to switched Pokémon](#prz-and-brn-stat-reductions-dont-apply-to-switched-pok%C3%A9mon)
-  - [Glacier Badge may not boost Special Defense depending on the value of Special Attack](#glacier-badge-may-not-boost-special-defense-depending-on-the-value-of-special-attack)
-  - ["Smart" AI encourages Mean Look if its own Pokémon is badly poisoned](#smart-ai-encourages-mean-look-if-its-own-pok%C3%A9mon-is-badly-poisoned)
-  - ["Smart" AI discourages Conversion2 after the first turn](#smart-ai-discourages-conversion2-after-the-first-turn)
-  - ["Smart" AI does not encourage Solar Beam, Flame Wheel, or Moonlight during Sunny Day](#smart-ai-does-not-encourage-solar-beam-flame-wheel-or-moonlight-during-sunny-day)
-  - ["Cautious" AI may fail to discourage residual moves](#cautious-ai-may-fail-to-discourage-residual-moves)
-  - [AI does not discourage Nightmare if the player has any status condition](#ai-does-not-discourage-nightmare-if-the-player-has-any-status-condition)
-  - [AI does not discourage Future Sight when it's already been used](#ai-does-not-discourage-future-sight-when-its-already-been-used)
-  - [AI makes a false assumption about `CheckTypeMatchup`](#ai-makes-a-false-assumption-about-checktypematchup)
-  - [AI use of Full Heal or Full Restore does not cure Nightmare status](#ai-use-of-full-heal-or-full-restore-does-not-cure-nightmare-status)
-  - [AI use of Full Heal does not cure confusion status](#ai-use-of-full-heal-does-not-cure-confusion-status)
-  - [AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis](#ai-use-of-full-heal-or-full-restore-does-not-cure-attack-or-speed-drops-from-Burn-or-Paralysis)
-  - [AI might use its base reward value as an item](#ai-might-use-its-base-reward-value-as-an-item)
-  - [Wild Pokémon can always Teleport regardless of level difference](#wild-pok%C3%A9mon-can-always-teleport-regardless-of-level-difference)
-  - [`RIVAL2` has lower DVs than `RIVAL1`](#rival2-has-lower-dvs-than-rival1)
-  - [`HELD_CATCH_CHANCE` has no effect](#held_catch_chance-has-no-effect)
-  - [Credits sequence changes move selection menu behavior](#credits-sequence-changes-move-selection-menu-behavior)
+  - [(FIXED) A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves](#fixed-a-transformed-pok%C3%A9mon-can-use-sketch-and-learn-otherwise-unobtainable-moves)
+  - [(FIXED) Catching a Transformed Pokémon always catches a Ditto](#fixed-catching-a-transformed-pok%C3%A9mon-always-catches-a-ditto)
+  - [(FIXED) Experience underflow for level 1 Pokémon with Medium-Slow growth rate](#fixed-experience-underflow-for-level-1-pok%C3%A9mon-with-medium-slow-growth-rate)
+  - [(FIXED) The Dude's catching tutorial may crash if his Poké Ball can't be used](#fixed-the-dudes-catching-tutorial-may-crash-if-his-pok%C3%A9-ball-cant-be-used)
+  - [(FIXED) BRN/PSN/PAR do not affect catch rate](#fixed-brnpsnpar-do-not-affect-catch-rate)
+  - [(FIXED) Moon Ball does not boost catch rate](#fixed-moon-ball-does-not-boost-catch-rate)
+  - [(FIXED) Love Ball boosts catch rate for the wrong gender](#fixed-love-ball-boosts-catch-rate-for-the-wrong-gender)
+  - [(FIXED) Fast Ball only boosts catch rate for three Pokémon](#fixed-fast-ball-only-boosts-catch-rate-for-three-pok%C3%A9mon)
+  - [(FIXED) Heavy Ball uses wrong weight value for three Pokémon](#fixed-heavy-ball-uses-wrong-weight-value-for-three-pok%C3%A9mon)
+  - [(FIXED) Catch rate formula breaks for Pokémon with max HP > 341](#fixed-catch-rate-formula-breaks-for-pok%C3%A9mon-with-max-hp--341)
+  - [(FIXED) PRZ and BRN stat reductions don't apply to switched Pokémon](#fixed-prz-and-brn-stat-reductions-dont-apply-to-switched-pok%C3%A9mon)
+  - [(FIXED) Glacier Badge may not boost Special Defense depending on the value of Special Attack](#fixed-glacier-badge-may-not-boost-special-defense-depending-on-the-value-of-special-attack)
+  - [(FIXED) "Smart" AI encourages Mean Look if its own Pokémon is badly poisoned](#fixed-smart-ai-encourages-mean-look-if-its-own-pok%C3%A9mon-is-badly-poisoned)
+  - [(FIXED) "Smart" AI discourages Conversion2 after the first turn](#fixed-smart-ai-discourages-conversion2-after-the-first-turn)
+  - [(FIXED) "Smart" AI does not encourage Solar Beam, Flame Wheel, or Moonlight during Sunny Day](#fixed-smart-ai-does-not-encourage-solar-beam-flame-wheel-or-moonlight-during-sunny-day)
+  - [(FIXED) "Cautious" AI may fail to discourage residual moves](#fixed-cautious-ai-may-fail-to-discourage-residual-moves)
+  - [(FIXED) AI does not discourage Nightmare if the player has any status condition](#fixed-ai-does-not-discourage-nightmare-if-the-player-has-any-status-condition)
+  - [(FIXED) AI does not discourage Future Sight when it's already been used](#fixed-ai-does-not-discourage-future-sight-when-its-already-been-used)
+  - [(FIXED) AI makes a false assumption about `CheckTypeMatchup`](#fixed-ai-makes-a-false-assumption-about-checktypematchup)
+  - [(FIXED) AI use of Full Heal or Full Restore does not cure Nightmare status](#fixed-ai-use-of-full-heal-or-full-restore-does-not-cure-nightmare-status)
+  - [(FIXED) AI use of Full Heal does not cure confusion status](#fixed-ai-use-of-full-heal-does-not-cure-confusion-status)
+  - [(FIXED) AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis](#fixed-ai-use-of-full-heal-or-full-restore-does-not-cure-attack-or-speed-drops-from-Burn-or-Paralysis)
+  - [(FIXED) AI might use its base reward value as an item](#fixed-ai-might-use-its-base-reward-value-as-an-item)
+  - [(FIXED) Wild Pokémon can always Teleport regardless of level difference](#fixed-wild-pok%C3%A9mon-can-always-teleport-regardless-of-level-difference)
+  - [(FIXED) `RIVAL2` has lower DVs than `RIVAL1`](#fixed-rival2-has-lower-dvs-than-rival1)
+  - [(FIXED) `HELD_CATCH_CHANCE` has no effect](#fixed-held_catch_chance-has-no-effect)
+  - [(FIXED) Credits sequence changes move selection menu behavior](#fixed-credits-sequence-changes-move-selection-menu-behavior)
 - [Overworld engine](#overworld-engine)
   - [`LoadMetatiles` wraps around past 128 blocks](#loadmetatiles-wraps-around-past-128-blocks)
   - [Surfing directly across a map connection does not load the new map](#surfing-directly-across-a-map-connection-does-not-load-the-new-map)
@@ -955,7 +955,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ## Single-player battle engine
 
 
-### A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves
+### (FIXED) A Transformed Pokémon can use Sketch and learn otherwise unobtainable moves
 
 ([Video](https://www.youtube.com/watch?v=AFiBxAOkCGI))
 
@@ -973,7 +973,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ```
 
 
-### Catching a Transformed Pokémon always catches a Ditto
+### (FIXED) Catching a Transformed Pokémon always catches a Ditto
 
 **Fix:** Edit `PokeBallEffect` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1014,7 +1014,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ```
 
 
-### Experience underflow for level 1 Pokémon with Medium-Slow growth rate
+### (FIXED) Experience underflow for level 1 Pokémon with Medium-Slow growth rate
 
 ([Video](https://www.youtube.com/watch?v=SXH8u0plHrE))
 
@@ -1046,7 +1046,7 @@ This changes both calculations to *HP* × (100 / *N*) / (*max HP* / *N*) for the
 ```
 
 
-### The Dude's catching tutorial may crash if his Poké Ball can't be used
+### (FIXED) The Dude's catching tutorial may crash if his Poké Ball can't be used
 
 ([Video](https://www.youtube.com/watch?v=A8zaTOkjKS4&t=407))
 
@@ -1078,7 +1078,7 @@ This can occur if your party and current PC box are both full when you start the
 ```
 
 
-### BRN/PSN/PAR do not affect catch rate
+### (FIXED) BRN/PSN/PAR do not affect catch rate
 
 **Fix:** Edit `PokeBallEffect` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1104,7 +1104,7 @@ This can occur if your party and current PC box are both full when you start the
 ```
 
 
-### Moon Ball does not boost catch rate
+### (FIXED) Moon Ball does not boost catch rate
 
 The Moon Ball checks the wrong memory address for the wrong item ID, so no Pokémon can receive the boost.
 
@@ -1128,7 +1128,7 @@ The Moon Ball checks the wrong memory address for the wrong item ID, so no Poké
 Note that this fix only accounts for Pokémon that evolve via Moon Stone as their first evolution method. However, that is sufficient to cover all Pokémon in the game that can evolve by Moon Stone.
 
 
-### Love Ball boosts catch rate for the wrong gender
+### (FIXED) Love Ball boosts catch rate for the wrong gender
 
 **Fix:** Edit `LoveBallMultiplier` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1145,7 +1145,7 @@ Note that this fix only accounts for Pokémon that evolve via Moon Stone as thei
 ```
 
 
-### Fast Ball only boosts catch rate for three Pokémon
+### (FIXED) Fast Ball only boosts catch rate for three Pokémon
 
 **Fix:** Edit `FastBallMultiplier` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1166,7 +1166,7 @@ Note that this fix only accounts for Pokémon that evolve via Moon Stone as thei
 ```
 
 
-### Heavy Ball uses wrong weight value for three Pokémon
+### (FIXED) Heavy Ball uses wrong weight value for three Pokémon
 
 `HeavyBall_GetDexEntryBank` gets the wrong bank for Kadabra (64), Tauros (128), and Sunflora (192).
 
@@ -1199,7 +1199,7 @@ Note that this fix only accounts for Pokémon that evolve via Moon Stone as thei
 ```
 
 
-### Catch rate formula breaks for Pokémon with max HP > 341
+### (FIXED) Catch rate formula breaks for Pokémon with max HP > 341
 
 HP values above 341 remain larger than 1 byte after division.
 
@@ -1234,7 +1234,7 @@ HP values above 341 remain larger than 1 byte after division.
 ```
 
 
-### PRZ and BRN stat reductions don't apply to switched Pokémon
+### (FIXED) PRZ and BRN stat reductions don't apply to switched Pokémon
 
 This does not affect link battles or Battle Tower battles because those jump from `LoadEnemyMon` to `InitEnemyMon`, which already calls `ApplyStatusEffectOnEnemyStats`.
 
@@ -1252,7 +1252,7 @@ This does not affect link battles or Battle Tower battles because those jump fro
 ```
 
 
-### Glacier Badge may not boost Special Defense depending on the value of Special Attack
+### (FIXED) Glacier Badge may not boost Special Defense depending on the value of Special Attack
 
 Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies that Glacier Badge is intended to boost both Special Attack and Special Defense, but the Special Defense boost will not happen unless the unboosted Special Attack stat is 206–432, or 661 or above.
 
@@ -1278,7 +1278,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Smart" AI encourages Mean Look if its own Pokémon is badly poisoned
+### (FIXED) "Smart" AI encourages Mean Look if its own Pokémon is badly poisoned
 
 ([Video](https://www.youtube.com/watch?v=cygMO-zHTls))
 
@@ -1294,7 +1294,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Smart" AI discourages Conversion2 after the first turn
+### (FIXED) "Smart" AI discourages Conversion2 after the first turn
 
 **Fix:** Edit `AI_Smart_Conversion2` in [engine/battle/ai/scoring.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/scoring.asm):
 
@@ -1308,7 +1308,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Smart" AI does not encourage Sunny Day when it knows Solar Beam, Flame Wheel, or Moonlight
+### (FIXED) "Smart" AI does not encourage Sunny Day when it knows Solar Beam, Flame Wheel, or Moonlight
 
 **Fix:** Edit `SunnyDayMoves` in [data/battle/ai/sunny_day_moves.asm](https://github.com/pret/pokecrystal/blob/master/data/battle/ai/sunny_day_moves.asm):
 
@@ -1330,7 +1330,7 @@ Pryce's dialog ("That BADGE will raise the SPECIAL stats of POKéMON.") implies 
 ```
 
 
-### "Cautious" AI may fail to discourage residual moves
+### (FIXED) "Cautious" AI may fail to discourage residual moves
 
 **Fix:** Edit `AI_Cautious` in [engine/battle/ai/scoring.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/scoring.asm):
 
@@ -1356,7 +1356,7 @@ AI_Cautious:
 ```
 
 
-### AI does not discourage Nightmare if the player has any status condition
+### (FIXED) AI does not discourage Nightmare if the player has any status condition
 
 **Fix** Edit `AI_Redundant.Nightmare` in [engine/battle/ai/redundant.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/redundant.asm):
 
@@ -1373,7 +1373,7 @@ AI_Cautious:
 ```
 
 
-### AI does not discourage Future Sight when it's already been used
+### (FIXED) AI does not discourage Future Sight when it's already been used
 
 **Fix:** Edit `AI_Redundant.FutureSight` in [engine/battle/ai/redundant.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/redundant.asm):
 
@@ -1388,7 +1388,7 @@ AI_Cautious:
 ```
 
 
-### AI makes a false assumption about `CheckTypeMatchup`
+### (FIXED) AI makes a false assumption about `CheckTypeMatchup`
 
 There is an incorrect assumption about this function made in the AI related code: when the AI calls CheckTypeMatchup (not BattleCheckTypeMatchup), it assumes that placing the offensive type in a will make this function do the right thing. Since a is overwritten, this assumption is incorrect. A simple fix would be to load the move type for the current move into a in BattleCheckTypeMatchup, before falling through, which is consistent with how the rest of the code assumes this code works like.
 
@@ -1418,7 +1418,7 @@ There is an incorrect assumption about this function made in the AI related code
 ```
 
 
-### AI use of Full Heal or Full Restore does not cure Nightmare status
+### (FIXED) AI use of Full Heal or Full Restore does not cure Nightmare status
 
 ([Video](https://www.youtube.com/watch?v=rGqu3d3pdok&t=322))
 
@@ -1443,7 +1443,7 @@ There is an incorrect assumption about this function made in the AI related code
 ```
 
 
-### AI use of Full Heal does not cure confusion status
+### (FIXED) AI use of Full Heal does not cure confusion status
 
 **Fix:** Edit `EnemyUsedFullRestore`, and `AI_HealStatus` in [engine/battle/ai/items.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/items.asm):
 
@@ -1479,7 +1479,7 @@ There is an incorrect assumption about this function made in the AI related code
  	ret
 ```
 
-### AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis
+### (FIXED) AI use of Full Heal or Full Restore does not cure Attack or Speed drops from burn or paralysis
 
 **Fix:** Edit `AI_HealStatus` in [engine/battle/ai/items.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/ai/items.asm):
 
@@ -1501,7 +1501,7 @@ There is an incorrect assumption about this function made in the AI related code
 ```
 
 
-### AI might use its base reward value as an item
+### (FIXED) AI might use its base reward value as an item
 
 In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and then increments to `wEnemyTrainerItem2` to see if either of the AI's items are in the `AI_Items` list. However, if the AI has used its first item (or its first one is `ITEM_NONE`) and hasn't used its second item, the item pointer can increment from `wEnemyTrainerItem2` to `wEnemyTrainerBaseReward`. If the value at this address then matches an item in the `AI_Items` list, the AI could mistakenly use it.
 
@@ -1529,7 +1529,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### Wild Pokémon can always Teleport regardless of level difference
+### (FIXED) Wild Pokémon can always Teleport regardless of level difference
 
 **Fix:** Edit `BattleCommand_Teleport` in [engine/battle/move_effects/teleport.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/move_effects/teleport.asm):
 
@@ -1549,7 +1549,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### `RIVAL2` has lower DVs than `RIVAL1`
+### (FIXED) `RIVAL2` has lower DVs than `RIVAL1`
 
 `RIVAL1` is battled throughout the game. `RIVAL2` is battled at Indigo Plateau, and would not be expected to have worse DVs.
 
@@ -1564,7 +1564,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### `HELD_CATCH_CHANCE` has no effect
+### (FIXED) `HELD_CATCH_CHANCE` has no effect
 
 **Fix:** Edit `PokeBallEffect` in [engine/items/item_effects.asm](https://github.com/pret/pokecrystal/blob/master/engine/items/item_effects.asm):
 
@@ -1587,7 +1587,7 @@ In the `AI_TryItem` routine, an item pointer is set to `wEnemyTrainerItem1` and 
 ```
 
 
-### Credits sequence changes move selection menu behavior
+### (FIXED) Credits sequence changes move selection menu behavior
 
 ([Video](https://www.youtube.com/watch?v=vjFUo6Jr4po&t=438))
 
