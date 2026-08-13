@@ -72,18 +72,16 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) You can fish on top of NPCs](#fixed-you-can-fish-on-top-of-npcs)
   - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#fixed-pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
 - [Graphics](#graphics)
-  - [In-battle “`…`” ellipsis is too high](#in-battle--ellipsis-is-too-high)
-  - [Two tiles in the `port` tileset are drawn incorrectly](#two-tiles-in-the-port-tileset-are-drawn-incorrectly)
-  - [The Ruins of Alph research center's roof color at night looks wrong](#the-ruins-of-alph-research-centers-roof-color-at-night-looks-wrong)
-  - [Slowpoke Well's stones use the wrong corner tile](#slowpoke-wells-stones-use-the-wrong-corner-tile)
-  - [A hatching Unown egg would not show the right letter](#a-hatching-unown-egg-would-not-show-the-right-letter)
-  - [Beat Up may fail to raise Substitute](#beat-up-may-fail-to-raise-substitute)
-  - [HP bar animation is slow for high HP](#hp-bar-animation-is-slow-for-high-hp)
-  - [HP bar animation off-by-one error for low HP](#hp-bar-animation-off-by-one-error-for-low-hp)
-  - [Using a Park Ball in non-Contest battles has a corrupt animation](#using-a-park-ball-in-non-contest-battles-has-a-corrupt-animation)
-  - [Battle transitions fail to account for the enemy's level](#battle-transitions-fail-to-account-for-the-enemys-level)
-  - [Some trainer NPCs have inconsistent overworld sprites](#some-trainer-npcs-have-inconsistent-overworld-sprites)
-  - [Tackle is missing part of its hit animation](#tackle-is-missing-part-of-its-hit-animation)
+  - [(FIXED) Two tiles in the `port` tileset are drawn incorrectly](#fixed-two-tiles-in-the-port-tileset-are-drawn-incorrectly)
+  - [(WONTFIX) The Ruins of Alph research center's roof color at night looks wrong](#wontfix-the-ruins-of-alph-research-centers-roof-color-at-night-looks-wrong)
+  - [(WONTFIX) Slowpoke Well's stones use the wrong corner tile](#wontfix-slowpoke-wells-stones-use-the-wrong-corner-tile)
+  - [(FIXED) A hatching Unown egg would not show the right letter](#fixed-a-hatching-unown-egg-would-not-show-the-right-letter)
+  - [(FIXED) Beat Up may fail to raise Substitute](#fixed-beat-up-may-fail-to-raise-substitute)
+  - [(FIXED) HP bar animation is slow for high HP](#fixed-hp-bar-animation-is-slow-for-high-hp)
+  - [(FIXED) HP bar animation off-by-one error for low HP](#fixed-hp-bar-animation-off-by-one-error-for-low-hp)
+  - [(FIXED) Using a Park Ball in non-Contest battles has a corrupt animation](#fixed-using-a-park-ball-in-non-contest-battles-has-a-corrupt-animation)
+  - [(FIXED) Battle transitions fail to account for the enemy's level](#fixed-battle-transitions-fail-to-account-for-the-enemys-level)
+  - [(WONTFIX) Some trainer NPCs have inconsistent overworld sprites](#wontfix-some-trainer-npcs-have-inconsistent-overworld-sprites)
 - [Audio](#audio)
   - [Slot machine payout sound effects cut each other off](#slot-machine-payout-sound-effects-cut-each-other-off)
   - [Team Rocket battle music is not used for Executives or Scientists](#team-rocket-battle-music-is-not-used-for-executives-or-scientists)
@@ -1835,18 +1833,7 @@ When a Pokémon is withdrawn from the Day-Care, its Exp. Points are reset to the
 ## Graphics
 
 
-### In-battle “`…`” ellipsis is too high
-
-This is a mistake with the “`…`” tile in [gfx/battle/hp_exp_bar_border.png](https://github.com/pret/pokecrystal/blob/master/gfx/battle/hp_exp_bar_border.png):
-
-![image](https://raw.githubusercontent.com/pret/pokecrystal/master/gfx/battle/hp_exp_bar_border.png)
-
-**Fix:** Lower the ellipsis by two pixels:
-
-![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/hp_exp_bar_border.png)
-
-
-### Two tiles in the `port` tileset are drawn incorrectly
+### (FIXED) Two tiles in the `port` tileset are drawn incorrectly
 
 This is a mistake with the left-hand warp carpet corner tiles in [gfx/tilesets/port.png](https://github.com/pret/pokecrystal/blob/master/gfx/tilesets/port.png):
 
@@ -1857,7 +1844,7 @@ This is a mistake with the left-hand warp carpet corner tiles in [gfx/tilesets/p
 ![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/port.png)
 
 
-### The Ruins of Alph research center's roof color at night looks wrong
+### (WONTFIX) The Ruins of Alph research center's roof color at night looks wrong
 
 The dungeons' map group mostly has indoor maps that don't need roof colors, but [maps/RuinsOfAlphOutside.blk](https://github.com/pret/pokecrystal/blob/master/maps/RuinsOfAlphOutside.blk) is an exception. It appears to have poorly-chosen roof colors: the morning/day colors are the same default gray as the unused group 0, and the night colors combine the light default gray and the dark red of Cinnabar's night roofs.
 
@@ -1876,7 +1863,7 @@ The dungeons' map group mostly has indoor maps that don't need roof colors, but 
 ![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/ruins_of_alph_outside_cinnabar.png)
 
 
-### Slowpoke Well's stones use the wrong corner tile
+### (WONTFIX) Slowpoke Well's stones use the wrong corner tile
 
 This is a mistake with block $5B in the `johto_modern` tileset. The bottom-left corners of the three stones around Slowpoke Well use tile $4B, but should use tile $47.
 
@@ -1887,7 +1874,7 @@ This is a mistake with block $5B in the `johto_modern` tileset. The bottom-left 
 ![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/slowpoke_well_fixed.png)
 
 
-### A hatching Unown egg would not show the right letter
+### (FIXED) A hatching Unown egg would not show the right letter
 
 **Fix:** Edit both functions in [engine/pokemon/breeding.asm](https://github.com/pret/pokecrystal/blob/master/engine/pokemon/breeding.asm):
 
@@ -1919,7 +1906,7 @@ This is a mistake with block $5B in the `johto_modern` tileset. The bottom-left 
 ```
 
 
-### Beat Up may fail to raise Substitute
+### (FIXED) Beat Up may fail to raise Substitute
 
 This bug prevents Substitute from being raised if Beat Up was blocked by Protect or Detect.
 
@@ -1943,7 +1930,7 @@ This bug prevents Substitute from being raised if Beat Up was blocked by Protect
 ```
 
 
-### HP bar animation is slow for high HP
+### (FIXED) HP bar animation is slow for high HP
 
 ([Video](https://www.youtube.com/watch?v=SE-BfsFgZVM))
 
@@ -1966,7 +1953,7 @@ This bug prevents Substitute from being raised if Beat Up was blocked by Protect
 ```
 
 
-### HP bar animation off-by-one error for low HP
+### (FIXED) HP bar animation off-by-one error for low HP
 
 ([Video](https://www.youtube.com/watch?v=9KyNVIZxJvI))
 
@@ -1989,7 +1976,7 @@ This bug prevents Substitute from being raised if Beat Up was blocked by Protect
 ```
 
 
-### Using a Park Ball in non-Contest battles has a corrupt animation
+### (FIXED) Using a Park Ball in non-Contest battles has a corrupt animation
 
 ([Video](https://www.youtube.com/watch?v=v1ErZdLCIyU))
 
@@ -2008,7 +1995,7 @@ This bug prevents Substitute from being raised if Beat Up was blocked by Protect
 ```
 
 
-### Battle transitions fail to account for the enemy's level
+### (FIXED) Battle transitions fail to account for the enemy's level
 
 ([Video](https://www.youtube.com/watch?v=eij_1060SMc))
 
@@ -2117,10 +2104,6 @@ Finally, edit [engine/battle/read_trainer_party.asm](https://github.com/pret/pok
 +	ld a, 255
 +	ld [wCurPartyLevel], a
 +
-+	ld a, [wInBattleTowerBattle]
-+	bit IN_BATTLE_TOWER_BATTLE_F, a
-+	ret nz
-+
 +	ld a, [wLinkMode]
 +	and a
 +	ret nz
@@ -2160,7 +2143,7 @@ Finally, edit [engine/battle/read_trainer_party.asm](https://github.com/pret/pok
 ```
 
 
-### Some trainer NPCs have inconsistent overworld sprites
+### (WONTFIX) Some trainer NPCs have inconsistent overworld sprites
 
 *Some of these may have been intentional behavior; use your own judgment for whether to fix them.*
 
@@ -2189,22 +2172,6 @@ Most of the NPCs in [maps/NationalParkBugContest.asm](https://github.com/pret/po
 (Note that [maps/Route8.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route8.asm) has three `BIKER`s, `DWAYNE`, `HARRIS`, and `ZEKE`, that use `PAL_NPC_RED`, `PAL_NPC_GREEN`, and `PAL_NPC_BLUE` instead of `PAL_NPC_BROWN`; this is intentional since they're the "Kanto Pokémon Federation".)
 
 (The use of `SPRITE_ROCKER` instead of `SPRITE_COOLTRAINER_M` for `COOLTRAINERM NICK` may also be an intentional reference to the player's brother from the [Space World '97 beta](https://github.com/pret/pokegold-spaceworld).)
-
-
-### Tackle is missing part of its hit animation
-
-Copying two rows causes `BATTLE_BG_EFFECT_TACKLE` to hit the horizontal sprite limit. This fix restores the animation to copy only one row like in Pokémon Gold and Silver.
-
-**Fix:** Edit `BattleAnim_Tackle` in [data/moves/animations.asm](https://github.com/pret/pokecrystal/blob/master/data/moves/animations.asm):
-
-```diff
- BattleAnim_Tackle:
--; BUG: Tackle is missing part of its hit animation (see docs/bugs_and_glitches.md)
- 	anim_1gfx BATTLE_ANIM_GFX_HIT
--	anim_call BattleAnim_TargetObj_2Row
-+	anim_call BattleAnim_TargetObj_1Row
- 	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, BG_EFFECT_USER, $0
-```
 
 
 ## Audio
