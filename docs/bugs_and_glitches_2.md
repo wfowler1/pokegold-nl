@@ -83,26 +83,23 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) Battle transitions fail to account for the enemy's level](#fixed-battle-transitions-fail-to-account-for-the-enemys-level)
   - [(WONTFIX) Some trainer NPCs have inconsistent overworld sprites](#wontfix-some-trainer-npcs-have-inconsistent-overworld-sprites)
 - [Audio](#audio)
-  - [Slot machine payout sound effects cut each other off](#slot-machine-payout-sound-effects-cut-each-other-off)
-  - [Team Rocket battle music is not used for Executives or Scientists](#team-rocket-battle-music-is-not-used-for-executives-or-scientists)
-  - [No bump noise if standing on tile `$3E`](#no-bump-noise-if-standing-on-tile-3e)
-  - [Playing Entei's Pokédex cry can distort Raikou's and Suicune's](#playing-enteis-pok%C3%A9dex-cry-can-distort-raikous-and-suicunes)
-  - [`SFX_RUN` does not play correctly when a wild Pokémon flees from battle](#sfx_run-does-not-play-correctly-when-a-wild-pok%C3%A9mon-flees-from-battle)
+  - [(FIXED) Slot machine payout sound effects cut each other off](#fixed-slot-machine-payout-sound-effects-cut-each-other-off)
+  - [(FIXED) Team Rocket battle music is not used for Executives or Scientists](#fixed-team-rocket-battle-music-is-not-used-for-executives-or-scientists)
+  - [(FIXED) No bump noise if standing on tile `$3E`](#fixed-no-bump-noise-if-standing-on-tile-3e)
+  - [(FIXED) Playing Entei's Pokédex cry can distort Raikou's and Suicune's](#fixed-playing-enteis-pok%C3%A9dex-cry-can-distort-raikous-and-suicunes)
+  - [(FIXED) `SFX_RUN` does not play correctly when a wild Pokémon flees from battle](#fixed-sfx_run-does-not-play-correctly-when-a-wild-pok%C3%A9mon-flees-from-battle)
 - [Text](#text)
-  - [Five-digit experience gain is printed incorrectly](#five-digit-experience-gain-is-printed-incorrectly)
-  - [Only the first three evolution entries can have Stone compatibility reported correctly](#only-the-first-three-evolution-entries-can-have-stone-compatibility-reported-correctly)
-  - [`EVOLVE_STAT` can break Stone compatibility reporting](#evolve_stat-can-break-stone-compatibility-reporting)
-  - [A "HOF Master!" title for 200-Time Famers is defined but inaccessible](#a-hof-master-title-for-200-time-famers-is-defined-but-inaccessible)
+  - [(FIXED) Five-digit experience gain is printed incorrectly](#fixed-five-digit-experience-gain-is-printed-incorrectly)
+  - [(FIXED) Only the first three evolution entries can have Stone compatibility reported correctly](#fixed-only-the-first-three-evolution-entries-can-have-stone-compatibility-reported-correctly)
+  - [(FIXED) `EVOLVE_STAT` can break Stone compatibility reporting](#fixed-evolve_stat-can-break-stone-compatibility-reporting)
+  - [(FIXED) A "HOF Master!" title for 200-Time Famers is defined but inaccessible](#fixed-a-hof-master-title-for-200-time-famers-is-defined-but-inaccessible)
 - [Scripted events](#scripted-events)
-  - [Clair can give TM24 Dragonbreath twice](#clair-can-give-tm24-dragonbreath-twice)
-  - [Daisy's grooming doesn't always increase happiness](#daisys-grooming-doesnt-always-increase-happiness)
-  - [Magikarp in Lake of Rage are shorter, not longer](#magikarp-in-lake-of-rage-are-shorter-not-longer)
-  - [Magikarp length limits have a unit conversion error](#magikarp-length-limits-have-a-unit-conversion-error)
-  - [Magikarp lengths can be miscalculated](#magikarp-lengths-can-be-miscalculated)
-  - [`CheckOwnMon` only checks the first five letters of OT names](#checkownmon-only-checks-the-first-five-letters-of-ot-names)
-  - [`CheckOwnMonAnywhere` does not check the Day-Care](#checkownmonanywhere-does-not-check-the-day-care)
-  - [The unused `phonecall` script command may crash](#the-unused-phonecall-script-command-may-crash)
-  - [Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon](#mania-uses-wrong-dialogue-for-trying-to-return-shuckie-with-no-other-pok%C3%A9mon)
+  - [(FIXED) Daisy's grooming doesn't always increase happiness](#fixed-daisys-grooming-doesnt-always-increase-happiness)
+  - [(FIXED) Magikarp in Lake of Rage are shorter, not longer](#fixed-magikarp-in-lake-of-rage-are-shorter-not-longer)
+  - [(FIXED) Magikarp length limits have a unit conversion error](#fixed-magikarp-length-limits-have-a-unit-conversion-error)
+  - [(FIXED) Magikarp lengths can be miscalculated](#fixed-magikarp-lengths-can-be-miscalculated)
+  - [(FIXED) The unused `phonecall` script command may crash](#fixed-the-unused-phonecall-script-command-may-crash)
+  - [(FIXED) Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon](#fixed-mania-uses-wrong-dialogue-for-trying-to-return-shuckie-with-no-other-pok%C3%A9mon)
 - [Internal engine routines](#internal-engine-routines)
   - [Saves corrupted by mid-save shutoff are not handled](#saves-corrupted-by-mid-save-shutoff-are-not-handled)
   - [`ScriptCall` can overflow `wScriptStack` and crash](#scriptcall-can-overflow-wscriptstack-and-crash)
@@ -2177,7 +2174,7 @@ Most of the NPCs in [maps/NationalParkBugContest.asm](https://github.com/pret/po
 ## Audio
 
 
-### Slot machine payout sound effects cut each other off
+### (FIXED) Slot machine payout sound effects cut each other off
 
 ([Video](https://www.youtube.com/watch?v=ojq3xqfRF6I))
 
@@ -2199,7 +2196,7 @@ Most of the NPCs in [maps/NationalParkBugContest.asm](https://github.com/pret/po
 ```
 
 
-### Team Rocket battle music is not used for Executives or Scientists
+### (FIXED) Team Rocket battle music is not used for Executives or Scientists
 
 **Fix:** Edit `PlayBattleMusic` in [engine/battle/start_battle.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/start_battle.asm):
 
@@ -2219,7 +2216,7 @@ Most of the NPCs in [maps/NationalParkBugContest.asm](https://github.com/pret/po
 ```
 
 
-### No bump noise if standing on tile `$3E`
+### (FIXED) No bump noise if standing on tile `$3E`
 
 If `[wWalkingDirection]` is `STANDING` (`$FF`), this will check `[.EdgeWarps + $ff]`, which happens to be `$3E`.
 
@@ -2248,7 +2245,7 @@ If `[wWalkingDirection]` is `STANDING` (`$FF`), this will check `[.EdgeWarps + $
 ```
 
 
-### Playing Entei's Pokédex cry can distort Raikou's and Suicune's
+### (FIXED) Playing Entei's Pokédex cry can distort Raikou's and Suicune's
 
 ([Video](https://www.youtube.com/watch?v=z305e4sIO24))
 
@@ -2271,7 +2268,7 @@ The exact cause of this bug is unknown.
 ```
 
 
-### `SFX_RUN` does not play correctly when a wild Pokémon flees from battle
+### (FIXED) `SFX_RUN` does not play correctly when a wild Pokémon flees from battle
 
 **Fix:** Edit `WildFled_EnemyFled_LinkBattleCanceled` in [engine/battle/core.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle/core.asm):
 
@@ -2286,11 +2283,11 @@ The exact cause of this bug is unknown.
 ## Text
 
 
-### Five-digit experience gain is printed incorrectly
+### (FIXED) Five-digit experience gain is printed incorrectly
 
 ([Video](https://www.youtube.com/watch?v=o54VjpAEoO8))
 
-**Fix:** Edit `_BoostedExpPointsText` and `_ExpPointsText` in [data/text/common_2.asm](https://github.com/pret/pokecrystal/blob/master/data/text/common_2.asm):
+**Fix:** Edit `_BoostedExpPointsText` and `_ExpPointsText` in [data/text/common_2.asm](https://github.com/pret/pokecrystal/blob/master/data/text/common_1.asm):
 
 ```diff
  _BoostedExpPointsText::
@@ -2314,7 +2311,7 @@ The exact cause of this bug is unknown.
 ```
 
 
-### Only the first three evolution entries can have Stone compatibility reported correctly
+### (FIXED) Only the first three evolution entries can have Stone compatibility reported correctly
 
 **Workaround:** Edit `PlacePartyMonEvoStoneCompatibility.DetermineCompatibility` in [engine/pokemon/party_menu.asm](https://github.com/pret/pokecrystal/blob/master/engine/pokemon/party_menu.asm):
 
@@ -2339,7 +2336,7 @@ The exact cause of this bug is unknown.
 This supports up to six entries.
 
 
-### `EVOLVE_STAT` can break Stone compatibility reporting
+### (FIXED) `EVOLVE_STAT` can break Stone compatibility reporting
 
 **Fix:** Edit `PlacePartyMonEvoStoneCompatibility.DetermineCompatibility` in [engine/pokemon/party_menu.asm](https://github.com/pret/pokecrystal/blob/master/engine/pokemon/party_menu.asm):
 
@@ -2360,7 +2357,7 @@ This supports up to six entries.
 ```
 
 
-### A "HOF Master!" title for 200-Time Famers is defined but inaccessible
+### (FIXED) A "HOF Master!" title for 200-Time Famers is defined but inaccessible
 
 ([Video](https://www.youtube.com/watch?v=iHkWubvxmSg))
 
@@ -2383,32 +2380,7 @@ This supports up to six entries.
 ## Scripted events
 
 
-### Clair can give TM24 Dragonbreath twice
-
-([Video](https://www.youtube.com/watch?v=8BvBjqxmyOk))
-
-**Fix:**
-
-Edit `DragonsDen1F_MapScripts` in [maps/DragonsDen1F.asm](https://github.com/pret/pokecrystal/blob/master/maps/DragonsDen1F.asm):
-
-```diff
- 	def_callbacks
-+	callback MAPCALLBACK_NEWMAP, .UnsetClairScene
-+
-+.UnsetClairScene:
-+	setmapscene DRAGONS_DEN_B1F, SCENE_DRAGONSDENB1F_NOOP
-+	endcallback
-```
-
-And edit [maps/DragonsDenB1F.asm](https://github.com/pret/pokecrystal/blob/master/maps/DragonsDenB1F.asm):
-
-```diff
- DragonsDenB1F_ClairScene:
--; BUG: Clair can give TM24 Dragonbreath twice (see docs/bugs_and_glitches.md)
-```
-
-
-### Daisy's grooming doesn't always increase happiness
+### (FIXED) Daisy's grooming doesn't always increase happiness
 
 Subtracting `$FF` from `$FF` fails to set the carry flag, which results in a 0.4% chance that Daisy's grooming will not affect your Pokémon's happiness.
 
@@ -2453,7 +2425,7 @@ CopyPokemonName_Buffer1_Buffer3:
 ```
 
 
-### Magikarp in Lake of Rage are shorter, not longer
+### (FIXED) Magikarp in Lake of Rage are shorter, not longer
 
 `cp HIGH(1024)` should be `cp 3`, since 1024 mm = 3'4", but `HIGH(1024)` = 4.
 
@@ -2482,7 +2454,7 @@ CopyPokemonName_Buffer1_Buffer3:
 ```
 
 
-### Magikarp length limits have a unit conversion error
+### (FIXED) Magikarp length limits have a unit conversion error
 
 - `cp HIGH(1536)` should be `cp 5`, since 1536 mm = 5'0", but `HIGH(1536)` = 6.
 - `cp LOW(1616)` should be `cp 4`, since 1616 mm = 5'4", but `LOW(1616)` = 80.
@@ -2527,7 +2499,7 @@ CopyPokemonName_Buffer1_Buffer3:
 **Better fix:** Rewrite the whole system to use millimeters instead of feet and inches, since they have better precision (1 in = 25.4 mm); and only convert from metric to imperial units for display purposes (or don't, of course).
 
 
-### Magikarp lengths can be miscalculated
+### (FIXED) Magikarp lengths can be miscalculated
 
 **Fix:** Edit `CalcMagikarpLength.BCLessThanDE` in [engine/events/magikarp.asm](https://github.com/pret/pokecrystal/blob/master/engine/events/magikarp.asm):
 
@@ -2544,65 +2516,7 @@ CopyPokemonName_Buffer1_Buffer3:
 ```
 
 
-### `CheckOwnMon` only checks the first five letters of OT names
-
-([Video](https://www.youtube.com/watch?v=GVTTmReM4nQ))
-
-This bug can allow you to talk to Eusine in Celadon City and encounter Ho-Oh with only traded legendary beasts.
-
-**Fix:** Edit `CheckOwnMon` in [engine/pokemon/search_owned.asm](https://github.com/pret/pokecrystal/blob/master/engine/pokemon/search_owned.asm):
-
-```diff
- 	; check OT
-
- 	ld hl, wPlayerName
-
--; BUG: CheckOwnMon only checks the first five letters of OT names (see docs/bugs_and_glitches.md)
--rept NAME_LENGTH_JAPANESE - 2
-+rept PLAYER_NAME_LENGTH - 2
- 	ld a, [de]
- 	cp [hl]
- 	jr nz, .notfound
- 	cp "@"
- 	jr z, .found ; reached end of string
- 	inc hl
- 	inc de
- endr
-
- 	ld a, [de]
- 	cp [hl]
- 	jr z, .found
-```
-
-
-### `CheckOwnMonAnywhere` does not check the Day-Care
-
-*This may have been intentional behavior; use your own judgment for whether to fix it.*
-
-This bug can prevent you from talking to Eusine in Celadon City or encountering Ho-Oh when a caught legendary beast is in the Day-Care.
-
-**Fix:** Edit `CheckOwnMonAnywhere` in [engine/pokemon/search_owned.asm](https://github.com/pret/pokecrystal/blob/master/engine/pokemon/search_owned.asm):
-
-```diff
--; BUG: CheckOwnMon does not check the Day-Care (see docs/bugs_and_glitches.md)
-+	ld hl, wBreedMon1Species
-+	ld bc, wBreedMon1OT
-+	call CheckOwnMon
-+	ret c ; found!
-+
-+	ld hl, wBreedMon2Species
-+	ld bc, wBreedMon2OT
-+	call CheckOwnMon
-+	ret c ; found!
-+
- 	ld d, a
- 	ld e, 0
- 	ld hl, wPartyMon1Species
- 	ld bc, wPartyMonOTs
-```
-
-
-### The unused `phonecall` script command may crash
+### (FIXED) The unused `phonecall` script command may crash
 
 The `phonecall` script command calls the `PhoneCall` routine, which calls the `BrokenPlaceFarString` routine; this switches banks without being in bank 0, so it would start running arbitrary data as code.
 
@@ -2625,7 +2539,7 @@ The `phonecall` script command calls the `PhoneCall` routine, which calls the `B
 You can also delete the now-unused `BrokenPlaceFarString` routine in the same file.
 
 
-### Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon
+### (FIXED) Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon
 
 **Fix**: Edit `ManiaScript.returnshuckie` in [maps/ManiasHouse.asm](https://github.com/pret/pokecrystal/blob/master/maps/ManiasHouse.asm):
 
