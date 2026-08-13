@@ -102,15 +102,13 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) Mania uses wrong dialogue for trying to return Shuckie with no other Pokémon](#fixed-mania-uses-wrong-dialogue-for-trying-to-return-shuckie-with-no-other-pok%C3%A9mon)
 - [Internal engine routines](#internal-engine-routines)
   - [Saves corrupted by mid-save shutoff are not handled](#saves-corrupted-by-mid-save-shutoff-are-not-handled)
-  - [`ScriptCall` can overflow `wScriptStack` and crash](#scriptcall-can-overflow-wscriptstack-and-crash)
-  - [`LoadSpriteGFX` does not limit the capacity of `UsedSprites`](#loadspritegfx-does-not-limit-the-capacity-of-usedsprites)
-  - [`ChooseWildEncounter` doesn't really validate the wild Pokémon species](#choosewildencounter-doesnt-really-validate-the-wild-pok%C3%A9mon-species)
-  - [`RandomUnseenWildMon` always picks a morning Pokémon species](#randomunseenwildmon-always-picks-a-morning-pok%C3%A9mon-species)
-  - [`TryObjectEvent` arbitrary code execution](#tryobjectevent-arbitrary-code-execution)
-  - [`ReadObjectEvents` overflows into `wObjectMasks`](#readobjectevents-overflows-into-wobjectmasks)
-  - [`ClearWRAM` only clears WRAM bank 1](#clearwram-only-clears-wram-bank-1)
-  - [`BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects](#battleanimcmd_clearobjs-only-clears-the-first-6-objects)
-  - [Options menu fails to clear joypad state on initialization](#options-menu-fails-to-clear-joypad-state-on-initialization)
+  - [(FIXED) `ScriptCall` can overflow `wScriptStack` and crash](#fixed-scriptcall-can-overflow-wscriptstack-and-crash)
+  - [(FIXED) `ChooseWildEncounter` doesn't really validate the wild Pokémon species](#fixed-choosewildencounter-doesnt-really-validate-the-wild-pok%C3%A9mon-species)
+  - [(FIXED) `RandomUnseenWildMon` always picks a morning Pokémon species](#fixed-randomunseenwildmon-always-picks-a-morning-pok%C3%A9mon-species)
+  - [(FIXED) `TryObjectEvent` arbitrary code execution](#fixed-tryobjectevent-arbitrary-code-execution)
+  - [(FIXED) `ReadObjectEvents` overflows into `wObjectMasks`](#fixed-readobjectevents-overflows-into-wobjectmasks)
+  - [(FIXED) `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects](#fixed-battleanimcmd_clearobjs-only-clears-the-first-6-objects)
+  - [(FIXED) Options menu fails to clear joypad state on initialization](#fixed-options-menu-fails-to-clear-joypad-state-on-initialization)
 
 
 ## Multi-player battle engine
@@ -2559,8 +2557,10 @@ You can also delete the now-unused `BrokenPlaceFarString` routine in the same fi
 
 This allows Pokémon to be duplicated, among other effects. It does not have a simple and accurate fix. A fix would involve redesigning parts of the save system for Pokémon boxes.
 
+This can be partially mitigated by removing the artificial delays around the save process, dramatically shortening the window of time for the player to shut off the system.
 
-### `ScriptCall` can overflow `wScriptStack` and crash
+
+### (FIXED) `ScriptCall` can overflow `wScriptStack` and crash
 
 **Fix:** Edit `ScriptCall` in [engine/overworld/scripting.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/scripting.asm):
 
@@ -2599,40 +2599,7 @@ This allows Pokémon to be duplicated, among other effects. It does not have a s
 ```
 
 
-### `LoadSpriteGFX` does not limit the capacity of `UsedSprites`
-
-**Fix:** Edit `LoadSpriteGFX` in [engine/overworld/overworld.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/overworld.asm):
-
-```diff
- LoadSpriteGFX:
--; BUG: LoadSpriteGFX does not limit the capacity of UsedSprites (see docs/bugs_and_glitches.md)
--
- 	ld hl, wUsedSprites
- 	ld b, SPRITE_GFX_LIST_CAPACITY
- .loop
- 	ld a, [hli]
- 	and a
- 	jr z, .done
- 	push hl
- 	call .LoadSprite
- 	pop hl
- 	ld [hli], a
- 	dec b
- 	jr nz, .loop
-
- .done
- 	ret
-
- .LoadSprite:
-+	push bc
- 	call GetSprite
-+	pop bc
- 	ld a, l
- 	ret
-```
-
-
-### `ChooseWildEncounter` doesn't really validate the wild Pokémon species
+### (FIXED) `ChooseWildEncounter` doesn't really validate the wild Pokémon species
 
 **Fix:** Edit `ChooseWildEncounter` in [engine/overworld/wildmons.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/wildmons.asm):
 
@@ -2652,7 +2619,7 @@ This allows Pokémon to be duplicated, among other effects. It does not have a s
 ```
 
 
-### `RandomUnseenWildMon` always picks a morning Pokémon species
+### (FIXED) `RandomUnseenWildMon` always picks a morning Pokémon species
 
 **Fix:** Edit `RandomUnseenWildMon` in [engine/overworld/wildmons.asm](https://github.com/pret/pokecrystal/blob/master/engine/overworld/wildmons.asm):
 
@@ -2671,7 +2638,7 @@ This allows Pokémon to be duplicated, among other effects. It does not have a s
 ```
 
 
-### `TryObjectEvent` arbitrary code execution
+### (FIXED) `TryObjectEvent` arbitrary code execution
 
 If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 
@@ -2699,7 +2666,7 @@ If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 ```
 
 
-### `ReadObjectEvents` overflows into `wObjectMasks`
+### (FIXED) `ReadObjectEvents` overflows into `wObjectMasks`
 
 **Fix:** Edit `ReadObjectEvents` in [home/map.asm](https://github.com/pret/pokecrystal/blob/master/home/map.asm):
 
@@ -2730,34 +2697,7 @@ If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 ```
 
 
-### `ClearWRAM` only clears WRAM bank 1
-
-**Fix:** Edit `ClearWRAM` in [home/init.asm](https://github.com/pret/pokecrystal/blob/master/home/init.asm):
-
-```diff
- ClearWRAM::
- ; Wipe swappable WRAM banks (1-7)
- ; Assumes CGB or AGB
--; BUG: ClearWRAM only clears WRAM bank 1 (see docs/bugs_and_glitches.md)
-
- 	ld a, 1
- .bank_loop
- 	push af
- 	ldh [rWBK], a
- 	xor a
- 	ld hl, STARTOF(WRAMX)
- 	ld bc, SIZEOF(WRAMX)
- 	call ByteFill
- 	pop af
- 	inc a
- 	cp 8
--	jr nc, .bank_loop
-+	jr c, .bank_loop
- 	ret
-```
-
-
-### `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects
+### (FIXED) `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects
 
 **Fix:** Edit `BattleAnimCmd_ClearObjs` in [engine/battle_anims/anim_commands.asm](https://github.com/pret/pokecrystal/blob/master/engine/battle_anims/anim_commands.asm):
 
@@ -2776,7 +2716,7 @@ If `IsInArray` returns `nc`, data at `bc` will be executed as code.
 ```
 
 
-### Options menu fails to clear joypad state on initialization
+### (FIXED) Options menu fails to clear joypad state on initialization
 
 ([Video](https://www.youtube.com/watch?v=uhDSIkXkl3g))
 
