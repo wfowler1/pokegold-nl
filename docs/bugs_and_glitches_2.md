@@ -66,11 +66,11 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [(FIXED) `HELD_CATCH_CHANCE` has no effect](#fixed-held_catch_chance-has-no-effect)
   - [(FIXED) Credits sequence changes move selection menu behavior](#fixed-credits-sequence-changes-move-selection-menu-behavior)
 - [Overworld engine](#overworld-engine)
-  - [`LoadMetatiles` wraps around past 128 blocks](#loadmetatiles-wraps-around-past-128-blocks)
-  - [Surfing directly across a map connection does not load the new map](#surfing-directly-across-a-map-connection-does-not-load-the-new-map)
-  - [Swimming NPCs aren't limited by their movement radius](#swimming-npcs-arent-limited-by-their-movement-radius)
-  - [You can fish on top of NPCs](#you-can-fish-on-top-of-npcs)
-  - [Pokémon deposited in the Day-Care might lose experience](#pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
+  - [(FIXED) `LoadMetatiles` wraps around past 128 blocks](#fixed-loadmetatiles-wraps-around-past-128-blocks)
+  - [(WONTFIX) Surfing directly across a map connection does not load the new map](#wontfix-surfing-directly-across-a-map-connection-does-not-load-the-new-map)
+  - [(FIXED) Swimming NPCs aren't limited by their movement radius](#fixed-swimming-npcs-arent-limited-by-their-movement-radius)
+  - [(FIXED) You can fish on top of NPCs](#fixed-you-can-fish-on-top-of-npcs)
+  - [(FIXED) Pokémon deposited in the Day-Care might lose experience](#fixed-pok%C3%A9mon-deposited-in-the-day-care-might-lose-experience)
 - [Graphics](#graphics)
   - [In-battle “`…`” ellipsis is too high](#in-battle--ellipsis-is-too-high)
   - [Two tiles in the `port` tileset are drawn incorrectly](#two-tiles-in-the-port-tileset-are-drawn-incorrectly)
@@ -1645,7 +1645,7 @@ The `[hInMenu]` value determines this button behavior. However, the battle moves
 ## Overworld engine
 
 
-### `LoadMetatiles` wraps around past 128 blocks
+### (FIXED) `LoadMetatiles` wraps around past 128 blocks
 
 This bug prevents you from using blocksets with more than 128 blocks.
 
@@ -1670,7 +1670,7 @@ This bug prevents you from using blocksets with more than 128 blocks.
 ```
 
 
-### Surfing directly across a map connection does not load the new map
+### (WONTFIX) Surfing directly across a map connection does not load the new map
 
 ([Video](https://www.youtube.com/watch?v=XFOWvMNG-zw))
 
@@ -1739,7 +1739,7 @@ Then edit `SurfStartStep` in [engine/overworld/player_object.asm](https://github
 This fix will make the player enter the water at a normal walking speed, not with a slow step.
 
 
-### Swimming NPCs aren't limited by their movement radius
+### (FIXED) Swimming NPCs aren't limited by their movement radius
 
 This bug is why the Lapras in [maps/UnionCaveB2F.asm](https://github.com/pret/pokecrystal/blob/master/maps/UnionCaveB2F.asm), which uses `SPRITEMOVEDATA_SWIM_WANDER`, is not restricted by its `1, 1` movement radius.
 
@@ -1754,7 +1754,7 @@ This bug is why the Lapras in [maps/UnionCaveB2F.asm](https://github.com/pret/po
 ```
 
 
-### You can fish on top of NPCs
+### (FIXED) You can fish on top of NPCs
 
 **Fix**: Edit [engine/events/overworld.asm](https://github.com/pret/pokecrystal/blob/master/engine/events/overworld.asm):
 
@@ -1782,7 +1782,7 @@ This bug is why the Lapras in [maps/UnionCaveB2F.asm](https://github.com/pret/po
 ```
 
 
-### Pokémon deposited in the Day-Care might lose experience
+### (FIXED) Pokémon deposited in the Day-Care might lose experience
 
 When a Pokémon is withdrawn from the Day-Care, its Exp. Points are reset to the minimum required for its level. This means that if it hadn't gained any levels while in the Day-Care, it may lose experience.
 
