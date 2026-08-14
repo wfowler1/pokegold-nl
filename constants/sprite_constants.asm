@@ -98,6 +98,7 @@
 	const SPRITE_GOLD_TROPHY ; 5e
 	const SPRITE_SILVER_TROPHY ; 5f
 	const SPRITE_CHRIS_RUN ; 60
+	const SPRITE_CHRIS_SURF ; 61
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
