@@ -266,6 +266,17 @@ wDebugWhiteTileColor:: ds 2
 wDebugLightTileColor:: ds 2
 wDebugDarkTileColor::  ds 2
 wDebugBlackTileColor:: ds 2
+
+NEXTU
+wc608:: ds 7
+wc60f:: ds 9
+wc618:: ds 48
+wc648:: ds 2
+wc64a:: ds 62
+wc688:: ds 2
+wc68a:: ds 15
+wc699:: ds 15
+wc6a8:: ds 40
 ENDU
 
 ; This union spans 280 bytes.
@@ -1856,7 +1867,7 @@ wSpriteFlags:: db
 
 wHandlePlayerStep:: db
 
-	ds 1
+wCurIconMonHasItemOrMail:: db
 
 wPartyMenuActionText:: db
 

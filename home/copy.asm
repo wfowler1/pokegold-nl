@@ -68,6 +68,20 @@ FarCopyWRAM::
 	ldh [rWBK], a
 	ret
 
+GetFarWRAMByte::
+; retrieve a single byte from a:hl, and return it in a.
+	ldh [hTempBank], a
+	ldh a, [rWBK]
+	push af
+	ldh a, [hTempBank]
+	ldh [rWBK], a
+	ld a, [hl]
+	ldh [hFarByte], a
+	pop af
+	ldh [rWBK], a
+	ldh a, [hFarByte]
+	ret
+
 ByteFill::
 ; fill bc bytes with the value of a, starting at hl
 	inc b ; we bail the moment b hits 0, so include the last run

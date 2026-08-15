@@ -1,13 +1,30 @@
+FarCall_de::
+; Call a:de.
+; Preserves other registers.
+	ldh [hTempBank], a
+	ldh a, [hROMBank]
+	push af
+	ldh a, [hTempBank]
+	rst Bankswitch
+	call FarCall_JumpToDE
+	jr ReturnFarCall
+
+FarCall_JumpToDE:
+	push de
+	ret
+
 FarCall_hl::
 ; Call a:hl.
 ; Preserves other registers.
-	ld [wTempBank], a
+	ldh [hTempBank], a
 	ldh a, [hROMBank]
 	push af
-	ld a, [wTempBank]
+	ldh a, [hTempBank]
 	rst Bankswitch
 	call FarCall_JumpToHL
+	; fallthrough
 
+ReturnFarCall::
 ; We want to retain the contents of f.
 ; To do this, we can pop to bc instead of af.
 	ld a, b
