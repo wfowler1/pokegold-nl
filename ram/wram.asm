@@ -1141,7 +1141,7 @@ NEXTU
 wPrevDexEntryJumptableIndex:: db
 wPrevDexEntryBackup::
 wPokedexStatus:: db
-wUnusedPokedexByte:: db
+wPokedexShinyToggle:: db
 
 NEXTU
 ; pokegear
