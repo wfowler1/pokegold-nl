@@ -105,3 +105,4 @@ SECTION "Sprites 3", ROMX
 
 ChrisRunSpriteGFX::            INCBIN "gfx/sprites/chris_run.2bpp"
 ChrisSurfSpriteGFX::            INCBIN "gfx/sprites/chris_surf.2bpp"
+SlowbroOWSpriteGFX::            INCBIN "gfx/icons/slowbro.2bpp"

@@ -99,6 +99,7 @@
 	const SPRITE_SILVER_TROPHY ; 5f
 	const SPRITE_CHRIS_RUN ; 60
 	const SPRITE_CHRIS_SURF ; 61
+	const SPRITE_SLOWBRO_OW ; 62 CeruleanCity.asm
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
@@ -176,10 +177,8 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_SPEAROW ; ba ViridianNicknameSpeechHouse.asm
 	; SPRITE_MONSTER
 	const SPRITE_AMPHAROS ; bb OlivineLightouse6F.asm
-	; SPRITE_SLOWPOKE
-	const SPRITE_SLOWBRO ; bc CeruleanCity.asm
 	; SPRITE_DRAGON
-	const SPRITE_DRAGONITE ; bd MahoganyMart1F.asm TeamRocketBaseB2F.asm
+	const SPRITE_DRAGONITE ; bc MahoganyMart1F.asm TeamRocketBaseB2F.asm
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
