@@ -139,6 +139,47 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_GYARADOS ; a0
 	const SPRITE_LUGIA ; a1
 	const SPRITE_HO_OH ; a2
+	; SPRITE_GROWLITHE
+	const SPRITE_RAIKOU ; a3 BurnedTowerB1F.asm
+	const SPRITE_ENTEI ; a4 BurnedTowerB1F.asm
+	const SPRITE_SUICUNE ; a5 BurnedTowerB1F.asm
+	const SPRITE_MEOWTH ; a6 CeladonMansion1F.asm RadioTower4F.asm
+	const SPRITE_NIDORAN_F ; a7 CeladonMansion1F.asm
+	const SPRITE_NIDORINO ; a8 MrFujisHouse.asm
+	const SPRITE_PERSIAN ; a9 NationalPark.asm
+	const SPRITE_NIDORAN_M ; aa PewterNidoranSpeechHouse.asm
+	const SPRITE_RATTATA ; ab ViridianNicknameSpeechHouse.asm Route30.asm
+	; SPRITE_ODDISH
+	const SPRITE_BAYLEEF ; ac PokemonFanClub.asm
+	; SPRITE_POLIWAG
+	const SPRITE_POLIWRATH ; ad CeladonCity.asm
+	; SPRITE_CLEFAIRY
+	const SPRITE_BLISSEY ; ae CopycatsHouse1F.asm
+	; SPRITE_JYNX
+	const SPRITE_ABRA ; af IndigoPlateauPokecenter1F.asm
+	; SPRITE_STARMIE
+	const SPRITE_STARYU ; b0 data/decorations/attributes.asm
+	; SPRITE_EKANS
+	const SPRITE_DRATINI ; b1 BlackthornDragonSpeechHouse.asm
+	; SPRITE_TAUROS
+	const SPRITE_MILTANK ; b2 Route39.asm Route39Barn.asm
+	; SPRITE_VOLTORB
+	const SPRITE_ELECTRODE ; b3 TeamRocketBaseB2F.asm
+	; SPRITE_RHYDON
+	const SPRITE_PSYDUCK ; b4 MrFujisHouse.asm
+	; SPRITE_MOLTRES
+	const SPRITE_FARFETCH_D ; b5 CharcoalKiln.asm
+	const SPRITE_DODRIO ; b6 CopycatsHouse2F.asm
+	const SPRITE_PIDGEY ; b7 MrFujisHouse.asm
+	const SPRITE_FEAROW ; b8 Route28SteelWingHouse.asm
+	const SPRITE_MURKROW ; b9 TeamRocketBaseB3F.asm
+	const SPRITE_SPEAROW ; ba ViridianNicknameSpeechHouse.asm
+	; SPRITE_MONSTER
+	const SPRITE_AMPHAROS ; bb OlivineLightouse6F.asm
+	; SPRITE_SLOWPOKE
+	const SPRITE_SLOWBRO ; bc CeruleanCity.asm
+	; SPRITE_DRAGON
+	const SPRITE_DRAGONITE ; bd MahoganyMart1F.asm TeamRocketBaseB2F.asm
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
