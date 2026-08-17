@@ -1,29 +1,27 @@
 NurseMornText:
 	text "Goedemorgen!" ; "Good morning!"
-	line "Welkom bij ons" ; "Welcome to our"
-	cont "#MONCENTRUM." ; "#MON CENTER."
 	done
 
 NurseDayText:
 	text "Hallo!" ; "Hello!"
-	line "Welkom bij ons" ; "Welcome to our"
-	cont "#MONCENTRUM." ; "#MON CENTER."
 	done
 
 NurseNiteText:
 	text "Goedenavond!" ; "Good evening!"
 	line "Het is al laat." ; "You're out late."
+	done
 
-	para "Welkom bij ons" ; "Welcome to our"
+NurseCenterWelcomeText:
+	text "Welkom bij ons" ; "Welcome to our"
 	line "#MONCENTRUM." ; "#MON CENTER."
+	
+	para "We kunnen je #-" ; "We can heal your"
+	line "MON weer helemaal" ; #MON to perfect"
+	cont "genezen." ; "health."
 	done
 
 NurseAskHealText:
-	text "We kunnen je #-" ; "We can heal your"
-	line "MON weer helemaal" ; #MON to perfect"
-	cont "genezen." ; "health."
-
-	para "Zal ik je" ; "Shall we heal your"
+	text "Zal ik je" ; "Shall we heal your"
 	line "#MON genezen?" ; "#MON?"
 	done
 
@@ -61,11 +59,11 @@ NursePokerusText:
 	line "gezonde en lijken" ; "healthy and seem"
 	cont "goed." ; "to be fine."
 
-	para "Maar meer weten we" ; "But we can't tell"
-	line "hier in het" ; "you anything more"
+	para "Maar meer kunnen" ; "But we can't tell"
+	line "we niet zeggen in" ; "you anything more"
 
-	para "#MON CENTRUM" ; "at a #MON"
-	line "niet." ; "CENTER."
+	para "een #MON-" ; "at a #MON"
+	line "CENTRUM." ; "CENTER."
 	done
 
 DifficultBookshelfText:

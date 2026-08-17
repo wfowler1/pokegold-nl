@@ -466,7 +466,8 @@
 	const EVENT_GOT_FIRE_STONE_FROM_BILLS_GRANDPA
 	const EVENT_GOT_THUNDERSTONE_FROM_BILLS_GRANDPA
 	const EVENT_LISTENED_TO_INITIAL_RADIO
-; Unused: next 194 events
+	const EVENT_WELCOMED_TO_POKEMON_CENTER
+; Unused: next 193 events
 
 	const_next 1000
 ; Trainer flags
