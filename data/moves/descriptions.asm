@@ -1281,4 +1281,4 @@ DisarmingVoiceDescription:
 
 FairyWindDescription:
 	db   "Aanval doelwit met" ; "Hits target with a"
-	line "een fee windstroom@" ; "a fairy wind.@"
+	line "een feeënwind.@" ; "a fairy wind.@"
