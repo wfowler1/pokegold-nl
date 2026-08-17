@@ -2172,6 +2172,13 @@ RespawnPlayerAndOpponent:
 	call _UpdateSprites
 	ret
 
+RespawnPlayer:
+	call HideAllObjects
+	ld a, PLAYER
+	call RespawnObject
+	call _UpdateSprites
+	ret
+
 RespawnObject:
 	cp NUM_OBJECTS
 	ret nc

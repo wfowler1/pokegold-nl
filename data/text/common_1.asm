@@ -1857,9 +1857,31 @@ _UseCutText::
 	line "SNIJD!" ; "CUT!"
 	prompt
 
+_WildUseCutText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met SNIJD!" ; "out with CUT!"
+	prompt
+
 _CutNothingText::
 	text "Er is niks om" ; "There's nothing to"
 	line "SNIJD op te doen." ; "CUT here."
+	prompt
+
+_UseFlashText::
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
+	text " deed" ; " used"
+	line "FLITS!" ; "FLASH!"
+	prompt
+
+_WildUseFlashText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met FLITS!" ; "out with FLASH!"
 	prompt
 
 _BlindingFlashText:: ; AlwaysReplace
@@ -1868,7 +1890,19 @@ _BlindingFlashText:: ; AlwaysReplace
 	text_promptbutton
 	text_end
 
-	text_end ; unreferenced
+_UsedFlyText::
+	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
+	text " deed" ; " used"
+	line "VLIEG!" ; "FLY!"
+	prompt
+
+_WildUsedFlyText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met VLIEG!" ; "out with FLY!"
+	prompt
 
 _UsedSurfText::
 	text_ram wStringBuffer2 ; MaxLength MaxPokemonNameLength
@@ -1877,3 +1911,10 @@ _UsedSurfText::
 	line "gebruikte SURF!" ; "SURF!"
 	done
 
+_WildUsedSurfText::
+	text "Een wilde" ; "A wild"
+	line "@"
+	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
+	text " hielp" ; " helped"
+	cont "je met SURF!" ; "out with SURF!"
+	prompt

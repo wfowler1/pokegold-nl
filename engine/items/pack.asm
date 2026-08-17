@@ -499,18 +499,18 @@ TossMenu:
 .finish
 	ret
 
-ResetPocketCursorPositions: ; unreferenced
-	ld a, [wCurPocket]
-	assert ITEM_POCKET == 0
-	and a
-	jr z, .items
-	assert BALL_POCKET == 1
-	dec a
-	jr z, .balls
-	assert KEY_ITEM_POCKET == 2
-	dec a
-	jr z, .key
-	ret
+;ResetPocketCursorPositions: ; unreferenced
+;	ld a, [wCurPocket]
+;	assert ITEM_POCKET == 0
+;	and a
+;	jr z, .items
+;	assert BALL_POCKET == 1
+;	dec a
+;	jr z, .balls
+;	assert KEY_ITEM_POCKET == 2
+;	dec a
+;	jr z, .key
+;	ret
 
 .balls
 	xor a
@@ -1412,12 +1412,12 @@ Pack_GetItemName:
 	call CopyName1
 	ret
 
-Pack_ClearTilemap: ; unreferenced
-	hlcoord 0, 0
-	ld bc, SCREEN_AREA
-	ld a, ' '
-	call ByteFill
-	ret
+;Pack_ClearTilemap: ; unreferenced
+;	hlcoord 0, 0
+;	ld bc, SCREEN_AREA
+;	ld a, ' '
+;	call ByteFill
+;	ret
 
 ClearPocketList:
 	hlcoord 5, 2
@@ -1523,9 +1523,9 @@ PC_Mart_BallsPocketMenuHeader:
 	dba PlaceMenuItemQuantity
 	dba UpdateItemDescription
 
-PackNoItemText: ; unreferenced
-	text_far _PackNoItemText
-	text_end
+;PackNoItemText: ; unreferenced
+;	text_far _PackNoItemText
+;	text_end
 
 AskThrowAwayText:
 	text_far _AskThrowAwayText
@@ -1563,9 +1563,9 @@ PackEmptyText:
 	text_far _PackEmptyText
 	text_end
 
-YouCantUseItInABattleText: ; unreferenced
-	text_far _YouCantUseItInABattleText
-	text_end
+;YouCantUseItInABattleText: ; unreferenced
+;	text_far _YouCantUseItInABattleText
+;	text_end
 
 PackMenuGFX:
 INCBIN "gfx/pack/pack_menu.2bpp"

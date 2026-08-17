@@ -2667,12 +2667,13 @@ TownMapMon:
 ; Draw the FlyMon icon at town map location
 
 ; Get FlyMon species
-	ld a, [wCurPartyMon]
-	ld hl, wPartySpecies
-	ld e, a
-	ld d, 0
-	add hl, de
-	ld a, [hl]
+	;ld a, [wCurPartyMon]
+	;ld hl, wPartySpecies
+	;ld e, a
+	;ld d, 0
+	;add hl, de
+	;ld a, [hl]
+	ld a, [wFieldMoveSpecies]
 	ld [wTempIconSpecies], a
 ; Get FlyMon icon
 	ld e, $08 ; starting tile in VRAM
