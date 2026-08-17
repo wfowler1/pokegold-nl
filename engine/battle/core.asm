@@ -4514,16 +4514,17 @@ PrintPlayerHUD:
 .got_gender_char
 	hlcoord 17, 8
 	ld [hl], a
-	hlcoord 14, 8
+	hlcoord 10, 8
 	push af ; back up gender
 	push hl
 	ld de, wBattleMonStatus
 	predef PlaceNonFaintStatus
 	pop hl
 	pop bc
-	ret nz
+;	ret nz
 	ld a, b
 	cp ' '
+	hlcoord 14, 8
 	jr nz, .copy_level ; male or female
 	dec hl ; genderless
 
@@ -4591,16 +4592,17 @@ DrawEnemyHUD:
 	hlcoord 9, 1
 	ld [hl], a
 
-	hlcoord 6, 1
+	hlcoord 2, 1
 	push af
 	push hl
 	ld de, wEnemyMonStatus
 	predef PlaceNonFaintStatus
 	pop hl
 	pop bc
-	jr nz, .skip_level
+;	jr nz, .skip_level
 	ld a, b
 	cp ' '
+	hlcoord 6, 1
 	jr nz, .print_level
 	dec hl
 .print_level
