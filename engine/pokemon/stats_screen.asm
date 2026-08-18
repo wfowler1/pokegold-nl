@@ -1138,8 +1138,6 @@ LoadOrangePage:
 	jp z, StatsScreen_PlaceFrontpic
 	ret
 
-
-
 NoGoodString:
 	db "Niet goed@" ; "No good@"
 

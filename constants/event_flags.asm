@@ -1330,7 +1330,10 @@
 	const EVENT_ROUTE_12_NUGGET
 	const EVENT_ROUTE_15_PP_UP
 	const EVENT_ROUTE_25_PROTEIN
-; Unused: next 116 events
+; New to Crystal
+	const EVENT_RADIO_TOWER_5F_ULTRA_BALL
+	const EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
+; Unused: next 114 events
 
 	const_next 2048
 DEF NUM_EVENTS EQU const_value ; 800

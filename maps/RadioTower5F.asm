@@ -3,6 +3,7 @@
 	const RADIOTOWER5F_ROCKET
 	const RADIOTOWER5F_ROCKET_GIRL
 	const RADIOTOWER5F_ROCKER
+	const RADIOTOWER5F_POKE_BALL
 
 RadioTower5F_MapScripts:
 	def_scene_scripts
@@ -145,6 +146,9 @@ RadioTower5FRocketBossScript:
 
 Ben:
 	jumptextfaceplayer BenText
+
+RadioTower5FUltraBall:
+	itemball LINKING_CORD
 
 RadioTower5FDirectorsOfficeSign:
 	jumptext RadioTower5FDirectorsOfficeSignText
@@ -473,3 +477,4 @@ RadioTower5F_MapEvents:
 	object_event 13,  5, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 17,  2, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerExecutivef1, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 13,  5, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Ben, EVENT_RADIO_TOWER_CIVILIANS_AFTER
+	object_event  8,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RadioTower5FUltraBall, EVENT_RADIO_TOWER_5F_ULTRA_BALL
