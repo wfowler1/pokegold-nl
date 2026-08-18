@@ -36,7 +36,7 @@ Landmarks:
 	landmark  36,  48, Route39Name
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
-	landmark  28,  64, Route40Name ; Battle Tower
+	landmark  -8, -16, BattleTowerName
 	landmark  28,  64, Route40Name
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
@@ -132,9 +132,9 @@ MtMortarName:        db "VIJZELBERG@" ; "MT.MORTAR"
 DragonsDenName:      db "DRAKENGROT@" ; "DRAGON'S<BSP>DEN"
 IcePathName:         db "IJSPAD@" ; "ICE PATH"
 NotApplicableName:   db "N/A@" ; unreferenced ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
-PalletTownName:      db "PALLET TOWN@" ; "PALLET TOWN@"
+PalletTownName:      db "PALLET<BSP>TOWN@"
 ViridianCityName:    db "VIRIDIAN<BSP>CITY@" ; "VIRIDIAN<BSP>CITY@"
-PewterCityName:      db "PEWTER CITY@" ; "PEWTER CITY@"
+PewterCityName:      db "PEWTER<BSP>CITY@"
 CeruleanCityName:    db "CERULEAN<BSP>CITY@" ; "CERULEAN<BSP>CITY@"
 LavenderTownName:    db "LAVENDER<BSP>TOWN@" ; "LAVENDER<BSP>TOWN@"
 VermilionCityName:   db "VERMILION<BSP>CITY@" ; "VERMILION<BSP>CITY@"
@@ -148,7 +148,7 @@ MtMoonName:          db "MAANBERG@" ; "MT.MOON@"
 RockTunnelName:      db "ROTSTUNNEL@" ; "ROCK TUNNEL@"
 LavRadioTowerName:   db "LAV<BSP>RADIOTOREN@" ; "LAV<BSP>RADIO TOWER@"
 SilphCoName:         db "SILPH CO.@" ; "SILPH CO.@" unreferenced
-SafariZoneName:      db "SAFARI-ZONE@" ; "SAFARI ZONE@" ; unreferenced
+SafariZoneName:      db "SAFARI-<BSP>ZONE@" ; "SAFARI ZONE@" ; unreferenced
 SeafoamIslandsName:  db "ZEESCHUIM<BSP>EILAND@" ; "SEAFOAM<BSP>ISLANDS@"
 PokemonMansionName:  db "#MON<BSP>MANSION@" ; "#MON<BSP>MANSION@" unreferenced
 CeruleanCaveName:    db "CERULEAN<BSP>GROT@" ; "CERULEAN<BSP>CAVE@" ; unreferenced
@@ -205,5 +205,6 @@ FastShipName:        db "SNELSCHIP@" ; "FAST SHIP"
 ViridianForestName:  db "VIRIDIAN<BSP>FOREST@" ; "VIRIDIAN<BSP>FOREST@" unreferenced
 DiglettsCaveName:    db "DIGLETT<BSP>GROT@"
 TohjoFallsName:      db "TOHJO<BSP>WATERVAL@" ; "TOHJO FALLS@"
-UndergroundName:     db "ONDERGRONDS@" ; "UNDERGROUND"
+UndergroundName:     db "ONDER-<BSP>GRONDS@" ; "UNDERGROUND"
+BattleTowerName:     db "GEVECHTS<BSP>TOREN@" ; "BATTLE<BSP>TOWER@"
 SpecialMapName:      db "SPECIAAL@" ; "SPECIAL@"

@@ -685,11 +685,11 @@ TeachWhichPKMNString:
 MoveToWhereString:
 	db "Waarheen?@" ; "Move to where?@"
 
-ChooseAFemalePKMNString: ; unreferenced
-	db "Kies een ♀<PK><MN>.@" ; "Choose a ♀<PK><MN>.@"
+;ChooseAFemalePKMNString: ; unreferenced
+;	db "Kies een ♀<PK><MN>.@" ; "Choose a ♀<PK><MN>.@"
 
-ChooseAMalePKMNString: ; unreferenced
-	db "Kies een ♂<PK><MN>.@" ; "Choose a ♂<PK><MN>.@"
+;ChooseAMalePKMNString: ; unreferenced
+;	db "Kies een ♂<PK><MN>.@" ; "Choose a ♂<PK><MN>.@"
 
 ToWhichPKMNString:
 	db "Naar welke <PK><MN>?@" ; "To which <PK><MN>?@"

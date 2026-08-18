@@ -1,8 +1,9 @@
-	const_def 1
-	const PINK_PAGE  ; 1
-	const GREEN_PAGE ; 2
-	const BLUE_PAGE  ; 3
-DEF NUM_STAT_PAGES EQU const_value - 1
+	const_def
+	const PINK_PAGE   ; 0
+	const GREEN_PAGE  ; 1
+	const BLUE_PAGE   ; 2
+	const ORANGE_PAGE ; 3
+DEF NUM_STAT_PAGES EQU const_value
 
 StatsScreenInit:
 	ldh a, [hMapAnims]
@@ -143,27 +144,30 @@ StatsScreen_LoadPage:
 
 .a_button
 	ld a, c
-	cp BLUE_PAGE ; last page
+	cp ORANGE_PAGE ; last page
 	jr z, StatsScreen_Exit
 
 .d_right
 	inc c
-	ld a, BLUE_PAGE ; last page
+	ld a, ORANGE_PAGE ; last page
 	cp c
 	jr nc, StatsScreen_JumpToLoadPageFunction
 	ld c, PINK_PAGE ; first page
 	jr StatsScreen_JumpToLoadPageFunction
 
 .d_left
-	dec c
-	jr nz, StatsScreen_JumpToLoadPageFunction
-	ld c, BLUE_PAGE ; last page
-; fallthrough
+	ld a, c
+	cp PINK_PAGE ; first page
+	jr nz, StatsScreen_JumpToLoadPageFunction_decC
+	ld c, ORANGE_PAGE ; last page
+	jr StatsScreen_JumpToLoadPageFunction
 
+StatsScreen_JumpToLoadPageFunction_decC:
+	dec c
 StatsScreen_JumpToLoadPageFunction:
 	ld hl, StatsScreen_LoadPageJumptable
 	push bc
-	dec c
+	;dec c
 	ld b, 0
 	add hl, bc
 	add hl, bc
@@ -264,6 +268,7 @@ StatsScreen_LoadPageJumptable:
 	dw LoadPinkPage
 	dw LoadGreenPage
 	dw LoadBluePage
+	dw LoadOrangePage
 	assert_table_length NUM_STAT_PAGES
 
 StatsScreen_InitUpperHalf:
@@ -410,47 +415,78 @@ LoadPinkPage:
 	add hl, de
 	dec b
 	jr nz, .vertical_divider
-	hlcoord 10, 9
 	ld de, .ExpPointStr
+	hlcoord 10, 8
 	call PlaceString
-; print next level
-	ld a, [wTempMonLevel]
-	push af
-	cp MAX_LEVEL
-	jr z, .got_level
-	inc a
-	ld [wTempMonLevel], a
-.got_level
-	hlcoord 17, 14
-	call PrintLevel
-	pop af
-	ld [wTempMonLevel], a
+	hlcoord 17, 13
+	call .PrintNextLevel
+	hlcoord 13, 9
+	lb bc, 3, 7
 	ld de, wTempMonExp
-	hlcoord 13, 10
-	lb bc, 3, 7
 	call PrintNum
-; level-up graphics and strings
 	call .CalcExpToNextLevel
-	ld de, wExpToNextLevel
-	hlcoord 13, 13
+	hlcoord 13, 12
 	lb bc, 3, 7
+	ld de, wExpToNextLevel
 	call PrintNum
-	hlcoord 10, 12
 	ld de, .LevelUpStr
+	hlcoord 10, 11
 	call PlaceString
-	hlcoord 12, 14
 	ld de, .ToStr
+	hlcoord 12, 13
 	call PlaceString
+	hlcoord 11, 14
 	ld a, [wTempMonLevel]
 	ld b, a
 	ld de, wTempMonExp + 2
-	hlcoord 11, 16
 	predef FillInExpBar
-	hlcoord 10, 16
+	hlcoord 10, 14
 	ld [hl], $40 ; left exp bar end cap
-	hlcoord 19, 16
+	hlcoord 19, 14
 	ld [hl], $41 ; right exp bar end cap
+	
+	ld de, .HappinessStr
+	hlcoord 10, 16
+	call PlaceString
+	ld a, [wTempMonHappiness]
+	cp 0
+	jr z, .HappinessZero
+	hlcoord 15, 17
+	ld [hl], '♥'
+	cp 50
+	jr c, .HappinessOne
+	hlcoord 16, 17
+	ld [hl], '♥'
+	cp 100
+	jr c, .HappinessTwo
+	hlcoord 17, 17
+	ld [hl], '♥'
+	cp 150
+	jr c, .HappinessThree
+	hlcoord 18, 17
+	ld [hl], '♥'
+	cp $ff
+	jr c, .HappinessFour
+	hlcoord 19, 17
+	ld [hl], '♥'
+	jr .LoadPalettes
+.HappinessZero
+	hlcoord 15, 17
+	ld [hl], '♦'
+.HappinessOne
+	hlcoord 16, 17
+	ld [hl], '♦'
+.HappinessTwo
+	hlcoord 17, 17
+	ld [hl], '♦'
+.HappinessThree
+	hlcoord 18, 17
+	ld [hl], '♦'
+.HappinessFour
+	hlcoord 19, 17
+	ld [hl], '♦'
 
+.LoadPalettes
 ; Load palettes / place frontpic
 	pop bc
 	farcall LoadStatsScreenPals
@@ -463,13 +499,26 @@ LoadPinkPage:
 	jp z, StatsScreen_PlaceFrontpic
 	ret
 
+.PrintNextLevel:
+	ld a, [wTempMonLevel]
+	push af
+	cp MAX_LEVEL
+	jr z, .AtMaxLevel
+	inc a
+	ld [wTempMonLevel], a
+.AtMaxLevel:
+	call PrintLevel
+	pop af
+	ld [wTempMonLevel], a
+	ret
+
 .CalcExpToNextLevel:
 	ld a, [wTempMonLevel]
 	cp MAX_LEVEL
 	jr z, .AlreadyAtMaxLevel
 	inc a
 	ld d, a
-	call CalcExpAtLevel
+	farcall CalcExpAtLevel
 	ld hl, wTempMonExp + 2
 	ld hl, wTempMonExp + 2
 	ldh a, [hQuotient + 3]
@@ -512,6 +561,9 @@ LoadPinkPage:
 .PkrsStr:
 	db "#RUS@" ; "#RUS@"
 
+.HappinessStr:
+	db "BLIJDSCHAP@" ; "HAPPINESS@"
+
 StatsScreen_PlaceVerticalDivider: ; unreferenced
 ; The Japanese stats screen has a vertical divider.
 	hlcoord 7, 0
@@ -536,7 +588,7 @@ StatsScreen_PlaceHorizontalDivider:
 	ret
 
 StatsScreen_PlacePageSwitchArrows:
-	hlcoord 12, 6
+	hlcoord 10, 6
 	ld [hl], '◀'
 	hlcoord 19, 6
 	ld [hl], '▶'
@@ -629,6 +681,12 @@ LoadBluePage:
 	lb bc, 10, 20
 	call ClearBox
 	call .PlaceOTInfo
+	ld de, MetAtMapString
+	hlcoord 0, 11
+	call PlaceString
+	call .placeCaughtLevel
+	call .placeCaughtLocationAndTime
+	call .placeEggHatch
 	hlcoord 10, 8
 	ld de, SCREEN_WIDTH
 	ld b, 10
@@ -655,56 +713,35 @@ LoadBluePage:
 	ret
 
 .PlaceOTInfo:
-	hlcoord 0, 9
-	ld de, IDNoString
-	call PlaceString
-	hlcoord 0, 12
 	ld de, OTString
+	hlcoord 0, 8
 	call PlaceString
-	hlcoord 2, 10
-	ld de, wTempMonID
-	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
-	call PrintNum
 	ld hl, .OTNamePointers
 	call GetNicknamePointer
-; OT name
-	ld a, [wMonType]
-	cp BOXMON
-	ld a, BANK(sBoxMonOTs)
-	call z, OpenSRAM
-	ld de, wStringBuffer1
-	push de
-	ld bc, NAME_LENGTH
-	call CopyBytes
-	pop de
-	ld a, [wMonType]
-	cp BOXMON
-	call z, CloseSRAM
-	callfar CorrectNickErrors
-	push de
-
-; Adjust coordinate of OT name based on index of nickname terminator
-	lb bc, 0, -1
-.loop
-	inc c
-	ld a, [de]
-	inc de
-	cp '@'
-	jr nz, .loop
-; remove left padding if name was 8-10 chars (somehow?)
-	ld a, NAME_LENGTH - 1
-	sub c
-	cp NAME_LENGTH - PLAYER_NAME_LENGTH
-; otherwise, use 2 spaces of left padding
-	jr c, .ok
-	ld a, NAME_LENGTH - PLAYER_NAME_LENGTH - 1
-.ok
-	ld c, a
-	hlcoord 0, 13
-	add hl, bc
-; that's finally over ... place string, quit forever
-	pop de
+	call CopyNickname
+	farcall CorrectNickErrors
+	hlcoord 3, 8
 	call PlaceString
+	ld de, IDNoString
+	hlcoord 0, 9
+	call PlaceString
+	hlcoord 3, 9
+	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
+	ld de, wTempMonID
+	call PrintNum
+	ld a, [wTempMonCaughtGender]
+	and a
+	jr z, .done
+	cp $7f
+	jr z, .done
+	and CAUGHT_GENDER_MASK
+	ld a, '♂'
+	jr z, .got_gender
+	ld a, '♀'
+.got_gender
+	hlcoord 9, 9
+	ld [hl], a
+.done
 	ret
 
 .OTNamePointers:
@@ -713,11 +750,447 @@ LoadBluePage:
 	dw sBoxMonOTs
 	dw wBufferMonOT
 
+.placeCaughtLocationAndTime
+	ld a, [wTempMonCaughtLocation]
+	and CAUGHT_LOCATION_MASK
+	jr z, .unknown_location_and_time
+	cp LANDMARK_EVENT
+	jr z, .unknown_location_and_time
+	cp LANDMARK_GIFT
+	jr z, .unknown_location_and_time
+	ld e, a
+	farcall GetLandmarkName
+	farcall TownMap_ConvertLineBreakCharacters
+	ld de, wStringBuffer1
+	hlcoord 0, 12
+	call PlaceString
+	ld a, [wTempMonCaughtTime]
+	and CAUGHT_TIME_MASK
+	ret z ; no time
+	rlca
+	rlca
+	dec a
+	ld hl, .times
+	call GetNthString
+	ld d, h
+	ld e, l
+	call CopyName1
+	ld de, wStringBuffer2
+	hlcoord 1, 15
+	call PlaceString
+	ret
+
+.unknown_location_and_time:
+	ld de, MetUnknownMapString
+	hlcoord 0, 12
+	call PlaceString
+	ret
+
+.times
+	db "OCHTEND@" ; "MORNING@"
+	db "DAG@" ; "DAY@"
+	db "NACHT@" ; "NIGHT@"
+
+.placeCaughtLevel
+	hlcoord 1, 14
+	call PrintMetLevel
+	ret
+
+.placeEggHatch
+	ld a, [wTempMonCaughtLevel]
+	and CAUGHT_LEVEL_MASK
+	ret z
+	cp CAUGHT_EGG_LEVEL ; egg marker value
+	ret nz
+	ld de, FromAnEggString
+	hlcoord 0, 16
+	call PlaceString
+	ret
+
 IDNoString:
-	db "<ID>№.@" ; "<ID>№.@"
+	db "<ID>№.@"
 
 OTString:
-	db "OT/@" ; "OT/@"
+	db "OT/@"
+
+MetAtMapString:
+	db "ONTMOET/@" ; "MET/@"
+	
+MetUnknownMapString:
+	db "ONBEKEND@" ; "UNKNOWN@"
+	
+FromAnEggString:
+	db "UIT EEN EI@" ; "FROM EGG@"
+
+LoadOrangePage:
+	push bc
+	push bc
+	xor a
+	ldh [hBGMapMode], a
+	ld b, ORANGE_PAGE
+	call StatsScreen_LoadPageIndicators
+
+; Load graphics
+	hlcoord 0, 8
+	lb bc, 10, 20
+	call ClearBox
+
+	hlcoord 8, 8
+	ld de, SCREEN_WIDTH
+	ld b, 10
+	ld a, $31 ; vertical divider
+.vertical_divider
+	ld [hl], a
+	add hl, de
+	dec b
+	jr nz, .vertical_divider
+	
+	ld de, .DV_Stat_Names
+	hlcoord 0, 8
+	call PlaceString
+	
+	ld a, [wTempMonDVs]
+	and a, %11110000
+	swap a
+	ld b, a
+	push bc
+	hlcoord 6, 11
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	hlcoord 9, 11
+	pop bc
+	ld a, b
+	call .Print_Judge_String
+	
+.print_def_judge
+	ld a, [wTempMonDVs]
+	and a, %00001111
+	ld b, a
+	push bc
+	hlcoord 6, 13
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	hlcoord 9, 13
+	pop bc
+	ld a, b
+	call .Print_Judge_String
+	
+.print_spc_judge
+	ld a, [wTempMonDVs + 1]
+	and a, %00001111
+	ld b, a
+	push bc
+	hlcoord 6, 15
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	hlcoord 9, 15
+	pop bc
+	ld a, b
+	call .Print_Judge_String
+
+.print_spd_judge
+	ld a, [wTempMonDVs + 1]
+	and a, %11110000
+	swap a
+	ld b, a
+	push bc
+	hlcoord 6, 17
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	hlcoord 9, 17
+	pop bc
+	ld a, b
+	call .Print_Judge_String
+
+.print_hp_judge
+	ld c, 0
+	ld a, [wTempMonDVs]
+	swap a
+	and 1
+	jr z, .atk_not_odd
+	ld a, 0
+	add 8
+	ld c, a
+.atk_not_odd
+	ld a, [wTempMonDVs]
+	and 1
+	jr z, .def_not_odd
+	ld a, c
+	add 4
+	ld c, a
+.def_not_odd
+	ld a, [wTempMonDVs + 1]
+	swap a
+	and 1
+	jr z, .spd_not_odd
+	ld a, c
+	add 2
+	ld c, a
+.spd_not_odd
+	ld a, [wTempMonDVs + 1]
+	and 1
+	jr z, .spc_not_odd
+	ld a, c
+	add 1
+	ld c, a
+.spc_not_odd
+	ld a, c
+	ld b, a
+	push bc
+	hlcoord 6, 9
+	ld de, wTextDecimalByte
+	ld [de], a
+	lb bc, 1, 2
+	call PrintNum
+	hlcoord 9, 9
+	pop bc
+	ld a, b
+	call .Print_Judge_String
+
+; Stat EXP bars and DV values
+	ld a, [wTempMonHPExp + 1]
+	cp $ff
+	ld a, [wTempMonHPExp]
+	jr nz, .hp_exp_not_full
+	cp $ff
+	jr nz, .hp_exp_not_full
+	ld a, 64
+	jr .hp_exp_cont
+.hp_exp_not_full
+	srl a
+	srl a
+.hp_exp_cont
+	ld b, a
+	hlcoord 9, 8
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonHPExp]
+	cp $ff
+	jr nz, .atk_exp_bar
+	ld a, [wTempMonHPExp + 1]
+	cp $ff
+	jr nz, .atk_exp_bar
+	hlcoord 19, 8
+	ld [hl], '⁂'
+
+.atk_exp_bar
+	ld a, [wTempMonAtkExp + 1]
+	cp $ff
+	ld a, [wTempMonAtkExp]
+	jr nz, .atk_exp_not_full
+	cp $ff
+	jr nz, .atk_exp_not_full
+	ld a, 64
+	jr .atk_exp_cont
+.atk_exp_not_full
+	srl a
+	srl a
+.atk_exp_cont
+	ld b, a
+	hlcoord 9, 10
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonAtkExp]
+	cp $ff
+	jr nz, .def_exp_bar
+	ld a, [wTempMonAtkExp + 1]
+	cp $ff
+	jr nz, .def_exp_bar
+	hlcoord 19, 10
+	ld [hl], '⁂'
+
+.def_exp_bar
+	ld a, [wTempMonDefExp + 1]
+	cp $ff
+	ld a, [wTempMonDefExp]
+	jr nz, .def_exp_not_full
+	cp $ff
+	jr nz, .def_exp_not_full
+	ld a, 64
+	jr .def_exp_cont
+.def_exp_not_full
+	srl a
+	srl a
+.def_exp_cont
+	ld b, a
+	hlcoord 9, 12
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonDefExp]
+	cp $ff
+	jr nz, .spc_exp_bar
+	ld a, [wTempMonDefExp + 1]
+	cp $ff
+	jr nz, .spc_exp_bar
+	hlcoord 19, 12
+	ld [hl], '⁂'
+
+.spc_exp_bar
+	ld a, [wTempMonSpcExp + 1]
+	cp $ff
+	ld a, [wTempMonSpcExp]
+	jr nz, .spc_exp_not_full
+	cp $ff
+	jr nz, .spc_exp_not_full
+	ld a, 64
+	jr .spc_exp_cont
+.spc_exp_not_full
+	srl a
+	srl a
+.spc_exp_cont
+	ld b, a
+	hlcoord 9, 14
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonSpcExp]
+	cp $ff
+	jr nz, .spd_exp_bar
+	ld a, [wTempMonSpcExp + 1]
+	cp $ff
+	jr nz, .spd_exp_bar
+	hlcoord 19, 14
+	ld [hl], '⁂'
+
+.spd_exp_bar
+	ld a, [wTempMonSpdExp + 1]
+	cp $ff
+	ld a, [wTempMonSpdExp]
+	jr nz, .spd_exp_not_full
+	cp $ff
+	jr nz, .spd_exp_not_full
+	ld a, 64
+	jr .spd_exp_cont
+.spd_exp_not_full
+	srl a
+	srl a
+.spd_exp_cont
+	ld b, a
+	hlcoord 9, 16
+	call PlaceStatExpBar
+	
+	ld a, [wTempMonSpdExp]
+	cp $ff
+	jr nz, .finish
+	ld a, [wTempMonSpdExp + 1]
+	cp $ff
+	jr nz, .finish
+	hlcoord 19, 16
+	ld [hl], '⁂'
+	jr .finish
+
+; Prints judgment string based on the value in "a"
+.Print_Judge_String
+	cp 15
+	jr nz, .check_fantastic
+	ld de, BestString
+	jr .done
+.check_fantastic
+	cp 14
+	jr nz, .check_very_good
+	ld de, FantasticString
+	jr .done
+.check_very_good
+	cp 12
+	jr c, .check_pretty_good
+	ld de, VeryGoodString
+	jr .done
+.check_pretty_good
+	cp 8
+	jr c, .check_decent
+	ld de, PrettyGoodString
+	jr .done
+.check_decent
+	cp 1
+	jr c, .no_good
+	ld de, DecentString
+	jr .done
+.no_good
+	ld de, NoGoodString
+.done
+	call PlaceString
+	ret
+
+.DV_Stat_Names:
+	db "LP" ; "HP"
+	next "AANVAL" ; "ATTACK"
+	next "AFWEER" ; "DEFENSE"
+	next "SPECIAAL" ; "SPECIAL"
+	next "SNELHEID@" ; "SPEED@"
+
+.finish
+; Load palettes / place frontpic
+	pop bc
+	farcall LoadStatsScreenPals
+	call WaitBGMap
+	ld a, 1
+	ldh [hBGMapMode], a
+	pop bc
+	ld a, b
+	and a
+	jp z, StatsScreen_PlaceFrontpic
+	ret
+
+
+
+NoGoodString:
+	db "Niet goed@" ; "No good@"
+
+DecentString:
+	db "Redelijk@" ; "Decent@"
+
+PrettyGoodString:
+	db "Goed@" ; "Pretty good@"
+
+VeryGoodString:
+	db "Heel goed@" ; "Very good@"
+
+FantasticString:
+	db "Fantastisch@" ; "Fantastic@"
+
+BestString:
+	db "Best@"
+
+PlaceStatExpBar:
+	ld a, $40
+	ld [hli], a ; left exp bar end cap
+	ld c, $8 ; number of tiles
+.loop1
+	ld a, b
+	sub $8
+	jr c, .next
+	ld b, a
+	ld a, $6a ; full bar
+	ld [hli], a
+	dec c
+	jr z, .finish
+	jr .loop1
+
+.next
+	add $8
+	jr z, .loop2
+	add $62
+	jr .skip
+
+.loop2
+	ld a, $62 ; empty bar
+
+.skip
+	ld [hli], a
+	ld a, $62 ; empty bar
+	dec c
+	jr nz, .loop2
+
+.finish
+	ld [hl], $41 ; right exp bar end cap
+	ret
 
 StatsScreen_PlaceFrontpic:
 	push bc
@@ -821,8 +1294,11 @@ EggALotMoreTimeString:
 	next "te komen.@" ; "hatch.@"
 
 StatsScreen_LoadPageIndicators:
-	hlcoord 13, 5
+	hlcoord 11, 5
 	ld a, $36 ; first of 4 small square tiles
+	call .load_square
+	hlcoord 13, 5
+	ld a, $36 ; " " " "
 	call .load_square
 	hlcoord 15, 5
 	ld a, $36 ; " " " "
@@ -831,13 +1307,19 @@ StatsScreen_LoadPageIndicators:
 	ld a, $36 ; " " " "
 	call .load_square
 	ld a, b
+	cp PINK_PAGE
+	hlcoord 11, 5
+	jr z, .load_highlighted_square
 	cp GREEN_PAGE
+	hlcoord 13, 5
+	jr z, .load_highlighted_square
+	cp BLUE_PAGE
+	hlcoord 15, 5
+	jr z, .load_highlighted_square
+	; must be ORANGE_PAGE
+	hlcoord 17, 5
+.load_highlighted_square
 	ld a, $3a ; first of 4 large square tiles
-	hlcoord 13, 5 ; PINK_PAGE (< GREEN_PAGE)
-	jr c, .load_square
-	hlcoord 15, 5 ; GREEN_PAGE (= GREEN_PAGE)
-	jr z, .load_square
-	hlcoord 17, 5 ; BLUE_PAGE (> GREEN_PAGE)
 .load_square
 	ld [hli], a
 	inc a
@@ -850,6 +1332,28 @@ StatsScreen_LoadPageIndicators:
 	ld [hli], a
 	inc a
 	ld [hl], a
+	ret
+
+CopyNickname:
+	ld de, wStringBuffer1
+	ld bc, MON_NAME_LENGTH
+	jr .okay ; utterly pointless
+.okay
+	ld a, [wMonType]
+	cp BOXMON
+	jr nz, .partymon
+	ld a, BANK(sBoxMonNicknames)
+	call OpenSRAM
+	push de
+	call CopyBytes
+	pop de
+	call CloseSRAM
+	ret
+
+.partymon
+	push de
+	call CopyBytes
+	pop de
 	ret
 
 GetNicknamePointer:
