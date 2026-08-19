@@ -65,15 +65,15 @@ EnableTextAcceleration:
 	ld [wDisableTextAcceleration], a
 	ret
 
-DuplicateActivateMapAnims: ; unreferenced
-	ld a, TRUE
-	ldh [hMapAnims], a
-	ret
+;DuplicateActivateMapAnims: ; unreferenced
+;	ld a, TRUE
+;	ldh [hMapAnims], a
+;	ret
 
-DuplicateSuspendMapAnims: ; unreferenced
-	xor a ; FALSE
-	ldh [hMapAnims], a
-	ret
+;DuplicateSuspendMapAnims: ; unreferenced
+;	xor a ; FALSE
+;	ldh [hMapAnims], a
+;	ret
 
 LoadMapObjects:
 	ld a, MAPCALLBACK_OBJECTS
@@ -82,8 +82,8 @@ LoadMapObjects:
 	farcall InitializeVisibleSprites
 	ret
 
-MapSetup_DummyFunction: ; unreferenced
-	ret
+;MapSetup_DummyFunction: ; unreferenced
+;	ret
 
 ResetPlayerObjectAction:
 	ld hl, wPlayerSpriteSetupFlags

@@ -435,19 +435,19 @@ endr
 .done:
 	ret
 
-GetUsedSpriteTileB: ; unreferenced
-	ld a, c
-	jr GetUsedSprite
+;GetUsedSpriteTileB: ; unreferenced
+;	ld a, c
+;	jr GetUsedSprite
 
-GetUsedSpriteFirst: ; unreferenced
-	ld a, c
-	ld b, $00
-	jr GetUsedSprite
+;GetUsedSpriteFirst: ; unreferenced
+;	ld a, c
+;	ld b, $00
+;	jr GetUsedSprite
 
-GetUsedSpriteSecond: ; unreferenced
-	ld a, c
-	ld b, $0c
-	jr GetUsedSprite
+;GetUsedSpriteSecond: ; unreferenced
+;	ld a, c
+;	ld b, $0c
+;	jr GetUsedSprite
 
 GetUsedSprite:
 ; Input: b = tile id, c = index

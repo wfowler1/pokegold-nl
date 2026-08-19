@@ -1,14 +1,14 @@
-StopRTC: ; unreferenced
-	ld a, RAMG_SRAM_ENABLE
-	ld [rRAMG], a
-	call LatchClock
-	ld a, RAMB_RTC_DH
-	ld [rRAMB], a
-	ld a, [rRTCREG]
-	set B_RAMB_RTC_DH_HALT, a
-	ld [rRTCREG], a
-	call CloseSRAM
-	ret
+;StopRTC: ; unreferenced
+;	ld a, RAMG_SRAM_ENABLE
+;	ld [rRAMG], a
+;	call LatchClock
+;	ld a, RAMB_RTC_DH
+;	ld [rRAMB], a
+;	ld a, [rRTCREG]
+;	set B_RAMB_RTC_DH_HALT, a
+;	ld [rRTCREG], a
+;	call CloseSRAM
+;	ret
 
 StartRTC:
 	ld a, RAMG_SRAM_ENABLE
@@ -54,11 +54,11 @@ TimesOfDay:
 	db MAX_HOUR,  NITE_F
 	db -1, MORN_F
 
-BetaTimesOfDay: ; unreferenced
-	db 20, NITE_F
-	db 40, MORN_F
-	db 60, DAY_F
-	db -1, MORN_F
+;BetaTimesOfDay: ; unreferenced
+;	db 20, NITE_F
+;	db 40, MORN_F
+;	db 60, DAY_F
+;	db -1, MORN_F
 
 StageRTCTimeForSave:
 	call UpdateTime

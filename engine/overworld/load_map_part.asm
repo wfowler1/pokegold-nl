@@ -39,124 +39,124 @@ _LoadOverworldTilemap::
 	jr nz, .loop
 	ret
 
-ForceApplyFlashlight1: ; unreferenced
+;ForceApplyFlashlight1: ; unreferenced
 ; See pokegold-spaceworld's ApplyFlashlight.force_1 in home/map.asm.
-	decoord 2, 2
-	ld bc, (SURROUNDING_WIDTH + 1) * 2
-	add hl, bc
-	ld c, SCREEN_HEIGHT - 4 * 1
-.loop:
-	ld b, SCREEN_WIDTH - SCREEN_META_WIDTH
-.loop2:
-	ld a, [hli]
-	ld [de], a
-	inc de
-	dec b
-	jr nz, .loop2
-	ld a, l
-	add SCREEN_META_WIDTH + METATILE_WIDTH
-	ld l, a
-	jr nc, .carry1
-	inc h
+;	decoord 2, 2
+;	ld bc, (SURROUNDING_WIDTH + 1) * 2
+;	add hl, bc
+;	ld c, SCREEN_HEIGHT - 4 * 1
+;.loop:
+;	ld b, SCREEN_WIDTH - SCREEN_META_WIDTH
+;.loop2:
+;	ld a, [hli]
+;	ld [de], a
+;	inc de
+;	dec b
+;	jr nz, .loop2
+;	ld a, l
+;	add SCREEN_META_WIDTH + METATILE_WIDTH
+;	ld l, a
+;	jr nc, .carry1
+;	inc h
 
-.carry1:
-	ld a, e
-	add SCREEN_META_WIDTH
-	ld e, a
-	jr nc, .carry2
-	inc d
+;.carry1:
+;	ld a, e
+;	add SCREEN_META_WIDTH
+;	ld e, a
+;	jr nc, .carry2
+;	inc d
 
-.carry2:
-	dec c
-	jr nz, .loop
-	ret
+;.carry2:
+;	dec c
+;	jr nz, .loop
+;	ret
 
-ForceApplyFlashlight2: ; unreferenced
+;ForceApplyFlashlight2: ; unreferenced
 ; See pokegold-spaceworld's ApplyFlashlight.force_2 in home/map.asm.
-	decoord 4, 4
-	ld bc, (SURROUNDING_WIDTH + 1) * 4
-	add hl, bc
-	ld c, SCREEN_HEIGHT - 4 * 2
-.loop:
-	ld b, SCREEN_WIDTH - SCREEN_META_WIDTH - METATILE_WIDTH
-.loop2:
-	ld a, [hli]
-	ld [de], a
-	inc de
-	dec b
-	jr nz, .loop2
-	ld a, l
-	add SCREEN_META_WIDTH + METATILE_WIDTH * 2
-	ld l, a
-	jr nc, .carry1
-	inc h
+;	decoord 4, 4
+;	ld bc, (SURROUNDING_WIDTH + 1) * 4
+;	add hl, bc
+;	ld c, SCREEN_HEIGHT - 4 * 2
+;.loop:
+;	ld b, SCREEN_WIDTH - SCREEN_META_WIDTH - METATILE_WIDTH
+;.loop2:
+;	ld a, [hli]
+;	ld [de], a
+;	inc de
+;	dec b
+;	jr nz, .loop2
+;	ld a, l
+;	add SCREEN_META_WIDTH + METATILE_WIDTH * 2
+;	ld l, a
+;	jr nc, .carry1
+;	inc h
 
-.carry1:
-	ld a, e
-	add SCREEN_META_WIDTH + METATILE_WIDTH
-	ld e, a
-	jr nc, .carry2
-	inc d
+;.carry1:
+;	ld a, e
+;	add SCREEN_META_WIDTH + METATILE_WIDTH
+;	ld e, a
+;	jr nc, .carry2
+;	inc d
 
-.carry2:
-	dec c
-	jr nz, .loop
-	ret
+;.carry2:
+;	dec c
+;	jr nz, .loop
+;	ret
 
-ForceApplyFlashlight3: ; unreferenced
+;ForceApplyFlashlight3: ; unreferenced
 ; See pokegold-spaceworld's ApplyFlashlight.force_3 in home/map.asm.
-	decoord 6, 6
-	ld bc, (SURROUNDING_WIDTH + 1) * 6
-	add hl, bc
-	ld c, SCREEN_HEIGHT - 4 * 3
-.loop:
-	ld b, SCREEN_WIDTH - SCREEN_META_WIDTH - METATILE_WIDTH * 2
-.loop2:
-	ld a, [hli]
-	ld [de], a
-	inc de
-	dec b
-	jr nz, .loop2
-	ld a, l
-	add SCREEN_META_WIDTH + METATILE_WIDTH * 3
-	ld l, a
-	jr nc, .carry1
-	inc h
+;	decoord 6, 6
+;	ld bc, (SURROUNDING_WIDTH + 1) * 6
+;	add hl, bc
+;	ld c, SCREEN_HEIGHT - 4 * 3
+;.loop:
+;	ld b, SCREEN_WIDTH - SCREEN_META_WIDTH - METATILE_WIDTH * 2
+;.loop2:
+;	ld a, [hli]
+;	ld [de], a
+;	inc de
+;	dec b
+;	jr nz, .loop2
+;	ld a, l
+;	add SCREEN_META_WIDTH + METATILE_WIDTH * 3
+;	ld l, a
+;	jr nc, .carry1
+;	inc h
 
-.carry1:
-	ld a, e
-	add SCREEN_META_WIDTH + METATILE_WIDTH * 2
-	ld e, a
-	jr nc, .carry2
-	inc d
+;.carry1:
+;	ld a, e
+;	add SCREEN_META_WIDTH + METATILE_WIDTH * 2
+;	ld e, a
+;	jr nc, .carry2
+;	inc d
 
-.carry2:
-	dec c
-	jr nz, .loop
-	ret
+;.carry2:
+;	dec c
+;	jr nz, .loop
+;	ret
 
-ForceApplyFlashlight4: ; unreferenced
+;ForceApplyFlashlight4: ; unreferenced
 ; See pokegold-spaceworld's ApplyFlashlight.force_4 in home/map.asm.
-	decoord 8, 8
-	ld bc, (SURROUNDING_WIDTH + 1) * 8
-	add hl, bc
-	ld a, [hli]
-	ld [de], a
-	inc de
-	ld a, [hli]
-	ld [de], a
-	ld bc, SCREEN_WIDTH + 2
-	add hl, bc
-	ld a, e
-	add SCREEN_META_WIDTH + METATILE_WIDTH * 3 + 1
-	ld e, a
-	jr nc, .carry
-	inc d
+;	decoord 8, 8
+;	ld bc, (SURROUNDING_WIDTH + 1) * 8
+;	add hl, bc
+;	ld a, [hli]
+;	ld [de], a
+;	inc de
+;	ld a, [hli]
+;	ld [de], a
+;	ld bc, SCREEN_WIDTH + 2
+;	add hl, bc
+;	ld a, e
+;	add SCREEN_META_WIDTH + METATILE_WIDTH * 3 + 1
+;	ld e, a
+;	jr nc, .carry
+;	inc d
 
-.carry:
-	ld a, [hli]
-	ld [de], a
-	inc de
-	ld a, [hli]
-	ld [de], a
-	ret
+;.carry:
+;	ld a, [hli]
+;	ld [de], a
+;	inc de
+;	ld a, [hli]
+;	ld [de], a
+;	ret

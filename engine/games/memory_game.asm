@@ -1,9 +1,29 @@
+DEF GAMECORNER_MEMORYGAME_QUESTION_MARK EQU 0
+DEF GAMECORNER_MEMORYGAME_MEDKIT        EQU 1
+DEF GAMECORNER_MEMORYGAME_CANDY         EQU 2
+DEF GAMECORNER_MEMORYGAME_DOLL          EQU 3
+DEF GAMECORNER_MEMORYGAME_STAR          EQU 4
+DEF GAMECORNER_MEMORYGAME_POTION        EQU 5
+DEF GAMECORNER_MEMORYGAME_BALL          EQU 6
+DEF GAMECORNER_MEMORYGAME_SUPERBALL     EQU 7
+DEF GAMECORNER_MEMORYGAME_POKEGEAR      EQU 8
+
+DEF GAMECORNER_MEMORYGAME_CANDY_REWARD     EQU 1
+DEF GAMECORNER_MEMORYGAME_DOLL_REWARD      EQU 3
+DEF GAMECORNER_MEMORYGAME_STAR_REWARD      EQU 5
+DEF GAMECORNER_MEMORYGAME_BALL_REWARD      EQU 10
+DEF GAMECORNER_MEMORYGAME_SUPERBALL_REWARD EQU 50
+
 _MemoryGame:
+	ld hl, wOptions
+	set NO_TEXT_SCROLL, [hl]
 	call .LoadGFXAndPals
 	call DelayFrame
 .loop
 	call .JumptableLoop
 	jr nc, .loop
+	ld hl, wOptions
+	res NO_TEXT_SCROLL, [hl]
 	ret
 
 .LoadGFXAndPals:
@@ -53,6 +73,9 @@ _MemoryGame:
 	ret
 
 .quit
+	ld de, SFX_QUIT_SLOTS
+	call PlaySFX
+	call WaitSFX
 	scf
 	ret
 
@@ -71,19 +94,64 @@ _MemoryGame:
 	dw .AskPlayAgain
 
 .RestartGame:
+	ld hl, .CardFlipPlayWithThreeCoinsText
+	call PrintText
+	call CardFlip_PrintCoinBalance
+	call YesNoBox
+	jr c, .NotPlaying
+	call .DeductCoins
+	jr c, .NotPlaying
 	call MemoryGame_InitStrings
 	ld hl, wJumptableIndex
 	inc [hl]
 	ret
 
-.ResetBoard:
-	call UnusedCursor_InterpretJoypad_AnimateCursor
-	jr nc, .proceed
+.NotPlaying:
 	ld hl, wJumptableIndex
 	set JUMPTABLE_EXIT_F, [hl]
 	ret
 
-.proceed
+.CardFlipPlayWithThreeCoinsText:
+	text_far _CardFlipPlayWithThreeCoinsText
+	text_end
+
+.DeductCoins:
+	ld a, [wCoins]
+	ld h, a
+	ld a, [wCoins + 1]
+	ld l, a
+	ld a, h
+	and a
+	jr nz, .deduct ; You have at least 256 coins.
+	ld a, l
+	cp 3
+	jr nc, .deduct ; You have at least 3 coins.
+	ld hl, .CardFlipNotEnoughCoinsText
+	call PrintText
+	scf
+	ret
+
+.deduct
+	ld de, -3
+	add hl, de
+	ld a, h
+	ld [wCoins], a
+	ld a, l
+	ld [wCoins + 1], a
+	ld de, SFX_TRANSACTION
+	call PlaySFX
+	call CardFlip_PrintCoinBalance
+	call WaitSFX
+	xor a
+	ret
+
+.CardFlipNotEnoughCoinsText:
+	text_far _CardFlipNotEnoughCoinsText
+	text_end
+
+.ResetBoard:
+	ld de, SFX_SLOT_MACHINE_START
+	call PlaySFX
 	call MemoryGame_InitBoard
 	ld hl, wJumptableIndex
 	inc [hl]
@@ -118,19 +186,22 @@ endr
 	ret
 
 .CheckTriesRemaining:
-	ld a, [wMemoryGameNumberTriesRemaining]
-	hlcoord 17, 0
-	add '0'
-	ld [hl], a
 	ld hl, wMemoryGameNumberTriesRemaining
 	ld a, [hl]
 	and a
 	jr nz, .next_try
+	ld hl, MemoryGameGameOverText
+	call PrintText
 	ld a, $7
 	ld [wJumptableIndex], a
 	ret
 
 .next_try
+	push hl
+	ld hl, CardFlipChooseACardText
+	call PrintText
+	call MemoryGame_PrintTries
+	pop hl
 	dec [hl]
 	xor a
 	ld [wMemoryGameCardChoice], a
@@ -154,8 +225,13 @@ endr
 	ld [wMemoryGameCard1Location], a
 	call MemoryGame_Card2Coord
 	call MemoryGame_PlaceCard
+	ld a, [wMemoryGameLastCardPicked]
+	cp GAMECORNER_MEMORYGAME_POKEGEAR
+	jr z, .GameOverCard
 	xor a
 	ld [wMemoryGameCardChoice], a
+	ld de, SFX_STOP_SLOT
+	call PlaySFX
 	ld hl, wJumptableIndex
 	inc [hl]
 	ret
@@ -181,8 +257,13 @@ endr
 	ld [wMemoryGameCard2Location], a
 	call MemoryGame_Card2Coord
 	call MemoryGame_PlaceCard
-	ld a, 64
+	ld a, [wMemoryGameLastCardPicked]
+	cp GAMECORNER_MEMORYGAME_POKEGEAR
+	jr z, .GameOverCard
+	ld a, 20
 	ld [wMemoryGameCounter], a
+	ld de, SFX_STOP_SLOT
+	call PlaySFX
 	ld hl, wJumptableIndex
 	inc [hl]
 .DelayPickAgain:
@@ -199,10 +280,18 @@ endr
 	ld [wJumptableIndex], a
 	ret
 
+.GameOverCard:
+	ld de, SFX_WRONG
+	call PlaySFX
+	ld a, 0
+	ld [wMemoryGameNumberTriesRemaining], a
+	ld a, $7
+	ld [wJumptableIndex], a
+	ld hl, GameOverCardText
+	call PrintText
+	ret
+
 .RevealAll:
-	ldh a, [hJoypadPressed]
-	and PAD_A
-	ret z
 	xor a
 	ld [wMemoryGameCounter], a
 .RevelationLoop:
@@ -229,16 +318,7 @@ endr
 
 .finish_round
 	call WaitPressAorB_BlinkCursor
-	ld hl, wJumptableIndex
-	inc [hl]
 .AskPlayAgain:
-	call UnusedCursor_InterpretJoypad_AnimateCursor
-	jr nc, .restart
-	ld hl, wJumptableIndex
-	set JUMPTABLE_EXIT_F, [hl]
-	ret
-
-.restart
 	xor a
 	ld [wJumptableIndex], a
 	ret
@@ -248,6 +328,9 @@ MemoryGame_CheckMatch:
 	ld a, [hli]
 	cp [hl]
 	jr nz, .no_match
+
+	ld hl, wMemoryGameNumberTriesRemaining
+	inc [hl]
 
 	ld a, [wMemoryGameCard1Location]
 	call MemoryGame_Card2Coord
@@ -283,16 +366,21 @@ MemoryGame_CheckMatch:
 	ld hl, wMemoryGameNumCardsMatched
 	ld e, [hl]
 	inc [hl]
-	inc [hl]
 	ld d, 0
-	hlcoord 5, 0
+	hlcoord 0, 0
 	add hl, de
 	call MemoryGame_PlaceCard
-	ld hl, .VictoryText
-	call PrintText
+	call .RewardMatch
 	ret
 
 .no_match
+	ld de, SFX_WRONG
+	call PlaySFX
+	ld hl, MemoryGameDarnText
+	call PrintText
+	call MemoryGame_PrintTries
+	call WaitPressAorB_BlinkCursor
+
 	xor a
 	ld [wMemoryGameLastCardPicked], a
 
@@ -304,8 +392,130 @@ MemoryGame_CheckMatch:
 	call MemoryGame_Card2Coord
 	call MemoryGame_PlaceCard
 
-	ld hl, MemoryGameDarnText
+	ret
+
+; Take action based on what was matched
+.RewardMatch
+	ld a, [wMemoryGameLastCardPicked]
+	cp GAMECORNER_MEMORYGAME_MEDKIT
+	jr nz, .not_medkit
+	; Add an extra try
+	ld hl, wMemoryGameNumberTriesRemaining
+	inc [hl]
+	ld hl, .ExtraTryText
 	call PrintText
+	ld de, SFX_2ND_PLACE
+	call PlaySFX
+	call WaitSFX
+	call WaitPressAorB_BlinkCursor
+	ret
+.not_medkit
+	cp GAMECORNER_MEMORYGAME_CANDY
+	jr nz, .not_candy
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_CANDY_REWARD
+	ld de, SFX_3RD_PLACE
+	jr .Payout
+.not_candy
+	cp GAMECORNER_MEMORYGAME_DOLL
+	jr nz, .not_pokedoll
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_DOLL_REWARD
+	ld de, SFX_3RD_PLACE
+	jr .Payout
+.not_pokedoll
+	cp GAMECORNER_MEMORYGAME_STAR
+	jr nz, .not_star
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_STAR_REWARD
+	ld de, SFX_3RD_PLACE
+	jr .Payout
+.not_star
+	cp GAMECORNER_MEMORYGAME_POTION
+	jr nz, .not_potion
+	ld hl, .NoPrizeText
+	call PrintText
+	ld de, SFX_BUMP
+	call PlaySFX
+	call WaitSFX
+	call WaitPressAorB_BlinkCursor
+	ret
+.not_potion
+	cp GAMECORNER_MEMORYGAME_BALL
+	jr nz, .not_pokeball
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_BALL_REWARD
+	ld de, SFX_3RD_PLACE
+	jr .Payout
+.not_pokeball
+	cp GAMECORNER_MEMORYGAME_SUPERBALL
+	ret nz ; The last icon only occurs once so we can't reward a match for it
+	; Reward coins
+	ld c, GAMECORNER_MEMORYGAME_SUPERBALL_REWARD
+	ld de, SFX_1ST_PLACE
+	; Fallthrough
+
+.Payout:
+	ld a, c
+	push bc
+	push de
+	ld [wStringBuffer2], a
+	ld hl, .VictoryText
+	call PrintText
+	call CardFlip_PrintCoinBalance
+	pop de
+	call PlaySFX
+	call WaitSFX
+	pop bc
+
+.loop
+	push bc
+	call .IsCoinCaseFull
+	jr c, .full
+	call .AddCoinPlaySFX
+
+.full
+	call CardFlip_PrintCoinBalance
+	ld c, 2
+	call DelayFrames
+	pop bc
+	dec c
+	jr nz, .loop
+	call WaitPressAorB_BlinkCursor
+	ret
+
+.AddCoinPlaySFX:
+	ld a, [wCoins]
+	ld h, a
+	ld a, [wCoins + 1]
+	ld l, a
+	inc hl
+	ld a, h
+	ld [wCoins], a
+	ld a, l
+	ld [wCoins + 1], a
+	ld de, SFX_PAY_DAY
+	call PlaySFX
+	ret
+
+.IsCoinCaseFull:
+	ld a, [wCoins]
+	cp HIGH(MAX_COINS)
+	jr c, .less
+	jr z, .check_low
+	jr .more
+
+.check_low
+	ld a, [wCoins + 1]
+	cp LOW(MAX_COINS)
+	jr c, .less
+
+.more
+	scf
+	ret
+
+.less
+	and a
 	ret
 
 .VictoryText:
@@ -320,12 +530,64 @@ MemoryGame_CheckMatch:
 	inc bc
 	ret
 
+.ExtraTryText:
+	text_asm
+	push bc
+	hlcoord 2, 13
+	call MemoryGame_PlaceCard
+	ld hl, MemoryGameExtraTryText
+	pop bc
+	inc bc
+	inc bc
+	inc bc
+	ret
+
+.NoPrizeText:
+	text_asm
+	push bc
+	hlcoord 2, 13
+	call MemoryGame_PlaceCard
+	ld hl, MemoryGameNoPrizeText
+	pop bc
+	inc bc
+	inc bc
+	inc bc
+	ret
+
+GameOverCardText:
+	text_asm
+	push bc
+	hlcoord 2, 13
+	call MemoryGame_PlaceCard
+	ld hl, MemoryGameGameOverCardText
+	pop bc
+	inc bc
+	inc bc
+	inc bc
+	ret
+
+MemoryGameExtraTryText:
+	text_far _MemoryGameExtraTryText
+	text_end
+
+MemoryGameNoPrizeText:
+	text_far _MemoryGameNoPrizeText
+	text_end
+
 MemoryGameYeahText:
 	text_far _MemoryGameYeahText
 	text_end
 
 MemoryGameDarnText:
 	text_far _MemoryGameDarnText
+	text_end
+
+MemoryGameGameOverText:
+	text_far _MemoryGameGameOverText
+	text_end
+
+MemoryGameGameOverCardText:
+	text_far _MemoryGameGameOverCardText
 	text_end
 
 MemoryGame_InitBoard:
@@ -335,35 +597,35 @@ MemoryGame_InitBoard:
 	call ByteFill
 	call MemoryGame_GetDistributionOfTiles
 
-	ld c, 2
+	ld c, GAMECORNER_MEMORYGAME_CANDY
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 8
+	ld c, GAMECORNER_MEMORYGAME_POKEGEAR
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 4
+	ld c, GAMECORNER_MEMORYGAME_STAR
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 7
+	ld c, GAMECORNER_MEMORYGAME_SUPERBALL
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 3
+	ld c, GAMECORNER_MEMORYGAME_DOLL
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 6
+	ld c, GAMECORNER_MEMORYGAME_BALL
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 1
+	ld c, GAMECORNER_MEMORYGAME_MEDKIT
 	ld b, [hl]
 	call MemoryGame_SampleTilePlacement
 
-	ld c, 5
+	ld c, GAMECORNER_MEMORYGAME_POTION
 	ld hl, wMemoryGameCards
 	ld b, wMemoryGameCardsEnd - wMemoryGameCards
 .loop
@@ -392,7 +654,7 @@ MemoryGame_SampleTilePlacement:
 	and a
 	jr nz, .loop
 	ld [hl], c
-	dec b
+	dec c
 	jr nz, .loop
 	pop hl
 	inc hl
@@ -450,22 +712,27 @@ MemoryGame_InitStrings:
 	ld bc, SCREEN_AREA
 	ld a, $1
 	call ByteFill
-	hlcoord 0, 0
-	ld de, .japstr1
-	call PlaceString
-	hlcoord 15, 0
-	ld de, .japstr2
-	call PlaceString
-	ld hl, .dummy_text
-	call PrintText
 	ret
 
-.dummy_text
-	db "@"
-.japstr1
-	db "とったもの@" ; "とったもの@"
-.japstr2
-	db "あと　かい@" ; "あと　かい@"
+CardFlipChooseACardText:
+	text_far _CardFlipChooseACardText
+	text_end
+
+MemoryGame_PrintTries:
+	hlcoord 9, 15
+	lb bc, 1, 9
+	call Textbox
+	hlcoord 10, 16
+	ld de, .tries_text
+	call PlaceString
+	hlcoord 17, 16
+	ld de, wMemoryGameNumberTriesRemaining
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
+	call PrintNum
+	ret
+
+.tries_text:
+	db "POGEN@" ; "TRIES@"
 
 MemoryGame_Card2Coord:
 	ld d, 0
@@ -495,6 +762,10 @@ MemoryGame_Card2Coord:
 
 MemoryGame_InterpretJoypad_AnimateCursor:
 	ld a, [wJumptableIndex]
+	cp $3
+	jr c, .quit
+	cp $6
+	ret z
 	cp $7
 	jr nc, .quit
 	call JoyTextDelay
@@ -541,7 +812,7 @@ MemoryGame_InterpretJoypad_AnimateCursor:
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	dec [hl]
-	ret
+	jr .play_movement_sound
 
 .pressed_right
 	ld hl, SPRITEANIMSTRUCT_XOFFSET
@@ -554,7 +825,7 @@ MemoryGame_InterpretJoypad_AnimateCursor:
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	inc [hl]
-	ret
+	jr .play_movement_sound
 
 .pressed_up
 	ld hl, SPRITEANIMSTRUCT_YOFFSET
@@ -569,7 +840,7 @@ MemoryGame_InterpretJoypad_AnimateCursor:
 	ld a, [hl]
 	sub 9
 	ld [hl], a
-	ret
+	jr .play_movement_sound
 
 .pressed_down
 	ld hl, SPRITEANIMSTRUCT_YOFFSET
@@ -584,7 +855,15 @@ MemoryGame_InterpretJoypad_AnimateCursor:
 	ld a, [hl]
 	add 9
 	ld [hl], a
+	; fallthrough
+
+.play_movement_sound
+	ld de, SFX_POKEBALLS_PLACED_ON_TABLE
+	call PlaySFX
 	ret
 
 MemoryGameLZ:
 INCBIN "gfx/memory_game/memory_game.2bpp.lz"
+
+MemoryGameGFX:
+INCBIN "gfx/battle_anims/pointer.2bpp"

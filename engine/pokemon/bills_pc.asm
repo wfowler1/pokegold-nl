@@ -101,10 +101,10 @@ _DepositPKMN:
 	ld [wJumptableIndex], a
 	ret
 
-.go_back ; unreferenced
-	ld hl, wJumptableIndex
-	dec [hl]
-	ret
+;.go_back ; unreferenced
+;	ld hl, wJumptableIndex
+;	dec [hl]
+;	ret
 
 .b_button
 	ld a, $4

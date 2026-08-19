@@ -92,6 +92,7 @@ INCLUDE "data/items/marts.asm"
 INCLUDE "engine/events/mom.asm"
 INCLUDE "engine/events/daycare.asm"
 INCLUDE "engine/events/print_unown.asm"
+INCLUDE "engine/events/print_unown_2.asm"
 INCLUDE "engine/events/print_photo.asm"
 INCLUDE "engine/link/mystery_gift_gfx.asm"
 INCLUDE "engine/pokemon/breeding.asm"
@@ -295,8 +296,6 @@ INCLUDE "engine/battle_anims/helpers.asm"
 
 SECTION "bank38", ROMX
 
-INCLUDE "engine/events/diploma.asm"
-INCLUDE "engine/events/print_unown_2.asm"
 INCLUDE "engine/games/card_flip.asm"
 INCLUDE "engine/games/unown_puzzle.asm"
 INCLUDE "engine/games/memory_game.asm"
@@ -308,6 +307,7 @@ SECTION "bank39", ROMX
 INCLUDE "engine/menus/options_menu.asm"
 INCLUDE "engine/movie/splash.asm"
 INCLUDE "engine/movie/intro.asm"
+INCLUDE "engine/events/diploma.asm"
 
 
 SECTION "bank3E", ROMX

@@ -154,7 +154,7 @@ endc
 	lb bc, 7, 7
 	predef PlaceGraphic
 	ld de, vTiles2 tile $31
-	farcall RotateUnownFrontpic
+	call RotateUnownFrontpic
 	ret
 
 .vacant

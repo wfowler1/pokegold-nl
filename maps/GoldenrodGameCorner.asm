@@ -363,9 +363,60 @@ GoldenrodGameCornerLuckySlotsMachineScript:
 	closetext
 	end
 
+GoldenrodGameCornerMemoryGameScript:
+	reanchormap
+	special UnusedMemoryGame
+	closetext
+	end
+
 GoldenrodGameCornerCardFlipMachineScript:
 	reanchormap
 	special CardFlip
+	closetext
+	end
+
+GoldenrodGameCornerCooltrainerM2Script:
+	faceplayer
+	opentext
+	writetext GoldenrodGameCornerCooltrainerM2Text
+	waitbutton
+	closetext
+	turnobject LAST_TALKED, LEFT
+	end
+
+GoldenrodGameCornerKabutoPuzzle:
+	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_KABUTO
+	sjump GoldenrodGameCornerUnownPuzzle
+GoldenrodGameCornerOmanytePuzzle:
+	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_OMANYTE
+	sjump GoldenrodGameCornerUnownPuzzle
+GoldenrodGameCornerAerodactylPuzzle:
+	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_AERODACTYL
+	sjump GoldenrodGameCornerUnownPuzzle
+GoldenrodGameCornerHoohPuzzle:
+	checkevent EVENT_SOLVED_HO_OH_PUZZLE
+	iffalse GoldenrodGameCornerNotWorking
+	setval UNOWNPUZZLE_HO_OH
+GoldenrodGameCornerUnownPuzzle:
+	reanchormap
+	special UnownPuzzle
+	closetext
+;	iftrue .PuzzleComplete
+	end
+
+;.PuzzleComplete:
+;	end
+
+GoldenrodGameCornerNotWorking:
+	reanchormap
+	writetext GoldenrodGameCornerText_DoesntWork
+	waitbutton
 	closetext
 	end
 
@@ -514,6 +565,19 @@ GoldenrodGameCornerPokefanM2Text:
 	cont "gegooid." ;
 	done
 
+GoldenrodGameCornerCooltrainerM2Text:
+	text "Deze nieuwe" ; "The new machines"
+	line "machinen z'n heel" ; "are really cool!"
+	cont "geweldig!"
+
+	para "Probeer ze uit!" ; "Try them out!"
+	done
+
+GoldenrodGameCornerText_DoesntWork:
+	text "Dit werkt" ; "This doesn't seem"
+	line "nog niet." ; "to work yet."
+	done
+
 GoldenrodGameCorner_MapEvents:
 	db 0, 0 ; filler
 
@@ -524,6 +588,12 @@ GoldenrodGameCorner_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event  1,  6, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
+	bg_event  1,  7, BGEVENT_READ, GoldenrodGameCornerMemoryGameScript
+	bg_event  1,  8, BGEVENT_READ, GoldenrodGameCornerKabutoPuzzle
+	bg_event  1,  9, BGEVENT_READ, GoldenrodGameCornerOmanytePuzzle
+	bg_event  1, 10, BGEVENT_READ, GoldenrodGameCornerAerodactylPuzzle
+	bg_event  1, 11, BGEVENT_LEFT, GoldenrodGameCornerHoohPuzzle
 	bg_event  6,  6, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
 	bg_event  6,  7, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
 	bg_event  6,  8, BGEVENT_READ, GoldenrodGameCornerSlotsMachineScript
@@ -566,4 +636,5 @@ GoldenrodGameCorner_MapEvents:
 	object_event 17,  6, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPokefanFScript, -1
 	object_event 10,  3, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerCooltrainerFScript, -1
 	object_event  5, 10, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerGentlemanScript, -1
-	object_event  2,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPokefanM2Script, -1
+	object_event  0,  12, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPokefanM2Script, -1
+	object_event  2,  6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerCooltrainerM2Script, -1

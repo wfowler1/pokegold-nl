@@ -1346,9 +1346,9 @@ _MomJustDoWhatYouCanText::
 	line "best." ; "you can."
 	done
 
-_DaycareDummyText::
-	text_start
-	done
+;_DaycareDummyText::
+;	text_start
+;	done
 
 _DayCareManIntroText::
 	text "Ik ben de OPVANG-" ; "I'm the DAY-CARE"
