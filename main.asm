@@ -50,7 +50,6 @@ INCLUDE "engine/pokemon/knows_move.asm"
 
 SECTION "bank4", ROMX
 
-INCLUDE "engine/overworld/player_movement.asm"
 INCLUDE "engine/items/pack.asm"
 INCLUDE "engine/overworld/time.asm"
 INCLUDE "engine/items/tmhm2.asm"
@@ -62,6 +61,7 @@ INCLUDE "engine/events/forced_movement.asm"
 INCLUDE "engine/events/itemfinder.asm"
 INCLUDE "engine/menus/start_menu.asm"
 INCLUDE "engine/pokemon/mon_menu.asm"
+INCLUDE "engine/events/move_reminder.asm"
 INCLUDE "engine/overworld/select_menu.asm"
 INCLUDE "engine/events/elevator.asm"
 INCLUDE "engine/events/bug_contest/contest.asm"
@@ -221,6 +221,11 @@ INCLUDE "engine/gfx/load_pics.asm"
 INCLUDE "engine/pokemon/move_mon_wo_mail.asm"
 INCLUDE "data/pokemon/base_stats.asm"
 ; INCLUDE "data/pokemon/unused_pic_banks.asm"
+
+
+SECTION "bank20", ROMX
+
+INCLUDE "engine/overworld/player_movement.asm"
 
 
 SECTION "bank21", ROMX

@@ -233,7 +233,9 @@ wGlobalAnimXOffset:: db
 
 wSpriteAnimDataEnd::
 
-	ds 7
+wMenuHasSpriteAnim:: db
+
+	ds 6
 
 NEXTU
 ; timeset temp storage
@@ -1775,7 +1777,7 @@ wPredefID:: db
 wPredefHL:: dw
 wPredefAddress:: dw
 wFarCallBC:: dw
-	ds 1
+wBuffer2:: db
 
 wNumMoves:: db
 

@@ -1,3 +1,20 @@
+IsAPokemon::
+; Return carry if species a is not a Pokemon.
+	and a
+	jr z, .NotAPokemon
+	cp EGG
+	jr z, .Pokemon
+	cp NUM_POKEMON + 1
+	jr c, .Pokemon
+
+.NotAPokemon:
+	scf
+	ret
+
+.Pokemon:
+	and a
+	ret
+
 DrawBattleHPBar::
 ; Draw an HP bar d tiles long at hl
 ; Fill it up to e pixels

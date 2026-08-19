@@ -128,3 +128,5 @@ SpecialsPointers::
 	add_special InitialClearDSTFlag
 	add_special MrChrono
 	add_special UnusedDummySpecial ; unused
+
+	add_special MoveReminder

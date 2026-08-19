@@ -135,7 +135,7 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw TeruSama13Desc
+	dw HeartScaleDesc ; TeruSama9Desc
 	dw TeruSama14Desc
 	dw TeruSama15Desc
 	dw CharcoalDesc
@@ -784,8 +784,9 @@ PassDesc:
 	db   "Kaartje voor de" ; "A ticket for the"
 	next "MAGNEETTREIN.@" ; "MAGNET TRAIN.@"
 
-TeruSama13Desc:
-	db   "?@" ; "?@"
+HeartScaleDesc:
+	db   "A rare heart-"
+	next "shaped scale.@"
 
 TeruSama14Desc:
 	db   "?@" ; "?@"
