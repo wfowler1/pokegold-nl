@@ -97,7 +97,10 @@ PokecenterNurseScript:
 	pause 10
 	special HealParty
 	playmusic MUSIC_NONE
-	setval HEALMACHINE_POKECENTER
+	checkevent EVENT_WELCOMED_TO_POKEMON_CENTER
+	iffalse .okcontinue
+	setval HEALMACHINE_POKECENTER_FAST
+.okcontinue
 	special HealMachineAnim
 	pause 30
 	special RestartMapMusic
