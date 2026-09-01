@@ -29,10 +29,7 @@ INCLUDE "engine/gfx/color.asm"
 SECTION "bank3", ROMX
 
 INCLUDE "engine/events/checktime.asm"
-INCLUDE "engine/events/engine_flags.asm"
-INCLUDE "engine/overworld/variables.asm"
 INCLUDE "engine/events/specials.asm"
-INCLUDE "engine/smallflag.asm"
 INCLUDE "engine/pokemon/health.asm"
 INCLUDE "engine/events/overworld.asm"
 INCLUDE "engine/items/items.asm"
@@ -46,6 +43,7 @@ INCLUDE "engine/events/bug_contest/caught_mon.asm"
 INCLUDE "engine/items/item_effects.asm"
 INCLUDE "engine/battle_anims/pokeball_wobble.asm"
 INCLUDE "engine/pokemon/knows_move.asm"
+INCLUDE "engine/menus/hiddenmoves_menu.asm"
 
 
 SECTION "bank4", ROMX
@@ -227,6 +225,8 @@ INCLUDE "data/pokemon/base_stats.asm"
 SECTION "bank20", ROMX
 
 INCLUDE "engine/overworld/player_movement.asm"
+INCLUDE "engine/events/engine_flags.asm"
+INCLUDE "engine/overworld/variables.asm"
 
 
 SECTION "bank21", ROMX
@@ -243,6 +243,7 @@ INCLUDE "engine/menus/savemenu_copytilemapatonce.asm"
 INCLUDE "engine/phone/phonering_copytilemapatonce.asm"
 INCLUDE "engine/rtc/reset_password.asm"
 INCLUDE "engine/menus/delete_save.asm"
+INCLUDE "engine/smallflag.asm"
 INCLUDE "engine/tilesets/timeofday_pals.asm"
 INCLUDE "engine/battle/battle_transition.asm"
 INCLUDE "engine/events/field_moves.asm"

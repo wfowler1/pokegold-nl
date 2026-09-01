@@ -593,17 +593,21 @@ OpenPartyStats:
 	ld a, 0
 	ret
 
-MonMenu_Cut:
-	farcall CutFunction
-	ld a, [wFieldMoveSucceeded]
-	cp $1
-	jr nz, .Fail
+SetFieldMoveSuccess:
 	ld b, $4
 	ld a, b
 	swap a
 	or $2
 	ld [wFieldMoveSucceeded], a
 	ld a, $2
+	ret
+
+MonMenu_Cut:
+	farcall CutFunction
+	ld a, [wFieldMoveSucceeded]
+	cp $1
+	jr nz, .Fail
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -618,12 +622,7 @@ MonMenu_Fly:
 	jr z, .Fail
 	cp $0
 	jr z, .Error
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -644,12 +643,7 @@ MonMenu_Flash:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -662,12 +656,7 @@ MonMenu_Strength:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -680,12 +669,7 @@ MonMenu_Whirlpool:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -698,12 +682,7 @@ MonMenu_Waterfall:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -716,12 +695,7 @@ MonMenu_Teleport:
 	ld a, [wFieldMoveSucceeded]
 	and a
 	jr z, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -734,12 +708,7 @@ MonMenu_Surf:
 	ld a, [wFieldMoveSucceeded]
 	and a
 	jr z, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -752,12 +721,7 @@ MonMenu_Dig:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -811,12 +775,7 @@ MonMenu_Headbutt:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -829,12 +788,7 @@ MonMenu_RockSmash:
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 .Fail:
@@ -844,12 +798,7 @@ MonMenu_RockSmash:
 
 MonMenu_SweetScent:
 	farcall SweetScentFromMenu
-	ld b, $4
-	ld a, b
-	swap a
-	or $2
-	ld [wFieldMoveSucceeded], a
-	ld a, $2
+	call SetFieldMoveSuccess
 	ret
 
 ChooseMoveToDelete:

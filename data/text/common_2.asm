@@ -1687,3 +1687,8 @@ _SlotsBetHowManyCoinsText::
 	line "wedden?" ; "coins?"
 	done
 
+_NoFieldMovesText::
+	text "Er zijn nu geen" ; "There are no moves"
+	line "acties om te" ; "to use right now!"
+	cont "gebruiken!"
+	done

@@ -831,9 +831,19 @@ CheckMenuOW:
 	ret
 
 .Select:
+	bit B_PAD_START, a
+	jr nz, .HiddenMoves
+	
 	call PlayTalkObject
 	ld a, BANK(SelectMenuScript)
 	ld hl, SelectMenuScript
+	call CallScript
+	scf
+	ret
+
+.HiddenMoves
+	ld a, BANK(HiddenMovesScript)
+	ld hl, HiddenMovesScript
 	call CallScript
 	scf
 	ret
@@ -844,6 +854,10 @@ StartMenuScript:
 
 SelectMenuScript:
 	callasm SelectMenu
+	sjump SelectMenuCallback
+
+HiddenMovesScript:
+	callasm HiddenMoveMenu
 	sjump SelectMenuCallback
 
 StartMenuCallback:
