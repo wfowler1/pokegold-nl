@@ -1,0 +1,609 @@
+; HiddenMoveMenu.Items indexes
+	const_def
+	const HIDDENMOVEMENUITEM_CUT ; 0
+	const HIDDENMOVEMENUITEM_FLY ; 1
+	const HIDDENMOVEMENUITEM_SURF ; 2
+	const HIDDENMOVEMENUITEM_STRENGTH ; 3
+	const HIDDENMOVEMENUITEM_FLASH ;4 
+	const HIDDENMOVEMENUITEM_WHIRLPOOL ; 5
+	const HIDDENMOVEMENUITEM_WATERFALL ; 6
+	const HIDDENMOVEMENUITEM_HEADBUTT ; 7
+	const HIDDENMOVEMENUITEM_ROCKSMASH ; 8
+	const HIDDENMOVEMENUITEM_TELEPORT ; 9
+	const HIDDENMOVEMENUITEM_DIG ; 10
+	const HIDDENMOVEMENUITEM_SWEET_SCENT ; 11
+
+HiddenMoveMenu::
+	call ClearWindowData
+
+	farcall ReanchorBGMap_NoOAMUpdate
+
+	ld hl, .MenuHeader
+
+.GotMenuData:
+	call LoadMenuHeader
+	call .SetUpMenuItems
+	ld a, [wBuffer1]
+	and a
+	jr z, .ExitNoFieldMoves
+	ld de, SFX_MENU
+	call PlaySFX
+	ld a, [wBattleMenuCursorPosition]
+	ld [wMenuCursorPosition], a
+	call DrawVariableLengthMenuBox
+	call SafeUpdateSprites
+	call HDMATransferTilemapAndAttrmap_Menu
+	farcall LoadFonts_NoOAMUpdate
+	call UpdateTimePals
+	jr .Select
+
+.Reopen:
+	call UpdateSprites
+	call UpdateTimePals
+	call .SetUpMenuItems
+	ld a, [wBuffer1]
+	and a
+	jr z, .ExitNoFieldMoves
+	ld de, SFX_MENU
+	call PlaySFX
+	ld a, [wBattleMenuCursorPosition]
+	ld [wMenuCursorPosition], a
+
+.Select:
+	call .GetInput
+	jr c, .Exit
+	ld a, [wMenuCursorPosition]
+	ld [wBattleMenuCursorPosition], a
+	call PlayClickSFX
+	call PlaceHollowCursor
+	call .OpenMenu
+	
+	ld a, [wFieldMoveSucceeded]
+	ld b, a
+	and %00001111
+	cp 2
+	jr nz, .Exit
+
+	ld a, b
+	swap a
+	and %00001111
+; Menu items have different return functions.
+; For example, saving exits the menu.
+	ld hl, .MenuReturns
+	ld e, a
+	ld d, 0
+	add hl, de
+	add hl, de
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
+
+.MenuReturns:
+	dw .Reopen
+	dw .Exit
+	dw .ExitMenuCallFuncCloseText
+	dw .ExitMenuRunScriptCloseText
+	dw .ExitMenuRunScript
+	dw .ReturnEnd
+	dw .ReturnRedraw
+
+.ExitNoFieldMoves:
+	call OpenText
+	ld hl, .NoFieldMovesText
+	call PrintText
+	jp CloseText
+
+.Exit:
+	ldh a, [hOAMUpdate]
+	push af
+	ld a, 1
+	ldh [hOAMUpdate], a
+	call LoadFontsExtra
+	pop af
+	ldh [hOAMUpdate], a
+.ReturnEnd:
+	call ExitMenu
+.ReturnEnd2:
+	call CloseText
+	call UpdateTimePals
+	ret
+
+.NoFieldMovesText:
+	text_far _NoFieldMovesText
+	text_end
+
+.GetInput:
+; Return carry on exit, and no-carry on selection.
+	xor a
+	ldh [hBGMapMode], a
+	call SetUpMenu
+	ld a, $ff
+	ld [wMenuSelection], a
+.loop
+	call GetScrollingMenuJoypad
+	ld a, [wMenuJoypad]
+	cp PAD_B
+	jr z, .b
+	cp PAD_A
+	jr z, .a
+	jr .loop
+.a
+	call PlayClickSFX
+	and a
+	ret
+.b
+	scf
+	ret
+
+.ExitMenuRunScript:
+	call ExitMenu
+	ld a, HMENURETURN_SCRIPT
+	ldh [hMenuReturn], a
+	ret
+
+.ExitMenuRunScriptCloseText:
+	call ExitMenu
+	ld a, HMENURETURN_SCRIPT
+	ldh [hMenuReturn], a
+	jr .ReturnEnd2
+
+.ExitMenuCallFuncCloseText:
+	call ExitMenu
+	ld hl, wQueuedScriptAddr
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	ld a, [wQueuedScriptBank]
+	rst FarCall
+	jr .ReturnEnd2
+
+.ReturnRedraw:
+	call .Clear
+	jp .Reopen
+
+.Clear:
+	call ClearBGPalettes
+	call Call_ExitMenu
+	call ReloadTilesetAndPalettes
+	call DrawVariableLengthMenuBox
+	call UpdateSprites
+	call ReloadPalettes
+	call FinishExitMenu
+	ret
+
+.MenuHeader:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 0, 15, SCREEN_HEIGHT - 1
+	dw .MenuData
+	db 1 ; default selection
+
+.MenuData:
+	db STATICMENU_CURSOR | STATICMENU_WRAP | STATICMENU_ENABLE_START ; flags
+	dn 0, 0 ; rows, columns
+	dw wMenuItemsList
+	dw .MenuString
+	dw .Items
+
+.Items:
+; entries correspond to HIDDENMOVEMENUITEM_* constants
+	dw HiddenMoveMenu_Cut,        .CutString,             .CutString
+	dw HiddenMoveMenu_Fly,        .FlyString,             .FlyString
+	dw HiddenMoveMenu_Surf,       .SurfString,            .SurfString
+	dw HiddenMoveMenu_Strength,   .StrengthString,        .StrengthString
+	dw HiddenMoveMenu_Flash,      .FlashString,           .FlashString
+	dw HiddenMoveMenu_Whirlpool,  .WhirlpoolString,       .WhirlpoolString
+	dw HiddenMoveMenu_Waterfall,  .WaterfallString,       .WaterfallString
+	dw HiddenMoveMenu_Headbutt,   .HeadbuttString,        .HeadbuttString
+	dw HiddenMoveMenu_RockSmash,  .RockSmashString,       .RockSmashString
+	dw HiddenMoveMenu_Teleport,   .TeleportString,        .TeleportString
+	dw HiddenMoveMenu_Dig,        .DigString,             .DigString
+	dw HiddenMoveMenu_SweetScent, .SweetScentString,      .SweetScentString
+
+.CutString:        db "SNIJD@" ; "CUT@"
+.FlyString:        db "VLIEG@" ; "FLY@"
+.SurfString:       db "SURF@"
+.StrengthString:   db "KRACHT@" ; "STRENGTH@"
+.FlashString:      db "FLITS@" ; "FLASH@"
+.WhirlpoolString:  db "DRAAIKOLK@" ; "WHIRLPOOL@"
+.WaterfallString:  db "WATERVAL@" ; "WATERFALL@"
+.HeadbuttString:   db "KOPSTOOT@" ; "HEADBUTT@"
+.RockSmashString:  db "STEENKNAL@" ; "ROCK SMASH@"
+.TeleportString:   db "TELEPORTEER@" ; "TELEPORT@"
+.DigString:        db "GRAVEN@" ; "DIG@"
+.SweetScentString: db "ZOETE GEUR@" ; "SWEET SCENT@"
+
+.OpenMenu:
+	ld a, [wMenuSelection]
+	call .GetMenuAccountTextPointer
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	jp hl
+
+.MenuString:
+	push de
+	ld a, [wMenuSelection]
+	call .GetMenuAccountTextPointer
+	inc hl
+	inc hl
+	ld a, [hli]
+	ld d, [hl]
+	ld e, a
+	pop hl
+	call PlaceString
+	ret
+
+.GetMenuAccountTextPointer:
+	ld e, a
+	ld d, 0
+	ld hl, wMenuDataPointerTableAddr
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+rept 6
+	add hl, de
+endr
+	ret
+
+.SetUpMenuItems:
+	xor a
+	ld [wWhichIndexSet], a
+	ld [wBuffer1], a
+	call .FillMenuList
+	push bc
+	push de
+
+; Interactions moves. Player interacts with something directly in front of them to activate.
+; Cut, Surf, Whirlpool, Waterfall, Headbutt and Rock Smash are all mutually exclusive.
+;.check_cut
+	call CheckHiveBadge
+	jr c, .check_surf
+
+	call GotHM01
+    jr nc, .check_cut_map_usability
+
+	call HasCut
+	jr c, .check_surf
+
+.check_cut_map_usability
+	call CheckMapForSomethingToCut
+	jr c, .check_surf
+
+.add_cut
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_CUT
+	call .AppendMenuList
+	push bc
+	push de
+	jp c, .check_fly_teleport_map_usability
+
+.check_surf
+	call CheckFogBadge
+	jr c, .check_whirlpool
+	
+	call GotHM03
+    jr nc, .check_surf_map_usability
+	
+	call HasSurf
+	jr c, .check_whirlpool
+
+.check_surf_map_usability
+; Don't surf if already surfing.
+	call CheckAlreadySurfing
+	jr c, .check_whirlpool
+; Ensure target tile is a surfable tile
+	call GetFacingTileCoord
+	ld [wFacingTileID], a
+	call CheckCanSurfHere
+	jr c, .check_whirlpool
+; Ensure we're not about to surf onto an object like an NPC
+	farcall CheckFacingObject
+	jr c, .check_whirlpool
+
+.add_surf
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_SURF
+	call .AppendMenuList
+	push bc
+	push de
+	jr c, .check_fly_teleport_map_usability
+
+.check_whirlpool
+	call CheckGlacierBadge
+	jr c, .check_waterfall
+	
+	call GotHM06
+    jr nc, .check_whirlpool_map_usability
+	
+	call HasWhirlpool
+	jr c, .check_waterfall
+
+.check_whirlpool_map_usability
+	call TryWhirlpoolMenu
+	jr c, .check_waterfall
+	
+.add_whirlpool
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_WHIRLPOOL
+	call .AppendMenuList
+	push bc
+	push de
+	jr c, .check_fly_teleport_map_usability
+
+.check_waterfall
+	call CheckRisingBadge
+	jr c, .check_headbutt
+
+	call GotHM07
+    jr nc, .check_waterfall_map_usability
+
+	call HasWaterfall
+	jr c, .check_headbutt
+
+.check_waterfall_map_usability
+	call CheckMapCanWaterfall
+	jr c, .check_headbutt
+
+.add_waterfall
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_WATERFALL
+	call .AppendMenuList
+	push bc
+	push de
+	jr c, .check_fly_teleport_map_usability
+
+.check_headbutt
+	call GotTM02Headbutt
+	jr nc, .check_headbutt_map_usability
+	
+	call HasHeadbutt
+	jr c, .check_rocksmash
+
+.check_headbutt_map_usability
+	call GetFacingTileCoord
+	call CheckHeadbuttTreeTile
+	jr nz, .check_rocksmash
+
+.add_headbutt
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_HEADBUTT
+	call .AppendMenuList
+	push bc
+	push de
+	jr c, .check_fly_teleport_map_usability
+
+.check_rocksmash
+	call GotTM08RockSmash
+	jr nc, .check_rocksmash_map_usability
+
+	call HasRockSmash
+	jr c, .check_fly_teleport_map_usability
+
+.check_rocksmash_map_usability
+	call GetFacingObject
+	jr c, .check_fly_teleport_map_usability
+	ld a, d
+	cp SPRITEMOVEDATA_SMASHABLE_ROCK
+	jr nz, .check_fly_teleport_map_usability
+
+.add_rocksmash
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_ROCKSMASH
+	call .AppendMenuList
+	push bc
+	push de
+
+; Teleportation moves. Fast travel player from one place to another.
+; Teleport and fly can only be used from outdoor environments.
+; Dig can only be used in caves or dungeons, exclusive from teleport and fly.
+.check_fly_teleport_map_usability
+	call GetMapEnvironment
+	call CheckOutdoorMap
+	jr nz, .check_dig
+
+.check_fly
+	call CheckStormBadge
+	jr c, .check_teleport
+
+	call GotHM02
+    jr nc, .add_fly
+
+	call HasFly
+	jr c, .check_teleport
+
+.add_fly
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_FLY
+	call .AppendMenuList
+	push bc
+	push de
+
+.check_teleport
+	call HasTeleport
+	jr c, .check_strength
+	
+	call CheckSpawnPointValid
+	jr nc, .check_strength
+
+.add_teleport
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_TELEPORT
+	call .AppendMenuList
+	push bc
+	push de
+	jr .check_strength
+
+.check_dig
+	call CanDig
+	jr c, .check_strength
+	
+	call HasDig
+	jr nc, .add_dig
+	
+	call GotTM28Dig
+	jr c, .check_strength
+
+.add_dig
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_DIG
+	call .AppendMenuList
+	push bc
+	push de
+
+; Strength just sets a flag allowing the player to move stuff. Usable anywhere.
+.check_strength
+	call CheckPlainBadge
+	jr c, .check_flash
+	
+	ld hl, wBikeFlags
+	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
+	jr nz, .check_flash
+	
+	call GotHM04
+    jr nc, .add_strength
+	
+	call HasStrength
+	jr c, .check_flash
+
+.add_strength
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_STRENGTH
+	call .AppendMenuList
+	push bc
+	push de
+
+; Flash just changes the loaded palette
+.check_flash
+	call CheckZephyrBadge
+	jr c, .check_sweet_scent
+	
+	call GotHM05
+    jr nc, .check_flash_map_usability
+	
+	call HasFlash
+	jr c, .check_sweet_scent
+
+.check_flash_map_usability
+	call CheckFlashLocation
+	jr c, .check_sweet_scent
+	
+.add_flash
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_FLASH
+	call .AppendMenuList
+	push bc
+	push de
+
+; Sweet scent triggers a wild battle if possible.
+.check_sweet_scent
+	call HasSweetScent
+	jr nc, .check_swet_scent_map_usability
+	
+	call GotTM12SweetScent
+	jr c, .finish_menu
+
+.check_swet_scent_map_usability
+	farcall CanEncounterWildMon
+	jr nc, .finish_menu
+	farcall GetMapEncounterRate
+	ld a, b
+	and a
+	jr z, .finish_menu
+	
+.add_sweet_scent
+	pop de
+	pop bc
+	ld a, HIDDENMOVEMENUITEM_SWEET_SCENT
+	call .AppendMenuList
+	jr .finish_menu_2
+
+.finish_menu
+	pop de
+	pop bc
+.finish_menu_2
+	ld a, c
+	ld [wMenuItemsList], a
+	ret
+
+.FillMenuList:
+	xor a
+	ld hl, wMenuItemsList
+	ld [hli], a
+	ld a, -1
+	ld bc, wMenuItemsListEnd - (wMenuItemsList + 1)
+	call ByteFill
+	ld de, wMenuItemsList + 1
+	ld c, 0
+	ret
+
+.AppendMenuList:
+	ld [de], a
+	inc de
+	inc c
+	ld a, [wBuffer1]
+	inc a
+	ld [wBuffer1], a
+	ret
+
+HiddenMoveMenu_Cut:
+	farcall MonMenu_Cut
+	ret
+
+HiddenMoveMenu_Fly:
+	ld a, 1
+	ld [wUsingItemWithSelect], a
+	farcall MonMenu_Fly
+	ret
+
+HiddenMoveMenu_Surf:
+	farcall MonMenu_Surf
+	ret
+
+HiddenMoveMenu_Strength:
+	farcall MonMenu_Strength
+	ret
+
+HiddenMoveMenu_Flash:
+	farcall MonMenu_Flash
+	ret
+
+HiddenMoveMenu_Whirlpool:
+	farcall MonMenu_Whirlpool
+	ret
+
+HiddenMoveMenu_Waterfall:
+	farcall MonMenu_Waterfall
+	ret
+
+HiddenMoveMenu_Headbutt:
+	farcall MonMenu_Headbutt
+	ret
+
+HiddenMoveMenu_RockSmash:
+	farcall MonMenu_RockSmash
+	ret
+
+HiddenMoveMenu_Teleport:
+	farcall MonMenu_Teleport
+	ret
+
+HiddenMoveMenu_Dig:
+	farcall MonMenu_Dig
+	ret
+
+HiddenMoveMenu_SweetScent:
+	farcall MonMenu_SweetScent
+	ret
+	
