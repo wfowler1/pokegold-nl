@@ -272,6 +272,11 @@ PlayerEvents:
 
 	ld [wScriptRunning], a
 	call DoPlayerEvent
+	ld a, [wScriptRunning]
+	cp PLAYEREVENT_CONNECTION
+	jr z, .ok2
+	cp PLAYEREVENT_JOYCHANGEFACING
+	jr z, .ok2
 
 ; Have player stand (resets running sprite to standing if event starts while running)
 	ld a, [wPlayerState]
