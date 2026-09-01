@@ -402,7 +402,7 @@ FlyFunction_InitGFX:
 	ld a, [wFieldMoveSpecies]
 	ld [wTempIconSpecies], a
 	ld e, FIELDMOVE_FLY
-	farcall GetSpeciesIcon
+	farcall FlyFunction_GetMonIcon
 	xor a
 	ld [wJumptableIndex], a
 	ret
