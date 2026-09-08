@@ -1909,7 +1909,7 @@ _UsedSurfText::
 	; text " used"
 	text_start
 	line "gebruikte SURF!" ; "SURF!"
-	done
+	prompt
 
 _WildUsedSurfText::
 	text "Een wilde" ; "A wild"
