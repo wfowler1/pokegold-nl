@@ -1684,7 +1684,8 @@ _GoMonText::
 	done
 
 _DoItMonText::
-	text "Doe h! @" ; "Do it! @"
+	text "Doe het!" ; "Do it! @"
+	line "@"
 	text_ram wBattleMonNickname
 	text "!" ; "!"
 	done
