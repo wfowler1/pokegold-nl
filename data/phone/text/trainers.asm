@@ -1,20 +1,20 @@
 PhoneMaleAnswerMornText:
-	text "Hello. This is"
+	text "Hallo. Dit is" ; "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "…" ; "…"
 
-	para "Good morning,"
+	para "Goedemorgen," ; "Good morning,"
 	line "<PLAYER>!" ; "<PLAYER>!"
 	done
 
 PhoneMaleAnswerDayText:
-	text "Hello. This is"
+	text "Hallo. Dit is" ; "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength 9
 	text "…" ; "…"
 
-	para "How's it going,"
+	para "Hoe gaat ie," ; "How's it going,"
 	line "<PLAYER>?" ; "<PLAYER>?"
 	done
 

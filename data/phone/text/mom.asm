@@ -110,8 +110,8 @@ MomOKIllSaveText:
 	done
 
 MomPhoneStopSavingMoneyText:
-	text "OK. I'll stop" ; "OK. I'll stop"
-	line "saving your money." ; "saving your money."
+	text "OK. Ik stop met" ; "OK. I'll stop"
+	line "je geld sparen." ; "saving your money."
 	done
 
 MomPhoneHangUpText:

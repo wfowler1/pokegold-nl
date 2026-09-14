@@ -143,7 +143,7 @@ PewterGymSignText:
 	cont "BROCK" ; "LEADER: BROCK"
 
 	para "De Rotsvaste" ; "The Rock Solid"
-	line "#MON Trainer"
+	line "#MON Trainer" ; "#MON Trainer"
 	done
 
 PewterMuseumSignText:

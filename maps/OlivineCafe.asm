@@ -39,9 +39,9 @@ OlivineCafeStrengthSailorText:
 	cont "KRACHT!" ; "STRENGTH!"
 
 	para "Je hebt een BADGE" ; "You'll need"
-	line "GOLDENROD's GYM"
+	line "van GOLDENROD's GYM" ; "GOLDENROD's GYM"
 
-	para "nodig om 't" ; "BADGE to use that"
+	para "nodig om het" ; "BADGE to use that"
 	line "buiten gevechten" ; "outside battles."
 	cont "te gebruiken."
 	done

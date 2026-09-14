@@ -200,7 +200,7 @@ _FoundItemText::
 	text "<PLAYER> vond" ; "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	done
 
 _CantCarryItemText::
