@@ -186,7 +186,7 @@ ContestResults_ReadyToJudgeText:
 
 AskNumber1MText:
 	text "Wauw! Je bent een" ; "Wow! You're pretty"
-	line "taaiel" ; "tough."
+	line "taaie!" ; "tough."
 
 	para "Mag ik je" ; "Could I get your"
 	line "telefoonnummer?" ; "phone number?"
@@ -196,8 +196,8 @@ AskNumber1MText:
 	done
 
 AskNumber2MText:
-	text "Register the phone" ; "Register the phone"
-	line "number?" ; "number?"
+	text "Registreer het" ; "Register the phone"
+	line "telefoonnummer?" ; "number?"
 	done
 
 RegisteredNumberMText:

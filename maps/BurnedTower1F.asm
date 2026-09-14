@@ -186,7 +186,7 @@ BurnedTowerRival_BeforeText:
 	cont "een legendarische" ; "est trainer, so a"
 	cont "#MON is dus" ; "legendary #MON"
 	cont "perfect voor mij." ; "would be perfect"
-	cont #"for me."
+	; cont #"for me."
 
 	para "…Hoe dan ook," ; "…Well, anyway,"
 	line "het is vermoeiend" ; "I'm getting tired"

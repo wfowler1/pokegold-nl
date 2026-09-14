@@ -91,11 +91,11 @@ silver_vc:    pokesilver.patch
 
 clean: tidy
 	find gfx \
-	     \( -name "*.[12]bpp" \
-	        -o -name "*.lz" \
-	        -o -name "*.gbcpal" \
-	        -o -name "*.dimensions" \
-	        -o -name "*.sgb.tilemap" \) \
+	     \( -iname "*.[12]bpp" \
+	        -o -iname "*.lz" \
+	        -o -iname "*.gbcpal" \
+	        -o -iname "*.dimensions" \
+	        -o -iname "*.sgb.tilemap" \) \
 	     -delete
 
 tidy:

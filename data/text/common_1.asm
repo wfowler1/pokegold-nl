@@ -638,7 +638,7 @@ _OPT_ExcitingText::
 
 _OPT_NowText::
 	text_start
-	line "now!" ; "now!"
+	line "nu!" ; "now!"
 	done
 
 _OPT_InspiringText::
@@ -1686,19 +1686,20 @@ _ExpPointsText::
 	prompt
 
 _GoMonText::
-	text "Go! @" ; "Go! @"
+	text "Ga! @" ; "Go! @"
 	text_ram wBattleMonNickname
 	text "!" ; "!"
 	done
 
 _DoItMonText::
-	text "Do it! @" ; "Do it! @"
+	text "Doe het!" ; "Do it! @"
+	line "@"
 	text_ram wBattleMonNickname
 	text "!" ; "!"
 	done
 
 _GoForItMonText::
-	text "Go for it," ; "Go for it,"
+	text "Ga ervoor," ; "Go for it,"
 	line "@"
 	text_ram wBattleMonNickname
 	text "!" ; "!"
