@@ -490,7 +490,7 @@ CherrygroveTeacherText_NoMapCard:
 
 	para "Hij stopt de kaart" ; "He'll put a MAP of"
 	line "van JOHTO in je" ; "JOHTO on your"
-	cont "#GEAR." ; "#GEAR."
+	cont "#GEAR."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
@@ -535,7 +535,7 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY" ; "CHERRYGROVE CITY"
+	text "CHERRYGROVE CITY"
 
 	para "Stad van Schattige" ; "The City of Cute,"
 	line "Geurende Bloemen." ; "Fragrant Flowers"

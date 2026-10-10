@@ -249,14 +249,14 @@ VioletCityYoungsterText:
 	done
 
 VioletCitySignText:
-	text "VIOLET CITY" ; "VIOLET CITY"
+	text "VIOLET CITY"
 
 	para "De Stad van Nos-" ; "The City of"
 	line "talgische Geuren" ; "Nostalgic Scents"
 	done
 
 VioletGymSignText:
-	text "VIOLET CITY" ; "VIOLET CITY"
+	text "VIOLET CITY"
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "FALKNER" ; "LEADER: FALKNER"
 

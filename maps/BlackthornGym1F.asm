@@ -253,7 +253,7 @@ BlackthornGymClairText_YouKeptMeWaiting:
 
 BlackthornGymText_ReceivedTM24: ; unreferenced
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TM24 DRAKENADEM."
+	line "TM24 DRAKENADEM." ; "TM24 DRAGONBREATH."
 	done
 
 BlackthornGymClairText_DescribeTM24:

@@ -2,7 +2,7 @@ BattleText:: ; used only for BANK(BattleText)
 
 BattleText_PlayerPickedUpPayDayMoney:
 	text "<PLAYER> pikte" ; "<PLAYER> picked up"
-	line "¥@" ; "¥@"
+	line "¥@"
 	text_decimal wPayDayMoney, 3, 6
 	text " op!" ; "!"
 	prompt
@@ -29,7 +29,7 @@ PokemonFellFromTreeText:
 	prompt
 
 WantsToBattleText::
-	text "<ENEMY>" ; "<ENEMY>"
+	text "<ENEMY>"
 	line "wil vechten!" ; "wants to battle!"
 	prompt
 
@@ -59,11 +59,11 @@ HurtByBurnText:
 
 LeechSeedSapsText:
 	text "ZUIGZAAD zuigt" ; "LEECH SEED saps"
-	line "<USER>!" ; "<USER>!"
+	line "<USER>!"
 	prompt
 
 HasANightmareText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "heeft NACHTMERRIE!" ; "has a NIGHTMARE!"
 	prompt
 
@@ -74,54 +74,54 @@ HurtByCurseText:
 
 SandstormHitsText:
 	text "De ZANDSTORM raakt" ; "The SANDSTORM hits"
-	line "<USER>!" ; "<USER>!"
+	line "<USER>!"
 	prompt
 
 PerishCountText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "STERF-teller is @" ; "PERISH count is @"
 	text_decimal wTextDecimalByte, 1, 1
-	text "!" ; "!"
+	text "!"
 	prompt
 
 BattleText_TargetRecoveredWithItem:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "herstelde met" ; "recovered with"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "." ; "."
+	text "."
 	prompt
 
 BattleText_UserRecoveredPPUsing:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "herstelde AP door" ; "recovered PP using"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "." ; "."
+	text "."
 	prompt
 
 BattleText_TargetWasHitByFutureSight:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd geraakt door" ; "was hit by FUTURE"
 	cont "TOEKOMSTZICHT!" ; "SIGHT!"
 	prompt
 
 BattleText_SafeguardFaded:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "BESCHERMING" ; "SAFEGUARD faded!"
 	cont "verdween!"
 	prompt
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1 ; "Je" or "Vijand" MaxLength 6
-	text " #MON's" ; " #MON's"
+	text " #MON's"
 	line "LICHTSCHERM" ; "LIGHT SCREEN fell!"
 	cont "verdween!"
 	prompt
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1 ; MaxLength 6
-	text " #MON's" ; " #MON's"
+	text " #MON's"
 	line "SPIEGEL verdween!" ; "REFLECT faded!"
 	prompt
 
@@ -163,27 +163,27 @@ BattleText_EnemyMonFainted:
 
 GotMoneyForWinningText:
 	text "<PLAYER> kreeg" ; "<PLAYER> got ¥@"
-	line "¥@" ; "¥@"
+	line "¥@"
 	text_decimal wBattleReward, 3, 6
 	text " voor de" ; text_start
 	cont "winst!" ; "for winning!"
 	prompt
 
 BattleText_EnemyWasDefeated:
-	text "<ENEMY>" ; "<ENEMY>"
+	text "<ENEMY>"
 	line "is verslagen!" ; "was defeated!"
 	prompt
 
 TiedAgainstText:
 	text "Gelijkspel tegen" ; "Tied against"
-	line "<ENEMY>!" ; "<ENEMY>!"
+	line "<ENEMY>!"
 	prompt
 
 SentSomeToMomText:
 	text "<PLAYER> won" ; "<PLAYER> got ¥@"
-	line "¥@" ; "¥@"
+	line "¥@"
 	text_decimal wBattleReward, 3, 6
-	text "!" ; "!" text_start
+	text "!" ; text_start
 	cont "Beetje naar MAM" ; "for winning!"
 	cont "gestuurd!" ; "Sent some to MOM!"
 	prompt
@@ -223,26 +223,26 @@ UnusedRivalWinText: ; unreferenced
 
 LostAgainstText:
 	text "Verloor van" ; "Lost against"
-	line "<ENEMY>!" ; "<ENEMY>!"
+	line "<ENEMY>!"
 	prompt
 
 BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
-	text "<ENEMY>" ; "<ENEMY>"
+	text "<ENEMY>"
 	line "kiest hierna" ; "is about to use"
 	cont "@"
 	text_ram wEnemyMonNickname
-	text "." ; "."
+	text "."
 
 	para "Wisselt <PLAYER>" ; "Will <PLAYER>"
 	line "van #MON?" ; "change #MON?"
 	done
 
 BattleText_EnemySentOut:
-	text "<ENEMY>" ; "<ENEMY>"
+	text "<ENEMY>"
 	line "stuurde" ; "sent out"
 	cont "@"
 	text_ram wEnemyMonNickname
-	text "!" ; "!"
+	text "!"
 	done
 
 BattleText_TheresNoWillToBattle:
@@ -271,11 +271,11 @@ BattleText_GotAwaySafely:
 	prompt
 
 BattleText_UserFledUsingAStringBuffer1:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "vluchtte met een" ; "fled using a"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 BattleText_CantEscape:
@@ -290,15 +290,15 @@ BattleText_UserHurtBySpikes:
 	prompt
 
 RecoveredUsingText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "herstelde met een" ; "recovered using a"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 BattleText_UsersStringBuffer1Activated:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text_start
@@ -339,7 +339,7 @@ BattleText_MonHasNoMovesLeft:
 	done
 
 BattleText_TargetsEncoreEnded:
-	text "<TARGET>'s" ; "<TARGET>'s"
+	text "<TARGET>'s"
 	line "TOEGIFT eindigde!" ; "ENCORE ended!"
 	prompt
 
@@ -348,7 +348,7 @@ BattleText_StringBuffer1GrewToLevel: ; AlwaysReplace
 	text " groeide" ; " grew to"
 	line "naar level @" ; "level @"
 	text_decimal wCurPartyLevel, 1, 3
-	text "!@" ; "!@"
+	text "!@"
 	sound_dex_fanfare_50_79
 	text_end
 
@@ -369,27 +369,27 @@ BattleText_WildMonIsAngry:
 	prompt
 
 FastAsleepText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "is diep in slaap!" ; "is fast asleep!"
 	prompt
 
 WokeUpText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "werd wakker!" ; "woke up!"
 	prompt
 
 FrozenSolidText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "is bevroren!" ; "is frozen solid!"
 	prompt
 
 FlinchedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "deinsde achteruit!" ; "flinched!"
 	prompt
 
 MustRechargeText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "moet opladen!" ; "must recharge!"
 	prompt
 
@@ -400,7 +400,7 @@ DisabledNoMoreText:
 	prompt
 
 IsConfusedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "is verward!" ; "is confused!"
 	prompt
 
@@ -416,7 +416,7 @@ ConfusedNoMoreText:
 	prompt
 
 BecameConfusedText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "raakte verward!" ; "became confused!"
 	prompt
 
@@ -435,72 +435,72 @@ AlreadyConfusedText:
 	prompt
 
 BattleText_UsersHurtByStringBuffer1:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "is bezeerd door"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 BattleText_UserWasReleasedFromStringBuffer1:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "werd verlost van" ; "was released from"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 UsedBindText:
 	text "<USER>" ; "<USER>"
 	line "deed KOPPEL op" ; "used BIND on"
-	cont "<TARGET>!" ; "<TARGET>!"
+	cont "<TARGET>!"
 	prompt
 
 WasTrappedText: ; ReplaceWith WhirlpoolTrapText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "zit in de val!" ; "was trapped!"
 	prompt
 
 WrappedByText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "is VERWIKKELD door" ; "was WRAPPED by"
-	cont "<USER>!" ; "<USER>!"
+	cont "<USER>!"
 	prompt
 
 ClampedByText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "is GEKLEMD door" ; "was CLAMPED by"
-	cont "<USER>!" ; "<USER>!"
+	cont "<USER>!"
 	prompt
 
 StoringEnergyText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "bewaart energie!" ; "is storing energy!"
 	prompt
 
 UnleashedEnergyText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "liet energie los!" ; "unleashed energy!"
 	prompt
 
 HungOnText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "bleef hangen met" ; "hung on with"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 EnduredText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "bood WEERSTAND" ; "ENDURED the hit!"
 	cont "tegen de klap!"
 	prompt
 
 InLoveWithText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "is verliefd op" ; "is in love with"
-	cont "<TARGET>!" ; "<TARGET>!"
+	cont "<TARGET>!"
 	prompt
 
 InfatuationText:
@@ -510,10 +510,10 @@ InfatuationText:
 	prompt
 
 DisabledMoveText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
-	text " is" ; " is"
+	text " is"
 	cont "UITGESCHAKELD!" ; "DISABLED!"
 	prompt
 
@@ -564,37 +564,37 @@ HasNoPPLeftText:
 	line "heeft geen AP voor" ; "has no PP left for"
 	cont "@"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 WentToSleepText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "viel in slaap!" ; "went to sleep!"
 	done
 
 RestedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "viel in slaap en" ; "fell asleep and"
 	cont "werd gezond!" ; "became healthy!"
 	done
 
 RegainedHealthText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "werd weer gezond!" ; "regained health!"
 	prompt
 
 AttackMissedText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "aanval miste!" ; "attack missed!"
 	prompt
 
 AttackMissed2Text:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "aanval miste!" ; "attack missed!"
 	prompt
 
 CrashedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "bleef gaan en" ; "kept going and"
 	cont "botste!" ; "crashed!"
 	prompt
@@ -628,18 +628,18 @@ NotVeryEffectiveText:
 	prompt
 
 TookDownWithItText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "nam met zich mee," ; "took down with it,"
-	cont "<USER>!" ; "<USER>!"
+	cont "<USER>!"
 	prompt
 
 RageBuildingText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "WOEDE bouwt op!" ; "RAGE is building!"
 	prompt
 
 GotAnEncoreText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "kreeg een TOEGIFT!" ; "got an ENCORE!"
 	prompt
 
@@ -649,16 +649,16 @@ SharedPainText:
 	prompt
 
 TookAimText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "richtte!" ; "took aim!"
 	prompt
 
 SketchedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "SCHETSTE" ; "SKETCHED"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 DestinyBondEffectText:
@@ -668,13 +668,13 @@ DestinyBondEffectText:
 	prompt
 
 SpiteEffectText:
-	text "<TARGET>'s" ; "<TARGET>'s"
+	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text " werd" ; " was"
 	cont "verlaagd met @" ; "reduced by @"
 	text_decimal wTextDecimalByte, 1, 1
-	text "!" ; "!"
+	text "!"
 	prompt
 
 BellChimedText:
@@ -683,7 +683,7 @@ BellChimedText:
 	prompt
 
 FellAsleepText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "viel in slaap!" ; "fell asleep!"
 	prompt
 
@@ -693,7 +693,7 @@ AlreadyAsleepText:
 	prompt
 
 WasPoisonedText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd vergiftigd!" ; "was poisoned!"
 	prompt
 
@@ -709,31 +709,31 @@ AlreadyPoisonedText:
 
 SuckedHealthText:
 	text "Zoog leven van" ; "Sucked health from"
-	line "<TARGET>!" ; "<TARGET>!"
+	line "<TARGET>!"
 	prompt
 
 DreamEatenText:
-	text "<TARGET>'s" ; "<TARGET>'s"
+	text "<TARGET>'s"
 	line "droom was gegeten!" ; "dream was eaten!"
 	prompt
 
 WasBurnedText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd verbrand!" ; "was burned!"
 	prompt
 
 DefrostedOpponentText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd ontdooid!" ; "was defrosted!"
 	prompt
 
 WasFrozenText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd bevroren!" ; "was frozen solid!"
 	prompt
 
 WontRiseAnymoreText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxStatNameLength
 	text " kan" ; " won't"
@@ -741,7 +741,7 @@ WontRiseAnymoreText:
 	prompt
 
 WontDropAnymoreText:
-	text "<TARGET>'s" ; "<TARGET>'s"
+	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxStatNameLength
 	text " kan" ; " won't"
@@ -749,17 +749,17 @@ WontDropAnymoreText:
 	prompt
 
 FledFromBattleText::
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "vluchtte!" ; "fled from battle!"
 	prompt
 
 FledInFearText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "vluchtte in angst!" ; "fled in fear!"
 	prompt
 
 BlownAwayText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd weggeblazen!" ; "was blown away!"
 	prompt
 
@@ -814,34 +814,34 @@ TooWeakSubText:
 SubTookDamageText:
 	text "VERVANGER ving" ; "The SUBSTITUTE"
 	line "schade op voor" ; "took damage for"
-	cont "<TARGET>!" ; "<TARGET>!"
+	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
-	text "<TARGET>'s" ; "<TARGET>'s"
+	text "<TARGET>'s"
 	line "VERVANGER verging!" ; "SUBSTITUTE faded!"
 	prompt
 
 MimicLearnedMoveText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "leerde" ; "learned"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 WasSeededText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd bezaaid!" ; "was seeded!"
 	prompt
 
 EvadedText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "vermeed de aanval!" ; "evaded the attack!"
 	prompt
 
 WasDisabledText:
-	text "<TARGET>'s" ; "<TARGET>'s"
+	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
 	text " werd" ; " was"
@@ -854,11 +854,11 @@ CoinsScatteredText:
 	prompt
 
 TransformedTypeText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "transformeerde in" ; "transformed into"
 	cont "het @" ; "the @"
 	text_ram wStringBuffer1 ; MaxLength MaxTypeNameLength
-	text "-type!" ; "-type!"
+	text "-type!"
 	prompt
 
 EliminatedStatsText:
@@ -867,20 +867,20 @@ EliminatedStatsText:
 	prompt
 
 TransformedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "TRANSFORMEERDE in" ; "TRANSFORMED into"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 LightScreenEffectText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "SPCL.AFW omhoog!" ; "SPCL.DEF rose!"
 	prompt
 
 ReflectEffectText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "AFWEER omhoog!" ; "DEFENSE rose!"
 	prompt
 
@@ -899,16 +899,16 @@ ItFailedText:
 
 DidntAffect1Text:
 	text "Het deed niks bij" ; "It didn't affect"
-	line "<TARGET>!" ; "<TARGET>!"
+	line "<TARGET>!"
 	prompt
 
 DidntAffect2Text:
 	text "Het deed niks bij" ; "It didn't affect"
-	line "<TARGET>!" ; "<TARGET>!"
+	line "<TARGET>!"
 	prompt
 
 HPIsFullText:
-	text "<USER>'s" ; "<USER>'s"
+	text "<USER>'s"
 	line "LP zit vol!" ; "HP is full!"
 	prompt
 
@@ -938,7 +938,7 @@ ProtectedByText:
 	line "is beschermd door" ; "protected by"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxMoveNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 MirrorMoveFailedText:
@@ -947,7 +947,7 @@ MirrorMoveFailedText:
 	prompt
 
 StoleText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "stal @" ; "stole @"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
 	text_start
@@ -960,26 +960,26 @@ CantEscapeNowText:
 	prompt
 
 StartedNightmareText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "begon een NACHT-" ; "started to have a"
 	cont "MERRIE te krijgen!" ; "NIGHTMARE!"
 	prompt
 
 WasDefrostedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "werd ontdooid!" ; "was defrosted!"
 	prompt
 
 PutACurseText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "halveerde eigen LP" ; "cut its own HP and"
 
 	para "en vervloekte" ; "put a CURSE on"
-	line "<TARGET>!" ; "<TARGET>!"
+	line "<TARGET>!"
 	prompt
 
 ProtectedItselfText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "BEHOEDDE zichzelf!" ; "PROTECTED itself!"
 	prompt
 
@@ -991,13 +991,13 @@ ProtectingItselfText:
 SpikesText:
 	text "STEKELS uitge-" ; "SPIKES scattered"
 	line "strooid rond" ; "all around"
-	cont "<TARGET>!" ; "<TARGET>!"
+	cont "<TARGET>!"
 	prompt
 
 IdentifiedText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "identificeerde" ; "identified"
-	cont "<TARGET>!" ; "<TARGET>!"
+	cont "<TARGET>!"
 	prompt
 
 StartPerishText:
@@ -1011,12 +1011,12 @@ SandstormBrewedText:
 	prompt
 
 BracedItselfText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "zette zich schrap!" ; "braced itself!"
 	prompt
 
 FellInLoveText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "werd verliefd!" ; "fell in love!"
 	prompt
 
@@ -1027,7 +1027,7 @@ CoveredByVeilText:
 	prompt
 
 SafeguardProtectText:
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "wordt beschermd" ; "is protected by"
 	cont "door BEVEILIGING!" ; "SAFEGUARD!"
 	prompt
@@ -1035,11 +1035,11 @@ SafeguardProtectText:
 MagnitudeText:
 	text "Grootheid @" ; "Magnitude @"
 	text_decimal wTextDecimalByte, 1, 1
-	text "!" ; "!"
+	text "!"
 	prompt
 
 ReleasedByText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "kwam los van" ; "was released by"
 	cont "<TARGET>!" ; "<TARGET>!"
 	prompt
@@ -1050,7 +1050,7 @@ ShedLeechSeedText:
 	prompt
 
 BlewSpikesText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "blies STEKELS weg!" ; "blew away SPIKES!"
 	prompt
 
@@ -1065,17 +1065,17 @@ SunGotBrightText:
 	prompt
 
 BellyDrumText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "verlaagde LP voor" ; "cut its HP and"
 	cont "maximale AANVAL!" ; "maximized ATTACK!"
 	prompt
 
 CopiedStatsText:
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "kopieerde de stat-" ; "copied the stat"
 
 	para "verandering van" ; "changes of"
-	line "<TARGET>!" ; "<TARGET>!"
+	line "<TARGET>!"
 	prompt
 
 ForesawAttackText:
@@ -1085,17 +1085,17 @@ ForesawAttackText:
 
 BeatUpAttackText:
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "'s" ; "'s"
+	text "'s"
 	line "aanval!" ; "attack!"
 	done
 
 PresentFailedText: ; AlwaysReplace
-	text "<TARGET>" ; "<TARGET>"
+	text "<TARGET>"
 	line "weigerde de gift!" ; "refused the gift!"
 	prompt
 
 IgnoredOrders2Text: ; AlwaysReplace
-	text "<USER>" ; "<USER>"
+	text "<USER>"
 	line "negeerde orders!" ; "ignored orders!"
 	prompt
 

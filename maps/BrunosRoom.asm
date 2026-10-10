@@ -106,7 +106,7 @@ BrunoScript_BrunoBeforeText:
 	line "overweldigende" ; "ing power!"
 	cont "kracht!"
 
-	para "Hoo hah!" ; "Hoo hah!"
+	para "Hoo hah!"
 	done
 
 BrunoScript_BrunoBeatenText:

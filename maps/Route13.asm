@@ -100,7 +100,7 @@ PokefanmJoshuaSeenText:
 	done
 
 PokefanmJoshuaBeatenText:
-	text "PI-PIKACHU!" ; "PI-PIKACHU!"
+	text "PI-PIKACHU!"
 	done
 
 PokefanmJoshuaAfterBattleText:

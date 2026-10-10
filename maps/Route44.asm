@@ -261,7 +261,7 @@ FisherEdgarSeenText:
 	done
 
 FisherEdgarBeatenText:
-	text "Hmmmm… " ; "Hmmmm… "
+	text "Hmmmm… "
 	line "Dit is niet goed." ; "This isn't right."
 	done
 
@@ -391,15 +391,15 @@ CooltrainerfCybilAfterBattleText:
 	done
 
 Route44Sign1Text:
-	text "ROUTE 44" ; "ROUTE 44"
+	text "ROUTE 44"
 	line "IJSPAD NABIJ" ; "ICE PATH AHEAD"
 	done
 
 Route44Sign2Text:
-	text "ROUTE 44" ; "ROUTE 44"
+	text "ROUTE 44"
 
-	para "MAHOGANY TOWN -" ; "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY" ; "BLACKTHORN CITY"
+	para "MAHOGANY TOWN -"
+	line "BLACKTHORN CITY"
 	done
 
 Route44_MapEvents:

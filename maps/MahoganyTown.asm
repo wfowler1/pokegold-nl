@@ -222,7 +222,7 @@ MahoganyTownLassText:
 	done
 
 MahoganyTownSignText:
-	text "MAHOGANY TOWN" ; "MAHOGANY TOWN"
+	text "MAHOGANY TOWN"
 
 	para "Welkom bij het" ; "Welcome to the"
 	line "Huis van de Ninja" ; "Home of the Ninja"
@@ -236,7 +236,7 @@ MahoganyTownRagecandybarSignText: ; AlwaysReplace
 	done
 
 MahoganyGymSignText:
-	text "MAHOGANY TOWN" ; "MAHOGANY TOWN"
+	text "MAHOGANY TOWN"
 	line "#MON-GYMLEIDER:"
 	cont "PRYCE" ; "LEADER: PRYCE"
 

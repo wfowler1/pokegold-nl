@@ -80,10 +80,10 @@ PictureBookshelfText:
 MagazineBookshelfText:
 	text "#MON-" ; "#MON magazines…"
 	line "tijdschriften…"
-	cont "#MON PAL," ; "#MON PAL,"
+	cont "#MON PAL,"
 
 	para "#MON-HANDBOEK," ; "#MON HANDBOOK,"
-	line "#MON GRAPH…" ; "#MON GRAPH…"
+	line "#MON GRAPH…"
 	done
 
 TeamRocketOathText:
@@ -97,7 +97,7 @@ TeamRocketOathText:
 
 	para "#MON bestaan" ; "All #MON exist"
 	line "voor de glorie van" ; "for the glory of"
-	cont "TEAM ROCKET!" ; "TEAM ROCKET!"
+	cont "TEAM ROCKET!"
 	done
 
 IncenseBurnerText:
@@ -109,7 +109,7 @@ IncenseBurnerText:
 
 MerchandiseShelfText:
 	text "Heel veel #MON" ; "Lots of #MON"
-	line "merchandise!" ; "merchandise!"
+	line "merchandise!"
 	done
 
 LookTownMapText:
@@ -174,8 +174,8 @@ ContestResults_ReadyToJudgeText:
 	line "#MON die je" ; "the #MON you've"
 	cont "hebt gevangen." ; "caught."
 
-	para "<……>" ; "<……>"
-	line "<……>" ; "<……>"
+	para "<……>"
+	line "<……>"
 
 	para "We hebben de win-" ; "We have chosen the"
 	line "naars gekozen!" ; "winners!"
@@ -292,7 +292,7 @@ ReceivedItemText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
-	text "." ; "."
+	text "."
 	done
 
 ContestResults_JoinUsNextTimeText:
@@ -338,7 +338,7 @@ GymStatue_WinningTrainersText:
 	text_ram wStringBuffer4 ; MaxLength MaxTrainerNameLength
 	text_start
 	para "WINNENDE TRAINERS:" ; "WINNING TRAINERS:"
-	line "<PLAYER>" ; "<PLAYER>"
+	line "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:

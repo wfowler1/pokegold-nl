@@ -163,7 +163,7 @@ DragonShrineRisingBadgeExplanationText:
 
 Text_ReceivedTM24: ; unreferenced
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "TM24 DRAKENADEM."
+	line "TM24 DRAKENADEM." ; "TM24 DRAGONBREATH."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
@@ -224,7 +224,7 @@ DragonShrineSignpostText:
 	done
 
 RivalText_Training1:
-	text "…" ; "…"
+	text "…"
 	line "Wat? <PLAYER>?" ; "What? <PLAYER>?"
 
 	para "…Nee, ik ga niet" ; "…No, I won't"
@@ -244,9 +244,9 @@ RivalText_Training1:
 	done
 
 RivalText_Training2:
-	text "…" ; "…"
+	text "…"
 
-	para "Whew…" ; "Whew…"
+	para "Whew…"
 
 	para "Leer om mij uit de" ; "Learn to stay out"
 	line "weg te gaan…" ; "of my way…"

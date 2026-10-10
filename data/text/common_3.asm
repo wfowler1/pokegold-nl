@@ -1,5 +1,5 @@
 _SlotsStartText::
-	text "Start!" ; "Start!"
+	text "Start!"
 	done
 
 _SlotsNotEnoughCoinsText::

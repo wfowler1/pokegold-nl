@@ -145,7 +145,7 @@ RadioTower4FDJMaryText_After:
 	done
 
 RadioTowerMeowthText:
-	text "MEOWTH: Meowth…" ; "MEOWTH: Meowth…"
+	text "MEOWTH: Meowth…"
 	done
 
 GruntM10SeenText:

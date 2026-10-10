@@ -140,7 +140,7 @@ GoldenrodDeptStore5FElevatorButton:
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
 	text "Hallo. Oh, je" ; "Hello. Oh, your"
-	line "#MON…" ; "#MON…"
+	line "#MON…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
@@ -185,7 +185,7 @@ GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
 	text "De GEHEIM CADEAU-" ; "The MYSTERY GIFT"
 	line "optie vereist een" ; "option requires a"
-	cont "Game Boy Color." ; "Game Boy Color."
+	cont "Game Boy Color."
 	done
 
 GoldenrodDeptStore5FLassText:

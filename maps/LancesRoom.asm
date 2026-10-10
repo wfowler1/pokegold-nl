@@ -212,7 +212,7 @@ LanceBattleIntroText:
 	text "LANCE: Ik heb" ; "LANCE: I've been"
 	line "op je gewacht." ; "waiting for you."
 
-	para "<PLAYER>!" ; "<PLAYER>!"
+	para "<PLAYER>!"
 
 	para "Ik wist dat je," ; "I knew that you,"
 	line "met jouw vaardig-" ; "with your skills,"
@@ -265,7 +265,7 @@ LanceBattleAfterText:
 
 	para "Je bent echt" ; "You have become"
 	line "sterk geworden," ; "truly powerful,"
-	cont "<PLAYER>." ; "<PLAYER>."
+	cont "<PLAYER>."
 
 	para "Je #MON hebben" ; "Your #MON have"
 	line "je sterke en" ; "responded to your"

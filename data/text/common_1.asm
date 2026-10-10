@@ -1597,9 +1597,9 @@ _NameRaterWhichMonText::
 	prompt
 
 _NameRaterBetterNameText::
-	text "Hm… @" ; "Hm… @"
+	text "Hm… @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "…" ; "…"
+	text "…"
 	line "Dat is best een" ; "That's a fairly"
 	cont "prima naam." ; "decent name."
 
@@ -1630,9 +1630,9 @@ _NameRaterComeAgainText::
 	done
 
 _NameRaterPerfectNameText::
-	text "Hm… @" ; "Hm… @"
+	text "Hm… @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "?" ; "?"
+	text "?"
 	line "Goede naam!" ; "What a great name!"
 	cont "Echt perfect." ; "It's perfect."
 
@@ -1662,7 +1662,7 @@ _NameRaterNamedText::
 	line "#MON heet nu" ; "#MON is now"
 	cont "@" ; "named @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "." ; "."
+	text "."
 	prompt
 
 Text_Gained:: ; AlwaysReplace
@@ -1755,7 +1755,7 @@ _ContainedMoveText::
 	text "Hij bevatte" ; "It contained"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
-	text "." ; "."
+	text "."
 
 	para "Leer @" ; "Teach @"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
@@ -1765,16 +1765,16 @@ _ContainedMoveText::
 
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
-	text " is" ; " is"
+	text " is"
 	line "niet compatibel" ; "not compatible"
 	cont "met @" ; "with @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
-	text "." ; "."
+	text "."
 
 	para "Kan niet leren" ; "It can't learn"
 	line "@"
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
-	text "." ; "."
+	text "."
 	prompt
 
 _NoRoomTMHMText::
@@ -1782,14 +1782,14 @@ _NoRoomTMHMText::
 	line "voor meer" ; "for any more"
 	cont "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "S." ; "S."
+	text "S."
 	prompt
 
 _ReceivedTMHMText::
 	text "Je ontving" ; "You received"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "!" ; "!"
+	text "!"
 	prompt
 
 _MysteryGiftCanceledText::
@@ -1827,7 +1827,7 @@ _MysteryGiftSentText::
 	text " verzond" ; " sent"
 	line "@"
 	text_ram wStringBuffer1 ; MaxLength MaxItemNameLength
-	text "." ; "."
+	text "."
 	prompt
 
 _MysteryGiftSentHomeText::
