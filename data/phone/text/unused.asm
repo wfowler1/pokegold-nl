@@ -1,3 +1,3 @@
 UnusedPhoneText:
-	text "Goedemorgen." ; "Good morning."
+	text "Good morning."
 	done

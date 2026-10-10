@@ -90,7 +90,7 @@ TeacherColetteSeenText:
 	done
 
 TeacherColetteBeatenText:
-	text "Kyaaah!" ; "Kyaaah!"
+	text "Kyaaah!"
 	done
 
 TeacherColetteAfterBattleText:

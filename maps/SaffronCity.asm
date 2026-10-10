@@ -170,7 +170,6 @@ SaffronCityCooltrainerFText:
 	line "ROCKET vroeger het" ; "ROCKET wanted the"
 
 	para "bedrijf overnemen." ; "company because of"
-	line "" ; "that."
 	done
 
 SaffronCityFisherText:

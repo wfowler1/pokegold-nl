@@ -234,7 +234,7 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…" ; "Fufufufu…"
+	text "Fufufufu…"
 
 	para "Sorry om je teleur" ; "I'm sorry to dis-"
 	line "te stellen…" ; "appoint you…"
@@ -286,7 +286,7 @@ JanineText_ApplyMyself:
 	done
 
 LassAliceBeforeText:
-	text "Fufufu!" ; "Fufufu!"
+	text "Fufufu!"
 
 	para "Ik ben JANINE, de" ; "I'm JANINE, the"
 	line "GYMLEIDER!" ; "GYM LEADER!"
@@ -308,7 +308,7 @@ LassAliceAfterText:
 
 LassLindaBeforeText:
 	text "Gefopt!" ; "Fooled you!"
-	line "Hahaha!" ; "Hahaha!"
+	line "Hahaha!"
 	done
 
 LassLindaBeatenText:

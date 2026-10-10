@@ -132,18 +132,18 @@ PewterCityGrampsText_GotSilverWing:
 	done
 
 PewterCitySignText:
-	text "PEWTER CITY" ; "PEWTER CITY"
+	text "PEWTER CITY"
 	line "Een Steengrijze" ; "A Stone Gray City"
 	cont "Stad" ;
 	done
 
 PewterGymSignText:
-	text "PEWTER CITY" ; "PEWTER CITY"
+	text "PEWTER CITY"
 	line "#MON-GYMLEIDER:"
 	cont "BROCK" ; "LEADER: BROCK"
 
 	para "De Rotsvaste" ; "The Rock Solid"
-	line "#MON Trainer" ; "#MON Trainer"
+	line "#MON Trainer"
 	done
 
 PewterMuseumSignText:

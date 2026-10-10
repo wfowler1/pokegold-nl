@@ -148,7 +148,7 @@ CianwoodGymMovement_ChuckChucksBoulder:
 	step_end
 
 ChuckIntroText1:
-	text "WAHAHAH!" ; "WAHAHAH!"
+	text "WAHAHAH!"
 
 	para "Dus je bent zo" ; "So you've come"
 	line "ver gekomen!" ; "this far!"
@@ -165,10 +165,10 @@ ChuckIntroText1:
 	done
 
 ChuckIntroText2:
-	text "CHUCK: Urggh!" ; "CHUCK: Urggh!"
-	line "…" ; "…"
+	text "CHUCK: Urggh!"
+	line "…"
 
-	para "Oooarrgh!" ; "Oooarrgh!"
+	para "Oooarrgh!"
 	done
 
 ChuckIntroText3:
@@ -186,7 +186,7 @@ ChuckIntroText3:
 	done
 
 ChuckLossText:
-	text "Wha? Huh?" ; "Wha? Huh?"
+	text "Wha? Huh?"
 	line "Ik heb verloren?" ; "I lost?"
 
 	para "Warempel!" ; "How about that!"
@@ -196,7 +196,7 @@ ChuckLossText:
 
 GetStormBadgeText:
 	text "<PLAYER> ontving" ; "<PLAYER> received"
-	line "STORMBADGE." ; "STORMBADGE."
+	line "STORMBADGE."
 	done
 
 ChuckExplainBadgeText:
@@ -283,7 +283,7 @@ BlackbeltNobSeenText:
 	done
 
 BlackbeltNobBeatenText:
-	text "…" ; "…"
+	text "…"
 	done
 
 BlackbeltNobAfterText:

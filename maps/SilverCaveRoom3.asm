@@ -40,7 +40,7 @@ RedSeenText:
 	done
 
 RedWinLossText:
-	text "…" ; "…"
+	text "…"
 	done
 
 RedLeavesText:

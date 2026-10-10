@@ -85,23 +85,23 @@ EcruteakCityHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ECRUTEAK_CITY_HIDDEN_HYPER_POTION
 
 UnusedMissingDaughterText: ; unreferenced
-	text "Oh, nee. Oh, nee…" ; "Oh, no. Oh, no…"
+	text "Oh, no. Oh, no…"
 
-	para "Mijn dochter is" ; "My daughter is"
-	line "vermist." ; "missing."
+	para "My daughter is"
+	line "missing."
 
-	para "Ne… Is ze soms de" ; "No… She couldn't"
-	line "VERBRANDE TOREN" ; "have gone to the"
-	cont "gaan bezoeken?" ; "BURNED TOWER."
+	para "No… She couldn't"
+	line "have gone to the"
+	cont "BURNED TOWER."
 
-	para "Ik zei nog dat het" ; "I told her not to"
-	line "verboden was…" ; "go near it…"
+	para "I told her not to"
+	line "go near it…"
 
-	para "Mensen lijken daar" ; "People seem to"
-	line "twe verdwijnen…" ; "disappear there…"
+	para "People seem to"
+	line "disappear there…"
 
-	para "Oh, wat moet ik" ; "Oh, what should I"
-	line "doen…?" ; "do…?"
+	para "Oh, what should I"
+	line "do…?"
 	done
 
 EcruteakCityGramps1Text:

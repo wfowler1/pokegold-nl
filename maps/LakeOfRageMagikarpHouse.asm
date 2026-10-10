@@ -183,7 +183,7 @@ MagikarpLengthRaterText_TooShort:
 
 MagikarpLengthRaterText_NotMagikarp:
 	text "Wat? Dat is geen" ; "What? That's not a"
-	line "MAGIKARP!" ; "MAGIKARP!"
+	line "MAGIKARP!"
 	done
 
 MagikarpLengthRaterText_Refused:
