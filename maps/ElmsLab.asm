@@ -669,7 +669,7 @@ ElmText_Intro:
 	text "ELM: <PLAYER>!" ; "ELM: <PLAYER>!"
 	line "Daar ben je dan!" ; "There you are!"
 
-	para "Ik wil je om een" ; "I needed to ask"
+	para "Ik wil je een" ; "I needed to ask"
 	line "gunst vragen." ; "you a favor."
 
 	para "Ik heb een kennis" ; "I have an acquain-"
@@ -691,19 +691,19 @@ ElmText_Intro:
 	para "Fascinerend, maar" ; "It is intriguing,"
 	line "we zijn druk met" ; "but we're busy"
 
-	para "ons eigen" ; "with our #MON"
-	line "#MON onderzoek…" ; "research."
+	para "ons #MON-" ; "with our #MON"
+	line "onderzoek…" ; "research…"
 
 	para "Kan jij voor ons" ; "Could you look"
 	line "een kijkje nemen?" ; "into it for us?"
 
 	para "Ik zal je een" ; "I'll give you a"
 	line "#MON als" ; "#MON for a"
-	cont "partner geven" ; "partner."
+	cont "partner geven." ; "partner."
 
 	para "Het zijn allemaal" ; "They're all rare"
 	line "net ontdekte," ; "#MON that we"
-	cont "zeldzame #MON" ; "just found."
+	cont "zeldzame #MON." ; "just found."
 
 	para "Toe maar. Kies!" ; "Go on. Pick one!"
 	done
@@ -761,7 +761,7 @@ ReceivedStarterText:
 ElmDirectionsText1:
 	text "MR.#MON woont" ; "MR.#MON lives"
 	line "nabij CHERRYGROVE," ; "near CHERRYGROVE,"
-	cont "de stad hiernaast" ; "the next city."
+	cont "de stad hiernaast." ; "the next city."
 
 	para "Het is bijna een" ; "It's almost a"
 	line "rechte weg er" ; "direct route to"
@@ -829,7 +829,7 @@ ElmAfterTheftText1:
 ElmAfterTheftText2:
 	text "<PLAYER> gaf" ; "<PLAYER> handed"
 	line "MYSTERIE-EI aan" ; "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	cont "PROF.ELM." ; "PROF.ELM."
 	done
 
 ElmAfterTheftText3:
@@ -899,7 +899,7 @@ ElmStudyingEggText:
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAYER>?"
+	text "ELM: <PLAYER>?" ; "ELM: <PLAYER>?"
 	line "Heb je gesproken" ; "Didn't you meet my"
 	cont "met m'n assistent?" ; "assistant?"
 
@@ -924,7 +924,7 @@ ElmThoughtEggHatchedText:
 	line "EI uit? Ja toch?" ; "the EGG hatched."
 
 	para "Waar is de" ; "Where is the"
-	line "#MON?"
+	line "#MON?" ; "#MON?"
 	done
 
 ShowElmTogepiText1:
@@ -1037,7 +1037,7 @@ ElmGiveMasterBallText2:
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAYER>!"
+	text "ELM: <PLAYER>!" ; "ELM: <PLAYER>!"
 	line "Daar ben je!" ; "There you are!"
 
 	para "Ik belde omdat ik" ; "I called because I"
@@ -1063,7 +1063,7 @@ ElmGiveTicketText2:
 	cont "je #MON." ; "with your #MON."
 
 	para "Doe de groeten aan" ; "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	line "PROF.OAK in KANTO!" ; "PROF.OAK in KANTO!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
@@ -1110,7 +1110,7 @@ AideText_TheftTestimony:
 	done
 
 AideText_GiveYouBalls:
-	text "<PLAYER>!"
+	text "<PLAYER>!" ; "<PLAYER>!"
 
 	para "Gebruik deze op je" ; "Use these on your"
 	line "#DEX-missie!" ; "#DEX quest!"
