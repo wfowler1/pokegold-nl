@@ -180,7 +180,7 @@ BillsMomText_BeforeEcruteak:
 	line "#MONCENTRUM in" ; "for the #MON"
 
 	para "ECRUTEAK CITY." ; "CENTER in ECRUTEAK"
-	#line "CITY."
+	;line "CITY."
 	done
 
 BillsMomText_AfterEcruteak:
