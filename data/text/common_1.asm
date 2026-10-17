@@ -1736,12 +1736,12 @@ _ComeBackText::
 	line "terug!" ; "back!"
 	done
 
-_PlayerPickedUpPayDayMoney::
-	text "<PLAYER> vond" ; "<PLAYER> picked up"
-	line "¥@" ; "¥@"
-	text_decimal wPayDayMoney, 3, 6
-	text "!" ; "!"
-	prompt
+;_PlayerPickedUpPayDayMoney::
+;	text "<PLAYER> vond" ; "<PLAYER> picked up"
+;	line "¥@" ; "¥@"
+;	text_decimal wPayDayMoney, 3, 6
+;	text "!" ; "!"
+;	prompt
 
 _BootedTMText::
 	text "Startte een TM op." ; "Booted up a TM."

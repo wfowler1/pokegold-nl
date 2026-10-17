@@ -6722,3 +6722,46 @@ AppearUserLowerSub:
 AppearUserRaiseSub:
 	farcall _AppearUserRaiseSub
 	ret
+
+EVItemEffectOnSpeed::
+	call GetOpponentItem
+	ld a, b
+	cp HELD_POWER_ITEM
+	ret nz
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .enemy
+	ld hl, wBattleMonSpeed + 1
+	ld a, [hld]
+	ld b, a
+	ld a, [hl]
+	srl a
+	rr b
+	srl a
+	rr b
+	ld [hli], a
+	or b
+	jr nz, .player_ok
+	ld b, $1 ; min speed
+
+.player_ok
+	ld [hl], b
+	ret
+
+.enemy
+	ld hl, wEnemyMonSpeed + 1
+	ld a, [hld]
+	ld b, a
+	ld a, [hl]
+	srl a
+	rr b
+	srl a
+	rr b
+	ld [hli], a
+	or b
+	jr nz, .enemy_ok
+	ld b, $1 ; min speed
+
+.enemy_ok
+	ld [hl], b
+	ret
