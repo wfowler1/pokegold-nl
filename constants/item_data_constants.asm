@@ -101,7 +101,7 @@ DEF MAIL_STRUCT_LENGTH EQU $2f ; mailmsg struct
 	const_skip
 	const_skip
 	const HELD_METAL_POWDER
-	; const HELD_MACHO_BRACE
+	const HELD_MACHO_BRACE
 	const HELD_POWER_ITEM
 
 	const_next 50

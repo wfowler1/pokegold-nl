@@ -6955,6 +6955,26 @@ GiveExperiencePoints:
 	pop bc
 	jp z, .next_mon
 
+; Fill Item buffers
+	push hl
+	push bc
+	ld a, MON_ITEM
+	call GetPartyParamLocation
+	ld b, [hl]
+	callfar GetItemHeldEffect
+	ld a, b
+	ld [wHeldItemEffectBuffer], a
+	ld a, c
+	ld [wHeldItemParameterBuffer], a
+
+; Fill Pokerus buffer
+	ld a, MON_POKERUS
+	call GetPartyParamLocation
+	ld a, [hl]
+	ld [wPokerusBuffer], a
+	pop bc
+	pop hl
+
 ; give stat exp
 	ld hl, MON_STAT_EXP + 1
 	add hl, bc
@@ -6963,54 +6983,39 @@ GiveExperiencePoints:
 	ld hl, wEnemyMonBaseStats - 1
 	push bc
 	ld c, NUM_EXP_STATS
+
+; Add enemy base stat at `c` to ours
 .stat_exp_loop
 	inc hl
-	ld a, [de]
-	add [hl]
-	ld [de], a
-	jr nc, .no_carry_stat_exp
-	dec de
-	ld a, [de]
-	inc a
-	jr z, .stat_exp_maxed_out
-	ld [de], a
-	inc de
+	call .add_enemy_base_stat_to_stat_exp
+	jr c, .stat_exp_awarded
 
+; Check Pokerus
 .no_carry_stat_exp
-	push hl
-	push bc
-	ld a, MON_POKERUS
-	call GetPartyParamLocation
-	ld a, [hl]
-	ld [wPokerusBuffer], a
+	ld a, [wPokerusBuffer]
 	and a
-	pop bc
-	pop hl
-	jr z, .power_item_stat_exp
-	ld a, [de]
-	add [hl]
-	ld [de], a
-	jr nc, .power_item_stat_exp
-	dec de
-	ld a, [de]
-	inc a
-	jr z, .stat_exp_maxed_out
-	ld [de], a
-	inc de
+	jr z, .check_macho_brace
+	call .add_enemy_base_stat_to_stat_exp
+	jr c, .stat_exp_awarded
 
-.power_item_stat_exp
-	push bc
-	push hl
-	ld a, MON_ITEM
-	call GetPartyParamLocation
-	ld b, [hl]
-	callfar GetItemHeldEffect
-	ld a, b
+; Check for stat boosting items
+.check_macho_brace
+	ld a, [wHeldItemEffectBuffer]
+	cp HELD_MACHO_BRACE
+	jr nz, .check_power_item
+	call .add_enemy_base_stat_to_stat_exp
+	jr c, .stat_exp_awarded
+; Stack Pokerus
+	ld a, [wPokerusBuffer]
+	and a
+	jr z, .stat_exp_awarded
+	call .add_enemy_base_stat_to_stat_exp
+	jr .stat_exp_awarded
+
+.check_power_item
 	cp HELD_POWER_ITEM
-	ld a, c ; STAT_ constant of stat to boost
-	pop hl
-	pop bc
 	jr nz, .stat_exp_awarded
+	ld a, [wHeldItemParameterBuffer]
 	ld b, a
 	ld a, NUM_EXP_STATS + 1
 	sub c
@@ -7018,20 +7023,32 @@ GiveExperiencePoints:
 	jr nz, .stat_exp_awarded
 	dec de
 	ld a, [de]
-	add 8
+	add 4
 	jr c, .stat_exp_maxed_out
 	ld [de], a
+; Stack Pokerus
 	ld a, [wPokerusBuffer]
 	and a
 	inc de
 	jr z, .stat_exp_awarded
 	dec de
 	ld a, [de]
-	add 8
+	add 4
 	jr c, .stat_exp_maxed_out
 	ld [de], a
 	inc de
 	jr .stat_exp_awarded
+
+.add_enemy_base_stat_to_stat_exp
+	push hl
+	push bc
+	ld b, [hl]
+	ld h, d
+	ld l, e
+	call AddBToU16NoOverflow
+	pop bc
+	pop hl
+	ret
 
 .stat_exp_maxed_out
 	ld a, $ff
